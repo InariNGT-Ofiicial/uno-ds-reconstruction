@@ -1,0 +1,4 @@
+# Prompt and script SHA256 records refer to exact bytes. Preserve them on clone.
+* -text
+*.jpg binary
+*.png binary

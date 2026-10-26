@@ -1,0 +1,927 @@
+{
+  "schema": "uno-taunt-static-mouth-events-v1",
+  "status": "producer visually checked; independent layout/event audit pending",
+  "fps": 24,
+  "indexing": "zero-based actual sequential source frame indices; half-open intervals",
+  "source": "{workspace}/../inputs/source-video.mp4",
+  "source_sha256": "8bef3b3127408558456ee3ee70c40240dd8943469313106bdab3d072b3f571a8",
+  "coordinate_system": {
+    "width": 852,
+    "height": 480,
+    "origin": "upper-left",
+    "units": "original source pixels",
+    "native_canvas": [
+      1672,
+      941
+    ],
+    "native_to_source": "uniform height480/941 ->853x480, fixed right1px crop ->852x480"
+  },
+  "coverage_ranges": [
+    [
+      1361,
+      1496
+    ],
+    [
+      1543,
+      1657
+    ],
+    [
+      3555,
+      3690
+    ],
+    [
+      3737,
+      3851
+    ]
+  ],
+  "excluded_ranges": [
+    {
+      "start_frame": 1496,
+      "end_frame_exclusive": 1543,
+      "reason": "actual acid-rain/clap distinct pose, not taunt mouth layer"
+    },
+    {
+      "start_frame": 3690,
+      "end_frame_exclusive": 3737,
+      "reason": "reprise acid-rain/clap distinct pose, not taunt mouth layer"
+    }
+  ],
+  "outside_coverage": "Do not overlay a mouth outside listed events. Excluded acid-rain/clap shots use their own native key drawing.",
+  "transform_policy": "Each state/side has ONE static positive uniform scale and static translation. No runtime mirror, rotation, shear, warp, liquid motion or per-frame fitting. Right-facing assets were independently natively generated once and rectangle-cropped.",
+  "render_order": "approved blank-mouth body -> exactly one static mouth for matching side -> native source text/graphic overlay events",
+  "layout": "production/pair-a/layout.json",
+  "events": [
+    {
+      "start_frame": 1361,
+      "end_frame_exclusive": 1390,
+      "state": "grin",
+      "side": "neutral",
+      "asset": "production/pair-a/assets/mouth-neutral-grin.png",
+      "asset_relative_to_project": "production/pair-a/assets/mouth-neutral-grin.png",
+      "asset_sha256": "8065da42f2cfc2ed9830c899698b9b7d5d626528aacacee3af472dbf99ec73cd",
+      "width": 65.0,
+      "center_xy": [
+        192.5,
+        245.5
+      ],
+      "raster_size": [
+        65,
+        29
+      ],
+      "raster_top_left_xy": [
+        160,
+        231
+      ],
+      "evidence": "ROI candidate boundary checked visually in the 32-event transition contact sheets"
+    },
+    {
+      "start_frame": 1390,
+      "end_frame_exclusive": 1396,
+      "state": "closed",
+      "side": "neutral",
+      "asset": "production/pair-a/assets/mouth-neutral-closed.png",
+      "asset_relative_to_project": "production/pair-a/assets/mouth-neutral-closed.png",
+      "asset_sha256": "6bdac6cedfeaff036af4617a5d938d45b7683e66366e6c4aadb66a53202aa46f",
+      "width": 43.72819271599622,
+      "center_xy": [
+        196.43635942961643,
+        244.8643485363541
+      ],
+      "raster_size": [
+        44,
+        10
+      ],
+      "raster_top_left_xy": [
+        174,
+        240
+      ],
+      "evidence": "ROI candidate boundary checked visually in the 32-event transition contact sheets"
+    },
+    {
+      "start_frame": 1396,
+      "end_frame_exclusive": 1406,
+      "state": "open",
+      "side": "neutral",
+      "asset": "production/pair-a/assets/mouth-neutral-open.png",
+      "asset_relative_to_project": "production/pair-a/assets/mouth-neutral-open.png",
+      "asset_sha256": "9678f49d5a4040e1ef5810280ba0a3e89012b36b25b046479595433186036f79",
+      "width": 75.70089456692125,
+      "center_xy": [
+        193.0726164741697,
+        251.9545981397084
+      ],
+      "raster_size": [
+        76,
+        44
+      ],
+      "raster_top_left_xy": [
+        155,
+        230
+      ],
+      "evidence": "ROI candidate boundary checked visually in the 32-event transition contact sheets"
+    },
+    {
+      "start_frame": 1406,
+      "end_frame_exclusive": 1435,
+      "state": "grin",
+      "side": "flank",
+      "asset": "production/pair-a/assets/mouth-flank-grin.png",
+      "asset_relative_to_project": "production/pair-a/assets/mouth-flank-grin.png",
+      "asset_sha256": "5ee5b723f6061013f03b8124e861606861aad27f71a8857e1be6fd27b0ccce22",
+      "width": 65.0,
+      "center_xy": [
+        654.5,
+        247.0
+      ],
+      "raster_size": [
+        65,
+        31
+      ],
+      "raster_top_left_xy": [
+        622,
+        232
+      ],
+      "evidence": "ROI candidate boundary checked visually in the 32-event transition contact sheets"
+    },
+    {
+      "start_frame": 1435,
+      "end_frame_exclusive": 1441,
+      "state": "closed",
+      "side": "flank",
+      "asset": "production/pair-a/assets/mouth-flank-closed.png",
+      "asset_relative_to_project": "production/pair-a/assets/mouth-flank-closed.png",
+      "asset_sha256": "abdb3cfb26c2146f06f5108f9d945c090a1db5733aa11ef7399bc7ffddbd6e90",
+      "width": 43.72819271599622,
+      "center_xy": [
+        650.5636405703835,
+        246.3643485363541
+      ],
+      "raster_size": [
+        44,
+        9
+      ],
+      "raster_top_left_xy": [
+        629,
+        242
+      ],
+      "evidence": "ROI candidate boundary checked visually in the 32-event transition contact sheets"
+    },
+    {
+      "start_frame": 1441,
+      "end_frame_exclusive": 1451,
+      "state": "open",
+      "side": "flank",
+      "asset": "production/pair-a/assets/mouth-flank-open.png",
+      "asset_relative_to_project": "production/pair-a/assets/mouth-flank-open.png",
+      "asset_sha256": "24e0840bbdfad4962ecaeabadb945f04b6592379607c9e7674655d066ff58726",
+      "width": 75.70089456692125,
+      "center_xy": [
+        653.9273835258304,
+        253.4545981397084
+      ],
+      "raster_size": [
+        76,
+        45
+      ],
+      "raster_top_left_xy": [
+        616,
+        231
+      ],
+      "evidence": "ROI candidate boundary checked visually in the 32-event transition contact sheets"
+    },
+    {
+      "start_frame": 1451,
+      "end_frame_exclusive": 1480,
+      "state": "grin",
+      "side": "neutral",
+      "asset": "production/pair-a/assets/mouth-neutral-grin.png",
+      "asset_relative_to_project": "production/pair-a/assets/mouth-neutral-grin.png",
+      "asset_sha256": "8065da42f2cfc2ed9830c899698b9b7d5d626528aacacee3af472dbf99ec73cd",
+      "width": 65.0,
+      "center_xy": [
+        192.5,
+        245.5
+      ],
+      "raster_size": [
+        65,
+        29
+      ],
+      "raster_top_left_xy": [
+        160,
+        231
+      ],
+      "evidence": "ROI candidate boundary checked visually in the 32-event transition contact sheets"
+    },
+    {
+      "start_frame": 1480,
+      "end_frame_exclusive": 1486,
+      "state": "closed",
+      "side": "neutral",
+      "asset": "production/pair-a/assets/mouth-neutral-closed.png",
+      "asset_relative_to_project": "production/pair-a/assets/mouth-neutral-closed.png",
+      "asset_sha256": "6bdac6cedfeaff036af4617a5d938d45b7683e66366e6c4aadb66a53202aa46f",
+      "width": 43.72819271599622,
+      "center_xy": [
+        196.43635942961643,
+        244.8643485363541
+      ],
+      "raster_size": [
+        44,
+        10
+      ],
+      "raster_top_left_xy": [
+        174,
+        240
+      ],
+      "evidence": "ROI candidate boundary checked visually in the 32-event transition contact sheets"
+    },
+    {
+      "start_frame": 1486,
+      "end_frame_exclusive": 1496,
+      "state": "open",
+      "side": "neutral",
+      "asset": "production/pair-a/assets/mouth-neutral-open.png",
+      "asset_relative_to_project": "production/pair-a/assets/mouth-neutral-open.png",
+      "asset_sha256": "9678f49d5a4040e1ef5810280ba0a3e89012b36b25b046479595433186036f79",
+      "width": 75.70089456692125,
+      "center_xy": [
+        193.0726164741697,
+        251.9545981397084
+      ],
+      "raster_size": [
+        76,
+        44
+      ],
+      "raster_top_left_xy": [
+        155,
+        230
+      ],
+      "evidence": "ROI candidate boundary checked visually in the 32-event transition contact sheets"
+    },
+    {
+      "start_frame": 1543,
+      "end_frame_exclusive": 1572,
+      "state": "grin",
+      "side": "flank",
+      "asset": "production/pair-a/assets/mouth-flank-grin.png",
+      "asset_relative_to_project": "production/pair-a/assets/mouth-flank-grin.png",
+      "asset_sha256": "5ee5b723f6061013f03b8124e861606861aad27f71a8857e1be6fd27b0ccce22",
+      "width": 65.0,
+      "center_xy": [
+        654.5,
+        247.0
+      ],
+      "raster_size": [
+        65,
+        31
+      ],
+      "raster_top_left_xy": [
+        622,
+        232
+      ],
+      "evidence": "ROI candidate boundary checked visually in the 32-event transition contact sheets"
+    },
+    {
+      "start_frame": 1572,
+      "end_frame_exclusive": 1578,
+      "state": "closed",
+      "side": "flank",
+      "asset": "production/pair-a/assets/mouth-flank-closed.png",
+      "asset_relative_to_project": "production/pair-a/assets/mouth-flank-closed.png",
+      "asset_sha256": "abdb3cfb26c2146f06f5108f9d945c090a1db5733aa11ef7399bc7ffddbd6e90",
+      "width": 43.72819271599622,
+      "center_xy": [
+        650.5636405703835,
+        246.3643485363541
+      ],
+      "raster_size": [
+        44,
+        9
+      ],
+      "raster_top_left_xy": [
+        629,
+        242
+      ],
+      "evidence": "ROI candidate boundary checked visually in the 32-event transition contact sheets"
+    },
+    {
+      "start_frame": 1578,
+      "end_frame_exclusive": 1588,
+      "state": "open",
+      "side": "flank",
+      "asset": "production/pair-a/assets/mouth-flank-open.png",
+      "asset_relative_to_project": "production/pair-a/assets/mouth-flank-open.png",
+      "asset_sha256": "24e0840bbdfad4962ecaeabadb945f04b6592379607c9e7674655d066ff58726",
+      "width": 75.70089456692125,
+      "center_xy": [
+        653.9273835258304,
+        253.4545981397084
+      ],
+      "raster_size": [
+        76,
+        45
+      ],
+      "raster_top_left_xy": [
+        616,
+        231
+      ],
+      "evidence": "ROI candidate boundary checked visually in the 32-event transition contact sheets"
+    },
+    {
+      "start_frame": 1588,
+      "end_frame_exclusive": 1617,
+      "state": "grin",
+      "side": "neutral",
+      "asset": "production/pair-a/assets/mouth-neutral-grin.png",
+      "asset_relative_to_project": "production/pair-a/assets/mouth-neutral-grin.png",
+      "asset_sha256": "8065da42f2cfc2ed9830c899698b9b7d5d626528aacacee3af472dbf99ec73cd",
+      "width": 65.0,
+      "center_xy": [
+        192.5,
+        245.5
+      ],
+      "raster_size": [
+        65,
+        29
+      ],
+      "raster_top_left_xy": [
+        160,
+        231
+      ],
+      "evidence": "ROI candidate boundary checked visually in the 32-event transition contact sheets"
+    },
+    {
+      "start_frame": 1617,
+      "end_frame_exclusive": 1623,
+      "state": "closed",
+      "side": "neutral",
+      "asset": "production/pair-a/assets/mouth-neutral-closed.png",
+      "asset_relative_to_project": "production/pair-a/assets/mouth-neutral-closed.png",
+      "asset_sha256": "6bdac6cedfeaff036af4617a5d938d45b7683e66366e6c4aadb66a53202aa46f",
+      "width": 43.72819271599622,
+      "center_xy": [
+        196.43635942961643,
+        244.8643485363541
+      ],
+      "raster_size": [
+        44,
+        10
+      ],
+      "raster_top_left_xy": [
+        174,
+        240
+      ],
+      "evidence": "ROI candidate boundary checked visually in the 32-event transition contact sheets"
+    },
+    {
+      "start_frame": 1623,
+      "end_frame_exclusive": 1634,
+      "state": "open",
+      "side": "neutral",
+      "asset": "production/pair-a/assets/mouth-neutral-open.png",
+      "asset_relative_to_project": "production/pair-a/assets/mouth-neutral-open.png",
+      "asset_sha256": "9678f49d5a4040e1ef5810280ba0a3e89012b36b25b046479595433186036f79",
+      "width": 75.70089456692125,
+      "center_xy": [
+        193.0726164741697,
+        251.9545981397084
+      ],
+      "raster_size": [
+        76,
+        44
+      ],
+      "raster_top_left_xy": [
+        155,
+        230
+      ],
+      "evidence": "ROI candidate boundary checked visually in the 32-event transition contact sheets"
+    },
+    {
+      "start_frame": 1634,
+      "end_frame_exclusive": 1657,
+      "state": "grin",
+      "side": "flank",
+      "asset": "production/pair-a/assets/mouth-flank-grin.png",
+      "asset_relative_to_project": "production/pair-a/assets/mouth-flank-grin.png",
+      "asset_sha256": "5ee5b723f6061013f03b8124e861606861aad27f71a8857e1be6fd27b0ccce22",
+      "width": 65.0,
+      "center_xy": [
+        654.5,
+        247.0
+      ],
+      "raster_size": [
+        65,
+        31
+      ],
+      "raster_top_left_xy": [
+        622,
+        232
+      ],
+      "evidence": "visually checked flank grin at montage start; hold same grin beneath later montage occlusion; no new hidden mouth inferred"
+    },
+    {
+      "start_frame": 3555,
+      "end_frame_exclusive": 3584,
+      "state": "grin",
+      "side": "neutral",
+      "asset": "production/pair-a/assets/mouth-neutral-grin.png",
+      "asset_relative_to_project": "production/pair-a/assets/mouth-neutral-grin.png",
+      "asset_sha256": "8065da42f2cfc2ed9830c899698b9b7d5d626528aacacee3af472dbf99ec73cd",
+      "width": 65.0,
+      "center_xy": [
+        192.5,
+        245.5
+      ],
+      "raster_size": [
+        65,
+        29
+      ],
+      "raster_top_left_xy": [
+        160,
+        231
+      ],
+      "evidence": "ROI candidate boundary checked visually in the 32-event transition contact sheets"
+    },
+    {
+      "start_frame": 3584,
+      "end_frame_exclusive": 3590,
+      "state": "closed",
+      "side": "neutral",
+      "asset": "production/pair-a/assets/mouth-neutral-closed.png",
+      "asset_relative_to_project": "production/pair-a/assets/mouth-neutral-closed.png",
+      "asset_sha256": "6bdac6cedfeaff036af4617a5d938d45b7683e66366e6c4aadb66a53202aa46f",
+      "width": 43.72819271599622,
+      "center_xy": [
+        196.43635942961643,
+        244.8643485363541
+      ],
+      "raster_size": [
+        44,
+        10
+      ],
+      "raster_top_left_xy": [
+        174,
+        240
+      ],
+      "evidence": "ROI candidate boundary checked visually in the 32-event transition contact sheets"
+    },
+    {
+      "start_frame": 3590,
+      "end_frame_exclusive": 3600,
+      "state": "open",
+      "side": "neutral",
+      "asset": "production/pair-a/assets/mouth-neutral-open.png",
+      "asset_relative_to_project": "production/pair-a/assets/mouth-neutral-open.png",
+      "asset_sha256": "9678f49d5a4040e1ef5810280ba0a3e89012b36b25b046479595433186036f79",
+      "width": 75.70089456692125,
+      "center_xy": [
+        193.0726164741697,
+        251.9545981397084
+      ],
+      "raster_size": [
+        76,
+        44
+      ],
+      "raster_top_left_xy": [
+        155,
+        230
+      ],
+      "evidence": "ROI candidate boundary checked visually in the 32-event transition contact sheets"
+    },
+    {
+      "start_frame": 3600,
+      "end_frame_exclusive": 3629,
+      "state": "grin",
+      "side": "flank",
+      "asset": "production/pair-a/assets/mouth-flank-grin.png",
+      "asset_relative_to_project": "production/pair-a/assets/mouth-flank-grin.png",
+      "asset_sha256": "5ee5b723f6061013f03b8124e861606861aad27f71a8857e1be6fd27b0ccce22",
+      "width": 65.0,
+      "center_xy": [
+        654.5,
+        247.0
+      ],
+      "raster_size": [
+        65,
+        31
+      ],
+      "raster_top_left_xy": [
+        622,
+        232
+      ],
+      "evidence": "ROI candidate boundary checked visually in the 32-event transition contact sheets"
+    },
+    {
+      "start_frame": 3629,
+      "end_frame_exclusive": 3635,
+      "state": "closed",
+      "side": "flank",
+      "asset": "production/pair-a/assets/mouth-flank-closed.png",
+      "asset_relative_to_project": "production/pair-a/assets/mouth-flank-closed.png",
+      "asset_sha256": "abdb3cfb26c2146f06f5108f9d945c090a1db5733aa11ef7399bc7ffddbd6e90",
+      "width": 43.72819271599622,
+      "center_xy": [
+        650.5636405703835,
+        246.3643485363541
+      ],
+      "raster_size": [
+        44,
+        9
+      ],
+      "raster_top_left_xy": [
+        629,
+        242
+      ],
+      "evidence": "ROI candidate boundary checked visually in the 32-event transition contact sheets"
+    },
+    {
+      "start_frame": 3635,
+      "end_frame_exclusive": 3645,
+      "state": "open",
+      "side": "flank",
+      "asset": "production/pair-a/assets/mouth-flank-open.png",
+      "asset_relative_to_project": "production/pair-a/assets/mouth-flank-open.png",
+      "asset_sha256": "24e0840bbdfad4962ecaeabadb945f04b6592379607c9e7674655d066ff58726",
+      "width": 75.70089456692125,
+      "center_xy": [
+        653.9273835258304,
+        253.4545981397084
+      ],
+      "raster_size": [
+        76,
+        45
+      ],
+      "raster_top_left_xy": [
+        616,
+        231
+      ],
+      "evidence": "ROI candidate boundary checked visually in the 32-event transition contact sheets"
+    },
+    {
+      "start_frame": 3645,
+      "end_frame_exclusive": 3674,
+      "state": "grin",
+      "side": "neutral",
+      "asset": "production/pair-a/assets/mouth-neutral-grin.png",
+      "asset_relative_to_project": "production/pair-a/assets/mouth-neutral-grin.png",
+      "asset_sha256": "8065da42f2cfc2ed9830c899698b9b7d5d626528aacacee3af472dbf99ec73cd",
+      "width": 65.0,
+      "center_xy": [
+        192.5,
+        245.5
+      ],
+      "raster_size": [
+        65,
+        29
+      ],
+      "raster_top_left_xy": [
+        160,
+        231
+      ],
+      "evidence": "ROI candidate boundary checked visually in the 32-event transition contact sheets"
+    },
+    {
+      "start_frame": 3674,
+      "end_frame_exclusive": 3680,
+      "state": "closed",
+      "side": "neutral",
+      "asset": "production/pair-a/assets/mouth-neutral-closed.png",
+      "asset_relative_to_project": "production/pair-a/assets/mouth-neutral-closed.png",
+      "asset_sha256": "6bdac6cedfeaff036af4617a5d938d45b7683e66366e6c4aadb66a53202aa46f",
+      "width": 43.72819271599622,
+      "center_xy": [
+        196.43635942961643,
+        244.8643485363541
+      ],
+      "raster_size": [
+        44,
+        10
+      ],
+      "raster_top_left_xy": [
+        174,
+        240
+      ],
+      "evidence": "ROI candidate boundary checked visually in the 32-event transition contact sheets"
+    },
+    {
+      "start_frame": 3680,
+      "end_frame_exclusive": 3690,
+      "state": "open",
+      "side": "neutral",
+      "asset": "production/pair-a/assets/mouth-neutral-open.png",
+      "asset_relative_to_project": "production/pair-a/assets/mouth-neutral-open.png",
+      "asset_sha256": "9678f49d5a4040e1ef5810280ba0a3e89012b36b25b046479595433186036f79",
+      "width": 75.70089456692125,
+      "center_xy": [
+        193.0726164741697,
+        251.9545981397084
+      ],
+      "raster_size": [
+        76,
+        44
+      ],
+      "raster_top_left_xy": [
+        155,
+        230
+      ],
+      "evidence": "ROI candidate boundary checked visually in the 32-event transition contact sheets"
+    },
+    {
+      "start_frame": 3737,
+      "end_frame_exclusive": 3766,
+      "state": "grin",
+      "side": "flank",
+      "asset": "production/pair-a/assets/mouth-flank-grin.png",
+      "asset_relative_to_project": "production/pair-a/assets/mouth-flank-grin.png",
+      "asset_sha256": "5ee5b723f6061013f03b8124e861606861aad27f71a8857e1be6fd27b0ccce22",
+      "width": 65.0,
+      "center_xy": [
+        654.5,
+        247.0
+      ],
+      "raster_size": [
+        65,
+        31
+      ],
+      "raster_top_left_xy": [
+        622,
+        232
+      ],
+      "evidence": "ROI candidate boundary checked visually in the 32-event transition contact sheets"
+    },
+    {
+      "start_frame": 3766,
+      "end_frame_exclusive": 3772,
+      "state": "closed",
+      "side": "flank",
+      "asset": "production/pair-a/assets/mouth-flank-closed.png",
+      "asset_relative_to_project": "production/pair-a/assets/mouth-flank-closed.png",
+      "asset_sha256": "abdb3cfb26c2146f06f5108f9d945c090a1db5733aa11ef7399bc7ffddbd6e90",
+      "width": 43.72819271599622,
+      "center_xy": [
+        650.5636405703835,
+        246.3643485363541
+      ],
+      "raster_size": [
+        44,
+        9
+      ],
+      "raster_top_left_xy": [
+        629,
+        242
+      ],
+      "evidence": "ROI candidate boundary checked visually in the 32-event transition contact sheets"
+    },
+    {
+      "start_frame": 3772,
+      "end_frame_exclusive": 3782,
+      "state": "open",
+      "side": "flank",
+      "asset": "production/pair-a/assets/mouth-flank-open.png",
+      "asset_relative_to_project": "production/pair-a/assets/mouth-flank-open.png",
+      "asset_sha256": "24e0840bbdfad4962ecaeabadb945f04b6592379607c9e7674655d066ff58726",
+      "width": 75.70089456692125,
+      "center_xy": [
+        653.9273835258304,
+        253.4545981397084
+      ],
+      "raster_size": [
+        76,
+        45
+      ],
+      "raster_top_left_xy": [
+        616,
+        231
+      ],
+      "evidence": "ROI candidate boundary checked visually in the 32-event transition contact sheets"
+    },
+    {
+      "start_frame": 3782,
+      "end_frame_exclusive": 3811,
+      "state": "grin",
+      "side": "neutral",
+      "asset": "production/pair-a/assets/mouth-neutral-grin.png",
+      "asset_relative_to_project": "production/pair-a/assets/mouth-neutral-grin.png",
+      "asset_sha256": "8065da42f2cfc2ed9830c899698b9b7d5d626528aacacee3af472dbf99ec73cd",
+      "width": 65.0,
+      "center_xy": [
+        192.5,
+        245.5
+      ],
+      "raster_size": [
+        65,
+        29
+      ],
+      "raster_top_left_xy": [
+        160,
+        231
+      ],
+      "evidence": "ROI candidate boundary checked visually in the 32-event transition contact sheets"
+    },
+    {
+      "start_frame": 3811,
+      "end_frame_exclusive": 3817,
+      "state": "closed",
+      "side": "neutral",
+      "asset": "production/pair-a/assets/mouth-neutral-closed.png",
+      "asset_relative_to_project": "production/pair-a/assets/mouth-neutral-closed.png",
+      "asset_sha256": "6bdac6cedfeaff036af4617a5d938d45b7683e66366e6c4aadb66a53202aa46f",
+      "width": 43.72819271599622,
+      "center_xy": [
+        196.43635942961643,
+        244.8643485363541
+      ],
+      "raster_size": [
+        44,
+        10
+      ],
+      "raster_top_left_xy": [
+        174,
+        240
+      ],
+      "evidence": "ROI candidate boundary checked visually in the 32-event transition contact sheets"
+    },
+    {
+      "start_frame": 3817,
+      "end_frame_exclusive": 3828,
+      "state": "open",
+      "side": "neutral",
+      "asset": "production/pair-a/assets/mouth-neutral-open.png",
+      "asset_relative_to_project": "production/pair-a/assets/mouth-neutral-open.png",
+      "asset_sha256": "9678f49d5a4040e1ef5810280ba0a3e89012b36b25b046479595433186036f79",
+      "width": 75.70089456692125,
+      "center_xy": [
+        193.0726164741697,
+        251.9545981397084
+      ],
+      "raster_size": [
+        76,
+        44
+      ],
+      "raster_top_left_xy": [
+        155,
+        230
+      ],
+      "evidence": "ROI candidate boundary checked visually in the 32-event transition contact sheets"
+    },
+    {
+      "start_frame": 3828,
+      "end_frame_exclusive": 3851,
+      "state": "grin",
+      "side": "flank",
+      "asset": "production/pair-a/assets/mouth-flank-grin.png",
+      "asset_relative_to_project": "production/pair-a/assets/mouth-flank-grin.png",
+      "asset_sha256": "5ee5b723f6061013f03b8124e861606861aad27f71a8857e1be6fd27b0ccce22",
+      "width": 65.0,
+      "center_xy": [
+        654.5,
+        247.0
+      ],
+      "raster_size": [
+        65,
+        31
+      ],
+      "raster_top_left_xy": [
+        622,
+        232
+      ],
+      "evidence": "visually checked flank grin at montage start; hold same grin beneath later montage occlusion; no new hidden mouth inferred"
+    }
+  ],
+  "action_cut_overrides": [
+    {
+      "start_frame": 1361,
+      "end_frame_exclusive": 1406,
+      "side": "neutral",
+      "body_asset": "production/pair-a/generated/taunt-neutral-textless-blankmouth-r1.png",
+      "body_asset_relative_to_project": "production/pair-a/generated/taunt-neutral-textless-blankmouth-r1.png",
+      "body_sha256": "9d7f49d0fdaa39232c2aa6f06d92ceb7ae396101c363a7fcb7a75650286791f4",
+      "reason": "actual source side/camera cut; synchronize held body to this side before mouth overlay"
+    },
+    {
+      "start_frame": 1406,
+      "end_frame_exclusive": 1451,
+      "side": "flank",
+      "body_asset": "production/pair-a/generated/taunt-flank-textless-blankmouth-r1.png",
+      "body_asset_relative_to_project": "production/pair-a/generated/taunt-flank-textless-blankmouth-r1.png",
+      "body_sha256": "c817785f7239c7b24bbf3665552d47279637e0fa6bf20ef936bcc05f33420a7f",
+      "reason": "actual source side/camera cut; synchronize held body to this side before mouth overlay"
+    },
+    {
+      "start_frame": 1451,
+      "end_frame_exclusive": 1496,
+      "side": "neutral",
+      "body_asset": "production/pair-a/generated/taunt-neutral-textless-blankmouth-r1.png",
+      "body_asset_relative_to_project": "production/pair-a/generated/taunt-neutral-textless-blankmouth-r1.png",
+      "body_sha256": "9d7f49d0fdaa39232c2aa6f06d92ceb7ae396101c363a7fcb7a75650286791f4",
+      "reason": "actual source side/camera cut; synchronize held body to this side before mouth overlay"
+    },
+    {
+      "start_frame": 1543,
+      "end_frame_exclusive": 1588,
+      "side": "flank",
+      "body_asset": "production/pair-a/generated/taunt-flank-textless-blankmouth-r1.png",
+      "body_asset_relative_to_project": "production/pair-a/generated/taunt-flank-textless-blankmouth-r1.png",
+      "body_sha256": "c817785f7239c7b24bbf3665552d47279637e0fa6bf20ef936bcc05f33420a7f",
+      "reason": "actual source side/camera cut; synchronize held body to this side before mouth overlay"
+    },
+    {
+      "start_frame": 1588,
+      "end_frame_exclusive": 1634,
+      "side": "neutral",
+      "body_asset": "production/pair-a/generated/taunt-neutral-textless-blankmouth-r1.png",
+      "body_asset_relative_to_project": "production/pair-a/generated/taunt-neutral-textless-blankmouth-r1.png",
+      "body_sha256": "9d7f49d0fdaa39232c2aa6f06d92ceb7ae396101c363a7fcb7a75650286791f4",
+      "reason": "actual source side/camera cut; synchronize held body to this side before mouth overlay"
+    },
+    {
+      "start_frame": 1634,
+      "end_frame_exclusive": 1657,
+      "side": "flank",
+      "body_asset": "production/pair-a/generated/taunt-flank-textless-blankmouth-r1.png",
+      "body_asset_relative_to_project": "production/pair-a/generated/taunt-flank-textless-blankmouth-r1.png",
+      "body_sha256": "c817785f7239c7b24bbf3665552d47279637e0fa6bf20ef936bcc05f33420a7f",
+      "reason": "actual source side/camera cut; synchronize held body to this side before mouth overlay"
+    },
+    {
+      "start_frame": 3555,
+      "end_frame_exclusive": 3600,
+      "side": "neutral",
+      "body_asset": "production/pair-a/generated/taunt-neutral-textless-blankmouth-r1.png",
+      "body_asset_relative_to_project": "production/pair-a/generated/taunt-neutral-textless-blankmouth-r1.png",
+      "body_sha256": "9d7f49d0fdaa39232c2aa6f06d92ceb7ae396101c363a7fcb7a75650286791f4",
+      "reason": "actual source side/camera cut; synchronize held body to this side before mouth overlay"
+    },
+    {
+      "start_frame": 3600,
+      "end_frame_exclusive": 3645,
+      "side": "flank",
+      "body_asset": "production/pair-a/generated/taunt-flank-textless-blankmouth-r1.png",
+      "body_asset_relative_to_project": "production/pair-a/generated/taunt-flank-textless-blankmouth-r1.png",
+      "body_sha256": "c817785f7239c7b24bbf3665552d47279637e0fa6bf20ef936bcc05f33420a7f",
+      "reason": "actual source side/camera cut; synchronize held body to this side before mouth overlay"
+    },
+    {
+      "start_frame": 3645,
+      "end_frame_exclusive": 3690,
+      "side": "neutral",
+      "body_asset": "production/pair-a/generated/taunt-neutral-textless-blankmouth-r1.png",
+      "body_asset_relative_to_project": "production/pair-a/generated/taunt-neutral-textless-blankmouth-r1.png",
+      "body_sha256": "9d7f49d0fdaa39232c2aa6f06d92ceb7ae396101c363a7fcb7a75650286791f4",
+      "reason": "actual source side/camera cut; synchronize held body to this side before mouth overlay"
+    },
+    {
+      "start_frame": 3737,
+      "end_frame_exclusive": 3782,
+      "side": "flank",
+      "body_asset": "production/pair-a/generated/taunt-flank-textless-blankmouth-r1.png",
+      "body_asset_relative_to_project": "production/pair-a/generated/taunt-flank-textless-blankmouth-r1.png",
+      "body_sha256": "c817785f7239c7b24bbf3665552d47279637e0fa6bf20ef936bcc05f33420a7f",
+      "reason": "actual source side/camera cut; synchronize held body to this side before mouth overlay"
+    },
+    {
+      "start_frame": 3782,
+      "end_frame_exclusive": 3828,
+      "side": "neutral",
+      "body_asset": "production/pair-a/generated/taunt-neutral-textless-blankmouth-r1.png",
+      "body_asset_relative_to_project": "production/pair-a/generated/taunt-neutral-textless-blankmouth-r1.png",
+      "body_sha256": "9d7f49d0fdaa39232c2aa6f06d92ceb7ae396101c363a7fcb7a75650286791f4",
+      "reason": "actual source side/camera cut; synchronize held body to this side before mouth overlay"
+    },
+    {
+      "start_frame": 3828,
+      "end_frame_exclusive": 3851,
+      "side": "flank",
+      "body_asset": "production/pair-a/generated/taunt-flank-textless-blankmouth-r1.png",
+      "body_asset_relative_to_project": "production/pair-a/generated/taunt-flank-textless-blankmouth-r1.png",
+      "body_sha256": "c817785f7239c7b24bbf3665552d47279637e0fa6bf20ef936bcc05f33420a7f",
+      "reason": "actual source side/camera cut; synchronize held body to this side before mouth overlay"
+    }
+  ],
+  "review": {
+    "analyzed_source_frame_count": 498,
+    "automatic_method": "ROI white-teeth/open-pink feature candidates, then actual visual check of all 32 event starts against prior ROI; actual full-frame side/camera cut contact sheets checked separately",
+    "viewed_final_transition_sheets": [
+      "production/pair-a/mouth-analysis/transition-sheet-01.jpg",
+      "production/pair-a/mouth-analysis/transition-sheet-02.jpg",
+      "production/pair-a/mouth-analysis/transition-sheet-03.jpg",
+      "production/pair-a/mouth-analysis/transition-sheet-04.jpg"
+    ],
+    "viewed_full_frame_side_cut_sheets": [
+      "production/pair-a/mouth-analysis/source-side-cut-sheet-01.jpg",
+      "production/pair-a/mouth-analysis/source-side-cut-sheet-02.jpg",
+      "production/pair-a/mouth-analysis/source-side-cut-sheet-03.jpg"
+    ],
+    "layout_probe_sheet": "production/pair-a/mouth-analysis/layout-probe-sheet.jpg",
+    "full_source_keyframes": "production/pair-a/mouth-analysis/source-keyframes",
+    "limits": "498 source frames were analyzed in ROIs, not individually claimed as manually viewed. 32 transitions were visually checked in contact sheets. Static held-head layout intentionally omits source connection zoom/wobble. Later montage occlusion uses the last directly visible grin with source graphics above it. No mouth is synthesized for graph-only shots."
+  },
+  "validation": {
+    "event_count": 32,
+    "covered_source_frames": 498,
+    "coverage_exact": true,
+    "side_matches_body_overrides": true,
+    "constant_layout_per_state_side": true,
+    "actual_asset_sha256_valid": true
+  }
+}

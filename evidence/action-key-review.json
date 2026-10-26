@@ -1,0 +1,583 @@
+{
+  "schema": "uno-fullfilm-v4-revision-v2-action-key-review",
+  "source": {
+    "video": "../inputs/source-video.mp4",
+    "frames": 5245,
+    "fps": 24,
+    "duration": 218.54166666666666,
+    "indexing": "zero-based source frames; half-open intervals"
+  },
+  "scope": "Whole-film action-key omissions against v1 121shots/146runs and deliberate aliases; adaptive core poses/extrema held until next action key. No fixed4fps or24fps generation obligation.",
+  "actual_review_method": [
+    "Full original source decoded for exact PTS/frame inventory. Existing full-film2s and quarter navigation boards plus76 pose references were used to locate families; hashes never prove a new original drawing.",
+    "This revision inspected long-hold/source/asset navigation contacts and actual full-rate cut neighborhoods, hand ownership, source extrema and expression switches. Full-rate evidence is stored in source/revision-v2/fullrate; not a claim that every connecting frame received a new native drawing.",
+    "A true new hand/paw ownership, body direction, preparation/landing or sustained expression is retained. Small connecting sway, entering interpolation and duplicate pose flashes can be replaced by a prior core hold.",
+    "Independent mouth, caption, emitted glyph, curtain and thinking-spoke events retain source time instead of being tied to body keys."
+  ],
+  "findings": [
+    {
+      "id": "AK01",
+      "range": [
+        31,
+        145
+      ],
+      "old_asset": "intro_palm_open/source42 held for entire introduction",
+      "finding": "Repeated palm/card/cuff extreme A was removed. Source has actual discrete6/7-frame A/B exposures, not a fixed4fps sampling requirement.",
+      "classification": "restore_actual_action_exposures",
+      "resolution": "Existing source36 native repaired by root; alternate source36/source42 at exact source cuts.",
+      "events": "source/revision-v2/intro-pose-events.json",
+      "evidence": "source/revision-v2/intro-source-switch-pairs.jpg",
+      "status": "repair_prepared_parent_integration"
+    },
+    {
+      "id": "AK02",
+      "ranges": [
+        [
+          1543,
+          1588
+        ],
+        [
+          3737,
+          3782
+        ]
+      ],
+      "source_frame": 1560,
+      "old_asset": "taunt_flank_textless_blankmouth/source1416",
+      "finding": "Card-bearing hand and open hand are exchanged. Same screen side does not make this the same body pose.",
+      "classification": "new_core_hand_exchange",
+      "resolution": "Native complete new drawing taunt_swap_right_textless_blankmouth; no mirror or pasted hand.",
+      "asset_id": "taunt_swap_right_textless_blankmouth",
+      "evidence": "audit/revision-v2/action-review/swapped-hands-native-r1.jpg",
+      "status": "independent_static_approved"
+    },
+    {
+      "id": "AK03",
+      "ranges": [
+        [
+          1588,
+          1634
+        ],
+        [
+          3782,
+          3828
+        ]
+      ],
+      "source_frame": 1620,
+      "old_asset": "taunt_neutral_textless_blankmouth/source1380",
+      "finding": "Opposite card-bearing hand/open-hand phase, distinct from source1380.",
+      "classification": "new_core_hand_exchange",
+      "resolution": "Native complete new drawing taunt_swap_left_textless_blankmouth.",
+      "asset_id": "taunt_swap_left_textless_blankmouth",
+      "evidence": "audit/revision-v2/action-review/swapped-hands-native-r1.jpg",
+      "status": "independent_static_approved"
+    },
+    {
+      "id": "AK04",
+      "range": [
+        2624,
+        2777
+      ],
+      "old_asset": "plead_A/source2628 held153frames",
+      "finding": "The V-hand/card repeatedly alternates between face-side and outward extremes; one153-frame hold erased the readable gesture rhythm.",
+      "classification": "restore_two_action_extremes",
+      "resolution": "Reuse existing native2670 B after root hair-tip/clean-glyph corrections;13 source-extreme holds.",
+      "events": "source/revision-v2/plead-pose-events.json",
+      "evidence": "source/revision-v2/plead-extreme-keys.jpg",
+      "status": "repair_prepared_root_native_approved"
+    },
+    {
+      "id": "AK05",
+      "ranges": [
+        [
+          1681,
+          1725
+        ],
+        [
+          4058,
+          4102
+        ]
+      ],
+      "old_asset": "dab_start began1681/4058; dab_land began1699/4076",
+      "finding": "An empty-handed full-table frontal preparation was missing; side/back and front landing also occurred too early. Source1686 has hands below table and no held card, so close center-card276 cannot substitute.",
+      "classification": "missing_preparation_and_early_switches",
+      "resolution": "New table_neutral_empty_front:1681..1692 and4058..4069. Reuse side/back1692..1703 and4069..4080; landing1703..1725 and4080..4102.",
+      "asset_id": "table_neutral_empty_front",
+      "events": "source/revision-v2/additional-action-overrides.json",
+      "evidence": [
+        "source/revision-v2/dab-fullrate-01.jpg",
+        "source/revision-v2/dab-reprise-fullrate.jpg"
+      ],
+      "status": "repair_prepared_native_static_review_gate"
+    },
+    {
+      "id": "AK06",
+      "range": [
+        2345,
+        2368
+      ],
+      "old_asset": "maid_sign_B/source2334",
+      "source_frame": 2346,
+      "finding": "Turned side/back torso with both paws clasped beside shoulder and vertical sign behind head is a distinct core action.",
+      "classification": "new_core_pose",
+      "asset_id": "maid_side_clasp",
+      "resolution": "Native full source2346 pose.",
+      "evidence": "audit/revision-v2/action-review/maid-new-keys-native-r1.jpg",
+      "status": "independent_static_approved"
+    },
+    {
+      "id": "AK07",
+      "range": [
+        2381,
+        2397
+      ],
+      "old_asset": "maid_sign_A/source2298",
+      "source_frame": 2382,
+      "finding": "Opposite-arm raised-sign pose was replaced by the earlier other-arm pose.",
+      "classification": "new_core_pose",
+      "asset_id": "maid_opposite_sign",
+      "resolution": "Native source2382 complete pose; sign writing is not mirrored.",
+      "evidence": "audit/revision-v2/action-review/maid-new-keys-native-r1.jpg",
+      "status": "independent_static_approved"
+    },
+    {
+      "id": "AK08",
+      "range": [
+        2397,
+        2405
+      ],
+      "old_asset": "maid_sign_A/source2298",
+      "source_frame": 2400,
+      "finding": "Forward leaning raised-paw gesture and diagonally placed sign were missing.",
+      "classification": "new_core_pose",
+      "asset_id": "maid_paws_placard",
+      "resolution": "Native source2400; bounded r2 correction removes duplicate lower image-left fin only.",
+      "evidence": "source/revision-v2/maid-fullrate-02.jpg",
+      "status": "repair_prepared_native_static_review_gate"
+    },
+    {
+      "id": "AK09",
+      "range": [
+        1886,
+        1907
+      ],
+      "old_range": [
+        1896,
+        1907
+      ],
+      "old_asset": "maid_paws/source1896",
+      "finding": "Original maid insert hard cut is1886; the plan entered ten frames late.",
+      "classification": "wrong_action_cut_time_no_new_drawing",
+      "resolution": "Hold already-approved1896 maid-paw extreme from1886; omit its entering connecting drawings.",
+      "events": "source/revision-v2/additional-action-overrides.json",
+      "evidence": "source/revision-v2/maid-flash-source-boundary.jpg",
+      "status": "resolved_by_reuse_range_override"
+    },
+    {
+      "id": "AK10",
+      "range": [
+        2405,
+        2447
+      ],
+      "finding": "Source returns upside-down at2405, followed by closing purple side curtains from2407; static full coverage loses the closing event.",
+      "classification": "core_return_plus_independent_graphic_occlusion",
+      "resolution": "Reuse upside-down2370 from2405, then40 solid-color graphic frames. Central slit remains2434; full purple2435..2445, solid black transition2446. No source actor RGB.",
+      "events": "source/revision-v2/overlay-events.json",
+      "evidence": "source/revision-v2/overlay-layers/curtain-contact.jpg",
+      "status": "safe_graphic_prepared_and_visually_reviewed"
+    },
+    {
+      "id": "AK11",
+      "range": [
+        4012,
+        4046
+      ],
+      "old_asset": "center_dark_card_textless/source3924",
+      "finding": "Source4011 still has U-shaped pupils/open mouth;4012 first closes eyes to horizontal strokes with small smile.",
+      "classification": "sustained_expression_switch",
+      "resolution": "Root native closed-eye variant; exact range4012..4046.",
+      "evidence": [
+        "source/revision-v2/fullrate/f04011.jpg",
+        "source/revision-v2/fullrate/f04012.jpg"
+      ],
+      "status": "root_native_repair_approved"
+    },
+    {
+      "id": "AK12",
+      "range": [
+        2961,
+        2984
+      ],
+      "old_asset": "fold_arm_left/source2916",
+      "finding": "Source2960 round eyes/laugh changes to sleepy half eyes/small pout at2961, sustained to wipe2984.",
+      "classification": "sustained_expression_switch",
+      "resolution": "Root native sleepy variant; exact range2961..2984.",
+      "evidence": "source/revision-v2/fold-tired-event-boundary.jpg",
+      "status": "root_native_repair_approved"
+    },
+    {
+      "id": "AK13",
+      "range": [
+        4634,
+        4747
+      ],
+      "old_asset": "side_blank_eyes plus static code add_rays",
+      "finding": "The effect existed in v1; it was not completely absent. But source loading/thinking spokes change opacity around the wheel, while add_rays was static.",
+      "classification": "independent_graphic_animation",
+      "resolution": "113 full-canvas RGBA source-timed neutral spoke graphics; no face/hair/background RGB; fixed character geometry.",
+      "events": "source/revision-v2/thinking-effects/events.json",
+      "evidence": "source/revision-v2/thinking-effects/representative-contact.jpg",
+      "status": "independent_graphic_review_passed"
+    },
+    {
+      "id": "AK14",
+      "range": [
+        2629,
+        2777
+      ],
+      "finding": "Source comic click/sigh glyphs emit, translate and fade independently. Baking them only in B would make them appear/disappear on body-key swaps.",
+      "classification": "independent_graphic_event",
+      "resolution": "One built-in transparent native two-glyph asset; source-timed independent graphic registration/opacity137 events. Source2670 code-extracted partial glyph attempts rejected. Last visible2776 retained after allowing smaller graphic scales. Root cleans glyphs from B body.",
+      "events": "source/revision-v2/overlay-events.json",
+      "evidence": "source/revision-v2/overlay-layers/sigh-contact.jpg",
+      "status": "independent_graphic_review_passed_tail_correction_completed"
+    },
+    {
+      "id": "AK15",
+      "ranges": [
+        [
+          792,
+          944
+        ],
+        [
+          2454,
+          2582
+        ]
+      ],
+      "finding": "User-marked33..38s and102..106s movement gaps are owned by producerA and independent audit, avoiding duplicate production.",
+      "classification": "paired_parallel_action_repair",
+      "resolution": "Use their9 source-specific dark/panic revision assets and source event proposals; independent approval by SHA in shared revision audit.",
+      "evidence": [
+        "production/revision-v2/segment-33-38/independent-review.json",
+        "production/revision-v2/segment-102-106/independent-review.json"
+      ],
+      "status": "team_native_repairs_approved"
+    }
+  ],
+  "aliases_review": [
+    {
+      "aliases": [
+        "intro_palm_up"
+      ],
+      "verdict": "restore",
+      "reason": "Actual repeated A/B exposure changes, not mere hand interpolation; exact exposure table supplied."
+    },
+    {
+      "aliases": [
+        "taunt_close_B",
+        "taunt_close_C",
+        "taunt_flank_B"
+      ],
+      "verdict": "keep_omission",
+      "reason": "Same hand/card ownership and gesture; small head/sway/crop stages. Separate mouth/text events retain semantic changes. Do not redraw every connecting stage."
+    },
+    {
+      "aliases": [
+        "taunt_right_A",
+        "taunt_left_A"
+      ],
+      "verdict": "restore",
+      "reason": "Genuine card-hand exchange; new full native keys supplied."
+    },
+    {
+      "aliases": [
+        "clap_pose_B"
+      ],
+      "verdict": "keep_omission",
+      "reason": "Same seated high-knee/forehead-hand/card pose with small sway, no new gesture. Foreground clapping drawings are independent graphics, not extra body limbs."
+    },
+    {
+      "aliases": [
+        "plead_B"
+      ],
+      "verdict": "restore_extreme",
+      "reason": "Two repeated face-side/outward V-hand/card extrema preserve readable movement over the long hold. Intermediate wobble drawings stay omitted."
+    },
+    {
+      "aliases": [
+        "wink_reprise"
+      ],
+      "verdict": "same_gesture_reuse",
+      "reason": "Same wink/forward-hand action, not another core hand pose."
+    },
+    {
+      "aliases": [
+        "side_rays"
+      ],
+      "verdict": "reuse_body_separate_dynamic_graphic",
+      "reason": "Source body is same; v1 already drew static rays. Revision adds independently changing spoke opacity without a new head drawing."
+    },
+    {
+      "aliases": [
+        "mouth_strip_A",
+        "mouth_strip_B"
+      ],
+      "verdict": "already_covered_by_orientation_specific_assets",
+      "reason": "Horizontal960 and vertical3156 have separate native mouth-strip drawings; alias names do not mean the orientations are collapsed."
+    }
+  ],
+  "deliberate_connecting_omissions": [
+    {
+      "range": [
+        2389,
+        2393
+      ],
+      "reason": "Two2-frame mirrored/side paw flashes inside the sign passage are treated as entering/connecting cycle stages; source2382 held, then new source2400 at2397. No mirrored native asset created."
+    },
+    {
+      "ranges": [
+        [
+          1693,
+          1703
+        ],
+        [
+          4070,
+          4080
+        ]
+      ],
+      "reason": "Keep source1692 side/back core through its lowering/turning connection until first front landing1703/4080."
+    },
+    {
+      "ranges": [
+        [
+          265,
+          342
+        ],
+        [
+          447,
+          797
+        ],
+        [
+          1725,
+          2065
+        ],
+        [
+          2092,
+          2169
+        ],
+        [
+          2169,
+          2252
+        ],
+        [
+          2824,
+          2961
+        ],
+        [
+          3006,
+          3144
+        ],
+        [
+          4469,
+          4574
+        ],
+        [
+          4814,
+          4932
+        ]
+      ],
+      "reason": "Review found camera/sway, graphic/prop changes or existing represented gesture families in these remaining long holds. No further distinct core hand/body pose selected by this revision; body interpolation is intentionally not manufactured."
+    }
+  ],
+  "new_pair_b_assets": [
+    {
+      "asset_id": "taunt_swap_right_textless_blankmouth",
+      "source_frame": 1560,
+      "path": "production/revision-v2/pair-b/generated/taunt-swap-right-textless-blankmouth-f01560-r1.png",
+      "sha256": "5c9a01d6a63ba164d57f9e54e07df3eb4c5fbcd74a3313d9c78301594973b163",
+      "status": "independent_static_audit_passed_await_parent_integration",
+      "native_size": [
+        1671,
+        941
+      ],
+      "blank_mouth": true,
+      "native_overlay_clean": true,
+      "baked_caption_bbox": null,
+      "source_side": "flank",
+      "ranges": [
+        [
+          1543,
+          1588
+        ],
+        [
+          3737,
+          3782
+        ]
+      ],
+      "notes": "Native exchanged-card-hand pose; existing same-side separate mouth and graphic events remain valid at fixed source position. No mirror/local hand paste.",
+      "independent_static_approval_present": true,
+      "review": "audit/revision-v2/native-approved-assets.json"
+    },
+    {
+      "asset_id": "taunt_swap_left_textless_blankmouth",
+      "source_frame": 1620,
+      "path": "production/revision-v2/pair-b/generated/taunt-swap-left-textless-blankmouth-f01620-r1.png",
+      "sha256": "e774ba255766097a98ff4f4879b94ec60f50d8b282f17604b02de7c29773e0c7",
+      "status": "independent_static_audit_passed_await_parent_integration",
+      "native_size": [
+        1672,
+        941
+      ],
+      "blank_mouth": true,
+      "native_overlay_clean": true,
+      "baked_caption_bbox": null,
+      "source_side": "neutral",
+      "ranges": [
+        [
+          1588,
+          1634
+        ],
+        [
+          3782,
+          3828
+        ]
+      ],
+      "notes": "Native exchanged-card-hand pose; existing same-side separate mouth and graphic events remain valid at fixed source position. No mirror/local hand paste.",
+      "independent_static_approval_present": true,
+      "review": "audit/revision-v2/native-approved-assets.json"
+    },
+    {
+      "asset_id": "maid_side_clasp",
+      "source_frame": 2346,
+      "path": "production/revision-v2/pair-b/generated/maid-side-clasp-f02346-r1.png",
+      "sha256": "dc6cbd4aaa5a975d39c3704f62c009decdeccbece8290c32856334411a1b76f0",
+      "status": "independent_static_audit_passed",
+      "native_size": [
+        1672,
+        941
+      ],
+      "blank_mouth": false,
+      "native_overlay_clean": true,
+      "baked_caption_bbox": null,
+      "ranges": [
+        [
+          2345,
+          2368
+        ]
+      ],
+      "pose_local_transforms": false,
+      "notes": "Exact original source native action key, independent static file review gates adoption by SHA. Source pose and original outfit authoritative; no mirror or local pose manufacture.",
+      "independent_static_approval_present": true,
+      "review": "audit/revision-v2/native-approved-assets.json"
+    },
+    {
+      "asset_id": "maid_opposite_sign",
+      "source_frame": 2382,
+      "path": "production/revision-v2/pair-b/generated/maid-opposite-sign-f02382-r1.png",
+      "sha256": "ca5c67973232ff62ada536264a068375c71bdf6fcec82023a04bde0031a2512f",
+      "status": "independent_static_audit_passed",
+      "native_size": [
+        1672,
+        941
+      ],
+      "blank_mouth": false,
+      "native_overlay_clean": true,
+      "baked_caption_bbox": null,
+      "ranges": [
+        [
+          2381,
+          2397
+        ]
+      ],
+      "pose_local_transforms": false,
+      "notes": "Exact original source native action key, independent static file review gates adoption by SHA. Source pose and original outfit authoritative; no mirror or local pose manufacture.",
+      "independent_static_approval_present": true,
+      "review": "audit/revision-v2/native-approved-assets.json"
+    },
+    {
+      "asset_id": "maid_paws_placard",
+      "source_frame": 2400,
+      "path": "production/revision-v2/pair-b/generated/maid-paws-placard-f02400-r2.png",
+      "sha256": "f57ff42be58ae3aa3ed7d067b2391256b2b451143189ea8a2a8e59f3c8b91d2a",
+      "status": "pending_independent_review_r2",
+      "native_size": [
+        1672,
+        941
+      ],
+      "blank_mouth": false,
+      "native_overlay_clean": true,
+      "baked_caption_bbox": null,
+      "ranges": [
+        [
+          2397,
+          2405
+        ]
+      ],
+      "pose_local_transforms": false,
+      "notes": "Exact original source native action key, independent static file review gates adoption by SHA. Source pose and original outfit authoritative; no mirror or local pose manufacture.",
+      "independent_static_approval_present": true,
+      "review": "audit/revision-v2/native-approved-assets.json"
+    },
+    {
+      "asset_id": "table_neutral_empty_front",
+      "source_frame": 1686,
+      "path": "production/revision-v2/pair-b/generated/table-neutral-empty-front-f01686-r1.png",
+      "sha256": "1646c512b7d9997d25e2c51cb56c5dcc08a54f965356a4a590dce42674dcc717",
+      "status": "pending_independent_review_r1",
+      "native_size": [
+        1672,
+        941
+      ],
+      "blank_mouth": false,
+      "native_overlay_clean": true,
+      "baked_caption_bbox": null,
+      "ranges": [
+        [
+          1681,
+          1692
+        ],
+        [
+          4058,
+          4069
+        ]
+      ],
+      "pose_local_transforms": false,
+      "notes": "Exact original source native action key, independent static file review gates adoption by SHA. Source pose and original outfit authoritative; no mirror or local pose manufacture.",
+      "independent_static_approval_present": true,
+      "review": "audit/revision-v2/native-approved-assets.json"
+    }
+  ],
+  "range_files": [
+    "production/revision-v2/pair-b/integration-assets.json",
+    "source/revision-v2/additional-action-overrides.json",
+    "source/revision-v2/intro-pose-events.json",
+    "source/revision-v2/plead-pose-events.json"
+  ],
+  "frozen_graphic_inputs": [
+    {
+      "path": "source/revision-v2/overlay-events.json",
+      "sha256": "b3a30f7d4e6322d02fbdc07eaf1dc600b76fd2d3de79e8918a036c424753e59d",
+      "events": 177,
+      "curtains": 40,
+      "sighs": 137
+    },
+    {
+      "path": "source/revision-v2/thinking-effects/events.json",
+      "sha256": "b9fd0392f12a67782d6db3fa6070674e7b5970929cc21f679a42c20fefebf3ea",
+      "events": 113
+    }
+  ],
+  "generation_provenance": {
+    "pair_b_revision_ledger": "production/revision-v2/pair-b/generation-ledger.json",
+    "real_builtin_calls_this_revision": 8,
+    "channel": "built-in image_gen only",
+    "model_seed": "not_exposed",
+    "no_character_local_warp_or_mirror": true
+  },
+  "status": "source_action_review_complete_repairs_prepared_for_parent_final_v3",
+  "identified_core_pose_repairs_not_supplied": [],
+  "remaining_limits": [
+    "Final encoded film compliance is owned by root and independent final review; native static approval is not a claim of final playback completion.",
+    "Pure graphic glyph/spoke alpha and transforms are source-derived estimates, not the original author animation project or pixel-exact masks. Faint tail detection was checked and2776 retained.",
+    "All participating native/graphic PNGs and manifests are frozen. Parent final-v3 must reload the177-event overlay manifest; earlier final-v2 used157events and is superseded. No input mutations after freeze."
+  ]
+}

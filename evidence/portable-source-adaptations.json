@@ -1,0 +1,33 @@
+{
+  "build_plan.py": {
+    "production_script_sha256": "790aa02d46f8d1ae157e6a2384f3a709d4b29b642a53c38d7752ea5b915322a8",
+    "public_script_sha256": "beb2b7e800022ea8b4b57b27003e94ef015bc9ad9d8cde41d381ab4f0ea1a3eb",
+    "adaptations": [
+      "project/input directory bindings",
+      "installed Python dependencies instead of local pylibs",
+      "FFmpeg discovery through FFMPEG_BINARY or PATH",
+      "portable navigation font fallback where applicable"
+    ]
+  },
+  "render.py": {
+    "production_script_sha256": "74ccbdfdbf89325888f676bf36718059fc9a475a46f313761d33bc99c7686128",
+    "public_script_sha256": "e081ef48a67517f1f8ad3734f3864dc8a9587560dd94363fd750677defb8c138",
+    "adaptations": [
+      "project/input directory bindings",
+      "installed Python dependencies instead of local pylibs",
+      "FFmpeg discovery through FFMPEG_BINARY or PATH",
+      "portable navigation font fallback where applicable"
+    ]
+  },
+  "catalog_source.py": {
+    "production_script_sha256": "3565319e3fda2725e93dd619b644c7e43c61213b611aa05f9ba0169bf4a459ab",
+    "public_script_sha256": "8af9b029bae051011da2c795a24ddd5894393723f593d71582bbb4fa39f9b0d6",
+    "adaptations": [
+      "project/input directory bindings",
+      "installed Python dependencies instead of local pylibs",
+      "FFmpeg discovery through FFMPEG_BINARY or PATH",
+      "portable navigation font fallback where applicable",
+      "relative source metadata instead of a machine absolute path"
+    ]
+  }
+}

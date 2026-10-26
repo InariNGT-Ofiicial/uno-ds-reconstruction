@@ -1,0 +1,18 @@
+{
+  "source_url": "https://www.bilibili.com/video/BV1Y9iZYUE6y/",
+  "video": {
+    "path": "inputs/source-video.mp4",
+    "sha256": "8bef3b3127408558456ee3ee70c40240dd8943469313106bdab3d072b3f571a8",
+    "bytes": 8386105
+  },
+  "audio": {
+    "path": "inputs/source-audio.m4a",
+    "sha256": "4ca75a8b0243a20ebbe82ea4f25d745ad7cbb5b720ca400788d1d89291de9212",
+    "bytes": 1432587
+  },
+  "frames": 5245,
+  "fps": "24/1",
+  "width": 852,
+  "height": 480,
+  "note": "Original AV is not redistributed in the asset pack. Different encodes require realignment, not a hash bypass."
+}

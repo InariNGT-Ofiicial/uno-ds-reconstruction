@@ -1,0 +1,29 @@
+{
+  "events": [
+    {
+      "event_id": "B001_intro_deepseek",
+      "start_frame": 31,
+      "end_frame_exclusive": 145,
+      "path": "production/revision-v2/pair-root/generated/intro-deepseek-lettering.png",
+      "kind": "identity_label_only",
+      "text": "DeepSeek（DS娘・彼シャツver.）",
+      "sha256": "5dc96061b0622099aaffea8d8170a56e1fe709089888ec7e1cb2c78d627cfe08",
+      "asset_ids": [
+        "intro_palm_open"
+      ]
+    },
+    {
+      "event_id": "B002_intro_A_deepseek",
+      "start_frame": 31,
+      "end_frame_exclusive": 145,
+      "asset_ids": [
+        "revision_intro_A_source36_B3_hair"
+      ],
+      "path": "production/revision-v2/pair-root/generated/intro-A-deepseek-lettering.png",
+      "sha256": "5c71f1b545e16006d9376dfc4942e5a26f35b242d5e909c54a2879503bc9fae8",
+      "text": "DeepSeek（DS娘・彼シャツver.）",
+      "operation": "Only generated nameplate lettering, nonuniform typography fit to original A plaque; no actor transform"
+    }
+  ],
+  "scope": "User-authorized identity label replacement; no original song/author credit rewritten"
+}

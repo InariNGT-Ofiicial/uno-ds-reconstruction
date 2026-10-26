@@ -1,0 +1,13 @@
+{
+  "schema": "uno-character-consistency-contract-v1",
+  "current_source_authority": ["pose", "facial_expression", "clothes_of_current_shot", "hand_card_contact", "crop_and_occlusion"],
+  "identity_reference": "project/references/ds-user-reference.png",
+  "frozen_hair_reference": "project/references/frozen-f005.png",
+  "hair_only_reference": "project/references/f005-connected-hair-only.png",
+  "identity_change_scope": ["loose_blue_hair", "headband", "blue_bows", "fin_ears"],
+  "frozen_topology": ["single_central_leaf_and_main_parting", "connected_face_side_locks", "connected_rear_hair_mass", "fixed_main_curl_hooks", "one_fin_and_bow_per_side"],
+  "forbidden_pose_synthesis": ["liquify", "TPS", "mesh_warp", "nonuniform_character_scale", "mirror_pose", "local_head_or_hand_transforms"],
+  "reuse_policy": "Same approved pose uses same file and SHA256; prior accepted images do not automatically replace the frozen mother.",
+  "review_axes": ["current_source_non_hair_invariants", "frozen_hair_topology", "adjacent_projection_consistency", "actual_rendered_events_and_occlusion"],
+  "latest_opening_policy": "One approved key from31 through145 by final user direction, even though the original has A/B exposure."
+}

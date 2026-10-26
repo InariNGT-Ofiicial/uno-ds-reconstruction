@@ -1,0 +1,317 @@
+{
+  "schema": "uno-revision-v2-independent-approved-assets-1",
+  "approved_assets": [
+    {
+      "asset_id": "revision_dark_motion_828",
+      "source_frame": 828,
+      "path": "production/revision-v2/segment-33-38/generated/dark-motion-f00828-r1.png",
+      "sha256": "f2dedb1ee376abcfa2ecdf7335152550d81d9e428bf28e1d299c5d9f0adc2185",
+      "status": "approved_native_revision_key",
+      "reason": "Actual current source versus new native pose and prior mother viewed. Preserved face/eyes/hands/cards/shirt/scene. Stable single main fringe and side-root/curl family; distinct tilt/close/pupil/extreme follows source.",
+      "native_overlay_clean": false,
+      "pose_local_transforms": false,
+      "effect_behavior_id": "dark_fingers",
+      "review_sidecar": "production/revision-v2/segment-33-38/independent-review.json"
+    },
+    {
+      "asset_id": "revision_dark_motion_858",
+      "source_frame": 858,
+      "path": "production/revision-v2/segment-33-38/generated/dark-motion-f00858-r1.png",
+      "sha256": "96c8bc00b98b5c0e9384e0d3b8fa3e8685bbf5ffce5206eed38cbc5804ff5689",
+      "status": "approved_native_revision_key",
+      "reason": "Actual current source versus new native pose and prior mother viewed. Preserved face/eyes/hands/cards/shirt/scene. Stable single main fringe and side-root/curl family; distinct tilt/close/pupil/extreme follows source.",
+      "native_overlay_clean": false,
+      "pose_local_transforms": false,
+      "effect_behavior_id": "dark_fingers",
+      "review_sidecar": "production/revision-v2/segment-33-38/independent-review.json"
+    },
+    {
+      "asset_id": "revision_dark_motion_870",
+      "source_frame": 870,
+      "path": "production/revision-v2/segment-33-38/generated/dark-motion-f00870-r1.png",
+      "sha256": "752ae398e6cf8bcb9e76e366df57327a6908c1e34290fe14587b50109662b950",
+      "status": "approved_native_revision_key",
+      "reason": "Actual current source versus new native pose and prior mother viewed. Preserved face/eyes/hands/cards/shirt/scene. Stable single main fringe and side-root/curl family; distinct tilt/close/pupil/extreme follows source.",
+      "native_overlay_clean": false,
+      "pose_local_transforms": false,
+      "effect_behavior_id": "dark_fingers",
+      "review_sidecar": "production/revision-v2/segment-33-38/independent-review.json"
+    },
+    {
+      "asset_id": "revision_dark_motion_912",
+      "source_frame": 912,
+      "path": "production/revision-v2/segment-33-38/generated/dark-motion-f00912-r1.png",
+      "sha256": "981cf6d7789f51a9d1413e77abd586a512b240cf7150530fde63073384e868bf",
+      "status": "approved_native_revision_key",
+      "reason": "Actual current source versus new native pose and prior mother viewed. Preserved face/eyes/hands/cards/shirt/scene. Stable single main fringe and side-root/curl family; distinct tilt/close/pupil/extreme follows source.",
+      "native_overlay_clean": false,
+      "pose_local_transforms": false,
+      "effect_behavior_id": "dark_fingers",
+      "review_sidecar": "production/revision-v2/segment-33-38/independent-review.json"
+    },
+    {
+      "asset_id": "revision_panic_motion_2454",
+      "source_frame": 2454,
+      "path": "production/revision-v2/segment-102-106/generated/panic-motion-f02454-r1.png",
+      "sha256": "b5bd3ce48b4425cbe28f1694b86d7b0d01059f5e5cff6c7e5d39719467023633",
+      "status": "approved_native_revision_key",
+      "reason": "Actual current source versus new native pose and prior mother viewed. Preserved face/eyes/hands/cards/shirt/scene. Stable single main fringe and side-root/curl family; distinct tilt/close/pupil/extreme follows source.",
+      "native_overlay_clean": false,
+      "pose_local_transforms": false,
+      "effect_behavior_id": "dark_panic",
+      "review_sidecar": "production/revision-v2/segment-102-106/independent-review.json"
+    },
+    {
+      "asset_id": "revision_panic_motion_2490",
+      "source_frame": 2490,
+      "path": "production/revision-v2/segment-102-106/generated/panic-motion-f02490-r1.png",
+      "sha256": "8c831babc221b56d429c874f2e58c65e9fc1c101d199c4af8a085b4cc40295d4",
+      "status": "approved_native_revision_key",
+      "reason": "Actual current source versus new native pose and prior mother viewed. Preserved face/eyes/hands/cards/shirt/scene. Stable single main fringe and side-root/curl family; distinct tilt/close/pupil/extreme follows source.",
+      "native_overlay_clean": false,
+      "pose_local_transforms": false,
+      "effect_behavior_id": "dark_panic",
+      "review_sidecar": "production/revision-v2/segment-102-106/independent-review.json"
+    },
+    {
+      "asset_id": "revision_panic_motion_2508",
+      "source_frame": 2508,
+      "path": "production/revision-v2/segment-102-106/generated/panic-motion-f02508-r1.png",
+      "sha256": "28d779543335cf673ab650643f091511648b4781a3bfed4824fc23046b40542c",
+      "status": "approved_native_revision_key",
+      "reason": "Actual current source versus new native pose and prior mother viewed. Preserved face/eyes/hands/cards/shirt/scene. Stable single main fringe and side-root/curl family; distinct tilt/close/pupil/extreme follows source.",
+      "native_overlay_clean": false,
+      "pose_local_transforms": false,
+      "effect_behavior_id": "dark_panic",
+      "review_sidecar": "production/revision-v2/segment-102-106/independent-review.json"
+    },
+    {
+      "asset_id": "revision_panic_motion_2544",
+      "source_frame": 2544,
+      "path": "production/revision-v2/segment-102-106/generated/panic-motion-f02544-r1.png",
+      "sha256": "f457e07a288e778d6f121e3a091294cc6a0cb1101b59a5c401aa9611bc5d027f",
+      "status": "approved_native_revision_key",
+      "reason": "Actual current source versus new native pose and prior mother viewed. Preserved face/eyes/hands/cards/shirt/scene. Stable single main fringe and side-root/curl family; distinct tilt/close/pupil/extreme follows source.",
+      "native_overlay_clean": false,
+      "pose_local_transforms": false,
+      "effect_behavior_id": "dark_panic",
+      "review_sidecar": "production/revision-v2/segment-102-106/independent-review.json"
+    },
+    {
+      "asset_id": "revision_panic_motion_2568",
+      "source_frame": 2568,
+      "path": "production/revision-v2/segment-102-106/generated/panic-motion-f02568-r2.png",
+      "sha256": "7fa699a89dde4a5741442f8a97186f6d083f982120801b2fd41c54ef112ab18b",
+      "status": "approved_native_revision_key",
+      "reason": "Actual current source versus new native pose and prior mother viewed. Preserved face/eyes/hands/cards/shirt/scene. Stable single main fringe and side-root/curl family; distinct tilt/close/pupil/extreme follows source.",
+      "native_overlay_clean": false,
+      "pose_local_transforms": false,
+      "effect_behavior_id": "dark_panic",
+      "review_sidecar": "production/revision-v2/segment-102-106/independent-review.json"
+    },
+    {
+      "asset_id": "taunt_swap_right_textless_blankmouth",
+      "source_frame": 1560,
+      "path": "production/revision-v2/pair-b/generated/taunt-swap-right-textless-blankmouth-f01560-r1.png",
+      "sha256": "5c9a01d6a63ba164d57f9e54e07df3eb4c5fbcd74a3313d9c78301594973b163",
+      "status": "approved_native_revision_key",
+      "reason": "Actual source/native revision contact viewed. Correct source hand/card side or maid posture/costume/paws/placard; DS main hair/fin/headband not duplicated.",
+      "native_overlay_clean": true,
+      "pose_local_transforms": false,
+      "blank_mouth": true
+    },
+    {
+      "asset_id": "taunt_swap_left_textless_blankmouth",
+      "source_frame": 1620,
+      "path": "production/revision-v2/pair-b/generated/taunt-swap-left-textless-blankmouth-f01620-r1.png",
+      "sha256": "e774ba255766097a98ff4f4879b94ec60f50d8b282f17604b02de7c29773e0c7",
+      "status": "approved_native_revision_key",
+      "reason": "Actual source/native revision contact viewed. Correct source hand/card side or maid posture/costume/paws/placard; DS main hair/fin/headband not duplicated.",
+      "native_overlay_clean": true,
+      "pose_local_transforms": false,
+      "blank_mouth": true
+    },
+    {
+      "asset_id": "maid_side_clasp",
+      "source_frame": 2346,
+      "path": "production/revision-v2/pair-b/generated/maid-side-clasp-f02346-r1.png",
+      "sha256": "dc6cbd4aaa5a975d39c3704f62c009decdeccbece8290c32856334411a1b76f0",
+      "status": "approved_native_revision_key",
+      "reason": "Actual source/native revision contact viewed. Correct source hand/card side or maid posture/costume/paws/placard; DS main hair/fin/headband not duplicated.",
+      "native_overlay_clean": false,
+      "pose_local_transforms": false,
+      "blank_mouth": false
+    },
+    {
+      "asset_id": "maid_opposite_sign",
+      "source_frame": 2382,
+      "path": "production/revision-v2/pair-b/generated/maid-opposite-sign-f02382-r1.png",
+      "sha256": "ca5c67973232ff62ada536264a068375c71bdf6fcec82023a04bde0031a2512f",
+      "status": "approved_native_revision_key",
+      "reason": "Actual source/native revision contact viewed. Correct source hand/card side or maid posture/costume/paws/placard; DS main hair/fin/headband not duplicated.",
+      "native_overlay_clean": false,
+      "pose_local_transforms": false,
+      "blank_mouth": false
+    },
+    {
+      "asset_id": "tease_forehead_B",
+      "source_frame": 1032,
+      "path": "production/revision-v2/pair-root/generated/tease-B-hairlock.png",
+      "sha256": "aaf73829b2c3332d88a76f6a99c6023862a06930027bcd9ce3a1d1d00b90ce71",
+      "status": "approved_native_revision_key",
+      "reason": "Actual oldA/newB comparison: rear-left narrow C restored, no outward hook flip; B hand/card/eye/mouth retained. Minor crown residual not escalated.",
+      "native_overlay_clean": false,
+      "pose_local_transforms": false
+    },
+    {
+      "asset_id": "intro_deepseek_lettering",
+      "source_frame": 42,
+      "path": "production/revision-v2/pair-root/generated/intro-deepseek-lettering.png",
+      "sha256": "5dc96061b0622099aaffea8d8170a56e1fe709089888ec7e1cb2c78d627cfe08",
+      "status": "approved_native_revision_key",
+      "reason": "Actual DeepSeek/DS娘 lettering preview viewed; alpha bbox[45,394,484,520] stays inside independent name-plaque print interior, no character pixel included.",
+      "native_overlay_clean": true,
+      "pose_local_transforms": false
+    },
+    {
+      "asset_id": "score_deepseek",
+      "source_frame": 408,
+      "path": "production/revision-v2/pair-root/generated/score-deepseek-raw.png",
+      "sha256": "06b0577a6e3add86eef490ee699556cb0e0fc3b813fd10797c712e47cfb65e09",
+      "status": "approved_native_revision_key",
+      "reason": "Actual full character-free graphic viewed: DeepSeek/1枚 identity clear, empty table/score setting retained.",
+      "native_overlay_clean": true,
+      "pose_local_transforms": false
+    },
+    {
+      "asset_id": "fanart_insert",
+      "source_frame": 2076,
+      "path": "production/revision-v2/pair-root/generated/fanart-ds-title.png",
+      "sha256": "9c30306ec4381005bcf90219509ca5b84bca7d45f488d06afd2a539495989f94",
+      "status": "approved_native_revision_key",
+      "reason": "Actual title now DS娘. All pixels below nativey155 exactly equal adopted old2076 portrait image, so all three character drawings untouched.",
+      "native_overlay_clean": false,
+      "pose_local_transforms": false
+    },
+    {
+      "asset_id": "plead_B",
+      "source_frame": 2670,
+      "path": "production/revision-v2/pair-root/generated/plead-B-clean.png",
+      "sha256": "f6f62453d3817dec2275416e5bb1185d4941c0bd7000c5e7b9fd0e754294289c",
+      "status": "approved_native_revision_key",
+      "reason": "Actual tipfix versus clean viewed. Only two sigh glyphs removed; face/eye/mouth, pointed main fringe, revealed side curl, shirt and outward card-hand crop retained. Bottom caption still baked, so native_overlay_clean is false.",
+      "native_overlay_clean": false,
+      "pose_local_transforms": false,
+      "sigh_graphics_clean": true
+    },
+    {
+      "asset_id": "center_dark_closed",
+      "source_frame": 4014,
+      "path": "production/revision-v2/pair-root/generated/center-dark-closed.png",
+      "sha256": "a67536a2e39b80bdaceae71e5c626c1c715ea8f8a8ca76d8a182516dab0b6b8c",
+      "status": "approved_native_revision_key",
+      "reason": "Actual clean3924 mother versus new native view: closed eyes and small curved smile follow source4014 state; head/fringe/headwear/curls/hands/card remain fixed. No bottom caption.",
+      "native_overlay_clean": true,
+      "pose_local_transforms": false,
+      "effect_behavior_id": "center_dark_card"
+    },
+    {
+      "asset_id": "fold_arm_left_sleepy",
+      "source_frame": 2970,
+      "path": "production/revision-v2/pair-root/generated/fold-left-sleepy-loop-fix.png",
+      "sha256": "231a0885ff1cc0e17daf6ae1f9689262c8b4c53cd51cca0f1c4a7ae5303d438c",
+      "status": "approved_native_revision_key",
+      "reason": "Actually compared source2970, first sleepy native and one loop correction. Added large outer tear-drop rear-hair loop removed into continuous downward blue locks, original neckC retained. Half-eye/small pout, hands/bell/shirt/source2970 wider window preserved.",
+      "native_overlay_clean": false,
+      "pose_local_transforms": false
+    },
+    {
+      "asset_id": "revision_intro_A_source36_B3_hair",
+      "source_frame": 36,
+      "path": "production/revision-v2/pair-root/generated/intro-A-thumb-fix.png",
+      "sha256": "fcd2df9eff42d6ff017e806f046d467fc528d879a58bbaa5d69bd8554dcfcaac",
+      "status": "approved_native_revision_key",
+      "reason": "Actually viewed final thumb correction: source-style right-projecting fifth thumb restored; source-aligned right-card group, face/large mouth, four fingers, r2 headwear/hair retained. Independent A-specific DeepSeek lettering required.",
+      "native_overlay_clean": false,
+      "pose_local_transforms": false,
+      "effect_behavior_id": "intro_palm_open",
+      "requires_identity_lettering": "intro_A_deepseek_lettering",
+      "minor_residual": "Bows remain17..21nativepx higher and20..29nativepx inward versusB3; small headwear position residual retained after bounded correction, no strand/root count change. Do not claim zero jitter."
+    },
+    {
+      "asset_id": "maid_paws_placard",
+      "source_frame": 2400,
+      "path": "production/revision-v2/pair-b/generated/maid-paws-placard-f02400-r2.png",
+      "sha256": "f57ff42be58ae3aa3ed7d067b2391256b2b451143189ea8a2a8e59f3c8b91d2a",
+      "status": "approved_native_revision_key",
+      "reason": "Actual r1/source and r2 viewed: duplicated lower image-left fin removed, one headwear set remains. Original maid clothing/paws/face/placard/leg/table and original outer outline preserved.",
+      "native_overlay_clean": false,
+      "pose_local_transforms": false
+    },
+    {
+      "asset_id": "table_neutral_empty_front",
+      "source_frame": 1686,
+      "path": "production/revision-v2/pair-b/generated/table-neutral-empty-front-f01686-r1.png",
+      "sha256": "1646c512b7d9997d25e2c51cb56c5dcc08a54f965356a4a590dce42674dcc717",
+      "status": "approved_native_revision_key",
+      "reason": "Actually viewed exact source1686 and native: full frontal empty hands below table; no invented held card; source33-4/table/left red card/shirt/crop retained, DS single-leaf/fringe/curls consistent.",
+      "native_overlay_clean": true,
+      "pose_local_transforms": false
+    },
+    {
+      "asset_id": "intro_A_deepseek_lettering",
+      "source_frame": 36,
+      "path": "production/revision-v2/pair-root/generated/intro-A-deepseek-lettering.png",
+      "sha256": "5c71f1b545e16006d9376dfc4942e5a26f35b242d5e909c54a2879503bc9fae8",
+      "status": "approved_native_revision_key",
+      "reason": "Actual isolated A-specific lettering viewed: DeepSeek/DS娘 replaces old name inside rectangular plaque print, no character content. Bind only to A action asset, B uses own lettering.",
+      "native_overlay_clean": true,
+      "pose_local_transforms": false,
+      "artifact_role": "independent_nameplaque_lettering"
+    }
+  ],
+  "not_yet_approved": [],
+  "approved_effects": [
+    {
+      "asset_id": "thinking_loading_spokes",
+      "path": "source/revision-v2/thinking-effects/events.json",
+      "sha256": "b9fd0392f12a67782d6db3fa6070674e7b5970929cc21f679a42c20fefebf3ea",
+      "status": "approved_bounded_visual_effect_sample",
+      "range": [
+        4634,
+        4747
+      ],
+      "reason": "Actually viewed7 source/light/dark/currentDS composites; only neutral rounded spokes with changing alpha, no source face/hair/background RGB."
+    },
+    {
+      "asset_id": "curtain_and_sigh_events",
+      "path": "source/revision-v2/overlay-events.json",
+      "sha256": "6b42c592cb8ff8420b10e1bb89c10f5bb0e5bb30dd02e6684f83ea2440740ca8",
+      "status": "approved_bounded_visual_effect_sample",
+      "reason": "Actual source/light/dark/DS representative curtain and sigh sheets viewed. Curtain contains pure purple panels with transparent central slit; sigh glyph alpha has no old face/hair RGB. Source font-style glyphs approximate and faint-tail event end is an acknowledged producer estimate."
+    }
+  ],
+  "scope": "This standalone revision whitelist is mergeable; no global adopted-assets, edit-plan or renderer modified. Pending/replaced assets must not be inferred as approved.",
+  "historical_rejected_candidates": [
+    {
+      "path": "production/revision-v2/pair-root/generated/intro-A-action-fix.png",
+      "reason": "right-card group retained B offset"
+    },
+    {
+      "path": "production/revision-v2/intro-a-action-correct/generated/intro-A-source36-B3-hair-only-r1.png",
+      "reason": "large headwear offset; inherited A2 missing thumb"
+    },
+    {
+      "path": "production/revision-v2/intro-a-action-correct/generated/intro-A-source36-B3-headwear-r2.png",
+      "reason": "headwear improved but source thumb missing; final thumb-fix supersedes"
+    },
+    {
+      "path": "production/revision-v2/pair-b/generated/maid-paws-placard-f02400-r1.png",
+      "reason": "duplicated fin"
+    },
+    {
+      "path": "production/revision-v2/pair-root/generated/fold-left-sleepy.png",
+      "reason": "extra large outer rear-hair loop"
+    }
+  ]
+}

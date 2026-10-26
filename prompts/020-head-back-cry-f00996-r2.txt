@@ -1,0 +1,7 @@
+Edit IMAGE1 itself, an otherwise approved complete 1672x941 MV frame. Make ONE bounded cleanup pass:
+
+Remove the remaining OLD GREEN HAIR PATCH visible through/next to the chair at image-right middle near x1450,y730, and any old green hair fragment continuing at the lower-right edge. Turn that old green hair into the same connected blue rear hair in this existing pose, or restore the source pink background only where no hair should be present. Preserve the chair post/back pixel geometry and color. Do not change any other hair or headwear.
+
+EVERYTHING else in IMAGE1 is frozen: exact source pose, face/head size/location/tilt, facial expression/eyes/mouth/chin unless explicitly named above, every hand/finger and UNO card contact/tilt/lettering, original white shirt/folds and white lower clothing, all already-correct DS hair/headwear topology/colors, current pink patterned scene/chair/table/cards/deck, speech polygon and all Japanese lettering, every Chinese caption/gray bar, fixed black square and camera/top/left/bottom cropping. Do not redesign the frame, remove source objects, add content, translate/retype/move text, shrink/lower/recenter/rotate/stretch or warp anything. Only the specifically listed local errors may visibly change.
+
+Return one opaque complete frame on the SAME1672x941 landscape canvas, no transparency or comparison panels, no labels/guides/watermarks.

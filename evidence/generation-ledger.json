@@ -1,0 +1,3560 @@
+{
+  "schema": "uno-public-generation-ledger-v1",
+  "actual_call_count": 130,
+  "raw_workspace_bytes_verified_locally": 130,
+  "export_note": "Absolute machine paths are normalized; public prompt hashes are distinct from original hashes if text changed. Rejected generations and some historical source references are not bundled. This is not a promise of seeded regeneration.",
+  "calls": [
+    {
+      "call_index": 1,
+      "production_group": "pair-a",
+      "asset_id": "pose-f003-hairlock-r1.png",
+      "tool": "Codex built-in image_gen",
+      "model_version": "not_exposed",
+      "seed": "not_exposed",
+      "source_frame": null,
+      "prompt": "prompts/001-pose-f003-hairlock-r1.txt",
+      "original_prompt_sha256": "b6b14347e2e3eb0fd1c3aca5f8883cbc024de64e7c740376cd5ca12771161939",
+      "public_prompt_sha256": "0d4ac5258c775627759629835cd208a666c48ac97bcc9c4979b235df46c84296",
+      "output_sha256": "a572f187c465cc0850d73d9834a6e7811b631e12bddbe5cf1502ffd1a7c94bae",
+      "output_in_asset_bundle": false,
+      "references": [
+        {
+          "path": "{workspace}/outputs/uno-drawn-pose-pilot-v3/generated/pose-f003-legacy-alpha-r1.png",
+          "sha256": "874c93a5efc1b73f1a86682e2763ddafc0ed0ca3fad61c637e3656b16a6c04ec"
+        },
+        {
+          "path": "{workspace}/outputs/uno-drawn-pose-pilot-v3/generated/pose-f005-r4.png",
+          "sha256": "c2c5a6ca9b42f46ada018bedeb46306ba942571f84ecd0286e1c887b8496073f"
+        },
+        {
+          "path": "{workspace}/outputs/uno-drawn-pose-pilot-v3/inputs/source-f003-equal-canvas.png",
+          "sha256": "b6d8a8e49c177187a0655e49c8bb47ea4c78d869986c0c40bbda0a4ed9b3045d"
+        }
+      ],
+      "status": "rejected_not_for_render"
+    },
+    {
+      "call_index": 2,
+      "production_group": "pair-a",
+      "asset_id": "intro-wave-B-f00042-r1.png",
+      "tool": "Codex built-in image_gen",
+      "model_version": "not_exposed",
+      "seed": "not_exposed",
+      "source_frame": null,
+      "prompt": "prompts/002-intro-wave-B-f00042-r1.txt",
+      "original_prompt_sha256": "de98b1a786c72d6b1e3934d0cbbc19dea18eafd6840b31605db949a9adb7d191",
+      "public_prompt_sha256": "98f5f857e5b2d9d18ab8995c840437961bf43bb3a36fd619c1f11372614b1b0b",
+      "output_sha256": "4eb37b867c899fef06b0c4ddd3c8cd15f768fb1088641c7d1b89d604d42b7d4f",
+      "output_in_asset_bundle": false,
+      "references": [
+        {
+          "path": "production/pair-a/inputs/source-f00042-equal-canvas.png",
+          "sha256": "dda9a405b43dc47e88854bb541d5d61f3a21709e17985e9b307c72f6322f5ee5"
+        },
+        {
+          "path": "production/pair-a/f005-connected-hair-only-reference.png",
+          "sha256": "53ec6d07ebcf2450235d2cdbede0828f50b58dbb8cab00447f4edc71ac40b7fa"
+        },
+        {
+          "path": "{workspace}/outputs/uno-continuity-pilot-v1/inputs/ds-user-reference.png",
+          "sha256": "80109a41d6cb87a68fea0618ea4183509eedc3418f03d2409586e2b3aeb9a784"
+        }
+      ],
+      "status": "superseded_needs_hair_cleanup"
+    },
+    {
+      "call_index": 3,
+      "production_group": "pair-a",
+      "asset_id": "intro-wave-B-f00042-r3.png",
+      "tool": "Codex built-in image_gen",
+      "model_version": "not_exposed",
+      "seed": "not_exposed",
+      "source_frame": null,
+      "prompt": "prompts/003-intro-wave-B-f00042-r3-edge-clean.txt",
+      "original_prompt_sha256": "7f0046deab72324c4c653e5847efe19583ba3f32ecc84d297a57e3cbe82c5790",
+      "public_prompt_sha256": "17e2aa63032a544fdd5b7fb5e8383e02bf5154e4b8b74bb1ac878f890efa9732",
+      "output_sha256": "d77161b5bbe5d72b63193083b4d69a1685a3742fddf193cfc8df4d4303d5488d",
+      "output_in_asset_bundle": true,
+      "references": [
+        {
+          "path": "production/pair-a/generated/intro-wave-B-f00042-r2.png",
+          "sha256": "d29fe4237694fec4dccd6a79fbd88e24d0ec86cbaf64a9172be9158edb975c11"
+        }
+      ],
+      "status": "adopted_by_independent_audit"
+    },
+    {
+      "call_index": 4,
+      "production_group": "pair-a",
+      "asset_id": "intro-wave-B-f00042-r2.png",
+      "tool": "Codex built-in image_gen",
+      "model_version": "not_exposed",
+      "seed": "not_exposed",
+      "source_frame": null,
+      "prompt": "prompts/004-intro-wave-B-f00042-r2-hair-only.txt",
+      "original_prompt_sha256": "78221b336f4109d58996f80f47f935a3235e6946302df9f0eed36ab915d8b808",
+      "public_prompt_sha256": "d96333912e35e71988523a7308ff94f9d0bf1300a651f4aa82846696740b5138",
+      "output_sha256": "d29fe4237694fec4dccd6a79fbd88e24d0ec86cbaf64a9172be9158edb975c11",
+      "output_in_asset_bundle": false,
+      "references": [
+        {
+          "path": "production/pair-a/generated/intro-wave-B-f00042-r1.png",
+          "sha256": "4eb37b867c899fef06b0c4ddd3c8cd15f768fb1088641c7d1b89d604d42b7d4f"
+        },
+        {
+          "path": "production/pair-a/f005-connected-hair-only-reference.png",
+          "sha256": "53ec6d07ebcf2450235d2cdbede0828f50b58dbb8cab00447f4edc71ac40b7fa"
+        }
+      ],
+      "status": "superseded_by_r3"
+    },
+    {
+      "call_index": 5,
+      "production_group": "pair-a",
+      "asset_id": "dab-rear-f00342-r1.png",
+      "tool": "Codex built-in image_gen",
+      "model_version": "not_exposed",
+      "seed": "not_exposed",
+      "source_frame": null,
+      "prompt": "prompts/005-dab-rear-f00342-r1.txt",
+      "original_prompt_sha256": "336c2c41ee3cfd6921f91ff6238fa06be932c05f18945931bc64077c2e354ea8",
+      "public_prompt_sha256": "336c2c41ee3cfd6921f91ff6238fa06be932c05f18945931bc64077c2e354ea8",
+      "output_sha256": "4a2b11f8d99aa51345c5988f1bc758b84331ff89c9558889bb83d4f3d93138cf",
+      "output_in_asset_bundle": true,
+      "references": [
+        {
+          "path": "production/pair-a/inputs/source-f00342-equal-canvas.png",
+          "sha256": "02f25bd0d3d122ee9503da30122aa96a17c16b81837303857a8c2a1055429e0e"
+        },
+        {
+          "path": "production/pair-a/f005-connected-hair-only-reference.png",
+          "sha256": "53ec6d07ebcf2450235d2cdbede0828f50b58dbb8cab00447f4edc71ac40b7fa"
+        },
+        {
+          "path": "{workspace}/outputs/uno-continuity-pilot-v1/inputs/ds-user-reference.png",
+          "sha256": "80109a41d6cb87a68fea0618ea4183509eedc3418f03d2409586e2b3aeb9a784"
+        }
+      ],
+      "status": "adopted_by_independent_audit"
+    },
+    {
+      "call_index": 6,
+      "production_group": "pair-a",
+      "asset_id": "surprise-side-f00426-r1.png",
+      "tool": "Codex built-in image_gen",
+      "model_version": "not_exposed",
+      "seed": "not_exposed",
+      "source_frame": null,
+      "prompt": "prompts/006-surprise-side-f00426-r1.txt",
+      "original_prompt_sha256": "642078d99262681c095cc7e93b256c98de5003a64515ac57de7e3fb88e768bf5",
+      "public_prompt_sha256": "642078d99262681c095cc7e93b256c98de5003a64515ac57de7e3fb88e768bf5",
+      "output_sha256": "4626a49eff0b4610dde3fa825e9715ddd7ff94685f15b73300485974dcdf670f",
+      "output_in_asset_bundle": false,
+      "references": [
+        {
+          "path": "production/pair-a/inputs/source-f00426-equal-canvas.png",
+          "sha256": "6ebff5635b24566d6d6874c9f718ceab28fdd7157e30e0ac6a4d08f9f1e8d494"
+        },
+        {
+          "path": "production/pair-a/f005-connected-hair-only-reference.png",
+          "sha256": "53ec6d07ebcf2450235d2cdbede0828f50b58dbb8cab00447f4edc71ac40b7fa"
+        },
+        {
+          "path": "{workspace}/outputs/uno-continuity-pilot-v1/inputs/ds-user-reference.png",
+          "sha256": "80109a41d6cb87a68fea0618ea4183509eedc3418f03d2409586e2b3aeb9a784"
+        }
+      ],
+      "status": "superseded_by_audited_targeted_repair"
+    },
+    {
+      "call_index": 7,
+      "production_group": "pair-a",
+      "asset_id": "taunt-left-close-f00456-r1.png",
+      "tool": "Codex built-in image_gen",
+      "model_version": "not_exposed",
+      "seed": "not_exposed",
+      "source_frame": null,
+      "prompt": "prompts/007-taunt-left-close-f00456-r1.txt",
+      "original_prompt_sha256": "235a2214ab92030d7d9ea6d073bc82716bec35bc32c79f2a079372591bcf1eb1",
+      "public_prompt_sha256": "235a2214ab92030d7d9ea6d073bc82716bec35bc32c79f2a079372591bcf1eb1",
+      "output_sha256": "d79927eca7b1a95512df99b7fef7c2c0a393c318eb1531b9f300039642438bdd",
+      "output_in_asset_bundle": true,
+      "references": [
+        {
+          "path": "production/pair-a/inputs/source-f00456-equal-canvas.png",
+          "sha256": "17d95532995dac37fe3bd622988d4d3aa6640311acd56da6c7abbacf05b53152"
+        },
+        {
+          "path": "production/pair-a/f005-connected-hair-only-reference.png",
+          "sha256": "53ec6d07ebcf2450235d2cdbede0828f50b58dbb8cab00447f4edc71ac40b7fa"
+        },
+        {
+          "path": "{workspace}/outputs/uno-continuity-pilot-v1/inputs/ds-user-reference.png",
+          "sha256": "80109a41d6cb87a68fea0618ea4183509eedc3418f03d2409586e2b3aeb9a784"
+        }
+      ],
+      "status": "adopted_by_independent_audit"
+    },
+    {
+      "call_index": 8,
+      "production_group": "pair-a",
+      "asset_id": "taunt-right-f00540-r1.png",
+      "tool": "Codex built-in image_gen",
+      "model_version": "not_exposed",
+      "seed": "not_exposed",
+      "source_frame": null,
+      "prompt": "prompts/008-taunt-right-f00540-r1.txt",
+      "original_prompt_sha256": "155726b3781544df0e04149c66bd01c83386b0156e2107127e449b0f64928064",
+      "public_prompt_sha256": "155726b3781544df0e04149c66bd01c83386b0156e2107127e449b0f64928064",
+      "output_sha256": "13af89653c858fd81e2e05d453449ea65b5989c2a5b42e0ee38f53e2e21b45f6",
+      "output_in_asset_bundle": true,
+      "references": [
+        {
+          "path": "production/pair-a/inputs/source-f00540-equal-canvas.png",
+          "sha256": "16a04e3e8138dc3c7fd27e5c9b674b9e37aa1b215e5e3e0ef4ae3135437dcc4e"
+        },
+        {
+          "path": "production/pair-a/f005-connected-hair-only-reference.png",
+          "sha256": "53ec6d07ebcf2450235d2cdbede0828f50b58dbb8cab00447f4edc71ac40b7fa"
+        },
+        {
+          "path": "{workspace}/outputs/uno-continuity-pilot-v1/inputs/ds-user-reference.png",
+          "sha256": "80109a41d6cb87a68fea0618ea4183509eedc3418f03d2409586e2b3aeb9a784"
+        }
+      ],
+      "status": "adopted_by_independent_audit"
+    },
+    {
+      "call_index": 9,
+      "production_group": "pair-a",
+      "asset_id": "point-above-f00612-r1.png",
+      "tool": "Codex built-in image_gen",
+      "model_version": "not_exposed",
+      "seed": "not_exposed",
+      "source_frame": null,
+      "prompt": "prompts/009-point-above-f00612-r1.txt",
+      "original_prompt_sha256": "28de2b41c05105c0dbcbb545730f68c257ae18bf80efe04ab5ce62010662f549",
+      "public_prompt_sha256": "28de2b41c05105c0dbcbb545730f68c257ae18bf80efe04ab5ce62010662f549",
+      "output_sha256": "fdc55b781f9cf91c02204c01eeff72435417fa645217b38b2d01754fc7c97d79",
+      "output_in_asset_bundle": true,
+      "references": [
+        {
+          "path": "production/pair-a/inputs/source-f00612-equal-canvas.png",
+          "sha256": "5f4da5f53b6d3b19e1aa7658663e2e67f17172be1f7dc53c75cf9de535c88a17"
+        },
+        {
+          "path": "production/pair-a/f005-connected-hair-only-reference.png",
+          "sha256": "53ec6d07ebcf2450235d2cdbede0828f50b58dbb8cab00447f4edc71ac40b7fa"
+        },
+        {
+          "path": "{workspace}/outputs/uno-continuity-pilot-v1/inputs/ds-user-reference.png",
+          "sha256": "80109a41d6cb87a68fea0618ea4183509eedc3418f03d2409586e2b3aeb9a784"
+        }
+      ],
+      "status": "adopted_by_independent_audit"
+    },
+    {
+      "call_index": 10,
+      "production_group": "pair-a",
+      "asset_id": "point-forward-f00624-r1.png",
+      "tool": "Codex built-in image_gen",
+      "model_version": "not_exposed",
+      "seed": "not_exposed",
+      "source_frame": null,
+      "prompt": "prompts/010-point-forward-f00624-r1.txt",
+      "original_prompt_sha256": "f271b123e78f2b562cd113ac6ec47625c0c4cd444700d9df57d338a194ac16ab",
+      "public_prompt_sha256": "f271b123e78f2b562cd113ac6ec47625c0c4cd444700d9df57d338a194ac16ab",
+      "output_sha256": "7a31d28bf2f3f19a024af5ee9adb2f59d6753800f365fbf5325bcf6fb794a2d8",
+      "output_in_asset_bundle": true,
+      "references": [
+        {
+          "path": "production/pair-a/inputs/source-f00624-equal-canvas.png",
+          "sha256": "a49f4ab3605b56264527a693fa102d136e1fec3cc6ddac37a15059561eef66c0"
+        },
+        {
+          "path": "production/pair-a/f005-connected-hair-only-reference.png",
+          "sha256": "53ec6d07ebcf2450235d2cdbede0828f50b58dbb8cab00447f4edc71ac40b7fa"
+        },
+        {
+          "path": "{workspace}/outputs/uno-continuity-pilot-v1/inputs/ds-user-reference.png",
+          "sha256": "80109a41d6cb87a68fea0618ea4183509eedc3418f03d2409586e2b3aeb9a784"
+        }
+      ],
+      "status": "adopted_by_independent_audit"
+    },
+    {
+      "call_index": 11,
+      "production_group": "pair-a",
+      "asset_id": "taunt-left-table-f00636-r1.png",
+      "tool": "Codex built-in image_gen",
+      "model_version": "not_exposed",
+      "seed": "not_exposed",
+      "source_frame": null,
+      "prompt": "prompts/011-taunt-left-table-f00636-r1.txt",
+      "original_prompt_sha256": "4f219439ad7cfb8116ef38a2561d6145a0e62764faa2a977aab6f0639421fb34",
+      "public_prompt_sha256": "4f219439ad7cfb8116ef38a2561d6145a0e62764faa2a977aab6f0639421fb34",
+      "output_sha256": "52de021f474fefa1a1b1bfe154e9eba434ad8937e3f3150c55e0bffc06cb18b9",
+      "output_in_asset_bundle": true,
+      "references": [
+        {
+          "path": "production/pair-a/inputs/source-f00636-equal-canvas.png",
+          "sha256": "db0d1932e028f67f1b34fcbf7421394201472e98b63ad6b1c5d41f133a8d6abf"
+        },
+        {
+          "path": "production/pair-a/f005-connected-hair-only-reference.png",
+          "sha256": "53ec6d07ebcf2450235d2cdbede0828f50b58dbb8cab00447f4edc71ac40b7fa"
+        },
+        {
+          "path": "{workspace}/outputs/uno-continuity-pilot-v1/inputs/ds-user-reference.png",
+          "sha256": "80109a41d6cb87a68fea0618ea4183509eedc3418f03d2409586e2b3aeb9a784"
+        }
+      ],
+      "status": "adopted_by_independent_audit"
+    },
+    {
+      "call_index": 12,
+      "production_group": "pair-a",
+      "asset_id": "taunt-right-close-f00738-r1.png",
+      "tool": "Codex built-in image_gen",
+      "model_version": "not_exposed",
+      "seed": "not_exposed",
+      "source_frame": null,
+      "prompt": "prompts/012-taunt-right-close-f00738-r1.txt",
+      "original_prompt_sha256": "7ea32d6c493c0b3392b1fcb71cc5e89f129580eb2b91484376055c86d45303ff",
+      "public_prompt_sha256": "7ea32d6c493c0b3392b1fcb71cc5e89f129580eb2b91484376055c86d45303ff",
+      "output_sha256": "29a6ac3f81cef93da3d58cce0f5b4c05dda38967f6cfe0f02d751cc6b7a7a2de",
+      "output_in_asset_bundle": true,
+      "references": [
+        {
+          "path": "production/pair-a/inputs/source-f00738-equal-canvas.png",
+          "sha256": "f1c452a8ec53c2ff9577c8e8a980d5e2ffc722b05bc2c19471d0d63b9b365d83"
+        },
+        {
+          "path": "production/pair-a/f005-connected-hair-only-reference.png",
+          "sha256": "53ec6d07ebcf2450235d2cdbede0828f50b58dbb8cab00447f4edc71ac40b7fa"
+        },
+        {
+          "path": "{workspace}/outputs/uno-continuity-pilot-v1/inputs/ds-user-reference.png",
+          "sha256": "80109a41d6cb87a68fea0618ea4183509eedc3418f03d2409586e2b3aeb9a784"
+        }
+      ],
+      "status": "adopted_by_independent_audit"
+    },
+    {
+      "call_index": 13,
+      "production_group": "pair-a",
+      "asset_id": "surprise-side-f00426-r2.png",
+      "tool": "Codex built-in image_gen",
+      "model_version": "not_exposed",
+      "seed": "not_exposed",
+      "source_frame": null,
+      "prompt": "prompts/013-surprise-side-f00426-r2.txt",
+      "original_prompt_sha256": "9e2b378e18a2495cf5f83d261b4d010521dea005fea6147ee00f5cfc9014dd85",
+      "public_prompt_sha256": "c00e17c0b163c4511ab477ad0c0bfa5ffdf816b5f911d9be7fb51d47d30c2460",
+      "output_sha256": "bde711e775526cf360f678f88710a1404ae0ac5c4109fed46a710096364f4a41",
+      "output_in_asset_bundle": true,
+      "references": [
+        {
+          "path": "production/pair-a/generated/surprise-side-f00426-r1.png",
+          "sha256": "4626a49eff0b4610dde3fa825e9715ddd7ff94685f15b73300485974dcdf670f"
+        },
+        {
+          "path": "production/pair-a/f005-connected-hair-only-reference.png",
+          "sha256": "53ec6d07ebcf2450235d2cdbede0828f50b58dbb8cab00447f4edc71ac40b7fa"
+        }
+      ],
+      "status": "adopted_by_independent_audit"
+    },
+    {
+      "call_index": 14,
+      "production_group": "pair-a",
+      "asset_id": "dark-center-card-f00804-r1.png",
+      "tool": "Codex built-in image_gen",
+      "model_version": "not_exposed",
+      "seed": "not_exposed",
+      "source_frame": null,
+      "prompt": "prompts/014-dark-center-card-f00804-r1.txt",
+      "original_prompt_sha256": "cf99d0b5e60de4e858c07eb32ba500652591aaf12a189acaf8be13c1d6eac5d7",
+      "public_prompt_sha256": "cf99d0b5e60de4e858c07eb32ba500652591aaf12a189acaf8be13c1d6eac5d7",
+      "output_sha256": "e21f725f3a80967fb41a9cf5e5355f818ada544f1b5c99857e0523609b980c79",
+      "output_in_asset_bundle": true,
+      "references": [
+        {
+          "path": "production/pair-a/inputs/source-f00804-equal-canvas.png",
+          "sha256": "f48501f7acbed8ad7f3df5f3305bd28dc9aad04e811b5d2e0fd2caff5c80db2b"
+        },
+        {
+          "path": "production/pair-b/inputs/center-r2-connected-hair-only-reference.png",
+          "sha256": "afb2c817fcb1407f63aaaa43975e0e8a4037107d37640f19633761640d4732ce"
+        },
+        {
+          "path": "{workspace}/outputs/uno-continuity-pilot-v1/inputs/ds-user-reference.png",
+          "sha256": "80109a41d6cb87a68fea0618ea4183509eedc3418f03d2409586e2b3aeb9a784"
+        }
+      ],
+      "status": "adopted_by_independent_audit"
+    },
+    {
+      "call_index": 15,
+      "production_group": "pair-a",
+      "asset_id": "dark-fingers-f00816-r1.png",
+      "tool": "Codex built-in image_gen",
+      "model_version": "not_exposed",
+      "seed": "not_exposed",
+      "source_frame": null,
+      "prompt": "prompts/015-dark-fingers-f00816-r1.txt",
+      "original_prompt_sha256": "3f92d5c85c31ab249fc62b04572b15fd3cd55e7d160a3239359d36ccfa16399a",
+      "public_prompt_sha256": "3f92d5c85c31ab249fc62b04572b15fd3cd55e7d160a3239359d36ccfa16399a",
+      "output_sha256": "1eda91325725da18b1e552b09e2f35d8d0ac96c92575715f20331d728f960745",
+      "output_in_asset_bundle": true,
+      "references": [
+        {
+          "path": "production/pair-a/inputs/source-f00816-equal-canvas.png",
+          "sha256": "89acf6a87179fbdb5181d62c2193197d216e2414fa0e8bb2c87da07180d2011e"
+        },
+        {
+          "path": "production/pair-b/inputs/center-r2-connected-hair-only-reference.png",
+          "sha256": "afb2c817fcb1407f63aaaa43975e0e8a4037107d37640f19633761640d4732ce"
+        },
+        {
+          "path": "{workspace}/outputs/uno-continuity-pilot-v1/inputs/ds-user-reference.png",
+          "sha256": "80109a41d6cb87a68fea0618ea4183509eedc3418f03d2409586e2b3aeb9a784"
+        }
+      ],
+      "status": "adopted_by_independent_audit"
+    },
+    {
+      "call_index": 16,
+      "production_group": "pair-a",
+      "asset_id": "wink-hand-f00984-r1.png",
+      "tool": "Codex built-in image_gen",
+      "model_version": "not_exposed",
+      "seed": "not_exposed",
+      "source_frame": null,
+      "prompt": "prompts/016-wink-hand-f00984-r1.txt",
+      "original_prompt_sha256": "657eb4249e07d03b8afbd379410767f5a5473f71d6ac78c2f4ef29dbc65e7447",
+      "public_prompt_sha256": "657eb4249e07d03b8afbd379410767f5a5473f71d6ac78c2f4ef29dbc65e7447",
+      "output_sha256": "dc1cfebc1ec2e65068002978b8903eae5e3683adffa815687551572000abc59f",
+      "output_in_asset_bundle": true,
+      "references": [
+        {
+          "path": "production/pair-a/inputs/source-f00984-equal-canvas.png",
+          "sha256": "02629ad838446f358dafcf563a4da713d7fef28ab2ebd239bd25e7d1ef96e74f"
+        },
+        {
+          "path": "production/pair-a/f005-connected-hair-only-reference.png",
+          "sha256": "53ec6d07ebcf2450235d2cdbede0828f50b58dbb8cab00447f4edc71ac40b7fa"
+        },
+        {
+          "path": "{workspace}/outputs/uno-continuity-pilot-v1/inputs/ds-user-reference.png",
+          "sha256": "80109a41d6cb87a68fea0618ea4183509eedc3418f03d2409586e2b3aeb9a784"
+        }
+      ],
+      "status": "adopted_by_independent_audit"
+    },
+    {
+      "call_index": 17,
+      "production_group": "pair-a",
+      "asset_id": "head-back-cry-f00996-r1.png",
+      "tool": "Codex built-in image_gen",
+      "model_version": "not_exposed",
+      "seed": "not_exposed",
+      "source_frame": null,
+      "prompt": "prompts/017-head-back-cry-f00996-r1.txt",
+      "original_prompt_sha256": "341f6e0f178ee959dfd4e434de7aab1618f47030b2bc5b6297576052b80557fd",
+      "public_prompt_sha256": "341f6e0f178ee959dfd4e434de7aab1618f47030b2bc5b6297576052b80557fd",
+      "output_sha256": "1a5efb26499a8ecc9e2739ae81f8a5cc3ea6498b225a5704155c9746cb661229",
+      "output_in_asset_bundle": false,
+      "references": [
+        {
+          "path": "production/pair-a/inputs/source-f00996-equal-canvas.png",
+          "sha256": "2a6357f8fd837c14f66a65d2d8d813d6fc8d9560d50750c25b17a6b844eef6bd"
+        },
+        {
+          "path": "production/pair-a/f005-connected-hair-only-reference.png",
+          "sha256": "53ec6d07ebcf2450235d2cdbede0828f50b58dbb8cab00447f4edc71ac40b7fa"
+        },
+        {
+          "path": "{workspace}/outputs/uno-continuity-pilot-v1/inputs/ds-user-reference.png",
+          "sha256": "80109a41d6cb87a68fea0618ea4183509eedc3418f03d2409586e2b3aeb9a784"
+        }
+      ],
+      "status": "superseded_by_audited_targeted_repair"
+    },
+    {
+      "call_index": 18,
+      "production_group": "pair-a",
+      "asset_id": "tease-forehead-A-f01020-r1.png",
+      "tool": "Codex built-in image_gen",
+      "model_version": "not_exposed",
+      "seed": "not_exposed",
+      "source_frame": null,
+      "prompt": "prompts/018-tease-forehead-A-f01020-r1.txt",
+      "original_prompt_sha256": "d672c7b0012f38cb38a5d4f213841af4091fccfbe7c32b8f1039170e1ca95120",
+      "public_prompt_sha256": "d672c7b0012f38cb38a5d4f213841af4091fccfbe7c32b8f1039170e1ca95120",
+      "output_sha256": "3a96fdf88358e338388874bbb074452df2a199190748fcdf90632a69794afaa0",
+      "output_in_asset_bundle": false,
+      "references": [
+        {
+          "path": "production/pair-a/inputs/source-f01020-equal-canvas.png",
+          "sha256": "617a0d4b7052a203711614981ef326fdce2dd00eed391c04ada4b77a707b06e1"
+        },
+        {
+          "path": "production/pair-a/f005-connected-hair-only-reference.png",
+          "sha256": "53ec6d07ebcf2450235d2cdbede0828f50b58dbb8cab00447f4edc71ac40b7fa"
+        },
+        {
+          "path": "{workspace}/outputs/uno-continuity-pilot-v1/inputs/ds-user-reference.png",
+          "sha256": "80109a41d6cb87a68fea0618ea4183509eedc3418f03d2409586e2b3aeb9a784"
+        }
+      ],
+      "status": "superseded_by_audited_targeted_repair"
+    },
+    {
+      "call_index": 19,
+      "production_group": "pair-a",
+      "asset_id": "lean-forehead-close-f01044-r1.png",
+      "tool": "Codex built-in image_gen",
+      "model_version": "not_exposed",
+      "seed": "not_exposed",
+      "source_frame": null,
+      "prompt": "prompts/019-lean-forehead-close-f01044-r1.txt",
+      "original_prompt_sha256": "6fd68787d37b5e9eafa39d799774197b099f9f041a7eaa7240f5676ac1c78dec",
+      "public_prompt_sha256": "6fd68787d37b5e9eafa39d799774197b099f9f041a7eaa7240f5676ac1c78dec",
+      "output_sha256": "55967dc85f0ef62a83b7716049dc655069fa615a4bcbf88fb67d7f86569588a4",
+      "output_in_asset_bundle": false,
+      "references": [
+        {
+          "path": "production/pair-a/inputs/source-f01044-equal-canvas.png",
+          "sha256": "4429d8dad74837d560dfb599bd1a5b20f541c59739aa456b2e6bd107b798aaf3"
+        },
+        {
+          "path": "production/pair-a/f005-connected-hair-only-reference.png",
+          "sha256": "53ec6d07ebcf2450235d2cdbede0828f50b58dbb8cab00447f4edc71ac40b7fa"
+        },
+        {
+          "path": "{workspace}/outputs/uno-continuity-pilot-v1/inputs/ds-user-reference.png",
+          "sha256": "80109a41d6cb87a68fea0618ea4183509eedc3418f03d2409586e2b3aeb9a784"
+        }
+      ],
+      "status": "superseded_by_audited_targeted_repair"
+    },
+    {
+      "call_index": 20,
+      "production_group": "pair-a",
+      "asset_id": "head-back-cry-f00996-r2.png",
+      "tool": "Codex built-in image_gen",
+      "model_version": "not_exposed",
+      "seed": "not_exposed",
+      "source_frame": null,
+      "prompt": "prompts/020-head-back-cry-f00996-r2.txt",
+      "original_prompt_sha256": "5d38c3f4bb53feb9f462de570c9c39c911913a9d6e8a6e9c43bc41cd39d76eb8",
+      "public_prompt_sha256": "7d1dad3fb77fcdda57432a7f3b4f16034dcfc8e33ae7e7742b682544188e814d",
+      "output_sha256": "f0d61aee6123a583eccb7b0342296c5b32aed19a055e0ecf5ada551ae3ac8768",
+      "output_in_asset_bundle": true,
+      "references": [
+        {
+          "path": "production/pair-a/generated/head-back-cry-f00996-r1.png",
+          "sha256": "1a5efb26499a8ecc9e2739ae81f8a5cc3ea6498b225a5704155c9746cb661229"
+        }
+      ],
+      "status": "adopted_by_independent_audit"
+    },
+    {
+      "call_index": 21,
+      "production_group": "pair-a",
+      "asset_id": "tease-forehead-A-f01020-r2.png",
+      "tool": "Codex built-in image_gen",
+      "model_version": "not_exposed",
+      "seed": "not_exposed",
+      "source_frame": null,
+      "prompt": "prompts/021-tease-forehead-A-f01020-r2.txt",
+      "original_prompt_sha256": "5170874d125846d8354bdd4844d243b8d7551a08fb37425aeaa2e8a750e32db3",
+      "public_prompt_sha256": "8f8ecb07d7960c97000c4002576507f971c83aac1d4496b0560818d6afd8e0d0",
+      "output_sha256": "41fb480a46950fb64ec30a7f971eca8199da91ba8d4c9e43200c98a20eacdf62",
+      "output_in_asset_bundle": true,
+      "references": [
+        {
+          "path": "production/pair-a/generated/tease-forehead-A-f01020-r1.png",
+          "sha256": "3a96fdf88358e338388874bbb074452df2a199190748fcdf90632a69794afaa0"
+        },
+        {
+          "path": "production/pair-a/inputs/source-f01020-equal-canvas.png",
+          "sha256": "617a0d4b7052a203711614981ef326fdce2dd00eed391c04ada4b77a707b06e1"
+        }
+      ],
+      "status": "adopted_by_independent_audit"
+    },
+    {
+      "call_index": 22,
+      "production_group": "pair-a",
+      "asset_id": "lean-forehead-close-f01044-r2.png",
+      "tool": "Codex built-in image_gen",
+      "model_version": "not_exposed",
+      "seed": "not_exposed",
+      "source_frame": null,
+      "prompt": "prompts/022-lean-forehead-close-f01044-r2.txt",
+      "original_prompt_sha256": "8bf9519bb729848cd9c727775668bfd3481f22761a0c38bf438c0ed67203f323",
+      "public_prompt_sha256": "aa738369d12e30d1c6a8994bd8b442ac12a6bea087971bd8ae0055583d0a8ff2",
+      "output_sha256": "fb4cf069f58e8994bcc1d4acaac605428d63ed82ecc2ffe64070dc02c1d4351a",
+      "output_in_asset_bundle": true,
+      "references": [
+        {
+          "path": "production/pair-a/generated/lean-forehead-close-f01044-r1.png",
+          "sha256": "55967dc85f0ef62a83b7716049dc655069fa615a4bcbf88fb67d7f86569588a4"
+        }
+      ],
+      "status": "adopted_by_independent_audit"
+    },
+    {
+      "call_index": 23,
+      "production_group": "pair-a",
+      "asset_id": "lean-forehead-wide-f01056-r1.png",
+      "tool": "Codex built-in image_gen",
+      "model_version": "not_exposed",
+      "seed": "not_exposed",
+      "source_frame": null,
+      "prompt": "prompts/023-lean-forehead-wide-f01056-r1.txt",
+      "original_prompt_sha256": "2bc61d4aea3a128e22c2ef9184c2218b72888523b378d79239690099267df3ef",
+      "public_prompt_sha256": "2bc61d4aea3a128e22c2ef9184c2218b72888523b378d79239690099267df3ef",
+      "output_sha256": "add7cd547fd3d454e722ac796916d6786c919e6f0a7fcdd85d5233236d5e1d57",
+      "output_in_asset_bundle": true,
+      "references": [
+        {
+          "path": "production/pair-a/inputs/source-f01056-equal-canvas.png",
+          "sha256": "33b72b922b1f3fa716790ff45b6a917a90d2d5b7aa0b5f744b8108e1cee9c81c"
+        },
+        {
+          "path": "production/pair-a/f005-connected-hair-only-reference.png",
+          "sha256": "53ec6d07ebcf2450235d2cdbede0828f50b58dbb8cab00447f4edc71ac40b7fa"
+        },
+        {
+          "path": "{workspace}/outputs/uno-continuity-pilot-v1/inputs/ds-user-reference.png",
+          "sha256": "80109a41d6cb87a68fea0618ea4183509eedc3418f03d2409586e2b3aeb9a784"
+        }
+      ],
+      "status": "adopted_by_independent_audit"
+    },
+    {
+      "call_index": 24,
+      "production_group": "pair-a",
+      "asset_id": "tease-flip-f01080-r1.png",
+      "tool": "Codex built-in image_gen",
+      "model_version": "not_exposed",
+      "seed": "not_exposed",
+      "source_frame": null,
+      "prompt": "prompts/024-tease-flip-f01080-r1.txt",
+      "original_prompt_sha256": "336d189b858873a2d56f5b0d25aefba382a8745c9cba1d970bacde9d24ac25e0",
+      "public_prompt_sha256": "336d189b858873a2d56f5b0d25aefba382a8745c9cba1d970bacde9d24ac25e0",
+      "output_sha256": "979d4c34dde622bd0ba9baf3bc55c140212f6b2c8cc1022177c7d0044f57792b",
+      "output_in_asset_bundle": true,
+      "references": [
+        {
+          "path": "production/pair-a/inputs/source-f01080-equal-canvas.png",
+          "sha256": "6f83eb1348134d819b4a5c464b615b3dcf11ab7d144938091c8d94c8881c7eb6"
+        },
+        {
+          "path": "production/pair-a/f005-connected-hair-only-reference.png",
+          "sha256": "53ec6d07ebcf2450235d2cdbede0828f50b58dbb8cab00447f4edc71ac40b7fa"
+        },
+        {
+          "path": "{workspace}/outputs/uno-continuity-pilot-v1/inputs/ds-user-reference.png",
+          "sha256": "80109a41d6cb87a68fea0618ea4183509eedc3418f03d2409586e2b3aeb9a784"
+        }
+      ],
+      "status": "adopted_by_independent_audit"
+    },
+    {
+      "call_index": 25,
+      "production_group": "pair-a",
+      "asset_id": "cheek-close-f01092-r1.png",
+      "tool": "Codex built-in image_gen",
+      "model_version": "not_exposed",
+      "seed": "not_exposed",
+      "source_frame": null,
+      "prompt": "prompts/025-cheek-close-f01092-r1.txt",
+      "original_prompt_sha256": "97ba35d3477ce872f098bbc37d8b2830de307c1dd025e7ad944d156220b0d34a",
+      "public_prompt_sha256": "97ba35d3477ce872f098bbc37d8b2830de307c1dd025e7ad944d156220b0d34a",
+      "output_sha256": "bb1a19f9225b6a199b826f7e06d744be91445f6e64475357ce5b693da2bf75e9",
+      "output_in_asset_bundle": true,
+      "references": [
+        {
+          "path": "production/pair-a/inputs/source-f01092-equal-canvas.png",
+          "sha256": "303f6bbbceda4744fc7fcafaf8d369d9a1084aff857205d488fe4ff703af96ee"
+        },
+        {
+          "path": "production/pair-a/f005-connected-hair-only-reference.png",
+          "sha256": "53ec6d07ebcf2450235d2cdbede0828f50b58dbb8cab00447f4edc71ac40b7fa"
+        },
+        {
+          "path": "{workspace}/outputs/uno-continuity-pilot-v1/inputs/ds-user-reference.png",
+          "sha256": "80109a41d6cb87a68fea0618ea4183509eedc3418f03d2409586e2b3aeb9a784"
+        }
+      ],
+      "status": "adopted_by_independent_audit"
+    },
+    {
+      "call_index": 26,
+      "production_group": "pair-a",
+      "asset_id": "tease-forehead-B-f01032-r1.png",
+      "tool": "Codex built-in image_gen",
+      "model_version": "not_exposed",
+      "seed": "not_exposed",
+      "source_frame": null,
+      "prompt": "prompts/026-tease-forehead-B-f01032-r1.txt",
+      "original_prompt_sha256": "c65543c92c83ee1449f463c6433176c6452311bf34fb9b80a9ea0aaf64cb8036",
+      "public_prompt_sha256": "c65543c92c83ee1449f463c6433176c6452311bf34fb9b80a9ea0aaf64cb8036",
+      "output_sha256": "704b58db82be95055ab1e8e4fc0e567d0692422e745e6e18c580eac16fee1085",
+      "output_in_asset_bundle": false,
+      "references": [
+        {
+          "path": "production/pair-a/inputs/source-f01032-equal-canvas.png",
+          "sha256": "04ccb1b6e13076fdc143bb148e986db76b0fe830d33962a6d8d28a5098381544"
+        },
+        {
+          "path": "production/pair-a/f005-connected-hair-only-reference.png",
+          "sha256": "53ec6d07ebcf2450235d2cdbede0828f50b58dbb8cab00447f4edc71ac40b7fa"
+        },
+        {
+          "path": "{workspace}/outputs/uno-continuity-pilot-v1/inputs/ds-user-reference.png",
+          "sha256": "80109a41d6cb87a68fea0618ea4183509eedc3418f03d2409586e2b3aeb9a784"
+        },
+        {
+          "path": "production/pair-a/inputs/forehead-A1020-r2-connected-hair-only.png",
+          "sha256": "fdf19b68bc5a9a847d4f6b3ce21765af33cb18bc9df2728fca5e7bec6c1f81e0"
+        }
+      ],
+      "status": "superseded_by_audited_targeted_repair"
+    },
+    {
+      "call_index": 27,
+      "production_group": "pair-a",
+      "asset_id": "cover-eyes-f01110-r1.png",
+      "tool": "Codex built-in image_gen",
+      "model_version": "not_exposed",
+      "seed": "not_exposed",
+      "source_frame": null,
+      "prompt": "prompts/027-cover-eyes-f01110-r1.txt",
+      "original_prompt_sha256": "a3a06e07466b46530aa3a404ed21766b9ef8c0afbfe46af6bb143efe9ecd1798",
+      "public_prompt_sha256": "a3a06e07466b46530aa3a404ed21766b9ef8c0afbfe46af6bb143efe9ecd1798",
+      "output_sha256": "0755792503ea586cd80a26d2c87f70ba9d78fc22cce7f3989806cdedb952fb9e",
+      "output_in_asset_bundle": true,
+      "references": [
+        {
+          "path": "production/pair-a/inputs/source-f01110-equal-canvas.png",
+          "sha256": "dc785d3beb21afb34a0637f44597910f66ed1790892b5de434baf7d8228ef5b0"
+        },
+        {
+          "path": "production/pair-b/inputs/center-r2-connected-hair-only-reference.png",
+          "sha256": "afb2c817fcb1407f63aaaa43975e0e8a4037107d37640f19633761640d4732ce"
+        },
+        {
+          "path": "{workspace}/outputs/uno-continuity-pilot-v1/inputs/ds-user-reference.png",
+          "sha256": "80109a41d6cb87a68fea0618ea4183509eedc3418f03d2409586e2b3aeb9a784"
+        }
+      ],
+      "status": "adopted_by_independent_audit"
+    },
+    {
+      "call_index": 28,
+      "production_group": "pair-a",
+      "asset_id": "creep-palms-f01122-r1.png",
+      "tool": "Codex built-in image_gen",
+      "model_version": "not_exposed",
+      "seed": "not_exposed",
+      "source_frame": null,
+      "prompt": "prompts/028-creep-palms-f01122-r1.txt",
+      "original_prompt_sha256": "553b47435432f29f37880a78662461c5fc722911c82e5a51ac7253c6edd068a2",
+      "public_prompt_sha256": "553b47435432f29f37880a78662461c5fc722911c82e5a51ac7253c6edd068a2",
+      "output_sha256": "bbe367b15b1e6e9f9a3248c2bc34d1083d3c2702eb605d301563c956af35d39f",
+      "output_in_asset_bundle": true,
+      "references": [
+        {
+          "path": "production/pair-a/inputs/source-f01122-equal-canvas.png",
+          "sha256": "d42fe713d0cdc2688484974632385ef474d06c872321e8c3bed4f8dc65ed9542"
+        },
+        {
+          "path": "production/pair-b/inputs/center-r2-connected-hair-only-reference.png",
+          "sha256": "afb2c817fcb1407f63aaaa43975e0e8a4037107d37640f19633761640d4732ce"
+        },
+        {
+          "path": "{workspace}/outputs/uno-continuity-pilot-v1/inputs/ds-user-reference.png",
+          "sha256": "80109a41d6cb87a68fea0618ea4183509eedc3418f03d2409586e2b3aeb9a784"
+        }
+      ],
+      "status": "adopted_by_independent_audit"
+    },
+    {
+      "call_index": 29,
+      "production_group": "pair-a",
+      "asset_id": "explain-palms-A-f01134-r1.png",
+      "tool": "Codex built-in image_gen",
+      "model_version": "not_exposed",
+      "seed": "not_exposed",
+      "source_frame": null,
+      "prompt": "prompts/029-explain-palms-A-f01134-r1.txt",
+      "original_prompt_sha256": "674e1566dcee6732871226ffba4538371c030037dedbc865ca38a4ef5954b7cf",
+      "public_prompt_sha256": "674e1566dcee6732871226ffba4538371c030037dedbc865ca38a4ef5954b7cf",
+      "output_sha256": "df0a43ecf0740661de18b62c866e3887ff549550d1469fee66238b272ada1f9a",
+      "output_in_asset_bundle": false,
+      "references": [
+        {
+          "path": "production/pair-a/inputs/source-f01134-equal-canvas.png",
+          "sha256": "f856aa91ff10751e4051e1de585006de995f769553aeb7bf0a8e060946d4b205"
+        },
+        {
+          "path": "production/pair-b/inputs/center-r2-connected-hair-only-reference.png",
+          "sha256": "afb2c817fcb1407f63aaaa43975e0e8a4037107d37640f19633761640d4732ce"
+        },
+        {
+          "path": "{workspace}/outputs/uno-continuity-pilot-v1/inputs/ds-user-reference.png",
+          "sha256": "80109a41d6cb87a68fea0618ea4183509eedc3418f03d2409586e2b3aeb9a784"
+        }
+      ],
+      "status": "superseded_by_audited_targeted_repair"
+    },
+    {
+      "call_index": 30,
+      "production_group": "pair-a",
+      "asset_id": "shush-f01158-r1.png",
+      "tool": "Codex built-in image_gen",
+      "model_version": "not_exposed",
+      "seed": "not_exposed",
+      "source_frame": null,
+      "prompt": "prompts/030-shush-f01158-r1.txt",
+      "original_prompt_sha256": "795ec989f057dae936fc519f0ee102fe1b0a4d29b3743be0b864c92014144e33",
+      "public_prompt_sha256": "795ec989f057dae936fc519f0ee102fe1b0a4d29b3743be0b864c92014144e33",
+      "output_sha256": "ee80ab56c934363ec8ef48a6f79c3aee2df7633b68a895f490e130a3db7bc14c",
+      "output_in_asset_bundle": true,
+      "references": [
+        {
+          "path": "production/pair-a/inputs/source-f01158-equal-canvas.png",
+          "sha256": "fef96f2698c4be3f54c544a864bb264e0a9668acc76bf8a298c87ae584ac1d34"
+        },
+        {
+          "path": "production/pair-b/inputs/center-r2-connected-hair-only-reference.png",
+          "sha256": "afb2c817fcb1407f63aaaa43975e0e8a4037107d37640f19633761640d4732ce"
+        },
+        {
+          "path": "{workspace}/outputs/uno-continuity-pilot-v1/inputs/ds-user-reference.png",
+          "sha256": "80109a41d6cb87a68fea0618ea4183509eedc3418f03d2409586e2b3aeb9a784"
+        }
+      ],
+      "status": "adopted_by_independent_audit"
+    },
+    {
+      "call_index": 31,
+      "production_group": "pair-a",
+      "asset_id": "game-set-f01290-r1.png",
+      "tool": "Codex built-in image_gen",
+      "model_version": "not_exposed",
+      "seed": "not_exposed",
+      "source_frame": null,
+      "prompt": "prompts/031-game-set-f01290-r1.txt",
+      "original_prompt_sha256": "e6cf4e390d68b18ef323dbf3660ba521c840d7f8b15a8e7f950f1729af0369b7",
+      "public_prompt_sha256": "e6cf4e390d68b18ef323dbf3660ba521c840d7f8b15a8e7f950f1729af0369b7",
+      "output_sha256": "fba1073a6a9930e7bc49e1bb730c352ea5924ee5a8511bcb4717afcb5adf3209",
+      "output_in_asset_bundle": true,
+      "references": [
+        {
+          "path": "production/pair-a/inputs/source-f01290-equal-canvas.png",
+          "sha256": "671fe834d61a426308f3a0170ad4faad43b10098a86f9b2336494db006406828"
+        },
+        {
+          "path": "production/pair-b/inputs/center-r2-connected-hair-only-reference.png",
+          "sha256": "afb2c817fcb1407f63aaaa43975e0e8a4037107d37640f19633761640d4732ce"
+        },
+        {
+          "path": "{workspace}/outputs/uno-continuity-pilot-v1/inputs/ds-user-reference.png",
+          "sha256": "80109a41d6cb87a68fea0618ea4183509eedc3418f03d2409586e2b3aeb9a784"
+        }
+      ],
+      "status": "adopted_by_independent_audit"
+    },
+    {
+      "call_index": 32,
+      "production_group": "pair-a",
+      "asset_id": "raise-card-f01308-r1.png",
+      "tool": "Codex built-in image_gen",
+      "model_version": "not_exposed",
+      "seed": "not_exposed",
+      "source_frame": null,
+      "prompt": "prompts/032-raise-card-f01308-r1.txt",
+      "original_prompt_sha256": "d24d341ba774b161368570431ebb3b4c576f03478cf806ee7377db1135b6435d",
+      "public_prompt_sha256": "d24d341ba774b161368570431ebb3b4c576f03478cf806ee7377db1135b6435d",
+      "output_sha256": "f27456d4c3b35f26ce86e19428327a27216ca5f6e8a6baee12a18b9b5cd8d5e8",
+      "output_in_asset_bundle": true,
+      "references": [
+        {
+          "path": "production/pair-a/inputs/source-f01308-equal-canvas.png",
+          "sha256": "2ec4f220ba0ce017b7ad40d62894c9d738c5453c8921ae089e6b8a61ab9fee1c"
+        },
+        {
+          "path": "production/pair-b/inputs/center-r2-connected-hair-only-reference.png",
+          "sha256": "afb2c817fcb1407f63aaaa43975e0e8a4037107d37640f19633761640d4732ce"
+        },
+        {
+          "path": "{workspace}/outputs/uno-continuity-pilot-v1/inputs/ds-user-reference.png",
+          "sha256": "80109a41d6cb87a68fea0618ea4183509eedc3418f03d2409586e2b3aeb9a784"
+        }
+      ],
+      "status": "adopted_by_independent_audit"
+    },
+    {
+      "call_index": 33,
+      "production_group": "pair-a",
+      "asset_id": "glow-eye-f01326-r1.png",
+      "tool": "Codex built-in image_gen",
+      "model_version": "not_exposed",
+      "seed": "not_exposed",
+      "source_frame": null,
+      "prompt": "prompts/033-glow-eye-f01326-r1.txt",
+      "original_prompt_sha256": "2db7e9eff08899d70a049175603c8219837cd52590923863e10e7dcfe777f77e",
+      "public_prompt_sha256": "2db7e9eff08899d70a049175603c8219837cd52590923863e10e7dcfe777f77e",
+      "output_sha256": "10af9b82f3128898d8c8c8506061f125556b878a33791a5eb51ff2cae174c2b4",
+      "output_in_asset_bundle": false,
+      "references": [
+        {
+          "path": "production/pair-a/inputs/source-f01326-equal-canvas.png",
+          "sha256": "f638d4830e50429ef3eed83413b77a405f0d18e21ea0d274521d4e2664f247c3"
+        },
+        {
+          "path": "production/pair-b/inputs/center-r2-connected-hair-only-reference.png",
+          "sha256": "afb2c817fcb1407f63aaaa43975e0e8a4037107d37640f19633761640d4732ce"
+        },
+        {
+          "path": "{workspace}/outputs/uno-continuity-pilot-v1/inputs/ds-user-reference.png",
+          "sha256": "80109a41d6cb87a68fea0618ea4183509eedc3418f03d2409586e2b3aeb9a784"
+        }
+      ],
+      "status": "superseded_by_audited_targeted_repair"
+    },
+    {
+      "call_index": 34,
+      "production_group": "pair-a",
+      "asset_id": "victory-arms-f01338-r1.png",
+      "tool": "Codex built-in image_gen",
+      "model_version": "not_exposed",
+      "seed": "not_exposed",
+      "source_frame": null,
+      "prompt": "prompts/034-victory-arms-f01338-r1.txt",
+      "original_prompt_sha256": "351d7ff9634f2151e2ccd6cb2706eeac635f57a9479613fddfc7721f4080a3ff",
+      "public_prompt_sha256": "351d7ff9634f2151e2ccd6cb2706eeac635f57a9479613fddfc7721f4080a3ff",
+      "output_sha256": "4080066695dba94f3a635b60e87ec35ce0a1c508a6f0cd8a84de7ce435234ef6",
+      "output_in_asset_bundle": true,
+      "references": [
+        {
+          "path": "production/pair-a/inputs/source-f01338-equal-canvas.png",
+          "sha256": "bea4be6429604b1cd3b35d9434797f19de5c9c07143f1dbe40d3889140a7b7dc"
+        },
+        {
+          "path": "production/pair-b/inputs/center-r2-connected-hair-only-reference.png",
+          "sha256": "afb2c817fcb1407f63aaaa43975e0e8a4037107d37640f19633761640d4732ce"
+        },
+        {
+          "path": "{workspace}/outputs/uno-continuity-pilot-v1/inputs/ds-user-reference.png",
+          "sha256": "80109a41d6cb87a68fea0618ea4183509eedc3418f03d2409586e2b3aeb9a784"
+        }
+      ],
+      "status": "adopted_by_independent_audit"
+    },
+    {
+      "call_index": 35,
+      "production_group": "pair-a",
+      "asset_id": "comic-panel-f00234-r1.png",
+      "tool": "Codex built-in image_gen",
+      "model_version": "not_exposed",
+      "seed": "not_exposed",
+      "source_frame": null,
+      "prompt": "prompts/035-comic-panel-f00234-r1.txt",
+      "original_prompt_sha256": "84809a46bf67137463802e4ee9cf354646e2860f966c34c907c9e62d46ed5ba5",
+      "public_prompt_sha256": "84809a46bf67137463802e4ee9cf354646e2860f966c34c907c9e62d46ed5ba5",
+      "output_sha256": "fb971cdac006c01099a4414493e10cbbb8364983ba1835ee531ec02d2bd77689",
+      "output_in_asset_bundle": false,
+      "references": [
+        {
+          "path": "production/pair-a/inputs/source-f00234-equal-canvas.png",
+          "sha256": "71a9a33780d22d33b405fbe67bb4e3a12cb2ae68106060dd6695af93f275c4a5"
+        },
+        {
+          "path": "production/pair-a/f005-connected-hair-only-reference.png",
+          "sha256": "53ec6d07ebcf2450235d2cdbede0828f50b58dbb8cab00447f4edc71ac40b7fa"
+        }
+      ],
+      "status": "superseded_by_audited_targeted_repair"
+    },
+    {
+      "call_index": 36,
+      "production_group": "pair-a",
+      "asset_id": "mouth-horizontal-f00960-r1.png",
+      "tool": "Codex built-in image_gen",
+      "model_version": "not_exposed",
+      "seed": "not_exposed",
+      "source_frame": null,
+      "prompt": "prompts/036-mouth-horizontal-f00960-r1.txt",
+      "original_prompt_sha256": "b1f49884864c465d9d36296ce046bc5ccefe5e1a052152544fc6bafc647a67d7",
+      "public_prompt_sha256": "b1f49884864c465d9d36296ce046bc5ccefe5e1a052152544fc6bafc647a67d7",
+      "output_sha256": "2d6e407b240dbe8314dc7929409ca7b57f1ced05e8fdf7ea4b1a4b73c59a427f",
+      "output_in_asset_bundle": true,
+      "references": [
+        {
+          "path": "production/pair-a/inputs/source-f00960-equal-canvas.png",
+          "sha256": "73ae520ca91da9b96fd6b675bd348a3439e3b4cee2ed814dc7b0ff49f3b13544"
+        },
+        {
+          "path": "production/pair-a/f005-connected-hair-only-reference.png",
+          "sha256": "53ec6d07ebcf2450235d2cdbede0828f50b58dbb8cab00447f4edc71ac40b7fa"
+        }
+      ],
+      "status": "adopted_by_independent_audit"
+    },
+    {
+      "call_index": 37,
+      "production_group": "pair-a",
+      "asset_id": "mouth-vertical-f03156-r1.png",
+      "tool": "Codex built-in image_gen",
+      "model_version": "not_exposed",
+      "seed": "not_exposed",
+      "source_frame": null,
+      "prompt": "prompts/037-mouth-vertical-f03156-r1.txt",
+      "original_prompt_sha256": "13f6929f990153e438aec7fa665e1ed9d5c81d4e59ef92d038333a3aed6e68ff",
+      "public_prompt_sha256": "13f6929f990153e438aec7fa665e1ed9d5c81d4e59ef92d038333a3aed6e68ff",
+      "output_sha256": "06f7a6083abebeaeb0738cf4d27594ab9b012b4b96d2013f9c84effbb8db5bf6",
+      "output_in_asset_bundle": true,
+      "references": [
+        {
+          "path": "production/pair-a/inputs/source-f03156-equal-canvas.png",
+          "sha256": "8de1e0eecda19b5384bd97ce5e942db54681dfed049d08d57245cabb672df830"
+        },
+        {
+          "path": "production/pair-a/f005-connected-hair-only-reference.png",
+          "sha256": "53ec6d07ebcf2450235d2cdbede0828f50b58dbb8cab00447f4edc71ac40b7fa"
+        }
+      ],
+      "status": "adopted_by_independent_audit"
+    },
+    {
+      "call_index": 38,
+      "production_group": "pair-a",
+      "asset_id": "explain-palms-A-f01134-r2.png",
+      "tool": "Codex built-in image_gen",
+      "model_version": "not_exposed",
+      "seed": "not_exposed",
+      "source_frame": null,
+      "prompt": "prompts/038-explain-palms-A-f01134-r2.txt",
+      "original_prompt_sha256": "a74245369426601a5f1f4a540728cdfac08dccc7f83455966e764f94783b08b6",
+      "public_prompt_sha256": "c830da37bfe6693ad420d22ed07a2d33e880f56d9ae000a6f02ce891d852831d",
+      "output_sha256": "90c1c5972be6a0ad68c73474faa7213a5f47f70e9a16d724298cc39647524e1d",
+      "output_in_asset_bundle": true,
+      "references": [
+        {
+          "path": "production/pair-a/generated/explain-palms-A-f01134-r1.png",
+          "sha256": "df0a43ecf0740661de18b62c866e3887ff549550d1469fee66238b272ada1f9a"
+        }
+      ],
+      "status": "adopted_by_independent_audit"
+    },
+    {
+      "call_index": 39,
+      "production_group": "pair-a",
+      "asset_id": "comic-panel-f00234-r2.png",
+      "tool": "Codex built-in image_gen",
+      "model_version": "not_exposed",
+      "seed": "not_exposed",
+      "source_frame": null,
+      "prompt": "prompts/039-comic-panel-f00234-r2.txt",
+      "original_prompt_sha256": "baadc5663bdf62e308c53a627a45269aaae0d5633009d9e938c853b19d8711d6",
+      "public_prompt_sha256": "102067e4a065a4235634e83372c4985a824f28cb9a2a7d12a6cb52fc7e69d1c3",
+      "output_sha256": "20c9c70cf4d6893914131721e30da54749274f7848e64950bb31775f2aa038d2",
+      "output_in_asset_bundle": true,
+      "references": [
+        {
+          "path": "production/pair-a/generated/comic-panel-f00234-r1.png",
+          "sha256": "fb971cdac006c01099a4414493e10cbbb8364983ba1835ee531ec02d2bd77689"
+        }
+      ],
+      "status": "adopted_by_independent_audit"
+    },
+    {
+      "call_index": 40,
+      "production_group": "pair-a",
+      "asset_id": "chorus-left-textless-r1.png",
+      "tool": "Codex built-in image_gen",
+      "model_version": "not_exposed",
+      "seed": "not_exposed",
+      "source_frame": null,
+      "prompt": "prompts/040-chorus-left-textless-r1.txt",
+      "original_prompt_sha256": "03f7826e98916926a4f53143c3c2f10924a4f1879d5e3c028f69df05fa125d75",
+      "public_prompt_sha256": "0884dfff7c23f00e1dcbffdc8d1d64d2d55e801750fe2d810c2b67e8d042678b",
+      "output_sha256": "73c47667af7eee4257f30363ac17754ad16181d87bb7a83b6499723972ef9590",
+      "output_in_asset_bundle": true,
+      "references": [
+        {
+          "path": "production/pair-b/generated/chorus-tilt-left-f01728-r2.png",
+          "sha256": "53fbbb746ba36544e5685c9b1502376a369ae382fc11a38a94d04c91df4f2af7"
+        }
+      ],
+      "status": "adopted_by_independent_audit"
+    },
+    {
+      "call_index": 41,
+      "production_group": "pair-a",
+      "asset_id": "chorus-right-textless-r1.png",
+      "tool": "Codex built-in image_gen",
+      "model_version": "not_exposed",
+      "seed": "not_exposed",
+      "source_frame": null,
+      "prompt": "prompts/041-chorus-right-textless-r1.txt",
+      "original_prompt_sha256": "03f7826e98916926a4f53143c3c2f10924a4f1879d5e3c028f69df05fa125d75",
+      "public_prompt_sha256": "0884dfff7c23f00e1dcbffdc8d1d64d2d55e801750fe2d810c2b67e8d042678b",
+      "output_sha256": "d7f845800c59b78f91dc5cc4a3fac7b39ff64dc3236d623e6944a1ee0e6aef9b",
+      "output_in_asset_bundle": true,
+      "references": [
+        {
+          "path": "production/pair-b/generated/chorus-tilt-right-f01776-r1.png",
+          "sha256": "00791e45e89c54ee5a95b7f69da53e55a2cbc596806dbffc3d854abf8440481d"
+        }
+      ],
+      "status": "adopted_by_independent_audit"
+    },
+    {
+      "call_index": 42,
+      "production_group": "pair-a",
+      "asset_id": "tease-forehead-B-f01032-r2.png",
+      "tool": "Codex built-in image_gen",
+      "model_version": "not_exposed",
+      "seed": "not_exposed",
+      "source_frame": null,
+      "prompt": "prompts/042-tease-forehead-B-f01032-r2.txt",
+      "original_prompt_sha256": "7a83695475ea7ab8b8b9102fa633a828ab338d90186742263b9e38e2d0687a8f",
+      "public_prompt_sha256": "52b3dcf0972a31ab618fa30109bc7687bd81e603529ee9d455c4ab11dd40457d",
+      "output_sha256": "55a67e15df85173384b8c4822788c42f983db5a5bae68097d4444e0bfde24475",
+      "output_in_asset_bundle": true,
+      "references": [
+        {
+          "path": "production/pair-a/generated/tease-forehead-B-f01032-r1.png",
+          "sha256": "704b58db82be95055ab1e8e4fc0e567d0692422e745e6e18c580eac16fee1085"
+        }
+      ],
+      "status": "adopted_by_independent_audit"
+    },
+    {
+      "call_index": 43,
+      "production_group": "pair-a",
+      "asset_id": "taunt-neutral-textless-blankmouth-r1.png",
+      "tool": "Codex built-in image_gen",
+      "model_version": "not_exposed",
+      "seed": "not_exposed",
+      "source_frame": null,
+      "prompt": "prompts/043-taunt-neutral-textless-blankmouth-r1.txt",
+      "original_prompt_sha256": "23805ff28475d617d49bc1df70262c448c950bcddc826961a8569828af6fb5f2",
+      "public_prompt_sha256": "582fb9561c54b52bbc94c1b66d98affcdb37a5e1c39087e78f3cf271879046e7",
+      "output_sha256": "9d7f49d0fdaa39232c2aa6f06d92ceb7ae396101c363a7fcb7a75650286791f4",
+      "output_in_asset_bundle": true,
+      "references": [
+        {
+          "path": "production/pair-b/generated/taunt-neutral-f01380-r2.png",
+          "sha256": "ad67ae390c4d70084bb166d4cf9fe431bd5cdd6f2da609e65d0db69b15489944"
+        }
+      ],
+      "status": "adopted_by_independent_audit"
+    },
+    {
+      "call_index": 44,
+      "production_group": "pair-a",
+      "asset_id": "taunt-flank-textless-blankmouth-r1.png",
+      "tool": "Codex built-in image_gen",
+      "model_version": "not_exposed",
+      "seed": "not_exposed",
+      "source_frame": null,
+      "prompt": "prompts/044-taunt-flank-textless-blankmouth-r1.txt",
+      "original_prompt_sha256": "23805ff28475d617d49bc1df70262c448c950bcddc826961a8569828af6fb5f2",
+      "public_prompt_sha256": "582fb9561c54b52bbc94c1b66d98affcdb37a5e1c39087e78f3cf271879046e7",
+      "output_sha256": "c817785f7239c7b24bbf3665552d47279637e0fa6bf20ef936bcc05f33420a7f",
+      "output_in_asset_bundle": true,
+      "references": [
+        {
+          "path": "production/pair-b/generated/taunt-flank-f01416-r1.png",
+          "sha256": "4a495887c9ee84aac93a22db01adfc95b4c2aa32751fc40b69acc34ca936d47e"
+        }
+      ],
+      "status": "adopted_by_independent_audit"
+    },
+    {
+      "call_index": 45,
+      "production_group": "pair-a",
+      "asset_id": "explain-palms-B-f01146-r1.png",
+      "tool": "Codex built-in image_gen",
+      "model_version": "not_exposed",
+      "seed": "not_exposed",
+      "source_frame": null,
+      "prompt": "prompts/045-explain-palms-B-f01146-r1.txt",
+      "original_prompt_sha256": "6d66e40196ac18cc60e20f86b5a04107dcf9f60cc6bd741b2ea8ed32e3148fa5",
+      "public_prompt_sha256": "e0ef61dc2461bbc4d23eee281c4b77326a222314815bd3222891a47d8c6c12a8",
+      "output_sha256": "c5f9e6ae32192fb78c65b74a394b61948c6848e24fc6634f23ab773dac714e7b",
+      "output_in_asset_bundle": true,
+      "references": [
+        {
+          "path": "production/pair-a/generated/explain-palms-A-f01134-r2.png",
+          "sha256": "90c1c5972be6a0ad68c73474faa7213a5f47f70e9a16d724298cc39647524e1d"
+        },
+        {
+          "path": "production/pair-a/inputs/source-f01146-equal-canvas.png",
+          "sha256": "2bfcfe4ff22d6630c58ad7fe0b6feaa313fb58a1f7f7abd4ca6ead4c0980998f"
+        },
+        {
+          "path": "production/pair-b/inputs/center-r2-connected-hair-only-reference.png",
+          "sha256": "afb2c817fcb1407f63aaaa43975e0e8a4037107d37640f19633761640d4732ce"
+        }
+      ],
+      "status": "adopted_by_independent_audit"
+    },
+    {
+      "call_index": 46,
+      "production_group": "pair-a",
+      "asset_id": "glow-eye-f01326-r2.png",
+      "tool": "Codex built-in image_gen",
+      "model_version": "not_exposed",
+      "seed": "not_exposed",
+      "source_frame": null,
+      "prompt": "prompts/046-glow-eye-f01326-r2.txt",
+      "original_prompt_sha256": "3ba50f235c1dd28627eebe29b416267765b8bdfca754083f0f1c98975d3bf9c7",
+      "public_prompt_sha256": "83cfe323c72e067974bfe7c6e8296d576d58ea5fd480465d737a6900568c3993",
+      "output_sha256": "49c5f79662f3082bc44cf4a6cc66f769240a9e2a49938485dff9371be5c72f54",
+      "output_in_asset_bundle": true,
+      "references": [
+        {
+          "path": "production/pair-a/generated/glow-eye-f01326-r1.png",
+          "sha256": "10af9b82f3128898d8c8c8506061f125556b878a33791a5eb51ff2cae174c2b4"
+        }
+      ],
+      "status": "adopted_by_independent_audit"
+    },
+    {
+      "call_index": 47,
+      "production_group": "pair-a",
+      "asset_id": "center-dark-card-textless-r1.png",
+      "tool": "Codex built-in image_gen",
+      "model_version": "not_exposed",
+      "seed": "not_exposed",
+      "source_frame": null,
+      "prompt": "prompts/047-center-dark-card-textless-r1.txt",
+      "original_prompt_sha256": "d007acbdab81515e9695f556e4e66361571796e17d279390509b80d17bbfbbe8",
+      "public_prompt_sha256": "d6f1bd424d451d62f23869e7c6379d9ccc650d98ddf4c45762a18cd64b964156",
+      "output_sha256": "649104e25f9aa98fee402e2b4b99b7eed571533c0d5e200a8c196eb020eb7431",
+      "output_in_asset_bundle": true,
+      "references": [
+        {
+          "path": "production/pair-root/generated/center-dark-card-f03924-r1.png",
+          "sha256": "0f37efcf736bc7a02078d999ad17ae616c01ed160dab461d0bfdd7c1a47ee0f0"
+        }
+      ],
+      "status": "adopted_by_independent_audit"
+    },
+    {
+      "call_index": 48,
+      "production_group": "pair-a",
+      "asset_id": "final-card-chaos-textless-r1.png",
+      "tool": "Codex built-in image_gen",
+      "model_version": "not_exposed",
+      "seed": "not_exposed",
+      "source_frame": null,
+      "prompt": "prompts/048-final-card-chaos-textless-r1.txt",
+      "original_prompt_sha256": "2412c6920a0405cb06b9b39398a48aece1681642090a28e78451a0236d0f1d48",
+      "public_prompt_sha256": "c5afc500f17bc7da927bc3aa1a5d30faa3d95872a57774b9e955476b70fb5b8a",
+      "output_sha256": "abe311dc68eff55cc68e8fdfefb8574e018228271271d25edc5bfdf70b64f522",
+      "output_in_asset_bundle": true,
+      "references": [
+        {
+          "path": "production/pair-root/generated/final-card-chaos-f04818-r1.png",
+          "sha256": "44bacd2e0fef957cb12b540839eed7c0644ad0dd5f51fd4aee739bbfe731d23d"
+        }
+      ],
+      "status": "adopted_by_independent_audit"
+    },
+    {
+      "call_index": 49,
+      "production_group": "pair-a",
+      "asset_id": "mouth-flank-atlas-r1.png",
+      "tool": "Codex built-in image_gen",
+      "model_version": "not_exposed",
+      "seed": "not_exposed",
+      "source_frame": null,
+      "prompt": "prompts/049-mouth-flank-atlas-r1.txt",
+      "original_prompt_sha256": "d3eab9ddc6b1849dd0379df84ca7700781f307298236d646998be5c43c6f524f",
+      "public_prompt_sha256": "3c8d67c95870032cdc06efb529ac29e05b2f687dabe7f8b37d7d915756d0e6bb",
+      "output_sha256": "01b4ad5b817123b5862418b03930327a765b3aa35c033e077382d06f76b8ab79",
+      "output_in_asset_bundle": false,
+      "references": [
+        {
+          "path": "{workspace}/outputs/uno-drawn-pose-pilot-v3/assets/mouth-grin.png",
+          "sha256": "8065da42f2cfc2ed9830c899698b9b7d5d626528aacacee3af472dbf99ec73cd"
+        },
+        {
+          "path": "{workspace}/outputs/uno-drawn-pose-pilot-v3/assets/mouth-closed.png",
+          "sha256": "6bdac6cedfeaff036af4617a5d938d45b7683e66366e6c4aadb66a53202aa46f"
+        },
+        {
+          "path": "{workspace}/outputs/uno-drawn-pose-pilot-v3/assets/mouth-open-r1.png",
+          "sha256": "9678f49d5a4040e1ef5810280ba0a3e89012b36b25b046479595433186036f79"
+        },
+        {
+          "path": "production/pair-a/inputs/mouth-flank-source-crop-board.png",
+          "sha256": "c8c7fc29ec6dd105f2bedea51bd85e951449c0882fcf5f9850a34c2d9e44d530"
+        }
+      ],
+      "status": "rectangle_crops_adopted_by_independent_audit"
+    },
+    {
+      "call_index": 50,
+      "production_group": "pair-b",
+      "asset_id": "center_card",
+      "tool": "Codex built-in image_gen",
+      "model_version": "not_exposed",
+      "seed": "not_exposed",
+      "source_frame": 276,
+      "prompt": "prompts/050-center-card-f00276-r1.txt",
+      "original_prompt_sha256": "c36ff8ef853cc600f5b6f020546fc7766dd1299033411906f08ca7fc338928dc",
+      "public_prompt_sha256": "b473f6806302f0e1aafa9ac99dc2c8cca79579df75fcf1dacc80a46579fa94f5",
+      "output_sha256": "63408d2f24d881151e46b37b513f4496999fa64cb5f876a70bf5f3eb9206e1ab",
+      "output_in_asset_bundle": false,
+      "references": [
+        {
+          "path": "production/pair-b/inputs/source-f00276-equal-canvas.png",
+          "role": "exact current source target, pose face clothing camera authority"
+        },
+        {
+          "path": "production/pair-a/f005-connected-hair-only-reference.png",
+          "role": "frozen connected hair topology authority"
+        },
+        {
+          "path": "{workspace}/outputs/uno-continuity-pilot-v1/inputs/ds-user-reference.png",
+          "role": "original identity hair/accessories only"
+        }
+      ],
+      "status": "pending_independent_audit"
+    },
+    {
+      "call_index": 51,
+      "production_group": "pair-b",
+      "asset_id": "center-card",
+      "tool": "Codex built-in image_gen",
+      "model_version": "not_exposed",
+      "seed": "not_exposed",
+      "source_frame": 276,
+      "prompt": "prompts/051-center-card-f00276-r2.txt",
+      "original_prompt_sha256": "b6114facf05b8ebbce8895907d99f3c0bd0e7cc021b89fb892e6866838c1f8e4",
+      "public_prompt_sha256": "aae6d82fe2b2754fc1010af3bb7541f77471047a50324af1c5457a194b177834",
+      "output_sha256": "a7817d8aa3d67fd72d0f6a969805357e082c88d01fb9a32ff72f9e0d865d5f9b",
+      "output_in_asset_bundle": true,
+      "references": [
+        {
+          "path": "production/pair-b/generated/center-card-f00276-r1.png",
+          "role": "edit target: only two hair corrections"
+        },
+        {
+          "path": "production/pair-b/inputs/source-f00276-equal-canvas.png",
+          "role": "source non-hair authority"
+        },
+        {
+          "path": "production/pair-b/inputs/intro-B-r2-connected-hair-only-reference.png",
+          "role": "auxiliary hair-only single-pointed-leaf and curl topology"
+        },
+        {
+          "path": "{workspace}/outputs/uno-continuity-pilot-v1/inputs/ds-user-reference.png",
+          "role": "original DS hair/accessories only"
+        }
+      ],
+      "status": "pending_independent_audit"
+    },
+    {
+      "call_index": 52,
+      "production_group": "pair-b",
+      "asset_id": "taunt-neutral",
+      "tool": "Codex built-in image_gen",
+      "model_version": "not_exposed",
+      "seed": "not_exposed",
+      "source_frame": 1380,
+      "prompt": "prompts/052-taunt-neutral-f01380-r1.txt",
+      "original_prompt_sha256": "dd3f788e4886bbb65dbddb4ca4a5918fe953ebf2ea71ed862f1021f422acfb6f",
+      "public_prompt_sha256": "dd3f788e4886bbb65dbddb4ca4a5918fe953ebf2ea71ed862f1021f422acfb6f",
+      "output_sha256": "7e2e31e90f6501f9d99dd5efbca261d19fc2dfcd2be4b78219f621cd9298bba2",
+      "output_in_asset_bundle": false,
+      "references": [
+        {
+          "path": "production/pair-b/inputs/source-f01380-equal-canvas.png",
+          "role": "current exact source target; pose/face/clothing/camera/text authority"
+        },
+        {
+          "path": "production/pair-a/f005-connected-hair-only-reference.png",
+          "role": "frozen F005 global connected hair-only design authority"
+        },
+        {
+          "path": "production/pair-b/inputs/intro-B-r2-connected-hair-only-reference.png",
+          "role": "approved frontal hair-only auxiliary, single pointed leaf and no exterior hooks"
+        },
+        {
+          "path": "{workspace}/outputs/uno-continuity-pilot-v1/inputs/ds-user-reference.png",
+          "role": "original DS identity hair/accessories only"
+        }
+      ],
+      "status": "pending_independent_audit"
+    },
+    {
+      "call_index": 53,
+      "production_group": "pair-b",
+      "asset_id": "clap-forehead-A",
+      "tool": "Codex built-in image_gen",
+      "model_version": "not_exposed",
+      "seed": "not_exposed",
+      "source_frame": 1500,
+      "prompt": "prompts/053-clap-forehead-A-f01500-r1.txt",
+      "original_prompt_sha256": "e1c1dfec22abbb6306131fa31f8e42ff50290857ba56c7f0180fc808490b896c",
+      "public_prompt_sha256": "e1c1dfec22abbb6306131fa31f8e42ff50290857ba56c7f0180fc808490b896c",
+      "output_sha256": "d7473512244fc0804c0d74661e1da86826f5ebd3b4a1e0690c84f995eb8b3530",
+      "output_in_asset_bundle": false,
+      "references": [
+        {
+          "path": "production/pair-b/inputs/source-f01500-equal-canvas.png",
+          "role": "current exact source target; pose/face/clothing/camera/text authority"
+        },
+        {
+          "path": "production/pair-a/f005-connected-hair-only-reference.png",
+          "role": "frozen F005 global connected hair-only design authority"
+        },
+        {
+          "path": "production/pair-b/inputs/intro-B-r2-connected-hair-only-reference.png",
+          "role": "approved frontal hair-only auxiliary, single pointed leaf and no exterior hooks"
+        },
+        {
+          "path": "{workspace}/outputs/uno-continuity-pilot-v1/inputs/ds-user-reference.png",
+          "role": "original DS identity hair/accessories only"
+        }
+      ],
+      "status": "pending_independent_audit"
+    },
+    {
+      "call_index": 54,
+      "production_group": "pair-b",
+      "asset_id": "chorus-tilt-left",
+      "tool": "Codex built-in image_gen",
+      "model_version": "not_exposed",
+      "seed": "not_exposed",
+      "source_frame": 1728,
+      "prompt": "prompts/054-chorus-tilt-left-f01728-r1.txt",
+      "original_prompt_sha256": "2a2957f0b38cb348714a8b907f4d51c7fcbfcfbc72b5f85c53993753f3ff2968",
+      "public_prompt_sha256": "2a2957f0b38cb348714a8b907f4d51c7fcbfcfbc72b5f85c53993753f3ff2968",
+      "output_sha256": "df83ac4f8e7b4c535ad9919f72f6b232a96d02553806782df8839e41631feb45",
+      "output_in_asset_bundle": false,
+      "references": [
+        {
+          "path": "production/pair-b/inputs/source-f01728-equal-canvas.png",
+          "role": "current exact source target; pose/face/clothing/camera/text authority"
+        },
+        {
+          "path": "production/pair-a/f005-connected-hair-only-reference.png",
+          "role": "frozen F005 global connected hair-only design authority"
+        },
+        {
+          "path": "production/pair-b/inputs/intro-B-r2-connected-hair-only-reference.png",
+          "role": "approved frontal hair-only auxiliary, single pointed leaf and no exterior hooks"
+        },
+        {
+          "path": "{workspace}/outputs/uno-continuity-pilot-v1/inputs/ds-user-reference.png",
+          "role": "original DS identity hair/accessories only"
+        }
+      ],
+      "status": "pending_independent_audit"
+    },
+    {
+      "call_index": 55,
+      "production_group": "pair-b",
+      "asset_id": "taunt-neutral",
+      "tool": "Codex built-in image_gen",
+      "model_version": "not_exposed",
+      "seed": "not_exposed",
+      "source_frame": 1380,
+      "prompt": "prompts/055-taunt-neutral-f01380-r2.txt",
+      "original_prompt_sha256": "53ee882e2bac586e553c17900857b90f245cfd83853314247625520e7119413b",
+      "public_prompt_sha256": "53ee882e2bac586e553c17900857b90f245cfd83853314247625520e7119413b",
+      "output_sha256": "ad67ae390c4d70084bb166d4cf9fe431bd5cdd6f2da609e65d0db69b15489944",
+      "output_in_asset_bundle": true,
+      "references": [
+        {
+          "path": "production/pair-b/generated/taunt-neutral-f01380-r1.png",
+          "role": "current nearly-correct DS edit target; lock all non-hair"
+        },
+        {
+          "path": "production/pair-b/inputs/source-f01380-equal-canvas.png",
+          "role": "exact source non-hair geometry/pose/expression authority"
+        },
+        {
+          "path": "production/pair-b/inputs/center-r2-connected-hair-only-reference.png",
+          "role": "approved frontal hair-only single main leaf/simplified broad locks auxiliary"
+        },
+        {
+          "path": "{workspace}/outputs/uno-continuity-pilot-v1/inputs/ds-user-reference.png",
+          "role": "original DS hair/headwear identity only"
+        }
+      ],
+      "status": "pending_independent_audit"
+    },
+    {
+      "call_index": 56,
+      "production_group": "pair-b",
+      "asset_id": "clap-forehead-A",
+      "tool": "Codex built-in image_gen",
+      "model_version": "not_exposed",
+      "seed": "not_exposed",
+      "source_frame": 1500,
+      "prompt": "prompts/056-clap-forehead-A-f01500-r2.txt",
+      "original_prompt_sha256": "160616cea267e35f0d58356e4dd889d17938fc61be636b2028c981bcf1a2bfb1",
+      "public_prompt_sha256": "160616cea267e35f0d58356e4dd889d17938fc61be636b2028c981bcf1a2bfb1",
+      "output_sha256": "f47a39dc065ebcd91af6acf35bdae7ae4cb2b4a13ac515958355f6ae250f64bc",
+      "output_in_asset_bundle": true,
+      "references": [
+        {
+          "path": "production/pair-b/generated/clap-forehead-A-f01500-r1.png",
+          "role": "current nearly-correct DS edit target; lock all non-hair"
+        },
+        {
+          "path": "production/pair-b/inputs/source-f01500-equal-canvas.png",
+          "role": "exact source non-hair geometry/pose/expression authority"
+        },
+        {
+          "path": "production/pair-b/inputs/center-r2-connected-hair-only-reference.png",
+          "role": "approved frontal hair-only single main leaf/simplified broad locks auxiliary"
+        },
+        {
+          "path": "{workspace}/outputs/uno-continuity-pilot-v1/inputs/ds-user-reference.png",
+          "role": "original DS hair/headwear identity only"
+        }
+      ],
+      "status": "pending_independent_audit"
+    },
+    {
+      "call_index": 57,
+      "production_group": "pair-b",
+      "asset_id": "chorus-tilt-left",
+      "tool": "Codex built-in image_gen",
+      "model_version": "not_exposed",
+      "seed": "not_exposed",
+      "source_frame": 1728,
+      "prompt": "prompts/057-chorus-tilt-left-f01728-r2.txt",
+      "original_prompt_sha256": "84f3962994307ebe786d2aebb78945550618675ccf426873cefcdfea352bbf3c",
+      "public_prompt_sha256": "84f3962994307ebe786d2aebb78945550618675ccf426873cefcdfea352bbf3c",
+      "output_sha256": "53fbbb746ba36544e5685c9b1502376a369ae382fc11a38a94d04c91df4f2af7",
+      "output_in_asset_bundle": true,
+      "references": [
+        {
+          "path": "production/pair-b/generated/chorus-tilt-left-f01728-r1.png",
+          "role": "current nearly-correct DS edit target; lock all non-hair"
+        },
+        {
+          "path": "production/pair-b/inputs/source-f01728-equal-canvas.png",
+          "role": "exact source non-hair geometry/pose/expression authority"
+        },
+        {
+          "path": "production/pair-b/inputs/center-r2-connected-hair-only-reference.png",
+          "role": "approved frontal hair-only single main leaf/simplified broad locks auxiliary"
+        },
+        {
+          "path": "{workspace}/outputs/uno-continuity-pilot-v1/inputs/ds-user-reference.png",
+          "role": "original DS hair/headwear identity only"
+        }
+      ],
+      "status": "pending_independent_audit"
+    },
+    {
+      "call_index": 58,
+      "production_group": "pair-b",
+      "asset_id": "taunt-flank",
+      "tool": "Codex built-in image_gen",
+      "model_version": "not_exposed",
+      "seed": "not_exposed",
+      "source_frame": 1416,
+      "prompt": "prompts/058-taunt-flank-f01416-r1.txt",
+      "original_prompt_sha256": "1a588eb51a7f75b998a4cbf939d276f319a929cffc79a7ca31e428c3bc366a08",
+      "public_prompt_sha256": "1a588eb51a7f75b998a4cbf939d276f319a929cffc79a7ca31e428c3bc366a08",
+      "output_sha256": "4a495887c9ee84aac93a22db01adfc95b4c2aa32751fc40b69acc34ca936d47e",
+      "output_in_asset_bundle": true,
+      "references": [
+        {
+          "path": "production/pair-b/inputs/source-f01416-equal-canvas.png",
+          "role": "current exact source edit target; all non-hair and source crop authority"
+        },
+        {
+          "path": "production/pair-b/inputs/center-r2-connected-hair-only-reference.png",
+          "role": "approved front-angle connected hair-only auxiliary, global source F005"
+        },
+        {
+          "path": "{workspace}/outputs/uno-continuity-pilot-v1/inputs/ds-user-reference.png",
+          "role": "original DS hair/headwear identity only"
+        }
+      ],
+      "status": "pending_independent_audit"
+    },
+    {
+      "call_index": 59,
+      "production_group": "pair-b",
+      "asset_id": "clap-forehead-B",
+      "tool": "Codex built-in image_gen",
+      "model_version": "not_exposed",
+      "seed": "not_exposed",
+      "source_frame": 1530,
+      "prompt": "prompts/059-clap-forehead-B-f01530-r1.txt",
+      "original_prompt_sha256": "ce802a7e04288ad7e182286bab47da08718ef67b4098642431b11349deca38c4",
+      "public_prompt_sha256": "ce802a7e04288ad7e182286bab47da08718ef67b4098642431b11349deca38c4",
+      "output_sha256": "89c53252eee602fa618f8006b49fdc9ed4ad0c704409a457efa65ed61310780b",
+      "output_in_asset_bundle": false,
+      "references": [
+        {
+          "path": "production/pair-b/inputs/source-f01530-equal-canvas.png",
+          "role": "current exact source edit target; all non-hair and source crop authority"
+        },
+        {
+          "path": "production/pair-b/inputs/center-r2-connected-hair-only-reference.png",
+          "role": "approved front-angle connected hair-only auxiliary, global source F005"
+        },
+        {
+          "path": "{workspace}/outputs/uno-continuity-pilot-v1/inputs/ds-user-reference.png",
+          "role": "original DS hair/headwear identity only"
+        }
+      ],
+      "status": "pending_independent_audit"
+    },
+    {
+      "call_index": 60,
+      "production_group": "pair-b",
+      "asset_id": "chorus-tilt-right",
+      "tool": "Codex built-in image_gen",
+      "model_version": "not_exposed",
+      "seed": "not_exposed",
+      "source_frame": 1776,
+      "prompt": "prompts/060-chorus-tilt-right-f01776-r1.txt",
+      "original_prompt_sha256": "569b44d6ffe495c75797aa627f105c42d66fe4ba61d307d1c063882584b4fc79",
+      "public_prompt_sha256": "569b44d6ffe495c75797aa627f105c42d66fe4ba61d307d1c063882584b4fc79",
+      "output_sha256": "00791e45e89c54ee5a95b7f69da53e55a2cbc596806dbffc3d854abf8440481d",
+      "output_in_asset_bundle": true,
+      "references": [
+        {
+          "path": "production/pair-b/inputs/source-f01776-equal-canvas.png",
+          "role": "current exact source edit target; all non-hair and source crop authority"
+        },
+        {
+          "path": "production/pair-b/inputs/center-r2-connected-hair-only-reference.png",
+          "role": "approved front-angle connected hair-only auxiliary, global source F005"
+        },
+        {
+          "path": "{workspace}/outputs/uno-continuity-pilot-v1/inputs/ds-user-reference.png",
+          "role": "original DS hair/headwear identity only"
+        }
+      ],
+      "status": "pending_independent_audit"
+    },
+    {
+      "call_index": 61,
+      "production_group": "pair-b",
+      "asset_id": "dab-start",
+      "tool": "Codex built-in image_gen",
+      "model_version": "not_exposed",
+      "seed": "not_exposed",
+      "source_frame": 1692,
+      "prompt": "prompts/061-dab-start-f01692-r1.txt",
+      "original_prompt_sha256": "8f959a159e9c83f94dcc0ca5936aa3867d74af41a8ae8e0bbb98e841477e04f6",
+      "public_prompt_sha256": "8f959a159e9c83f94dcc0ca5936aa3867d74af41a8ae8e0bbb98e841477e04f6",
+      "output_sha256": "6de95a06f0d54d50843838cbe15bc31162e2f4ed70ea969ad740130d336f01e4",
+      "output_in_asset_bundle": true,
+      "references": [
+        {
+          "path": "production/pair-b/inputs/source-f01692-equal-canvas.png",
+          "role": "current exact source edit target; all non-hair and source crop authority"
+        },
+        {
+          "path": "production/pair-b/inputs/center-r2-connected-hair-only-reference.png",
+          "role": "approved front-angle connected hair-only auxiliary, global source F005"
+        },
+        {
+          "path": "{workspace}/outputs/uno-continuity-pilot-v1/inputs/ds-user-reference.png",
+          "role": "original DS hair/headwear identity only"
+        }
+      ],
+      "status": "pending_independent_audit"
+    },
+    {
+      "call_index": 62,
+      "production_group": "pair-b",
+      "asset_id": "dab-land",
+      "tool": "Codex built-in image_gen",
+      "model_version": "not_exposed",
+      "seed": "not_exposed",
+      "source_frame": 1704,
+      "prompt": "prompts/062-dab-land-f01704-r1.txt",
+      "original_prompt_sha256": "edb0ef0f727cbd1cd36d3fe909cd8b04d95567fec968219120b8b0c36b8bc9b9",
+      "public_prompt_sha256": "edb0ef0f727cbd1cd36d3fe909cd8b04d95567fec968219120b8b0c36b8bc9b9",
+      "output_sha256": "c3631dedab2d110b46a28d8d972ecc842b7d6fea1ab83102d7abf152f7826585",
+      "output_in_asset_bundle": true,
+      "references": [
+        {
+          "path": "production/pair-b/inputs/source-f01704-equal-canvas.png",
+          "role": "current exact source edit target; all non-hair and source crop authority"
+        },
+        {
+          "path": "production/pair-b/inputs/center-r2-connected-hair-only-reference.png",
+          "role": "approved front-angle connected hair-only auxiliary, global source F005"
+        },
+        {
+          "path": "{workspace}/outputs/uno-continuity-pilot-v1/inputs/ds-user-reference.png",
+          "role": "original DS hair/headwear identity only"
+        }
+      ],
+      "status": "pending_independent_audit"
+    },
+    {
+      "call_index": 63,
+      "production_group": "pair-b",
+      "asset_id": "maid-paws",
+      "tool": "Codex built-in image_gen",
+      "model_version": "not_exposed",
+      "seed": "not_exposed",
+      "source_frame": 1896,
+      "prompt": "prompts/063-maid-paws-f01896-r1.txt",
+      "original_prompt_sha256": "378965425e4b8b81465038f74de2278b92e5325336b065205f38390953f166ca",
+      "public_prompt_sha256": "378965425e4b8b81465038f74de2278b92e5325336b065205f38390953f166ca",
+      "output_sha256": "2d3e2553a7a3fb6e7e9df42c1ab3730fa1fb174b26d2c3658940c2412a910c83",
+      "output_in_asset_bundle": false,
+      "references": [
+        {
+          "path": "production/pair-b/inputs/source-f01896-equal-canvas.png",
+          "role": "current exact source edit target; all non-hair and source crop authority"
+        },
+        {
+          "path": "production/pair-b/inputs/center-r2-connected-hair-only-reference.png",
+          "role": "approved front-angle connected hair-only auxiliary, global source F005"
+        },
+        {
+          "path": "{workspace}/outputs/uno-continuity-pilot-v1/inputs/ds-user-reference.png",
+          "role": "original DS hair/headwear identity only"
+        }
+      ],
+      "status": "pending_independent_audit"
+    },
+    {
+      "call_index": 64,
+      "production_group": "pair-b",
+      "asset_id": "hashtag-side",
+      "tool": "Codex built-in image_gen",
+      "model_version": "not_exposed",
+      "seed": "not_exposed",
+      "source_frame": 2082,
+      "prompt": "prompts/064-hashtag-side-f02082-r1.txt",
+      "original_prompt_sha256": "d60c408bd38cb1347a36acc8b785222584a8906ee4334021fbf5128b50ae9d57",
+      "public_prompt_sha256": "d60c408bd38cb1347a36acc8b785222584a8906ee4334021fbf5128b50ae9d57",
+      "output_sha256": "645d08f8c84c2d09dc3766af5e8d32c70c154d1a48330130d03839822d7a7a41",
+      "output_in_asset_bundle": true,
+      "references": [
+        {
+          "path": "production/pair-b/inputs/source-f02082-equal-canvas.png",
+          "role": "current exact source edit target; all non-hair and source crop authority"
+        },
+        {
+          "path": "production/pair-b/inputs/center-r2-connected-hair-only-reference.png",
+          "role": "approved front-angle connected hair-only auxiliary, global source F005"
+        },
+        {
+          "path": "{workspace}/outputs/uno-continuity-pilot-v1/inputs/ds-user-reference.png",
+          "role": "original DS hair/headwear identity only"
+        }
+      ],
+      "status": "pending_independent_audit"
+    },
+    {
+      "call_index": 65,
+      "production_group": "pair-b",
+      "asset_id": "arm-stretch",
+      "tool": "Codex built-in image_gen",
+      "model_version": "not_exposed",
+      "seed": "not_exposed",
+      "source_frame": 2172,
+      "prompt": "prompts/065-arm-stretch-f02172-r1.txt",
+      "original_prompt_sha256": "2f0faf6bfb228aa483df9de68356cef5e6431555b2c61881e0f95e7e34b1784c",
+      "public_prompt_sha256": "2f0faf6bfb228aa483df9de68356cef5e6431555b2c61881e0f95e7e34b1784c",
+      "output_sha256": "c47345413c61810d33eb4fcb4bfa34577852a31c59c5ec2164d32c5353505904",
+      "output_in_asset_bundle": true,
+      "references": [
+        {
+          "path": "production/pair-b/inputs/source-f02172-equal-canvas.png",
+          "role": "current exact source edit target; all non-hair and source crop authority"
+        },
+        {
+          "path": "production/pair-b/inputs/center-r2-connected-hair-only-reference.png",
+          "role": "approved front-angle connected hair-only auxiliary, global source F005"
+        },
+        {
+          "path": "{workspace}/outputs/uno-continuity-pilot-v1/inputs/ds-user-reference.png",
+          "role": "original DS hair/headwear identity only"
+        }
+      ],
+      "status": "pending_independent_audit"
+    },
+    {
+      "call_index": 66,
+      "production_group": "pair-b",
+      "asset_id": "maid-sign-A",
+      "tool": "Codex built-in image_gen",
+      "model_version": "not_exposed",
+      "seed": "not_exposed",
+      "source_frame": 2298,
+      "prompt": "prompts/066-maid-sign-A-f02298-r1.txt",
+      "original_prompt_sha256": "bc4580f51911742c74efded1466b679779e4e9a54a59bc0d7676f065c703eb0f",
+      "public_prompt_sha256": "bc4580f51911742c74efded1466b679779e4e9a54a59bc0d7676f065c703eb0f",
+      "output_sha256": "03b34a77ebaa0013523602af0dfa67105749e77a7f84b1e85646118aecd639c2",
+      "output_in_asset_bundle": false,
+      "references": [
+        {
+          "path": "production/pair-b/inputs/source-f02298-equal-canvas.png",
+          "role": "current exact source edit target; all non-hair and source crop authority"
+        },
+        {
+          "path": "production/pair-b/inputs/center-r2-connected-hair-only-reference.png",
+          "role": "approved front-angle connected hair-only auxiliary, global source F005"
+        },
+        {
+          "path": "{workspace}/outputs/uno-continuity-pilot-v1/inputs/ds-user-reference.png",
+          "role": "original DS hair/headwear identity only"
+        }
+      ],
+      "status": "pending_independent_audit"
+    },
+    {
+      "call_index": 67,
+      "production_group": "pair-b",
+      "asset_id": "maid-paws",
+      "tool": "Codex built-in image_gen",
+      "model_version": "not_exposed",
+      "seed": "not_exposed",
+      "source_frame": 1896,
+      "prompt": "prompts/067-maid-paws-f01896-r2.txt",
+      "original_prompt_sha256": "d21c513d3c8ed4b5b8771a55be2b7b4293bc83cc356e8d9fed501b4fa9aa1acd",
+      "public_prompt_sha256": "46845a8b3c488e1b6d0c3cd16ab5a2413d1024f5f222d7ff5a699e5bca87469c",
+      "output_sha256": "ed54e9c0aedcccb02ec57264d431da005f6d88a294ab7e05031b77eb2d7fe25b",
+      "output_in_asset_bundle": true,
+      "references": [
+        {
+          "path": "production/pair-b/generated/maid-paws-f01896-r1.png",
+          "role": "target only fringe simplification; other parts already reviewed"
+        },
+        {
+          "path": "production/pair-b/inputs/source-f01896-equal-canvas.png",
+          "role": "original current non-hair pose/face/outfit authority"
+        },
+        {
+          "path": "production/pair-b/inputs/center-r2-connected-hair-only-reference.png",
+          "role": "approved hair-only single-main-leaf auxiliary"
+        },
+        {
+          "path": "{workspace}/outputs/uno-continuity-pilot-v1/inputs/ds-user-reference.png",
+          "role": "original hair/headwear identity only"
+        }
+      ],
+      "status": "pending_independent_audit"
+    },
+    {
+      "call_index": 68,
+      "production_group": "pair-b",
+      "asset_id": "maid-sign-B",
+      "tool": "Codex built-in image_gen",
+      "model_version": "not_exposed",
+      "seed": "not_exposed",
+      "source_frame": 2334,
+      "prompt": "prompts/068-maid-sign-B-f02334-r1.txt",
+      "original_prompt_sha256": "d695204c14f1126c99f85cd93eb78ed6b3ca012ad9b24f3fc34aa92ebf397558",
+      "public_prompt_sha256": "d695204c14f1126c99f85cd93eb78ed6b3ca012ad9b24f3fc34aa92ebf397558",
+      "output_sha256": "a720fe2d69562e89cb05f6546c033034de5aa8bec3e1c0b8a8b79f719344e7e7",
+      "output_in_asset_bundle": false,
+      "references": [
+        {
+          "path": "production/pair-b/inputs/source-f02334-equal-canvas.png",
+          "role": "current exact source edit target; all non-hair and source crop authority"
+        },
+        {
+          "path": "production/pair-b/inputs/center-r2-connected-hair-only-reference.png",
+          "role": "approved front-angle connected hair-only auxiliary, global source F005"
+        },
+        {
+          "path": "{workspace}/outputs/uno-continuity-pilot-v1/inputs/ds-user-reference.png",
+          "role": "original DS hair/headwear identity only"
+        }
+      ],
+      "status": "pending_independent_audit"
+    },
+    {
+      "call_index": 69,
+      "production_group": "pair-b",
+      "asset_id": "maid-upside-down",
+      "tool": "Codex built-in image_gen",
+      "model_version": "not_exposed",
+      "seed": "not_exposed",
+      "source_frame": 2370,
+      "prompt": "prompts/069-maid-upside-down-f02370-r1.txt",
+      "original_prompt_sha256": "710b3cd14e2325ec7a16d5debb0100521a61054402e50f40e311ed972c2a7f95",
+      "public_prompt_sha256": "710b3cd14e2325ec7a16d5debb0100521a61054402e50f40e311ed972c2a7f95",
+      "output_sha256": "1708a7a1350ef73b22df8df13e72c74f8e6c21dd1b439aa687f515a92c3b6595",
+      "output_in_asset_bundle": false,
+      "references": [
+        {
+          "path": "production/pair-b/inputs/source-f02370-equal-canvas.png",
+          "role": "current exact source edit target; all non-hair and source crop authority"
+        },
+        {
+          "path": "production/pair-b/inputs/center-r2-connected-hair-only-reference.png",
+          "role": "approved front-angle connected hair-only auxiliary, global source F005"
+        },
+        {
+          "path": "{workspace}/outputs/uno-continuity-pilot-v1/inputs/ds-user-reference.png",
+          "role": "original DS hair/headwear identity only"
+        }
+      ],
+      "status": "pending_independent_audit"
+    },
+    {
+      "call_index": 70,
+      "production_group": "pair-b",
+      "asset_id": "maid-sign-A",
+      "tool": "Codex built-in image_gen",
+      "model_version": "not_exposed",
+      "seed": "not_exposed",
+      "source_frame": 2298,
+      "prompt": "prompts/070-maid-sign-A-f02298-r2.txt",
+      "original_prompt_sha256": "a9983c5e80485b01cdab2f73d601537a411f9bab29e3cb4b88a971b5a37ea93a",
+      "public_prompt_sha256": "a9983c5e80485b01cdab2f73d601537a411f9bab29e3cb4b88a971b5a37ea93a",
+      "output_sha256": "e538088724b1bf9f32387d07e749e1d0cff82704713c584af83e18364597d7bf",
+      "output_in_asset_bundle": true,
+      "references": [
+        {
+          "path": "production/pair-b/generated/maid-sign-A-f02298-r1.png",
+          "role": "edit target; lock all unrelated already-reviewed content"
+        },
+        {
+          "path": "production/pair-b/inputs/source-f02298-equal-canvas.png",
+          "role": "original current non-hair/expression/pose/clothing/camera authority"
+        },
+        {
+          "path": "production/pair-b/inputs/center-r2-connected-hair-only-reference.png",
+          "role": "approved hair-only auxiliary, no face/body authority"
+        }
+      ],
+      "status": "pending_independent_audit"
+    },
+    {
+      "call_index": 71,
+      "production_group": "pair-b",
+      "asset_id": "maid-sign-B",
+      "tool": "Codex built-in image_gen",
+      "model_version": "not_exposed",
+      "seed": "not_exposed",
+      "source_frame": 2334,
+      "prompt": "prompts/071-maid-sign-B-f02334-r2.txt",
+      "original_prompt_sha256": "6da32ac4b4ab8b884ff74fa42787c2f1f327648b1612f59784ff845f38fdc2ee",
+      "public_prompt_sha256": "6da32ac4b4ab8b884ff74fa42787c2f1f327648b1612f59784ff845f38fdc2ee",
+      "output_sha256": "cdfe89f96785d1d6cdb59af524fd88d2b6b543f2fb1c712bc778c411225096b3",
+      "output_in_asset_bundle": true,
+      "references": [
+        {
+          "path": "production/pair-b/generated/maid-sign-B-f02334-r1.png",
+          "role": "edit target; lock all unrelated already-reviewed content"
+        },
+        {
+          "path": "production/pair-b/inputs/source-f02334-equal-canvas.png",
+          "role": "original current non-hair/expression/pose/clothing/camera authority"
+        },
+        {
+          "path": "production/pair-b/inputs/center-r2-connected-hair-only-reference.png",
+          "role": "approved hair-only auxiliary, no face/body authority"
+        }
+      ],
+      "status": "pending_independent_audit"
+    },
+    {
+      "call_index": 72,
+      "production_group": "pair-b",
+      "asset_id": "maid-upside-down",
+      "tool": "Codex built-in image_gen",
+      "model_version": "not_exposed",
+      "seed": "not_exposed",
+      "source_frame": 2370,
+      "prompt": "prompts/072-maid-upside-down-f02370-r2.txt",
+      "original_prompt_sha256": "a602f798d67e940ab2960a099c100b0e631acf5130825d53e0a8d7099e9407f4",
+      "public_prompt_sha256": "a602f798d67e940ab2960a099c100b0e631acf5130825d53e0a8d7099e9407f4",
+      "output_sha256": "81530bdc4fe9411f6ef5690e0a0735e2f35dd63a73f3fdef9bf3b9372704b07d",
+      "output_in_asset_bundle": true,
+      "references": [
+        {
+          "path": "production/pair-b/generated/maid-upside-down-f02370-r1.png",
+          "role": "edit target; lock all unrelated already-reviewed content"
+        },
+        {
+          "path": "production/pair-b/inputs/source-f02370-equal-canvas.png",
+          "role": "original current non-hair/expression/pose/clothing/camera authority"
+        },
+        {
+          "path": "production/pair-b/inputs/center-r2-connected-hair-only-reference.png",
+          "role": "approved hair-only auxiliary, no face/body authority"
+        },
+        {
+          "path": "production/pair-b/inputs/source-f02370-face-expression-only.png",
+          "role": "exact original current upside-down source eyes/brows/mouth only, not hair/headwear"
+        }
+      ],
+      "status": "pending_independent_audit"
+    },
+    {
+      "call_index": 73,
+      "production_group": "pair-b",
+      "asset_id": "opponent-fan",
+      "tool": "Codex built-in image_gen",
+      "model_version": "not_exposed",
+      "seed": "not_exposed",
+      "source_frame": 2256,
+      "prompt": "prompts/073-opponent-fan-f02256-r1.txt",
+      "original_prompt_sha256": "656b33d8dffd1b26d6e92b35e85131719de447f13e9455a3036d43d843a69d96",
+      "public_prompt_sha256": "977b3fca7706592316c4a0b39d568c8fc81db62a96ca66784157c69b0a71ff2e",
+      "output_sha256": "34c732dbc888414eeae3389701bfbdc9785ab6fd7b302df607d6637fa0bf76ab",
+      "output_in_asset_bundle": true,
+      "references": [
+        {
+          "path": "production/pair-b/inputs/source-f02256-equal-canvas.png",
+          "role": "exact current source opponent card fan and dark hands only; original placement/scale/graphics"
+        }
+      ],
+      "status": "pending_independent_audit"
+    },
+    {
+      "call_index": 74,
+      "production_group": "pair-b",
+      "asset_id": "yellow-gong",
+      "tool": "Codex built-in image_gen",
+      "model_version": "not_exposed",
+      "seed": "not_exposed",
+      "source_frame": 3108,
+      "prompt": "prompts/074-yellow-gong-f03108-r1.txt",
+      "original_prompt_sha256": "452ca2dc7ac75fc8c07778e5cfcac871464c9784f92ca0f580dd12db28d44296",
+      "public_prompt_sha256": "4e0a1edd5530439c0c5d5a8b855bb55c5e9d237c2d3428d6101b0b0090d3046a",
+      "output_sha256": "528f71d158f7561976c434e8dd8edb31c0da734a0a978433eb2e85cebeabe88c",
+      "output_in_asset_bundle": true,
+      "references": [
+        {
+          "path": "production/pair-b/inputs/source-f03108-equal-canvas.png",
+          "role": "exact current source yellow gong and brown hanging frame only; original scale/placement/material"
+        }
+      ],
+      "status": "pending_independent_audit"
+    },
+    {
+      "call_index": 75,
+      "production_group": "pair-b",
+      "asset_id": "taunt-swap-right-textless-blankmouth",
+      "tool": "Codex built-in image_gen",
+      "model_version": "not_exposed",
+      "seed": "not_exposed",
+      "source_frame": 1560,
+      "prompt": "prompts/075-taunt-swap-right-textless-blankmouth-f01560-r1.txt",
+      "original_prompt_sha256": "e2e271b050a24163e0e4f02c5cc6ebe69b2999980208e3158d184d0480adc041",
+      "public_prompt_sha256": "191b7f01947010fdfa091ee7869cad1b799fb94573220c6e2ff07d45646bbc47",
+      "output_sha256": "5c9a01d6a63ba164d57f9e54e07df3eb4c5fbcd74a3313d9c78301594973b163",
+      "output_in_asset_bundle": true,
+      "references": [
+        {
+          "path": "production/pair-b/inputs/source-f01560-equal-canvas.png",
+          "role": "exact source pose and exchanged-card-hand authority; current source outfit and camera"
+        },
+        {
+          "path": "production/pair-b/inputs/center-r2-connected-hair-only-reference.png",
+          "role": "frozen adopted connected hair/headwear design only, F005-derived"
+        },
+        {
+          "path": "{workspace}/outputs/uno-continuity-pilot-v1/inputs/ds-user-reference.png",
+          "role": "original user DS identity hair/headwear only"
+        }
+      ],
+      "status": "pending_independent_audit"
+    },
+    {
+      "call_index": 76,
+      "production_group": "pair-b",
+      "asset_id": "taunt-swap-left-textless-blankmouth",
+      "tool": "Codex built-in image_gen",
+      "model_version": "not_exposed",
+      "seed": "not_exposed",
+      "source_frame": 1620,
+      "prompt": "prompts/076-taunt-swap-left-textless-blankmouth-f01620-r1.txt",
+      "original_prompt_sha256": "6c112c26cc0ebe496639dbd4c09a16c1f98ff86961ce5bbf6115c9b0fabd0e1d",
+      "public_prompt_sha256": "9778f6fcda53bd224f215ff4995a9c6c82d800c2a61e386eeb3ae3f2baf6efed",
+      "output_sha256": "e774ba255766097a98ff4f4879b94ec60f50d8b282f17604b02de7c29773e0c7",
+      "output_in_asset_bundle": true,
+      "references": [
+        {
+          "path": "production/pair-b/inputs/source-f01620-equal-canvas.png",
+          "role": "exact source pose and exchanged-card-hand authority; current source outfit and camera"
+        },
+        {
+          "path": "production/pair-b/inputs/center-r2-connected-hair-only-reference.png",
+          "role": "frozen adopted connected hair/headwear design only, F005-derived"
+        },
+        {
+          "path": "{workspace}/outputs/uno-continuity-pilot-v1/inputs/ds-user-reference.png",
+          "role": "original user DS identity hair/headwear only"
+        }
+      ],
+      "status": "pending_independent_audit"
+    },
+    {
+      "call_index": 77,
+      "production_group": "pair-root",
+      "asset_id": "intro-wave-A-f00036-r1",
+      "tool": "Codex built-in image_gen",
+      "model_version": "not_exposed",
+      "seed": "not_exposed",
+      "source_frame": null,
+      "prompt": "prompts/077-intro-wave-A-r1.txt",
+      "original_prompt_sha256": "97107bba9e5012f7ba3429133818a6b7a336c74196691f813328aa128e87a582",
+      "public_prompt_sha256": "96278591d2837430f84324cba7a927f70365818e58e1b3db521ee9e53c295d70",
+      "output_sha256": "c04835874b6cc8fb886331853e6212284ee7ebea2ccc1ff27b5404aa00ed3d0b",
+      "output_in_asset_bundle": false,
+      "references": [
+        {
+          "path": "production/pair-root/inputs/intro-wave-A-source-native-reference.png",
+          "sha256": "d5de8040807b0a216271c274cf089c8e9167048558446e5f531bde1e5c39e503"
+        },
+        {
+          "path": "production/pair-a/f005-connected-hair-only-reference.png",
+          "sha256": "53ec6d07ebcf2450235d2cdbede0828f50b58dbb8cab00447f4edc71ac40b7fa"
+        },
+        {
+          "path": "outputs/uno-continuity-pilot-v1/inputs/ds-user-reference.png",
+          "sha256": "80109a41d6cb87a68fea0618ea4183509eedc3418f03d2409586e2b3aeb9a784"
+        }
+      ],
+      "status": "pending independent audit"
+    },
+    {
+      "call_index": 78,
+      "production_group": "pair-root",
+      "asset_id": "intro-wave-A-f00036-r2",
+      "tool": "Codex built-in image_gen",
+      "model_version": "not_exposed",
+      "seed": "not_exposed",
+      "source_frame": null,
+      "prompt": "prompts/078-intro-wave-A-r2.txt",
+      "original_prompt_sha256": "a9032a49cdd776a4ac5d829fe0718677e003d30316fa62134c71bbde9b170f37",
+      "public_prompt_sha256": "6e2fd817c03a73a00b774c465b534f8a1fb153698461e348bc475ec40e3c6c6d",
+      "output_sha256": "e1eebd83a25945328b16eeace22bc4121acf9b83f6203ad96f93aa3be7fc0129",
+      "output_in_asset_bundle": false,
+      "references": [
+        {
+          "path": "production/pair-root/generated/intro-wave-A-f00036-r1.png",
+          "sha256": "c04835874b6cc8fb886331853e6212284ee7ebea2ccc1ff27b5404aa00ed3d0b"
+        },
+        {
+          "path": "production/pair-a/f005-connected-hair-only-reference.png",
+          "sha256": "53ec6d07ebcf2450235d2cdbede0828f50b58dbb8cab00447f4edc71ac40b7fa"
+        },
+        {
+          "path": "production/pair-a/generated/intro-wave-B-f00042-r2.png",
+          "sha256": "d29fe4237694fec4dccd6a79fbd88e24d0ec86cbaf64a9172be9158edb975c11"
+        }
+      ],
+      "status": "pending independent audit"
+    },
+    {
+      "call_index": 79,
+      "production_group": "pair-root",
+      "asset_id": "dark-panic-f02460-r1",
+      "tool": "Codex built-in image_gen",
+      "model_version": "not_exposed",
+      "seed": "not_exposed",
+      "source_frame": null,
+      "prompt": "prompts/079-dark-panic-f02460-r1.txt",
+      "original_prompt_sha256": "57e7a3c3613aefe14fb2c6027801687fa465101662dbc9896744d0affc8b29a3",
+      "public_prompt_sha256": "f4bc8d822803555941f6f462d5b928f3c68077d2d1b938b4a85889129870dce8",
+      "output_sha256": "90f1c65a349c32af25930c27f023eca896e4f46eb866bf23c8afb362248b7695",
+      "output_in_asset_bundle": true,
+      "references": [
+        {
+          "path": "production/pair-root/inputs/dark-panic-f02460-r1-source-native-reference.png",
+          "sha256": "0087c1adab1b02413a3c7573dd2419b9cd8e5559197138061c88b0204361b1c1"
+        },
+        {
+          "path": "production/pair-a/f005-connected-hair-only-reference.png",
+          "sha256": "53ec6d07ebcf2450235d2cdbede0828f50b58dbb8cab00447f4edc71ac40b7fa"
+        },
+        {
+          "path": "outputs/uno-continuity-pilot-v1/inputs/ds-user-reference.png",
+          "sha256": "80109a41d6cb87a68fea0618ea4183509eedc3418f03d2409586e2b3aeb9a784"
+        }
+      ],
+      "status": "pending independent audit"
+    },
+    {
+      "call_index": 80,
+      "production_group": "pair-root",
+      "asset_id": "head-down-dark-f02586-r1",
+      "tool": "Codex built-in image_gen",
+      "model_version": "not_exposed",
+      "seed": "not_exposed",
+      "source_frame": null,
+      "prompt": "prompts/080-head-down-dark-f02586-r1.txt",
+      "original_prompt_sha256": "cd794ccf43e155f737868f6f79fda1465d4cd7fc1693e82fccd5f065ba57bcce",
+      "public_prompt_sha256": "bb6982b8e0e016bcefbc0ba3b20475f1e01e01237ebdb55c2047d5b3d19894a1",
+      "output_sha256": "d6590875b74dcf6e25b85a58cca67d5990d88b7c5f82e344983d6a843e089def",
+      "output_in_asset_bundle": true,
+      "references": [
+        {
+          "path": "production/pair-root/inputs/head-down-dark-f02586-r1-source-native-reference.png",
+          "sha256": "d13194694e4bfaffb88eca807c070140aaea8067f3eb256b1abefe41ac134c64"
+        },
+        {
+          "path": "production/pair-a/f005-connected-hair-only-reference.png",
+          "sha256": "53ec6d07ebcf2450235d2cdbede0828f50b58dbb8cab00447f4edc71ac40b7fa"
+        },
+        {
+          "path": "outputs/uno-continuity-pilot-v1/inputs/ds-user-reference.png",
+          "sha256": "80109a41d6cb87a68fea0618ea4183509eedc3418f03d2409586e2b3aeb9a784"
+        }
+      ],
+      "status": "pending independent audit"
+    },
+    {
+      "call_index": 81,
+      "production_group": "pair-root",
+      "asset_id": "plead-A-f02628-r1",
+      "tool": "Codex built-in image_gen",
+      "model_version": "not_exposed",
+      "seed": "not_exposed",
+      "source_frame": null,
+      "prompt": "prompts/081-plead-A-f02628-r1.txt",
+      "original_prompt_sha256": "0c8f028b1c86c0434a06008471c8bf7d387934e05a1c0e7721c01d11760cc259",
+      "public_prompt_sha256": "5dbd233aa84ca93fc51d08dabeec6dc55a826ada40bcd21fbe33b4afac033e8f",
+      "output_sha256": "4473141e5f8b527dc02ff899bfb26a4f31532ca0cfee2ccd39cf8b0b5ba572fd",
+      "output_in_asset_bundle": true,
+      "references": [
+        {
+          "path": "production/pair-root/inputs/plead-A-f02628-r1-source-native-reference.png",
+          "sha256": "ff29c530f46cdac292b4b82285fa38a529ec690b139158d0965d8df0bc77c46d"
+        },
+        {
+          "path": "production/pair-a/f005-connected-hair-only-reference.png",
+          "sha256": "53ec6d07ebcf2450235d2cdbede0828f50b58dbb8cab00447f4edc71ac40b7fa"
+        },
+        {
+          "path": "outputs/uno-continuity-pilot-v1/inputs/ds-user-reference.png",
+          "sha256": "80109a41d6cb87a68fea0618ea4183509eedc3418f03d2409586e2b3aeb9a784"
+        }
+      ],
+      "status": "pending independent audit"
+    },
+    {
+      "call_index": 82,
+      "production_group": "pair-root",
+      "asset_id": "plead-B-f02670-r1",
+      "tool": "Codex built-in image_gen",
+      "model_version": "not_exposed",
+      "seed": "not_exposed",
+      "source_frame": null,
+      "prompt": "prompts/082-plead-B-f02670-r1.txt",
+      "original_prompt_sha256": "554314083e36e85f30f6546fd7a944ebf3b7c381b03f00e901a0a95c552cad7c",
+      "public_prompt_sha256": "092e288d0a9b84bed356d1752841f5b6eb57a873c710c0f39829f36bc943c3e4",
+      "output_sha256": "793ce10512e7bbbc6130670bd5a3a2a342843a3f89d3fd4d95cb9cdc1259bdda",
+      "output_in_asset_bundle": false,
+      "references": [
+        {
+          "path": "production/pair-root/inputs/plead-B-f02670-r1-source-native-reference.png",
+          "sha256": "b3edd21b573270bdb3d92b0205e9a653f7a5a5892110e30a7954dc6cda4382e3"
+        },
+        {
+          "path": "production/pair-a/f005-connected-hair-only-reference.png",
+          "sha256": "53ec6d07ebcf2450235d2cdbede0828f50b58dbb8cab00447f4edc71ac40b7fa"
+        },
+        {
+          "path": "outputs/uno-continuity-pilot-v1/inputs/ds-user-reference.png",
+          "sha256": "80109a41d6cb87a68fea0618ea4183509eedc3418f03d2409586e2b3aeb9a784"
+        }
+      ],
+      "status": "pending independent audit"
+    },
+    {
+      "call_index": 83,
+      "production_group": "pair-root",
+      "asset_id": "intro-wave-A-f00036-r3",
+      "tool": "Codex built-in image_gen",
+      "model_version": "not_exposed",
+      "seed": "not_exposed",
+      "source_frame": null,
+      "prompt": "prompts/083-intro-wave-A-r3.txt",
+      "original_prompt_sha256": "327f7631f5b6d4148ac5f6c727b8f5961f2d760238bdc3a8717fcf1282e8594b",
+      "public_prompt_sha256": "34090c5eb9b8b80f9e41376d988e7046e7e58d1b7b08699827092bbc25f0c6b0",
+      "output_sha256": "d8329d40bf33400b4a7cb2a695416d6a1b502a048fdee2ab405d1e6693d0e32b",
+      "output_in_asset_bundle": false,
+      "references": [
+        {
+          "path": "production/pair-a/generated/intro-wave-B-f00042-r3.png",
+          "sha256": "d77161b5bbe5d72b63193083b4d69a1685a3742fddf193cfc8df4d4303d5488d"
+        },
+        {
+          "path": "production/pair-root/inputs/intro-wave-A-source-native-reference.png",
+          "sha256": "d5de8040807b0a216271c274cf089c8e9167048558446e5f531bde1e5c39e503"
+        }
+      ],
+      "status": "pending independent audit"
+    },
+    {
+      "call_index": 84,
+      "production_group": "pair-root",
+      "asset_id": "lean-forward-f02778-r1",
+      "tool": "Codex built-in image_gen",
+      "model_version": "not_exposed",
+      "seed": "not_exposed",
+      "source_frame": null,
+      "prompt": "prompts/084-lean-forward-f02778-r1.txt",
+      "original_prompt_sha256": "5d75c7fa30d6b2d2b9b4e97bc3800162f069708f07b4216f041f1f794c154cbf",
+      "public_prompt_sha256": "dafc1e9c7b9efbac36683c76fe4ba530a4f454ed3c939e2eb68cd5310e7fbefd",
+      "output_sha256": "4193767b40417da51ed922c1e5fbc3a3bc6c52d003dbcc1b00566a379dc86178",
+      "output_in_asset_bundle": true,
+      "references": [
+        {
+          "path": "production/pair-root/inputs/lean-forward-f02778-r1-source-native-reference.png",
+          "sha256": "282aeaca226ac9d93b91ba80faac10567f7dde4ef64cf1ce28889bcbd058033b"
+        },
+        {
+          "path": "production/pair-b/inputs/center-r2-connected-hair-only-reference.png",
+          "sha256": "afb2c817fcb1407f63aaaa43975e0e8a4037107d37640f19633761640d4732ce"
+        },
+        {
+          "path": "outputs/uno-continuity-pilot-v1/inputs/ds-user-reference.png",
+          "sha256": "80109a41d6cb87a68fea0618ea4183509eedc3418f03d2409586e2b3aeb9a784"
+        }
+      ],
+      "status": "pending independent audit"
+    },
+    {
+      "call_index": 85,
+      "production_group": "pair-root",
+      "asset_id": "fold-arm-right-f02826-r1",
+      "tool": "Codex built-in image_gen",
+      "model_version": "not_exposed",
+      "seed": "not_exposed",
+      "source_frame": null,
+      "prompt": "prompts/085-fold-arm-right-f02826-r1.txt",
+      "original_prompt_sha256": "c325826c5f19bded9d73f35f21e39b976afbaa8f75ee8d9890005f9d632f45a9",
+      "public_prompt_sha256": "3d405994c647fa5e8fafb08fc5978971ad066c9b0d86fa3d48ffe45f6cccc396",
+      "output_sha256": "f4e3f4c7cfffe4594cc53f673f89ff1b9d68acd18b587926178fc04e6f3d6909",
+      "output_in_asset_bundle": true,
+      "references": [
+        {
+          "path": "production/pair-root/inputs/fold-arm-right-f02826-r1-source-native-reference.png",
+          "sha256": "1a0a76aafbfc26e1c5cb3424d0eef5944455b9ad91b33de56537e7c9ef0a9c0b"
+        },
+        {
+          "path": "production/pair-b/inputs/center-r2-connected-hair-only-reference.png",
+          "sha256": "afb2c817fcb1407f63aaaa43975e0e8a4037107d37640f19633761640d4732ce"
+        },
+        {
+          "path": "outputs/uno-continuity-pilot-v1/inputs/ds-user-reference.png",
+          "sha256": "80109a41d6cb87a68fea0618ea4183509eedc3418f03d2409586e2b3aeb9a784"
+        }
+      ],
+      "status": "pending independent audit"
+    },
+    {
+      "call_index": 86,
+      "production_group": "pair-root",
+      "asset_id": "fold-arm-left-f02916-r1",
+      "tool": "Codex built-in image_gen",
+      "model_version": "not_exposed",
+      "seed": "not_exposed",
+      "source_frame": null,
+      "prompt": "prompts/086-fold-arm-left-f02916-r1.txt",
+      "original_prompt_sha256": "f4acb06e0c8d6ab831628dfc9a9dcd460bd3d32d691776df9a9258a71da0134b",
+      "public_prompt_sha256": "40c45f50f3ca44c6d4e4fd3a46fc3f51bceb29a5226a6525e2bd55f41fe5f66e",
+      "output_sha256": "4405a7c4f49c7b1f1aff7967b331233983fdb1b1954f30c0c888c6385d1dc89a",
+      "output_in_asset_bundle": true,
+      "references": [
+        {
+          "path": "production/pair-root/inputs/fold-arm-left-f02916-r1-source-native-reference.png",
+          "sha256": "fb7deaa20d24589593a1047191f2a4135e249ca299f8aaf00b4dbd89cbcdf037"
+        },
+        {
+          "path": "production/pair-b/inputs/center-r2-connected-hair-only-reference.png",
+          "sha256": "afb2c817fcb1407f63aaaa43975e0e8a4037107d37640f19633761640d4732ce"
+        },
+        {
+          "path": "outputs/uno-continuity-pilot-v1/inputs/ds-user-reference.png",
+          "sha256": "80109a41d6cb87a68fea0618ea4183509eedc3418f03d2409586e2b3aeb9a784"
+        }
+      ],
+      "status": "pending independent audit"
+    },
+    {
+      "call_index": 87,
+      "production_group": "pair-root",
+      "asset_id": "sleep-table-f03006-r1",
+      "tool": "Codex built-in image_gen",
+      "model_version": "not_exposed",
+      "seed": "not_exposed",
+      "source_frame": null,
+      "prompt": "prompts/087-sleep-table-f03006-r1.txt",
+      "original_prompt_sha256": "c03709afc2b7d3735dce127e16eb0ae73de61807f33383e34b6c1ad61c149d27",
+      "public_prompt_sha256": "c9201765f890de85a5760bf15c57499dda10cfd233a6242a0b1c44bdcd98ba72",
+      "output_sha256": "d32ebf45e4fbc52b93f77adf0abefcc1448eb93ac87b887a9e6e0a72f3b8c3c6",
+      "output_in_asset_bundle": true,
+      "references": [
+        {
+          "path": "production/pair-root/inputs/sleep-table-f03006-r1-source-native-reference.png",
+          "sha256": "f181f716ee8c569aa46aa85495cc5eb72246ac3c08d73840338fb6fb28dcbc02"
+        },
+        {
+          "path": "production/pair-b/inputs/center-r2-connected-hair-only-reference.png",
+          "sha256": "afb2c817fcb1407f63aaaa43975e0e8a4037107d37640f19633761640d4732ce"
+        },
+        {
+          "path": "outputs/uno-continuity-pilot-v1/inputs/ds-user-reference.png",
+          "sha256": "80109a41d6cb87a68fea0618ea4183509eedc3418f03d2409586e2b3aeb9a784"
+        }
+      ],
+      "status": "pending independent audit"
+    },
+    {
+      "call_index": 88,
+      "production_group": "pair-root",
+      "asset_id": "game-prepare-f03174-r1",
+      "tool": "Codex built-in image_gen",
+      "model_version": "not_exposed",
+      "seed": "not_exposed",
+      "source_frame": null,
+      "prompt": "prompts/088-game-prepare-f03174-r1.txt",
+      "original_prompt_sha256": "8191a85a20f63dd01bd0d2a48dc4d77d8201ad0127456dfe4e5ff3b0a103037b",
+      "public_prompt_sha256": "5a6e9cb31c8d741bd0532ae819ebbeffb571935158a709689804bb4cc69513a9",
+      "output_sha256": "37086103d7ba01bcdae55c3868f87ec3069440148dc54df03124639ff612f7fc",
+      "output_in_asset_bundle": true,
+      "references": [
+        {
+          "path": "production/pair-root/inputs/game-prepare-f03174-r1-source-native-reference.png",
+          "sha256": "1b48149f0956dd8f780b1664624c4a8783333a0bb69c7b9663c570116b3545c9"
+        },
+        {
+          "path": "production/pair-b/inputs/center-r2-connected-hair-only-reference.png",
+          "sha256": "afb2c817fcb1407f63aaaa43975e0e8a4037107d37640f19633761640d4732ce"
+        },
+        {
+          "path": "outputs/uno-continuity-pilot-v1/inputs/ds-user-reference.png",
+          "sha256": "80109a41d6cb87a68fea0618ea4183509eedc3418f03d2409586e2b3aeb9a784"
+        }
+      ],
+      "status": "pending independent audit"
+    },
+    {
+      "call_index": 89,
+      "production_group": "pair-root",
+      "asset_id": "center-dark-card-f03924-r1",
+      "tool": "Codex built-in image_gen",
+      "model_version": "not_exposed",
+      "seed": "not_exposed",
+      "source_frame": null,
+      "prompt": "prompts/089-center-dark-card-f03924-r1.txt",
+      "original_prompt_sha256": "dd9a5c8f200cdbd47690d84c5fce4a5f1ec82af833d7a5b9bdc9d1bbb56a677d",
+      "public_prompt_sha256": "7096f099d25ae979ee0271aed736ad2497e96641165f48de852f9cbc34a654ac",
+      "output_sha256": "0f37efcf736bc7a02078d999ad17ae616c01ed160dab461d0bfdd7c1a47ee0f0",
+      "output_in_asset_bundle": true,
+      "references": [
+        {
+          "path": "production/pair-root/inputs/center-dark-card-f03924-r1-source-native-reference.png",
+          "sha256": "3dc62b5578fc5458cb6aba9da294faee3cd85e61b0e5a73e0d35f1f7c095abdf"
+        },
+        {
+          "path": "production/pair-b/inputs/center-r2-connected-hair-only-reference.png",
+          "sha256": "afb2c817fcb1407f63aaaa43975e0e8a4037107d37640f19633761640d4732ce"
+        },
+        {
+          "path": "outputs/uno-continuity-pilot-v1/inputs/ds-user-reference.png",
+          "sha256": "80109a41d6cb87a68fea0618ea4183509eedc3418f03d2409586e2b3aeb9a784"
+        }
+      ],
+      "status": "pending independent audit"
+    },
+    {
+      "call_index": 90,
+      "production_group": "pair-root",
+      "asset_id": "dynamite-face-f04050-r1",
+      "tool": "Codex built-in image_gen",
+      "model_version": "not_exposed",
+      "seed": "not_exposed",
+      "source_frame": null,
+      "prompt": "prompts/090-dynamite-face-f04050-r1.txt",
+      "original_prompt_sha256": "866bf7c27bb9e6dd2fc4d1a662c0bef5065f6619ca419b975c1374d0e1ef7101",
+      "public_prompt_sha256": "3b810a38ecc3d0205b33ea5511f9b2fa1f5f277f12b23fe3a67b1511dd87a7f7",
+      "output_sha256": "1af56a76ccd544fa1ef8913f7f71db6f01d2387824ac84cac988a6f28bdaa5c4",
+      "output_in_asset_bundle": true,
+      "references": [
+        {
+          "path": "production/pair-root/inputs/dynamite-face-f04050-r1-source-native-reference.png",
+          "sha256": "dd3b99889468f2bbd72ec57f33ee9ceaf0b112303f5133b3997aedc1f19f6091"
+        },
+        {
+          "path": "production/pair-b/inputs/center-r2-connected-hair-only-reference.png",
+          "sha256": "afb2c817fcb1407f63aaaa43975e0e8a4037107d37640f19633761640d4732ce"
+        },
+        {
+          "path": "outputs/uno-continuity-pilot-v1/inputs/ds-user-reference.png",
+          "sha256": "80109a41d6cb87a68fea0618ea4183509eedc3418f03d2409586e2b3aeb9a784"
+        }
+      ],
+      "status": "pending independent audit"
+    },
+    {
+      "call_index": 91,
+      "production_group": "pair-root",
+      "asset_id": "maid-close-paws-f04266-r1",
+      "tool": "Codex built-in image_gen",
+      "model_version": "not_exposed",
+      "seed": "not_exposed",
+      "source_frame": null,
+      "prompt": "prompts/091-maid-close-paws-f04266-r1.txt",
+      "original_prompt_sha256": "f0cc28ab1665dad4dff51f16f4a50b04accaae0dcb7f54c7b45ae07506a5b478",
+      "public_prompt_sha256": "4a1e3fdad200e2551819d70ecf00ae5f96bca35dfe1d64ea65fd72559b690605",
+      "output_sha256": "4468863953b3ff45da91bbf3ed5f7b900eb92195dc8aa53a16ae2f35c8b9bffd",
+      "output_in_asset_bundle": true,
+      "references": [
+        {
+          "path": "production/pair-root/inputs/maid-close-paws-f04266-r1-source-native-reference.png",
+          "sha256": "7fa4b95b3c5ffb203b77d22035ea4bda9f754156eaff0a4ce9b1575bc55c6e66"
+        },
+        {
+          "path": "production/pair-b/inputs/center-r2-connected-hair-only-reference.png",
+          "sha256": "afb2c817fcb1407f63aaaa43975e0e8a4037107d37640f19633761640d4732ce"
+        },
+        {
+          "path": "outputs/uno-continuity-pilot-v1/inputs/ds-user-reference.png",
+          "sha256": "80109a41d6cb87a68fea0618ea4183509eedc3418f03d2409586e2b3aeb9a784"
+        }
+      ],
+      "status": "pending independent audit"
+    },
+    {
+      "call_index": 92,
+      "production_group": "pair-root",
+      "asset_id": "center-taunt-closed-f04290-r1",
+      "tool": "Codex built-in image_gen",
+      "model_version": "not_exposed",
+      "seed": "not_exposed",
+      "source_frame": null,
+      "prompt": "prompts/092-center-taunt-closed-f04290-r1.txt",
+      "original_prompt_sha256": "038375fb9d1f5c292819690013043386f853747e7a5cf81a31f140605c9786dc",
+      "public_prompt_sha256": "e80912b90a448cec930fd6ed0b976d1ac0d33c084d919676697937d5e7bc5b61",
+      "output_sha256": "e78a9e7641fa9b8eceaca0ca0ca9213562e120c82f304ce3e2fd80e8741a6cf9",
+      "output_in_asset_bundle": true,
+      "references": [
+        {
+          "path": "production/pair-root/inputs/center-taunt-closed-f04290-r1-source-native-reference.png",
+          "sha256": "5bdc52bdc1e642e23dbd8dc88e0f603cb060e96f3515ac800f8a908b5312ca72"
+        },
+        {
+          "path": "production/pair-b/inputs/center-r2-connected-hair-only-reference.png",
+          "sha256": "afb2c817fcb1407f63aaaa43975e0e8a4037107d37640f19633761640d4732ce"
+        },
+        {
+          "path": "outputs/uno-continuity-pilot-v1/inputs/ds-user-reference.png",
+          "sha256": "80109a41d6cb87a68fea0618ea4183509eedc3418f03d2409586e2b3aeb9a784"
+        }
+      ],
+      "status": "pending independent audit"
+    },
+    {
+      "call_index": 93,
+      "production_group": "pair-root",
+      "asset_id": "center-shout-f04428-r1",
+      "tool": "Codex built-in image_gen",
+      "model_version": "not_exposed",
+      "seed": "not_exposed",
+      "source_frame": null,
+      "prompt": "prompts/093-center-shout-f04428-r1.txt",
+      "original_prompt_sha256": "73c07c9a7a7e4b9cb1bf95ba59313c462533372ccbba8716c15f658c3535be57",
+      "public_prompt_sha256": "2db51c078e068b89c7ec527908bf94323eb6dd9b04b0b23235ae29556dee9925",
+      "output_sha256": "51c1c67797dd1d3ac425f045a1e43c5eab319a35281d6b8080e3c7cab4dfa40e",
+      "output_in_asset_bundle": true,
+      "references": [
+        {
+          "path": "production/pair-root/inputs/center-shout-f04428-r1-source-native-reference.png",
+          "sha256": "fa00f55e58b8e7c033f9d4e3163a5eb706316d67cee3156ce6ddc3c2f2c49d6a"
+        },
+        {
+          "path": "production/pair-b/inputs/center-r2-connected-hair-only-reference.png",
+          "sha256": "afb2c817fcb1407f63aaaa43975e0e8a4037107d37640f19633761640d4732ce"
+        },
+        {
+          "path": "outputs/uno-continuity-pilot-v1/inputs/ds-user-reference.png",
+          "sha256": "80109a41d6cb87a68fea0618ea4183509eedc3418f03d2409586e2b3aeb9a784"
+        }
+      ],
+      "status": "pending independent audit"
+    },
+    {
+      "call_index": 94,
+      "production_group": "pair-root",
+      "asset_id": "rear-card-table-f04470-r1",
+      "tool": "Codex built-in image_gen",
+      "model_version": "not_exposed",
+      "seed": "not_exposed",
+      "source_frame": null,
+      "prompt": "prompts/094-rear-card-table-f04470-r1.txt",
+      "original_prompt_sha256": "44854ebeb5c776441d2bfb0ffe64f9764f3af18d25f205c993ed976dc21786c7",
+      "public_prompt_sha256": "31abaf781c59ee7a4ba91f5b7adcede643cfa65b4e107b5cfbc44fa778750e71",
+      "output_sha256": "48647899bc3cd4a1092fb4918cac29e3f93f7f0bd1f46d79ecbcd8a58c8a8518",
+      "output_in_asset_bundle": true,
+      "references": [
+        {
+          "path": "production/pair-root/inputs/rear-card-table-f04470-r1-source-native-reference.png",
+          "sha256": "fe900c065c1252a2f4c3f18a69da66c858bae831af0ee7b7b50aec02227b180d"
+        },
+        {
+          "path": "production/pair-b/inputs/center-r2-connected-hair-only-reference.png",
+          "sha256": "afb2c817fcb1407f63aaaa43975e0e8a4037107d37640f19633761640d4732ce"
+        },
+        {
+          "path": "outputs/uno-continuity-pilot-v1/inputs/ds-user-reference.png",
+          "sha256": "80109a41d6cb87a68fea0618ea4183509eedc3418f03d2409586e2b3aeb9a784"
+        }
+      ],
+      "status": "pending independent audit"
+    },
+    {
+      "call_index": 95,
+      "production_group": "pair-root",
+      "asset_id": "side-blank-eyes-f04578-r1",
+      "tool": "Codex built-in image_gen",
+      "model_version": "not_exposed",
+      "seed": "not_exposed",
+      "source_frame": null,
+      "prompt": "prompts/095-side-blank-eyes-f04578-r1.txt",
+      "original_prompt_sha256": "587e78bae6a26c65b91e02679c7bd736fb9c972f7736da736b100188b37dfbe9",
+      "public_prompt_sha256": "cc478344e9bc689a5fe76b6dfe5f380db79de86f69022b4801ea50d4d4c6cbbe",
+      "output_sha256": "3268b76acdcbd02757ca080a2f990b13feedac44051792f0e2e6423b360fad00",
+      "output_in_asset_bundle": true,
+      "references": [
+        {
+          "path": "production/pair-root/inputs/side-blank-eyes-f04578-r1-source-native-reference.png",
+          "sha256": "0756e5da53ac0877403de201021fb98c7a5c92d6f397e0be852f8b009b8efa01"
+        },
+        {
+          "path": "production/pair-b/inputs/center-r2-connected-hair-only-reference.png",
+          "sha256": "afb2c817fcb1407f63aaaa43975e0e8a4037107d37640f19633761640d4732ce"
+        },
+        {
+          "path": "outputs/uno-continuity-pilot-v1/inputs/ds-user-reference.png",
+          "sha256": "80109a41d6cb87a68fea0618ea4183509eedc3418f03d2409586e2b3aeb9a784"
+        }
+      ],
+      "status": "pending independent audit"
+    },
+    {
+      "call_index": 96,
+      "production_group": "pair-root",
+      "asset_id": "final-card-chaos-f04818-r1",
+      "tool": "Codex built-in image_gen",
+      "model_version": "not_exposed",
+      "seed": "not_exposed",
+      "source_frame": null,
+      "prompt": "prompts/096-final-card-chaos-f04818-r1.txt",
+      "original_prompt_sha256": "22abe8270de5f05c4bca37b75d9deaeb4408632e1288e96c322faa4d559f1469",
+      "public_prompt_sha256": "25a113d82dfcdbc28d6e1d92f3e0f49ce2ee46d7f42529f1485d264f1f1867c3",
+      "output_sha256": "44bacd2e0fef957cb12b540839eed7c0644ad0dd5f51fd4aee739bbfe731d23d",
+      "output_in_asset_bundle": true,
+      "references": [
+        {
+          "path": "production/pair-root/inputs/final-card-chaos-f04818-r1-source-native-reference.png",
+          "sha256": "252e8fe7dd682b7952b03c6b816a6aa974c88862a007244d984c52c0502719f3"
+        },
+        {
+          "path": "production/pair-b/inputs/center-r2-connected-hair-only-reference.png",
+          "sha256": "afb2c817fcb1407f63aaaa43975e0e8a4037107d37640f19633761640d4732ce"
+        },
+        {
+          "path": "outputs/uno-continuity-pilot-v1/inputs/ds-user-reference.png",
+          "sha256": "80109a41d6cb87a68fea0618ea4183509eedc3418f03d2409586e2b3aeb9a784"
+        }
+      ],
+      "status": "pending independent audit"
+    },
+    {
+      "call_index": 97,
+      "production_group": "pair-root",
+      "asset_id": "fanart-insert-f02076-r1",
+      "tool": "Codex built-in image_gen",
+      "model_version": "not_exposed",
+      "seed": "not_exposed",
+      "source_frame": null,
+      "prompt": "prompts/097-fanart-insert-f02076-r1.txt",
+      "original_prompt_sha256": "cb79d1ee3ac23ab832764781a650350600858f61e972192f21c5ef0463ed586a",
+      "public_prompt_sha256": "4866b84eaee7aa5ff21118ee74b9bcb2b6c215fd980547052c299fdf488153be",
+      "output_sha256": "42459513da02cfb79050d274be54c1feea7753500001ce87d9e3db0cd545e29b",
+      "output_in_asset_bundle": true,
+      "references": [
+        {
+          "path": "production/pair-root/inputs/fanart-insert-f02076-r1-source-native-reference.png",
+          "sha256": "8e0ca94241943af0b1d771b5fc63c472d65ba38f10120995f6c7c10ca0a6b21d"
+        },
+        {
+          "path": "production/pair-b/inputs/center-r2-connected-hair-only-reference.png",
+          "sha256": "afb2c817fcb1407f63aaaa43975e0e8a4037107d37640f19633761640d4732ce"
+        },
+        {
+          "path": "outputs/uno-continuity-pilot-v1/inputs/ds-user-reference.png",
+          "sha256": "80109a41d6cb87a68fea0618ea4183509eedc3418f03d2409586e2b3aeb9a784"
+        }
+      ],
+      "status": "pending independent audit"
+    },
+    {
+      "call_index": 98,
+      "production_group": "pair-root",
+      "asset_id": "center-taunt-open-f04344-r1",
+      "tool": "Codex built-in image_gen",
+      "model_version": "not_exposed",
+      "seed": "not_exposed",
+      "source_frame": null,
+      "prompt": "prompts/098-center-taunt-open-f04344-r1.txt",
+      "original_prompt_sha256": "1e7157325566ab35d6b91c669af7c677aa126d05d5e77041ca70eea16d06c6d2",
+      "public_prompt_sha256": "cc15c524aedca1b21f604d9ba9be2514df9627838b5c69fcfd9fbaced8521ed4",
+      "output_sha256": "7a286ab8a1002d4dbde67a810b8602508610bd1a81164aea52638cf672aa8152",
+      "output_in_asset_bundle": true,
+      "references": [
+        {
+          "path": "production/pair-root/generated/center-taunt-closed-f04290-r1.png",
+          "sha256": "e78a9e7641fa9b8eceaca0ca0ca9213562e120c82f304ce3e2fd80e8741a6cf9"
+        },
+        {
+          "path": "production/pair-root/inputs/center-taunt-open-f04344-r1-source-native-reference.png",
+          "sha256": "674d87ac3bec6e603080b2220ca75b0a82e38963e1f9203864292df3d00bea3d"
+        }
+      ],
+      "status": "pending independent audit"
+    },
+    {
+      "call_index": 99,
+      "production_group": "pair-root",
+      "asset_id": "side-unamused-f04752-r1",
+      "tool": "Codex built-in image_gen",
+      "model_version": "not_exposed",
+      "seed": "not_exposed",
+      "source_frame": null,
+      "prompt": "prompts/099-side-unamused-f04752-r1.txt",
+      "original_prompt_sha256": "ce8cf97203b7b66af6441e03317b03a71d0c6075fa187641b397bfc42fc1eb3b",
+      "public_prompt_sha256": "2c046018ae6313f5eac5d207aca4ff32efe36214ebdd0c503529ecdd85165c0c",
+      "output_sha256": "1768f89c08b922ae7b072912d1731dd9721a1aafdffa62b10c6b999c0ba5b4db",
+      "output_in_asset_bundle": true,
+      "references": [
+        {
+          "path": "production/pair-root/generated/side-blank-eyes-f04578-r1.png",
+          "sha256": "3268b76acdcbd02757ca080a2f990b13feedac44051792f0e2e6423b360fad00"
+        },
+        {
+          "path": "production/pair-root/inputs/side-unamused-f04752-r1-source-native-reference.png",
+          "sha256": "9a99132b294d01a018140a59d6ffc7f5ca3bacbbeb0b6bcd5924dde0b2fc5435"
+        }
+      ],
+      "status": "pending independent audit"
+    },
+    {
+      "call_index": 100,
+      "production_group": "pair-root",
+      "asset_id": "side-shock-f04770-r1",
+      "tool": "Codex built-in image_gen",
+      "model_version": "not_exposed",
+      "seed": "not_exposed",
+      "source_frame": null,
+      "prompt": "prompts/100-side-shock-f04770-r1.txt",
+      "original_prompt_sha256": "741ff6be71999bae2fc7e38d6b1a15a381ac815821fecd8b1a394c5885665532",
+      "public_prompt_sha256": "2f470c2284b5f2d68ec3684056e20e28375adf041c5ad0dd407db6dbc3fc4064",
+      "output_sha256": "2e1d511f6b8ed39a55ff5ce682005aeec6cf2db0000b770914141e12cc86392d",
+      "output_in_asset_bundle": true,
+      "references": [
+        {
+          "path": "production/pair-root/generated/side-blank-eyes-f04578-r1.png",
+          "sha256": "3268b76acdcbd02757ca080a2f990b13feedac44051792f0e2e6423b360fad00"
+        },
+        {
+          "path": "production/pair-root/inputs/side-shock-f04770-r1-source-native-reference.png",
+          "sha256": "d502c7dbd6c5ed9bb856742aa6b02f54adbfc409fbfe3bc4c8dd6fcbc6009bf6"
+        }
+      ],
+      "status": "pending independent audit"
+    },
+    {
+      "call_index": 101,
+      "production_group": "pair-root",
+      "asset_id": "side-shock-extreme-f04794-r1",
+      "tool": "Codex built-in image_gen",
+      "model_version": "not_exposed",
+      "seed": "not_exposed",
+      "source_frame": null,
+      "prompt": "prompts/101-side-shock-extreme-f04794-r1.txt",
+      "original_prompt_sha256": "2d30e9aec270c2e26a22d0ae472ea77d6158334c5a22a24ff0f38e603ec6f4ba",
+      "public_prompt_sha256": "4137c54eb0667c019fad611926efda8f7a24904082a8e4878ee38b0f5180a64d",
+      "output_sha256": "42839f3ec2e45d1c9530e069ea11f11f3f89b08a91bbb97459ebcf1ffa7ac740",
+      "output_in_asset_bundle": true,
+      "references": [
+        {
+          "path": "production/pair-root/generated/side-blank-eyes-f04578-r1.png",
+          "sha256": "3268b76acdcbd02757ca080a2f990b13feedac44051792f0e2e6423b360fad00"
+        },
+        {
+          "path": "production/pair-root/inputs/side-shock-extreme-f04794-r1-source-native-reference.png",
+          "sha256": "ee83ecb65143b41245604dd864254a25709d016a71a7b5c52b1b63e8e790fa01"
+        }
+      ],
+      "status": "pending independent audit"
+    },
+    {
+      "call_index": 102,
+      "production_group": "revision-v2/intro-a-action-correct",
+      "asset_id": "revision_intro_A_source36_B3_hair",
+      "tool": "Codex built-in image_gen",
+      "model_version": "not_exposed",
+      "seed": "not_exposed",
+      "source_frame": 36,
+      "prompt": "prompts/102-intro-A-source36-B3-hair-only-r1.txt",
+      "original_prompt_sha256": "01f1ddec93cbc5b9a3e3be41488fc7bac2d3f9934601f68cb04b66f356bb54c4",
+      "public_prompt_sha256": "01f1ddec93cbc5b9a3e3be41488fc7bac2d3f9934601f68cb04b66f356bb54c4",
+      "output_sha256": "f24bbe7be9551ac781565c215cfbb5d4bd538d909543e0f0820c0910def90203",
+      "output_in_asset_bundle": false,
+      "references": [
+        {
+          "path": "production/revision-v2/intro-a-action-correct/inputs/intro-A2-frozen-edit-target.png",
+          "role": "A2 correct-action edit target; freeze face/hands/UNO cards/nameplate/camera",
+          "sha256": "e1eebd83a25945328b16eeace22bc4121acf9b83f6203ad96f93aa3be7fc0129"
+        },
+        {
+          "path": "production/revision-v2/intro-a-action-correct/inputs/intro-B3-complete-hair-only-reference.png",
+          "role": "B3 connected hair and headwear design only; no face/body/card pixels",
+          "sha256": "e66360c1a69df39376e2f00340180984623bc2d75546c4778920cf66002008c8"
+        },
+        {
+          "path": "production/revision-v2/intro-a-action-correct/inputs/source-f00036-equal-canvas.png",
+          "role": "exact sequential source36, sole action/face/camera authority",
+          "sha256": "d5de8040807b0a216271c274cf089c8e9167048558446e5f531bde1e5c39e503"
+        }
+      ],
+      "status": "superseded_by_r2_headwear_correction"
+    },
+    {
+      "call_index": 103,
+      "production_group": "revision-v2/intro-a-action-correct",
+      "asset_id": "revision_intro_A_source36_B3_hair",
+      "tool": "Codex built-in image_gen",
+      "model_version": "not_exposed",
+      "seed": "not_exposed",
+      "source_frame": 36,
+      "prompt": "prompts/103-intro-A-final-headwear-projection-r2.txt",
+      "original_prompt_sha256": "2b1e5d3d7a5c5f5e0fd0bcdcd538d3f63a86e189f997ed69025603a8a54512e1",
+      "public_prompt_sha256": "2b1e5d3d7a5c5f5e0fd0bcdcd538d3f63a86e189f997ed69025603a8a54512e1",
+      "output_sha256": "6d1086f3ae71e4ac89d710a3876b7d836d55f7f75e032c1725822206a7d14a00",
+      "output_in_asset_bundle": false,
+      "references": [
+        {
+          "path": "production/revision-v2/intro-a-action-correct/generated/intro-A-source36-B3-hair-only-r1.png",
+          "role": "correct source36 action-A edit target; freeze face/main fringe/hands/cards/nameplate/body",
+          "sha256": "f24bbe7be9551ac781565c215cfbb5d4bd538d909543e0f0820c0910def90203"
+        },
+        {
+          "path": "production/revision-v2/intro-a-action-correct/inputs/intro-B3-native-coordinate-hair-headwear-reference.png",
+          "role": "exact native-coordinate B3 hair/headwear only; no pose/body/card donor",
+          "sha256": "cb18644eceb73a6e9a999477b367f1793917e73a9c1ca2a8ce58788ff3b3b07a"
+        }
+      ],
+      "status": "pending_root_thumb_repair"
+    },
+    {
+      "call_index": 104,
+      "production_group": "revision-v2/pair-b",
+      "asset_id": "maid-side-clasp",
+      "tool": "Codex built-in image_gen",
+      "model_version": "not_exposed",
+      "seed": "not_exposed",
+      "source_frame": 2346,
+      "prompt": "prompts/104-maid-side-clasp-f02346-r1.txt",
+      "original_prompt_sha256": "447930c62328dafa34fe8e4efe07b41a7949b879a5bdce6728b0e9ecd7fea6af",
+      "public_prompt_sha256": "1d06dc132adbfe72dcae7796c22464c60489c397f2b56d251a8de11b7fd1b427",
+      "output_sha256": "dc6cbd4aaa5a975d39c3704f62c009decdeccbece8290c32856334411a1b76f0",
+      "output_in_asset_bundle": true,
+      "references": [
+        {
+          "path": "production/revision-v2/pair-b/inputs/source-f02346-equal-canvas.png",
+          "role": "exact source pose, face, source maid outfit, props, lettering and camera authority"
+        },
+        {
+          "path": "production/pair-b/inputs/center-r2-connected-hair-only-reference.png",
+          "role": "frozen adopted connected hair/headwear only, F005 design origin"
+        },
+        {
+          "path": "{workspace}/outputs/uno-continuity-pilot-v1/inputs/ds-user-reference.png",
+          "role": "original DS hair/headwear identity only; no costume/body/face authority"
+        }
+      ],
+      "status": "pending_independent_audit"
+    },
+    {
+      "call_index": 105,
+      "production_group": "revision-v2/pair-b",
+      "asset_id": "maid-opposite-sign",
+      "tool": "Codex built-in image_gen",
+      "model_version": "not_exposed",
+      "seed": "not_exposed",
+      "source_frame": 2382,
+      "prompt": "prompts/105-maid-opposite-sign-f02382-r1.txt",
+      "original_prompt_sha256": "5c7fa0e1d2659a5b407927c78e70ac79a8f5380e14c6ad48b3beabbe3ad2f736",
+      "public_prompt_sha256": "50d91fdd2d5f6c24ed96b1892327819837015ff0b997874f94b7ecd71cbc1725",
+      "output_sha256": "ca5c67973232ff62ada536264a068375c71bdf6fcec82023a04bde0031a2512f",
+      "output_in_asset_bundle": true,
+      "references": [
+        {
+          "path": "production/revision-v2/pair-b/inputs/source-f02382-equal-canvas.png",
+          "role": "exact source pose, face, source maid outfit, props, lettering and camera authority"
+        },
+        {
+          "path": "production/pair-b/inputs/center-r2-connected-hair-only-reference.png",
+          "role": "frozen adopted connected hair/headwear only, F005 design origin"
+        },
+        {
+          "path": "{workspace}/outputs/uno-continuity-pilot-v1/inputs/ds-user-reference.png",
+          "role": "original DS hair/headwear identity only; no costume/body/face authority"
+        }
+      ],
+      "status": "pending_independent_audit"
+    },
+    {
+      "call_index": 106,
+      "production_group": "revision-v2/pair-b",
+      "asset_id": "maid-paws-placard",
+      "tool": "Codex built-in image_gen",
+      "model_version": "not_exposed",
+      "seed": "not_exposed",
+      "source_frame": 2400,
+      "prompt": "prompts/106-maid-paws-placard-f02400-r1.txt",
+      "original_prompt_sha256": "7aa0aeef17c4fae98d060c1e1115a67b3094c496f7f705507cf94119adc26d79",
+      "public_prompt_sha256": "3eeb8ecb76a23599ef049dd2c1ba60a5b0297180b17ce6f0a214a73cc8889cc7",
+      "output_sha256": "7aa51024a1ad5302705a5b59054fd60ec31b9a0eaa11919fbba7d77b7fb50240",
+      "output_in_asset_bundle": false,
+      "references": [
+        {
+          "path": "production/revision-v2/pair-b/inputs/source-f02400-equal-canvas.png",
+          "role": "exact source pose, face, source maid outfit, props, lettering and camera authority"
+        },
+        {
+          "path": "production/pair-b/inputs/center-r2-connected-hair-only-reference.png",
+          "role": "frozen adopted connected hair/headwear only, F005 design origin"
+        },
+        {
+          "path": "{workspace}/outputs/uno-continuity-pilot-v1/inputs/ds-user-reference.png",
+          "role": "original DS hair/headwear identity only; no costume/body/face authority"
+        }
+      ],
+      "status": "pending_independent_audit"
+    },
+    {
+      "call_index": 107,
+      "production_group": "revision-v2/pair-b",
+      "asset_id": "maid-paws-placard",
+      "tool": "Codex built-in image_gen",
+      "model_version": "not_exposed",
+      "seed": "not_exposed",
+      "source_frame": 2400,
+      "prompt": "prompts/107-maid-paws-placard-f02400-r2.txt",
+      "original_prompt_sha256": "6a320716d55367ceee21be241d3690afd2ca40bf92eb4cb8b7e35641a42d9e66",
+      "public_prompt_sha256": "650ac70e06a76fca2068734a181795bef766f37d6eb6c32e7f852452045d7b5a",
+      "output_sha256": "f57ff42be58ae3aa3ed7d067b2391256b2b451143189ea8a2a8e59f3c8b91d2a",
+      "output_in_asset_bundle": true,
+      "references": [
+        {
+          "path": "production/revision-v2/pair-b/generated/maid-paws-placard-f02400-r1.png",
+          "role": "exact nearly-approved edit target; remove only duplicate lower image-left fin"
+        },
+        {
+          "path": "source/revision-v2/fullrate/f02400.png",
+          "role": "original source all non-hair shape, pose, face, outfit, paw, prop, text and camera authority"
+        },
+        {
+          "path": "production/pair-b/inputs/center-r2-connected-hair-only-reference.png",
+          "role": "frozen connected hair/headwear design only, one fin per side"
+        }
+      ],
+      "status": "pending_independent_audit"
+    },
+    {
+      "call_index": 108,
+      "production_group": "revision-v2/pair-b",
+      "asset_id": "table-neutral-empty-front",
+      "tool": "Codex built-in image_gen",
+      "model_version": "not_exposed",
+      "seed": "not_exposed",
+      "source_frame": 1686,
+      "prompt": "prompts/108-table-neutral-empty-front-f01686-r1.txt",
+      "original_prompt_sha256": "7b4e2d88392b1b85a38760d7826a361b8b7942eaa3f460fbfdc14b4cf82aabda",
+      "public_prompt_sha256": "235e3d5433ce54bf815e33cf733659d2480c5915ba2df120c1ce7db327288a4f",
+      "output_sha256": "1646c512b7d9997d25e2c51cb56c5dcc08a54f965356a4a590dce42674dcc717",
+      "output_in_asset_bundle": true,
+      "references": [
+        {
+          "path": "production/revision-v2/pair-b/inputs/source-f01686-equal-canvas.png",
+          "role": "exact source1686 whole-table empty-chest/hands-hidden pose and camera authority"
+        },
+        {
+          "path": "production/pair-b/inputs/center-r2-connected-hair-only-reference.png",
+          "role": "frozen adopted hair/headwear only, F005 design origin"
+        },
+        {
+          "path": "{workspace}/outputs/uno-continuity-pilot-v1/inputs/ds-user-reference.png",
+          "role": "original DS hair/headwear only"
+        }
+      ],
+      "status": "pending_independent_audit"
+    },
+    {
+      "call_index": 109,
+      "production_group": "revision-v2/pair-b",
+      "asset_id": "sigh-canonical-two",
+      "tool": "Codex built-in image_gen",
+      "model_version": "not_exposed",
+      "seed": "not_exposed",
+      "source_frame": 2670,
+      "prompt": "prompts/109-sigh-canonical-two-f02670-r1.txt",
+      "original_prompt_sha256": "80d4b4cd0f4367d46e3f1642d0682a9b9e184a9982a66edefa358896642c265c",
+      "public_prompt_sha256": "fb60f93bfd32bed46207399e62e93a59bfcee381ad9d46714a269f6f784c1872",
+      "output_sha256": "017456e772ffe2c272a87c63a15f8c463c8995ab5c2301bc1cfb791955f45b40",
+      "output_in_asset_bundle": false,
+      "references": [
+        {
+          "path": "production/revision-v2/pair-b/inputs/sigh-source-two-glyphs.png",
+          "role": "exact source two comic glyphs; remove all actor/background, preserve only lettering shapes"
+        }
+      ],
+      "status": "pending_independent_audit"
+    },
+    {
+      "call_index": 110,
+      "production_group": "revision-v2/pair-root",
+      "asset_id": "intro-deepseek",
+      "tool": "Codex built-in image_gen",
+      "model_version": "not_exposed",
+      "seed": "not_exposed",
+      "source_frame": null,
+      "prompt": "prompts/110-intro-deepseek.txt",
+      "original_prompt_sha256": "3bd0d28d53002450a336414e407ae5b70c42e67a3aeba9589593bc1498105bb3",
+      "public_prompt_sha256": "b007cec6ad557ddd9bdcdd4a797b9feba5a28509dad15ed2b1c1599171fd8207",
+      "output_sha256": "4b654b7090e9ada6d2910b7932786f3b19998d03a58259ad6b924989caccb8fc",
+      "output_in_asset_bundle": false,
+      "references": [
+        "production/pair-a/generated/intro-wave-B-f00042-r3.png"
+      ],
+      "status": "recorded"
+    },
+    {
+      "call_index": 111,
+      "production_group": "revision-v2/pair-root",
+      "asset_id": "score-deepseek",
+      "tool": "Codex built-in image_gen",
+      "model_version": "not_exposed",
+      "seed": "not_exposed",
+      "source_frame": null,
+      "prompt": "prompts/111-score-deepseek.txt",
+      "original_prompt_sha256": "309248ff9da309b35322df10d775fc36b7384d43c06fcaad59b2669abb085226",
+      "public_prompt_sha256": "e945c4c39123b361ec5ff0209d6d8b056b9b54d030abc35239954a0b1f91a0d9",
+      "output_sha256": "06b0577a6e3add86eef490ee699556cb0e0fc3b813fd10797c712e47cfb65e09",
+      "output_in_asset_bundle": true,
+      "references": [
+        "production/revision-v2/pair-root/score-source-f00408.png"
+      ],
+      "status": "recorded"
+    },
+    {
+      "call_index": 112,
+      "production_group": "revision-v2/pair-root",
+      "asset_id": "fanart-ds-title",
+      "tool": "Codex built-in image_gen",
+      "model_version": "not_exposed",
+      "seed": "not_exposed",
+      "source_frame": null,
+      "prompt": "prompts/112-fanart-ds-title.txt",
+      "original_prompt_sha256": "2118953d7d1921d6621c97cb7563f5670b143355649f004525625939726b01a3",
+      "public_prompt_sha256": "2aa23564a046d43bc93a46d032d87746b9b65a0c76501f76764ff700992eb50c",
+      "output_sha256": "d4e10f6c19363e50c6cccc355cf8a7d172d651d6ccdd7e6c3708711221f0036e",
+      "output_in_asset_bundle": false,
+      "references": [
+        "production/pair-root/generated/fanart-insert-f02076-r1.png"
+      ],
+      "status": "recorded"
+    },
+    {
+      "call_index": 113,
+      "production_group": "revision-v2/pair-root",
+      "asset_id": "tease_forehead_B_hairlock_v2",
+      "tool": "Codex built-in image_gen",
+      "model_version": "not_exposed",
+      "seed": "not_exposed",
+      "source_frame": 1032,
+      "prompt": "prompts/113-tease-B-hairlock.txt",
+      "original_prompt_sha256": "2989b2ce62eeeae4e491720a5eb37e78cddf0b0c107e7c878552254ee30a3295",
+      "public_prompt_sha256": "8a8b94cc20cb6de099fd37a851914e12c9406b654741af287ee5d0253fbaeee3",
+      "output_sha256": "aaf73829b2c3332d88a76f6a99c6023862a06930027bcd9ce3a1d1d00b90ce71",
+      "output_in_asset_bundle": true,
+      "references": [
+        "production/pair-a/generated/tease-forehead-B-f01032-r2.png",
+        "production/pair-a/generated/tease-forehead-A-f01020-r2.png",
+        "source/action-key-source/f01032.png"
+      ],
+      "status": "recorded"
+    },
+    {
+      "call_index": 114,
+      "production_group": "revision-v2/pair-root",
+      "asset_id": "plead_B_tipfix_v2",
+      "tool": "Codex built-in image_gen",
+      "model_version": "not_exposed",
+      "seed": "not_exposed",
+      "source_frame": 2670,
+      "prompt": "prompts/114-plead-B-tip-fix.txt",
+      "original_prompt_sha256": "c68d71a344e5b9e29117bd2500ecc8a036752195f2e351ffc2042f70ec0b2123",
+      "public_prompt_sha256": "b381499aed0e08882374d0ddf2befdd8861b83dfa425220f0b84ea94a8cce7ba",
+      "output_sha256": "b468dc47174489b12683f1d4e8f016a8de3e61b0ad0451cf312a3fb2807b29eb",
+      "output_in_asset_bundle": false,
+      "references": [
+        "production/pair-root/generated/plead-B-f02670-r1.png",
+        "production/pair-root/generated/plead-A-f02628-r1.png",
+        "source/action-key-source/f02670.png"
+      ],
+      "status": "recorded"
+    },
+    {
+      "call_index": 115,
+      "production_group": "revision-v2/pair-root",
+      "asset_id": "intro_palm_up_v2",
+      "tool": "Codex built-in image_gen",
+      "model_version": "not_exposed",
+      "seed": "not_exposed",
+      "source_frame": 36,
+      "prompt": "prompts/115-intro-A-action-fix.txt",
+      "original_prompt_sha256": "f6ef0e95f245eea9c83a94832071cfc4db963ce1e1c709c2640e16406509ce87",
+      "public_prompt_sha256": "0ff70f4ff4adf9a3739e7f0fc0113220d4838374160e8bf63ee33ea99aaae74e",
+      "output_sha256": "4968296769edfc93c2f90ff93c961823919ac59a742e605d5fdde339c669ecf9",
+      "output_in_asset_bundle": false,
+      "references": [
+        "production/pair-root/generated/intro-wave-A-f00036-r3.png",
+        "production/pair-root/inputs/intro-wave-A-source-native-reference.png",
+        "production/pair-a/generated/intro-wave-B-f00042-r3.png"
+      ],
+      "status": "recorded"
+    },
+    {
+      "call_index": 116,
+      "production_group": "revision-v2/pair-root",
+      "asset_id": "plead_B_clean_v2",
+      "tool": "Codex built-in image_gen",
+      "model_version": "not_exposed",
+      "seed": "not_exposed",
+      "source_frame": 2670,
+      "prompt": "prompts/116-plead-B-clean.txt",
+      "original_prompt_sha256": "e90e1641f8d2af9f02108b89f0aa0d10a7e8254a8a9de7538ae76eec3d64e683",
+      "public_prompt_sha256": "0d35572c81e61da35b56c3b9fc3715efe7aa5b8f85d0a7492be545035ca1002f",
+      "output_sha256": "f6f62453d3817dec2275416e5bb1185d4941c0bd7000c5e7b9fd0e754294289c",
+      "output_in_asset_bundle": true,
+      "references": [
+        "production/revision-v2/pair-root/generated/plead-B-tip-fix.png"
+      ],
+      "status": "recorded"
+    },
+    {
+      "call_index": 117,
+      "production_group": "revision-v2/pair-root",
+      "asset_id": "center_dark_closed_v2",
+      "tool": "Codex built-in image_gen",
+      "model_version": "not_exposed",
+      "seed": "not_exposed",
+      "source_frame": 4014,
+      "prompt": "prompts/117-center-dark-closed.txt",
+      "original_prompt_sha256": "8c3ffa2a8fbc40557ad4e6fd42167a7c88d45f6b7c5d270e07539f6d239383bf",
+      "public_prompt_sha256": "d7265911e63cd368825a8ede1f846f9b8c0b5ed55f5190864ee16ed75077abd4",
+      "output_sha256": "a67536a2e39b80bdaceae71e5c626c1c715ea8f8a8ca76d8a182516dab0b6b8c",
+      "output_in_asset_bundle": true,
+      "references": [
+        "production/pair-a/generated/center-dark-card-textless-r1.png",
+        "production/pair-root/inputs/source-f04014.png"
+      ],
+      "status": "recorded"
+    },
+    {
+      "call_index": 118,
+      "production_group": "revision-v2/pair-root",
+      "asset_id": "fold_arm_left_sleepy_v2",
+      "tool": "Codex built-in image_gen",
+      "model_version": "not_exposed",
+      "seed": "not_exposed",
+      "source_frame": 2970,
+      "prompt": "prompts/118-fold-left-sleepy.txt",
+      "original_prompt_sha256": "89c37770cc06ba60d2f3cfd14e3c775bfd3765340ddb6988bbb4cb5534235be3",
+      "public_prompt_sha256": "0c6c92dccfdd8d5a25691d33d8388d84a236c56f1716cf5e1b17ed92a9188300",
+      "output_sha256": "997f6846bd5fe3dceba505b684e73e6639556fd766f10be2389b152000cd8256",
+      "output_in_asset_bundle": false,
+      "references": [
+        "production/pair-root/inputs/fold-sleepy-v2-source-native-reference.png",
+        "production/pair-root/generated/fold-arm-left-f02916-r1.png",
+        "{workspace}/outputs/uno-continuity-pilot-v1/inputs/ds-user-reference.png"
+      ],
+      "status": "recorded"
+    },
+    {
+      "call_index": 119,
+      "production_group": "revision-v2/pair-root",
+      "asset_id": "fold_arm_left_sleepy_v2",
+      "tool": "Codex built-in image_gen",
+      "model_version": "not_exposed",
+      "seed": "not_exposed",
+      "source_frame": 2970,
+      "prompt": "prompts/119-fold-left-sleepy-loop-fix.txt",
+      "original_prompt_sha256": "e7fd43301c87442db26c5960c75ae6ab7c552f6579266cc9098f91819705512b",
+      "public_prompt_sha256": "1ee4fc00845201fc76b298b32bb368430f0dc5aa1da99f67c2854dd29ffa3d7a",
+      "output_sha256": "231a0885ff1cc0e17daf6ae1f9689262c8b4c53cd51cca0f1c4a7ae5303d438c",
+      "output_in_asset_bundle": true,
+      "references": [
+        "production/revision-v2/pair-root/generated/fold-left-sleepy.png"
+      ],
+      "status": "recorded"
+    },
+    {
+      "call_index": 120,
+      "production_group": "revision-v2/pair-root",
+      "asset_id": "revision_intro_A_source36_B3_hair",
+      "tool": "Codex built-in image_gen",
+      "model_version": "not_exposed",
+      "seed": "not_exposed",
+      "source_frame": 36,
+      "prompt": "prompts/120-intro-A-thumb-fix.txt",
+      "original_prompt_sha256": "9f9f61aec76200db2c3221b8737293ee8100bf5ddd5cc548fa9cadab343f6eca",
+      "public_prompt_sha256": "bc18eb5cacef0b0fe71dd5484637cd35f9b5a0cddefe010514c9771b078ff6dd",
+      "output_sha256": "fcd2df9eff42d6ff017e806f046d467fc528d879a58bbaa5d69bd8554dcfcaac",
+      "output_in_asset_bundle": true,
+      "references": [
+        "production/revision-v2/intro-a-action-correct/generated/intro-A-source36-B3-headwear-r2.png",
+        "production/revision-v2/pair-root/intro-A-hand-source-reference.png"
+      ],
+      "status": "recorded"
+    },
+    {
+      "call_index": 121,
+      "production_group": "revision-v2/segment-102-106",
+      "asset_id": "revision_panic_motion_2454",
+      "tool": "Codex built-in image_gen",
+      "model_version": "not_exposed",
+      "seed": "not_exposed",
+      "source_frame": 2454,
+      "prompt": "prompts/121-panic-motion-f02454-r1.txt",
+      "original_prompt_sha256": "f94b16265190faa2de58fe31ffa9422643bd5a14e914187b653e4f7d2033ea11",
+      "public_prompt_sha256": "f94b16265190faa2de58fe31ffa9422643bd5a14e914187b653e4f7d2033ea11",
+      "output_sha256": "b5bd3ce48b4425cbe28f1694b86d7b0d01059f5e5cff6c7e5d39719467023633",
+      "output_in_asset_bundle": true,
+      "references": [
+        {
+          "path": "production/revision-v2/segment-102-106/inputs/source-f02454-equal-canvas.png",
+          "role": "current original source; sole pose/face/pupil/expression/camera/clothing authority",
+          "sha256": "d6b198f78a916fb94bd13acf58ef8910f2b4cb2199c794a9cf9a3b4f1c5c6e97"
+        },
+        {
+          "path": "production/pair-a/f005-connected-hair-only-reference.png",
+          "role": "frozen connected hair/headwear only; no pose or face authority",
+          "sha256": "53ec6d07ebcf2450235d2cdbede0828f50b58dbb8cab00447f4edc71ac40b7fa"
+        },
+        {
+          "path": "{workspace}/outputs/uno-continuity-pilot-v1/inputs/ds-user-reference.png",
+          "role": "original user identity only; no costume or eye transfer",
+          "sha256": "80109a41d6cb87a68fea0618ea4183509eedc3418f03d2409586e2b3aeb9a784"
+        }
+      ],
+      "status": "approved_native_revision_key"
+    },
+    {
+      "call_index": 122,
+      "production_group": "revision-v2/segment-102-106",
+      "asset_id": "revision_panic_motion_2490",
+      "tool": "Codex built-in image_gen",
+      "model_version": "not_exposed",
+      "seed": "not_exposed",
+      "source_frame": 2490,
+      "prompt": "prompts/122-panic-motion-f02490-r1.txt",
+      "original_prompt_sha256": "005df08ce219083657db312ecff14d74fda9897951bf4c1ffaffd33112fd076c",
+      "public_prompt_sha256": "005df08ce219083657db312ecff14d74fda9897951bf4c1ffaffd33112fd076c",
+      "output_sha256": "8c831babc221b56d429c874f2e58c65e9fc1c101d199c4af8a085b4cc40295d4",
+      "output_in_asset_bundle": true,
+      "references": [
+        {
+          "path": "production/revision-v2/segment-102-106/inputs/source-f02490-equal-canvas.png",
+          "role": "current original source; sole pose/face/pupil/expression/camera/clothing authority",
+          "sha256": "efc9f321564516334b23b803edae52f9b0f3ff45a2ff44a195c88122b9288ca1"
+        },
+        {
+          "path": "production/pair-a/f005-connected-hair-only-reference.png",
+          "role": "frozen connected hair/headwear only; no pose or face authority",
+          "sha256": "53ec6d07ebcf2450235d2cdbede0828f50b58dbb8cab00447f4edc71ac40b7fa"
+        },
+        {
+          "path": "{workspace}/outputs/uno-continuity-pilot-v1/inputs/ds-user-reference.png",
+          "role": "original user identity only; no costume or eye transfer",
+          "sha256": "80109a41d6cb87a68fea0618ea4183509eedc3418f03d2409586e2b3aeb9a784"
+        }
+      ],
+      "status": "approved_native_revision_key"
+    },
+    {
+      "call_index": 123,
+      "production_group": "revision-v2/segment-102-106",
+      "asset_id": "revision_panic_motion_2508",
+      "tool": "Codex built-in image_gen",
+      "model_version": "not_exposed",
+      "seed": "not_exposed",
+      "source_frame": 2508,
+      "prompt": "prompts/123-panic-motion-f02508-r1.txt",
+      "original_prompt_sha256": "411ad185c4f521a82a218f29c1649d2018a06a3a4e1c64cedfe748236396756e",
+      "public_prompt_sha256": "411ad185c4f521a82a218f29c1649d2018a06a3a4e1c64cedfe748236396756e",
+      "output_sha256": "28d779543335cf673ab650643f091511648b4781a3bfed4824fc23046b40542c",
+      "output_in_asset_bundle": true,
+      "references": [
+        {
+          "path": "production/revision-v2/segment-102-106/inputs/source-f02508-equal-canvas.png",
+          "role": "current original source; sole pose/face/pupil/expression/camera/clothing authority",
+          "sha256": "c9d8171bcd58ee19ed22158ac0f11f9b174678cd837fb214807011f316b300cf"
+        },
+        {
+          "path": "production/pair-a/f005-connected-hair-only-reference.png",
+          "role": "frozen connected hair/headwear only; no pose or face authority",
+          "sha256": "53ec6d07ebcf2450235d2cdbede0828f50b58dbb8cab00447f4edc71ac40b7fa"
+        },
+        {
+          "path": "{workspace}/outputs/uno-continuity-pilot-v1/inputs/ds-user-reference.png",
+          "role": "original user identity only; no costume or eye transfer",
+          "sha256": "80109a41d6cb87a68fea0618ea4183509eedc3418f03d2409586e2b3aeb9a784"
+        }
+      ],
+      "status": "approved_native_revision_key"
+    },
+    {
+      "call_index": 124,
+      "production_group": "revision-v2/segment-102-106",
+      "asset_id": "revision_panic_motion_2544",
+      "tool": "Codex built-in image_gen",
+      "model_version": "not_exposed",
+      "seed": "not_exposed",
+      "source_frame": 2544,
+      "prompt": "prompts/124-panic-motion-f02544-r1.txt",
+      "original_prompt_sha256": "fe8f662e99522550e25a07d378154d25e240b5cee19719820ea1451818c5fb41",
+      "public_prompt_sha256": "fe8f662e99522550e25a07d378154d25e240b5cee19719820ea1451818c5fb41",
+      "output_sha256": "f457e07a288e778d6f121e3a091294cc6a0cb1101b59a5c401aa9611bc5d027f",
+      "output_in_asset_bundle": true,
+      "references": [
+        {
+          "path": "production/revision-v2/segment-102-106/inputs/source-f02544-equal-canvas.png",
+          "role": "current original source; sole pose/face/pupil/expression/camera/clothing authority",
+          "sha256": "db17155362a82d8b3cf1f5f21fe9011a6f5068293864cea2298386f111da892c"
+        },
+        {
+          "path": "production/pair-a/f005-connected-hair-only-reference.png",
+          "role": "frozen connected hair/headwear only; no pose or face authority",
+          "sha256": "53ec6d07ebcf2450235d2cdbede0828f50b58dbb8cab00447f4edc71ac40b7fa"
+        },
+        {
+          "path": "{workspace}/outputs/uno-continuity-pilot-v1/inputs/ds-user-reference.png",
+          "role": "original user identity only; no costume or eye transfer",
+          "sha256": "80109a41d6cb87a68fea0618ea4183509eedc3418f03d2409586e2b3aeb9a784"
+        }
+      ],
+      "status": "approved_native_revision_key"
+    },
+    {
+      "call_index": 125,
+      "production_group": "revision-v2/segment-102-106",
+      "asset_id": "revision_panic_motion_2568",
+      "tool": "Codex built-in image_gen",
+      "model_version": "not_exposed",
+      "seed": "not_exposed",
+      "source_frame": 2568,
+      "prompt": "prompts/125-panic-motion-f02568-r1.txt",
+      "original_prompt_sha256": "7a4daaba33f2ba564a860f3bc6971731c6128d4bac81c6042a4fd61378162f91",
+      "public_prompt_sha256": "7a4daaba33f2ba564a860f3bc6971731c6128d4bac81c6042a4fd61378162f91",
+      "output_sha256": "c81de16d79365e72483714edf34f181ac2a9410fca78d65b90342494b6980149",
+      "output_in_asset_bundle": false,
+      "references": [
+        {
+          "path": "production/revision-v2/segment-102-106/inputs/source-f02568-equal-canvas.png",
+          "role": "current original source; sole pose/face/pupil/expression/camera/clothing authority",
+          "sha256": "c8ae4313aec9bbb0500a4e64555c41154cf2e4c0404c89f259678f739ed2b4dc"
+        },
+        {
+          "path": "production/pair-a/f005-connected-hair-only-reference.png",
+          "role": "frozen connected hair/headwear only; no pose or face authority",
+          "sha256": "53ec6d07ebcf2450235d2cdbede0828f50b58dbb8cab00447f4edc71ac40b7fa"
+        },
+        {
+          "path": "{workspace}/outputs/uno-continuity-pilot-v1/inputs/ds-user-reference.png",
+          "role": "original user identity only; no costume or eye transfer",
+          "sha256": "80109a41d6cb87a68fea0618ea4183509eedc3418f03d2409586e2b3aeb9a784"
+        }
+      ],
+      "status": "superseded_by_audited_r2_upper_ear_spike_cleanup"
+    },
+    {
+      "call_index": 126,
+      "production_group": "revision-v2/segment-102-106",
+      "asset_id": "revision_panic_motion_2568",
+      "tool": "Codex built-in image_gen",
+      "model_version": "not_exposed",
+      "seed": "not_exposed",
+      "source_frame": 2568,
+      "prompt": "prompts/126-panic-motion-f02568-r2-tip-clean.txt",
+      "original_prompt_sha256": "1d103eebf4c6ce6cb6edb6c369bef7cddb750308ccb9f886053a7f2d63716590",
+      "public_prompt_sha256": "fd637a0691165af4a7463b1e7379b930e9af18d662e3be0b26fabb029cf1fe05",
+      "output_sha256": "7fa699a89dde4a5741442f8a97186f6d083f982120801b2fd41c54ef112ab18b",
+      "output_in_asset_bundle": true,
+      "references": [
+        {
+          "path": "production/revision-v2/segment-102-106/generated/panic-motion-f02568-r1.png",
+          "role": "current native2568 edit target only; remove two old-ear blue spikes above headband; freeze all other face/pose/scene/text regions",
+          "sha256": "c81de16d79365e72483714edf34f181ac2a9410fca78d65b90342494b6980149"
+        }
+      ],
+      "status": "approved_native_revision_key"
+    },
+    {
+      "call_index": 127,
+      "production_group": "revision-v2/segment-33-38",
+      "asset_id": "revision_dark_motion_828",
+      "tool": "Codex built-in image_gen",
+      "model_version": "not_exposed",
+      "seed": "not_exposed",
+      "source_frame": 828,
+      "prompt": "prompts/127-dark-motion-f00828-r1.txt",
+      "original_prompt_sha256": "442e8d0cc54ccdbc398ca0225490096d295fe3de512cd2c01734ce226a4553c3",
+      "public_prompt_sha256": "442e8d0cc54ccdbc398ca0225490096d295fe3de512cd2c01734ce226a4553c3",
+      "output_sha256": "f2dedb1ee376abcfa2ecdf7335152550d81d9e428bf28e1d299c5d9f0adc2185",
+      "output_in_asset_bundle": true,
+      "references": [
+        {
+          "path": "production/revision-v2/segment-33-38/inputs/source-f00828-equal-canvas.png",
+          "role": "current original source edit target; sole pose/expression/camera/clothing authority",
+          "sha256": "b73ecc9d098f335bbf5b8e400fc5ed84d64a574841f5c76774d5a49d326548b7"
+        },
+        {
+          "path": "production/pair-a/f005-connected-hair-only-reference.png",
+          "role": "F005 connected hair topology/headwear only; no face or pose authority",
+          "sha256": "53ec6d07ebcf2450235d2cdbede0828f50b58dbb8cab00447f4edc71ac40b7fa"
+        },
+        {
+          "path": "{workspace}/outputs/uno-continuity-pilot-v1/inputs/ds-user-reference.png",
+          "role": "original user identity only; no costume/body-proportion transfer",
+          "sha256": "80109a41d6cb87a68fea0618ea4183509eedc3418f03d2409586e2b3aeb9a784"
+        }
+      ],
+      "status": "approved_native_revision_key"
+    },
+    {
+      "call_index": 128,
+      "production_group": "revision-v2/segment-33-38",
+      "asset_id": "revision_dark_motion_858",
+      "tool": "Codex built-in image_gen",
+      "model_version": "not_exposed",
+      "seed": "not_exposed",
+      "source_frame": 858,
+      "prompt": "prompts/128-dark-motion-f00858-r1.txt",
+      "original_prompt_sha256": "8dfddcc9502e2c52fda16a21f5e06812c4eeae126787704d525164211c3989e0",
+      "public_prompt_sha256": "8dfddcc9502e2c52fda16a21f5e06812c4eeae126787704d525164211c3989e0",
+      "output_sha256": "96c8bc00b98b5c0e9384e0d3b8fa3e8685bbf5ffce5206eed38cbc5804ff5689",
+      "output_in_asset_bundle": true,
+      "references": [
+        {
+          "path": "production/revision-v2/segment-33-38/inputs/source-f00858-equal-canvas.png",
+          "role": "current original source edit target; sole pose/expression/camera/clothing authority",
+          "sha256": "e044b1b2a67bb02fb808d97ffb9027d396333c619387860cac53ad8718203531"
+        },
+        {
+          "path": "production/pair-a/f005-connected-hair-only-reference.png",
+          "role": "F005 connected hair topology/headwear only; no face or pose authority",
+          "sha256": "53ec6d07ebcf2450235d2cdbede0828f50b58dbb8cab00447f4edc71ac40b7fa"
+        },
+        {
+          "path": "{workspace}/outputs/uno-continuity-pilot-v1/inputs/ds-user-reference.png",
+          "role": "original user identity only; no costume/body-proportion transfer",
+          "sha256": "80109a41d6cb87a68fea0618ea4183509eedc3418f03d2409586e2b3aeb9a784"
+        }
+      ],
+      "status": "approved_native_revision_key"
+    },
+    {
+      "call_index": 129,
+      "production_group": "revision-v2/segment-33-38",
+      "asset_id": "revision_dark_motion_870",
+      "tool": "Codex built-in image_gen",
+      "model_version": "not_exposed",
+      "seed": "not_exposed",
+      "source_frame": 870,
+      "prompt": "prompts/129-dark-motion-f00870-r1.txt",
+      "original_prompt_sha256": "6391bfcae613b6d47100b906d0aea97925378a7268c4f9e858ec6b721eaaa1f0",
+      "public_prompt_sha256": "6391bfcae613b6d47100b906d0aea97925378a7268c4f9e858ec6b721eaaa1f0",
+      "output_sha256": "752ae398e6cf8bcb9e76e366df57327a6908c1e34290fe14587b50109662b950",
+      "output_in_asset_bundle": true,
+      "references": [
+        {
+          "path": "production/revision-v2/segment-33-38/inputs/source-f00870-equal-canvas.png",
+          "role": "current original source edit target; sole pose/expression/camera/clothing authority",
+          "sha256": "774e6646cc778b3e71104ec5b04963b7570999631829777ba44e687ef4e25b53"
+        },
+        {
+          "path": "production/pair-a/f005-connected-hair-only-reference.png",
+          "role": "F005 connected hair topology/headwear only; no face or pose authority",
+          "sha256": "53ec6d07ebcf2450235d2cdbede0828f50b58dbb8cab00447f4edc71ac40b7fa"
+        },
+        {
+          "path": "{workspace}/outputs/uno-continuity-pilot-v1/inputs/ds-user-reference.png",
+          "role": "original user identity only; no costume/body-proportion transfer",
+          "sha256": "80109a41d6cb87a68fea0618ea4183509eedc3418f03d2409586e2b3aeb9a784"
+        }
+      ],
+      "status": "approved_native_revision_key"
+    },
+    {
+      "call_index": 130,
+      "production_group": "revision-v2/segment-33-38",
+      "asset_id": "revision_dark_motion_912",
+      "tool": "Codex built-in image_gen",
+      "model_version": "not_exposed",
+      "seed": "not_exposed",
+      "source_frame": 912,
+      "prompt": "prompts/130-dark-motion-f00912-r1.txt",
+      "original_prompt_sha256": "a54150e92086fa0203867d2eb004e18b6c982714f3e312a50b8eab826ba5e301",
+      "public_prompt_sha256": "a54150e92086fa0203867d2eb004e18b6c982714f3e312a50b8eab826ba5e301",
+      "output_sha256": "981cf6d7789f51a9d1413e77abd586a512b240cf7150530fde63073384e868bf",
+      "output_in_asset_bundle": true,
+      "references": [
+        {
+          "path": "production/revision-v2/segment-33-38/inputs/source-f00912-equal-canvas.png",
+          "role": "current original source edit target; sole pose/expression/camera/clothing authority",
+          "sha256": "d838e31320c04a73cc115a68f2d2dcd5c3aac259505d0b9f3731b31bd6e58f2c"
+        },
+        {
+          "path": "production/pair-a/f005-connected-hair-only-reference.png",
+          "role": "F005 connected hair topology/headwear only; no face or pose authority",
+          "sha256": "53ec6d07ebcf2450235d2cdbede0828f50b58dbb8cab00447f4edc71ac40b7fa"
+        },
+        {
+          "path": "{workspace}/outputs/uno-continuity-pilot-v1/inputs/ds-user-reference.png",
+          "role": "original user identity only; no costume/body-proportion transfer",
+          "sha256": "80109a41d6cb87a68fea0618ea4183509eedc3418f03d2409586e2b3aeb9a784"
+        }
+      ],
+      "status": "approved_native_revision_key"
+    }
+  ]
+}

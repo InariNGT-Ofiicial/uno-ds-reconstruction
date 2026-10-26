@@ -1,0 +1,3054 @@
+{
+  "schema_version": "uno-fullfilm-v4-text-event-keys-1",
+  "status": "usable_inspected_navigation_initial; exact-onset-refinement_pending",
+  "source_frame_count": 5245,
+  "source_fps": 24,
+  "source_duration": 218.54166666666666,
+  "actually_viewed": "All12 caption-event-sheet JPEGs, all15 quarter-second whole-frame storyboard sheets, four2-second overview sheets; individual keyframes as recorded.",
+  "caption_events": [
+    {
+      "event_id": "C000",
+      "source_frame": 0,
+      "source_time_seconds": 0.0,
+      "kind": "clear_caption",
+      "text": null,
+      "text_status": "explicit absence observed on actual source strip",
+      "bbox_including_gray_bar": null,
+      "source_reference_path": "source/samples-quarter/f00000.jpg",
+      "first_exposure_status": "quarter-second inspected event candidate; exact first source exposure pending local-frame matching",
+      "safe_layer_method": "clear old text/bar; if baked into RGB use textless source-native variant, not source-Miku patch",
+      "end_frame_exclusive_proposal": 426
+    },
+    {
+      "event_id": "C001",
+      "source_frame": 426,
+      "source_time_seconds": 17.75,
+      "kind": "caption",
+      "text": "喔呀?、",
+      "text_status": "visually_read_reference_text; punctuation/long vowel may be approximate; source glyph pixels authoritative",
+      "bbox_including_gray_bar": [
+        323,
+        402,
+        491,
+        460
+      ],
+      "source_reference_path": "source/samples-quarter/f00426.jpg",
+      "first_exposure_status": "quarter-second inspected event candidate; exact first source exposure pending local-frame matching",
+      "safe_layer_method": "source WHITE GLYPH geometry + neutral dark stroke alpha only; no source scene/character pixels. Rebuild gray rectangle separately. Never copy source caption rectangle with its Miku hair/shirt background.",
+      "end_frame_exclusive_proposal": 450
+    },
+    {
+      "event_id": "C002",
+      "source_frame": 450,
+      "source_time_seconds": 18.75,
+      "kind": "caption",
+      "text": "手牌真的超多 爆笑w",
+      "text_status": "visually_read_reference_text; punctuation/long vowel may be approximate; source glyph pixels authoritative",
+      "bbox_including_gray_bar": [
+        210,
+        406,
+        641,
+        460
+      ],
+      "source_reference_path": "source/samples-quarter/f00450.jpg",
+      "first_exposure_status": "quarter-second inspected event candidate; exact first source exposure pending local-frame matching",
+      "safe_layer_method": "source WHITE GLYPH geometry + neutral dark stroke alpha only; no source scene/character pixels. Rebuild gray rectangle separately. Never copy source caption rectangle with its Miku hair/shirt background.",
+      "end_frame_exclusive_proposal": 486
+    },
+    {
+      "event_id": "C003",
+      "source_frame": 486,
+      "source_time_seconds": 20.25,
+      "kind": "caption",
+      "text": "下一回合我就要赢了呢♡。",
+      "text_status": "visually_read_reference_text; punctuation/long vowel may be approximate; source glyph pixels authoritative",
+      "bbox_including_gray_bar": [
+        157,
+        406,
+        689,
+        460
+      ],
+      "source_reference_path": "source/samples-quarter/f00486.jpg",
+      "first_exposure_status": "quarter-second inspected event candidate; exact first source exposure pending local-frame matching",
+      "safe_layer_method": "source WHITE GLYPH geometry + neutral dark stroke alpha only; no source scene/character pixels. Rebuild gray rectangle separately. Never copy source caption rectangle with its Miku hair/shirt background.",
+      "end_frame_exclusive_proposal": 528
+    },
+    {
+      "event_id": "C004",
+      "source_frame": 528,
+      "source_time_seconds": 22.0,
+      "kind": "caption",
+      "text": "请告诉我玩得这么菜菜的秘诀唷♡。",
+      "text_status": "visually_read_reference_text; punctuation/long vowel may be approximate; source glyph pixels authoritative",
+      "bbox_including_gray_bar": [
+        63,
+        406,
+        781,
+        460
+      ],
+      "source_reference_path": "source/samples-quarter/f00528.jpg",
+      "first_exposure_status": "quarter-second inspected event candidate; exact first source exposure pending local-frame matching",
+      "safe_layer_method": "source WHITE GLYPH geometry + neutral dark stroke alpha only; no source scene/character pixels. Rebuild gray rectangle separately. Never copy source caption rectangle with its Miku hair/shirt background.",
+      "end_frame_exclusive_proposal": 588
+    },
+    {
+      "event_id": "C005",
+      "source_frame": 588,
+      "source_time_seconds": 24.5,
+      "kind": "caption",
+      "text": "弱・鸡・蛆・虫・酱、♡。",
+      "text_status": "visually_read_reference_text; punctuation/long vowel may be approximate; source glyph pixels authoritative",
+      "bbox_including_gray_bar": [
+        204,
+        405,
+        640,
+        460
+      ],
+      "source_reference_path": "source/samples-quarter/f00588.jpg",
+      "first_exposure_status": "quarter-second inspected event candidate; exact first source exposure pending local-frame matching",
+      "safe_layer_method": "source WHITE GLYPH geometry + neutral dark stroke alpha only; no source scene/character pixels. Rebuild gray rectangle separately. Never copy source caption rectangle with its Miku hair/shirt background.",
+      "end_frame_exclusive_proposal": 618
+    },
+    {
+      "event_id": "C006",
+      "source_frame": 618,
+      "source_time_seconds": 25.75,
+      "kind": "clear_caption",
+      "text": null,
+      "text_status": "explicit absence observed on actual source strip",
+      "bbox_including_gray_bar": null,
+      "source_reference_path": "source/samples-quarter/f00618.jpg",
+      "first_exposure_status": "quarter-second inspected event candidate; exact first source exposure pending local-frame matching",
+      "safe_layer_method": "clear old text/bar; if baked into RGB use textless source-native variant, not source-Miku patch",
+      "end_frame_exclusive_proposal": 630
+    },
+    {
+      "event_id": "C007",
+      "source_frame": 630,
+      "source_time_seconds": 26.25,
+      "kind": "caption",
+      "text": "呐要是输得这么难看可不行~啊。",
+      "text_status": "visually_read_reference_text; punctuation/long vowel may be approximate; source glyph pixels authoritative",
+      "bbox_including_gray_bar": [
+        98,
+        406,
+        747,
+        460
+      ],
+      "source_reference_path": "source/samples-quarter/f00630.jpg",
+      "first_exposure_status": "quarter-second inspected event candidate; exact first source exposure pending local-frame matching",
+      "safe_layer_method": "source WHITE GLYPH geometry + neutral dark stroke alpha only; no source scene/character pixels. Rebuild gray rectangle separately. Never copy source caption rectangle with its Miku hair/shirt background.",
+      "end_frame_exclusive_proposal": 672
+    },
+    {
+      "event_id": "C008",
+      "source_frame": 672,
+      "source_time_seconds": 28.0,
+      "kind": "caption",
+      "text": "快啦 加~油啊♡、赶~上来呀♡。",
+      "text_status": "visually_read_reference_text; punctuation/long vowel may be approximate; source glyph pixels authoritative",
+      "bbox_including_gray_bar": [
+        85,
+        406,
+        758,
+        460
+      ],
+      "source_reference_path": "source/samples-quarter/f00672.jpg",
+      "first_exposure_status": "quarter-second inspected event candidate; exact first source exposure pending local-frame matching",
+      "safe_layer_method": "source WHITE GLYPH geometry + neutral dark stroke alpha only; no source scene/character pixels. Rebuild gray rectangle separately. Never copy source caption rectangle with its Miku hair/shirt background.",
+      "end_frame_exclusive_proposal": 720
+    },
+    {
+      "event_id": "C009",
+      "source_frame": 720,
+      "source_time_seconds": 30.0,
+      "kind": "caption",
+      "text": "认真起来的话就能赢了唷(笑)。",
+      "text_status": "visually_read_reference_text; punctuation/long vowel may be approximate; source glyph pixels authoritative",
+      "bbox_including_gray_bar": [
+        118,
+        406,
+        846,
+        463
+      ],
+      "source_reference_path": "source/samples-quarter/f00720.jpg",
+      "first_exposure_status": "quarter-second inspected event candidate; exact first source exposure pending local-frame matching",
+      "safe_layer_method": "source WHITE GLYPH geometry + neutral dark stroke alpha only; no source scene/character pixels. Rebuild gray rectangle separately. Never copy source caption rectangle with its Miku hair/shirt background.",
+      "end_frame_exclusive_proposal": 762
+    },
+    {
+      "event_id": "C010",
+      "source_frame": 762,
+      "source_time_seconds": 31.75,
+      "kind": "caption",
+      "text": "快・给・我・看・看・呀、?♡、(挑衅)。",
+      "text_status": "visually_read_reference_text; punctuation/long vowel may be approximate; source glyph pixels authoritative",
+      "bbox_including_gray_bar": [
+        81,
+        406,
+        762,
+        460
+      ],
+      "source_reference_path": "source/samples-quarter/f00762.jpg",
+      "first_exposure_status": "quarter-second inspected event candidate; exact first source exposure pending local-frame matching",
+      "safe_layer_method": "source WHITE GLYPH geometry + neutral dark stroke alpha only; no source scene/character pixels. Rebuild gray rectangle separately. Never copy source caption rectangle with its Miku hair/shirt background.",
+      "end_frame_exclusive_proposal": 798
+    },
+    {
+      "event_id": "C011",
+      "source_frame": 798,
+      "source_time_seconds": 33.25,
+      "kind": "clear_caption",
+      "text": null,
+      "text_status": "explicit absence observed on actual source strip",
+      "bbox_including_gray_bar": null,
+      "source_reference_path": "source/samples-quarter/f00798.jpg",
+      "first_exposure_status": "quarter-second inspected event candidate; exact first source exposure pending local-frame matching",
+      "safe_layer_method": "clear old text/bar; if baked into RGB use textless source-native variant, not source-Miku patch",
+      "end_frame_exclusive_proposal": 816
+    },
+    {
+      "event_id": "C012",
+      "source_frame": 816,
+      "source_time_seconds": 34.0,
+      "kind": "caption",
+      "text": "源乱码字卡A，保持原字形",
+      "text_status": "visually_read_reference_text; punctuation/long vowel may be approximate; source glyph pixels authoritative",
+      "bbox_including_gray_bar": [
+        316,
+        404,
+        534,
+        464
+      ],
+      "source_reference_path": "source/samples-quarter/f00816.jpg",
+      "first_exposure_status": "quarter-second inspected event candidate; exact first source exposure pending local-frame matching",
+      "safe_layer_method": "source WHITE GLYPH geometry + neutral dark stroke alpha only; no source scene/character pixels. Rebuild gray rectangle separately. Never copy source caption rectangle with its Miku hair/shirt background.",
+      "end_frame_exclusive_proposal": 834
+    },
+    {
+      "event_id": "C013",
+      "source_frame": 834,
+      "source_time_seconds": 34.75,
+      "kind": "caption",
+      "text": "源乱码字卡B，保持原字形",
+      "text_status": "visually_read_reference_text; punctuation/long vowel may be approximate; source glyph pixels authoritative",
+      "bbox_including_gray_bar": [
+        292,
+        404,
+        562,
+        463
+      ],
+      "source_reference_path": "source/samples-quarter/f00834.jpg",
+      "first_exposure_status": "quarter-second inspected event candidate; exact first source exposure pending local-frame matching",
+      "safe_layer_method": "source WHITE GLYPH geometry + neutral dark stroke alpha only; no source scene/character pixels. Rebuild gray rectangle separately. Never copy source caption rectangle with its Miku hair/shirt background.",
+      "end_frame_exclusive_proposal": 858
+    },
+    {
+      "event_id": "C014",
+      "source_frame": 858,
+      "source_time_seconds": 35.75,
+      "kind": "caption",
+      "text": "源乱码字卡C，保持原字形",
+      "text_status": "visually_read_reference_text; punctuation/long vowel may be approximate; source glyph pixels authoritative",
+      "bbox_including_gray_bar": [
+        317,
+        403,
+        538,
+        462
+      ],
+      "source_reference_path": "source/samples-quarter/f00858.jpg",
+      "first_exposure_status": "quarter-second inspected event candidate; exact first source exposure pending local-frame matching",
+      "safe_layer_method": "source WHITE GLYPH geometry + neutral dark stroke alpha only; no source scene/character pixels. Rebuild gray rectangle separately. Never copy source caption rectangle with its Miku hair/shirt background.",
+      "end_frame_exclusive_proposal": 876
+    },
+    {
+      "event_id": "C015",
+      "source_frame": 876,
+      "source_time_seconds": 36.5,
+      "kind": "caption",
+      "text": "源乱码字卡D，保持原字形",
+      "text_status": "visually_read_reference_text; punctuation/long vowel may be approximate; source glyph pixels authoritative",
+      "bbox_including_gray_bar": [
+        281,
+        409,
+        577,
+        459
+      ],
+      "source_reference_path": "source/samples-quarter/f00876.jpg",
+      "first_exposure_status": "quarter-second inspected event candidate; exact first source exposure pending local-frame matching",
+      "safe_layer_method": "source WHITE GLYPH geometry + neutral dark stroke alpha only; no source scene/character pixels. Rebuild gray rectangle separately. Never copy source caption rectangle with its Miku hair/shirt background.",
+      "end_frame_exclusive_proposal": 900
+    },
+    {
+      "event_id": "C016",
+      "source_frame": 900,
+      "source_time_seconds": 37.5,
+      "kind": "caption",
+      "text": "这家伙不用想都知道的",
+      "text_status": "visually_read_reference_text; punctuation/long vowel may be approximate; source glyph pixels authoritative",
+      "bbox_including_gray_bar": [
+        191,
+        406,
+        656,
+        460
+      ],
+      "source_reference_path": "source/samples-quarter/f00900.jpg",
+      "first_exposure_status": "quarter-second inspected event candidate; exact first source exposure pending local-frame matching",
+      "safe_layer_method": "source WHITE GLYPH geometry + neutral dark stroke alpha only; no source scene/character pixels. Rebuild gray rectangle separately. Never copy source caption rectangle with its Miku hair/shirt background.",
+      "end_frame_exclusive_proposal": 954
+    },
+    {
+      "event_id": "C017",
+      "source_frame": 954,
+      "source_time_seconds": 39.75,
+      "kind": "caption",
+      "text": "是・胆・小・鬼・呢、♡。",
+      "text_status": "visually_read_reference_text; punctuation/long vowel may be approximate; source glyph pixels authoritative",
+      "bbox_including_gray_bar": [
+        204,
+        406,
+        640,
+        460
+      ],
+      "source_reference_path": "source/samples-quarter/f00954.jpg",
+      "first_exposure_status": "quarter-second inspected event candidate; exact first source exposure pending local-frame matching",
+      "safe_layer_method": "source WHITE GLYPH geometry + neutral dark stroke alpha only; no source scene/character pixels. Rebuild gray rectangle separately. Never copy source caption rectangle with its Miku hair/shirt background.",
+      "end_frame_exclusive_proposal": 984
+    },
+    {
+      "event_id": "C018",
+      "source_frame": 984,
+      "source_time_seconds": 41.0,
+      "kind": "clear_caption",
+      "text": null,
+      "text_status": "explicit absence observed on actual source strip",
+      "bbox_including_gray_bar": null,
+      "source_reference_path": "source/samples-quarter/f00984.jpg",
+      "first_exposure_status": "quarter-second inspected event candidate; exact first source exposure pending local-frame matching",
+      "safe_layer_method": "clear old text/bar; if baked into RGB use textless source-native variant, not source-Miku patch",
+      "end_frame_exclusive_proposal": 990
+    },
+    {
+      "event_id": "C019",
+      "source_frame": 990,
+      "source_time_seconds": 41.25,
+      "kind": "caption",
+      "text": "随便的啦",
+      "text_status": "visually_read_reference_text; punctuation/long vowel may be approximate; source glyph pixels authoritative",
+      "bbox_including_gray_bar": [
+        329,
+        406,
+        521,
+        460
+      ],
+      "source_reference_path": "source/samples-quarter/f00990.jpg",
+      "first_exposure_status": "quarter-second inspected event candidate; exact first source exposure pending local-frame matching",
+      "safe_layer_method": "source WHITE GLYPH geometry + neutral dark stroke alpha only; no source scene/character pixels. Rebuild gray rectangle separately. Never copy source caption rectangle with its Miku hair/shirt background.",
+      "end_frame_exclusive_proposal": 996
+    },
+    {
+      "event_id": "C020",
+      "source_frame": 996,
+      "source_time_seconds": 41.5,
+      "kind": "clear_caption",
+      "text": null,
+      "text_status": "explicit absence observed on actual source strip",
+      "bbox_including_gray_bar": null,
+      "source_reference_path": "source/samples-quarter/f00996.jpg",
+      "first_exposure_status": "quarter-second inspected event candidate; exact first source exposure pending local-frame matching",
+      "safe_layer_method": "clear old text/bar; if baked into RGB use textless source-native variant, not source-Miku patch",
+      "end_frame_exclusive_proposal": 1014
+    },
+    {
+      "event_id": "C021",
+      "source_frame": 1014,
+      "source_time_seconds": 42.25,
+      "kind": "caption",
+      "text": "哭哭 被超Lo 不要太笨♡、",
+      "text_status": "visually_read_reference_text; punctuation/long vowel may be approximate; source glyph pixels authoritative",
+      "bbox_including_gray_bar": [
+        144,
+        406,
+        719,
+        461
+      ],
+      "source_reference_path": "source/samples-quarter/f01014.jpg",
+      "first_exposure_status": "quarter-second inspected event candidate; exact first source exposure pending local-frame matching",
+      "safe_layer_method": "source WHITE GLYPH geometry + neutral dark stroke alpha only; no source scene/character pixels. Rebuild gray rectangle separately. Never copy source caption rectangle with its Miku hair/shirt background.",
+      "end_frame_exclusive_proposal": 1044
+    },
+    {
+      "event_id": "C022",
+      "source_frame": 1044,
+      "source_time_seconds": 43.5,
+      "kind": "clear_caption",
+      "text": null,
+      "text_status": "explicit absence observed on actual source strip",
+      "bbox_including_gray_bar": null,
+      "source_reference_path": "source/samples-quarter/f01044.jpg",
+      "first_exposure_status": "quarter-second inspected event candidate; exact first source exposure pending local-frame matching",
+      "safe_layer_method": "clear old text/bar; if baked into RGB use textless source-native variant, not source-Miku patch",
+      "end_frame_exclusive_proposal": 1062
+    },
+    {
+      "event_id": "C023",
+      "source_frame": 1062,
+      "source_time_seconds": 44.25,
+      "kind": "caption",
+      "text": "咩噗 超过Le 活该被超♡、",
+      "text_status": "visually_read_reference_text; punctuation/long vowel may be approximate; source glyph pixels authoritative",
+      "bbox_including_gray_bar": [
+        144,
+        406,
+        699,
+        461
+      ],
+      "source_reference_path": "source/samples-quarter/f01062.jpg",
+      "first_exposure_status": "quarter-second inspected event candidate; exact first source exposure pending local-frame matching",
+      "safe_layer_method": "source WHITE GLYPH geometry + neutral dark stroke alpha only; no source scene/character pixels. Rebuild gray rectangle separately. Never copy source caption rectangle with its Miku hair/shirt background.",
+      "end_frame_exclusive_proposal": 1092
+    },
+    {
+      "event_id": "C024",
+      "source_frame": 1092,
+      "source_time_seconds": 45.5,
+      "kind": "clear_caption",
+      "text": null,
+      "text_status": "explicit absence observed on actual source strip",
+      "bbox_including_gray_bar": null,
+      "source_reference_path": "source/samples-quarter/f01092.jpg",
+      "first_exposure_status": "quarter-second inspected event candidate; exact first source exposure pending local-frame matching",
+      "safe_layer_method": "clear old text/bar; if baked into RGB use textless source-native variant, not source-Miku patch",
+      "end_frame_exclusive_proposal": 1128
+    },
+    {
+      "event_id": "C025",
+      "source_frame": 1128,
+      "source_time_seconds": 47.0,
+      "kind": "caption",
+      "text": "然而呢 摆脱困境的方法→、",
+      "text_status": "visually_read_reference_text; punctuation/long vowel may be approximate; source glyph pixels authoritative",
+      "bbox_including_gray_bar": [
+        146,
+        406,
+        696,
+        460
+      ],
+      "source_reference_path": "source/samples-quarter/f01128.jpg",
+      "first_exposure_status": "quarter-second inspected event candidate; exact first source exposure pending local-frame matching",
+      "safe_layer_method": "source WHITE GLYPH geometry + neutral dark stroke alpha only; no source scene/character pixels. Rebuild gray rectangle separately. Never copy source caption rectangle with its Miku hair/shirt background.",
+      "end_frame_exclusive_proposal": 1158
+    },
+    {
+      "event_id": "C026",
+      "source_frame": 1158,
+      "source_time_seconds": 48.25,
+      "kind": "caption",
+      "text": "Shhh...",
+      "text_status": "visually_read_reference_text; punctuation/long vowel may be approximate; source glyph pixels authoritative",
+      "bbox_including_gray_bar": [
+        331,
+        412,
+        521,
+        463
+      ],
+      "source_reference_path": "source/samples-quarter/f01158.jpg",
+      "first_exposure_status": "quarter-second inspected event candidate; exact first source exposure pending local-frame matching",
+      "safe_layer_method": "source WHITE GLYPH geometry + neutral dark stroke alpha only; no source scene/character pixels. Rebuild gray rectangle separately. Never copy source caption rectangle with its Miku hair/shirt background.",
+      "end_frame_exclusive_proposal": 1170
+    },
+    {
+      "event_id": "C027",
+      "source_frame": 1170,
+      "source_time_seconds": 48.75,
+      "kind": "caption",
+      "text": "随便的啦",
+      "text_status": "visually_read_reference_text; punctuation/long vowel may be approximate; source glyph pixels authoritative",
+      "bbox_including_gray_bar": [
+        329,
+        406,
+        521,
+        460
+      ],
+      "source_reference_path": "source/samples-quarter/f01170.jpg",
+      "first_exposure_status": "quarter-second inspected event candidate; exact first source exposure pending local-frame matching",
+      "safe_layer_method": "source WHITE GLYPH geometry + neutral dark stroke alpha only; no source scene/character pixels. Rebuild gray rectangle separately. Never copy source caption rectangle with its Miku hair/shirt background.",
+      "end_frame_exclusive_proposal": 1182
+    },
+    {
+      "event_id": "C028",
+      "source_frame": 1182,
+      "source_time_seconds": 49.25,
+      "kind": "clear_caption",
+      "text": null,
+      "text_status": "explicit absence observed on actual source strip",
+      "bbox_including_gray_bar": null,
+      "source_reference_path": "source/samples-quarter/f01182.jpg",
+      "first_exposure_status": "quarter-second inspected event candidate; exact first source exposure pending local-frame matching",
+      "safe_layer_method": "clear old text/bar; if baked into RGB use textless source-native variant, not source-Miku patch",
+      "end_frame_exclusive_proposal": 1200
+    },
+    {
+      "event_id": "C029",
+      "source_frame": 1200,
+      "source_time_seconds": 50.0,
+      "kind": "caption",
+      "text": "哭哭 被超Lo 不要太笨♡、",
+      "text_status": "visually_read_reference_text; punctuation/long vowel may be approximate; source glyph pixels authoritative",
+      "bbox_including_gray_bar": [
+        144,
+        406,
+        699,
+        461
+      ],
+      "source_reference_path": "source/samples-quarter/f01200.jpg",
+      "first_exposure_status": "quarter-second inspected event candidate; exact first source exposure pending local-frame matching",
+      "safe_layer_method": "source WHITE GLYPH geometry + neutral dark stroke alpha only; no source scene/character pixels. Rebuild gray rectangle separately. Never copy source caption rectangle with its Miku hair/shirt background.",
+      "end_frame_exclusive_proposal": 1224
+    },
+    {
+      "event_id": "C030",
+      "source_frame": 1224,
+      "source_time_seconds": 51.0,
+      "kind": "clear_caption",
+      "text": null,
+      "text_status": "explicit absence observed on actual source strip",
+      "bbox_including_gray_bar": null,
+      "source_reference_path": "source/samples-quarter/f01224.jpg",
+      "first_exposure_status": "quarter-second inspected event candidate; exact first source exposure pending local-frame matching",
+      "safe_layer_method": "clear old text/bar; if baked into RGB use textless source-native variant, not source-Miku patch",
+      "end_frame_exclusive_proposal": 1242
+    },
+    {
+      "event_id": "C031",
+      "source_frame": 1242,
+      "source_time_seconds": 51.75,
+      "kind": "caption",
+      "text": "咩噗 超过Le 活该被超♡、",
+      "text_status": "visually_read_reference_text; punctuation/long vowel may be approximate; source glyph pixels authoritative",
+      "bbox_including_gray_bar": [
+        144,
+        406,
+        698,
+        461
+      ],
+      "source_reference_path": "source/samples-quarter/f01242.jpg",
+      "first_exposure_status": "quarter-second inspected event candidate; exact first source exposure pending local-frame matching",
+      "safe_layer_method": "source WHITE GLYPH geometry + neutral dark stroke alpha only; no source scene/character pixels. Rebuild gray rectangle separately. Never copy source caption rectangle with its Miku hair/shirt background.",
+      "end_frame_exclusive_proposal": 1272
+    },
+    {
+      "event_id": "C032",
+      "source_frame": 1272,
+      "source_time_seconds": 53.0,
+      "kind": "clear_caption",
+      "text": null,
+      "text_status": "explicit absence observed on actual source strip",
+      "bbox_including_gray_bar": null,
+      "source_reference_path": "source/samples-quarter/f01272.jpg",
+      "first_exposure_status": "quarter-second inspected event candidate; exact first source exposure pending local-frame matching",
+      "safe_layer_method": "clear old text/bar; if baked into RGB use textless source-native variant, not source-Miku patch",
+      "end_frame_exclusive_proposal": 1308
+    },
+    {
+      "event_id": "C033",
+      "source_frame": 1308,
+      "source_time_seconds": 54.5,
+      "kind": "caption",
+      "text": "嗒!、 ...就来面对",
+      "text_status": "visually_read_reference_text; punctuation/long vowel may be approximate; source glyph pixels authoritative",
+      "bbox_including_gray_bar": [
+        255,
+        404,
+        594,
+        460
+      ],
+      "source_reference_path": "source/samples-quarter/f01308.jpg",
+      "first_exposure_status": "quarter-second inspected event candidate; exact first source exposure pending local-frame matching",
+      "safe_layer_method": "source WHITE GLYPH geometry + neutral dark stroke alpha only; no source scene/character pixels. Rebuild gray rectangle separately. Never copy source caption rectangle with its Miku hair/shirt background.",
+      "end_frame_exclusive_proposal": 1338
+    },
+    {
+      "event_id": "C034",
+      "source_frame": 1338,
+      "source_time_seconds": 55.75,
+      "kind": "caption",
+      "text": "Nice Try",
+      "text_status": "visually_read_reference_text; punctuation/long vowel may be approximate; source glyph pixels authoritative",
+      "bbox_including_gray_bar": [
+        314,
+        411,
+        506,
+        456
+      ],
+      "source_reference_path": "source/samples-quarter/f01338.jpg",
+      "first_exposure_status": "quarter-second inspected event candidate; exact first source exposure pending local-frame matching",
+      "safe_layer_method": "source WHITE GLYPH geometry + neutral dark stroke alpha only; no source scene/character pixels. Rebuild gray rectangle separately. Never copy source caption rectangle with its Miku hair/shirt background.",
+      "end_frame_exclusive_proposal": 1362
+    },
+    {
+      "event_id": "C035",
+      "source_frame": 1362,
+      "source_time_seconds": 56.75,
+      "kind": "caption",
+      "text": "杂ー鱼♡、杂ー鱼♡。",
+      "text_status": "visually_read_reference_text; punctuation/long vowel may be approximate; source glyph pixels authoritative",
+      "bbox_including_gray_bar": [
+        198,
+        405,
+        647,
+        460
+      ],
+      "source_reference_path": "source/samples-quarter/f01362.jpg",
+      "first_exposure_status": "quarter-second inspected event candidate; exact first source exposure pending local-frame matching",
+      "safe_layer_method": "source WHITE GLYPH geometry + neutral dark stroke alpha only; no source scene/character pixels. Rebuild gray rectangle separately. Never copy source caption rectangle with its Miku hair/shirt background.",
+      "end_frame_exclusive_proposal": 1398
+    },
+    {
+      "event_id": "C036",
+      "source_frame": 1398,
+      "source_time_seconds": 58.25,
+      "kind": "caption",
+      "text": "...大♡。",
+      "text_status": "visually_read_reference_text; punctuation/long vowel may be approximate; source glyph pixels authoritative",
+      "bbox_including_gray_bar": [
+        335,
+        407,
+        509,
+        460
+      ],
+      "source_reference_path": "source/samples-quarter/f01398.jpg",
+      "first_exposure_status": "quarter-second inspected event candidate; exact first source exposure pending local-frame matching",
+      "safe_layer_method": "source WHITE GLYPH geometry + neutral dark stroke alpha only; no source scene/character pixels. Rebuild gray rectangle separately. Never copy source caption rectangle with its Miku hair/shirt background.",
+      "end_frame_exclusive_proposal": 1410
+    },
+    {
+      "event_id": "C037",
+      "source_frame": 1410,
+      "source_time_seconds": 58.75,
+      "kind": "caption",
+      "text": "杂ー鱼♡、杂ー鱼♡。",
+      "text_status": "visually_read_reference_text; punctuation/long vowel may be approximate; source glyph pixels authoritative",
+      "bbox_including_gray_bar": [
+        198,
+        405,
+        647,
+        460
+      ],
+      "source_reference_path": "source/samples-quarter/f01410.jpg",
+      "first_exposure_status": "quarter-second inspected event candidate; exact first source exposure pending local-frame matching",
+      "safe_layer_method": "source WHITE GLYPH geometry + neutral dark stroke alpha only; no source scene/character pixels. Rebuild gray rectangle separately. Never copy source caption rectangle with its Miku hair/shirt background.",
+      "end_frame_exclusive_proposal": 1440
+    },
+    {
+      "event_id": "C038",
+      "source_frame": 1440,
+      "source_time_seconds": 60.0,
+      "kind": "caption",
+      "text": "...白♡。",
+      "text_status": "visually_read_reference_text; punctuation/long vowel may be approximate; source glyph pixels authoritative",
+      "bbox_including_gray_bar": [
+        334,
+        406,
+        617,
+        459
+      ],
+      "source_reference_path": "source/samples-quarter/f01440.jpg",
+      "first_exposure_status": "quarter-second inspected event candidate; exact first source exposure pending local-frame matching",
+      "safe_layer_method": "source WHITE GLYPH geometry + neutral dark stroke alpha only; no source scene/character pixels. Rebuild gray rectangle separately. Never copy source caption rectangle with its Miku hair/shirt background.",
+      "end_frame_exclusive_proposal": 1452
+    },
+    {
+      "event_id": "C039",
+      "source_frame": 1452,
+      "source_time_seconds": 60.5,
+      "kind": "caption",
+      "text": "杂ー鱼♡、杂ー鱼♡。",
+      "text_status": "visually_read_reference_text; punctuation/long vowel may be approximate; source glyph pixels authoritative",
+      "bbox_including_gray_bar": [
+        198,
+        405,
+        647,
+        460
+      ],
+      "source_reference_path": "source/samples-quarter/f01452.jpg",
+      "first_exposure_status": "quarter-second inspected event candidate; exact first source exposure pending local-frame matching",
+      "safe_layer_method": "source WHITE GLYPH geometry + neutral dark stroke alpha only; no source scene/character pixels. Rebuild gray rectangle separately. Never copy source caption rectangle with its Miku hair/shirt background.",
+      "end_frame_exclusive_proposal": 1488
+    },
+    {
+      "event_id": "C040",
+      "source_frame": 1488,
+      "source_time_seconds": 62.0,
+      "kind": "caption",
+      "text": "...痴♡。",
+      "text_status": "visually_read_reference_text; punctuation/long vowel may be approximate; source glyph pixels authoritative",
+      "bbox_including_gray_bar": [
+        335,
+        406,
+        509,
+        460
+      ],
+      "source_reference_path": "source/samples-quarter/f01488.jpg",
+      "first_exposure_status": "quarter-second inspected event candidate; exact first source exposure pending local-frame matching",
+      "safe_layer_method": "source WHITE GLYPH geometry + neutral dark stroke alpha only; no source scene/character pixels. Rebuild gray rectangle separately. Never copy source caption rectangle with its Miku hair/shirt background.",
+      "end_frame_exclusive_proposal": 1500
+    },
+    {
+      "event_id": "C041",
+      "source_frame": 1500,
+      "source_time_seconds": 62.5,
+      "kind": "caption",
+      "text": "就被酸雨淹没填满掉吧♡、",
+      "text_status": "visually_read_reference_text; punctuation/long vowel may be approximate; source glyph pixels authoritative",
+      "bbox_including_gray_bar": [
+        148,
+        405,
+        693,
+        461
+      ],
+      "source_reference_path": "source/samples-quarter/f01500.jpg",
+      "first_exposure_status": "quarter-second inspected event candidate; exact first source exposure pending local-frame matching",
+      "safe_layer_method": "source WHITE GLYPH geometry + neutral dark stroke alpha only; no source scene/character pixels. Rebuild gray rectangle separately. Never copy source caption rectangle with its Miku hair/shirt background.",
+      "end_frame_exclusive_proposal": 1548
+    },
+    {
+      "event_id": "C042",
+      "source_frame": 1548,
+      "source_time_seconds": 64.5,
+      "kind": "caption",
+      "text": "杂ー鱼♡、杂ー鱼♡。",
+      "text_status": "visually_read_reference_text; punctuation/long vowel may be approximate; source glyph pixels authoritative",
+      "bbox_including_gray_bar": [
+        198,
+        405,
+        647,
+        460
+      ],
+      "source_reference_path": "source/samples-quarter/f01548.jpg",
+      "first_exposure_status": "quarter-second inspected event candidate; exact first source exposure pending local-frame matching",
+      "safe_layer_method": "source WHITE GLYPH geometry + neutral dark stroke alpha only; no source scene/character pixels. Rebuild gray rectangle separately. Never copy source caption rectangle with its Miku hair/shirt background.",
+      "end_frame_exclusive_proposal": 1578
+    },
+    {
+      "event_id": "C043",
+      "source_frame": 1578,
+      "source_time_seconds": 65.75,
+      "kind": "caption",
+      "text": "...笨ー♡。",
+      "text_status": "visually_read_reference_text; punctuation/long vowel may be approximate; source glyph pixels authoritative",
+      "bbox_including_gray_bar": [
+        312,
+        406,
+        751,
+        460
+      ],
+      "source_reference_path": "source/samples-quarter/f01578.jpg",
+      "first_exposure_status": "quarter-second inspected event candidate; exact first source exposure pending local-frame matching",
+      "safe_layer_method": "source WHITE GLYPH geometry + neutral dark stroke alpha only; no source scene/character pixels. Rebuild gray rectangle separately. Never copy source caption rectangle with its Miku hair/shirt background.",
+      "end_frame_exclusive_proposal": 1590
+    },
+    {
+      "event_id": "C044",
+      "source_frame": 1590,
+      "source_time_seconds": 66.25,
+      "kind": "caption",
+      "text": "杂ー鱼♡、杂ー鱼♡。",
+      "text_status": "visually_read_reference_text; punctuation/long vowel may be approximate; source glyph pixels authoritative",
+      "bbox_including_gray_bar": [
+        198,
+        405,
+        647,
+        460
+      ],
+      "source_reference_path": "source/samples-quarter/f01590.jpg",
+      "first_exposure_status": "quarter-second inspected event candidate; exact first source exposure pending local-frame matching",
+      "safe_layer_method": "source WHITE GLYPH geometry + neutral dark stroke alpha only; no source scene/character pixels. Rebuild gray rectangle separately. Never copy source caption rectangle with its Miku hair/shirt background.",
+      "end_frame_exclusive_proposal": 1626
+    },
+    {
+      "event_id": "C045",
+      "source_frame": 1626,
+      "source_time_seconds": 67.75,
+      "kind": "caption",
+      "text": "...蛋♡。",
+      "text_status": "visually_read_reference_text; punctuation/long vowel may be approximate; source glyph pixels authoritative",
+      "bbox_including_gray_bar": [
+        335,
+        407,
+        509,
+        461
+      ],
+      "source_reference_path": "source/samples-quarter/f01626.jpg",
+      "first_exposure_status": "quarter-second inspected event candidate; exact first source exposure pending local-frame matching",
+      "safe_layer_method": "source WHITE GLYPH geometry + neutral dark stroke alpha only; no source scene/character pixels. Rebuild gray rectangle separately. Never copy source caption rectangle with its Miku hair/shirt background.",
+      "end_frame_exclusive_proposal": 1638
+    },
+    {
+      "event_id": "C046",
+      "source_frame": 1638,
+      "source_time_seconds": 68.25,
+      "kind": "caption",
+      "text": "杂ー鱼♡、杂ー鱼♡。",
+      "text_status": "visually_read_reference_text; punctuation/long vowel may be approximate; source glyph pixels authoritative",
+      "bbox_including_gray_bar": [
+        198,
+        405,
+        647,
+        460
+      ],
+      "source_reference_path": "source/samples-quarter/f01638.jpg",
+      "first_exposure_status": "quarter-second inspected event candidate; exact first source exposure pending local-frame matching",
+      "safe_layer_method": "source WHITE GLYPH geometry + neutral dark stroke alpha only; no source scene/character pixels. Rebuild gray rectangle separately. Never copy source caption rectangle with its Miku hair/shirt background.",
+      "end_frame_exclusive_proposal": 1668
+    },
+    {
+      "event_id": "C047",
+      "source_frame": 1668,
+      "source_time_seconds": 69.5,
+      "kind": "caption",
+      "text": "= Dynamite =",
+      "text_status": "visually_read_reference_text; punctuation/long vowel may be approximate; source glyph pixels authoritative",
+      "bbox_including_gray_bar": [
+        308,
+        411,
+        540,
+        456
+      ],
+      "source_reference_path": "source/samples-quarter/f01668.jpg",
+      "first_exposure_status": "quarter-second inspected event candidate; exact first source exposure pending local-frame matching",
+      "safe_layer_method": "source WHITE GLYPH geometry + neutral dark stroke alpha only; no source scene/character pixels. Rebuild gray rectangle separately. Never copy source caption rectangle with its Miku hair/shirt background.",
+      "end_frame_exclusive_proposal": 1686
+    },
+    {
+      "event_id": "C048",
+      "source_frame": 1686,
+      "source_time_seconds": 70.25,
+      "kind": "clear_caption",
+      "text": null,
+      "text_status": "explicit absence observed on actual source strip",
+      "bbox_including_gray_bar": null,
+      "source_reference_path": "source/samples-quarter/f01686.jpg",
+      "first_exposure_status": "quarter-second inspected event candidate; exact first source exposure pending local-frame matching",
+      "safe_layer_method": "clear old text/bar; if baked into RGB use textless source-native variant, not source-Miku patch",
+      "end_frame_exclusive_proposal": 1728
+    },
+    {
+      "event_id": "C049",
+      "source_frame": 1728,
+      "source_time_seconds": 72.0,
+      "kind": "caption",
+      "text": "Mimukawa Nice Try",
+      "text_status": "visually_read_reference_text; punctuation/long vowel may be approximate; source glyph pixels authoritative",
+      "bbox_including_gray_bar": [
+        168,
+        411,
+        651,
+        456
+      ],
+      "source_reference_path": "source/samples-quarter/f01728.jpg",
+      "first_exposure_status": "quarter-second inspected event candidate; exact first source exposure pending local-frame matching",
+      "safe_layer_method": "source WHITE GLYPH geometry + neutral dark stroke alpha only; no source scene/character pixels. Rebuild gray rectangle separately. Never copy source caption rectangle with its Miku hair/shirt background.",
+      "end_frame_exclusive_proposal": 1818
+    },
+    {
+      "event_id": "C050",
+      "source_frame": 1818,
+      "source_time_seconds": 75.75,
+      "kind": "clear_caption",
+      "text": null,
+      "text_status": "explicit absence observed on actual source strip",
+      "bbox_including_gray_bar": null,
+      "source_reference_path": "source/samples-quarter/f01818.jpg",
+      "first_exposure_status": "quarter-second inspected event candidate; exact first source exposure pending local-frame matching",
+      "safe_layer_method": "clear old text/bar; if baked into RGB use textless source-native variant, not source-Miku patch",
+      "end_frame_exclusive_proposal": 2256
+    },
+    {
+      "event_id": "C051",
+      "source_frame": 2256,
+      "source_time_seconds": 94.0,
+      "kind": "caption",
+      "text": "哇...我的牌组也太逆天...",
+      "text_status": "visually_read_reference_text; punctuation/long vowel may be approximate; source glyph pixels authoritative",
+      "bbox_including_gray_bar": [
+        177,
+        406,
+        672,
+        461
+      ],
+      "source_reference_path": "source/samples-quarter/f02256.jpg",
+      "first_exposure_status": "quarter-second inspected event candidate; exact first source exposure pending local-frame matching",
+      "safe_layer_method": "source WHITE GLYPH geometry + neutral dark stroke alpha only; no source scene/character pixels. Rebuild gray rectangle separately. Never copy source caption rectangle with its Miku hair/shirt background.",
+      "end_frame_exclusive_proposal": 2280
+    },
+    {
+      "event_id": "C052",
+      "source_frame": 2280,
+      "source_time_seconds": 95.0,
+      "kind": "clear_caption",
+      "text": null,
+      "text_status": "explicit absence observed on actual source strip",
+      "bbox_including_gray_bar": null,
+      "source_reference_path": "source/samples-quarter/f02280.jpg",
+      "first_exposure_status": "quarter-second inspected event candidate; exact first source exposure pending local-frame matching",
+      "safe_layer_method": "clear old text/bar; if baked into RGB use textless source-native variant, not source-Miku patch",
+      "end_frame_exclusive_proposal": 2460
+    },
+    {
+      "event_id": "C053",
+      "source_frame": 2460,
+      "source_time_seconds": 102.5,
+      "kind": "caption",
+      "text": "...为什么不出牌了呢?。",
+      "text_status": "visually_read_reference_text; punctuation/long vowel may be approximate; source glyph pixels authoritative",
+      "bbox_including_gray_bar": [
+        193,
+        406,
+        651,
+        460
+      ],
+      "source_reference_path": "source/samples-quarter/f02460.jpg",
+      "first_exposure_status": "quarter-second inspected event candidate; exact first source exposure pending local-frame matching",
+      "safe_layer_method": "source WHITE GLYPH geometry + neutral dark stroke alpha only; no source scene/character pixels. Rebuild gray rectangle separately. Never copy source caption rectangle with its Miku hair/shirt background.",
+      "end_frame_exclusive_proposal": 2502
+    },
+    {
+      "event_id": "C054",
+      "source_frame": 2502,
+      "source_time_seconds": 104.25,
+      "kind": "caption",
+      "text": "...莫非是 因为害怕了吗?、",
+      "text_status": "visually_read_reference_text; punctuation/long vowel may be approximate; source glyph pixels authoritative",
+      "bbox_including_gray_bar": [
+        156,
+        406,
+        685,
+        461
+      ],
+      "source_reference_path": "source/samples-quarter/f02502.jpg",
+      "first_exposure_status": "quarter-second inspected event candidate; exact first source exposure pending local-frame matching",
+      "safe_layer_method": "source WHITE GLYPH geometry + neutral dark stroke alpha only; no source scene/character pixels. Rebuild gray rectangle separately. Never copy source caption rectangle with its Miku hair/shirt background.",
+      "end_frame_exclusive_proposal": 2544
+    },
+    {
+      "event_id": "C055",
+      "source_frame": 2544,
+      "source_time_seconds": 106.0,
+      "kind": "caption",
+      "text": "...真的很糟糕欸",
+      "text_status": "visually_read_reference_text; punctuation/long vowel may be approximate; source glyph pixels authoritative",
+      "bbox_including_gray_bar": [
+        263,
+        404,
+        586,
+        461
+      ],
+      "source_reference_path": "source/samples-quarter/f02544.jpg",
+      "first_exposure_status": "quarter-second inspected event candidate; exact first source exposure pending local-frame matching",
+      "safe_layer_method": "source WHITE GLYPH geometry + neutral dark stroke alpha only; no source scene/character pixels. Rebuild gray rectangle separately. Never copy source caption rectangle with its Miku hair/shirt background.",
+      "end_frame_exclusive_proposal": 2586
+    },
+    {
+      "event_id": "C056",
+      "source_frame": 2586,
+      "source_time_seconds": 107.75,
+      "kind": "clear_caption",
+      "text": null,
+      "text_status": "explicit absence observed on actual source strip",
+      "bbox_including_gray_bar": null,
+      "source_reference_path": "source/samples-quarter/f02586.jpg",
+      "first_exposure_status": "quarter-second inspected event candidate; exact first source exposure pending local-frame matching",
+      "safe_layer_method": "clear old text/bar; if baked into RGB use textless source-native variant, not source-Miku patch",
+      "end_frame_exclusive_proposal": 2598
+    },
+    {
+      "event_id": "C057",
+      "source_frame": 2598,
+      "source_time_seconds": 108.25,
+      "kind": "caption",
+      "text": "快・点・啦。",
+      "text_status": "visually_read_reference_text; punctuation/long vowel may be approximate; source glyph pixels authoritative",
+      "bbox_including_gray_bar": [
+        292,
+        406,
+        551,
+        460
+      ],
+      "source_reference_path": "source/samples-quarter/f02598.jpg",
+      "first_exposure_status": "quarter-second inspected event candidate; exact first source exposure pending local-frame matching",
+      "safe_layer_method": "source WHITE GLYPH geometry + neutral dark stroke alpha only; no source scene/character pixels. Rebuild gray rectangle separately. Never copy source caption rectangle with its Miku hair/shirt background.",
+      "end_frame_exclusive_proposal": 2628
+    },
+    {
+      "event_id": "C058",
+      "source_frame": 2628,
+      "source_time_seconds": 109.5,
+      "kind": "clear_caption",
+      "text": null,
+      "text_status": "explicit absence observed on actual source strip",
+      "bbox_including_gray_bar": null,
+      "source_reference_path": "source/samples-quarter/f02628.jpg",
+      "first_exposure_status": "quarter-second inspected event candidate; exact first source exposure pending local-frame matching",
+      "safe_layer_method": "clear old text/bar; if baked into RGB use textless source-native variant, not source-Miku patch",
+      "end_frame_exclusive_proposal": 2634
+    },
+    {
+      "event_id": "C059",
+      "source_frame": 2634,
+      "source_time_seconds": 109.75,
+      "kind": "caption",
+      "text": "源颜文字，保持原字形",
+      "text_status": "visually_read_reference_text; punctuation/long vowel may be approximate; source glyph pixels authoritative",
+      "bbox_including_gray_bar": [
+        365,
+        410,
+        530,
+        461
+      ],
+      "source_reference_path": "source/samples-quarter/f02634.jpg",
+      "first_exposure_status": "quarter-second inspected event candidate; exact first source exposure pending local-frame matching",
+      "safe_layer_method": "source WHITE GLYPH geometry + neutral dark stroke alpha only; no source scene/character pixels. Rebuild gray rectangle separately. Never copy source caption rectangle with its Miku hair/shirt background.",
+      "end_frame_exclusive_proposal": 2646
+    },
+    {
+      "event_id": "C060",
+      "source_frame": 2646,
+      "source_time_seconds": 110.25,
+      "kind": "caption",
+      "text": "《 嘶嘶作声杂鱼杂鱼 放松细语 》",
+      "text_status": "visually_read_reference_text; punctuation/long vowel may be approximate; source glyph pixels authoritative",
+      "bbox_including_gray_bar": [
+        77,
+        405,
+        772,
+        460
+      ],
+      "source_reference_path": "source/samples-quarter/f02646.jpg",
+      "first_exposure_status": "quarter-second inspected event candidate; exact first source exposure pending local-frame matching",
+      "safe_layer_method": "source WHITE GLYPH geometry + neutral dark stroke alpha only; no source scene/character pixels. Rebuild gray rectangle separately. Never copy source caption rectangle with its Miku hair/shirt background.",
+      "end_frame_exclusive_proposal": 2778
+    },
+    {
+      "event_id": "C061",
+      "source_frame": 2778,
+      "source_time_seconds": 115.75,
+      "kind": "clear_caption",
+      "text": null,
+      "text_status": "explicit absence observed on actual source strip",
+      "bbox_including_gray_bar": null,
+      "source_reference_path": "source/samples-quarter/f02778.jpg",
+      "first_exposure_status": "quarter-second inspected event candidate; exact first source exposure pending local-frame matching",
+      "safe_layer_method": "clear old text/bar; if baked into RGB use textless source-native variant, not source-Miku patch",
+      "end_frame_exclusive_proposal": 2784
+    },
+    {
+      "event_id": "C062",
+      "source_frame": 2784,
+      "source_time_seconds": 116.0,
+      "kind": "caption",
+      "text": "呐 快点出吧?。",
+      "text_status": "visually_read_reference_text; punctuation/long vowel may be approximate; source glyph pixels authoritative",
+      "bbox_including_gray_bar": [
+        267,
+        406,
+        578,
+        460
+      ],
+      "source_reference_path": "source/samples-quarter/f02784.jpg",
+      "first_exposure_status": "quarter-second inspected event candidate; exact first source exposure pending local-frame matching",
+      "safe_layer_method": "source WHITE GLYPH geometry + neutral dark stroke alpha only; no source scene/character pixels. Rebuild gray rectangle separately. Never copy source caption rectangle with its Miku hair/shirt background.",
+      "end_frame_exclusive_proposal": 2814
+    },
+    {
+      "event_id": "C063",
+      "source_frame": 2814,
+      "source_time_seconds": 117.25,
+      "kind": "clear_caption",
+      "text": null,
+      "text_status": "explicit absence observed on actual source strip",
+      "bbox_including_gray_bar": null,
+      "source_reference_path": "source/samples-quarter/f02814.jpg",
+      "first_exposure_status": "quarter-second inspected event candidate; exact first source exposure pending local-frame matching",
+      "safe_layer_method": "clear old text/bar; if baked into RGB use textless source-native variant, not source-Miku patch",
+      "end_frame_exclusive_proposal": 2820
+    },
+    {
+      "event_id": "C064",
+      "source_frame": 2820,
+      "source_time_seconds": 117.5,
+      "kind": "caption",
+      "text": "要是能打赢我的话",
+      "text_status": "visually_read_reference_text; punctuation/long vowel may be approximate; source glyph pixels authoritative",
+      "bbox_including_gray_bar": [
+        238,
+        406,
+        611,
+        461
+      ],
+      "source_reference_path": "source/samples-quarter/f02820.jpg",
+      "first_exposure_status": "quarter-second inspected event candidate; exact first source exposure pending local-frame matching",
+      "safe_layer_method": "source WHITE GLYPH geometry + neutral dark stroke alpha only; no source scene/character pixels. Rebuild gray rectangle separately. Never copy source caption rectangle with its Miku hair/shirt background.",
+      "end_frame_exclusive_proposal": 2862
+    },
+    {
+      "event_id": "C065",
+      "source_frame": 2862,
+      "source_time_seconds": 119.25,
+      "kind": "caption",
+      "text": "这家伙无论说什么",
+      "text_status": "visually_read_reference_text; punctuation/long vowel may be approximate; source glyph pixels authoritative",
+      "bbox_including_gray_bar": [
+        237,
+        406,
+        611,
+        461
+      ],
+      "source_reference_path": "source/samples-quarter/f02862.jpg",
+      "first_exposure_status": "quarter-second inspected event candidate; exact first source exposure pending local-frame matching",
+      "safe_layer_method": "source WHITE GLYPH geometry + neutral dark stroke alpha only; no source scene/character pixels. Rebuild gray rectangle separately. Never copy source caption rectangle with its Miku hair/shirt background.",
+      "end_frame_exclusive_proposal": 2910
+    },
+    {
+      "event_id": "C066",
+      "source_frame": 2910,
+      "source_time_seconds": 121.25,
+      "kind": "caption",
+      "text": "我都会乖乖去听的哟♡、",
+      "text_status": "visually_read_reference_text; punctuation/long vowel may be approximate; source glyph pixels authoritative",
+      "bbox_including_gray_bar": [
+        172,
+        406,
+        670,
+        460
+      ],
+      "source_reference_path": "source/samples-quarter/f02910.jpg",
+      "first_exposure_status": "quarter-second inspected event candidate; exact first source exposure pending local-frame matching",
+      "safe_layer_method": "source WHITE GLYPH geometry + neutral dark stroke alpha only; no source scene/character pixels. Rebuild gray rectangle separately. Never copy source caption rectangle with its Miku hair/shirt background.",
+      "end_frame_exclusive_proposal": 2958
+    },
+    {
+      "event_id": "C067",
+      "source_frame": 2958,
+      "source_time_seconds": 123.25,
+      "kind": "caption",
+      "text": "...嘛啊 反正都赢不了的啦♡、(笑)。",
+      "text_status": "visually_read_reference_text; punctuation/long vowel may be approximate; source glyph pixels authoritative",
+      "bbox_including_gray_bar": [
+        64,
+        406,
+        780,
+        461
+      ],
+      "source_reference_path": "source/samples-quarter/f02958.jpg",
+      "first_exposure_status": "quarter-second inspected event candidate; exact first source exposure pending local-frame matching",
+      "safe_layer_method": "source WHITE GLYPH geometry + neutral dark stroke alpha only; no source scene/character pixels. Rebuild gray rectangle separately. Never copy source caption rectangle with its Miku hair/shirt background.",
+      "end_frame_exclusive_proposal": 2988
+    },
+    {
+      "event_id": "C068",
+      "source_frame": 2988,
+      "source_time_seconds": 124.5,
+      "kind": "clear_caption",
+      "text": null,
+      "text_status": "explicit absence observed on actual source strip",
+      "bbox_including_gray_bar": null,
+      "source_reference_path": "source/samples-quarter/f02988.jpg",
+      "first_exposure_status": "quarter-second inspected event candidate; exact first source exposure pending local-frame matching",
+      "safe_layer_method": "clear old text/bar; if baked into RGB use textless source-native variant, not source-Miku patch",
+      "end_frame_exclusive_proposal": 3006
+    },
+    {
+      "event_id": "C069",
+      "source_frame": 3006,
+      "source_time_seconds": 125.25,
+      "kind": "caption",
+      "text": "真是战五渣小队长!、",
+      "text_status": "visually_read_reference_text; punctuation/long vowel may be approximate; source glyph pixels authoritative",
+      "bbox_including_gray_bar": [
+        220,
+        406,
+        623,
+        461
+      ],
+      "source_reference_path": "source/samples-quarter/f03006.jpg",
+      "first_exposure_status": "quarter-second inspected event candidate; exact first source exposure pending local-frame matching",
+      "safe_layer_method": "source WHITE GLYPH geometry + neutral dark stroke alpha only; no source scene/character pixels. Rebuild gray rectangle separately. Never copy source caption rectangle with its Miku hair/shirt background.",
+      "end_frame_exclusive_proposal": 3048
+    },
+    {
+      "event_id": "C070",
+      "source_frame": 3048,
+      "source_time_seconds": 127.0,
+      "kind": "caption",
+      "text": "这家伙菜鸟一个♡、",
+      "text_status": "visually_read_reference_text; punctuation/long vowel may be approximate; source glyph pixels authoritative",
+      "bbox_including_gray_bar": [
+        217,
+        406,
+        625,
+        461
+      ],
+      "source_reference_path": "source/samples-quarter/f03048.jpg",
+      "first_exposure_status": "quarter-second inspected event candidate; exact first source exposure pending local-frame matching",
+      "safe_layer_method": "source WHITE GLYPH geometry + neutral dark stroke alpha only; no source scene/character pixels. Rebuild gray rectangle separately. Never copy source caption rectangle with its Miku hair/shirt background.",
+      "end_frame_exclusive_proposal": 3096
+    },
+    {
+      "event_id": "C071",
+      "source_frame": 3096,
+      "source_time_seconds": 129.0,
+      "kind": "caption",
+      "text": "毕竟...就是前朝的",
+      "text_status": "visually_read_reference_text; punctuation/long vowel may be approximate; source glyph pixels authoritative",
+      "bbox_including_gray_bar": [
+        241,
+        406,
+        606,
+        461
+      ],
+      "source_reference_path": "source/samples-quarter/f03096.jpg",
+      "first_exposure_status": "quarter-second inspected event candidate; exact first source exposure pending local-frame matching",
+      "safe_layer_method": "source WHITE GLYPH geometry + neutral dark stroke alpha only; no source scene/character pixels. Rebuild gray rectangle separately. Never copy source caption rectangle with its Miku hair/shirt background.",
+      "end_frame_exclusive_proposal": 3150
+    },
+    {
+      "event_id": "C072",
+      "source_frame": 3150,
+      "source_time_seconds": 131.25,
+      "kind": "caption",
+      "text": "败・北・者・罢・了♡。",
+      "text_status": "visually_read_reference_text; punctuation/long vowel may be approximate; source glyph pixels authoritative",
+      "bbox_including_gray_bar": [
+        216,
+        406,
+        629,
+        461
+      ],
+      "source_reference_path": "source/samples-quarter/f03150.jpg",
+      "first_exposure_status": "quarter-second inspected event candidate; exact first source exposure pending local-frame matching",
+      "safe_layer_method": "source WHITE GLYPH geometry + neutral dark stroke alpha only; no source scene/character pixels. Rebuild gray rectangle separately. Never copy source caption rectangle with its Miku hair/shirt background.",
+      "end_frame_exclusive_proposal": 3174
+    },
+    {
+      "event_id": "C073",
+      "source_frame": 3174,
+      "source_time_seconds": 132.25,
+      "kind": "clear_caption",
+      "text": null,
+      "text_status": "explicit absence observed on actual source strip",
+      "bbox_including_gray_bar": null,
+      "source_reference_path": "source/samples-quarter/f03174.jpg",
+      "first_exposure_status": "quarter-second inspected event candidate; exact first source exposure pending local-frame matching",
+      "safe_layer_method": "clear old text/bar; if baked into RGB use textless source-native variant, not source-Miku patch",
+      "end_frame_exclusive_proposal": 3180
+    },
+    {
+      "event_id": "C074",
+      "source_frame": 3180,
+      "source_time_seconds": 132.5,
+      "kind": "caption",
+      "text": "有手就行",
+      "text_status": "visually_read_reference_text; punctuation/long vowel may be approximate; source glyph pixels authoritative",
+      "bbox_including_gray_bar": [
+        328,
+        406,
+        520,
+        460
+      ],
+      "source_reference_path": "source/samples-quarter/f03180.jpg",
+      "first_exposure_status": "quarter-second inspected event candidate; exact first source exposure pending local-frame matching",
+      "safe_layer_method": "source WHITE GLYPH geometry + neutral dark stroke alpha only; no source scene/character pixels. Rebuild gray rectangle separately. Never copy source caption rectangle with its Miku hair/shirt background.",
+      "end_frame_exclusive_proposal": 3192
+    },
+    {
+      "event_id": "C075",
+      "source_frame": 3192,
+      "source_time_seconds": 133.0,
+      "kind": "clear_caption",
+      "text": null,
+      "text_status": "explicit absence observed on actual source strip",
+      "bbox_including_gray_bar": null,
+      "source_reference_path": "source/samples-quarter/f03192.jpg",
+      "first_exposure_status": "quarter-second inspected event candidate; exact first source exposure pending local-frame matching",
+      "safe_layer_method": "clear old text/bar; if baked into RGB use textless source-native variant, not source-Miku patch",
+      "end_frame_exclusive_proposal": 3210
+    },
+    {
+      "event_id": "C076",
+      "source_frame": 3210,
+      "source_time_seconds": 133.75,
+      "kind": "caption",
+      "text": "哭哭 被超Lo 不要太笨♡、",
+      "text_status": "visually_read_reference_text; punctuation/long vowel may be approximate; source glyph pixels authoritative",
+      "bbox_including_gray_bar": [
+        144,
+        406,
+        699,
+        461
+      ],
+      "source_reference_path": "source/samples-quarter/f03210.jpg",
+      "first_exposure_status": "quarter-second inspected event candidate; exact first source exposure pending local-frame matching",
+      "safe_layer_method": "source WHITE GLYPH geometry + neutral dark stroke alpha only; no source scene/character pixels. Rebuild gray rectangle separately. Never copy source caption rectangle with its Miku hair/shirt background.",
+      "end_frame_exclusive_proposal": 3240
+    },
+    {
+      "event_id": "C077",
+      "source_frame": 3240,
+      "source_time_seconds": 135.0,
+      "kind": "clear_caption",
+      "text": null,
+      "text_status": "explicit absence observed on actual source strip",
+      "bbox_including_gray_bar": null,
+      "source_reference_path": "source/samples-quarter/f03240.jpg",
+      "first_exposure_status": "quarter-second inspected event candidate; exact first source exposure pending local-frame matching",
+      "safe_layer_method": "clear old text/bar; if baked into RGB use textless source-native variant, not source-Miku patch",
+      "end_frame_exclusive_proposal": 3252
+    },
+    {
+      "event_id": "C078",
+      "source_frame": 3252,
+      "source_time_seconds": 135.5,
+      "kind": "caption",
+      "text": "咩噗 超过Le 活该被超♡、",
+      "text_status": "visually_read_reference_text; punctuation/long vowel may be approximate; source glyph pixels authoritative",
+      "bbox_including_gray_bar": [
+        144,
+        406,
+        698,
+        461
+      ],
+      "source_reference_path": "source/samples-quarter/f03252.jpg",
+      "first_exposure_status": "quarter-second inspected event candidate; exact first source exposure pending local-frame matching",
+      "safe_layer_method": "source WHITE GLYPH geometry + neutral dark stroke alpha only; no source scene/character pixels. Rebuild gray rectangle separately. Never copy source caption rectangle with its Miku hair/shirt background.",
+      "end_frame_exclusive_proposal": 3282
+    },
+    {
+      "event_id": "C079",
+      "source_frame": 3282,
+      "source_time_seconds": 136.75,
+      "kind": "clear_caption",
+      "text": null,
+      "text_status": "explicit absence observed on actual source strip",
+      "bbox_including_gray_bar": null,
+      "source_reference_path": "source/samples-quarter/f03282.jpg",
+      "first_exposure_status": "quarter-second inspected event candidate; exact first source exposure pending local-frame matching",
+      "safe_layer_method": "clear old text/bar; if baked into RGB use textless source-native variant, not source-Miku patch",
+      "end_frame_exclusive_proposal": 3324
+    },
+    {
+      "event_id": "C080",
+      "source_frame": 3324,
+      "source_time_seconds": 138.5,
+      "kind": "caption",
+      "text": "然而呢 摆脱困境的方法→、",
+      "text_status": "visually_read_reference_text; punctuation/long vowel may be approximate; source glyph pixels authoritative",
+      "bbox_including_gray_bar": [
+        146,
+        406,
+        696,
+        461
+      ],
+      "source_reference_path": "source/samples-quarter/f03324.jpg",
+      "first_exposure_status": "quarter-second inspected event candidate; exact first source exposure pending local-frame matching",
+      "safe_layer_method": "source WHITE GLYPH geometry + neutral dark stroke alpha only; no source scene/character pixels. Rebuild gray rectangle separately. Never copy source caption rectangle with its Miku hair/shirt background.",
+      "end_frame_exclusive_proposal": 3354
+    },
+    {
+      "event_id": "C081",
+      "source_frame": 3354,
+      "source_time_seconds": 139.75,
+      "kind": "caption",
+      "text": "Shhh...",
+      "text_status": "visually_read_reference_text; punctuation/long vowel may be approximate; source glyph pixels authoritative",
+      "bbox_including_gray_bar": [
+        331,
+        412,
+        521,
+        463
+      ],
+      "source_reference_path": "source/samples-quarter/f03354.jpg",
+      "first_exposure_status": "quarter-second inspected event candidate; exact first source exposure pending local-frame matching",
+      "safe_layer_method": "source WHITE GLYPH geometry + neutral dark stroke alpha only; no source scene/character pixels. Rebuild gray rectangle separately. Never copy source caption rectangle with its Miku hair/shirt background.",
+      "end_frame_exclusive_proposal": 3366
+    },
+    {
+      "event_id": "C082",
+      "source_frame": 3366,
+      "source_time_seconds": 140.25,
+      "kind": "caption",
+      "text": "随便的啦",
+      "text_status": "visually_read_reference_text; punctuation/long vowel may be approximate; source glyph pixels authoritative",
+      "bbox_including_gray_bar": [
+        329,
+        405,
+        521,
+        460
+      ],
+      "source_reference_path": "source/samples-quarter/f03366.jpg",
+      "first_exposure_status": "quarter-second inspected event candidate; exact first source exposure pending local-frame matching",
+      "safe_layer_method": "source WHITE GLYPH geometry + neutral dark stroke alpha only; no source scene/character pixels. Rebuild gray rectangle separately. Never copy source caption rectangle with its Miku hair/shirt background.",
+      "end_frame_exclusive_proposal": 3372
+    },
+    {
+      "event_id": "C083",
+      "source_frame": 3372,
+      "source_time_seconds": 140.5,
+      "kind": "clear_caption",
+      "text": null,
+      "text_status": "explicit absence observed on actual source strip",
+      "bbox_including_gray_bar": null,
+      "source_reference_path": "source/samples-quarter/f03372.jpg",
+      "first_exposure_status": "quarter-second inspected event candidate; exact first source exposure pending local-frame matching",
+      "safe_layer_method": "clear old text/bar; if baked into RGB use textless source-native variant, not source-Miku patch",
+      "end_frame_exclusive_proposal": 3390
+    },
+    {
+      "event_id": "C084",
+      "source_frame": 3390,
+      "source_time_seconds": 141.25,
+      "kind": "caption",
+      "text": "哭哭 被超Lo 不要太笨♡、",
+      "text_status": "visually_read_reference_text; punctuation/long vowel may be approximate; source glyph pixels authoritative",
+      "bbox_including_gray_bar": [
+        144,
+        406,
+        698,
+        461
+      ],
+      "source_reference_path": "source/samples-quarter/f03390.jpg",
+      "first_exposure_status": "quarter-second inspected event candidate; exact first source exposure pending local-frame matching",
+      "safe_layer_method": "source WHITE GLYPH geometry + neutral dark stroke alpha only; no source scene/character pixels. Rebuild gray rectangle separately. Never copy source caption rectangle with its Miku hair/shirt background.",
+      "end_frame_exclusive_proposal": 3420
+    },
+    {
+      "event_id": "C085",
+      "source_frame": 3420,
+      "source_time_seconds": 142.5,
+      "kind": "clear_caption",
+      "text": null,
+      "text_status": "explicit absence observed on actual source strip",
+      "bbox_including_gray_bar": null,
+      "source_reference_path": "source/samples-quarter/f03420.jpg",
+      "first_exposure_status": "quarter-second inspected event candidate; exact first source exposure pending local-frame matching",
+      "safe_layer_method": "clear old text/bar; if baked into RGB use textless source-native variant, not source-Miku patch",
+      "end_frame_exclusive_proposal": 3438
+    },
+    {
+      "event_id": "C086",
+      "source_frame": 3438,
+      "source_time_seconds": 143.25,
+      "kind": "caption",
+      "text": "咩噗 超过Le 活该被超♡、",
+      "text_status": "visually_read_reference_text; punctuation/long vowel may be approximate; source glyph pixels authoritative",
+      "bbox_including_gray_bar": [
+        144,
+        406,
+        698,
+        461
+      ],
+      "source_reference_path": "source/samples-quarter/f03438.jpg",
+      "first_exposure_status": "quarter-second inspected event candidate; exact first source exposure pending local-frame matching",
+      "safe_layer_method": "source WHITE GLYPH geometry + neutral dark stroke alpha only; no source scene/character pixels. Rebuild gray rectangle separately. Never copy source caption rectangle with its Miku hair/shirt background.",
+      "end_frame_exclusive_proposal": 3468
+    },
+    {
+      "event_id": "C087",
+      "source_frame": 3468,
+      "source_time_seconds": 144.5,
+      "kind": "clear_caption",
+      "text": null,
+      "text_status": "explicit absence observed on actual source strip",
+      "bbox_including_gray_bar": null,
+      "source_reference_path": "source/samples-quarter/f03468.jpg",
+      "first_exposure_status": "quarter-second inspected event candidate; exact first source exposure pending local-frame matching",
+      "safe_layer_method": "clear old text/bar; if baked into RGB use textless source-native variant, not source-Miku patch",
+      "end_frame_exclusive_proposal": 3498
+    },
+    {
+      "event_id": "C088",
+      "source_frame": 3498,
+      "source_time_seconds": 145.75,
+      "kind": "caption",
+      "text": "嗒!、 ...就来面对",
+      "text_status": "visually_read_reference_text; punctuation/long vowel may be approximate; source glyph pixels authoritative",
+      "bbox_including_gray_bar": [
+        255,
+        400,
+        638,
+        460
+      ],
+      "source_reference_path": "source/samples-quarter/f03498.jpg",
+      "first_exposure_status": "quarter-second inspected event candidate; exact first source exposure pending local-frame matching",
+      "safe_layer_method": "source WHITE GLYPH geometry + neutral dark stroke alpha only; no source scene/character pixels. Rebuild gray rectangle separately. Never copy source caption rectangle with its Miku hair/shirt background.",
+      "end_frame_exclusive_proposal": 3534
+    },
+    {
+      "event_id": "C089",
+      "source_frame": 3534,
+      "source_time_seconds": 147.25,
+      "kind": "caption",
+      "text": "Nice Try",
+      "text_status": "visually_read_reference_text; punctuation/long vowel may be approximate; source glyph pixels authoritative",
+      "bbox_including_gray_bar": [
+        314,
+        411,
+        593,
+        456
+      ],
+      "source_reference_path": "source/samples-quarter/f03534.jpg",
+      "first_exposure_status": "quarter-second inspected event candidate; exact first source exposure pending local-frame matching",
+      "safe_layer_method": "source WHITE GLYPH geometry + neutral dark stroke alpha only; no source scene/character pixels. Rebuild gray rectangle separately. Never copy source caption rectangle with its Miku hair/shirt background.",
+      "end_frame_exclusive_proposal": 3558
+    },
+    {
+      "event_id": "C090",
+      "source_frame": 3558,
+      "source_time_seconds": 148.25,
+      "kind": "caption",
+      "text": "杂ー鱼♡、杂ー鱼♡。",
+      "text_status": "visually_read_reference_text; punctuation/long vowel may be approximate; source glyph pixels authoritative",
+      "bbox_including_gray_bar": [
+        198,
+        405,
+        647,
+        460
+      ],
+      "source_reference_path": "source/samples-quarter/f03558.jpg",
+      "first_exposure_status": "quarter-second inspected event candidate; exact first source exposure pending local-frame matching",
+      "safe_layer_method": "source WHITE GLYPH geometry + neutral dark stroke alpha only; no source scene/character pixels. Rebuild gray rectangle separately. Never copy source caption rectangle with its Miku hair/shirt background.",
+      "end_frame_exclusive_proposal": 3594
+    },
+    {
+      "event_id": "C091",
+      "source_frame": 3594,
+      "source_time_seconds": 149.75,
+      "kind": "caption",
+      "text": "...大♡。",
+      "text_status": "visually_read_reference_text; punctuation/long vowel may be approximate; source glyph pixels authoritative",
+      "bbox_including_gray_bar": [
+        335,
+        404,
+        571,
+        463
+      ],
+      "source_reference_path": "source/samples-quarter/f03594.jpg",
+      "first_exposure_status": "quarter-second inspected event candidate; exact first source exposure pending local-frame matching",
+      "safe_layer_method": "source WHITE GLYPH geometry + neutral dark stroke alpha only; no source scene/character pixels. Rebuild gray rectangle separately. Never copy source caption rectangle with its Miku hair/shirt background.",
+      "end_frame_exclusive_proposal": 3600
+    },
+    {
+      "event_id": "C092",
+      "source_frame": 3600,
+      "source_time_seconds": 150.0,
+      "kind": "caption",
+      "text": "杂ー鱼♡、杂ー鱼♡。",
+      "text_status": "visually_read_reference_text; punctuation/long vowel may be approximate; source glyph pixels authoritative",
+      "bbox_including_gray_bar": [
+        198,
+        405,
+        647,
+        460
+      ],
+      "source_reference_path": "source/samples-quarter/f03600.jpg",
+      "first_exposure_status": "quarter-second inspected event candidate; exact first source exposure pending local-frame matching",
+      "safe_layer_method": "source WHITE GLYPH geometry + neutral dark stroke alpha only; no source scene/character pixels. Rebuild gray rectangle separately. Never copy source caption rectangle with its Miku hair/shirt background.",
+      "end_frame_exclusive_proposal": 3636
+    },
+    {
+      "event_id": "C093",
+      "source_frame": 3636,
+      "source_time_seconds": 151.5,
+      "kind": "caption",
+      "text": "...白♡。",
+      "text_status": "visually_read_reference_text; punctuation/long vowel may be approximate; source glyph pixels authoritative",
+      "bbox_including_gray_bar": [
+        335,
+        404,
+        628,
+        463
+      ],
+      "source_reference_path": "source/samples-quarter/f03636.jpg",
+      "first_exposure_status": "quarter-second inspected event candidate; exact first source exposure pending local-frame matching",
+      "safe_layer_method": "source WHITE GLYPH geometry + neutral dark stroke alpha only; no source scene/character pixels. Rebuild gray rectangle separately. Never copy source caption rectangle with its Miku hair/shirt background.",
+      "end_frame_exclusive_proposal": 3648
+    },
+    {
+      "event_id": "C094",
+      "source_frame": 3648,
+      "source_time_seconds": 152.0,
+      "kind": "caption",
+      "text": "杂ー鱼♡、杂ー鱼♡。",
+      "text_status": "visually_read_reference_text; punctuation/long vowel may be approximate; source glyph pixels authoritative",
+      "bbox_including_gray_bar": [
+        198,
+        405,
+        647,
+        460
+      ],
+      "source_reference_path": "source/samples-quarter/f03648.jpg",
+      "first_exposure_status": "quarter-second inspected event candidate; exact first source exposure pending local-frame matching",
+      "safe_layer_method": "source WHITE GLYPH geometry + neutral dark stroke alpha only; no source scene/character pixels. Rebuild gray rectangle separately. Never copy source caption rectangle with its Miku hair/shirt background.",
+      "end_frame_exclusive_proposal": 3684
+    },
+    {
+      "event_id": "C095",
+      "source_frame": 3684,
+      "source_time_seconds": 153.5,
+      "kind": "caption",
+      "text": "...痴♡。",
+      "text_status": "visually_read_reference_text; punctuation/long vowel may be approximate; source glyph pixels authoritative",
+      "bbox_including_gray_bar": [
+        19,
+        406,
+        534,
+        467
+      ],
+      "source_reference_path": "source/samples-quarter/f03684.jpg",
+      "first_exposure_status": "quarter-second inspected event candidate; exact first source exposure pending local-frame matching",
+      "safe_layer_method": "source WHITE GLYPH geometry + neutral dark stroke alpha only; no source scene/character pixels. Rebuild gray rectangle separately. Never copy source caption rectangle with its Miku hair/shirt background.",
+      "end_frame_exclusive_proposal": 3690
+    },
+    {
+      "event_id": "C096",
+      "source_frame": 3690,
+      "source_time_seconds": 153.75,
+      "kind": "caption",
+      "text": "就被酸雨淹没填满掉吧♡、",
+      "text_status": "visually_read_reference_text; punctuation/long vowel may be approximate; source glyph pixels authoritative",
+      "bbox_including_gray_bar": [
+        148,
+        405,
+        693,
+        461
+      ],
+      "source_reference_path": "source/samples-quarter/f03690.jpg",
+      "first_exposure_status": "quarter-second inspected event candidate; exact first source exposure pending local-frame matching",
+      "safe_layer_method": "source WHITE GLYPH geometry + neutral dark stroke alpha only; no source scene/character pixels. Rebuild gray rectangle separately. Never copy source caption rectangle with its Miku hair/shirt background.",
+      "end_frame_exclusive_proposal": 3738
+    },
+    {
+      "event_id": "C097",
+      "source_frame": 3738,
+      "source_time_seconds": 155.75,
+      "kind": "caption",
+      "text": "杂ー鱼♡、杂ー鱼♡。",
+      "text_status": "visually_read_reference_text; punctuation/long vowel may be approximate; source glyph pixels authoritative",
+      "bbox_including_gray_bar": [
+        198,
+        405,
+        647,
+        460
+      ],
+      "source_reference_path": "source/samples-quarter/f03738.jpg",
+      "first_exposure_status": "quarter-second inspected event candidate; exact first source exposure pending local-frame matching",
+      "safe_layer_method": "source WHITE GLYPH geometry + neutral dark stroke alpha only; no source scene/character pixels. Rebuild gray rectangle separately. Never copy source caption rectangle with its Miku hair/shirt background.",
+      "end_frame_exclusive_proposal": 3774
+    },
+    {
+      "event_id": "C098",
+      "source_frame": 3774,
+      "source_time_seconds": 157.25,
+      "kind": "caption",
+      "text": "...笨ー♡。",
+      "text_status": "visually_read_reference_text; punctuation/long vowel may be approximate; source glyph pixels authoritative",
+      "bbox_including_gray_bar": [
+        312,
+        406,
+        571,
+        460
+      ],
+      "source_reference_path": "source/samples-quarter/f03774.jpg",
+      "first_exposure_status": "quarter-second inspected event candidate; exact first source exposure pending local-frame matching",
+      "safe_layer_method": "source WHITE GLYPH geometry + neutral dark stroke alpha only; no source scene/character pixels. Rebuild gray rectangle separately. Never copy source caption rectangle with its Miku hair/shirt background.",
+      "end_frame_exclusive_proposal": 3786
+    },
+    {
+      "event_id": "C099",
+      "source_frame": 3786,
+      "source_time_seconds": 157.75,
+      "kind": "caption",
+      "text": "杂ー鱼♡、杂ー鱼♡。",
+      "text_status": "visually_read_reference_text; punctuation/long vowel may be approximate; source glyph pixels authoritative",
+      "bbox_including_gray_bar": [
+        198,
+        405,
+        647,
+        460
+      ],
+      "source_reference_path": "source/samples-quarter/f03786.jpg",
+      "first_exposure_status": "quarter-second inspected event candidate; exact first source exposure pending local-frame matching",
+      "safe_layer_method": "source WHITE GLYPH geometry + neutral dark stroke alpha only; no source scene/character pixels. Rebuild gray rectangle separately. Never copy source caption rectangle with its Miku hair/shirt background.",
+      "end_frame_exclusive_proposal": 3816
+    },
+    {
+      "event_id": "C100",
+      "source_frame": 3816,
+      "source_time_seconds": 159.0,
+      "kind": "caption",
+      "text": "...蛋♡。",
+      "text_status": "visually_read_reference_text; punctuation/long vowel may be approximate; source glyph pixels authoritative",
+      "bbox_including_gray_bar": [
+        223,
+        404,
+        571,
+        463
+      ],
+      "source_reference_path": "source/samples-quarter/f03816.jpg",
+      "first_exposure_status": "quarter-second inspected event candidate; exact first source exposure pending local-frame matching",
+      "safe_layer_method": "source WHITE GLYPH geometry + neutral dark stroke alpha only; no source scene/character pixels. Rebuild gray rectangle separately. Never copy source caption rectangle with its Miku hair/shirt background.",
+      "end_frame_exclusive_proposal": 3828
+    },
+    {
+      "event_id": "C101",
+      "source_frame": 3828,
+      "source_time_seconds": 159.5,
+      "kind": "caption",
+      "text": "杂ー鱼♡、杂ー鱼♡。",
+      "text_status": "visually_read_reference_text; punctuation/long vowel may be approximate; source glyph pixels authoritative",
+      "bbox_including_gray_bar": [
+        198,
+        405,
+        647,
+        460
+      ],
+      "source_reference_path": "source/samples-quarter/f03828.jpg",
+      "first_exposure_status": "quarter-second inspected event candidate; exact first source exposure pending local-frame matching",
+      "safe_layer_method": "source WHITE GLYPH geometry + neutral dark stroke alpha only; no source scene/character pixels. Rebuild gray rectangle separately. Never copy source caption rectangle with its Miku hair/shirt background.",
+      "end_frame_exclusive_proposal": 3864
+    },
+    {
+      "event_id": "C102",
+      "source_frame": 3864,
+      "source_time_seconds": 161.0,
+      "kind": "caption",
+      "text": "轻轻松松的最终回 对战愉快",
+      "text_status": "visually_read_reference_text; punctuation/long vowel may be approximate; source glyph pixels authoritative",
+      "bbox_including_gray_bar": [
+        132,
+        405,
+        717,
+        460
+      ],
+      "source_reference_path": "source/samples-quarter/f03864.jpg",
+      "first_exposure_status": "quarter-second inspected event candidate; exact first source exposure pending local-frame matching",
+      "safe_layer_method": "source WHITE GLYPH geometry + neutral dark stroke alpha only; no source scene/character pixels. Rebuild gray rectangle separately. Never copy source caption rectangle with its Miku hair/shirt background.",
+      "end_frame_exclusive_proposal": 3906
+    },
+    {
+      "event_id": "C103",
+      "source_frame": 3906,
+      "source_time_seconds": 162.75,
+      "kind": "clear_caption",
+      "text": null,
+      "text_status": "explicit absence observed on actual source strip",
+      "bbox_including_gray_bar": null,
+      "source_reference_path": "source/samples-quarter/f03906.jpg",
+      "first_exposure_status": "quarter-second inspected event candidate; exact first source exposure pending local-frame matching",
+      "safe_layer_method": "clear old text/bar; if baked into RGB use textless source-native variant, not source-Miku patch",
+      "end_frame_exclusive_proposal": 3924
+    },
+    {
+      "event_id": "C104",
+      "source_frame": 3924,
+      "source_time_seconds": 163.5,
+      "kind": "caption",
+      "text": "杂ー鱼♡、杂ー鱼♡。",
+      "text_status": "visually_read_reference_text; punctuation/long vowel may be approximate; source glyph pixels authoritative",
+      "bbox_including_gray_bar": [
+        198,
+        405,
+        647,
+        460
+      ],
+      "source_reference_path": "source/samples-quarter/f03924.jpg",
+      "first_exposure_status": "quarter-second inspected event candidate; exact first source exposure pending local-frame matching",
+      "safe_layer_method": "source WHITE GLYPH geometry + neutral dark stroke alpha only; no source scene/character pixels. Rebuild gray rectangle separately. Never copy source caption rectangle with its Miku hair/shirt background.",
+      "end_frame_exclusive_proposal": 3960
+    },
+    {
+      "event_id": "C105",
+      "source_frame": 3960,
+      "source_time_seconds": 165.0,
+      "kind": "clear_caption",
+      "text": null,
+      "text_status": "explicit absence observed on actual source strip",
+      "bbox_including_gray_bar": null,
+      "source_reference_path": "source/samples-quarter/f03960.jpg",
+      "first_exposure_status": "quarter-second inspected event candidate; exact first source exposure pending local-frame matching",
+      "safe_layer_method": "clear old text/bar; if baked into RGB use textless source-native variant, not source-Miku patch",
+      "end_frame_exclusive_proposal": 3966
+    },
+    {
+      "event_id": "C106",
+      "source_frame": 3966,
+      "source_time_seconds": 165.25,
+      "kind": "caption",
+      "text": "杂ー鱼♡、杂ー鱼♡。",
+      "text_status": "visually_read_reference_text; punctuation/long vowel may be approximate; source glyph pixels authoritative",
+      "bbox_including_gray_bar": [
+        198,
+        405,
+        647,
+        460
+      ],
+      "source_reference_path": "source/samples-quarter/f03966.jpg",
+      "first_exposure_status": "quarter-second inspected event candidate; exact first source exposure pending local-frame matching",
+      "safe_layer_method": "source WHITE GLYPH geometry + neutral dark stroke alpha only; no source scene/character pixels. Rebuild gray rectangle separately. Never copy source caption rectangle with its Miku hair/shirt background.",
+      "end_frame_exclusive_proposal": 4002
+    },
+    {
+      "event_id": "C107",
+      "source_frame": 4002,
+      "source_time_seconds": 166.75,
+      "kind": "clear_caption",
+      "text": null,
+      "text_status": "explicit absence observed on actual source strip",
+      "bbox_including_gray_bar": null,
+      "source_reference_path": "source/samples-quarter/f04002.jpg",
+      "first_exposure_status": "quarter-second inspected event candidate; exact first source exposure pending local-frame matching",
+      "safe_layer_method": "clear old text/bar; if baked into RGB use textless source-native variant, not source-Miku patch",
+      "end_frame_exclusive_proposal": 4014
+    },
+    {
+      "event_id": "C108",
+      "source_frame": 4014,
+      "source_time_seconds": 167.25,
+      "kind": "caption",
+      "text": "杂ー鱼♡、杂ー鱼♡。",
+      "text_status": "visually_read_reference_text; punctuation/long vowel may be approximate; source glyph pixels authoritative",
+      "bbox_including_gray_bar": [
+        198,
+        405,
+        647,
+        460
+      ],
+      "source_reference_path": "source/samples-quarter/f04014.jpg",
+      "first_exposure_status": "quarter-second inspected event candidate; exact first source exposure pending local-frame matching",
+      "safe_layer_method": "source WHITE GLYPH geometry + neutral dark stroke alpha only; no source scene/character pixels. Rebuild gray rectangle separately. Never copy source caption rectangle with its Miku hair/shirt background.",
+      "end_frame_exclusive_proposal": 4050
+    },
+    {
+      "event_id": "C109",
+      "source_frame": 4050,
+      "source_time_seconds": 168.75,
+      "kind": "caption",
+      "text": "=Dynamite=",
+      "text_status": "visually_read_reference_text; punctuation/long vowel may be approximate; source glyph pixels authoritative",
+      "bbox_including_gray_bar": [
+        305,
+        410,
+        548,
+        458
+      ],
+      "source_reference_path": "source/samples-quarter/f04050.jpg",
+      "first_exposure_status": "quarter-second inspected event candidate; exact first source exposure pending local-frame matching",
+      "safe_layer_method": "source WHITE GLYPH geometry + neutral dark stroke alpha only; no source scene/character pixels. Rebuild gray rectangle separately. Never copy source caption rectangle with its Miku hair/shirt background.",
+      "end_frame_exclusive_proposal": 4062
+    },
+    {
+      "event_id": "C110",
+      "source_frame": 4062,
+      "source_time_seconds": 169.25,
+      "kind": "clear_caption",
+      "text": null,
+      "text_status": "explicit absence observed on actual source strip",
+      "bbox_including_gray_bar": null,
+      "source_reference_path": "source/samples-quarter/f04062.jpg",
+      "first_exposure_status": "quarter-second inspected event candidate; exact first source exposure pending local-frame matching",
+      "safe_layer_method": "clear old text/bar; if baked into RGB use textless source-native variant, not source-Miku patch",
+      "end_frame_exclusive_proposal": 4290
+    },
+    {
+      "event_id": "C111",
+      "source_frame": 4290,
+      "source_time_seconds": 178.75,
+      "kind": "caption",
+      "text": "要输了是吗?♡、快输掉了喔?♡、",
+      "text_status": "visually_read_reference_text; punctuation/long vowel may be approximate; source glyph pixels authoritative",
+      "bbox_including_gray_bar": [
+        80,
+        405,
+        762,
+        460
+      ],
+      "source_reference_path": "source/samples-quarter/f04290.jpg",
+      "first_exposure_status": "quarter-second inspected event candidate; exact first source exposure pending local-frame matching",
+      "safe_layer_method": "source WHITE GLYPH geometry + neutral dark stroke alpha only; no source scene/character pixels. Rebuild gray rectangle separately. Never copy source caption rectangle with its Miku hair/shirt background.",
+      "end_frame_exclusive_proposal": 4326
+    },
+    {
+      "event_id": "C112",
+      "source_frame": 4326,
+      "source_time_seconds": 180.25,
+      "kind": "caption",
+      "text": "...对吧?、",
+      "text_status": "visually_read_reference_text; punctuation/long vowel may be approximate; source glyph pixels authoritative",
+      "bbox_including_gray_bar": [
+        336,
+        407,
+        505,
+        460
+      ],
+      "source_reference_path": "source/samples-quarter/f04326.jpg",
+      "first_exposure_status": "quarter-second inspected event candidate; exact first source exposure pending local-frame matching",
+      "safe_layer_method": "source WHITE GLYPH geometry + neutral dark stroke alpha only; no source scene/character pixels. Rebuild gray rectangle separately. Never copy source caption rectangle with its Miku hair/shirt background.",
+      "end_frame_exclusive_proposal": 4338
+    },
+    {
+      "event_id": "C113",
+      "source_frame": 4338,
+      "source_time_seconds": 180.75,
+      "kind": "caption",
+      "text": "就这样可怜地活着丢人现眼吧、?♡。",
+      "text_status": "visually_read_reference_text; punctuation/long vowel may be approximate; source glyph pixels authoritative",
+      "bbox_including_gray_bar": [
+        55,
+        405,
+        789,
+        461
+      ],
+      "source_reference_path": "source/samples-quarter/f04338.jpg",
+      "first_exposure_status": "quarter-second inspected event candidate; exact first source exposure pending local-frame matching",
+      "safe_layer_method": "source WHITE GLYPH geometry + neutral dark stroke alpha only; no source scene/character pixels. Rebuild gray rectangle separately. Never copy source caption rectangle with its Miku hair/shirt background.",
+      "end_frame_exclusive_proposal": 4380
+    },
+    {
+      "event_id": "C114",
+      "source_frame": 4380,
+      "source_time_seconds": 182.5,
+      "kind": "caption",
+      "text": "快出啊♡、快出啊♡、",
+      "text_status": "visually_read_reference_text; punctuation/long vowel may be approximate; source glyph pixels authoritative",
+      "bbox_including_gray_bar": [
+        195,
+        406,
+        645,
+        460
+      ],
+      "source_reference_path": "source/samples-quarter/f04380.jpg",
+      "first_exposure_status": "quarter-second inspected event candidate; exact first source exposure pending local-frame matching",
+      "safe_layer_method": "source WHITE GLYPH geometry + neutral dark stroke alpha only; no source scene/character pixels. Rebuild gray rectangle separately. Never copy source caption rectangle with its Miku hair/shirt background.",
+      "end_frame_exclusive_proposal": 4428
+    },
+    {
+      "event_id": "C115",
+      "source_frame": 4428,
+      "source_time_seconds": 184.5,
+      "kind": "caption",
+      "text": "「败北宣言」给我大声喊出来!!♡。",
+      "text_status": "visually_read_reference_text; punctuation/long vowel may be approximate; source glyph pixels authoritative",
+      "bbox_including_gray_bar": [
+        114,
+        406,
+        777,
+        460
+      ],
+      "source_reference_path": "source/samples-quarter/f04428.jpg",
+      "first_exposure_status": "quarter-second inspected event candidate; exact first source exposure pending local-frame matching",
+      "safe_layer_method": "source WHITE GLYPH geometry + neutral dark stroke alpha only; no source scene/character pixels. Rebuild gray rectangle separately. Never copy source caption rectangle with its Miku hair/shirt background.",
+      "end_frame_exclusive_proposal": 4470
+    },
+    {
+      "event_id": "C116",
+      "source_frame": 4470,
+      "source_time_seconds": 186.25,
+      "kind": "clear_caption",
+      "text": null,
+      "text_status": "explicit absence observed on actual source strip",
+      "bbox_including_gray_bar": null,
+      "source_reference_path": "source/samples-quarter/f04470.jpg",
+      "first_exposure_status": "quarter-second inspected event candidate; exact first source exposure pending local-frame matching",
+      "safe_layer_method": "clear old text/bar; if baked into RGB use textless source-native variant, not source-Miku patch",
+      "end_frame_exclusive_proposal": 4818
+    },
+    {
+      "event_id": "C117",
+      "source_frame": 4818,
+      "source_time_seconds": 200.75,
+      "kind": "caption",
+      "text": "源崩溃惊叫长字幕，保持原字形",
+      "text_status": "visually_read_reference_text; punctuation/long vowel may be approximate; source glyph pixels authoritative",
+      "bbox_including_gray_bar": [
+        26,
+        405,
+        834,
+        460
+      ],
+      "source_reference_path": "source/samples-quarter/f04818.jpg",
+      "first_exposure_status": "quarter-second inspected event candidate; exact first source exposure pending local-frame matching",
+      "safe_layer_method": "source WHITE GLYPH geometry + neutral dark stroke alpha only; no source scene/character pixels. Rebuild gray rectangle separately. Never copy source caption rectangle with its Miku hair/shirt background.",
+      "end_frame_exclusive_proposal": 4926
+    },
+    {
+      "event_id": "C118",
+      "source_frame": 4926,
+      "source_time_seconds": 205.25,
+      "kind": "clear_caption",
+      "text": null,
+      "text_status": "explicit absence observed on actual source strip",
+      "bbox_including_gray_bar": null,
+      "source_reference_path": "source/samples-quarter/f04926.jpg",
+      "first_exposure_status": "quarter-second inspected event candidate; exact first source exposure pending local-frame matching",
+      "safe_layer_method": "clear old text/bar; if baked into RGB use textless source-native variant, not source-Miku patch",
+      "end_frame_exclusive_proposal": 4956
+    }
+  ],
+  "graphic_events": [
+    {
+      "source_frame": 31,
+      "source_time_seconds": 1.2916666666666667,
+      "event_id": "intro_nameplate",
+      "kind": "left white nameplate",
+      "instruction": "preserve source nameplate文字，主角名称是否改DS不在当前授权，暂保持原字形",
+      "source_reference_path": "source/samples-quarter/f00030.jpg",
+      "first_exposure_status": "core visual reference unless specifically marked exact"
+    },
+    {
+      "source_frame": 31,
+      "source_time_seconds": 1.2916666666666667,
+      "event_id": "intro_speech",
+      "kind": "right purple polygon",
+      "instruction": "源日文开场句，后段字卡切换不能带旧句",
+      "source_reference_path": "source/samples-quarter/f00030.jpg",
+      "first_exposure_status": "core visual reference unless specifically marked exact"
+    },
+    {
+      "source_frame": 1020,
+      "source_time_seconds": 42.5,
+      "event_id": "tease_forehead_speech",
+      "kind": "right purple polygon",
+      "instruction": "右侧日文气泡，头/牌不在此层",
+      "source_reference_path": "source/samples-quarter/f01020.jpg",
+      "first_exposure_status": "core visual reference unless specifically marked exact"
+    },
+    {
+      "source_frame": 1080,
+      "source_time_seconds": 45.0,
+      "event_id": "tease_forehead_speech_flipped",
+      "kind": "left purple polygon",
+      "instruction": "左侧同类气泡，不能把右图镜像连字倒转",
+      "source_reference_path": "source/samples-quarter/f01080.jpg",
+      "first_exposure_status": "core visual reference unless specifically marked exact"
+    },
+    {
+      "source_frame": 1110,
+      "source_time_seconds": 46.25,
+      "event_id": "idiot_speech",
+      "kind": "right purple polygon",
+      "instruction": "You're an idiot源字形",
+      "source_reference_path": "source/samples-quarter/f01110.jpg",
+      "first_exposure_status": "core visual reference unless specifically marked exact"
+    },
+    {
+      "source_frame": 1134,
+      "source_time_seconds": 47.25,
+      "event_id": "explain_speech_pair",
+      "kind": "two purple polygons",
+      "instruction": "双气泡，独立于两手",
+      "source_reference_path": "source/samples-quarter/f01134.jpg",
+      "first_exposure_status": "core visual reference unless specifically marked exact"
+    },
+    {
+      "source_frame": 1290,
+      "source_time_seconds": 53.75,
+      "event_id": "game_set",
+      "kind": "right purple polygon",
+      "instruction": "GAME SET!",
+      "source_reference_path": "source/samples-quarter/f01290.jpg",
+      "first_exposure_status": "core visual reference unless specifically marked exact"
+    },
+    {
+      "source_frame": 1308,
+      "source_time_seconds": 54.5,
+      "event_id": "raise_card_speech",
+      "kind": "lower right purple polygon",
+      "instruction": "ハイ!源字卡",
+      "source_reference_path": "source/samples-quarter/f01308.jpg",
+      "first_exposure_status": "core visual reference unless specifically marked exact"
+    },
+    {
+      "source_frame": 1326,
+      "source_time_seconds": 55.25,
+      "event_id": "eye_glow_and_big_kana",
+      "kind": "overlay effect",
+      "instruction": "红光与巨大假名是图形叙事层，人物hold不等于冻结特效",
+      "source_reference_path": "source/samples-quarter/f01326.jpg",
+      "first_exposure_status": "core visual reference unless specifically marked exact"
+    },
+    {
+      "source_frame": 1338,
+      "source_time_seconds": 55.75,
+      "event_id": "nice_try_confetti",
+      "kind": "foreground/background graphics",
+      "instruction": "Nice Try与彩纸保持源事件",
+      "source_reference_path": "source/samples-quarter/f01338.jpg",
+      "first_exposure_status": "core visual reference unless specifically marked exact"
+    },
+    {
+      "source_frame": 1362,
+      "source_time_seconds": 56.75,
+      "event_id": "taunt_vertical_pair",
+      "kind": "large purple polygon",
+      "instruction": "源日文ざぁこ两列；小横泡期间大竖泡必须清空",
+      "source_reference_path": "source/samples-quarter/f01362.jpg",
+      "first_exposure_status": "core visual reference unless specifically marked exact"
+    },
+    {
+      "source_frame": 1398,
+      "source_time_seconds": 58.25,
+      "event_id": "taunt_small_A",
+      "kind": "small horizontal purple polygon",
+      "instruction": "...たぁ♡，与中文字幕...大♡同步但嘴型有独立切点",
+      "source_reference_path": "source/samples-quarter/f01398.jpg",
+      "first_exposure_status": "core visual reference unless specifically marked exact"
+    },
+    {
+      "source_frame": 1440,
+      "source_time_seconds": 60.0,
+      "event_id": "taunt_small_B",
+      "kind": "small horizontal purple polygon",
+      "instruction": "...わぁ♡",
+      "source_reference_path": "source/samples-quarter/f01440.jpg",
+      "first_exposure_status": "core visual reference unless specifically marked exact"
+    },
+    {
+      "source_frame": 1488,
+      "source_time_seconds": 62.0,
+      "event_id": "taunt_small_C",
+      "kind": "small horizontal purple polygon",
+      "instruction": "...けぇ♡",
+      "source_reference_path": "source/samples-quarter/f01488.jpg",
+      "first_exposure_status": "core visual reference unless specifically marked exact"
+    },
+    {
+      "source_frame": 1500,
+      "source_time_seconds": 62.5,
+      "event_id": "acid_rain_pair",
+      "kind": "two purple polygons",
+      "instruction": "酸性雨に/埋まっちゃえ♡；CLAP手和CLAP字另层",
+      "source_reference_path": "source/samples-quarter/f01500.jpg",
+      "first_exposure_status": "core visual reference unless specifically marked exact"
+    },
+    {
+      "source_frame": 1530,
+      "source_time_seconds": 63.75,
+      "event_id": "clap_foreground",
+      "kind": "foreground hands + CLAP",
+      "instruction": "拍手图形可原生图隔离，不能当角色多手",
+      "source_reference_path": "source/samples-quarter/f01530.jpg",
+      "first_exposure_status": "core visual reference unless specifically marked exact"
+    },
+    {
+      "source_frame": 1578,
+      "source_time_seconds": 65.75,
+      "event_id": "taunt_small_D",
+      "kind": "small horizontal purple polygon",
+      "instruction": "...ばぁー♡",
+      "source_reference_path": "source/samples-quarter/f01578.jpg",
+      "first_exposure_status": "core visual reference unless specifically marked exact"
+    },
+    {
+      "source_frame": 1626,
+      "source_time_seconds": 67.75,
+      "event_id": "taunt_small_E",
+      "kind": "small horizontal purple polygon",
+      "instruction": "...か♡",
+      "source_reference_path": "source/samples-quarter/f01626.jpg",
+      "first_exposure_status": "core visual reference unless specifically marked exact"
+    },
+    {
+      "source_frame": 1668,
+      "source_time_seconds": 69.5,
+      "event_id": "dynamite_eyes",
+      "kind": "nonhair source graphic",
+      "instruction": "此core无发；1656/1662前段仍见主角，眼框可作无发overlay盖DS底",
+      "source_reference_path": "source/samples-quarter/f01668.jpg",
+      "first_exposure_status": "core visual reference unless specifically marked exact"
+    },
+    {
+      "source_frame": 1686,
+      "source_time_seconds": 70.25,
+      "event_id": "score_33_4",
+      "kind": "large background numerals",
+      "instruction": "33-4",
+      "source_reference_path": "source/samples-quarter/f01686.jpg",
+      "first_exposure_status": "core visual reference unless specifically marked exact"
+    },
+    {
+      "source_frame": 1716,
+      "source_time_seconds": 71.5,
+      "event_id": "score_explosion",
+      "kind": "background flash",
+      "instruction": "红黑爆闪为图形事件",
+      "source_reference_path": "source/samples-quarter/f01716.jpg",
+      "first_exposure_status": "core visual reference unless specifically marked exact"
+    },
+    {
+      "source_frame": 1728,
+      "source_time_seconds": 72.0,
+      "event_id": "chorus_title",
+      "kind": "large side Japanese text",
+      "instruction": "第一次副歌有短英语底字幕；75.75后无底字幕",
+      "source_reference_path": "source/samples-quarter/f01728.jpg",
+      "first_exposure_status": "core visual reference unless specifically marked exact"
+    },
+    {
+      "source_frame": 2070,
+      "source_time_seconds": 86.25,
+      "event_id": "fanart_samples",
+      "kind": "whole source reference panel",
+      "instruction": "保留原嵌入示例，非主角色重构；不能宣称示例已DS化",
+      "source_reference_path": "source/samples-quarter/f02070.jpg",
+      "first_exposure_status": "core visual reference unless specifically marked exact"
+    },
+    {
+      "source_frame": 2082,
+      "source_time_seconds": 86.75,
+      "event_id": "hashtag_panel",
+      "kind": "left white panel",
+      "instruction": "#39neko原字形保留",
+      "source_reference_path": "source/samples-quarter/f02082.jpg",
+      "first_exposure_status": "core visual reference unless specifically marked exact"
+    },
+    {
+      "source_frame": 2202,
+      "source_time_seconds": 91.75,
+      "event_id": "opponent_fan_entry",
+      "kind": "independent prop",
+      "instruction": "从底部进场，源2256为完整独立道具供体",
+      "source_reference_path": "source/samples-quarter/f02202.jpg",
+      "first_exposure_status": "core visual reference unless specifically marked exact"
+    },
+    {
+      "source_frame": 2256,
+      "source_time_seconds": 94.0,
+      "event_id": "opponent_fan_full",
+      "kind": "whole nonhair source scene",
+      "instruction": "无主角色，可保留原源全文图形",
+      "source_reference_path": "source/samples-quarter/f02256.jpg",
+      "first_exposure_status": "core visual reference unless specifically marked exact"
+    },
+    {
+      "source_frame": 2298,
+      "source_time_seconds": 95.75,
+      "event_id": "maid_sign_A",
+      "kind": "red placard",
+      "instruction": "日文手写粉牌，保持原词与朝向",
+      "source_reference_path": "source/samples-quarter/f02298.jpg",
+      "first_exposure_status": "core visual reference unless specifically marked exact"
+    },
+    {
+      "source_frame": 2334,
+      "source_time_seconds": 97.25,
+      "event_id": "maid_sign_B",
+      "kind": "red placard",
+      "instruction": "另一方向原牌，不镜像文字",
+      "source_reference_path": "source/samples-quarter/f02334.jpg",
+      "first_exposure_status": "core visual reference unless specifically marked exact"
+    },
+    {
+      "source_frame": 2370,
+      "source_time_seconds": 98.75,
+      "event_id": "maid_sign_inverted_body",
+      "kind": "upright red placard",
+      "instruction": "倒置的是人物，牌上字保持源朝向",
+      "source_reference_path": "source/samples-quarter/f02370.jpg",
+      "first_exposure_status": "core visual reference unless specifically marked exact"
+    },
+    {
+      "source_frame": 2826,
+      "source_time_seconds": 117.75,
+      "event_id": "fold_arm_white_speech_A",
+      "kind": "right white polygon",
+      "instruction": "源日文もし私に勝ったら...",
+      "source_reference_path": "source/samples-quarter/f02826.jpg",
+      "first_exposure_status": "core visual reference unless specifically marked exact"
+    },
+    {
+      "source_frame": 2916,
+      "source_time_seconds": 121.5,
+      "event_id": "fold_arm_white_speech_B",
+      "kind": "left white polygon",
+      "instruction": "源日文なんでも...",
+      "source_reference_path": "source/samples-quarter/f02916.jpg",
+      "first_exposure_status": "core visual reference unless specifically marked exact"
+    },
+    {
+      "source_frame": 2958,
+      "source_time_seconds": 123.25,
+      "event_id": "fold_arm_white_speech_C",
+      "kind": "left white polygon",
+      "instruction": "同身体白气泡新句",
+      "source_reference_path": "source/samples-quarter/f02958.jpg",
+      "first_exposure_status": "core visual reference unless specifically marked exact"
+    },
+    {
+      "source_frame": 3006,
+      "source_time_seconds": 125.25,
+      "event_id": "sleep_music_marks",
+      "kind": "local source graphic",
+      "instruction": "睡觉小音符/手写拟声，不是头发",
+      "source_reference_path": "source/samples-quarter/f03006.jpg",
+      "first_exposure_status": "core visual reference unless specifically marked exact"
+    },
+    {
+      "source_frame": 3048,
+      "source_time_seconds": 127.0,
+      "event_id": "clock_and_fan_entry",
+      "kind": "background clock + foreground fan",
+      "instruction": "铜锣向下进入，前景扇牌自底进入；125.25源母稿尚无扇牌",
+      "source_reference_path": "source/samples-quarter/f03048.jpg",
+      "first_exposure_status": "core visual reference unless specifically marked exact"
+    },
+    {
+      "source_frame": 3180,
+      "source_time_seconds": 132.5,
+      "event_id": "hit_flash",
+      "kind": "source graphic",
+      "instruction": "爆闪/运动连接不新画人物，但叙事击打图形保留",
+      "source_reference_path": "source/samples-quarter/f03180.jpg",
+      "first_exposure_status": "core visual reference unless specifically marked exact"
+    },
+    {
+      "source_frame": 3486,
+      "source_time_seconds": 145.25,
+      "event_id": "game_set_reprise",
+      "kind": "right purple polygon",
+      "instruction": "GAME SET!复现",
+      "source_reference_path": "source/samples-quarter/f03486.jpg",
+      "first_exposure_status": "core visual reference unless specifically marked exact"
+    },
+    {
+      "source_frame": 3534,
+      "source_time_seconds": 147.25,
+      "event_id": "nice_try_reprise",
+      "kind": "confetti + caption",
+      "instruction": "源前景扇牌仍在",
+      "source_reference_path": "source/samples-quarter/f03534.jpg",
+      "first_exposure_status": "core visual reference unless specifically marked exact"
+    },
+    {
+      "source_frame": 3690,
+      "source_time_seconds": 153.75,
+      "event_id": "acid_rain_reprise",
+      "kind": "two purple polygons",
+      "instruction": "源前景扇牌仍在，CLAP字/手原时间",
+      "source_reference_path": "source/samples-quarter/f03690.jpg",
+      "first_exposure_status": "core visual reference unless specifically marked exact"
+    },
+    {
+      "source_frame": 3846,
+      "source_time_seconds": 160.25,
+      "event_id": "dynamite_reprise_transition",
+      "kind": "eye insert + new caption",
+      "instruction": "第二段字幕是轻轻松松的最终回，不是第一段Dynamite旧底字幕",
+      "source_reference_path": "source/samples-quarter/f03846.jpg",
+      "first_exposure_status": "core visual reference unless specifically marked exact"
+    },
+    {
+      "source_frame": 4050,
+      "source_time_seconds": 168.75,
+      "event_id": "dynamite_final_face",
+      "kind": "complete face insert",
+      "instruction": "此段有刘海/发缘，需要DS脸稿，不能把1668无发眼框当全段原片直通",
+      "source_reference_path": "source/samples-quarter/f04050.jpg",
+      "first_exposure_status": "core visual reference unless specifically marked exact"
+    },
+    {
+      "source_frame": 4062,
+      "source_time_seconds": 169.25,
+      "event_id": "score_33_4_reprise",
+      "kind": "background numerals",
+      "instruction": "前景扇牌在",
+      "source_reference_path": "source/samples-quarter/f04062.jpg",
+      "first_exposure_status": "core visual reference unless specifically marked exact"
+    },
+    {
+      "source_frame": 4104,
+      "source_time_seconds": 171.0,
+      "event_id": "chorus_title_final",
+      "kind": "large side Japanese text",
+      "instruction": "整段没有Mimukawa NiceTry英语底字幕，早期RGB需净版",
+      "source_reference_path": "source/samples-quarter/f04104.jpg",
+      "first_exposure_status": "core visual reference unless specifically marked exact"
+    },
+    {
+      "source_frame": 4290,
+      "source_time_seconds": 178.75,
+      "event_id": "final_speech_A",
+      "kind": "right purple polygon",
+      "instruction": "终局新日文句，不能带旧主歌句",
+      "source_reference_path": "source/samples-quarter/f04290.jpg",
+      "first_exposure_status": "core visual reference unless specifically marked exact"
+    },
+    {
+      "source_frame": 4338,
+      "source_time_seconds": 180.75,
+      "event_id": "final_speech_B",
+      "kind": "right purple polygon",
+      "instruction": "终局新日文句",
+      "source_reference_path": "source/samples-quarter/f04338.jpg",
+      "first_exposure_status": "core visual reference unless specifically marked exact"
+    },
+    {
+      "source_frame": 4380,
+      "source_time_seconds": 182.5,
+      "event_id": "final_speech_repeated",
+      "kind": "both purple columns",
+      "instruction": "出せっ♡反复",
+      "source_reference_path": "source/samples-quarter/f04380.jpg",
+      "first_exposure_status": "core visual reference unless specifically marked exact"
+    },
+    {
+      "source_frame": 4428,
+      "source_time_seconds": 184.5,
+      "event_id": "defeat_declaration",
+      "kind": "both dark speech panels",
+      "instruction": "败北宣言原图文",
+      "source_reference_path": "source/samples-quarter/f04428.jpg",
+      "first_exposure_status": "core visual reference unless specifically marked exact"
+    },
+    {
+      "source_frame": 4470,
+      "source_time_seconds": 186.25,
+      "event_id": "opponent_table_cards",
+      "kind": "cards on table in back view",
+      "instruction": "此处原生4470已包含对方桌上手牌，不能再叠底部前景扇牌",
+      "source_reference_path": "source/samples-quarter/f04470.jpg",
+      "first_exposure_status": "core visual reference unless specifically marked exact"
+    },
+    {
+      "source_frame": 4638,
+      "source_time_seconds": 193.25,
+      "event_id": "face_rays",
+      "kind": "local face graphic",
+      "instruction": "结尾面部放射线叙事层，不新增动作原画",
+      "source_reference_path": "source/samples-quarter/f04638.jpg",
+      "first_exposure_status": "core visual reference unless specifically marked exact"
+    },
+    {
+      "source_frame": 4818,
+      "source_time_seconds": 200.75,
+      "event_id": "flying_cards",
+      "kind": "foreground source card graphics",
+      "instruction": "全景飞牌原画已含多个彩牌",
+      "source_reference_path": "source/samples-quarter/f04818.jpg",
+      "first_exposure_status": "core visual reference unless specifically marked exact"
+    },
+    {
+      "source_frame": 4956,
+      "source_time_seconds": 206.5,
+      "event_id": "end_card_fade_in",
+      "kind": "full scene text layer",
+      "instruction": "终场文字渐入需盖DS崩溃稿，不把原Miku残影贴回",
+      "source_reference_path": "source/samples-quarter/f04956.jpg",
+      "first_exposure_status": "core visual reference unless specifically marked exact"
+    },
+    {
+      "source_frame": 4998,
+      "source_time_seconds": 208.25,
+      "event_id": "end_card_opaque",
+      "kind": "whole source frame",
+      "instruction": "此core已无主角色，可原源整页保留",
+      "source_reference_path": "source/samples-quarter/f04998.jpg",
+      "first_exposure_status": "core visual reference unless specifically marked exact"
+    },
+    {
+      "source_frame": 5212,
+      "source_time_seconds": 217.16666666666666,
+      "event_id": "end_black",
+      "kind": "whole source frame",
+      "instruction": "确切源黑尾始于5212，后续全黑至5244",
+      "source_reference_path": "source/samples-quarter/f05208.jpg",
+      "first_exposure_status": "core visual reference unless specifically marked exact"
+    }
+  ],
+  "native_baked_overlay_inventory": [
+    {
+      "asset_id": "intro_palm_open",
+      "path": "production/pair-a/generated/intro-wave-B-f00042-r3.png",
+      "source_frame": 42,
+      "baked_caption_text": null,
+      "baked_caption_bbox_source": null,
+      "coordinates": "source852x480; scale uniformly by941/480 to native1672x941 reference grid (right pad2px)",
+      "baked_speech_warning": "Full RGB also bakes speech panels. Source component alpha can replace panels; smaller/no panel requires speechless native plate."
+    },
+    {
+      "asset_id": "center_card",
+      "path": "production/pair-b/generated/center-card-f00276-r2.png",
+      "source_frame": 276,
+      "baked_caption_text": null,
+      "baked_caption_bbox_source": null,
+      "coordinates": "source852x480; scale uniformly by941/480 to native1672x941 reference grid (right pad2px)",
+      "baked_speech_warning": "Full RGB also bakes speech panels. Source component alpha can replace panels; smaller/no panel requires speechless native plate."
+    },
+    {
+      "asset_id": "dab_rear",
+      "path": "production/pair-a/generated/dab-rear-f00342-r1.png",
+      "source_frame": 342,
+      "baked_caption_text": null,
+      "baked_caption_bbox_source": null,
+      "coordinates": "source852x480; scale uniformly by941/480 to native1672x941 reference grid (right pad2px)",
+      "baked_speech_warning": "Full RGB also bakes speech panels. Source component alpha can replace panels; smaller/no panel requires speechless native plate."
+    },
+    {
+      "asset_id": "taunt_left_close",
+      "path": "production/pair-a/generated/taunt-left-close-f00456-r1.png",
+      "source_frame": 456,
+      "baked_caption_text": "手牌真的超多 爆笑w",
+      "baked_caption_bbox_source": [
+        210,
+        406,
+        641,
+        460
+      ],
+      "coordinates": "source852x480; scale uniformly by941/480 to native1672x941 reference grid (right pad2px)",
+      "baked_speech_warning": "Full RGB also bakes speech panels. Source component alpha can replace panels; smaller/no panel requires speechless native plate."
+    },
+    {
+      "asset_id": "taunt_right",
+      "path": "production/pair-a/generated/taunt-right-f00540-r1.png",
+      "source_frame": 540,
+      "baked_caption_text": "请告诉我玩得这么菜菜的秘诀唷♡。",
+      "baked_caption_bbox_source": [
+        63,
+        406,
+        781,
+        460
+      ],
+      "coordinates": "source852x480; scale uniformly by941/480 to native1672x941 reference grid (right pad2px)",
+      "baked_speech_warning": "Full RGB also bakes speech panels. Source component alpha can replace panels; smaller/no panel requires speechless native plate."
+    },
+    {
+      "asset_id": "point_above",
+      "path": "production/pair-a/generated/point-above-f00612-r1.png",
+      "source_frame": 612,
+      "baked_caption_text": "弱・鸡・蛆・虫・酱、♡。",
+      "baked_caption_bbox_source": [
+        204,
+        405,
+        640,
+        460
+      ],
+      "coordinates": "source852x480; scale uniformly by941/480 to native1672x941 reference grid (right pad2px)",
+      "baked_speech_warning": "Full RGB also bakes speech panels. Source component alpha can replace panels; smaller/no panel requires speechless native plate."
+    },
+    {
+      "asset_id": "point_forward",
+      "path": "production/pair-a/generated/point-forward-f00624-r1.png",
+      "source_frame": 624,
+      "baked_caption_text": null,
+      "baked_caption_bbox_source": null,
+      "coordinates": "source852x480; scale uniformly by941/480 to native1672x941 reference grid (right pad2px)",
+      "baked_speech_warning": "Full RGB also bakes speech panels. Source component alpha can replace panels; smaller/no panel requires speechless native plate."
+    },
+    {
+      "asset_id": "dark_panic",
+      "path": "production/pair-root/generated/dark-panic-f02460-r1.png",
+      "source_frame": 2460,
+      "baked_caption_text": "...为什么不出牌了呢?。",
+      "baked_caption_bbox_source": [
+        193,
+        406,
+        651,
+        460
+      ],
+      "coordinates": "source852x480; scale uniformly by941/480 to native1672x941 reference grid (right pad2px)",
+      "baked_speech_warning": "Full RGB also bakes speech panels. Source component alpha can replace panels; smaller/no panel requires speechless native plate."
+    },
+    {
+      "asset_id": "head_down_dark",
+      "path": "production/pair-root/generated/head-down-dark-f02586-r1.png",
+      "source_frame": 2586,
+      "baked_caption_text": null,
+      "baked_caption_bbox_source": null,
+      "coordinates": "source852x480; scale uniformly by941/480 to native1672x941 reference grid (right pad2px)",
+      "baked_speech_warning": "Full RGB also bakes speech panels. Source component alpha can replace panels; smaller/no panel requires speechless native plate."
+    },
+    {
+      "asset_id": "plead_A",
+      "path": "production/pair-root/generated/plead-A-f02628-r1.png",
+      "source_frame": 2628,
+      "baked_caption_text": null,
+      "baked_caption_bbox_source": null,
+      "coordinates": "source852x480; scale uniformly by941/480 to native1672x941 reference grid (right pad2px)",
+      "baked_speech_warning": "Full RGB also bakes speech panels. Source component alpha can replace panels; smaller/no panel requires speechless native plate."
+    },
+    {
+      "asset_id": "taunt_left_table",
+      "path": "production/pair-a/generated/taunt-left-table-f00636-r1.png",
+      "source_frame": 636,
+      "baked_caption_text": "呐要是输得这么难看可不行~啊。",
+      "baked_caption_bbox_source": [
+        98,
+        406,
+        747,
+        460
+      ],
+      "coordinates": "source852x480; scale uniformly by941/480 to native1672x941 reference grid (right pad2px)",
+      "baked_speech_warning": "Full RGB also bakes speech panels. Source component alpha can replace panels; smaller/no panel requires speechless native plate."
+    },
+    {
+      "asset_id": "taunt_right_close",
+      "path": "production/pair-a/generated/taunt-right-close-f00738-r1.png",
+      "source_frame": 738,
+      "baked_caption_text": "认真起来的话就能赢了唷(笑)。",
+      "baked_caption_bbox_source": [
+        118,
+        406,
+        727,
+        461
+      ],
+      "coordinates": "source852x480; scale uniformly by941/480 to native1672x941 reference grid (right pad2px)",
+      "baked_speech_warning": "Full RGB also bakes speech panels. Source component alpha can replace panels; smaller/no panel requires speechless native plate."
+    },
+    {
+      "asset_id": "surprise_side",
+      "path": "production/pair-a/generated/surprise-side-f00426-r2.png",
+      "source_frame": 426,
+      "baked_caption_text": "喔呀?、",
+      "baked_caption_bbox_source": [
+        323,
+        402,
+        491,
+        460
+      ],
+      "coordinates": "source852x480; scale uniformly by941/480 to native1672x941 reference grid (right pad2px)",
+      "baked_speech_warning": "Full RGB also bakes speech panels. Source component alpha can replace panels; smaller/no panel requires speechless native plate."
+    },
+    {
+      "asset_id": "taunt_close_A",
+      "path": "production/pair-b/generated/taunt-neutral-f01380-r2.png",
+      "source_frame": 1380,
+      "baked_caption_text": "杂ー鱼♡、杂ー鱼♡。",
+      "baked_caption_bbox_source": [
+        198,
+        405,
+        647,
+        460
+      ],
+      "coordinates": "source852x480; scale uniformly by941/480 to native1672x941 reference grid (right pad2px)",
+      "baked_speech_warning": "Full RGB also bakes speech panels. Source component alpha can replace panels; smaller/no panel requires speechless native plate."
+    },
+    {
+      "asset_id": "clap_pose_A",
+      "path": "production/pair-b/generated/clap-forehead-A-f01500-r2.png",
+      "source_frame": 1500,
+      "baked_caption_text": "就被酸雨淹没填满掉吧♡、",
+      "baked_caption_bbox_source": [
+        148,
+        405,
+        693,
+        461
+      ],
+      "coordinates": "source852x480; scale uniformly by941/480 to native1672x941 reference grid (right pad2px)",
+      "baked_speech_warning": "Full RGB also bakes speech panels. Source component alpha can replace panels; smaller/no panel requires speechless native plate."
+    },
+    {
+      "asset_id": "chorus_tilt_left",
+      "path": "production/pair-b/generated/chorus-tilt-left-f01728-r2.png",
+      "source_frame": 1728,
+      "baked_caption_text": "Mimukawa Nice Try",
+      "baked_caption_bbox_source": [
+        168,
+        411,
+        651,
+        456
+      ],
+      "coordinates": "source852x480; scale uniformly by941/480 to native1672x941 reference grid (right pad2px)",
+      "baked_speech_warning": "Full RGB also bakes speech panels. Source component alpha can replace panels; smaller/no panel requires speechless native plate."
+    },
+    {
+      "asset_id": "dark_center_card",
+      "path": "production/pair-a/generated/dark-center-card-f00804-r1.png",
+      "source_frame": 804,
+      "baked_caption_text": null,
+      "baked_caption_bbox_source": null,
+      "coordinates": "source852x480; scale uniformly by941/480 to native1672x941 reference grid (right pad2px)",
+      "baked_speech_warning": "Full RGB also bakes speech panels. Source component alpha can replace panels; smaller/no panel requires speechless native plate."
+    },
+    {
+      "asset_id": "dark_fingers",
+      "path": "production/pair-a/generated/dark-fingers-f00816-r1.png",
+      "source_frame": 816,
+      "baked_caption_text": "源乱码字卡A，保持原字形",
+      "baked_caption_bbox_source": [
+        316,
+        404,
+        534,
+        464
+      ],
+      "coordinates": "source852x480; scale uniformly by941/480 to native1672x941 reference grid (right pad2px)",
+      "baked_speech_warning": "Full RGB also bakes speech panels. Source component alpha can replace panels; smaller/no panel requires speechless native plate."
+    },
+    {
+      "asset_id": "wink_hand",
+      "path": "production/pair-a/generated/wink-hand-f00984-r1.png",
+      "source_frame": 984,
+      "baked_caption_text": null,
+      "baked_caption_bbox_source": null,
+      "coordinates": "source852x480; scale uniformly by941/480 to native1672x941 reference grid (right pad2px)",
+      "baked_speech_warning": "Full RGB also bakes speech panels. Source component alpha can replace panels; smaller/no panel requires speechless native plate."
+    },
+    {
+      "asset_id": "taunt_flank_A",
+      "path": "production/pair-b/generated/taunt-flank-f01416-r1.png",
+      "source_frame": 1416,
+      "baked_caption_text": "杂ー鱼♡、杂ー鱼♡。",
+      "baked_caption_bbox_source": [
+        198,
+        405,
+        647,
+        460
+      ],
+      "coordinates": "source852x480; scale uniformly by941/480 to native1672x941 reference grid (right pad2px)",
+      "baked_speech_warning": "Full RGB also bakes speech panels. Source component alpha can replace panels; smaller/no panel requires speechless native plate."
+    },
+    {
+      "asset_id": "chorus_tilt_right",
+      "path": "production/pair-b/generated/chorus-tilt-right-f01776-r1.png",
+      "source_frame": 1776,
+      "baked_caption_text": "Mimukawa Nice Try",
+      "baked_caption_bbox_source": [
+        168,
+        411,
+        651,
+        456
+      ],
+      "coordinates": "source852x480; scale uniformly by941/480 to native1672x941 reference grid (right pad2px)",
+      "baked_speech_warning": "Full RGB also bakes speech panels. Source component alpha can replace panels; smaller/no panel requires speechless native plate."
+    },
+    {
+      "asset_id": "dab_start",
+      "path": "production/pair-b/generated/dab-start-f01692-r1.png",
+      "source_frame": 1692,
+      "baked_caption_text": null,
+      "baked_caption_bbox_source": null,
+      "coordinates": "source852x480; scale uniformly by941/480 to native1672x941 reference grid (right pad2px)",
+      "baked_speech_warning": "Full RGB also bakes speech panels. Source component alpha can replace panels; smaller/no panel requires speechless native plate."
+    },
+    {
+      "asset_id": "dab_land",
+      "path": "production/pair-b/generated/dab-land-f01704-r1.png",
+      "source_frame": 1704,
+      "baked_caption_text": null,
+      "baked_caption_bbox_source": null,
+      "coordinates": "source852x480; scale uniformly by941/480 to native1672x941 reference grid (right pad2px)",
+      "baked_speech_warning": "Full RGB also bakes speech panels. Source component alpha can replace panels; smaller/no panel requires speechless native plate."
+    },
+    {
+      "asset_id": "lean_forward",
+      "path": "production/pair-root/generated/lean-forward-f02778-r1.png",
+      "source_frame": 2778,
+      "baked_caption_text": null,
+      "baked_caption_bbox_source": null,
+      "coordinates": "source852x480; scale uniformly by941/480 to native1672x941 reference grid (right pad2px)",
+      "baked_speech_warning": "Full RGB also bakes speech panels. Source component alpha can replace panels; smaller/no panel requires speechless native plate."
+    },
+    {
+      "asset_id": "fold_arm_right",
+      "path": "production/pair-root/generated/fold-arm-right-f02826-r1.png",
+      "source_frame": 2826,
+      "baked_caption_text": "要是能打赢我的话",
+      "baked_caption_bbox_source": [
+        238,
+        406,
+        611,
+        461
+      ],
+      "coordinates": "source852x480; scale uniformly by941/480 to native1672x941 reference grid (right pad2px)",
+      "baked_speech_warning": "Full RGB also bakes speech panels. Source component alpha can replace panels; smaller/no panel requires speechless native plate."
+    },
+    {
+      "asset_id": "fold_arm_left",
+      "path": "production/pair-root/generated/fold-arm-left-f02916-r1.png",
+      "source_frame": 2916,
+      "baked_caption_text": "我都会乖乖去听的哟♡、",
+      "baked_caption_bbox_source": [
+        171,
+        406,
+        670,
+        460
+      ],
+      "coordinates": "source852x480; scale uniformly by941/480 to native1672x941 reference grid (right pad2px)",
+      "baked_speech_warning": "Full RGB also bakes speech panels. Source component alpha can replace panels; smaller/no panel requires speechless native plate."
+    },
+    {
+      "asset_id": "sleep_table",
+      "path": "production/pair-root/generated/sleep-table-f03006-r1.png",
+      "source_frame": 3006,
+      "baked_caption_text": "真是战五渣小队长!、",
+      "baked_caption_bbox_source": [
+        220,
+        406,
+        623,
+        461
+      ],
+      "coordinates": "source852x480; scale uniformly by941/480 to native1672x941 reference grid (right pad2px)",
+      "baked_speech_warning": "Full RGB also bakes speech panels. Source component alpha can replace panels; smaller/no panel requires speechless native plate."
+    },
+    {
+      "asset_id": "head_back_cry",
+      "path": "production/pair-a/generated/head-back-cry-f00996-r2.png",
+      "source_frame": 996,
+      "baked_caption_text": null,
+      "baked_caption_bbox_source": null,
+      "coordinates": "source852x480; scale uniformly by941/480 to native1672x941 reference grid (right pad2px)",
+      "baked_speech_warning": "Full RGB also bakes speech panels. Source component alpha can replace panels; smaller/no panel requires speechless native plate."
+    },
+    {
+      "asset_id": "tease_forehead_A",
+      "path": "production/pair-a/generated/tease-forehead-A-f01020-r2.png",
+      "source_frame": 1020,
+      "baked_caption_text": "哭哭 被超Lo 不要太笨♡、",
+      "baked_caption_bbox_source": [
+        144,
+        406,
+        699,
+        461
+      ],
+      "coordinates": "source852x480; scale uniformly by941/480 to native1672x941 reference grid (right pad2px)",
+      "baked_speech_warning": "Full RGB also bakes speech panels. Source component alpha can replace panels; smaller/no panel requires speechless native plate."
+    },
+    {
+      "asset_id": "lean_forehead_close",
+      "path": "production/pair-a/generated/lean-forehead-close-f01044-r2.png",
+      "source_frame": 1044,
+      "baked_caption_text": null,
+      "baked_caption_bbox_source": null,
+      "coordinates": "source852x480; scale uniformly by941/480 to native1672x941 reference grid (right pad2px)",
+      "baked_speech_warning": "Full RGB also bakes speech panels. Source component alpha can replace panels; smaller/no panel requires speechless native plate."
+    },
+    {
+      "asset_id": "hashtag_side",
+      "path": "production/pair-b/generated/hashtag-side-f02082-r1.png",
+      "source_frame": 2082,
+      "baked_caption_text": null,
+      "baked_caption_bbox_source": null,
+      "coordinates": "source852x480; scale uniformly by941/480 to native1672x941 reference grid (right pad2px)",
+      "baked_speech_warning": "Full RGB also bakes speech panels. Source component alpha can replace panels; smaller/no panel requires speechless native plate."
+    },
+    {
+      "asset_id": "arm_stretch",
+      "path": "production/pair-b/generated/arm-stretch-f02172-r1.png",
+      "source_frame": 2172,
+      "baked_caption_text": null,
+      "baked_caption_bbox_source": null,
+      "coordinates": "source852x480; scale uniformly by941/480 to native1672x941 reference grid (right pad2px)",
+      "baked_speech_warning": "Full RGB also bakes speech panels. Source component alpha can replace panels; smaller/no panel requires speechless native plate."
+    },
+    {
+      "asset_id": "lean_forehead_wide",
+      "path": "production/pair-a/generated/lean-forehead-wide-f01056-r1.png",
+      "source_frame": 1056,
+      "baked_caption_text": null,
+      "baked_caption_bbox_source": null,
+      "coordinates": "source852x480; scale uniformly by941/480 to native1672x941 reference grid (right pad2px)",
+      "baked_speech_warning": "Full RGB also bakes speech panels. Source component alpha can replace panels; smaller/no panel requires speechless native plate."
+    },
+    {
+      "asset_id": "tease_flip",
+      "path": "production/pair-a/generated/tease-flip-f01080-r1.png",
+      "source_frame": 1080,
+      "baked_caption_text": "咩噗 超过Le 活该被超♡、",
+      "baked_caption_bbox_source": [
+        144,
+        406,
+        699,
+        461
+      ],
+      "coordinates": "source852x480; scale uniformly by941/480 to native1672x941 reference grid (right pad2px)",
+      "baked_speech_warning": "Full RGB also bakes speech panels. Source component alpha can replace panels; smaller/no panel requires speechless native plate."
+    },
+    {
+      "asset_id": "cheek_close",
+      "path": "production/pair-a/generated/cheek-close-f01092-r1.png",
+      "source_frame": 1092,
+      "baked_caption_text": null,
+      "baked_caption_bbox_source": null,
+      "coordinates": "source852x480; scale uniformly by941/480 to native1672x941 reference grid (right pad2px)",
+      "baked_speech_warning": "Full RGB also bakes speech panels. Source component alpha can replace panels; smaller/no panel requires speechless native plate."
+    },
+    {
+      "asset_id": "maid_paws",
+      "path": "production/pair-b/generated/maid-paws-f01896-r2.png",
+      "source_frame": 1896,
+      "baked_caption_text": null,
+      "baked_caption_bbox_source": null,
+      "coordinates": "source852x480; scale uniformly by941/480 to native1672x941 reference grid (right pad2px)",
+      "baked_speech_warning": "Full RGB also bakes speech panels. Source component alpha can replace panels; smaller/no panel requires speechless native plate."
+    },
+    {
+      "asset_id": "game_prepare",
+      "path": "production/pair-root/generated/game-prepare-f03174-r1.png",
+      "source_frame": 3174,
+      "baked_caption_text": null,
+      "baked_caption_bbox_source": null,
+      "coordinates": "source852x480; scale uniformly by941/480 to native1672x941 reference grid (right pad2px)",
+      "baked_speech_warning": "Full RGB also bakes speech panels. Source component alpha can replace panels; smaller/no panel requires speechless native plate."
+    },
+    {
+      "asset_id": "center_dark_card",
+      "path": "production/pair-root/generated/center-dark-card-f03924-r1.png",
+      "source_frame": 3924,
+      "baked_caption_text": "杂ー鱼♡、杂ー鱼♡。",
+      "baked_caption_bbox_source": [
+        198,
+        405,
+        647,
+        460
+      ],
+      "coordinates": "source852x480; scale uniformly by941/480 to native1672x941 reference grid (right pad2px)",
+      "baked_speech_warning": "Full RGB also bakes speech panels. Source component alpha can replace panels; smaller/no panel requires speechless native plate."
+    },
+    {
+      "asset_id": "dynamite_face",
+      "path": "production/pair-root/generated/dynamite-face-f04050-r1.png",
+      "source_frame": 4050,
+      "baked_caption_text": "=Dynamite=",
+      "baked_caption_bbox_source": [
+        305,
+        410,
+        548,
+        458
+      ],
+      "coordinates": "source852x480; scale uniformly by941/480 to native1672x941 reference grid (right pad2px)",
+      "baked_speech_warning": "Full RGB also bakes speech panels. Source component alpha can replace panels; smaller/no panel requires speechless native plate."
+    },
+    {
+      "asset_id": "maid_close_paws",
+      "path": "production/pair-root/generated/maid-close-paws-f04266-r1.png",
+      "source_frame": 4266,
+      "baked_caption_text": null,
+      "baked_caption_bbox_source": null,
+      "coordinates": "source852x480; scale uniformly by941/480 to native1672x941 reference grid (right pad2px)",
+      "baked_speech_warning": "Full RGB also bakes speech panels. Source component alpha can replace panels; smaller/no panel requires speechless native plate."
+    },
+    {
+      "asset_id": "center_taunt_closed",
+      "path": "production/pair-root/generated/center-taunt-closed-f04290-r1.png",
+      "source_frame": 4290,
+      "baked_caption_text": "要输了是吗?♡、快输掉了喔?♡、",
+      "baked_caption_bbox_source": [
+        80,
+        405,
+        762,
+        460
+      ],
+      "coordinates": "source852x480; scale uniformly by941/480 to native1672x941 reference grid (right pad2px)",
+      "baked_speech_warning": "Full RGB also bakes speech panels. Source component alpha can replace panels; smaller/no panel requires speechless native plate."
+    },
+    {
+      "asset_id": "side_blank_eyes",
+      "path": "production/pair-root/generated/side-blank-eyes-f04578-r1.png",
+      "source_frame": 4578,
+      "baked_caption_text": null,
+      "baked_caption_bbox_source": null,
+      "coordinates": "source852x480; scale uniformly by941/480 to native1672x941 reference grid (right pad2px)",
+      "baked_speech_warning": "Full RGB also bakes speech panels. Source component alpha can replace panels; smaller/no panel requires speechless native plate."
+    },
+    {
+      "asset_id": "explain_palms_A",
+      "path": "production/pair-a/generated/explain-palms-A-f01134-r2.png",
+      "source_frame": 1134,
+      "baked_caption_text": "然而呢 摆脱困境的方法→、",
+      "baked_caption_bbox_source": [
+        146,
+        406,
+        696,
+        461
+      ],
+      "coordinates": "source852x480; scale uniformly by941/480 to native1672x941 reference grid (right pad2px)",
+      "baked_speech_warning": "Full RGB also bakes speech panels. Source component alpha can replace panels; smaller/no panel requires speechless native plate."
+    },
+    {
+      "asset_id": "maid_sign_A",
+      "path": "production/pair-b/generated/maid-sign-A-f02298-r2.png",
+      "source_frame": 2298,
+      "baked_caption_text": null,
+      "baked_caption_bbox_source": null,
+      "coordinates": "source852x480; scale uniformly by941/480 to native1672x941 reference grid (right pad2px)",
+      "baked_speech_warning": "Full RGB also bakes speech panels. Source component alpha can replace panels; smaller/no panel requires speechless native plate."
+    },
+    {
+      "asset_id": "maid_sign_B",
+      "path": "production/pair-b/generated/maid-sign-B-f02334-r2.png",
+      "source_frame": 2334,
+      "baked_caption_text": null,
+      "baked_caption_bbox_source": null,
+      "coordinates": "source852x480; scale uniformly by941/480 to native1672x941 reference grid (right pad2px)",
+      "baked_speech_warning": "Full RGB also bakes speech panels. Source component alpha can replace panels; smaller/no panel requires speechless native plate."
+    },
+    {
+      "asset_id": "maid_upside_down",
+      "path": "production/pair-b/generated/maid-upside-down-f02370-r2.png",
+      "source_frame": 2370,
+      "baked_caption_text": null,
+      "baked_caption_bbox_source": null,
+      "coordinates": "source852x480; scale uniformly by941/480 to native1672x941 reference grid (right pad2px)",
+      "baked_speech_warning": "Full RGB also bakes speech panels. Source component alpha can replace panels; smaller/no panel requires speechless native plate."
+    }
+  ],
+  "critical_reprise_differences": [
+    {
+      "source_ranges": [
+        [
+          1728,
+          1818
+        ],
+        [
+          1818,
+          2064
+        ],
+        [
+          4104,
+          4266
+        ]
+      ],
+      "difference": "First chorus English subtitle clears after initial burst; later final chorus has no English bottom caption at all. Use clean chorus RGBs for no-subtitle states."
+    },
+    {
+      "source_ranges": [
+        [
+          3558,
+          3846
+        ]
+      ],
+      "difference": "Repeated taunt captions mostly same words, but original opponent foreground fan is present. Use later source caption ROI/glyphs, not early full crop."
+    },
+    {
+      "source_ranges": [
+        [
+          3846,
+          3906
+        ]
+      ],
+      "difference": "Second eye-insert caption is final-round greeting, not first Dynamite bottom caption."
+    },
+    {
+      "source_ranges": [
+        [
+          3924,
+          4050
+        ]
+      ],
+      "difference": "Three repeat-taunt bursts separated by explicit clear beats at3960/4002."
+    },
+    {
+      "source_ranges": [
+        [
+          4290,
+          4470
+        ]
+      ],
+      "difference": "Final taunt/give-up/declaration captions and Japanese speech are new source text."
+    }
+  ],
+  "critical_compositing_rules": [
+    "Old baked Chinese gray bars must be covered by union of old/new bar rectangles before new glyphs. No-subtitle clear cannot naturally erase old RGB art: use native clean variant.",
+    "Old large speech polygon does not disappear by overlaying a smaller new bubble. Use native speechless background/body plate for small/clear states.",
+    "Root keeps fixed black square independent, excluded from moving graphic extraction.",
+    "Caption/bubble extraction is graphic-only. Source hair/character/background matte route stays abandoned."
+  ]
+}

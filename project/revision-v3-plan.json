@@ -1,0 +1,15 @@
+{
+  "schema": "uno-user-revision-v3",
+  "range_overrides": [
+    {
+      "start_frame": 31,
+      "end_frame_exclusive": 145,
+      "asset_id": "intro_palm_open",
+      "reason": "User explicitly requests one opening drawing; hold B3 for the entire intro, retaining independently timed text."
+    }
+  ],
+  "compositor_fixes": [
+    "Fit side-panel dialogue glyphs inside the held native white speech paper instead of applying moving source screen coordinates.",
+    "Remove transition strip contamination from independent purple bubble plates using their dominant flat graphic polygon; preserve enclosed lettering."
+  ]
+}

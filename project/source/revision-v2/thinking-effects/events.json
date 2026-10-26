@@ -1,0 +1,3317 @@
+{
+  "schema": "uno-revision-v2-safe-thinking-graphic-events",
+  "fps": 24,
+  "coordinate_space": [
+    852,
+    480
+  ],
+  "range": [
+    4634,
+    4747
+  ],
+  "events": [
+    {
+      "event_id": "thinking_04634",
+      "start_frame": 4634,
+      "end_frame_exclusive": 4635,
+      "source_frame": 4634,
+      "kind": "thinking_loading_spokes",
+      "path": "source/revision-v2/thinking-effects/thinking-f04634.png",
+      "bbox": [
+        552,
+        40,
+        750,
+        238
+      ],
+      "sha256": "07d825b581460a8156bd673f94fd0531b2eb98d5ded116f1cb27c478663ac951",
+      "spoke_alpha": [
+        0.153,
+        0.248,
+        0.586,
+        0.712,
+        0.757,
+        0.83,
+        0.884,
+        0.985,
+        1.0,
+        0.284,
+        0.317,
+        0.08
+      ]
+    },
+    {
+      "event_id": "thinking_04635",
+      "start_frame": 4635,
+      "end_frame_exclusive": 4636,
+      "source_frame": 4635,
+      "kind": "thinking_loading_spokes",
+      "path": "source/revision-v2/thinking-effects/thinking-f04635.png",
+      "bbox": [
+        552,
+        40,
+        750,
+        238
+      ],
+      "sha256": "959e588dd3c1d17101de8aaefce26f19bfa5a5c4f700d2525d685063ae4f032f",
+      "spoke_alpha": [
+        0.15,
+        0.248,
+        0.581,
+        0.713,
+        0.757,
+        0.83,
+        0.884,
+        0.985,
+        1.0,
+        0.285,
+        0.311,
+        0.08
+      ]
+    },
+    {
+      "event_id": "thinking_04636",
+      "start_frame": 4636,
+      "end_frame_exclusive": 4637,
+      "source_frame": 4636,
+      "kind": "thinking_loading_spokes",
+      "path": "source/revision-v2/thinking-effects/thinking-f04636.png",
+      "bbox": [
+        552,
+        40,
+        748,
+        238
+      ],
+      "sha256": "bc54cd1567f977c0ed86edeb9f23aa04f4522bcae2dce2e543cf379a2d14ef16",
+      "spoke_alpha": [
+        0.08,
+        0.156,
+        0.52,
+        0.713,
+        0.757,
+        0.83,
+        0.884,
+        0.985,
+        1.0,
+        1.0,
+        0.298,
+        0.08
+      ]
+    },
+    {
+      "event_id": "thinking_04637",
+      "start_frame": 4637,
+      "end_frame_exclusive": 4638,
+      "source_frame": 4637,
+      "kind": "thinking_loading_spokes",
+      "path": "source/revision-v2/thinking-effects/thinking-f04637.png",
+      "bbox": [
+        552,
+        40,
+        748,
+        238
+      ],
+      "sha256": "06a2ad5f5db71b483cc48f21653322a1919a47cbd60ae70a927daaae410e501b",
+      "spoke_alpha": [
+        0.08,
+        0.155,
+        0.519,
+        0.673,
+        0.747,
+        0.797,
+        0.839,
+        0.939,
+        1.0,
+        1.0,
+        0.298,
+        0.08
+      ]
+    },
+    {
+      "event_id": "thinking_04638",
+      "start_frame": 4638,
+      "end_frame_exclusive": 4639,
+      "source_frame": 4638,
+      "kind": "thinking_loading_spokes",
+      "path": "source/revision-v2/thinking-effects/thinking-f04638.png",
+      "bbox": [
+        552,
+        40,
+        748,
+        238
+      ],
+      "sha256": "baaa015f5e721d2ca0ccdd86010135e5cbd642e19dd5f89d85caeddfb17d5d68",
+      "spoke_alpha": [
+        0.08,
+        0.08,
+        0.427,
+        0.626,
+        0.672,
+        0.751,
+        0.798,
+        0.896,
+        0.969,
+        1.0,
+        1.0,
+        0.08
+      ]
+    },
+    {
+      "event_id": "thinking_04639",
+      "start_frame": 4639,
+      "end_frame_exclusive": 4640,
+      "source_frame": 4639,
+      "kind": "thinking_loading_spokes",
+      "path": "source/revision-v2/thinking-effects/thinking-f04639.png",
+      "bbox": [
+        552,
+        40,
+        748,
+        238
+      ],
+      "sha256": "05bcb0bacf6d056ab6b076168c7511a346798c38b0384aee93ca0e5af8998031",
+      "spoke_alpha": [
+        0.08,
+        0.08,
+        0.369,
+        0.537,
+        0.588,
+        0.682,
+        0.754,
+        0.852,
+        0.905,
+        0.976,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "event_id": "thinking_04640",
+      "start_frame": 4640,
+      "end_frame_exclusive": 4641,
+      "source_frame": 4640,
+      "kind": "thinking_loading_spokes",
+      "path": "source/revision-v2/thinking-effects/thinking-f04640.png",
+      "bbox": [
+        552,
+        40,
+        748,
+        238
+      ],
+      "sha256": "a7fed5a5f533c51dfa8b6b40a2d23d2c22d9a908c3bf4bc07d48dd8bb3dda7be",
+      "spoke_alpha": [
+        0.08,
+        0.08,
+        0.339,
+        0.532,
+        0.587,
+        0.674,
+        0.714,
+        0.809,
+        0.901,
+        0.943,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "event_id": "thinking_04641",
+      "start_frame": 4641,
+      "end_frame_exclusive": 4642,
+      "source_frame": 4641,
+      "kind": "thinking_loading_spokes",
+      "path": "source/revision-v2/thinking-effects/thinking-f04641.png",
+      "bbox": [
+        552,
+        40,
+        750,
+        238
+      ],
+      "sha256": "dd5944191f4c835dc467ac246a34d7f9f086743d91c88f7d47790d06aecbd616",
+      "spoke_alpha": [
+        1.0,
+        0.08,
+        0.276,
+        0.462,
+        0.516,
+        0.596,
+        0.639,
+        0.73,
+        0.823,
+        0.878,
+        0.968,
+        1.0
+      ]
+    },
+    {
+      "event_id": "thinking_04642",
+      "start_frame": 4642,
+      "end_frame_exclusive": 4643,
+      "source_frame": 4642,
+      "kind": "thinking_loading_spokes",
+      "path": "source/revision-v2/thinking-effects/thinking-f04642.png",
+      "bbox": [
+        552,
+        40,
+        750,
+        238
+      ],
+      "sha256": "44699fd685b49b933fb756392c97c393ff0685403f747846571fa1c04b2b400c",
+      "spoke_alpha": [
+        1.0,
+        1.0,
+        0.216,
+        0.388,
+        0.448,
+        0.522,
+        0.568,
+        0.656,
+        0.754,
+        0.814,
+        0.896,
+        0.932
+      ]
+    },
+    {
+      "event_id": "thinking_04643",
+      "start_frame": 4643,
+      "end_frame_exclusive": 4644,
+      "source_frame": 4643,
+      "kind": "thinking_loading_spokes",
+      "path": "source/revision-v2/thinking-effects/thinking-f04643.png",
+      "bbox": [
+        552,
+        40,
+        750,
+        238
+      ],
+      "sha256": "c740b63cc397aad9daafc21ed1ffc270e36cb0a6acf1cd98ffeec773c99ad8ef",
+      "spoke_alpha": [
+        1.0,
+        1.0,
+        0.216,
+        0.387,
+        0.447,
+        0.509,
+        0.567,
+        0.656,
+        0.752,
+        0.795,
+        0.885,
+        0.932
+      ]
+    },
+    {
+      "event_id": "thinking_04644",
+      "start_frame": 4644,
+      "end_frame_exclusive": 4645,
+      "source_frame": 4644,
+      "kind": "thinking_loading_spokes",
+      "path": "source/revision-v2/thinking-effects/thinking-f04644.png",
+      "bbox": [
+        552,
+        40,
+        750,
+        238
+      ],
+      "sha256": "9efef86fff0ab81da53865cf897a8a8133978da441f39f2bff64fd2d7444aa1c",
+      "spoke_alpha": [
+        0.981,
+        1.0,
+        1.0,
+        0.294,
+        0.39,
+        0.454,
+        0.524,
+        0.609,
+        0.663,
+        0.747,
+        0.835,
+        0.836
+      ]
+    },
+    {
+      "event_id": "thinking_04645",
+      "start_frame": 4645,
+      "end_frame_exclusive": 4646,
+      "source_frame": 4645,
+      "kind": "thinking_loading_spokes",
+      "path": "source/revision-v2/thinking-effects/thinking-f04645.png",
+      "bbox": [
+        552,
+        40,
+        750,
+        238
+      ],
+      "sha256": "e097152f94e078c40867d24906dcef63d9abcda64f2d8b94f3015f90227fd138",
+      "spoke_alpha": [
+        0.899,
+        1.0,
+        1.0,
+        0.294,
+        0.358,
+        0.402,
+        0.484,
+        0.562,
+        0.658,
+        0.702,
+        0.787,
+        0.756
+      ]
+    },
+    {
+      "event_id": "thinking_04646",
+      "start_frame": 4646,
+      "end_frame_exclusive": 4647,
+      "source_frame": 4646,
+      "kind": "thinking_loading_spokes",
+      "path": "source/revision-v2/thinking-effects/thinking-f04646.png",
+      "bbox": [
+        552,
+        40,
+        750,
+        238
+      ],
+      "sha256": "c553d257fba62155822863868a00ae34a66b9c96d9ca387c4083cf2bee856063",
+      "spoke_alpha": [
+        0.813,
+        0.917,
+        1.0,
+        1.0,
+        0.358,
+        0.35,
+        0.434,
+        0.51,
+        0.607,
+        0.651,
+        0.738,
+        0.662
+      ]
+    },
+    {
+      "event_id": "thinking_04647",
+      "start_frame": 4647,
+      "end_frame_exclusive": 4648,
+      "source_frame": 4647,
+      "kind": "thinking_loading_spokes",
+      "path": "source/revision-v2/thinking-effects/thinking-f04647.png",
+      "bbox": [
+        552,
+        40,
+        750,
+        238
+      ],
+      "sha256": "f5c97b26e0bff1ad19523a5b74100c7c4856ba94b24475dcae3931c67d571a83",
+      "spoke_alpha": [
+        0.709,
+        0.901,
+        1.0,
+        1.0,
+        1.0,
+        0.35,
+        0.383,
+        0.453,
+        0.517,
+        0.598,
+        0.684,
+        0.568
+      ]
+    },
+    {
+      "event_id": "thinking_04648",
+      "start_frame": 4648,
+      "end_frame_exclusive": 4649,
+      "source_frame": 4648,
+      "kind": "thinking_loading_spokes",
+      "path": "source/revision-v2/thinking-effects/thinking-f04648.png",
+      "bbox": [
+        552,
+        40,
+        750,
+        238
+      ],
+      "sha256": "bf54e9b2a8fcf4b0bd8be41dc1803169914f9a6324dac740a0eb38450458e727",
+      "spoke_alpha": [
+        0.624,
+        0.891,
+        0.95,
+        1.0,
+        1.0,
+        0.35,
+        0.344,
+        0.398,
+        0.512,
+        0.555,
+        0.635,
+        0.489
+      ]
+    },
+    {
+      "event_id": "thinking_04649",
+      "start_frame": 4649,
+      "end_frame_exclusive": 4650,
+      "source_frame": 4649,
+      "kind": "thinking_loading_spokes",
+      "path": "source/revision-v2/thinking-effects/thinking-f04649.png",
+      "bbox": [
+        552,
+        40,
+        750,
+        238
+      ],
+      "sha256": "8bcf579a60ab3f35d4779dbdd75ac759cb4e8282f0c1c826a7f49966317ce6aa",
+      "spoke_alpha": [
+        0.539,
+        0.674,
+        0.889,
+        0.961,
+        1.0,
+        0.993,
+        0.344,
+        0.34,
+        0.463,
+        0.505,
+        0.585,
+        0.395
+      ]
+    },
+    {
+      "event_id": "thinking_04650",
+      "start_frame": 4650,
+      "end_frame_exclusive": 4651,
+      "source_frame": 4650,
+      "kind": "thinking_loading_spokes",
+      "path": "source/revision-v2/thinking-effects/thinking-f04650.png",
+      "bbox": [
+        552,
+        40,
+        750,
+        238
+      ],
+      "sha256": "a0d9791b6e6935648e561d6b6b7e1fa7523d2f151cce64931d7a2cda4bfc0ce2",
+      "spoke_alpha": [
+        0.447,
+        0.585,
+        0.836,
+        0.918,
+        0.986,
+        0.993,
+        1.0,
+        0.338,
+        0.376,
+        0.459,
+        0.532,
+        0.309
+      ]
+    },
+    {
+      "event_id": "thinking_04651",
+      "start_frame": 4651,
+      "end_frame_exclusive": 4652,
+      "source_frame": 4651,
+      "kind": "thinking_loading_spokes",
+      "path": "source/revision-v2/thinking-effects/thinking-f04651.png",
+      "bbox": [
+        552,
+        40,
+        750,
+        238
+      ],
+      "sha256": "08705cb63ae50f7f34798c504812a018c6a54f0a5843ef9ffca5a59c7510c539",
+      "spoke_alpha": [
+        0.365,
+        0.507,
+        0.787,
+        0.873,
+        0.945,
+        0.993,
+        1.0,
+        0.34,
+        0.37,
+        0.418,
+        0.486,
+        0.235
+      ]
+    },
+    {
+      "event_id": "thinking_04652",
+      "start_frame": 4652,
+      "end_frame_exclusive": 4653,
+      "source_frame": 4652,
+      "kind": "thinking_loading_spokes",
+      "path": "source/revision-v2/thinking-effects/thinking-f04652.png",
+      "bbox": [
+        552,
+        40,
+        750,
+        238
+      ],
+      "sha256": "cd01bc1d05300a621a96f0c248693a5aaa0b4195e5e9d9e3ed045c1208f759c9",
+      "spoke_alpha": [
+        0.278,
+        0.431,
+        0.728,
+        0.825,
+        0.896,
+        0.993,
+        1.0,
+        1.0,
+        0.322,
+        0.364,
+        0.435,
+        0.145
+      ]
+    },
+    {
+      "event_id": "thinking_04653",
+      "start_frame": 4653,
+      "end_frame_exclusive": 4654,
+      "source_frame": 4653,
+      "kind": "thinking_loading_spokes",
+      "path": "source/revision-v2/thinking-effects/thinking-f04653.png",
+      "bbox": [
+        552,
+        40,
+        750,
+        238
+      ],
+      "sha256": "99b082d78bb1206a6b8267a915e6540184adb50572639c6cc1536b5f560ffc90",
+      "spoke_alpha": [
+        0.277,
+        0.428,
+        0.72,
+        0.824,
+        0.896,
+        0.991,
+        1.0,
+        1.0,
+        0.322,
+        0.364,
+        0.434,
+        0.145
+      ]
+    },
+    {
+      "event_id": "thinking_04654",
+      "start_frame": 4654,
+      "end_frame_exclusive": 4655,
+      "source_frame": 4654,
+      "kind": "thinking_loading_spokes",
+      "path": "source/revision-v2/thinking-effects/thinking-f04654.png",
+      "bbox": [
+        552,
+        40,
+        750,
+        238
+      ],
+      "sha256": "ef4bc785b30a9fd8ea703ecabaa679080a568d85468578d73f2a7d587d038b10",
+      "spoke_alpha": [
+        0.119,
+        0.274,
+        0.618,
+        0.726,
+        0.795,
+        0.897,
+        0.952,
+        0.989,
+        1.0,
+        0.364,
+        0.36,
+        0.08
+      ]
+    },
+    {
+      "event_id": "thinking_04655",
+      "start_frame": 4655,
+      "end_frame_exclusive": 4656,
+      "source_frame": 4655,
+      "kind": "thinking_loading_spokes",
+      "path": "source/revision-v2/thinking-effects/thinking-f04655.png",
+      "bbox": [
+        552,
+        40,
+        748,
+        238
+      ],
+      "sha256": "cc0a33a7e11870da4868974d7a18161252441b2bd065960d49eff137af5e6a71",
+      "spoke_alpha": [
+        0.08,
+        0.176,
+        0.551,
+        0.673,
+        0.745,
+        0.84,
+        0.902,
+        0.942,
+        1.0,
+        1.0,
+        0.293,
+        0.08
+      ]
+    },
+    {
+      "event_id": "thinking_04656",
+      "start_frame": 4656,
+      "end_frame_exclusive": 4657,
+      "source_frame": 4656,
+      "kind": "thinking_loading_spokes",
+      "path": "source/revision-v2/thinking-effects/thinking-f04656.png",
+      "bbox": [
+        552,
+        40,
+        748,
+        238
+      ],
+      "sha256": "e00d8c0900c580f8f2ad0b163c5e437ae78ef4fa392cea3b1d6f2c9840887acc",
+      "spoke_alpha": [
+        0.08,
+        0.104,
+        0.498,
+        0.63,
+        0.7,
+        0.796,
+        0.856,
+        0.9,
+        1.0,
+        1.0,
+        0.293,
+        0.08
+      ]
+    },
+    {
+      "event_id": "thinking_04657",
+      "start_frame": 4657,
+      "end_frame_exclusive": 4658,
+      "source_frame": 4657,
+      "kind": "thinking_loading_spokes",
+      "path": "source/revision-v2/thinking-effects/thinking-f04657.png",
+      "bbox": [
+        552,
+        40,
+        748,
+        238
+      ],
+      "sha256": "edb01a9d6bdc8947550998042edc079da944de0419a0696abba234ef1827af03",
+      "spoke_alpha": [
+        0.08,
+        0.08,
+        0.443,
+        0.575,
+        0.647,
+        0.747,
+        0.808,
+        0.853,
+        0.976,
+        1.0,
+        0.977,
+        0.08
+      ]
+    },
+    {
+      "event_id": "thinking_04658",
+      "start_frame": 4658,
+      "end_frame_exclusive": 4659,
+      "source_frame": 4658,
+      "kind": "thinking_loading_spokes",
+      "path": "source/revision-v2/thinking-effects/thinking-f04658.png",
+      "bbox": [
+        552,
+        40,
+        748,
+        238
+      ],
+      "sha256": "b3c3fe54b30f205b7e545d2643fc6cf3e3562db668303abdf1c8bd49c482e6e3",
+      "spoke_alpha": [
+        0.08,
+        0.08,
+        0.384,
+        0.529,
+        0.6,
+        0.702,
+        0.759,
+        0.811,
+        0.927,
+        1.0,
+        0.977,
+        1.0
+      ]
+    },
+    {
+      "event_id": "thinking_04659",
+      "start_frame": 4659,
+      "end_frame_exclusive": 4660,
+      "source_frame": 4659,
+      "kind": "thinking_loading_spokes",
+      "path": "source/revision-v2/thinking-effects/thinking-f04659.png",
+      "bbox": [
+        552,
+        40,
+        748,
+        238
+      ],
+      "sha256": "86141ec13af00d60287a07ee4a54a84ce8628276c487c68e5791bd786cfec092",
+      "spoke_alpha": [
+        0.08,
+        0.08,
+        0.376,
+        0.529,
+        0.551,
+        0.657,
+        0.711,
+        0.808,
+        0.87,
+        0.954,
+        0.976,
+        1.0
+      ]
+    },
+    {
+      "event_id": "thinking_04660",
+      "start_frame": 4660,
+      "end_frame_exclusive": 4661,
+      "source_frame": 4660,
+      "kind": "thinking_loading_spokes",
+      "path": "source/revision-v2/thinking-effects/thinking-f04660.png",
+      "bbox": [
+        552,
+        40,
+        750,
+        238
+      ],
+      "sha256": "1bf4bff76b11a46f9b1a626975217b35a884e48b552c8243af28438d8487ab4f",
+      "spoke_alpha": [
+        1.0,
+        0.08,
+        0.28,
+        0.433,
+        0.505,
+        0.61,
+        0.668,
+        0.719,
+        0.823,
+        0.908,
+        0.976,
+        1.0
+      ]
+    },
+    {
+      "event_id": "thinking_04661",
+      "start_frame": 4661,
+      "end_frame_exclusive": 4662,
+      "source_frame": 4661,
+      "kind": "thinking_loading_spokes",
+      "path": "source/revision-v2/thinking-effects/thinking-f04661.png",
+      "bbox": [
+        552,
+        40,
+        750,
+        238
+      ],
+      "sha256": "65d17749b3e97ffba4d371f8418c7d2e0aa20a1a4f40eaa3e303615a1d34a35c",
+      "spoke_alpha": [
+        1.0,
+        0.08,
+        0.276,
+        0.429,
+        0.503,
+        0.593,
+        0.667,
+        0.718,
+        0.822,
+        0.894,
+        0.927,
+        1.0
+      ]
+    },
+    {
+      "event_id": "thinking_04662",
+      "start_frame": 4662,
+      "end_frame_exclusive": 4663,
+      "source_frame": 4662,
+      "kind": "thinking_loading_spokes",
+      "path": "source/revision-v2/thinking-effects/thinking-f04662.png",
+      "bbox": [
+        552,
+        40,
+        750,
+        238
+      ],
+      "sha256": "2a40aa588f70b1a8021e0bfcbda05789cc629e67d7d2fbd3bbedb85a8094c841",
+      "spoke_alpha": [
+        1.0,
+        1.0,
+        0.28,
+        0.355,
+        0.432,
+        0.515,
+        0.566,
+        0.627,
+        0.731,
+        0.81,
+        0.877,
+        0.931
+      ]
+    },
+    {
+      "event_id": "thinking_04663",
+      "start_frame": 4663,
+      "end_frame_exclusive": 4664,
+      "source_frame": 4663,
+      "kind": "thinking_loading_spokes",
+      "path": "source/revision-v2/thinking-effects/thinking-f04663.png",
+      "bbox": [
+        552,
+        40,
+        750,
+        238
+      ],
+      "sha256": "c360d0ced5c1eb8091edfb059947ae43084543654cdab91e93cf238b3855b82d",
+      "spoke_alpha": [
+        0.933,
+        1.0,
+        1.0,
+        0.315,
+        0.393,
+        0.458,
+        0.518,
+        0.578,
+        0.677,
+        0.755,
+        0.829,
+        0.84
+      ]
+    },
+    {
+      "event_id": "thinking_04664",
+      "start_frame": 4664,
+      "end_frame_exclusive": 4665,
+      "source_frame": 4664,
+      "kind": "thinking_loading_spokes",
+      "path": "source/revision-v2/thinking-effects/thinking-f04664.png",
+      "bbox": [
+        552,
+        40,
+        750,
+        238
+      ],
+      "sha256": "529b9a50a90d7cc8e0ede4d019a517711ea5e6831a3d6ed2357b2ee1ea482c34",
+      "spoke_alpha": [
+        0.855,
+        1.0,
+        1.0,
+        0.315,
+        0.357,
+        0.412,
+        0.472,
+        0.536,
+        0.633,
+        0.716,
+        0.782,
+        0.754
+      ]
+    },
+    {
+      "event_id": "thinking_04665",
+      "start_frame": 4665,
+      "end_frame_exclusive": 4666,
+      "source_frame": 4665,
+      "kind": "thinking_loading_spokes",
+      "path": "source/revision-v2/thinking-effects/thinking-f04665.png",
+      "bbox": [
+        552,
+        40,
+        750,
+        238
+      ],
+      "sha256": "33e24377f0d96d44af49dad655001bdf3d423d8d6bdfbf5808a0471879b3994e",
+      "spoke_alpha": [
+        0.778,
+        0.964,
+        1.0,
+        0.971,
+        0.357,
+        0.353,
+        0.423,
+        0.484,
+        0.586,
+        0.667,
+        0.734,
+        0.669
+      ]
+    },
+    {
+      "event_id": "thinking_04666",
+      "start_frame": 4666,
+      "end_frame_exclusive": 4667,
+      "source_frame": 4666,
+      "kind": "thinking_loading_spokes",
+      "path": "source/revision-v2/thinking-effects/thinking-f04666.png",
+      "bbox": [
+        552,
+        40,
+        750,
+        238
+      ],
+      "sha256": "fd1719fc619f8d16755f31d66a8fba9c9846adc8fe2f0d18d0467d6594701a08",
+      "spoke_alpha": [
+        0.701,
+        0.888,
+        1.0,
+        0.973,
+        1.0,
+        0.284,
+        0.376,
+        0.439,
+        0.543,
+        0.617,
+        0.685,
+        0.582
+      ]
+    },
+    {
+      "event_id": "thinking_04667",
+      "start_frame": 4667,
+      "end_frame_exclusive": 4668,
+      "source_frame": 4667,
+      "kind": "thinking_loading_spokes",
+      "path": "source/revision-v2/thinking-effects/thinking-f04667.png",
+      "bbox": [
+        552,
+        40,
+        750,
+        238
+      ],
+      "sha256": "815ae503644472dd30877f563da401672019ba936f0b8ec0a1033fd6706b3a59",
+      "spoke_alpha": [
+        0.624,
+        0.809,
+        0.954,
+        0.972,
+        1.0,
+        0.284,
+        0.332,
+        0.394,
+        0.491,
+        0.567,
+        0.637,
+        0.49
+      ]
+    },
+    {
+      "event_id": "thinking_04668",
+      "start_frame": 4668,
+      "end_frame_exclusive": 4669,
+      "source_frame": 4668,
+      "kind": "thinking_loading_spokes",
+      "path": "source/revision-v2/thinking-effects/thinking-f04668.png",
+      "bbox": [
+        552,
+        40,
+        750,
+        238
+      ],
+      "sha256": "abcb3978afd84a17add8f51fbbedcce8ced0fa0e677f13211f56b5cbd318a461",
+      "spoke_alpha": [
+        0.553,
+        0.726,
+        0.899,
+        0.972,
+        1.0,
+        1.0,
+        0.291,
+        0.353,
+        0.454,
+        0.522,
+        0.59,
+        0.42
+      ]
+    },
+    {
+      "event_id": "thinking_04669",
+      "start_frame": 4669,
+      "end_frame_exclusive": 4670,
+      "source_frame": 4669,
+      "kind": "thinking_loading_spokes",
+      "path": "source/revision-v2/thinking-effects/thinking-f04669.png",
+      "bbox": [
+        552,
+        40,
+        750,
+        238
+      ],
+      "sha256": "b609a67c066e38fa975f1f6047adf189210bf299574bc3602809b35e3839d2c9",
+      "spoke_alpha": [
+        0.553,
+        0.69,
+        0.88,
+        0.972,
+        1.0,
+        1.0,
+        0.291,
+        0.352,
+        0.44,
+        0.497,
+        0.565,
+        0.394
+      ]
+    },
+    {
+      "event_id": "thinking_04670",
+      "start_frame": 4670,
+      "end_frame_exclusive": 4671,
+      "source_frame": 4670,
+      "kind": "thinking_loading_spokes",
+      "path": "source/revision-v2/thinking-effects/thinking-f04670.png",
+      "bbox": [
+        552,
+        40,
+        750,
+        238
+      ],
+      "sha256": "d58214f556f5ee3afff49289bf69cc9ac7f49abe9669e103f3f48c69be432547",
+      "spoke_alpha": [
+        0.37,
+        0.561,
+        0.785,
+        0.88,
+        0.942,
+        1.0,
+        1.0,
+        0.353,
+        0.355,
+        0.441,
+        0.482,
+        0.24
+      ]
+    },
+    {
+      "event_id": "thinking_04671",
+      "start_frame": 4671,
+      "end_frame_exclusive": 4672,
+      "source_frame": 4671,
+      "kind": "thinking_loading_spokes",
+      "path": "source/revision-v2/thinking-effects/thinking-f04671.png",
+      "bbox": [
+        552,
+        40,
+        750,
+        238
+      ],
+      "sha256": "1f2523f2914a1e284a37dfbfa44cbf6099bb313d3eab096712051ea5cdf7d19d",
+      "spoke_alpha": [
+        0.275,
+        0.472,
+        0.724,
+        0.831,
+        0.894,
+        0.959,
+        1.0,
+        1.0,
+        0.3,
+        0.389,
+        0.432,
+        0.162
+      ]
+    },
+    {
+      "event_id": "thinking_04672",
+      "start_frame": 4672,
+      "end_frame_exclusive": 4673,
+      "source_frame": 4672,
+      "kind": "thinking_loading_spokes",
+      "path": "source/revision-v2/thinking-effects/thinking-f04672.png",
+      "bbox": [
+        552,
+        40,
+        750,
+        238
+      ],
+      "sha256": "340b4a0d286e61bc268f1fbe143d9596b358e57827796aa612ba6bb8fa7f8e59",
+      "spoke_alpha": [
+        0.272,
+        0.381,
+        0.706,
+        0.83,
+        0.894,
+        0.958,
+        1.0,
+        1.0,
+        0.3,
+        0.389,
+        0.43,
+        0.156
+      ]
+    },
+    {
+      "event_id": "thinking_04673",
+      "start_frame": 4673,
+      "end_frame_exclusive": 4674,
+      "source_frame": 4673,
+      "kind": "thinking_loading_spokes",
+      "path": "source/revision-v2/thinking-effects/thinking-f04673.png",
+      "bbox": [
+        552,
+        40,
+        748,
+        238
+      ],
+      "sha256": "116561a5b42ef088429a6a2acd3d9fd6df86b4893a31d1dd05445f0c9030e7d7",
+      "spoke_alpha": [
+        0.087,
+        0.304,
+        0.615,
+        0.736,
+        0.804,
+        0.871,
+        0.954,
+        1.0,
+        1.0,
+        0.389,
+        0.332,
+        0.08
+      ]
+    },
+    {
+      "event_id": "thinking_04674",
+      "start_frame": 4674,
+      "end_frame_exclusive": 4675,
+      "source_frame": 4674,
+      "kind": "thinking_loading_spokes",
+      "path": "source/revision-v2/thinking-effects/thinking-f04674.png",
+      "bbox": [
+        552,
+        40,
+        748,
+        238
+      ],
+      "sha256": "fe3e7366a7f28865640060f264fd14163f7d5bb1aea6f92a043535fcf2b8869c",
+      "spoke_alpha": [
+        0.08,
+        0.213,
+        0.556,
+        0.686,
+        0.753,
+        0.829,
+        0.91,
+        0.976,
+        1.0,
+        1.0,
+        0.278,
+        0.08
+      ]
+    },
+    {
+      "event_id": "thinking_04675",
+      "start_frame": 4675,
+      "end_frame_exclusive": 4676,
+      "source_frame": 4675,
+      "kind": "thinking_loading_spokes",
+      "path": "source/revision-v2/thinking-effects/thinking-f04675.png",
+      "bbox": [
+        552,
+        40,
+        748,
+        238
+      ],
+      "sha256": "f8cbad8c98f07c83052be529856a993112de84ef079665958dd5efc780af26d3",
+      "spoke_alpha": [
+        0.08,
+        0.122,
+        0.524,
+        0.683,
+        0.751,
+        0.817,
+        0.864,
+        0.934,
+        1.0,
+        1.0,
+        0.278,
+        0.08
+      ]
+    },
+    {
+      "event_id": "thinking_04676",
+      "start_frame": 4676,
+      "end_frame_exclusive": 4677,
+      "source_frame": 4676,
+      "kind": "thinking_loading_spokes",
+      "path": "source/revision-v2/thinking-effects/thinking-f04676.png",
+      "bbox": [
+        552,
+        40,
+        748,
+        238
+      ],
+      "sha256": "de47e1af9c12ee19a07af0a04cf32caff5d40660cb252fe8cf0e3d22634035c2",
+      "spoke_alpha": [
+        0.08,
+        0.08,
+        0.451,
+        0.592,
+        0.657,
+        0.746,
+        0.817,
+        0.872,
+        0.954,
+        1.0,
+        1.0,
+        0.08
+      ]
+    },
+    {
+      "event_id": "thinking_04677",
+      "start_frame": 4677,
+      "end_frame_exclusive": 4678,
+      "source_frame": 4677,
+      "kind": "thinking_loading_spokes",
+      "path": "source/revision-v2/thinking-effects/thinking-f04677.png",
+      "bbox": [
+        552,
+        40,
+        748,
+        238
+      ],
+      "sha256": "d7d6580edaa28ad79074e9813fd52b32568e4ffe3bc38a4b7fe4d37c2875a061",
+      "spoke_alpha": [
+        0.08,
+        0.08,
+        0.396,
+        0.537,
+        0.607,
+        0.702,
+        0.764,
+        0.821,
+        0.907,
+        0.992,
+        1.0,
+        0.08
+      ]
+    },
+    {
+      "event_id": "thinking_04678",
+      "start_frame": 4678,
+      "end_frame_exclusive": 4679,
+      "source_frame": 4678,
+      "kind": "thinking_loading_spokes",
+      "path": "source/revision-v2/thinking-effects/thinking-f04678.png",
+      "bbox": [
+        552,
+        40,
+        748,
+        238
+      ],
+      "sha256": "50cf8a2d5f7dd679b7a9adeb83e83a0cce5d6d02f55e78cdb38ba17b7dc7f075",
+      "spoke_alpha": [
+        0.08,
+        0.08,
+        0.334,
+        0.486,
+        0.553,
+        0.655,
+        0.712,
+        0.817,
+        0.861,
+        0.946,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "event_id": "thinking_04679",
+      "start_frame": 4679,
+      "end_frame_exclusive": 4680,
+      "source_frame": 4679,
+      "kind": "thinking_loading_spokes",
+      "path": "source/revision-v2/thinking-effects/thinking-f04679.png",
+      "bbox": [
+        552,
+        40,
+        750,
+        238
+      ],
+      "sha256": "f40598ea36862976b130535bd2b80eaef3b5acb10edb183d337b7ac86dd9d550",
+      "spoke_alpha": [
+        1.0,
+        0.08,
+        0.276,
+        0.437,
+        0.504,
+        0.61,
+        0.667,
+        0.719,
+        0.822,
+        0.907,
+        0.976,
+        1.0
+      ]
+    },
+    {
+      "event_id": "thinking_04680",
+      "start_frame": 4680,
+      "end_frame_exclusive": 4681,
+      "source_frame": 4680,
+      "kind": "thinking_loading_spokes",
+      "path": "source/revision-v2/thinking-effects/thinking-f04680.png",
+      "bbox": [
+        552,
+        40,
+        750,
+        238
+      ],
+      "sha256": "35906bc08a89279f86f75b9bc4adcb6fe65cbdb9f9deb97db89c0ccdf209fc1e",
+      "spoke_alpha": [
+        1.0,
+        0.08,
+        0.263,
+        0.434,
+        0.479,
+        0.537,
+        0.661,
+        0.695,
+        0.807,
+        0.852,
+        0.911,
+        1.0
+      ]
+    },
+    {
+      "event_id": "thinking_04681",
+      "start_frame": 4681,
+      "end_frame_exclusive": 4682,
+      "source_frame": 4681,
+      "kind": "thinking_loading_spokes",
+      "path": "source/revision-v2/thinking-effects/thinking-f04681.png",
+      "bbox": [
+        552,
+        40,
+        750,
+        238
+      ],
+      "sha256": "2d24dd9a49aaeb3d805f291eed1c909d5e56256b1e1dc1af5d2c56e3c89cbe5d",
+      "spoke_alpha": [
+        1.0,
+        1.0,
+        0.263,
+        0.348,
+        0.422,
+        0.493,
+        0.593,
+        0.64,
+        0.749,
+        0.797,
+        0.863,
+        0.924
+      ]
+    },
+    {
+      "event_id": "thinking_04682",
+      "start_frame": 4682,
+      "end_frame_exclusive": 4683,
+      "source_frame": 4682,
+      "kind": "thinking_loading_spokes",
+      "path": "source/revision-v2/thinking-effects/thinking-f04682.png",
+      "bbox": [
+        552,
+        40,
+        750,
+        238
+      ],
+      "sha256": "3a279b234c8a01920a73ad905d208e3ce982744a3bbb875f60beec6040a6ad3a",
+      "spoke_alpha": [
+        1.0,
+        1.0,
+        1.0,
+        0.273,
+        0.367,
+        0.457,
+        0.524,
+        0.592,
+        0.7,
+        0.75,
+        0.819,
+        0.844
+      ]
+    },
+    {
+      "event_id": "thinking_04683",
+      "start_frame": 4683,
+      "end_frame_exclusive": 4684,
+      "source_frame": 4683,
+      "kind": "thinking_loading_spokes",
+      "path": "source/revision-v2/thinking-effects/thinking-f04683.png",
+      "bbox": [
+        552,
+        40,
+        750,
+        238
+      ],
+      "sha256": "7785ede9f3e05d778a5417774fad5b06f3f3369c532471c049b761cfef3e9ba2",
+      "spoke_alpha": [
+        0.926,
+        1.0,
+        1.0,
+        0.273,
+        0.365,
+        0.423,
+        0.524,
+        0.585,
+        0.65,
+        0.699,
+        0.765,
+        0.761
+      ]
+    },
+    {
+      "event_id": "thinking_04684",
+      "start_frame": 4684,
+      "end_frame_exclusive": 4685,
+      "source_frame": 4684,
+      "kind": "thinking_loading_spokes",
+      "path": "source/revision-v2/thinking-effects/thinking-f04684.png",
+      "bbox": [
+        552,
+        40,
+        750,
+        238
+      ],
+      "sha256": "926dcc56ad5dbbafcda0fe2b7a024fd5ea740498c481580c386e47a3374973d1",
+      "spoke_alpha": [
+        0.836,
+        0.952,
+        1.0,
+        1.0,
+        0.288,
+        0.382,
+        0.483,
+        0.546,
+        0.59,
+        0.646,
+        0.715,
+        0.668
+      ]
+    },
+    {
+      "event_id": "thinking_04685",
+      "start_frame": 4685,
+      "end_frame_exclusive": 4686,
+      "source_frame": 4685,
+      "kind": "thinking_loading_spokes",
+      "path": "source/revision-v2/thinking-effects/thinking-f04685.png",
+      "bbox": [
+        552,
+        40,
+        750,
+        238
+      ],
+      "sha256": "f3873771443add86e9a6f7f2ad808e56ed1b07c78b7e56a2945236fbe7357f6b",
+      "spoke_alpha": [
+        0.741,
+        0.901,
+        1.0,
+        1.0,
+        0.288,
+        0.348,
+        0.44,
+        0.51,
+        0.541,
+        0.594,
+        0.667,
+        0.578
+      ]
+    },
+    {
+      "event_id": "thinking_04686",
+      "start_frame": 4686,
+      "end_frame_exclusive": 4687,
+      "source_frame": 4686,
+      "kind": "thinking_loading_spokes",
+      "path": "source/revision-v2/thinking-effects/thinking-f04686.png",
+      "bbox": [
+        552,
+        40,
+        750,
+        238
+      ],
+      "sha256": "880768d73c274d47cff8ca339a469bab0320e9379f31200bbefee4f6e542d9ca",
+      "spoke_alpha": [
+        0.642,
+        0.801,
+        0.982,
+        1.0,
+        1.0,
+        0.348,
+        0.365,
+        0.426,
+        0.491,
+        0.593,
+        0.667,
+        0.577
+      ]
+    },
+    {
+      "event_id": "thinking_04687",
+      "start_frame": 4687,
+      "end_frame_exclusive": 4688,
+      "source_frame": 4687,
+      "kind": "thinking_loading_spokes",
+      "path": "source/revision-v2/thinking-effects/thinking-f04687.png",
+      "bbox": [
+        552,
+        40,
+        750,
+        238
+      ],
+      "sha256": "1df4e17c9ffa6f5be705340f936f7a8c041be2a141f2dda83363526b072521ca",
+      "spoke_alpha": [
+        0.554,
+        0.702,
+        0.919,
+        1.0,
+        1.0,
+        1.0,
+        0.292,
+        0.35,
+        0.44,
+        0.499,
+        0.588,
+        0.411
+      ]
+    },
+    {
+      "event_id": "thinking_04688",
+      "start_frame": 4688,
+      "end_frame_exclusive": 4689,
+      "source_frame": 4688,
+      "kind": "thinking_loading_spokes",
+      "path": "source/revision-v2/thinking-effects/thinking-f04688.png",
+      "bbox": [
+        552,
+        40,
+        750,
+        238
+      ],
+      "sha256": "cd0881b4052433edc5e69beacd7ae9474f5fd0821d6c494d2ba32536721295ae",
+      "spoke_alpha": [
+        0.466,
+        0.607,
+        0.854,
+        0.949,
+        1.0,
+        1.0,
+        0.292,
+        0.35,
+        0.391,
+        0.443,
+        0.534,
+        0.316
+      ]
+    },
+    {
+      "event_id": "thinking_04689",
+      "start_frame": 4689,
+      "end_frame_exclusive": 4690,
+      "source_frame": 4689,
+      "kind": "thinking_loading_spokes",
+      "path": "source/revision-v2/thinking-effects/thinking-f04689.png",
+      "bbox": [
+        552,
+        40,
+        750,
+        238
+      ],
+      "sha256": "73baca1cea39ef959bba43a49e5bc51883f688f2cf14104bae8f8891847c3f3f",
+      "spoke_alpha": [
+        0.36,
+        0.498,
+        0.787,
+        0.885,
+        0.969,
+        1.0,
+        1.0,
+        0.352,
+        0.34,
+        0.442,
+        0.527,
+        0.31
+      ]
+    },
+    {
+      "event_id": "thinking_04690",
+      "start_frame": 4690,
+      "end_frame_exclusive": 4691,
+      "source_frame": 4690,
+      "kind": "thinking_loading_spokes",
+      "path": "source/revision-v2/thinking-effects/thinking-f04690.png",
+      "bbox": [
+        552,
+        40,
+        750,
+        238
+      ],
+      "sha256": "63f30034caa1750c729e67b23e9408985652af07b94e70992f99b928771ba200",
+      "spoke_alpha": [
+        0.274,
+        0.411,
+        0.722,
+        0.828,
+        0.902,
+        0.958,
+        1.0,
+        1.0,
+        0.29,
+        0.341,
+        0.42,
+        0.157
+      ]
+    },
+    {
+      "event_id": "thinking_04691",
+      "start_frame": 4691,
+      "end_frame_exclusive": 4692,
+      "source_frame": 4691,
+      "kind": "thinking_loading_spokes",
+      "path": "source/revision-v2/thinking-effects/thinking-f04691.png",
+      "bbox": [
+        552,
+        40,
+        750,
+        238
+      ],
+      "sha256": "2be28d34bf4bddd766e07146a99c0fd48d86152133665df034ea39ba8d5246ac",
+      "spoke_alpha": [
+        0.274,
+        0.41,
+        0.722,
+        0.827,
+        0.901,
+        0.957,
+        1.0,
+        1.0,
+        0.29,
+        0.337,
+        0.397,
+        0.154
+      ]
+    },
+    {
+      "event_id": "thinking_04692",
+      "start_frame": 4692,
+      "end_frame_exclusive": 4693,
+      "source_frame": 4692,
+      "kind": "thinking_loading_spokes",
+      "path": "source/revision-v2/thinking-effects/thinking-f04692.png",
+      "bbox": [
+        552,
+        40,
+        750,
+        238
+      ],
+      "sha256": "e4b4711dd2d246f1bef6e7752615f4a5575d80a0b3869c5ea77056ed327f1764",
+      "spoke_alpha": [
+        0.135,
+        0.28,
+        0.635,
+        0.748,
+        0.824,
+        0.896,
+        0.96,
+        1.0,
+        1.0,
+        0.338,
+        0.36,
+        0.08
+      ]
+    },
+    {
+      "event_id": "thinking_04693",
+      "start_frame": 4693,
+      "end_frame_exclusive": 4694,
+      "source_frame": 4693,
+      "kind": "thinking_loading_spokes",
+      "path": "source/revision-v2/thinking-effects/thinking-f04693.png",
+      "bbox": [
+        552,
+        40,
+        750,
+        238
+      ],
+      "sha256": "26f324c356fef0781444fa9f0cbc678683a1490b17bc0225753dae19ef0c83b1",
+      "spoke_alpha": [
+        0.131,
+        0.279,
+        0.594,
+        0.709,
+        0.822,
+        0.895,
+        0.93,
+        1.0,
+        1.0,
+        0.338,
+        0.353,
+        0.08
+      ]
+    },
+    {
+      "event_id": "thinking_04694",
+      "start_frame": 4694,
+      "end_frame_exclusive": 4695,
+      "source_frame": 4694,
+      "kind": "thinking_loading_spokes",
+      "path": "source/revision-v2/thinking-effects/thinking-f04694.png",
+      "bbox": [
+        552,
+        40,
+        748,
+        238
+      ],
+      "sha256": "76d8ae4f97a905c6e178e6ab89998121631ca228ba7ab885a9c4be0db23012f2",
+      "spoke_alpha": [
+        0.08,
+        0.156,
+        0.55,
+        0.669,
+        0.752,
+        0.829,
+        0.901,
+        0.965,
+        1.0,
+        1.0,
+        0.353,
+        0.08
+      ]
+    },
+    {
+      "event_id": "thinking_04695",
+      "start_frame": 4695,
+      "end_frame_exclusive": 4696,
+      "source_frame": 4695,
+      "kind": "thinking_loading_spokes",
+      "path": "source/revision-v2/thinking-effects/thinking-f04695.png",
+      "bbox": [
+        552,
+        40,
+        748,
+        238
+      ],
+      "sha256": "9780e0e35328c9f5f36e2fa7914f549bfa0c4d3a6d9a91dbe71d7fe409a7b4ae",
+      "spoke_alpha": [
+        0.08,
+        0.08,
+        0.476,
+        0.616,
+        0.647,
+        0.74,
+        0.845,
+        0.912,
+        0.962,
+        1.0,
+        1.0,
+        0.08
+      ]
+    },
+    {
+      "event_id": "thinking_04696",
+      "start_frame": 4696,
+      "end_frame_exclusive": 4697,
+      "source_frame": 4696,
+      "kind": "thinking_loading_spokes",
+      "path": "source/revision-v2/thinking-effects/thinking-f04696.png",
+      "bbox": [
+        552,
+        40,
+        748,
+        238
+      ],
+      "sha256": "622fb25fd88efd9ca9fbfec9183a575629620c23b43699f80b82c21a0f07f832",
+      "spoke_alpha": [
+        0.08,
+        0.08,
+        0.439,
+        0.568,
+        0.644,
+        0.724,
+        0.799,
+        0.862,
+        0.955,
+        1.0,
+        1.0,
+        0.08
+      ]
+    },
+    {
+      "event_id": "thinking_04697",
+      "start_frame": 4697,
+      "end_frame_exclusive": 4698,
+      "source_frame": 4697,
+      "kind": "thinking_loading_spokes",
+      "path": "source/revision-v2/thinking-effects/thinking-f04697.png",
+      "bbox": [
+        552,
+        40,
+        748,
+        238
+      ],
+      "sha256": "c38f710fd56902126baef783384b859daa2256454479636ed46301933c7c7561",
+      "spoke_alpha": [
+        0.08,
+        0.08,
+        0.383,
+        0.519,
+        0.594,
+        0.672,
+        0.747,
+        0.814,
+        0.904,
+        0.958,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "event_id": "thinking_04698",
+      "start_frame": 4698,
+      "end_frame_exclusive": 4699,
+      "source_frame": 4698,
+      "kind": "thinking_loading_spokes",
+      "path": "source/revision-v2/thinking-effects/thinking-f04698.png",
+      "bbox": [
+        552,
+        40,
+        750,
+        238
+      ],
+      "sha256": "d87e516b152b04252d8bec9cc38199aaf9d9fe341e92b028f7f65a18c933491c",
+      "spoke_alpha": [
+        1.0,
+        0.08,
+        0.288,
+        0.467,
+        0.5,
+        0.627,
+        0.699,
+        0.768,
+        0.824,
+        0.914,
+        0.982,
+        1.0
+      ]
+    },
+    {
+      "event_id": "thinking_04699",
+      "start_frame": 4699,
+      "end_frame_exclusive": 4700,
+      "source_frame": 4699,
+      "kind": "thinking_loading_spokes",
+      "path": "source/revision-v2/thinking-effects/thinking-f04699.png",
+      "bbox": [
+        552,
+        40,
+        750,
+        238
+      ],
+      "sha256": "221ae8f5ff65da327c788fa0576d0f73162a69cd09270544509802b96bae337e",
+      "spoke_alpha": [
+        1.0,
+        0.08,
+        0.286,
+        0.418,
+        0.498,
+        0.575,
+        0.655,
+        0.726,
+        0.81,
+        0.873,
+        0.94,
+        1.0
+      ]
+    },
+    {
+      "event_id": "thinking_04700",
+      "start_frame": 4700,
+      "end_frame_exclusive": 4701,
+      "source_frame": 4700,
+      "kind": "thinking_loading_spokes",
+      "path": "source/revision-v2/thinking-effects/thinking-f04700.png",
+      "bbox": [
+        552,
+        40,
+        750,
+        238
+      ],
+      "sha256": "d02f87395ad1ad52f788f532ddfa0a4d7e6e690c3c05d5f46e1fc4a3a96631b3",
+      "spoke_alpha": [
+        1.0,
+        1.0,
+        0.233,
+        0.377,
+        0.439,
+        0.526,
+        0.605,
+        0.668,
+        0.761,
+        0.829,
+        0.891,
+        0.935
+      ]
+    },
+    {
+      "event_id": "thinking_04701",
+      "start_frame": 4701,
+      "end_frame_exclusive": 4702,
+      "source_frame": 4701,
+      "kind": "thinking_loading_spokes",
+      "path": "source/revision-v2/thinking-effects/thinking-f04701.png",
+      "bbox": [
+        552,
+        40,
+        750,
+        238
+      ],
+      "sha256": "c55dd959669eb17788deb50a7e164ce979dfb7044f823b8669bfa5bfe40ac3c1",
+      "spoke_alpha": [
+        0.997,
+        1.0,
+        0.233,
+        0.323,
+        0.404,
+        0.525,
+        0.565,
+        0.667,
+        0.759,
+        0.828,
+        0.886,
+        0.933
+      ]
+    },
+    {
+      "event_id": "thinking_04702",
+      "start_frame": 4702,
+      "end_frame_exclusive": 4703,
+      "source_frame": 4702,
+      "kind": "thinking_loading_spokes",
+      "path": "source/revision-v2/thinking-effects/thinking-f04702.png",
+      "bbox": [
+        552,
+        40,
+        750,
+        238
+      ],
+      "sha256": "5e8a8767535fb8d993399117794ccaf76e746831022fbd1a74483596942c63d8",
+      "spoke_alpha": [
+        0.903,
+        0.98,
+        1.0,
+        0.323,
+        0.362,
+        0.441,
+        0.526,
+        0.573,
+        0.665,
+        0.717,
+        0.798,
+        0.774
+      ]
+    },
+    {
+      "event_id": "thinking_04703",
+      "start_frame": 4703,
+      "end_frame_exclusive": 4704,
+      "source_frame": 4703,
+      "kind": "thinking_loading_spokes",
+      "path": "source/revision-v2/thinking-effects/thinking-f04703.png",
+      "bbox": [
+        552,
+        40,
+        750,
+        238
+      ],
+      "sha256": "27679e5f0129b5b0c843f5893baca9ea8274a537040a2e320462d13b68d66ab3",
+      "spoke_alpha": [
+        0.815,
+        0.904,
+        1.0,
+        1.0,
+        0.313,
+        0.375,
+        0.455,
+        0.518,
+        0.616,
+        0.666,
+        0.752,
+        0.697
+      ]
+    },
+    {
+      "event_id": "thinking_04704",
+      "start_frame": 4704,
+      "end_frame_exclusive": 4705,
+      "source_frame": 4704,
+      "kind": "thinking_loading_spokes",
+      "path": "source/revision-v2/thinking-effects/thinking-f04704.png",
+      "bbox": [
+        552,
+        40,
+        750,
+        238
+      ],
+      "sha256": "cc18e811a40da0fd66a890b7af01bd4887f33cb0256003248ce2cae656f257c8",
+      "spoke_alpha": [
+        0.737,
+        0.825,
+        1.0,
+        1.0,
+        0.313,
+        0.355,
+        0.452,
+        0.476,
+        0.57,
+        0.617,
+        0.706,
+        0.623
+      ]
+    },
+    {
+      "event_id": "thinking_04705",
+      "start_frame": 4705,
+      "end_frame_exclusive": 4706,
+      "source_frame": 4705,
+      "kind": "thinking_loading_spokes",
+      "path": "source/revision-v2/thinking-effects/thinking-f04705.png",
+      "bbox": [
+        552,
+        40,
+        750,
+        238
+      ],
+      "sha256": "19bf0eca75928a073703bdff5e36814193f5e3b58c0050d56070a597bb1bcbd1",
+      "spoke_alpha": [
+        0.641,
+        0.815,
+        0.977,
+        1.0,
+        0.952,
+        0.355,
+        0.366,
+        0.429,
+        0.52,
+        0.557,
+        0.664,
+        0.542
+      ]
+    },
+    {
+      "event_id": "thinking_04706",
+      "start_frame": 4706,
+      "end_frame_exclusive": 4707,
+      "source_frame": 4706,
+      "kind": "thinking_loading_spokes",
+      "path": "source/revision-v2/thinking-effects/thinking-f04706.png",
+      "bbox": [
+        552,
+        40,
+        750,
+        238
+      ],
+      "sha256": "34126e3829ca485434419bc4e47141f1d3121cc6ac6fe710f6e6ec6ca09d3186",
+      "spoke_alpha": [
+        0.564,
+        0.676,
+        0.91,
+        1.0,
+        0.952,
+        1.0,
+        0.276,
+        0.385,
+        0.473,
+        0.505,
+        0.621,
+        0.45
+      ]
+    },
+    {
+      "event_id": "thinking_04707",
+      "start_frame": 4707,
+      "end_frame_exclusive": 4708,
+      "source_frame": 4707,
+      "kind": "thinking_loading_spokes",
+      "path": "source/revision-v2/thinking-effects/thinking-f04707.png",
+      "bbox": [
+        552,
+        40,
+        750,
+        238
+      ],
+      "sha256": "b80b894bbf344ab2112d1a6dac83e821af1ad6f234c14c58539fdb8ba9c3a518",
+      "spoke_alpha": [
+        0.48,
+        0.675,
+        0.91,
+        0.974,
+        0.952,
+        1.0,
+        0.276,
+        0.34,
+        0.43,
+        0.505,
+        0.576,
+        0.434
+      ]
+    },
+    {
+      "event_id": "thinking_04708",
+      "start_frame": 4708,
+      "end_frame_exclusive": 4709,
+      "source_frame": 4708,
+      "kind": "thinking_loading_spokes",
+      "path": "source/revision-v2/thinking-effects/thinking-f04708.png",
+      "bbox": [
+        552,
+        40,
+        750,
+        238
+      ],
+      "sha256": "c4174979cd2796d30b527609e664e1ad663f94f8864a86b1e6fd04c1dbc7af73",
+      "spoke_alpha": [
+        0.4,
+        0.519,
+        0.788,
+        0.924,
+        0.952,
+        1.0,
+        1.0,
+        0.292,
+        0.392,
+        0.402,
+        0.533,
+        0.281
+      ]
+    },
+    {
+      "event_id": "thinking_04709",
+      "start_frame": 4709,
+      "end_frame_exclusive": 4710,
+      "source_frame": 4709,
+      "kind": "thinking_loading_spokes",
+      "path": "source/revision-v2/thinking-effects/thinking-f04709.png",
+      "bbox": [
+        552,
+        40,
+        750,
+        238
+      ],
+      "sha256": "1420c300acc363b04c4b445d568911ce537e19280fb5d77c140337899aaa55be",
+      "spoke_alpha": [
+        0.398,
+        0.517,
+        0.787,
+        0.923,
+        0.952,
+        1.0,
+        1.0,
+        0.292,
+        0.392,
+        0.4,
+        0.485,
+        0.281
+      ]
+    },
+    {
+      "event_id": "thinking_04710",
+      "start_frame": 4710,
+      "end_frame_exclusive": 4711,
+      "source_frame": 4710,
+      "kind": "thinking_loading_spokes",
+      "path": "source/revision-v2/thinking-effects/thinking-f04710.png",
+      "bbox": [
+        552,
+        40,
+        750,
+        238
+      ],
+      "sha256": "407b1565f10c79122a6b2a88edbf2ac2854ecf7e7c46ececb6dc74d64a0f5e91",
+      "spoke_alpha": [
+        0.224,
+        0.364,
+        0.683,
+        0.825,
+        0.866,
+        0.954,
+        1.0,
+        1.0,
+        0.392,
+        0.343,
+        0.44,
+        0.152
+      ]
+    },
+    {
+      "event_id": "thinking_04711",
+      "start_frame": 4711,
+      "end_frame_exclusive": 4712,
+      "source_frame": 4711,
+      "kind": "thinking_loading_spokes",
+      "path": "source/revision-v2/thinking-effects/thinking-f04711.png",
+      "bbox": [
+        552,
+        40,
+        750,
+        238
+      ],
+      "sha256": "7c26e7c1df7aa0a37b90a9b0e7ab19c7a7f7e572766498bd3d194a7f4694baeb",
+      "spoke_alpha": [
+        0.139,
+        0.29,
+        0.631,
+        0.771,
+        0.821,
+        0.909,
+        0.984,
+        1.0,
+        1.0,
+        0.278,
+        0.383,
+        0.08
+      ]
+    },
+    {
+      "event_id": "thinking_04712",
+      "start_frame": 4712,
+      "end_frame_exclusive": 4713,
+      "source_frame": 4712,
+      "kind": "thinking_loading_spokes",
+      "path": "source/revision-v2/thinking-effects/thinking-f04712.png",
+      "bbox": [
+        552,
+        40,
+        748,
+        238
+      ],
+      "sha256": "0b6792eebe423f980f4a5b22e7ca4512b504ad17032ebfc726f0ce0e2e0c2261",
+      "spoke_alpha": [
+        0.08,
+        0.214,
+        0.581,
+        0.723,
+        0.777,
+        0.867,
+        0.938,
+        1.0,
+        1.0,
+        0.278,
+        0.363,
+        0.08
+      ]
+    },
+    {
+      "event_id": "thinking_04713",
+      "start_frame": 4713,
+      "end_frame_exclusive": 4714,
+      "source_frame": 4713,
+      "kind": "thinking_loading_spokes",
+      "path": "source/revision-v2/thinking-effects/thinking-f04713.png",
+      "bbox": [
+        552,
+        40,
+        748,
+        238
+      ],
+      "sha256": "2d746cbd825a789d39720d1fcbd495955771efd67a428b5b79522c8c2ec83a8e",
+      "spoke_alpha": [
+        0.08,
+        0.128,
+        0.528,
+        0.674,
+        0.729,
+        0.813,
+        0.884,
+        0.951,
+        1.0,
+        0.958,
+        0.363,
+        0.08
+      ]
+    },
+    {
+      "event_id": "thinking_04714",
+      "start_frame": 4714,
+      "end_frame_exclusive": 4715,
+      "source_frame": 4714,
+      "kind": "thinking_loading_spokes",
+      "path": "source/revision-v2/thinking-effects/thinking-f04714.png",
+      "bbox": [
+        552,
+        40,
+        748,
+        238
+      ],
+      "sha256": "c12b06f23037806c70c8953bf7c417c06b9379e0cc115ccb2cd64ec2696e469e",
+      "spoke_alpha": [
+        0.08,
+        0.08,
+        0.476,
+        0.619,
+        0.683,
+        0.768,
+        0.837,
+        0.905,
+        1.0,
+        0.958,
+        1.0,
+        0.08
+      ]
+    },
+    {
+      "event_id": "thinking_04715",
+      "start_frame": 4715,
+      "end_frame_exclusive": 4716,
+      "source_frame": 4715,
+      "kind": "thinking_loading_spokes",
+      "path": "source/revision-v2/thinking-effects/thinking-f04715.png",
+      "bbox": [
+        552,
+        40,
+        748,
+        238
+      ],
+      "sha256": "a36404efa1e29c0b29721bc3152118f421663f13c45f25a5c73e5e4934091df4",
+      "spoke_alpha": [
+        0.08,
+        0.08,
+        0.439,
+        0.57,
+        0.638,
+        0.715,
+        0.792,
+        0.858,
+        0.955,
+        0.958,
+        1.0,
+        0.08
+      ]
+    },
+    {
+      "event_id": "thinking_04716",
+      "start_frame": 4716,
+      "end_frame_exclusive": 4717,
+      "source_frame": 4716,
+      "kind": "thinking_loading_spokes",
+      "path": "source/revision-v2/thinking-effects/thinking-f04716.png",
+      "bbox": [
+        552,
+        40,
+        748,
+        238
+      ],
+      "sha256": "f6f1e9cc85bbd635664d04247e12694a687b97da5ae13aac14d82263dd0480d2",
+      "spoke_alpha": [
+        0.08,
+        0.08,
+        0.376,
+        0.524,
+        0.594,
+        0.672,
+        0.747,
+        0.814,
+        0.905,
+        0.958,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "event_id": "thinking_04717",
+      "start_frame": 4717,
+      "end_frame_exclusive": 4718,
+      "source_frame": 4717,
+      "kind": "thinking_loading_spokes",
+      "path": "source/revision-v2/thinking-effects/thinking-f04717.png",
+      "bbox": [
+        552,
+        40,
+        748,
+        238
+      ],
+      "sha256": "5ec04779101411f588bb69532edb31f7bf3c98213b959e51029ca58a2cfa98bc",
+      "spoke_alpha": [
+        0.08,
+        0.08,
+        0.373,
+        0.524,
+        0.593,
+        0.666,
+        0.744,
+        0.809,
+        0.904,
+        0.957,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "event_id": "thinking_04718",
+      "start_frame": 4718,
+      "end_frame_exclusive": 4719,
+      "source_frame": 4718,
+      "kind": "thinking_loading_spokes",
+      "path": "source/revision-v2/thinking-effects/thinking-f04718.png",
+      "bbox": [
+        552,
+        40,
+        750,
+        238
+      ],
+      "sha256": "a24792a071393ba8e7a18276d16b0614771d7be956a2c88fedc27ad82788183b",
+      "spoke_alpha": [
+        1.0,
+        0.08,
+        0.27,
+        0.513,
+        0.483,
+        0.57,
+        0.74,
+        0.732,
+        0.807,
+        0.867,
+        0.895,
+        1.0
+      ]
+    },
+    {
+      "event_id": "thinking_04719",
+      "start_frame": 4719,
+      "end_frame_exclusive": 4720,
+      "source_frame": 4719,
+      "kind": "thinking_loading_spokes",
+      "path": "source/revision-v2/thinking-effects/thinking-f04719.png",
+      "bbox": [
+        552,
+        40,
+        750,
+        238
+      ],
+      "sha256": "851e4579d0929b7ab493814dc1cd4702e38c735919c37d10e0be44d54703c1f9",
+      "spoke_alpha": [
+        1.0,
+        1.0,
+        0.234,
+        0.379,
+        0.437,
+        0.543,
+        0.608,
+        0.697,
+        0.769,
+        0.845,
+        0.895,
+        0.969
+      ]
+    },
+    {
+      "event_id": "thinking_04720",
+      "start_frame": 4720,
+      "end_frame_exclusive": 4721,
+      "source_frame": 4720,
+      "kind": "thinking_loading_spokes",
+      "path": "source/revision-v2/thinking-effects/thinking-f04720.png",
+      "bbox": [
+        552,
+        40,
+        750,
+        238
+      ],
+      "sha256": "adb1194dab220abc0ac63eeb3aac826cb8418fb724f151bc7edcbe81fc5cfffd",
+      "spoke_alpha": [
+        1.0,
+        1.0,
+        0.234,
+        0.378,
+        0.436,
+        0.523,
+        0.606,
+        0.668,
+        0.761,
+        0.83,
+        0.895,
+        0.932
+      ]
+    },
+    {
+      "event_id": "thinking_04721",
+      "start_frame": 4721,
+      "end_frame_exclusive": 4722,
+      "source_frame": 4721,
+      "kind": "thinking_loading_spokes",
+      "path": "source/revision-v2/thinking-effects/thinking-f04721.png",
+      "bbox": [
+        552,
+        40,
+        750,
+        238
+      ],
+      "sha256": "8c5f18ca7ee3a814afd61b2dec7b0327792822d53417a771e5e59f006b491258",
+      "spoke_alpha": [
+        0.904,
+        1.0,
+        0.97,
+        0.379,
+        0.378,
+        0.461,
+        0.55,
+        0.573,
+        0.662,
+        0.77,
+        0.839,
+        0.852
+      ]
+    },
+    {
+      "event_id": "thinking_04722",
+      "start_frame": 4722,
+      "end_frame_exclusive": 4723,
+      "source_frame": 4722,
+      "kind": "thinking_loading_spokes",
+      "path": "source/revision-v2/thinking-effects/thinking-f04722.png",
+      "bbox": [
+        552,
+        40,
+        750,
+        238
+      ],
+      "sha256": "af12ab3cf1b253bc2fee389cfc15323c0bfa3f93312d97a6358c841851352313",
+      "spoke_alpha": [
+        0.742,
+        0.978,
+        0.97,
+        1.0,
+        0.331,
+        0.403,
+        0.485,
+        0.473,
+        0.568,
+        0.714,
+        0.79,
+        0.775
+      ]
+    },
+    {
+      "event_id": "thinking_04723",
+      "start_frame": 4723,
+      "end_frame_exclusive": 4724,
+      "source_frame": 4723,
+      "kind": "thinking_loading_spokes",
+      "path": "source/revision-v2/thinking-effects/thinking-f04723.png",
+      "bbox": [
+        552,
+        40,
+        750,
+        238
+      ],
+      "sha256": "f76336c2cfdc76a2dc41ba343142bf2697f07ae04a0b27a842bc198f04d4de0d",
+      "spoke_alpha": [
+        0.738,
+        0.901,
+        0.97,
+        1.0,
+        0.331,
+        0.339,
+        0.43,
+        0.473,
+        0.568,
+        0.664,
+        0.739,
+        0.7
+      ]
+    },
+    {
+      "event_id": "thinking_04724",
+      "start_frame": 4724,
+      "end_frame_exclusive": 4725,
+      "source_frame": 4724,
+      "kind": "thinking_loading_spokes",
+      "path": "source/revision-v2/thinking-effects/thinking-f04724.png",
+      "bbox": [
+        552,
+        40,
+        750,
+        238
+      ],
+      "sha256": "930ce423fc3d7c1fb957699d439a535f7e38bf9f4fcbffea3e99c6a0cf356290",
+      "spoke_alpha": [
+        0.738,
+        0.827,
+        0.97,
+        1.0,
+        1.0,
+        0.279,
+        0.372,
+        0.473,
+        0.568,
+        0.614,
+        0.695,
+        0.628
+      ]
+    },
+    {
+      "event_id": "thinking_04725",
+      "start_frame": 4725,
+      "end_frame_exclusive": 4726,
+      "source_frame": 4725,
+      "kind": "thinking_loading_spokes",
+      "path": "source/revision-v2/thinking-effects/thinking-f04725.png",
+      "bbox": [
+        552,
+        40,
+        750,
+        238
+      ],
+      "sha256": "e1040ddf69e770ec828ccddff2236df2f82b46be43b7a8b151726d70d4bedf78",
+      "spoke_alpha": [
+        0.641,
+        0.75,
+        0.92,
+        0.999,
+        1.0,
+        0.279,
+        0.342,
+        0.425,
+        0.511,
+        0.55,
+        0.639,
+        0.551
+      ]
+    },
+    {
+      "event_id": "thinking_04726",
+      "start_frame": 4726,
+      "end_frame_exclusive": 4727,
+      "source_frame": 4726,
+      "kind": "thinking_loading_spokes",
+      "path": "source/revision-v2/thinking-effects/thinking-f04726.png",
+      "bbox": [
+        552,
+        40,
+        750,
+        238
+      ],
+      "sha256": "4982c645526a440fba382ba93e18af3d8531a59230fbbfb1692a8bc4223bfedc",
+      "spoke_alpha": [
+        0.563,
+        0.678,
+        0.872,
+        0.956,
+        1.0,
+        1.0,
+        0.342,
+        0.381,
+        0.464,
+        0.499,
+        0.592,
+        0.467
+      ]
+    },
+    {
+      "event_id": "thinking_04727",
+      "start_frame": 4727,
+      "end_frame_exclusive": 4728,
+      "source_frame": 4727,
+      "kind": "thinking_loading_spokes",
+      "path": "source/revision-v2/thinking-effects/thinking-f04727.png",
+      "bbox": [
+        552,
+        40,
+        750,
+        238
+      ],
+      "sha256": "285abcbac5ff7bc633f90db1bf8a29669d8493e51cd4f87122082a747edc3e8c",
+      "spoke_alpha": [
+        0.398,
+        0.591,
+        0.819,
+        0.915,
+        0.984,
+        1.0,
+        1.0,
+        0.29,
+        0.384,
+        0.448,
+        0.543,
+        0.337
+      ]
+    },
+    {
+      "event_id": "thinking_04728",
+      "start_frame": 4728,
+      "end_frame_exclusive": 4729,
+      "source_frame": 4728,
+      "kind": "thinking_loading_spokes",
+      "path": "source/revision-v2/thinking-effects/thinking-f04728.png",
+      "bbox": [
+        552,
+        40,
+        750,
+        238
+      ],
+      "sha256": "7a984eafcb66d451cdd86d3ec4432458fd04a091bb06e1847d7f34918a0deab5",
+      "spoke_alpha": [
+        0.397,
+        0.515,
+        0.78,
+        0.871,
+        0.953,
+        1.0,
+        1.0,
+        0.29,
+        0.379,
+        0.388,
+        0.493,
+        0.315
+      ]
+    },
+    {
+      "event_id": "thinking_04729",
+      "start_frame": 4729,
+      "end_frame_exclusive": 4730,
+      "source_frame": 4729,
+      "kind": "thinking_loading_spokes",
+      "path": "source/revision-v2/thinking-effects/thinking-f04729.png",
+      "bbox": [
+        552,
+        40,
+        750,
+        238
+      ],
+      "sha256": "6ed3a506ad76b6578f2b1123134df228fa57dcdfd88714abbbdb058aeacee99f",
+      "spoke_alpha": [
+        0.29,
+        0.441,
+        0.718,
+        0.827,
+        0.905,
+        1.0,
+        1.0,
+        0.966,
+        0.379,
+        0.333,
+        0.436,
+        0.217
+      ]
+    },
+    {
+      "event_id": "thinking_04730",
+      "start_frame": 4730,
+      "end_frame_exclusive": 4731,
+      "source_frame": 4730,
+      "kind": "thinking_loading_spokes",
+      "path": "source/revision-v2/thinking-effects/thinking-f04730.png",
+      "bbox": [
+        552,
+        40,
+        750,
+        238
+      ],
+      "sha256": "658c9b1e5e033b7c7de2b155139b8140c3c5fc38f3bb2b44563360ae60f9881f",
+      "spoke_alpha": [
+        0.195,
+        0.364,
+        0.671,
+        0.782,
+        0.858,
+        0.956,
+        0.923,
+        0.966,
+        1.0,
+        0.264,
+        0.376,
+        0.114
+      ]
+    },
+    {
+      "event_id": "thinking_04731",
+      "start_frame": 4731,
+      "end_frame_exclusive": 4732,
+      "source_frame": 4731,
+      "kind": "thinking_loading_spokes",
+      "path": "source/revision-v2/thinking-effects/thinking-f04731.png",
+      "bbox": [
+        552,
+        40,
+        748,
+        238
+      ],
+      "sha256": "2fdbfff5e437398cc2741bc1404be33392057e14fb82b1df43e44a4d299b8ebd",
+      "spoke_alpha": [
+        0.087,
+        0.289,
+        0.617,
+        0.733,
+        0.813,
+        0.909,
+        0.922,
+        0.966,
+        1.0,
+        0.264,
+        0.329,
+        0.08
+      ]
+    },
+    {
+      "event_id": "thinking_04732",
+      "start_frame": 4732,
+      "end_frame_exclusive": 4733,
+      "source_frame": 4732,
+      "kind": "thinking_loading_spokes",
+      "path": "source/revision-v2/thinking-effects/thinking-f04732.png",
+      "bbox": [
+        552,
+        40,
+        748,
+        238
+      ],
+      "sha256": "d1b42581ded88e466add9ee06e2d08665580dfcdb6855359b60bb59e6fbb9751",
+      "spoke_alpha": [
+        0.08,
+        0.206,
+        0.579,
+        0.693,
+        0.772,
+        0.864,
+        0.922,
+        0.966,
+        1.0,
+        1.0,
+        0.259,
+        0.08
+      ]
+    },
+    {
+      "event_id": "thinking_04733",
+      "start_frame": 4733,
+      "end_frame_exclusive": 4734,
+      "source_frame": 4733,
+      "kind": "thinking_loading_spokes",
+      "path": "source/revision-v2/thinking-effects/thinking-f04733.png",
+      "bbox": [
+        552,
+        40,
+        748,
+        238
+      ],
+      "sha256": "9bb4a73702e9881514ef60ec621840fab0f5007a09113b5b5c8086699ae15166",
+      "spoke_alpha": [
+        0.08,
+        0.128,
+        0.526,
+        0.649,
+        0.726,
+        0.816,
+        0.878,
+        0.944,
+        1.0,
+        1.0,
+        0.259,
+        0.08
+      ]
+    },
+    {
+      "event_id": "thinking_04734",
+      "start_frame": 4734,
+      "end_frame_exclusive": 4735,
+      "source_frame": 4734,
+      "kind": "thinking_loading_spokes",
+      "path": "source/revision-v2/thinking-effects/thinking-f04734.png",
+      "bbox": [
+        552,
+        40,
+        748,
+        238
+      ],
+      "sha256": "c4c7059721da53bb5d7ac4cd92705309fed314b37f0fb9df280ece2ac7c09760",
+      "spoke_alpha": [
+        0.08,
+        0.08,
+        0.475,
+        0.605,
+        0.681,
+        0.768,
+        0.834,
+        0.891,
+        0.979,
+        1.0,
+        1.0,
+        0.08
+      ]
+    },
+    {
+      "event_id": "thinking_04735",
+      "start_frame": 4735,
+      "end_frame_exclusive": 4736,
+      "source_frame": 4735,
+      "kind": "thinking_loading_spokes",
+      "path": "source/revision-v2/thinking-effects/thinking-f04735.png",
+      "bbox": [
+        552,
+        40,
+        748,
+        238
+      ],
+      "sha256": "be972c6ba9fded4c04284e254134b05b61b80850c0ca84e2165e34104a869de6",
+      "spoke_alpha": [
+        0.08,
+        0.08,
+        0.374,
+        0.559,
+        0.591,
+        0.681,
+        0.747,
+        0.854,
+        0.91,
+        0.984,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "event_id": "thinking_04736",
+      "start_frame": 4736,
+      "end_frame_exclusive": 4737,
+      "source_frame": 4736,
+      "kind": "thinking_loading_spokes",
+      "path": "source/revision-v2/thinking-effects/thinking-f04736.png",
+      "bbox": [
+        552,
+        40,
+        748,
+        238
+      ],
+      "sha256": "a5883ea6660a8ec2a3b9c8a2f550355d13a6074675b51d45159c0231b1a7705a",
+      "spoke_alpha": [
+        0.08,
+        0.08,
+        0.373,
+        0.524,
+        0.59,
+        0.67,
+        0.747,
+        0.819,
+        0.906,
+        0.957,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "event_id": "thinking_04737",
+      "start_frame": 4737,
+      "end_frame_exclusive": 4738,
+      "source_frame": 4737,
+      "kind": "thinking_loading_spokes",
+      "path": "source/revision-v2/thinking-effects/thinking-f04737.png",
+      "bbox": [
+        552,
+        40,
+        750,
+        238
+      ],
+      "sha256": "edaa3142f2bf31bec77096ecf67b39840bcf3f5463c9f2e1e0155336ffd9929f",
+      "spoke_alpha": [
+        0.898,
+        0.08,
+        0.285,
+        0.446,
+        0.513,
+        0.59,
+        0.684,
+        0.738,
+        0.82,
+        0.901,
+        0.966,
+        1.0
+      ]
+    },
+    {
+      "event_id": "thinking_04738",
+      "start_frame": 4738,
+      "end_frame_exclusive": 4739,
+      "source_frame": 4738,
+      "kind": "thinking_loading_spokes",
+      "path": "source/revision-v2/thinking-effects/thinking-f04738.png",
+      "bbox": [
+        552,
+        40,
+        750,
+        238
+      ],
+      "sha256": "b92e2fe0feb58e2489d97812a4d2e5e0fe26e6206708c86f45d69597ef7d2e3f",
+      "spoke_alpha": [
+        0.898,
+        1.0,
+        0.191,
+        0.373,
+        0.443,
+        0.522,
+        0.628,
+        0.662,
+        0.747,
+        0.853,
+        0.91,
+        0.983
+      ]
+    },
+    {
+      "event_id": "thinking_04739",
+      "start_frame": 4739,
+      "end_frame_exclusive": 4740,
+      "source_frame": 4739,
+      "kind": "thinking_loading_spokes",
+      "path": "source/revision-v2/thinking-effects/thinking-f04739.png",
+      "bbox": [
+        552,
+        40,
+        750,
+        238
+      ],
+      "sha256": "44fe1b2b7975533ad997596260732e0354f2fdbdf8ddac4bc1c5564f2fc34828",
+      "spoke_alpha": [
+        0.898,
+        1.0,
+        0.191,
+        0.373,
+        0.442,
+        0.522,
+        0.625,
+        0.661,
+        0.746,
+        0.797,
+        0.87,
+        0.9
+      ]
+    },
+    {
+      "event_id": "thinking_04740",
+      "start_frame": 4740,
+      "end_frame_exclusive": 4741,
+      "source_frame": 4740,
+      "kind": "thinking_loading_spokes",
+      "path": "source/revision-v2/thinking-effects/thinking-f04740.png",
+      "bbox": [
+        552,
+        40,
+        750,
+        238
+      ],
+      "sha256": "889ca9d13bd72700ec8a024d75c387787dc5d69bfb2543170f29ae536e1f0649",
+      "spoke_alpha": [
+        0.898,
+        1.0,
+        1.0,
+        0.323,
+        0.387,
+        0.473,
+        0.537,
+        0.603,
+        0.693,
+        0.74,
+        0.815,
+        0.809
+      ]
+    },
+    {
+      "event_id": "thinking_04741",
+      "start_frame": 4741,
+      "end_frame_exclusive": 4742,
+      "source_frame": 4741,
+      "kind": "thinking_loading_spokes",
+      "path": "source/revision-v2/thinking-effects/thinking-f04741.png",
+      "bbox": [
+        552,
+        40,
+        750,
+        238
+      ],
+      "sha256": "20dd52e5ae84a84b46189b090f703b2cc921b2a9426be35273131b2bcd9e7669",
+      "spoke_alpha": [
+        0.898,
+        1.0,
+        1.0,
+        0.323,
+        0.337,
+        0.424,
+        0.537,
+        0.553,
+        0.637,
+        0.687,
+        0.766,
+        0.727
+      ]
+    },
+    {
+      "event_id": "thinking_04742",
+      "start_frame": 4742,
+      "end_frame_exclusive": 4743,
+      "source_frame": 4742,
+      "kind": "thinking_loading_spokes",
+      "path": "source/revision-v2/thinking-effects/thinking-f04742.png",
+      "bbox": [
+        552,
+        40,
+        750,
+        238
+      ],
+      "sha256": "b169e5bede057f57f03bd223d97b7910b0ea309fd83945d473e1f403c0b340c5",
+      "spoke_alpha": [
+        0.799,
+        0.952,
+        1.0,
+        1.0,
+        0.337,
+        0.366,
+        0.455,
+        0.504,
+        0.586,
+        0.642,
+        0.707,
+        0.72
+      ]
+    },
+    {
+      "event_id": "thinking_04743",
+      "start_frame": 4743,
+      "end_frame_exclusive": 4744,
+      "source_frame": 4743,
+      "kind": "thinking_loading_spokes",
+      "path": "source/revision-v2/thinking-effects/thinking-f04743.png",
+      "bbox": [
+        552,
+        40,
+        750,
+        238
+      ],
+      "sha256": "7adca3ecc2fd29e12222c1b297708eb331118cad3de46febfa398ce2eda4d5db",
+      "spoke_alpha": [
+        0.7,
+        0.859,
+        0.999,
+        1.0,
+        1.0,
+        0.293,
+        0.369,
+        0.453,
+        0.538,
+        0.59,
+        0.657,
+        0.573
+      ]
+    },
+    {
+      "event_id": "thinking_04744",
+      "start_frame": 4744,
+      "end_frame_exclusive": 4745,
+      "source_frame": 4744,
+      "kind": "thinking_loading_spokes",
+      "path": "source/revision-v2/thinking-effects/thinking-f04744.png",
+      "bbox": [
+        552,
+        40,
+        750,
+        238
+      ],
+      "sha256": "775a45ec0c8cd4bb214b7b84a1be3bef01224b914778e81e1fb9bfb05cd4469e",
+      "spoke_alpha": [
+        0.607,
+        0.764,
+        0.947,
+        1.0,
+        1.0,
+        0.293,
+        0.368,
+        0.402,
+        0.482,
+        0.535,
+        0.606,
+        0.485
+      ]
+    },
+    {
+      "event_id": "thinking_04745",
+      "start_frame": 4745,
+      "end_frame_exclusive": 4746,
+      "source_frame": 4745,
+      "kind": "thinking_loading_spokes",
+      "path": "source/revision-v2/thinking-effects/thinking-f04745.png",
+      "bbox": [
+        552,
+        40,
+        750,
+        238
+      ],
+      "sha256": "5d7b12f1e8f7c45de45e3712d6e0ce3926a46309be02451edf711a2a698ffd89",
+      "spoke_alpha": [
+        0.497,
+        0.663,
+        0.891,
+        0.955,
+        1.0,
+        1.0,
+        0.369,
+        0.349,
+        0.431,
+        0.486,
+        0.589,
+        0.471
+      ]
+    },
+    {
+      "event_id": "thinking_04746",
+      "start_frame": 4746,
+      "end_frame_exclusive": 4747,
+      "source_frame": 4746,
+      "kind": "thinking_loading_spokes",
+      "path": "source/revision-v2/thinking-effects/thinking-f04746.png",
+      "bbox": [
+        552,
+        40,
+        750,
+        238
+      ],
+      "sha256": "12329fb2d716ca3f1bac8e30b4b8cb051fd0a130e95ad2e5b1200b7e3fd24ef4",
+      "spoke_alpha": [
+        0.402,
+        0.567,
+        0.839,
+        0.876,
+        1.0,
+        1.0,
+        1.0,
+        0.296,
+        0.382,
+        0.435,
+        0.497,
+        0.309
+      ]
+    }
+  ],
+  "mode": "code_native_rounded_spokes_with_source_measured_per_frame_opacity",
+  "pure_graphic_contract": "12 code-drawn round-capped neutral strokes only. No original Miku face, eyes, mouth, hair or background pixels; no character geometry changes. Each full-canvas RGBA can be alpha_composited after the adopted DS body, replacing old static add_rays.",
+  "geometry": {
+    "center": [
+      651,
+      139
+    ],
+    "inner_radius": 56,
+    "outer_radius": 90,
+    "width": 13,
+    "color": [
+      58,
+      55,
+      54
+    ],
+    "angles": "0..330deg clockwise in screen coordinates, 30deg apart"
+  },
+  "measurement_limits": "Source onset/end are actual source cuts 4634/4747. Spoke geometry manually read from source4638; opacity estimated by centerline-vs-local-background samples and temporal median3, not original author alpha. This is source-timed graphic reconstruction, not pixel-exact source extraction.",
+  "source_evidence": "source/revision-v2/thinking-source-f04638-4x.png",
+  "opacity_measurements": "source/revision-v2/thinking-opacity-measurements.json",
+  "clear_events": [
+    {
+      "start_frame": 4747,
+      "kind": "clear_thinking_effect"
+    }
+  ]
+}

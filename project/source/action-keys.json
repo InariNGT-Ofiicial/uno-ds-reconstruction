@@ -1,0 +1,4960 @@
+{
+  "schema": "uno-fullfilm-v4-action-key-proposal",
+  "source_frames": 5245,
+  "duration": 218.54166666666666,
+  "method": "Adaptive action extrema / new gestures / shot changes, held until next action key; discard connecting pose drawings. Quarter-second sheets are navigation only. Mouth/text/story overlays retain original event timings independently.",
+  "visual_material_actually_reviewed": "All 4 two-second storyboard sheets and all 15 quarter-second sheets, plus larger firstshot-4fps-large.jpg.",
+  "scope_limits": [
+    "Proposed shot bounds are navigation precision and must be checked against full-rate source event frames before final timing adoption.",
+    "Pose candidates are not a proof of identical original drawings.",
+    "No final image assets are accepted by this proposal.",
+    "Fan-art sample insert at source2070..2082 contains third-party sample characters; explicit scope classification pending root, no false claim these are DS."
+  ],
+  "pose_candidate_count": 76,
+  "shot_unit_count": 121,
+  "poses": [
+    {
+      "id": "intro_palm_up",
+      "source_frame": 36,
+      "source_pts": 24000,
+      "source_time_base": "1/16000",
+      "source_time": 1.5,
+      "source_full_path": "source/action-key-source/f00036.png",
+      "action": "开场左掌朝上，右手持牌",
+      "notes": "文字名牌和嘴另层",
+      "audit_status": "human_visual_proposal_needs_producer_and_independent_audit",
+      "source_original_artwork_distinctness": "candidate_not_proven_by_hash",
+      "drawing_obligation": "native_complete_pose_if_geometry_differs; exact approved asset reuse for proven repeated source pose",
+      "head_and_hair": "frozen F005 hair topology; original head orientation and source crop",
+      "mouth_caption_events": "separate original-time exposure stream; these are not keyed to body holds",
+      "camera": "only entire-pose uniform magnification about fixed source anchor; no local/rotating/shearing pose manufacture",
+      "holds": [
+        {
+          "shot_id": "S001_intro",
+          "range_frames_proposal": [
+            31,
+            150
+          ],
+          "range_times_proposal": [
+            1.2916666666666667,
+            6.25
+          ],
+          "policy": "alternate_extreme_holds",
+          "internal_switch_events": "if multiple keys, source action extrema determine switches; not evenly distributed by code"
+        }
+      ]
+    },
+    {
+      "id": "intro_palm_open",
+      "source_frame": 42,
+      "source_pts": 28000,
+      "source_time_base": "1/16000",
+      "source_time": 1.75,
+      "source_full_path": "source/action-key-source/f00042.png",
+      "action": "开场左掌抬高张开，右手外摆持牌",
+      "notes": "与36是手势极点，不能拉伸手臂互变",
+      "audit_status": "human_visual_proposal_needs_producer_and_independent_audit",
+      "source_original_artwork_distinctness": "candidate_not_proven_by_hash",
+      "drawing_obligation": "native_complete_pose_if_geometry_differs; exact approved asset reuse for proven repeated source pose",
+      "head_and_hair": "frozen F005 hair topology; original head orientation and source crop",
+      "mouth_caption_events": "separate original-time exposure stream; these are not keyed to body holds",
+      "camera": "only entire-pose uniform magnification about fixed source anchor; no local/rotating/shearing pose manufacture",
+      "holds": [
+        {
+          "shot_id": "S001_intro",
+          "range_frames_proposal": [
+            31,
+            150
+          ],
+          "range_times_proposal": [
+            1.2916666666666667,
+            6.25
+          ],
+          "policy": "alternate_extreme_holds",
+          "internal_switch_events": "if multiple keys, source action extrema determine switches; not evenly distributed by code"
+        }
+      ]
+    },
+    {
+      "id": "center_card",
+      "source_frame": 276,
+      "source_pts": 184000,
+      "source_time_base": "1/16000",
+      "source_time": 11.5,
+      "source_full_path": "source/action-key-source/f00276.png",
+      "action": "正面双手持一张牌",
+      "notes": "正面持牌主母稿，可跨章节复用身体，表情嘴独立",
+      "audit_status": "human_visual_proposal_needs_producer_and_independent_audit",
+      "source_original_artwork_distinctness": "candidate_not_proven_by_hash",
+      "drawing_obligation": "native_complete_pose_if_geometry_differs; exact approved asset reuse for proven repeated source pose",
+      "head_and_hair": "frozen F005 hair topology; original head orientation and source crop",
+      "mouth_caption_events": "separate original-time exposure stream; these are not keyed to body holds",
+      "camera": "only entire-pose uniform magnification about fixed source anchor; no local/rotating/shearing pose manufacture",
+      "holds": [
+        {
+          "shot_id": "S004_comic",
+          "range_frames_proposal": [
+            216,
+            252
+          ],
+          "range_times_proposal": [
+            9.0,
+            10.5
+          ],
+          "policy": "fullframe_edit_partial_face",
+          "internal_switch_events": "if multiple keys, source action extrema determine switches; not evenly distributed by code"
+        },
+        {
+          "shot_id": "S006_center",
+          "range_frames_proposal": [
+            270,
+            342
+          ],
+          "range_times_proposal": [
+            11.25,
+            14.25
+          ],
+          "policy": "hold_plus_source_uniform_zoom",
+          "internal_switch_events": "if multiple keys, source action extrema determine switches; not evenly distributed by code"
+        },
+        {
+          "shot_id": "S046_dab_hook",
+          "range_frames_proposal": [
+            1686,
+            1728
+          ],
+          "range_times_proposal": [
+            70.25,
+            72.0
+          ],
+          "policy": "start_extreme_landed_holds",
+          "internal_switch_events": "if multiple keys, source action extrema determine switches; not evenly distributed by code"
+        },
+        {
+          "shot_id": "S053_center_repeat",
+          "range_frames_proposal": [
+            2094,
+            2172
+          ],
+          "range_times_proposal": [
+            87.25,
+            90.5
+          ],
+          "policy": "reuse_same_approved_asset",
+          "internal_switch_events": "if multiple keys, source action extrema determine switches; not evenly distributed by code"
+        },
+        {
+          "shot_id": "S056_center_short",
+          "range_frames_proposal": [
+            2280,
+            2298
+          ],
+          "range_times_proposal": [
+            95.0,
+            95.75
+          ],
+          "policy": "reuse_same_approved_asset",
+          "internal_switch_events": "if multiple keys, source action extrema determine switches; not evenly distributed by code"
+        },
+        {
+          "shot_id": "S069_center_short",
+          "range_frames_proposal": [
+            2814,
+            2826
+          ],
+          "range_times_proposal": [
+            117.25,
+            117.75
+          ],
+          "policy": "reuse_same_approved_asset",
+          "internal_switch_events": "if multiple keys, source action extrema determine switches; not evenly distributed by code"
+        },
+        {
+          "shot_id": "S101_center_montage",
+          "range_frames_proposal": [
+            3876,
+            3912
+          ],
+          "range_times_proposal": [
+            161.5,
+            163.0
+          ],
+          "policy": "hold_source_vertical_wipes",
+          "internal_switch_events": "if multiple keys, source action extrema determine switches; not evenly distributed by code"
+        },
+        {
+          "shot_id": "S105_dab_final",
+          "range_frames_proposal": [
+            4062,
+            4104
+          ],
+          "range_times_proposal": [
+            169.25,
+            171.0
+          ],
+          "policy": "reuse_same_approved_assets",
+          "internal_switch_events": "if multiple keys, source action extrema determine switches; not evenly distributed by code"
+        }
+      ]
+    },
+    {
+      "id": "dab_rear",
+      "source_frame": 342,
+      "source_pts": 228000,
+      "source_time_base": "1/16000",
+      "source_time": 14.25,
+      "source_full_path": "source/action-key-source/f00342.png",
+      "action": "背向镜头低头伸臂",
+      "notes": "保留原白衬衣，后发需新视角稿",
+      "audit_status": "human_visual_proposal_needs_producer_and_independent_audit",
+      "source_original_artwork_distinctness": "candidate_not_proven_by_hash",
+      "drawing_obligation": "native_complete_pose_if_geometry_differs; exact approved asset reuse for proven repeated source pose",
+      "head_and_hair": "frozen F005 hair topology; original head orientation and source crop",
+      "mouth_caption_events": "separate original-time exposure stream; these are not keyed to body holds",
+      "camera": "only entire-pose uniform magnification about fixed source anchor; no local/rotating/shearing pose manufacture",
+      "holds": [
+        {
+          "shot_id": "S007_dab",
+          "range_frames_proposal": [
+            342,
+            396
+          ],
+          "range_times_proposal": [
+            14.25,
+            16.5
+          ],
+          "policy": "hold",
+          "internal_switch_events": "if multiple keys, source action extrema determine switches; not evenly distributed by code"
+        }
+      ]
+    },
+    {
+      "id": "surprise_side",
+      "source_frame": 426,
+      "source_pts": 284000,
+      "source_time_base": "1/16000",
+      "source_time": 17.75,
+      "source_full_path": "source/action-key-source/f00426.png",
+      "action": "暗底歪头持牌惊讶",
+      "notes": "原画厚白边框是原角色外轮廓需整体新稿处理",
+      "audit_status": "human_visual_proposal_needs_producer_and_independent_audit",
+      "source_original_artwork_distinctness": "candidate_not_proven_by_hash",
+      "drawing_obligation": "native_complete_pose_if_geometry_differs; exact approved asset reuse for proven repeated source pose",
+      "head_and_hair": "frozen F005 hair topology; original head orientation and source crop",
+      "mouth_caption_events": "separate original-time exposure stream; these are not keyed to body holds",
+      "camera": "only entire-pose uniform magnification about fixed source anchor; no local/rotating/shearing pose manufacture",
+      "holds": [
+        {
+          "shot_id": "S009_surprise",
+          "range_frames_proposal": [
+            426,
+            450
+          ],
+          "range_times_proposal": [
+            17.75,
+            18.75
+          ],
+          "policy": "hold",
+          "internal_switch_events": "if multiple keys, source action extrema determine switches; not evenly distributed by code"
+        }
+      ]
+    },
+    {
+      "id": "taunt_left_close",
+      "source_frame": 456,
+      "source_pts": 304000,
+      "source_time_base": "1/16000",
+      "source_time": 19.0,
+      "source_full_path": "source/action-key-source/f00456.png",
+      "action": "画面左侧，张手持牌调侃",
+      "notes": "小样同族，手姿态和牌位置不可沿用不匹配稿",
+      "audit_status": "human_visual_proposal_needs_producer_and_independent_audit",
+      "source_original_artwork_distinctness": "candidate_not_proven_by_hash",
+      "drawing_obligation": "native_complete_pose_if_geometry_differs; exact approved asset reuse for proven repeated source pose",
+      "head_and_hair": "frozen F005 hair topology; original head orientation and source crop",
+      "mouth_caption_events": "separate original-time exposure stream; these are not keyed to body holds",
+      "camera": "only entire-pose uniform magnification about fixed source anchor; no local/rotating/shearing pose manufacture",
+      "holds": [
+        {
+          "shot_id": "S010_verse_left",
+          "range_frames_proposal": [
+            450,
+            534
+          ],
+          "range_times_proposal": [
+            18.75,
+            22.25
+          ],
+          "policy": "hold_mouth_cards_separate",
+          "internal_switch_events": "if multiple keys, source action extrema determine switches; not evenly distributed by code"
+        }
+      ]
+    },
+    {
+      "id": "taunt_right",
+      "source_frame": 540,
+      "source_pts": 360000,
+      "source_time_base": "1/16000",
+      "source_time": 22.5,
+      "source_full_path": "source/action-key-source/f00540.png",
+      "action": "画面右侧，斜眼捏手指持牌",
+      "notes": "原始取景裁发，不补全头饰改构图",
+      "audit_status": "human_visual_proposal_needs_producer_and_independent_audit",
+      "source_original_artwork_distinctness": "candidate_not_proven_by_hash",
+      "drawing_obligation": "native_complete_pose_if_geometry_differs; exact approved asset reuse for proven repeated source pose",
+      "head_and_hair": "frozen F005 hair topology; original head orientation and source crop",
+      "mouth_caption_events": "separate original-time exposure stream; these are not keyed to body holds",
+      "camera": "only entire-pose uniform magnification about fixed source anchor; no local/rotating/shearing pose manufacture",
+      "holds": [
+        {
+          "shot_id": "S011_verse_right",
+          "range_frames_proposal": [
+            534,
+            612
+          ],
+          "range_times_proposal": [
+            22.25,
+            25.5
+          ],
+          "policy": "hold_mouth_cards_separate",
+          "internal_switch_events": "if multiple keys, source action extrema determine switches; not evenly distributed by code"
+        }
+      ]
+    },
+    {
+      "id": "point_above",
+      "source_frame": 612,
+      "source_pts": 408000,
+      "source_time_base": "1/16000",
+      "source_time": 25.5,
+      "source_full_path": "source/action-key-source/f00612.png",
+      "action": "抬手指上方",
+      "notes": "动作极点，新姿态",
+      "audit_status": "human_visual_proposal_needs_producer_and_independent_audit",
+      "source_original_artwork_distinctness": "candidate_not_proven_by_hash",
+      "drawing_obligation": "native_complete_pose_if_geometry_differs; exact approved asset reuse for proven repeated source pose",
+      "head_and_hair": "frozen F005 hair topology; original head orientation and source crop",
+      "mouth_caption_events": "separate original-time exposure stream; these are not keyed to body holds",
+      "camera": "only entire-pose uniform magnification about fixed source anchor; no local/rotating/shearing pose manufacture",
+      "holds": [
+        {
+          "shot_id": "S012_point_above",
+          "range_frames_proposal": [
+            612,
+            618
+          ],
+          "range_times_proposal": [
+            25.5,
+            25.75
+          ],
+          "policy": "hold",
+          "internal_switch_events": "if multiple keys, source action extrema determine switches; not evenly distributed by code"
+        }
+      ]
+    },
+    {
+      "id": "point_forward",
+      "source_frame": 624,
+      "source_pts": 416000,
+      "source_time_base": "1/16000",
+      "source_time": 26.0,
+      "source_full_path": "source/action-key-source/f00624.png",
+      "action": "向镜头前指",
+      "notes": "动作极点，新姿态",
+      "audit_status": "human_visual_proposal_needs_producer_and_independent_audit",
+      "source_original_artwork_distinctness": "candidate_not_proven_by_hash",
+      "drawing_obligation": "native_complete_pose_if_geometry_differs; exact approved asset reuse for proven repeated source pose",
+      "head_and_hair": "frozen F005 hair topology; original head orientation and source crop",
+      "mouth_caption_events": "separate original-time exposure stream; these are not keyed to body holds",
+      "camera": "only entire-pose uniform magnification about fixed source anchor; no local/rotating/shearing pose manufacture",
+      "holds": [
+        {
+          "shot_id": "S013_point_forward",
+          "range_frames_proposal": [
+            618,
+            630
+          ],
+          "range_times_proposal": [
+            25.75,
+            26.25
+          ],
+          "policy": "hold",
+          "internal_switch_events": "if multiple keys, source action extrema determine switches; not evenly distributed by code"
+        }
+      ]
+    },
+    {
+      "id": "taunt_left_table",
+      "source_frame": 636,
+      "source_pts": 424000,
+      "source_time_base": "1/16000",
+      "source_time": 26.5,
+      "source_full_path": "source/action-key-source/f00636.png",
+      "action": "画面左侧桌前，手在面旁",
+      "notes": "与近景须核对等比关系，左右不盲目镜像",
+      "audit_status": "human_visual_proposal_needs_producer_and_independent_audit",
+      "source_original_artwork_distinctness": "candidate_not_proven_by_hash",
+      "drawing_obligation": "native_complete_pose_if_geometry_differs; exact approved asset reuse for proven repeated source pose",
+      "head_and_hair": "frozen F005 hair topology; original head orientation and source crop",
+      "mouth_caption_events": "separate original-time exposure stream; these are not keyed to body holds",
+      "camera": "only entire-pose uniform magnification about fixed source anchor; no local/rotating/shearing pose manufacture",
+      "holds": [
+        {
+          "shot_id": "S014_verse_left_table",
+          "range_frames_proposal": [
+            630,
+            720
+          ],
+          "range_times_proposal": [
+            26.25,
+            30.0
+          ],
+          "policy": "hold_mouth_cards_separate",
+          "internal_switch_events": "if multiple keys, source action extrema determine switches; not evenly distributed by code"
+        }
+      ]
+    },
+    {
+      "id": "taunt_right_close",
+      "source_frame": 738,
+      "source_pts": 492000,
+      "source_time_base": "1/16000",
+      "source_time": 30.75,
+      "source_full_path": "source/action-key-source/f00738.png",
+      "action": "右侧近景捏指持牌",
+      "notes": "同族候选，不证明整个人物只是缩放",
+      "audit_status": "human_visual_proposal_needs_producer_and_independent_audit",
+      "source_original_artwork_distinctness": "candidate_not_proven_by_hash",
+      "drawing_obligation": "native_complete_pose_if_geometry_differs; exact approved asset reuse for proven repeated source pose",
+      "head_and_hair": "frozen F005 hair topology; original head orientation and source crop",
+      "mouth_caption_events": "separate original-time exposure stream; these are not keyed to body holds",
+      "camera": "only entire-pose uniform magnification about fixed source anchor; no local/rotating/shearing pose manufacture",
+      "holds": [
+        {
+          "shot_id": "S015_verse_right_close",
+          "range_frames_proposal": [
+            720,
+            798
+          ],
+          "range_times_proposal": [
+            30.0,
+            33.25
+          ],
+          "policy": "hold_mouth_cards_separate",
+          "internal_switch_events": "if multiple keys, source action extrema determine switches; not evenly distributed by code"
+        }
+      ]
+    },
+    {
+      "id": "dark_center_card",
+      "source_frame": 804,
+      "source_pts": 536000,
+      "source_time_base": "1/16000",
+      "source_time": 33.5,
+      "source_full_path": "source/action-key-source/f00804.png",
+      "action": "暗底远景正面持牌",
+      "notes": "可与center_card核对后复用",
+      "audit_status": "human_visual_proposal_needs_producer_and_independent_audit",
+      "source_original_artwork_distinctness": "candidate_not_proven_by_hash",
+      "drawing_obligation": "native_complete_pose_if_geometry_differs; exact approved asset reuse for proven repeated source pose",
+      "head_and_hair": "frozen F005 hair topology; original head orientation and source crop",
+      "mouth_caption_events": "separate original-time exposure stream; these are not keyed to body holds",
+      "camera": "only entire-pose uniform magnification about fixed source anchor; no local/rotating/shearing pose manufacture",
+      "holds": [
+        {
+          "shot_id": "S017_dark_center",
+          "range_frames_proposal": [
+            804,
+            816
+          ],
+          "range_times_proposal": [
+            33.5,
+            34.0
+          ],
+          "policy": "hold_plus_source_uniform_zoom",
+          "internal_switch_events": "if multiple keys, source action extrema determine switches; not evenly distributed by code"
+        },
+        {
+          "shot_id": "S063_dark_center_short",
+          "range_frames_proposal": [
+            2448,
+            2460
+          ],
+          "range_times_proposal": [
+            102.0,
+            102.5
+          ],
+          "policy": "reuse_same_approved_asset",
+          "internal_switch_events": "if multiple keys, source action extrema determine switches; not evenly distributed by code"
+        }
+      ]
+    },
+    {
+      "id": "dark_fingers",
+      "source_frame": 816,
+      "source_pts": 544000,
+      "source_time_base": "1/16000",
+      "source_time": 34.0,
+      "source_full_path": "source/action-key-source/f00816.png",
+      "action": "暗底双手指在面旁持牌",
+      "notes": "不同手势，与正面双手握牌分开",
+      "audit_status": "human_visual_proposal_needs_producer_and_independent_audit",
+      "source_original_artwork_distinctness": "candidate_not_proven_by_hash",
+      "drawing_obligation": "native_complete_pose_if_geometry_differs; exact approved asset reuse for proven repeated source pose",
+      "head_and_hair": "frozen F005 hair topology; original head orientation and source crop",
+      "mouth_caption_events": "separate original-time exposure stream; these are not keyed to body holds",
+      "camera": "only entire-pose uniform magnification about fixed source anchor; no local/rotating/shearing pose manufacture",
+      "holds": [
+        {
+          "shot_id": "S018_dark_fingers",
+          "range_frames_proposal": [
+            816,
+            948
+          ],
+          "range_times_proposal": [
+            34.0,
+            39.5
+          ],
+          "policy": "hold_mouth_eyes_separate",
+          "internal_switch_events": "if multiple keys, source action extrema determine switches; not evenly distributed by code"
+        }
+      ]
+    },
+    {
+      "id": "mouth_strip_A",
+      "source_frame": 960,
+      "source_pts": 640000,
+      "source_time_base": "1/16000",
+      "source_time": 40.0,
+      "source_full_path": "source/action-key-source/f00960.png",
+      "action": "横向嘴部特写",
+      "notes": "仅出现发缘，发色/发缘也须描改，嘴型时间原样",
+      "audit_status": "human_visual_proposal_needs_producer_and_independent_audit",
+      "source_original_artwork_distinctness": "candidate_not_proven_by_hash",
+      "drawing_obligation": "native_complete_pose_if_geometry_differs; exact approved asset reuse for proven repeated source pose",
+      "head_and_hair": "frozen F005 hair topology; original head orientation and source crop",
+      "mouth_caption_events": "separate original-time exposure stream; these are not keyed to body holds",
+      "camera": "only entire-pose uniform magnification about fixed source anchor; no local/rotating/shearing pose manufacture",
+      "holds": [
+        {
+          "shot_id": "S019_mouth_A",
+          "range_frames_proposal": [
+            948,
+            984
+          ],
+          "range_times_proposal": [
+            39.5,
+            41.0
+          ],
+          "policy": "hold_mouth_separate",
+          "internal_switch_events": "if multiple keys, source action extrema determine switches; not evenly distributed by code"
+        },
+        {
+          "shot_id": "S066_mouth_B",
+          "range_frames_proposal": [
+            2598,
+            2628
+          ],
+          "range_times_proposal": [
+            108.25,
+            109.5
+          ],
+          "policy": "same_family_new_mouths",
+          "internal_switch_events": "if multiple keys, source action extrema determine switches; not evenly distributed by code"
+        }
+      ]
+    },
+    {
+      "id": "wink_hand",
+      "source_frame": 984,
+      "source_pts": 656000,
+      "source_time_base": "1/16000",
+      "source_time": 41.0,
+      "source_full_path": "source/action-key-source/f00984.png",
+      "action": "桌前歪头眨眼，左手前伸",
+      "notes": "完整姿态",
+      "audit_status": "human_visual_proposal_needs_producer_and_independent_audit",
+      "source_original_artwork_distinctness": "candidate_not_proven_by_hash",
+      "drawing_obligation": "native_complete_pose_if_geometry_differs; exact approved asset reuse for proven repeated source pose",
+      "head_and_hair": "frozen F005 hair topology; original head orientation and source crop",
+      "mouth_caption_events": "separate original-time exposure stream; these are not keyed to body holds",
+      "camera": "only entire-pose uniform magnification about fixed source anchor; no local/rotating/shearing pose manufacture",
+      "holds": [
+        {
+          "shot_id": "S020_wink",
+          "range_frames_proposal": [
+            984,
+            996
+          ],
+          "range_times_proposal": [
+            41.0,
+            41.5
+          ],
+          "policy": "hold",
+          "internal_switch_events": "if multiple keys, source action extrema determine switches; not evenly distributed by code"
+        }
+      ]
+    },
+    {
+      "id": "head_back_cry",
+      "source_frame": 996,
+      "source_pts": 664000,
+      "source_time_base": "1/16000",
+      "source_time": 41.5,
+      "source_full_path": "source/action-key-source/f00996.png",
+      "action": "后仰大张嘴哭叫",
+      "notes": "近景/远景在后文重复，源动作族复用候选",
+      "audit_status": "human_visual_proposal_needs_producer_and_independent_audit",
+      "source_original_artwork_distinctness": "candidate_not_proven_by_hash",
+      "drawing_obligation": "native_complete_pose_if_geometry_differs; exact approved asset reuse for proven repeated source pose",
+      "head_and_hair": "frozen F005 hair topology; original head orientation and source crop",
+      "mouth_caption_events": "separate original-time exposure stream; these are not keyed to body holds",
+      "camera": "only entire-pose uniform magnification about fixed source anchor; no local/rotating/shearing pose manufacture",
+      "holds": [
+        {
+          "shot_id": "S021_head_back",
+          "range_frames_proposal": [
+            996,
+            1020
+          ],
+          "range_times_proposal": [
+            41.5,
+            42.5
+          ],
+          "policy": "hold_plus_source_uniform_zoom",
+          "internal_switch_events": "if multiple keys, source action extrema determine switches; not evenly distributed by code"
+        },
+        {
+          "shot_id": "S030_head_back_repeat",
+          "range_frames_proposal": [
+            1182,
+            1206
+          ],
+          "range_times_proposal": [
+            49.25,
+            50.25
+          ],
+          "policy": "reuse_same_approved_asset",
+          "internal_switch_events": "if multiple keys, source action extrema determine switches; not evenly distributed by code"
+        },
+        {
+          "shot_id": "S076_head_back_reprise",
+          "range_frames_proposal": [
+            3192,
+            3216
+          ],
+          "range_times_proposal": [
+            133.0,
+            134.0
+          ],
+          "policy": "reuse_same_approved_asset",
+          "internal_switch_events": "if multiple keys, source action extrema determine switches; not evenly distributed by code"
+        },
+        {
+          "shot_id": "S085_head_back_reprise2",
+          "range_frames_proposal": [
+            3372,
+            3396
+          ],
+          "range_times_proposal": [
+            140.5,
+            141.5
+          ],
+          "policy": "reuse_same_approved_asset",
+          "internal_switch_events": "if multiple keys, source action extrema determine switches; not evenly distributed by code"
+        }
+      ]
+    },
+    {
+      "id": "tease_forehead_A",
+      "source_frame": 1020,
+      "source_pts": 680000,
+      "source_time_base": "1/16000",
+      "source_time": 42.5,
+      "source_full_path": "source/action-key-source/f01020.png",
+      "action": "桌前一手按额另一手张开",
+      "notes": "重复段落共用通过稿",
+      "audit_status": "human_visual_proposal_needs_producer_and_independent_audit",
+      "source_original_artwork_distinctness": "candidate_not_proven_by_hash",
+      "drawing_obligation": "native_complete_pose_if_geometry_differs; exact approved asset reuse for proven repeated source pose",
+      "head_and_hair": "frozen F005 hair topology; original head orientation and source crop",
+      "mouth_caption_events": "separate original-time exposure stream; these are not keyed to body holds",
+      "camera": "only entire-pose uniform magnification about fixed source anchor; no local/rotating/shearing pose manufacture",
+      "holds": [
+        {
+          "shot_id": "S022_tease_A",
+          "range_frames_proposal": [
+            1020,
+            1044
+          ],
+          "range_times_proposal": [
+            42.5,
+            43.5
+          ],
+          "policy": "alternate_extreme_holds",
+          "internal_switch_events": "if multiple keys, source action extrema determine switches; not evenly distributed by code"
+        },
+        {
+          "shot_id": "S031_tease_repeat",
+          "range_frames_proposal": [
+            1206,
+            1224
+          ],
+          "range_times_proposal": [
+            50.25,
+            51.0
+          ],
+          "policy": "reuse_same_approved_assets",
+          "internal_switch_events": "if multiple keys, source action extrema determine switches; not evenly distributed by code"
+        },
+        {
+          "shot_id": "S077_tease_reprise",
+          "range_frames_proposal": [
+            3216,
+            3240
+          ],
+          "range_times_proposal": [
+            134.0,
+            135.0
+          ],
+          "policy": "reuse_same_approved_assets",
+          "internal_switch_events": "if multiple keys, source action extrema determine switches; not evenly distributed by code"
+        },
+        {
+          "shot_id": "S086_tease_reprise2",
+          "range_frames_proposal": [
+            3396,
+            3420
+          ],
+          "range_times_proposal": [
+            141.5,
+            142.5
+          ],
+          "policy": "reuse_same_approved_assets",
+          "internal_switch_events": "if multiple keys, source action extrema determine switches; not evenly distributed by code"
+        }
+      ]
+    },
+    {
+      "id": "tease_forehead_B",
+      "source_frame": 1032,
+      "source_pts": 688000,
+      "source_time_base": "1/16000",
+      "source_time": 43.0,
+      "source_full_path": "source/action-key-source/f01032.png",
+      "action": "桌前左右姿势摆动另一极点",
+      "notes": "不能把A局部拉伸成B",
+      "audit_status": "human_visual_proposal_needs_producer_and_independent_audit",
+      "source_original_artwork_distinctness": "candidate_not_proven_by_hash",
+      "drawing_obligation": "native_complete_pose_if_geometry_differs; exact approved asset reuse for proven repeated source pose",
+      "head_and_hair": "frozen F005 hair topology; original head orientation and source crop",
+      "mouth_caption_events": "separate original-time exposure stream; these are not keyed to body holds",
+      "camera": "only entire-pose uniform magnification about fixed source anchor; no local/rotating/shearing pose manufacture",
+      "holds": [
+        {
+          "shot_id": "S022_tease_A",
+          "range_frames_proposal": [
+            1020,
+            1044
+          ],
+          "range_times_proposal": [
+            42.5,
+            43.5
+          ],
+          "policy": "alternate_extreme_holds",
+          "internal_switch_events": "if multiple keys, source action extrema determine switches; not evenly distributed by code"
+        },
+        {
+          "shot_id": "S031_tease_repeat",
+          "range_frames_proposal": [
+            1206,
+            1224
+          ],
+          "range_times_proposal": [
+            50.25,
+            51.0
+          ],
+          "policy": "reuse_same_approved_assets",
+          "internal_switch_events": "if multiple keys, source action extrema determine switches; not evenly distributed by code"
+        },
+        {
+          "shot_id": "S077_tease_reprise",
+          "range_frames_proposal": [
+            3216,
+            3240
+          ],
+          "range_times_proposal": [
+            134.0,
+            135.0
+          ],
+          "policy": "reuse_same_approved_assets",
+          "internal_switch_events": "if multiple keys, source action extrema determine switches; not evenly distributed by code"
+        },
+        {
+          "shot_id": "S086_tease_reprise2",
+          "range_frames_proposal": [
+            3396,
+            3420
+          ],
+          "range_times_proposal": [
+            141.5,
+            142.5
+          ],
+          "policy": "reuse_same_approved_assets",
+          "internal_switch_events": "if multiple keys, source action extrema determine switches; not evenly distributed by code"
+        }
+      ]
+    },
+    {
+      "id": "lean_forehead_close",
+      "source_frame": 1044,
+      "source_pts": 696000,
+      "source_time_base": "1/16000",
+      "source_time": 43.5,
+      "source_full_path": "source/action-key-source/f01044.png",
+      "action": "侧近景手按额",
+      "notes": "后方巨幅人物与前层小人属多画面，需要全部替换",
+      "audit_status": "human_visual_proposal_needs_producer_and_independent_audit",
+      "source_original_artwork_distinctness": "candidate_not_proven_by_hash",
+      "drawing_obligation": "native_complete_pose_if_geometry_differs; exact approved asset reuse for proven repeated source pose",
+      "head_and_hair": "frozen F005 hair topology; original head orientation and source crop",
+      "mouth_caption_events": "separate original-time exposure stream; these are not keyed to body holds",
+      "camera": "only entire-pose uniform magnification about fixed source anchor; no local/rotating/shearing pose manufacture",
+      "holds": [
+        {
+          "shot_id": "S023_forehead_collage",
+          "range_frames_proposal": [
+            1044,
+            1080
+          ],
+          "range_times_proposal": [
+            43.5,
+            45.0
+          ],
+          "policy": "hold_multiplane",
+          "internal_switch_events": "if multiple keys, source action extrema determine switches; not evenly distributed by code"
+        },
+        {
+          "shot_id": "S032_forehead_collage_repeat",
+          "range_frames_proposal": [
+            1224,
+            1248
+          ],
+          "range_times_proposal": [
+            51.0,
+            52.0
+          ],
+          "policy": "reuse_same_approved_assets",
+          "internal_switch_events": "if multiple keys, source action extrema determine switches; not evenly distributed by code"
+        },
+        {
+          "shot_id": "S078_forehead_collage_reprise",
+          "range_frames_proposal": [
+            3240,
+            3258
+          ],
+          "range_times_proposal": [
+            135.0,
+            135.75
+          ],
+          "policy": "reuse_same_approved_assets",
+          "internal_switch_events": "if multiple keys, source action extrema determine switches; not evenly distributed by code"
+        },
+        {
+          "shot_id": "S087_forehead_collage_reprise2",
+          "range_frames_proposal": [
+            3420,
+            3444
+          ],
+          "range_times_proposal": [
+            142.5,
+            143.5
+          ],
+          "policy": "reuse_same_approved_assets",
+          "internal_switch_events": "if multiple keys, source action extrema determine switches; not evenly distributed by code"
+        }
+      ]
+    },
+    {
+      "id": "lean_forehead_wide",
+      "source_frame": 1056,
+      "source_pts": 704000,
+      "source_time_base": "1/16000",
+      "source_time": 44.0,
+      "source_full_path": "source/action-key-source/f01056.png",
+      "action": "桌前手按额，多层人物构图",
+      "notes": "与1044可能同原画缩放，需全图审计后复用",
+      "audit_status": "human_visual_proposal_needs_producer_and_independent_audit",
+      "source_original_artwork_distinctness": "candidate_not_proven_by_hash",
+      "drawing_obligation": "native_complete_pose_if_geometry_differs; exact approved asset reuse for proven repeated source pose",
+      "head_and_hair": "frozen F005 hair topology; original head orientation and source crop",
+      "mouth_caption_events": "separate original-time exposure stream; these are not keyed to body holds",
+      "camera": "only entire-pose uniform magnification about fixed source anchor; no local/rotating/shearing pose manufacture",
+      "holds": [
+        {
+          "shot_id": "S023_forehead_collage",
+          "range_frames_proposal": [
+            1044,
+            1080
+          ],
+          "range_times_proposal": [
+            43.5,
+            45.0
+          ],
+          "policy": "hold_multiplane",
+          "internal_switch_events": "if multiple keys, source action extrema determine switches; not evenly distributed by code"
+        },
+        {
+          "shot_id": "S032_forehead_collage_repeat",
+          "range_frames_proposal": [
+            1224,
+            1248
+          ],
+          "range_times_proposal": [
+            51.0,
+            52.0
+          ],
+          "policy": "reuse_same_approved_assets",
+          "internal_switch_events": "if multiple keys, source action extrema determine switches; not evenly distributed by code"
+        },
+        {
+          "shot_id": "S078_forehead_collage_reprise",
+          "range_frames_proposal": [
+            3240,
+            3258
+          ],
+          "range_times_proposal": [
+            135.0,
+            135.75
+          ],
+          "policy": "reuse_same_approved_assets",
+          "internal_switch_events": "if multiple keys, source action extrema determine switches; not evenly distributed by code"
+        },
+        {
+          "shot_id": "S087_forehead_collage_reprise2",
+          "range_frames_proposal": [
+            3420,
+            3444
+          ],
+          "range_times_proposal": [
+            142.5,
+            143.5
+          ],
+          "policy": "reuse_same_approved_assets",
+          "internal_switch_events": "if multiple keys, source action extrema determine switches; not evenly distributed by code"
+        }
+      ]
+    },
+    {
+      "id": "tease_flip",
+      "source_frame": 1080,
+      "source_pts": 720000,
+      "source_time_base": "1/16000",
+      "source_time": 45.0,
+      "source_full_path": "source/action-key-source/f01080.png",
+      "action": "桌前反方向按额张手",
+      "notes": "是否镜像必须保留源牌/手性，不自动flip",
+      "audit_status": "human_visual_proposal_needs_producer_and_independent_audit",
+      "source_original_artwork_distinctness": "candidate_not_proven_by_hash",
+      "drawing_obligation": "native_complete_pose_if_geometry_differs; exact approved asset reuse for proven repeated source pose",
+      "head_and_hair": "frozen F005 hair topology; original head orientation and source crop",
+      "mouth_caption_events": "separate original-time exposure stream; these are not keyed to body holds",
+      "camera": "only entire-pose uniform magnification about fixed source anchor; no local/rotating/shearing pose manufacture",
+      "holds": [
+        {
+          "shot_id": "S024_tease_flip",
+          "range_frames_proposal": [
+            1080,
+            1092
+          ],
+          "range_times_proposal": [
+            45.0,
+            45.5
+          ],
+          "policy": "hold",
+          "internal_switch_events": "if multiple keys, source action extrema determine switches; not evenly distributed by code"
+        },
+        {
+          "shot_id": "S033_tease_flip_repeat",
+          "range_frames_proposal": [
+            1248,
+            1272
+          ],
+          "range_times_proposal": [
+            52.0,
+            53.0
+          ],
+          "policy": "reuse_same_approved_asset",
+          "internal_switch_events": "if multiple keys, source action extrema determine switches; not evenly distributed by code"
+        },
+        {
+          "shot_id": "S079_tease_flip_reprise",
+          "range_frames_proposal": [
+            3258,
+            3282
+          ],
+          "range_times_proposal": [
+            135.75,
+            136.75
+          ],
+          "policy": "reuse_same_approved_asset",
+          "internal_switch_events": "if multiple keys, source action extrema determine switches; not evenly distributed by code"
+        },
+        {
+          "shot_id": "S088_tease_flip_reprise2",
+          "range_frames_proposal": [
+            3444,
+            3468
+          ],
+          "range_times_proposal": [
+            143.5,
+            144.5
+          ],
+          "policy": "reuse_same_approved_asset",
+          "internal_switch_events": "if multiple keys, source action extrema determine switches; not evenly distributed by code"
+        }
+      ]
+    },
+    {
+      "id": "cheek_close",
+      "source_frame": 1092,
+      "source_pts": 728000,
+      "source_time_base": "1/16000",
+      "source_time": 45.5,
+      "source_full_path": "source/action-key-source/f01092.png",
+      "action": "靠面捏脸，近景斜眼",
+      "notes": "后文近远构图复用候选",
+      "audit_status": "human_visual_proposal_needs_producer_and_independent_audit",
+      "source_original_artwork_distinctness": "candidate_not_proven_by_hash",
+      "drawing_obligation": "native_complete_pose_if_geometry_differs; exact approved asset reuse for proven repeated source pose",
+      "head_and_hair": "frozen F005 hair topology; original head orientation and source crop",
+      "mouth_caption_events": "separate original-time exposure stream; these are not keyed to body holds",
+      "camera": "only entire-pose uniform magnification about fixed source anchor; no local/rotating/shearing pose manufacture",
+      "holds": [
+        {
+          "shot_id": "S025_cheek",
+          "range_frames_proposal": [
+            1092,
+            1110
+          ],
+          "range_times_proposal": [
+            45.5,
+            46.25
+          ],
+          "policy": "hold_multiplane_zoom",
+          "internal_switch_events": "if multiple keys, source action extrema determine switches; not evenly distributed by code"
+        },
+        {
+          "shot_id": "S034_cheek_repeat",
+          "range_frames_proposal": [
+            1272,
+            1290
+          ],
+          "range_times_proposal": [
+            53.0,
+            53.75
+          ],
+          "policy": "reuse_same_approved_asset",
+          "internal_switch_events": "if multiple keys, source action extrema determine switches; not evenly distributed by code"
+        },
+        {
+          "shot_id": "S080_cheek_reprise",
+          "range_frames_proposal": [
+            3282,
+            3306
+          ],
+          "range_times_proposal": [
+            136.75,
+            137.75
+          ],
+          "policy": "reuse_same_approved_asset",
+          "internal_switch_events": "if multiple keys, source action extrema determine switches; not evenly distributed by code"
+        },
+        {
+          "shot_id": "S089_cheek_reprise2",
+          "range_frames_proposal": [
+            3468,
+            3486
+          ],
+          "range_times_proposal": [
+            144.5,
+            145.25
+          ],
+          "policy": "reuse_same_approved_asset",
+          "internal_switch_events": "if multiple keys, source action extrema determine switches; not evenly distributed by code"
+        }
+      ]
+    },
+    {
+      "id": "cover_eyes",
+      "source_frame": 1110,
+      "source_pts": 740000,
+      "source_time_base": "1/16000",
+      "source_time": 46.25,
+      "source_full_path": "source/action-key-source/f01110.png",
+      "action": "双袖遮脸伏桌",
+      "notes": "头饰后发原位置，保持遮挡",
+      "audit_status": "human_visual_proposal_needs_producer_and_independent_audit",
+      "source_original_artwork_distinctness": "candidate_not_proven_by_hash",
+      "drawing_obligation": "native_complete_pose_if_geometry_differs; exact approved asset reuse for proven repeated source pose",
+      "head_and_hair": "frozen F005 hair topology; original head orientation and source crop",
+      "mouth_caption_events": "separate original-time exposure stream; these are not keyed to body holds",
+      "camera": "only entire-pose uniform magnification about fixed source anchor; no local/rotating/shearing pose manufacture",
+      "holds": [
+        {
+          "shot_id": "S026_cover_eyes",
+          "range_frames_proposal": [
+            1110,
+            1122
+          ],
+          "range_times_proposal": [
+            46.25,
+            46.75
+          ],
+          "policy": "hold",
+          "internal_switch_events": "if multiple keys, source action extrema determine switches; not evenly distributed by code"
+        },
+        {
+          "shot_id": "S081_cover_reprise",
+          "range_frames_proposal": [
+            3306,
+            3318
+          ],
+          "range_times_proposal": [
+            137.75,
+            138.25
+          ],
+          "policy": "reuse_same_approved_asset",
+          "internal_switch_events": "if multiple keys, source action extrema determine switches; not evenly distributed by code"
+        }
+      ]
+    },
+    {
+      "id": "creep_palms",
+      "source_frame": 1122,
+      "source_pts": 748000,
+      "source_time_base": "1/16000",
+      "source_time": 46.75,
+      "source_full_path": "source/action-key-source/f01122.png",
+      "action": "笑脸双掌向前",
+      "notes": "原表情为简笔圆笑脸，不能加正常眼睛",
+      "audit_status": "human_visual_proposal_needs_producer_and_independent_audit",
+      "source_original_artwork_distinctness": "candidate_not_proven_by_hash",
+      "drawing_obligation": "native_complete_pose_if_geometry_differs; exact approved asset reuse for proven repeated source pose",
+      "head_and_hair": "frozen F005 hair topology; original head orientation and source crop",
+      "mouth_caption_events": "separate original-time exposure stream; these are not keyed to body holds",
+      "camera": "only entire-pose uniform magnification about fixed source anchor; no local/rotating/shearing pose manufacture",
+      "holds": [
+        {
+          "shot_id": "S027_creep",
+          "range_frames_proposal": [
+            1122,
+            1134
+          ],
+          "range_times_proposal": [
+            46.75,
+            47.25
+          ],
+          "policy": "hold",
+          "internal_switch_events": "if multiple keys, source action extrema determine switches; not evenly distributed by code"
+        },
+        {
+          "shot_id": "S082_creep_reprise",
+          "range_frames_proposal": [
+            3318,
+            3330
+          ],
+          "range_times_proposal": [
+            138.25,
+            138.75
+          ],
+          "policy": "reuse_same_approved_asset",
+          "internal_switch_events": "if multiple keys, source action extrema determine switches; not evenly distributed by code"
+        }
+      ]
+    },
+    {
+      "id": "explain_palms_A",
+      "source_frame": 1134,
+      "source_pts": 756000,
+      "source_time_base": "1/16000",
+      "source_time": 47.25,
+      "source_full_path": "source/action-key-source/f01134.png",
+      "action": "桌前双掌向上讲解",
+      "notes": "左极点",
+      "audit_status": "human_visual_proposal_needs_producer_and_independent_audit",
+      "source_original_artwork_distinctness": "candidate_not_proven_by_hash",
+      "drawing_obligation": "native_complete_pose_if_geometry_differs; exact approved asset reuse for proven repeated source pose",
+      "head_and_hair": "frozen F005 hair topology; original head orientation and source crop",
+      "mouth_caption_events": "separate original-time exposure stream; these are not keyed to body holds",
+      "camera": "only entire-pose uniform magnification about fixed source anchor; no local/rotating/shearing pose manufacture",
+      "holds": [
+        {
+          "shot_id": "S028_explain",
+          "range_frames_proposal": [
+            1134,
+            1158
+          ],
+          "range_times_proposal": [
+            47.25,
+            48.25
+          ],
+          "policy": "alternate_extreme_holds",
+          "internal_switch_events": "if multiple keys, source action extrema determine switches; not evenly distributed by code"
+        },
+        {
+          "shot_id": "S083_explain_reprise",
+          "range_frames_proposal": [
+            3330,
+            3354
+          ],
+          "range_times_proposal": [
+            138.75,
+            139.75
+          ],
+          "policy": "reuse_same_approved_assets",
+          "internal_switch_events": "if multiple keys, source action extrema determine switches; not evenly distributed by code"
+        }
+      ]
+    },
+    {
+      "id": "explain_palms_B",
+      "source_frame": 1146,
+      "source_pts": 764000,
+      "source_time_base": "1/16000",
+      "source_time": 47.75,
+      "source_full_path": "source/action-key-source/f01146.png",
+      "action": "桌前双掌向上讲解另一极点",
+      "notes": "右极点",
+      "audit_status": "human_visual_proposal_needs_producer_and_independent_audit",
+      "source_original_artwork_distinctness": "candidate_not_proven_by_hash",
+      "drawing_obligation": "native_complete_pose_if_geometry_differs; exact approved asset reuse for proven repeated source pose",
+      "head_and_hair": "frozen F005 hair topology; original head orientation and source crop",
+      "mouth_caption_events": "separate original-time exposure stream; these are not keyed to body holds",
+      "camera": "only entire-pose uniform magnification about fixed source anchor; no local/rotating/shearing pose manufacture",
+      "holds": [
+        {
+          "shot_id": "S028_explain",
+          "range_frames_proposal": [
+            1134,
+            1158
+          ],
+          "range_times_proposal": [
+            47.25,
+            48.25
+          ],
+          "policy": "alternate_extreme_holds",
+          "internal_switch_events": "if multiple keys, source action extrema determine switches; not evenly distributed by code"
+        },
+        {
+          "shot_id": "S083_explain_reprise",
+          "range_frames_proposal": [
+            3330,
+            3354
+          ],
+          "range_times_proposal": [
+            138.75,
+            139.75
+          ],
+          "policy": "reuse_same_approved_assets",
+          "internal_switch_events": "if multiple keys, source action extrema determine switches; not evenly distributed by code"
+        }
+      ]
+    },
+    {
+      "id": "shush",
+      "source_frame": 1158,
+      "source_pts": 772000,
+      "source_time_base": "1/16000",
+      "source_time": 48.25,
+      "source_full_path": "source/action-key-source/f01158.png",
+      "action": "暗底手指抵嘴",
+      "notes": "嘴手前后遮挡必须正确",
+      "audit_status": "human_visual_proposal_needs_producer_and_independent_audit",
+      "source_original_artwork_distinctness": "candidate_not_proven_by_hash",
+      "drawing_obligation": "native_complete_pose_if_geometry_differs; exact approved asset reuse for proven repeated source pose",
+      "head_and_hair": "frozen F005 hair topology; original head orientation and source crop",
+      "mouth_caption_events": "separate original-time exposure stream; these are not keyed to body holds",
+      "camera": "only entire-pose uniform magnification about fixed source anchor; no local/rotating/shearing pose manufacture",
+      "holds": [
+        {
+          "shot_id": "S029_shush",
+          "range_frames_proposal": [
+            1158,
+            1182
+          ],
+          "range_times_proposal": [
+            48.25,
+            49.25
+          ],
+          "policy": "hold_mouth_separate",
+          "internal_switch_events": "if multiple keys, source action extrema determine switches; not evenly distributed by code"
+        },
+        {
+          "shot_id": "S084_shush_reprise",
+          "range_frames_proposal": [
+            3354,
+            3372
+          ],
+          "range_times_proposal": [
+            139.75,
+            140.5
+          ],
+          "policy": "reuse_same_approved_asset",
+          "internal_switch_events": "if multiple keys, source action extrema determine switches; not evenly distributed by code"
+        }
+      ]
+    },
+    {
+      "id": "game_set",
+      "source_frame": 1290,
+      "source_pts": 860000,
+      "source_time_base": "1/16000",
+      "source_time": 53.75,
+      "source_full_path": "source/action-key-source/f01290.png",
+      "action": "伏桌持牌，GAME SET",
+      "notes": "字卡另层，白衬衣保留",
+      "audit_status": "human_visual_proposal_needs_producer_and_independent_audit",
+      "source_original_artwork_distinctness": "candidate_not_proven_by_hash",
+      "drawing_obligation": "native_complete_pose_if_geometry_differs; exact approved asset reuse for proven repeated source pose",
+      "head_and_hair": "frozen F005 hair topology; original head orientation and source crop",
+      "mouth_caption_events": "separate original-time exposure stream; these are not keyed to body holds",
+      "camera": "only entire-pose uniform magnification about fixed source anchor; no local/rotating/shearing pose manufacture",
+      "holds": [
+        {
+          "shot_id": "S035_game_set",
+          "range_frames_proposal": [
+            1290,
+            1308
+          ],
+          "range_times_proposal": [
+            53.75,
+            54.5
+          ],
+          "policy": "hold",
+          "internal_switch_events": "if multiple keys, source action extrema determine switches; not evenly distributed by code"
+        },
+        {
+          "shot_id": "S090_game_set_reprise",
+          "range_frames_proposal": [
+            3486,
+            3498
+          ],
+          "range_times_proposal": [
+            145.25,
+            145.75
+          ],
+          "policy": "reuse_same_approved_asset",
+          "internal_switch_events": "if multiple keys, source action extrema determine switches; not evenly distributed by code"
+        }
+      ]
+    },
+    {
+      "id": "raise_card",
+      "source_frame": 1308,
+      "source_pts": 872000,
+      "source_time_base": "1/16000",
+      "source_time": 54.5,
+      "source_full_path": "source/action-key-source/f01308.png",
+      "action": "一臂举牌另一袖掩嘴",
+      "notes": "新动作极点",
+      "audit_status": "human_visual_proposal_needs_producer_and_independent_audit",
+      "source_original_artwork_distinctness": "candidate_not_proven_by_hash",
+      "drawing_obligation": "native_complete_pose_if_geometry_differs; exact approved asset reuse for proven repeated source pose",
+      "head_and_hair": "frozen F005 hair topology; original head orientation and source crop",
+      "mouth_caption_events": "separate original-time exposure stream; these are not keyed to body holds",
+      "camera": "only entire-pose uniform magnification about fixed source anchor; no local/rotating/shearing pose manufacture",
+      "holds": [
+        {
+          "shot_id": "S036_raise_card",
+          "range_frames_proposal": [
+            1308,
+            1320
+          ],
+          "range_times_proposal": [
+            54.5,
+            55.0
+          ],
+          "policy": "hold",
+          "internal_switch_events": "if multiple keys, source action extrema determine switches; not evenly distributed by code"
+        },
+        {
+          "shot_id": "S091_raise_card_reprise",
+          "range_frames_proposal": [
+            3498,
+            3510
+          ],
+          "range_times_proposal": [
+            145.75,
+            146.25
+          ],
+          "policy": "reuse_same_approved_asset",
+          "internal_switch_events": "if multiple keys, source action extrema determine switches; not evenly distributed by code"
+        }
+      ]
+    },
+    {
+      "id": "glow_eye",
+      "source_frame": 1326,
+      "source_pts": 884000,
+      "source_time_base": "1/16000",
+      "source_time": 55.25,
+      "source_full_path": "source/action-key-source/f01326.png",
+      "action": "近景两指遮眼红光",
+      "notes": "光效是覆盖层，身体和发束固定",
+      "audit_status": "human_visual_proposal_needs_producer_and_independent_audit",
+      "source_original_artwork_distinctness": "candidate_not_proven_by_hash",
+      "drawing_obligation": "native_complete_pose_if_geometry_differs; exact approved asset reuse for proven repeated source pose",
+      "head_and_hair": "frozen F005 hair topology; original head orientation and source crop",
+      "mouth_caption_events": "separate original-time exposure stream; these are not keyed to body holds",
+      "camera": "only entire-pose uniform magnification about fixed source anchor; no local/rotating/shearing pose manufacture",
+      "holds": [
+        {
+          "shot_id": "S037_glow_eye",
+          "range_frames_proposal": [
+            1320,
+            1338
+          ],
+          "range_times_proposal": [
+            55.0,
+            55.75
+          ],
+          "policy": "hold_light_overlay",
+          "internal_switch_events": "if multiple keys, source action extrema determine switches; not evenly distributed by code"
+        },
+        {
+          "shot_id": "S092_glow_reprise",
+          "range_frames_proposal": [
+            3510,
+            3534
+          ],
+          "range_times_proposal": [
+            146.25,
+            147.25
+          ],
+          "policy": "reuse_same_approved_asset",
+          "internal_switch_events": "if multiple keys, source action extrema determine switches; not evenly distributed by code"
+        }
+      ]
+    },
+    {
+      "id": "victory_arms",
+      "source_frame": 1338,
+      "source_pts": 892000,
+      "source_time_base": "1/16000",
+      "source_time": 55.75,
+      "source_full_path": "source/action-key-source/f01338.png",
+      "action": "桌前双臂张开庆祝",
+      "notes": "彩纸背景/前景不得一并固定到人物",
+      "audit_status": "human_visual_proposal_needs_producer_and_independent_audit",
+      "source_original_artwork_distinctness": "candidate_not_proven_by_hash",
+      "drawing_obligation": "native_complete_pose_if_geometry_differs; exact approved asset reuse for proven repeated source pose",
+      "head_and_hair": "frozen F005 hair topology; original head orientation and source crop",
+      "mouth_caption_events": "separate original-time exposure stream; these are not keyed to body holds",
+      "camera": "only entire-pose uniform magnification about fixed source anchor; no local/rotating/shearing pose manufacture",
+      "holds": [
+        {
+          "shot_id": "S038_victory",
+          "range_frames_proposal": [
+            1338,
+            1362
+          ],
+          "range_times_proposal": [
+            55.75,
+            56.75
+          ],
+          "policy": "hold_confetti_separate",
+          "internal_switch_events": "if multiple keys, source action extrema determine switches; not evenly distributed by code"
+        },
+        {
+          "shot_id": "S093_victory_reprise",
+          "range_frames_proposal": [
+            3534,
+            3558
+          ],
+          "range_times_proposal": [
+            147.25,
+            148.25
+          ],
+          "policy": "reuse_same_approved_asset",
+          "internal_switch_events": "if multiple keys, source action extrema determine switches; not evenly distributed by code"
+        }
+      ]
+    },
+    {
+      "id": "taunt_close_A",
+      "source_frame": 1380,
+      "source_pts": 920000,
+      "source_time_base": "1/16000",
+      "source_time": 57.5,
+      "source_full_path": "source/action-key-source/f01380.png",
+      "action": "左侧近景，捏指持牌A",
+      "notes": "已有1秒小样主族，冻结发束后采用",
+      "audit_status": "human_visual_proposal_needs_producer_and_independent_audit",
+      "source_original_artwork_distinctness": "candidate_not_proven_by_hash",
+      "drawing_obligation": "native_complete_pose_if_geometry_differs; exact approved asset reuse for proven repeated source pose",
+      "head_and_hair": "frozen F005 hair topology; original head orientation and source crop",
+      "mouth_caption_events": "separate original-time exposure stream; these are not keyed to body holds",
+      "camera": "only entire-pose uniform magnification about fixed source anchor; no local/rotating/shearing pose manufacture",
+      "holds": [
+        {
+          "shot_id": "S039_taunt_hook_left",
+          "range_frames_proposal": [
+            1362,
+            1410
+          ],
+          "range_times_proposal": [
+            56.75,
+            58.75
+          ],
+          "policy": "core_pose_holds_mouth_separate",
+          "internal_switch_events": "if multiple keys, source action extrema determine switches; not evenly distributed by code"
+        },
+        {
+          "shot_id": "S094_taunt_hook_reprise1",
+          "range_frames_proposal": [
+            3558,
+            3600
+          ],
+          "range_times_proposal": [
+            148.25,
+            150.0
+          ],
+          "policy": "reuse_same_approved_assets",
+          "internal_switch_events": "if multiple keys, source action extrema determine switches; not evenly distributed by code"
+        }
+      ]
+    },
+    {
+      "id": "taunt_close_B",
+      "source_frame": 1386,
+      "source_pts": 924000,
+      "source_time_base": "1/16000",
+      "source_time": 57.75,
+      "source_full_path": "source/action-key-source/f01386.png",
+      "action": "左侧近景，捏指持牌B",
+      "notes": "已有小样不同手/牌姿态，非连接拉伸",
+      "audit_status": "human_visual_proposal_needs_producer_and_independent_audit",
+      "source_original_artwork_distinctness": "candidate_not_proven_by_hash",
+      "drawing_obligation": "native_complete_pose_if_geometry_differs; exact approved asset reuse for proven repeated source pose",
+      "head_and_hair": "frozen F005 hair topology; original head orientation and source crop",
+      "mouth_caption_events": "separate original-time exposure stream; these are not keyed to body holds",
+      "camera": "only entire-pose uniform magnification about fixed source anchor; no local/rotating/shearing pose manufacture",
+      "holds": [
+        {
+          "shot_id": "S039_taunt_hook_left",
+          "range_frames_proposal": [
+            1362,
+            1410
+          ],
+          "range_times_proposal": [
+            56.75,
+            58.75
+          ],
+          "policy": "core_pose_holds_mouth_separate",
+          "internal_switch_events": "if multiple keys, source action extrema determine switches; not evenly distributed by code"
+        },
+        {
+          "shot_id": "S094_taunt_hook_reprise1",
+          "range_frames_proposal": [
+            3558,
+            3600
+          ],
+          "range_times_proposal": [
+            148.25,
+            150.0
+          ],
+          "policy": "reuse_same_approved_assets",
+          "internal_switch_events": "if multiple keys, source action extrema determine switches; not evenly distributed by code"
+        }
+      ]
+    },
+    {
+      "id": "taunt_close_C",
+      "source_frame": 1392,
+      "source_pts": 928000,
+      "source_time_base": "1/16000",
+      "source_time": 58.0,
+      "source_full_path": "source/action-key-source/f01392.png",
+      "action": "左侧近景，持牌闭嘴C",
+      "notes": "已有小样候选，嘴字卡可独立；实际此源帧闭嘴",
+      "audit_status": "human_visual_proposal_needs_producer_and_independent_audit",
+      "source_original_artwork_distinctness": "candidate_not_proven_by_hash",
+      "drawing_obligation": "native_complete_pose_if_geometry_differs; exact approved asset reuse for proven repeated source pose",
+      "head_and_hair": "frozen F005 hair topology; original head orientation and source crop",
+      "mouth_caption_events": "separate original-time exposure stream; these are not keyed to body holds",
+      "camera": "only entire-pose uniform magnification about fixed source anchor; no local/rotating/shearing pose manufacture",
+      "holds": [
+        {
+          "shot_id": "S039_taunt_hook_left",
+          "range_frames_proposal": [
+            1362,
+            1410
+          ],
+          "range_times_proposal": [
+            56.75,
+            58.75
+          ],
+          "policy": "core_pose_holds_mouth_separate",
+          "internal_switch_events": "if multiple keys, source action extrema determine switches; not evenly distributed by code"
+        },
+        {
+          "shot_id": "S094_taunt_hook_reprise1",
+          "range_frames_proposal": [
+            3558,
+            3600
+          ],
+          "range_times_proposal": [
+            148.25,
+            150.0
+          ],
+          "policy": "reuse_same_approved_assets",
+          "internal_switch_events": "if multiple keys, source action extrema determine switches; not evenly distributed by code"
+        }
+      ]
+    },
+    {
+      "id": "taunt_flank_A",
+      "source_frame": 1416,
+      "source_pts": 944000,
+      "source_time_base": "1/16000",
+      "source_time": 59.0,
+      "source_full_path": "source/action-key-source/f01416.png",
+      "action": "右侧近景捏指持牌A",
+      "notes": "左右空间独立审计",
+      "audit_status": "human_visual_proposal_needs_producer_and_independent_audit",
+      "source_original_artwork_distinctness": "candidate_not_proven_by_hash",
+      "drawing_obligation": "native_complete_pose_if_geometry_differs; exact approved asset reuse for proven repeated source pose",
+      "head_and_hair": "frozen F005 hair topology; original head orientation and source crop",
+      "mouth_caption_events": "separate original-time exposure stream; these are not keyed to body holds",
+      "camera": "only entire-pose uniform magnification about fixed source anchor; no local/rotating/shearing pose manufacture",
+      "holds": [
+        {
+          "shot_id": "S040_taunt_hook_right",
+          "range_frames_proposal": [
+            1410,
+            1452
+          ],
+          "range_times_proposal": [
+            58.75,
+            60.5
+          ],
+          "policy": "hold_mouth_separate",
+          "internal_switch_events": "if multiple keys, source action extrema determine switches; not evenly distributed by code"
+        },
+        {
+          "shot_id": "S095_taunt_hook_reprise2",
+          "range_frames_proposal": [
+            3600,
+            3648
+          ],
+          "range_times_proposal": [
+            150.0,
+            152.0
+          ],
+          "policy": "reuse_same_approved_asset",
+          "internal_switch_events": "if multiple keys, source action extrema determine switches; not evenly distributed by code"
+        }
+      ]
+    },
+    {
+      "id": "taunt_flank_B",
+      "source_frame": 1452,
+      "source_pts": 968000,
+      "source_time_base": "1/16000",
+      "source_time": 60.5,
+      "source_full_path": "source/action-key-source/f01452.png",
+      "action": "左侧回切持牌",
+      "notes": "与1380族核对再共用",
+      "audit_status": "human_visual_proposal_needs_producer_and_independent_audit",
+      "source_original_artwork_distinctness": "candidate_not_proven_by_hash",
+      "drawing_obligation": "native_complete_pose_if_geometry_differs; exact approved asset reuse for proven repeated source pose",
+      "head_and_hair": "frozen F005 hair topology; original head orientation and source crop",
+      "mouth_caption_events": "separate original-time exposure stream; these are not keyed to body holds",
+      "camera": "only entire-pose uniform magnification about fixed source anchor; no local/rotating/shearing pose manufacture",
+      "holds": [
+        {
+          "shot_id": "S041_taunt_hook_left_repeat",
+          "range_frames_proposal": [
+            1452,
+            1500
+          ],
+          "range_times_proposal": [
+            60.5,
+            62.5
+          ],
+          "policy": "hold_mouth_separate",
+          "internal_switch_events": "if multiple keys, source action extrema determine switches; not evenly distributed by code"
+        },
+        {
+          "shot_id": "S096_taunt_hook_reprise3",
+          "range_frames_proposal": [
+            3648,
+            3690
+          ],
+          "range_times_proposal": [
+            152.0,
+            153.75
+          ],
+          "policy": "reuse_same_approved_asset",
+          "internal_switch_events": "if multiple keys, source action extrema determine switches; not evenly distributed by code"
+        }
+      ]
+    },
+    {
+      "id": "clap_pose_A",
+      "source_frame": 1500,
+      "source_pts": 1000000,
+      "source_time_base": "1/16000",
+      "source_time": 62.5,
+      "source_full_path": "source/action-key-source/f01500.png",
+      "action": "坐桌前一手搔头一手前伸",
+      "notes": "鼓掌手是前景图形另层，不随角色漂移",
+      "audit_status": "human_visual_proposal_needs_producer_and_independent_audit",
+      "source_original_artwork_distinctness": "candidate_not_proven_by_hash",
+      "drawing_obligation": "native_complete_pose_if_geometry_differs; exact approved asset reuse for proven repeated source pose",
+      "head_and_hair": "frozen F005 hair topology; original head orientation and source crop",
+      "mouth_caption_events": "separate original-time exposure stream; these are not keyed to body holds",
+      "camera": "only entire-pose uniform magnification about fixed source anchor; no local/rotating/shearing pose manufacture",
+      "holds": [
+        {
+          "shot_id": "S042_clap",
+          "range_frames_proposal": [
+            1500,
+            1548
+          ],
+          "range_times_proposal": [
+            62.5,
+            64.5
+          ],
+          "policy": "alternate_extreme_holds_claps_separate",
+          "internal_switch_events": "if multiple keys, source action extrema determine switches; not evenly distributed by code"
+        },
+        {
+          "shot_id": "S097_clap_reprise",
+          "range_frames_proposal": [
+            3690,
+            3738
+          ],
+          "range_times_proposal": [
+            153.75,
+            155.75
+          ],
+          "policy": "reuse_same_approved_assets",
+          "internal_switch_events": "if multiple keys, source action extrema determine switches; not evenly distributed by code"
+        }
+      ]
+    },
+    {
+      "id": "clap_pose_B",
+      "source_frame": 1530,
+      "source_pts": 1020000,
+      "source_time_base": "1/16000",
+      "source_time": 63.75,
+      "source_full_path": "source/action-key-source/f01530.png",
+      "action": "搔头动作另一极点",
+      "notes": "与A手臂角度不同时完整新稿",
+      "audit_status": "human_visual_proposal_needs_producer_and_independent_audit",
+      "source_original_artwork_distinctness": "candidate_not_proven_by_hash",
+      "drawing_obligation": "native_complete_pose_if_geometry_differs; exact approved asset reuse for proven repeated source pose",
+      "head_and_hair": "frozen F005 hair topology; original head orientation and source crop",
+      "mouth_caption_events": "separate original-time exposure stream; these are not keyed to body holds",
+      "camera": "only entire-pose uniform magnification about fixed source anchor; no local/rotating/shearing pose manufacture",
+      "holds": [
+        {
+          "shot_id": "S042_clap",
+          "range_frames_proposal": [
+            1500,
+            1548
+          ],
+          "range_times_proposal": [
+            62.5,
+            64.5
+          ],
+          "policy": "alternate_extreme_holds_claps_separate",
+          "internal_switch_events": "if multiple keys, source action extrema determine switches; not evenly distributed by code"
+        },
+        {
+          "shot_id": "S097_clap_reprise",
+          "range_frames_proposal": [
+            3690,
+            3738
+          ],
+          "range_times_proposal": [
+            153.75,
+            155.75
+          ],
+          "policy": "reuse_same_approved_assets",
+          "internal_switch_events": "if multiple keys, source action extrema determine switches; not evenly distributed by code"
+        }
+      ]
+    },
+    {
+      "id": "taunt_right_A",
+      "source_frame": 1560,
+      "source_pts": 1040000,
+      "source_time_base": "1/16000",
+      "source_time": 65.0,
+      "source_full_path": "source/action-key-source/f01560.png",
+      "action": "右侧持牌捏指",
+      "notes": "同族不自动判像素一致",
+      "audit_status": "human_visual_proposal_needs_producer_and_independent_audit",
+      "source_original_artwork_distinctness": "candidate_not_proven_by_hash",
+      "drawing_obligation": "native_complete_pose_if_geometry_differs; exact approved asset reuse for proven repeated source pose",
+      "head_and_hair": "frozen F005 hair topology; original head orientation and source crop",
+      "mouth_caption_events": "separate original-time exposure stream; these are not keyed to body holds",
+      "camera": "only entire-pose uniform magnification about fixed source anchor; no local/rotating/shearing pose manufacture",
+      "holds": [
+        {
+          "shot_id": "S043_taunt_hook_right_repeat",
+          "range_frames_proposal": [
+            1548,
+            1590
+          ],
+          "range_times_proposal": [
+            64.5,
+            66.25
+          ],
+          "policy": "hold_mouth_separate",
+          "internal_switch_events": "if multiple keys, source action extrema determine switches; not evenly distributed by code"
+        },
+        {
+          "shot_id": "S098_taunt_hook_reprise4",
+          "range_frames_proposal": [
+            3738,
+            3786
+          ],
+          "range_times_proposal": [
+            155.75,
+            157.75
+          ],
+          "policy": "reuse_same_approved_asset",
+          "internal_switch_events": "if multiple keys, source action extrema determine switches; not evenly distributed by code"
+        }
+      ]
+    },
+    {
+      "id": "taunt_left_A",
+      "source_frame": 1620,
+      "source_pts": 1080000,
+      "source_time_base": "1/16000",
+      "source_time": 67.5,
+      "source_full_path": "source/action-key-source/f01620.png",
+      "action": "左侧持牌捏指",
+      "notes": "与1368/1380候选重复",
+      "audit_status": "human_visual_proposal_needs_producer_and_independent_audit",
+      "source_original_artwork_distinctness": "candidate_not_proven_by_hash",
+      "drawing_obligation": "native_complete_pose_if_geometry_differs; exact approved asset reuse for proven repeated source pose",
+      "head_and_hair": "frozen F005 hair topology; original head orientation and source crop",
+      "mouth_caption_events": "separate original-time exposure stream; these are not keyed to body holds",
+      "camera": "only entire-pose uniform magnification about fixed source anchor; no local/rotating/shearing pose manufacture",
+      "holds": [
+        {
+          "shot_id": "S044_taunt_hook_left_last",
+          "range_frames_proposal": [
+            1590,
+            1656
+          ],
+          "range_times_proposal": [
+            66.25,
+            69.0
+          ],
+          "policy": "hold_mouth_separate",
+          "internal_switch_events": "if multiple keys, source action extrema determine switches; not evenly distributed by code"
+        },
+        {
+          "shot_id": "S099_taunt_hook_reprise5",
+          "range_frames_proposal": [
+            3786,
+            3846
+          ],
+          "range_times_proposal": [
+            157.75,
+            160.25
+          ],
+          "policy": "reuse_same_approved_asset",
+          "internal_switch_events": "if multiple keys, source action extrema determine switches; not evenly distributed by code"
+        }
+      ]
+    },
+    {
+      "id": "dynamite_eyes",
+      "source_frame": 1668,
+      "source_pts": 1112000,
+      "source_time_base": "1/16000",
+      "source_time": 69.5,
+      "source_full_path": "source/action-key-source/f01668.png",
+      "action": "Dynamite眼部特写",
+      "notes": "眼睛按原片保留；框中发缘才改，勿强加头饰",
+      "audit_status": "human_visual_proposal_needs_producer_and_independent_audit",
+      "source_original_artwork_distinctness": "candidate_not_proven_by_hash",
+      "drawing_obligation": "native_complete_pose_if_geometry_differs; exact approved asset reuse for proven repeated source pose",
+      "head_and_hair": "frozen F005 hair topology; original head orientation and source crop",
+      "mouth_caption_events": "separate original-time exposure stream; these are not keyed to body holds",
+      "camera": "only entire-pose uniform magnification about fixed source anchor; no local/rotating/shearing pose manufacture",
+      "holds": [
+        {
+          "shot_id": "S045_dynamite_eye",
+          "range_frames_proposal": [
+            1656,
+            1686
+          ],
+          "range_times_proposal": [
+            69.0,
+            70.25
+          ],
+          "policy": "hold_eye_overlay",
+          "internal_switch_events": "if multiple keys, source action extrema determine switches; not evenly distributed by code"
+        },
+        {
+          "shot_id": "S100_dynamite_eye_reprise",
+          "range_frames_proposal": [
+            3846,
+            3876
+          ],
+          "range_times_proposal": [
+            160.25,
+            161.5
+          ],
+          "policy": "reuse_same_approved_asset",
+          "internal_switch_events": "if multiple keys, source action extrema determine switches; not evenly distributed by code"
+        }
+      ]
+    },
+    {
+      "id": "dab_start",
+      "source_frame": 1692,
+      "source_pts": 1128000,
+      "source_time_base": "1/16000",
+      "source_time": 70.5,
+      "source_full_path": "source/action-key-source/f01692.png",
+      "action": "副歌扑桌起势",
+      "notes": "保留起势",
+      "audit_status": "human_visual_proposal_needs_producer_and_independent_audit",
+      "source_original_artwork_distinctness": "candidate_not_proven_by_hash",
+      "drawing_obligation": "native_complete_pose_if_geometry_differs; exact approved asset reuse for proven repeated source pose",
+      "head_and_hair": "frozen F005 hair topology; original head orientation and source crop",
+      "mouth_caption_events": "separate original-time exposure stream; these are not keyed to body holds",
+      "camera": "only entire-pose uniform magnification about fixed source anchor; no local/rotating/shearing pose manufacture",
+      "holds": [
+        {
+          "shot_id": "S046_dab_hook",
+          "range_frames_proposal": [
+            1686,
+            1728
+          ],
+          "range_times_proposal": [
+            70.25,
+            72.0
+          ],
+          "policy": "start_extreme_landed_holds",
+          "internal_switch_events": "if multiple keys, source action extrema determine switches; not evenly distributed by code"
+        },
+        {
+          "shot_id": "S105_dab_final",
+          "range_frames_proposal": [
+            4062,
+            4104
+          ],
+          "range_times_proposal": [
+            169.25,
+            171.0
+          ],
+          "policy": "reuse_same_approved_assets",
+          "internal_switch_events": "if multiple keys, source action extrema determine switches; not evenly distributed by code"
+        }
+      ]
+    },
+    {
+      "id": "dab_land",
+      "source_frame": 1704,
+      "source_pts": 1136000,
+      "source_time_base": "1/16000",
+      "source_time": 71.0,
+      "source_full_path": "source/action-key-source/f01704.png",
+      "action": "副歌扑桌落定",
+      "notes": "保留落定，去掉连接动作绘图",
+      "audit_status": "human_visual_proposal_needs_producer_and_independent_audit",
+      "source_original_artwork_distinctness": "candidate_not_proven_by_hash",
+      "drawing_obligation": "native_complete_pose_if_geometry_differs; exact approved asset reuse for proven repeated source pose",
+      "head_and_hair": "frozen F005 hair topology; original head orientation and source crop",
+      "mouth_caption_events": "separate original-time exposure stream; these are not keyed to body holds",
+      "camera": "only entire-pose uniform magnification about fixed source anchor; no local/rotating/shearing pose manufacture",
+      "holds": [
+        {
+          "shot_id": "S046_dab_hook",
+          "range_frames_proposal": [
+            1686,
+            1728
+          ],
+          "range_times_proposal": [
+            70.25,
+            72.0
+          ],
+          "policy": "start_extreme_landed_holds",
+          "internal_switch_events": "if multiple keys, source action extrema determine switches; not evenly distributed by code"
+        },
+        {
+          "shot_id": "S105_dab_final",
+          "range_frames_proposal": [
+            4062,
+            4104
+          ],
+          "range_times_proposal": [
+            169.25,
+            171.0
+          ],
+          "policy": "reuse_same_approved_assets",
+          "internal_switch_events": "if multiple keys, source action extrema determine switches; not evenly distributed by code"
+        }
+      ]
+    },
+    {
+      "id": "chorus_tilt_left",
+      "source_frame": 1728,
+      "source_pts": 1152000,
+      "source_time_base": "1/16000",
+      "source_time": 72.0,
+      "source_full_path": "source/action-key-source/f01728.png",
+      "action": "副歌桌前左倾持牌",
+      "notes": "长段摆头复用主极点",
+      "audit_status": "human_visual_proposal_needs_producer_and_independent_audit",
+      "source_original_artwork_distinctness": "candidate_not_proven_by_hash",
+      "drawing_obligation": "native_complete_pose_if_geometry_differs; exact approved asset reuse for proven repeated source pose",
+      "head_and_hair": "frozen F005 hair topology; original head orientation and source crop",
+      "mouth_caption_events": "separate original-time exposure stream; these are not keyed to body holds",
+      "camera": "only entire-pose uniform magnification about fixed source anchor; no local/rotating/shearing pose manufacture",
+      "holds": [
+        {
+          "shot_id": "S047_chorus_sway_A",
+          "range_frames_proposal": [
+            1728,
+            1896
+          ],
+          "range_times_proposal": [
+            72.0,
+            79.0
+          ],
+          "policy": "alternate_extreme_holds",
+          "internal_switch_events": "if multiple keys, source action extrema determine switches; not evenly distributed by code"
+        },
+        {
+          "shot_id": "S049_chorus_sway_B",
+          "range_frames_proposal": [
+            1908,
+            2064
+          ],
+          "range_times_proposal": [
+            79.5,
+            86.0
+          ],
+          "policy": "reuse_same_approved_assets",
+          "internal_switch_events": "if multiple keys, source action extrema determine switches; not evenly distributed by code"
+        },
+        {
+          "shot_id": "S106_chorus_final",
+          "range_frames_proposal": [
+            4104,
+            4266
+          ],
+          "range_times_proposal": [
+            171.0,
+            177.75
+          ],
+          "policy": "reuse_same_approved_assets",
+          "internal_switch_events": "if multiple keys, source action extrema determine switches; not evenly distributed by code"
+        }
+      ]
+    },
+    {
+      "id": "chorus_tilt_right",
+      "source_frame": 1776,
+      "source_pts": 1184000,
+      "source_time_base": "1/16000",
+      "source_time": 74.0,
+      "source_full_path": "source/action-key-source/f01776.png",
+      "action": "副歌桌前右倾持牌",
+      "notes": "长段摆头另一主极点，不旋转左稿造右姿态",
+      "audit_status": "human_visual_proposal_needs_producer_and_independent_audit",
+      "source_original_artwork_distinctness": "candidate_not_proven_by_hash",
+      "drawing_obligation": "native_complete_pose_if_geometry_differs; exact approved asset reuse for proven repeated source pose",
+      "head_and_hair": "frozen F005 hair topology; original head orientation and source crop",
+      "mouth_caption_events": "separate original-time exposure stream; these are not keyed to body holds",
+      "camera": "only entire-pose uniform magnification about fixed source anchor; no local/rotating/shearing pose manufacture",
+      "holds": [
+        {
+          "shot_id": "S047_chorus_sway_A",
+          "range_frames_proposal": [
+            1728,
+            1896
+          ],
+          "range_times_proposal": [
+            72.0,
+            79.0
+          ],
+          "policy": "alternate_extreme_holds",
+          "internal_switch_events": "if multiple keys, source action extrema determine switches; not evenly distributed by code"
+        },
+        {
+          "shot_id": "S049_chorus_sway_B",
+          "range_frames_proposal": [
+            1908,
+            2064
+          ],
+          "range_times_proposal": [
+            79.5,
+            86.0
+          ],
+          "policy": "reuse_same_approved_assets",
+          "internal_switch_events": "if multiple keys, source action extrema determine switches; not evenly distributed by code"
+        },
+        {
+          "shot_id": "S106_chorus_final",
+          "range_frames_proposal": [
+            4104,
+            4266
+          ],
+          "range_times_proposal": [
+            171.0,
+            177.75
+          ],
+          "policy": "reuse_same_approved_assets",
+          "internal_switch_events": "if multiple keys, source action extrema determine switches; not evenly distributed by code"
+        }
+      ]
+    },
+    {
+      "id": "maid_paws",
+      "source_frame": 1896,
+      "source_pts": 1264000,
+      "source_time_base": "1/16000",
+      "source_time": 79.0,
+      "source_full_path": "source/action-key-source/f01896.png",
+      "action": "原片女仆服举猫爪插入",
+      "notes": "必须保留原MV女仆装；DS身份只发型配饰，不换回衬衣",
+      "audit_status": "human_visual_proposal_needs_producer_and_independent_audit",
+      "source_original_artwork_distinctness": "candidate_not_proven_by_hash",
+      "drawing_obligation": "native_complete_pose_if_geometry_differs; exact approved asset reuse for proven repeated source pose",
+      "head_and_hair": "frozen F005 hair topology; original head orientation and source crop",
+      "mouth_caption_events": "separate original-time exposure stream; these are not keyed to body holds",
+      "camera": "only entire-pose uniform magnification about fixed source anchor; no local/rotating/shearing pose manufacture",
+      "holds": [
+        {
+          "shot_id": "S048_maid_insert",
+          "range_frames_proposal": [
+            1896,
+            1908
+          ],
+          "range_times_proposal": [
+            79.0,
+            79.5
+          ],
+          "policy": "hold",
+          "internal_switch_events": "if multiple keys, source action extrema determine switches; not evenly distributed by code"
+        }
+      ]
+    },
+    {
+      "id": "hashtag_side",
+      "source_frame": 2082,
+      "source_pts": 1388000,
+      "source_time_base": "1/16000",
+      "source_time": 86.75,
+      "source_full_path": "source/action-key-source/f02082.png",
+      "action": "同人tag画面旁侧身捏脸",
+      "notes": "保留源字卡，左侧同人示例需标待决定范围，不误当主角没画",
+      "audit_status": "human_visual_proposal_needs_producer_and_independent_audit",
+      "source_original_artwork_distinctness": "candidate_not_proven_by_hash",
+      "drawing_obligation": "native_complete_pose_if_geometry_differs; exact approved asset reuse for proven repeated source pose",
+      "head_and_hair": "frozen F005 hair topology; original head orientation and source crop",
+      "mouth_caption_events": "separate original-time exposure stream; these are not keyed to body holds",
+      "camera": "only entire-pose uniform magnification about fixed source anchor; no local/rotating/shearing pose manufacture",
+      "holds": [
+        {
+          "shot_id": "S052_hashtag",
+          "range_frames_proposal": [
+            2082,
+            2094
+          ],
+          "range_times_proposal": [
+            86.75,
+            87.25
+          ],
+          "policy": "hold",
+          "internal_switch_events": "if multiple keys, source action extrema determine switches; not evenly distributed by code"
+        }
+      ]
+    },
+    {
+      "id": "arm_stretch",
+      "source_frame": 2172,
+      "source_pts": 1448000,
+      "source_time_base": "1/16000",
+      "source_time": 90.5,
+      "source_full_path": "source/action-key-source/f02172.png",
+      "action": "头上有牌，单臂水平伸出",
+      "notes": "顶牌为源剧情道具不能去掉",
+      "audit_status": "human_visual_proposal_needs_producer_and_independent_audit",
+      "source_original_artwork_distinctness": "candidate_not_proven_by_hash",
+      "drawing_obligation": "native_complete_pose_if_geometry_differs; exact approved asset reuse for proven repeated source pose",
+      "head_and_hair": "frozen F005 hair topology; original head orientation and source crop",
+      "mouth_caption_events": "separate original-time exposure stream; these are not keyed to body holds",
+      "camera": "only entire-pose uniform magnification about fixed source anchor; no local/rotating/shearing pose manufacture",
+      "holds": [
+        {
+          "shot_id": "S054_arm_stretch",
+          "range_frames_proposal": [
+            2172,
+            2256
+          ],
+          "range_times_proposal": [
+            90.5,
+            94.0
+          ],
+          "policy": "hold_fan_overlay_separate",
+          "internal_switch_events": "if multiple keys, source action extrema determine switches; not evenly distributed by code"
+        }
+      ]
+    },
+    {
+      "id": "fan_cards",
+      "source_frame": 2256,
+      "source_pts": 1504000,
+      "source_time_base": "1/16000",
+      "source_time": 94.0,
+      "source_full_path": "source/action-key-source/f02256.png",
+      "action": "对方黑手展示一扇牌",
+      "notes": "没有主角色头发可保持原片，不生成替代卡牌文字",
+      "audit_status": "human_visual_proposal_needs_producer_and_independent_audit",
+      "source_original_artwork_distinctness": "candidate_not_proven_by_hash",
+      "drawing_obligation": "native_complete_pose_if_geometry_differs; exact approved asset reuse for proven repeated source pose",
+      "head_and_hair": "frozen F005 hair topology; original head orientation and source crop",
+      "mouth_caption_events": "separate original-time exposure stream; these are not keyed to body holds",
+      "camera": "only entire-pose uniform magnification about fixed source anchor; no local/rotating/shearing pose manufacture",
+      "holds": [
+        {
+          "shot_id": "S055_opponent_fan",
+          "range_frames_proposal": [
+            2256,
+            2280
+          ],
+          "range_times_proposal": [
+            94.0,
+            95.0
+          ],
+          "policy": "source_passthrough_no_character_hair",
+          "internal_switch_events": "if multiple keys, source action extrema determine switches; not evenly distributed by code"
+        }
+      ]
+    },
+    {
+      "id": "maid_sign_A",
+      "source_frame": 2298,
+      "source_pts": 1532000,
+      "source_time_base": "1/16000",
+      "source_time": 95.75,
+      "source_full_path": "source/action-key-source/f02298.png",
+      "action": "女仆服坐椅举告示牌",
+      "notes": "原服装尾巴猫爪道具保留，DS发鳍耳替换",
+      "audit_status": "human_visual_proposal_needs_producer_and_independent_audit",
+      "source_original_artwork_distinctness": "candidate_not_proven_by_hash",
+      "drawing_obligation": "native_complete_pose_if_geometry_differs; exact approved asset reuse for proven repeated source pose",
+      "head_and_hair": "frozen F005 hair topology; original head orientation and source crop",
+      "mouth_caption_events": "separate original-time exposure stream; these are not keyed to body holds",
+      "camera": "only entire-pose uniform magnification about fixed source anchor; no local/rotating/shearing pose manufacture",
+      "holds": [
+        {
+          "shot_id": "S057_maid_sign_A",
+          "range_frames_proposal": [
+            2298,
+            2334
+          ],
+          "range_times_proposal": [
+            95.75,
+            97.25
+          ],
+          "policy": "hold",
+          "internal_switch_events": "if multiple keys, source action extrema determine switches; not evenly distributed by code"
+        },
+        {
+          "shot_id": "S060_maid_sign_A_repeat",
+          "range_frames_proposal": [
+            2382,
+            2406
+          ],
+          "range_times_proposal": [
+            99.25,
+            100.25
+          ],
+          "policy": "reuse_same_approved_asset",
+          "internal_switch_events": "if multiple keys, source action extrema determine switches; not evenly distributed by code"
+        }
+      ]
+    },
+    {
+      "id": "maid_sign_B",
+      "source_frame": 2334,
+      "source_pts": 1556000,
+      "source_time_base": "1/16000",
+      "source_time": 97.25,
+      "source_full_path": "source/action-key-source/f02334.png",
+      "action": "女仆服另一侧举牌",
+      "notes": "新动作/透视，不能镜像文字",
+      "audit_status": "human_visual_proposal_needs_producer_and_independent_audit",
+      "source_original_artwork_distinctness": "candidate_not_proven_by_hash",
+      "drawing_obligation": "native_complete_pose_if_geometry_differs; exact approved asset reuse for proven repeated source pose",
+      "head_and_hair": "frozen F005 hair topology; original head orientation and source crop",
+      "mouth_caption_events": "separate original-time exposure stream; these are not keyed to body holds",
+      "camera": "only entire-pose uniform magnification about fixed source anchor; no local/rotating/shearing pose manufacture",
+      "holds": [
+        {
+          "shot_id": "S058_maid_sign_B",
+          "range_frames_proposal": [
+            2334,
+            2370
+          ],
+          "range_times_proposal": [
+            97.25,
+            98.75
+          ],
+          "policy": "hold",
+          "internal_switch_events": "if multiple keys, source action extrema determine switches; not evenly distributed by code"
+        }
+      ]
+    },
+    {
+      "id": "maid_upside_down",
+      "source_frame": 2370,
+      "source_pts": 1580000,
+      "source_time_base": "1/16000",
+      "source_time": 98.75,
+      "source_full_path": "source/action-key-source/f02370.png",
+      "action": "女仆服倒挂露猫爪",
+      "notes": "倒置原姿态画，不以代码旋转前稿替代；允许发饰出框",
+      "audit_status": "human_visual_proposal_needs_producer_and_independent_audit",
+      "source_original_artwork_distinctness": "candidate_not_proven_by_hash",
+      "drawing_obligation": "native_complete_pose_if_geometry_differs; exact approved asset reuse for proven repeated source pose",
+      "head_and_hair": "frozen F005 hair topology; original head orientation and source crop",
+      "mouth_caption_events": "separate original-time exposure stream; these are not keyed to body holds",
+      "camera": "only entire-pose uniform magnification about fixed source anchor; no local/rotating/shearing pose manufacture",
+      "holds": [
+        {
+          "shot_id": "S059_maid_flip_A",
+          "range_frames_proposal": [
+            2370,
+            2382
+          ],
+          "range_times_proposal": [
+            98.75,
+            99.25
+          ],
+          "policy": "hold",
+          "internal_switch_events": "if multiple keys, source action extrema determine switches; not evenly distributed by code"
+        },
+        {
+          "shot_id": "S061_maid_flip_B",
+          "range_frames_proposal": [
+            2406,
+            2430
+          ],
+          "range_times_proposal": [
+            100.25,
+            101.25
+          ],
+          "policy": "reuse_same_approved_asset",
+          "internal_switch_events": "if multiple keys, source action extrema determine switches; not evenly distributed by code"
+        },
+        {
+          "shot_id": "S062_wipe_maid",
+          "range_frames_proposal": [
+            2430,
+            2448
+          ],
+          "range_times_proposal": [
+            101.25,
+            102.0
+          ],
+          "policy": "hold_source_transition",
+          "internal_switch_events": "if multiple keys, source action extrema determine switches; not evenly distributed by code"
+        }
+      ]
+    },
+    {
+      "id": "dark_panic",
+      "source_frame": 2460,
+      "source_pts": 1640000,
+      "source_time_base": "1/16000",
+      "source_time": 102.5,
+      "source_full_path": "source/action-key-source/f02460.png",
+      "action": "暗底近景惶恐双指持牌",
+      "notes": "表情新稿/眼口层，身体与816复用候选",
+      "audit_status": "human_visual_proposal_needs_producer_and_independent_audit",
+      "source_original_artwork_distinctness": "candidate_not_proven_by_hash",
+      "drawing_obligation": "native_complete_pose_if_geometry_differs; exact approved asset reuse for proven repeated source pose",
+      "head_and_hair": "frozen F005 hair topology; original head orientation and source crop",
+      "mouth_caption_events": "separate original-time exposure stream; these are not keyed to body holds",
+      "camera": "only entire-pose uniform magnification about fixed source anchor; no local/rotating/shearing pose manufacture",
+      "holds": [
+        {
+          "shot_id": "S064_dark_panic",
+          "range_frames_proposal": [
+            2460,
+            2586
+          ],
+          "range_times_proposal": [
+            102.5,
+            107.75
+          ],
+          "policy": "hold_mouth_eyes_separate",
+          "internal_switch_events": "if multiple keys, source action extrema determine switches; not evenly distributed by code"
+        }
+      ]
+    },
+    {
+      "id": "head_down_dark",
+      "source_frame": 2586,
+      "source_pts": 1724000,
+      "source_time_base": "1/16000",
+      "source_time": 107.75,
+      "source_full_path": "source/action-key-source/f02586.png",
+      "action": "暗底垂头双手伏桌",
+      "notes": "独立姿态，不把GAME SET手臂直接套过来",
+      "audit_status": "human_visual_proposal_needs_producer_and_independent_audit",
+      "source_original_artwork_distinctness": "candidate_not_proven_by_hash",
+      "drawing_obligation": "native_complete_pose_if_geometry_differs; exact approved asset reuse for proven repeated source pose",
+      "head_and_hair": "frozen F005 hair topology; original head orientation and source crop",
+      "mouth_caption_events": "separate original-time exposure stream; these are not keyed to body holds",
+      "camera": "only entire-pose uniform magnification about fixed source anchor; no local/rotating/shearing pose manufacture",
+      "holds": [
+        {
+          "shot_id": "S065_head_down",
+          "range_frames_proposal": [
+            2586,
+            2598
+          ],
+          "range_times_proposal": [
+            107.75,
+            108.25
+          ],
+          "policy": "hold",
+          "internal_switch_events": "if multiple keys, source action extrema determine switches; not evenly distributed by code"
+        }
+      ]
+    },
+    {
+      "id": "plead_A",
+      "source_frame": 2628,
+      "source_pts": 1752000,
+      "source_time_base": "1/16000",
+      "source_time": 109.5,
+      "source_full_path": "source/action-key-source/f02628.png",
+      "action": "暗底低头眼怯，单手持牌",
+      "notes": "原画喉部遮挡和表情保留",
+      "audit_status": "human_visual_proposal_needs_producer_and_independent_audit",
+      "source_original_artwork_distinctness": "candidate_not_proven_by_hash",
+      "drawing_obligation": "native_complete_pose_if_geometry_differs; exact approved asset reuse for proven repeated source pose",
+      "head_and_hair": "frozen F005 hair topology; original head orientation and source crop",
+      "mouth_caption_events": "separate original-time exposure stream; these are not keyed to body holds",
+      "camera": "only entire-pose uniform magnification about fixed source anchor; no local/rotating/shearing pose manufacture",
+      "holds": [
+        {
+          "shot_id": "S067_pleading",
+          "range_frames_proposal": [
+            2628,
+            2778
+          ],
+          "range_times_proposal": [
+            109.5,
+            115.75
+          ],
+          "policy": "alternate_extreme_holds",
+          "internal_switch_events": "if multiple keys, source action extrema determine switches; not evenly distributed by code"
+        }
+      ]
+    },
+    {
+      "id": "plead_B",
+      "source_frame": 2670,
+      "source_pts": 1780000,
+      "source_time_base": "1/16000",
+      "source_time": 111.25,
+      "source_full_path": "source/action-key-source/f02670.png",
+      "action": "暗底低头双指靠面",
+      "notes": "手势变化需新稿",
+      "audit_status": "human_visual_proposal_needs_producer_and_independent_audit",
+      "source_original_artwork_distinctness": "candidate_not_proven_by_hash",
+      "drawing_obligation": "native_complete_pose_if_geometry_differs; exact approved asset reuse for proven repeated source pose",
+      "head_and_hair": "frozen F005 hair topology; original head orientation and source crop",
+      "mouth_caption_events": "separate original-time exposure stream; these are not keyed to body holds",
+      "camera": "only entire-pose uniform magnification about fixed source anchor; no local/rotating/shearing pose manufacture",
+      "holds": [
+        {
+          "shot_id": "S067_pleading",
+          "range_frames_proposal": [
+            2628,
+            2778
+          ],
+          "range_times_proposal": [
+            109.5,
+            115.75
+          ],
+          "policy": "alternate_extreme_holds",
+          "internal_switch_events": "if multiple keys, source action extrema determine switches; not evenly distributed by code"
+        }
+      ]
+    },
+    {
+      "id": "lean_forward",
+      "source_frame": 2778,
+      "source_pts": 1852000,
+      "source_time_base": "1/16000",
+      "source_time": 115.75,
+      "source_full_path": "source/action-key-source/f02778.png",
+      "action": "暗底靠桌歪头持牌求出牌",
+      "notes": "完整新姿态",
+      "audit_status": "human_visual_proposal_needs_producer_and_independent_audit",
+      "source_original_artwork_distinctness": "candidate_not_proven_by_hash",
+      "drawing_obligation": "native_complete_pose_if_geometry_differs; exact approved asset reuse for proven repeated source pose",
+      "head_and_hair": "frozen F005 hair topology; original head orientation and source crop",
+      "mouth_caption_events": "separate original-time exposure stream; these are not keyed to body holds",
+      "camera": "only entire-pose uniform magnification about fixed source anchor; no local/rotating/shearing pose manufacture",
+      "holds": [
+        {
+          "shot_id": "S068_lean_forward",
+          "range_frames_proposal": [
+            2778,
+            2814
+          ],
+          "range_times_proposal": [
+            115.75,
+            117.25
+          ],
+          "policy": "hold",
+          "internal_switch_events": "if multiple keys, source action extrema determine switches; not evenly distributed by code"
+        }
+      ]
+    },
+    {
+      "id": "fold_arm_right",
+      "source_frame": 2826,
+      "source_pts": 1884000,
+      "source_time_base": "1/16000",
+      "source_time": 117.75,
+      "source_full_path": "source/action-key-source/f02826.png",
+      "action": "侧身环臂，身体朝右",
+      "notes": "体型和手性按源",
+      "audit_status": "human_visual_proposal_needs_producer_and_independent_audit",
+      "source_original_artwork_distinctness": "candidate_not_proven_by_hash",
+      "drawing_obligation": "native_complete_pose_if_geometry_differs; exact approved asset reuse for proven repeated source pose",
+      "head_and_hair": "frozen F005 hair topology; original head orientation and source crop",
+      "mouth_caption_events": "separate original-time exposure stream; these are not keyed to body holds",
+      "camera": "only entire-pose uniform magnification about fixed source anchor; no local/rotating/shearing pose manufacture",
+      "holds": [
+        {
+          "shot_id": "S070_fold_right",
+          "range_frames_proposal": [
+            2826,
+            2916
+          ],
+          "range_times_proposal": [
+            117.75,
+            121.5
+          ],
+          "policy": "hold",
+          "internal_switch_events": "if multiple keys, source action extrema determine switches; not evenly distributed by code"
+        }
+      ]
+    },
+    {
+      "id": "fold_arm_left",
+      "source_frame": 2916,
+      "source_pts": 1944000,
+      "source_time_base": "1/16000",
+      "source_time": 121.5,
+      "source_full_path": "source/action-key-source/f02916.png",
+      "action": "侧身环臂，身体朝左",
+      "notes": "与右向分开画，不镜像替代",
+      "audit_status": "human_visual_proposal_needs_producer_and_independent_audit",
+      "source_original_artwork_distinctness": "candidate_not_proven_by_hash",
+      "drawing_obligation": "native_complete_pose_if_geometry_differs; exact approved asset reuse for proven repeated source pose",
+      "head_and_hair": "frozen F005 hair topology; original head orientation and source crop",
+      "mouth_caption_events": "separate original-time exposure stream; these are not keyed to body holds",
+      "camera": "only entire-pose uniform magnification about fixed source anchor; no local/rotating/shearing pose manufacture",
+      "holds": [
+        {
+          "shot_id": "S071_fold_left",
+          "range_frames_proposal": [
+            2916,
+            2988
+          ],
+          "range_times_proposal": [
+            121.5,
+            124.5
+          ],
+          "policy": "hold",
+          "internal_switch_events": "if multiple keys, source action extrema determine switches; not evenly distributed by code"
+        },
+        {
+          "shot_id": "S072_wipe_partial",
+          "range_frames_proposal": [
+            2988,
+            3006
+          ],
+          "range_times_proposal": [
+            124.5,
+            125.25
+          ],
+          "policy": "hold_source_transition",
+          "internal_switch_events": "if multiple keys, source action extrema determine switches; not evenly distributed by code"
+        }
+      ]
+    },
+    {
+      "id": "sleep_table",
+      "source_frame": 3006,
+      "source_pts": 2004000,
+      "source_time_base": "1/16000",
+      "source_time": 125.25,
+      "source_full_path": "source/action-key-source/f03006.png",
+      "action": "角色横卧桌上睡觉",
+      "notes": "原衣衬/椅子/嘴部小音符/悬钟属于源构图",
+      "audit_status": "human_visual_proposal_needs_producer_and_independent_audit",
+      "source_original_artwork_distinctness": "candidate_not_proven_by_hash",
+      "drawing_obligation": "native_complete_pose_if_geometry_differs; exact approved asset reuse for proven repeated source pose",
+      "head_and_hair": "frozen F005 hair topology; original head orientation and source crop",
+      "mouth_caption_events": "separate original-time exposure stream; these are not keyed to body holds",
+      "camera": "only entire-pose uniform magnification about fixed source anchor; no local/rotating/shearing pose manufacture",
+      "holds": [
+        {
+          "shot_id": "S073_sleep",
+          "range_frames_proposal": [
+            3006,
+            3144
+          ],
+          "range_times_proposal": [
+            125.25,
+            131.0
+          ],
+          "policy": "hold_clock_overlay_separate",
+          "internal_switch_events": "if multiple keys, source action extrema determine switches; not evenly distributed by code"
+        }
+      ]
+    },
+    {
+      "id": "mouth_strip_B",
+      "source_frame": 3156,
+      "source_pts": 2104000,
+      "source_time_base": "1/16000",
+      "source_time": 131.5,
+      "source_full_path": "source/action-key-source/f03156.png",
+      "action": "竖向嘴部特写",
+      "notes": "口型与发缘描改，去掉连接口型可由原曝光独立保留",
+      "audit_status": "human_visual_proposal_needs_producer_and_independent_audit",
+      "source_original_artwork_distinctness": "candidate_not_proven_by_hash",
+      "drawing_obligation": "native_complete_pose_if_geometry_differs; exact approved asset reuse for proven repeated source pose",
+      "head_and_hair": "frozen F005 hair topology; original head orientation and source crop",
+      "mouth_caption_events": "separate original-time exposure stream; these are not keyed to body holds",
+      "camera": "only entire-pose uniform magnification about fixed source anchor; no local/rotating/shearing pose manufacture",
+      "holds": [
+        {
+          "shot_id": "S074_vertical_mouth",
+          "range_frames_proposal": [
+            3144,
+            3174
+          ],
+          "range_times_proposal": [
+            131.0,
+            132.25
+          ],
+          "policy": "hold_mouth_separate",
+          "internal_switch_events": "if multiple keys, source action extrema determine switches; not evenly distributed by code"
+        }
+      ]
+    },
+    {
+      "id": "game_prepare",
+      "source_frame": 3174,
+      "source_pts": 2116000,
+      "source_time_base": "1/16000",
+      "source_time": 132.25,
+      "source_full_path": "source/action-key-source/f03174.png",
+      "action": "伏桌准备发力",
+      "notes": "保留起势和落定；爆闪连接动作不单独绘图",
+      "audit_status": "human_visual_proposal_needs_producer_and_independent_audit",
+      "source_original_artwork_distinctness": "candidate_not_proven_by_hash",
+      "drawing_obligation": "native_complete_pose_if_geometry_differs; exact approved asset reuse for proven repeated source pose",
+      "head_and_hair": "frozen F005 hair topology; original head orientation and source crop",
+      "mouth_caption_events": "separate original-time exposure stream; these are not keyed to body holds",
+      "camera": "only entire-pose uniform magnification about fixed source anchor; no local/rotating/shearing pose manufacture",
+      "holds": [
+        {
+          "shot_id": "S075_game_prepare",
+          "range_frames_proposal": [
+            3174,
+            3192
+          ],
+          "range_times_proposal": [
+            132.25,
+            133.0
+          ],
+          "policy": "hold_no_connector_redraw",
+          "internal_switch_events": "if multiple keys, source action extrema determine switches; not evenly distributed by code"
+        }
+      ]
+    },
+    {
+      "id": "wink_reprise",
+      "source_frame": 3912,
+      "source_pts": 2608000,
+      "source_time_base": "1/16000",
+      "source_time": 163.0,
+      "source_full_path": "source/action-key-source/f03912.png",
+      "action": "尾副歌前桌前歪头眨眼",
+      "notes": "与984核对复用，牌前景不同可另层",
+      "audit_status": "human_visual_proposal_needs_producer_and_independent_audit",
+      "source_original_artwork_distinctness": "candidate_not_proven_by_hash",
+      "drawing_obligation": "native_complete_pose_if_geometry_differs; exact approved asset reuse for proven repeated source pose",
+      "head_and_hair": "frozen F005 hair topology; original head orientation and source crop",
+      "mouth_caption_events": "separate original-time exposure stream; these are not keyed to body holds",
+      "camera": "only entire-pose uniform magnification about fixed source anchor; no local/rotating/shearing pose manufacture",
+      "holds": [
+        {
+          "shot_id": "S102_wink_reprise",
+          "range_frames_proposal": [
+            3912,
+            3924
+          ],
+          "range_times_proposal": [
+            163.0,
+            163.5
+          ],
+          "policy": "reuse_candidate_with_984",
+          "internal_switch_events": "if multiple keys, source action extrema determine switches; not evenly distributed by code"
+        }
+      ]
+    },
+    {
+      "id": "center_dark_card",
+      "source_frame": 3924,
+      "source_pts": 2616000,
+      "source_time_base": "1/16000",
+      "source_time": 163.5,
+      "source_full_path": "source/action-key-source/f03924.png",
+      "action": "暗底正面双手持牌终局",
+      "notes": "身体center_card候选复用，眼口另层",
+      "audit_status": "human_visual_proposal_needs_producer_and_independent_audit",
+      "source_original_artwork_distinctness": "candidate_not_proven_by_hash",
+      "drawing_obligation": "native_complete_pose_if_geometry_differs; exact approved asset reuse for proven repeated source pose",
+      "head_and_hair": "frozen F005 hair topology; original head orientation and source crop",
+      "mouth_caption_events": "separate original-time exposure stream; these are not keyed to body holds",
+      "camera": "only entire-pose uniform magnification about fixed source anchor; no local/rotating/shearing pose manufacture",
+      "holds": [
+        {
+          "shot_id": "S103_dark_center_final",
+          "range_frames_proposal": [
+            3924,
+            4050
+          ],
+          "range_times_proposal": [
+            163.5,
+            168.75
+          ],
+          "policy": "hold_mouth_eyes_separate",
+          "internal_switch_events": "if multiple keys, source action extrema determine switches; not evenly distributed by code"
+        }
+      ]
+    },
+    {
+      "id": "dynamite_face",
+      "source_frame": 4050,
+      "source_pts": 2700000,
+      "source_time_base": "1/16000",
+      "source_time": 168.75,
+      "source_full_path": "source/action-key-source/f04050.png",
+      "action": "Dynamite正面脸近景",
+      "notes": "不同于1668眼部小框，完整刘海母稿派生",
+      "audit_status": "human_visual_proposal_needs_producer_and_independent_audit",
+      "source_original_artwork_distinctness": "candidate_not_proven_by_hash",
+      "drawing_obligation": "native_complete_pose_if_geometry_differs; exact approved asset reuse for proven repeated source pose",
+      "head_and_hair": "frozen F005 hair topology; original head orientation and source crop",
+      "mouth_caption_events": "separate original-time exposure stream; these are not keyed to body holds",
+      "camera": "only entire-pose uniform magnification about fixed source anchor; no local/rotating/shearing pose manufacture",
+      "holds": [
+        {
+          "shot_id": "S104_dynamite_face",
+          "range_frames_proposal": [
+            4050,
+            4062
+          ],
+          "range_times_proposal": [
+            168.75,
+            169.25
+          ],
+          "policy": "hold",
+          "internal_switch_events": "if multiple keys, source action extrema determine switches; not evenly distributed by code"
+        }
+      ]
+    },
+    {
+      "id": "maid_close_paws",
+      "source_frame": 4266,
+      "source_pts": 2844000,
+      "source_time_base": "1/16000",
+      "source_time": 177.75,
+      "source_full_path": "source/action-key-source/f04266.png",
+      "action": "女仆服近景猫爪",
+      "notes": "原服装保留，前景猫爪遮挡不动",
+      "audit_status": "human_visual_proposal_needs_producer_and_independent_audit",
+      "source_original_artwork_distinctness": "candidate_not_proven_by_hash",
+      "drawing_obligation": "native_complete_pose_if_geometry_differs; exact approved asset reuse for proven repeated source pose",
+      "head_and_hair": "frozen F005 hair topology; original head orientation and source crop",
+      "mouth_caption_events": "separate original-time exposure stream; these are not keyed to body holds",
+      "camera": "only entire-pose uniform magnification about fixed source anchor; no local/rotating/shearing pose manufacture",
+      "holds": [
+        {
+          "shot_id": "S107_maid_close",
+          "range_frames_proposal": [
+            4266,
+            4290
+          ],
+          "range_times_proposal": [
+            177.75,
+            178.75
+          ],
+          "policy": "hold",
+          "internal_switch_events": "if multiple keys, source action extrema determine switches; not evenly distributed by code"
+        }
+      ]
+    },
+    {
+      "id": "center_taunt_closed",
+      "source_frame": 4290,
+      "source_pts": 2860000,
+      "source_time_base": "1/16000",
+      "source_time": 178.75,
+      "source_full_path": "source/action-key-source/f04290.png",
+      "action": "终局正面闭眼持牌调侃",
+      "notes": "可与center_card复用身体，表情嘴独立",
+      "audit_status": "human_visual_proposal_needs_producer_and_independent_audit",
+      "source_original_artwork_distinctness": "candidate_not_proven_by_hash",
+      "drawing_obligation": "native_complete_pose_if_geometry_differs; exact approved asset reuse for proven repeated source pose",
+      "head_and_hair": "frozen F005 hair topology; original head orientation and source crop",
+      "mouth_caption_events": "separate original-time exposure stream; these are not keyed to body holds",
+      "camera": "only entire-pose uniform magnification about fixed source anchor; no local/rotating/shearing pose manufacture",
+      "holds": [
+        {
+          "shot_id": "S108_center_taunt_closed",
+          "range_frames_proposal": [
+            4290,
+            4344
+          ],
+          "range_times_proposal": [
+            178.75,
+            181.0
+          ],
+          "policy": "hold_mouth_separate",
+          "internal_switch_events": "if multiple keys, source action extrema determine switches; not evenly distributed by code"
+        }
+      ]
+    },
+    {
+      "id": "center_taunt_open",
+      "source_frame": 4344,
+      "source_pts": 2896000,
+      "source_time_base": "1/16000",
+      "source_time": 181.0,
+      "source_full_path": "source/action-key-source/f04344.png",
+      "action": "终局正面睁眼持牌调侃",
+      "notes": "眼口切换，不自动重画头发",
+      "audit_status": "human_visual_proposal_needs_producer_and_independent_audit",
+      "source_original_artwork_distinctness": "candidate_not_proven_by_hash",
+      "drawing_obligation": "native_complete_pose_if_geometry_differs; exact approved asset reuse for proven repeated source pose",
+      "head_and_hair": "frozen F005 hair topology; original head orientation and source crop",
+      "mouth_caption_events": "separate original-time exposure stream; these are not keyed to body holds",
+      "camera": "only entire-pose uniform magnification about fixed source anchor; no local/rotating/shearing pose manufacture",
+      "holds": [
+        {
+          "shot_id": "S109_center_taunt_open",
+          "range_frames_proposal": [
+            4344,
+            4428
+          ],
+          "range_times_proposal": [
+            181.0,
+            184.5
+          ],
+          "policy": "hold_mouth_separate",
+          "internal_switch_events": "if multiple keys, source action extrema determine switches; not evenly distributed by code"
+        }
+      ]
+    },
+    {
+      "id": "center_shout",
+      "source_frame": 4428,
+      "source_pts": 2952000,
+      "source_time_base": "1/16000",
+      "source_time": 184.5,
+      "source_full_path": "source/action-key-source/f04428.png",
+      "action": "终局正面挤眼张嘴叫喊",
+      "notes": "表情新稿或原嘴眼层，发束应同母稿",
+      "audit_status": "human_visual_proposal_needs_producer_and_independent_audit",
+      "source_original_artwork_distinctness": "candidate_not_proven_by_hash",
+      "drawing_obligation": "native_complete_pose_if_geometry_differs; exact approved asset reuse for proven repeated source pose",
+      "head_and_hair": "frozen F005 hair topology; original head orientation and source crop",
+      "mouth_caption_events": "separate original-time exposure stream; these are not keyed to body holds",
+      "camera": "only entire-pose uniform magnification about fixed source anchor; no local/rotating/shearing pose manufacture",
+      "holds": [
+        {
+          "shot_id": "S110_center_shout",
+          "range_frames_proposal": [
+            4428,
+            4470
+          ],
+          "range_times_proposal": [
+            184.5,
+            186.25
+          ],
+          "policy": "hold_mouth_separate",
+          "internal_switch_events": "if multiple keys, source action extrema determine switches; not evenly distributed by code"
+        }
+      ]
+    },
+    {
+      "id": "rear_card_table",
+      "source_frame": 4470,
+      "source_pts": 2980000,
+      "source_time_base": "1/16000",
+      "source_time": 186.25,
+      "source_full_path": "source/action-key-source/f04470.png",
+      "action": "背后看对方扇形牌",
+      "notes": "后部宽松长发新视角，保留源背身和牌",
+      "audit_status": "human_visual_proposal_needs_producer_and_independent_audit",
+      "source_original_artwork_distinctness": "candidate_not_proven_by_hash",
+      "drawing_obligation": "native_complete_pose_if_geometry_differs; exact approved asset reuse for proven repeated source pose",
+      "head_and_hair": "frozen F005 hair topology; original head orientation and source crop",
+      "mouth_caption_events": "separate original-time exposure stream; these are not keyed to body holds",
+      "camera": "only entire-pose uniform magnification about fixed source anchor; no local/rotating/shearing pose manufacture",
+      "holds": [
+        {
+          "shot_id": "S111_rear_fan",
+          "range_frames_proposal": [
+            4470,
+            4578
+          ],
+          "range_times_proposal": [
+            186.25,
+            190.75
+          ],
+          "policy": "hold_cards_foreground_separate",
+          "internal_switch_events": "if multiple keys, source action extrema determine switches; not evenly distributed by code"
+        }
+      ]
+    },
+    {
+      "id": "side_blank_eyes",
+      "source_frame": 4578,
+      "source_pts": 3052000,
+      "source_time_base": "1/16000",
+      "source_time": 190.75,
+      "source_full_path": "source/action-key-source/f04578.png",
+      "action": "结尾侧脸普通空眼反应",
+      "notes": "原衣领/肩膀不动，单大姿态",
+      "audit_status": "human_visual_proposal_needs_producer_and_independent_audit",
+      "source_original_artwork_distinctness": "candidate_not_proven_by_hash",
+      "drawing_obligation": "native_complete_pose_if_geometry_differs; exact approved asset reuse for proven repeated source pose",
+      "head_and_hair": "frozen F005 hair topology; original head orientation and source crop",
+      "mouth_caption_events": "separate original-time exposure stream; these are not keyed to body holds",
+      "camera": "only entire-pose uniform magnification about fixed source anchor; no local/rotating/shearing pose manufacture",
+      "holds": [
+        {
+          "shot_id": "S112_side_blank",
+          "range_frames_proposal": [
+            4578,
+            4638
+          ],
+          "range_times_proposal": [
+            190.75,
+            193.25
+          ],
+          "policy": "hold",
+          "internal_switch_events": "if multiple keys, source action extrema determine switches; not evenly distributed by code"
+        }
+      ]
+    },
+    {
+      "id": "side_rays",
+      "source_frame": 4638,
+      "source_pts": 3092000,
+      "source_time_base": "1/16000",
+      "source_time": 193.25,
+      "source_full_path": "source/action-key-source/f04638.png",
+      "action": "结尾侧脸脸上涂黑放射线",
+      "notes": "身体4578可共用，脸上放射线独立图形",
+      "audit_status": "human_visual_proposal_needs_producer_and_independent_audit",
+      "source_original_artwork_distinctness": "candidate_not_proven_by_hash",
+      "drawing_obligation": "native_complete_pose_if_geometry_differs; exact approved asset reuse for proven repeated source pose",
+      "head_and_hair": "frozen F005 hair topology; original head orientation and source crop",
+      "mouth_caption_events": "separate original-time exposure stream; these are not keyed to body holds",
+      "camera": "only entire-pose uniform magnification about fixed source anchor; no local/rotating/shearing pose manufacture",
+      "holds": [
+        {
+          "shot_id": "S113_side_rays",
+          "range_frames_proposal": [
+            4638,
+            4752
+          ],
+          "range_times_proposal": [
+            193.25,
+            198.0
+          ],
+          "policy": "hold_face_overlay_separate",
+          "internal_switch_events": "if multiple keys, source action extrema determine switches; not evenly distributed by code"
+        }
+      ]
+    },
+    {
+      "id": "side_unamused",
+      "source_frame": 4752,
+      "source_pts": 3168000,
+      "source_time_base": "1/16000",
+      "source_time": 198.0,
+      "source_full_path": "source/action-key-source/f04752.png",
+      "action": "结尾侧脸半月白眼",
+      "notes": "身体4578可共用，表情层变化",
+      "audit_status": "human_visual_proposal_needs_producer_and_independent_audit",
+      "source_original_artwork_distinctness": "candidate_not_proven_by_hash",
+      "drawing_obligation": "native_complete_pose_if_geometry_differs; exact approved asset reuse for proven repeated source pose",
+      "head_and_hair": "frozen F005 hair topology; original head orientation and source crop",
+      "mouth_caption_events": "separate original-time exposure stream; these are not keyed to body holds",
+      "camera": "only entire-pose uniform magnification about fixed source anchor; no local/rotating/shearing pose manufacture",
+      "holds": [
+        {
+          "shot_id": "S114_side_unamused",
+          "range_frames_proposal": [
+            4752,
+            4770
+          ],
+          "range_times_proposal": [
+            198.0,
+            198.75
+          ],
+          "policy": "hold",
+          "internal_switch_events": "if multiple keys, source action extrema determine switches; not evenly distributed by code"
+        }
+      ]
+    },
+    {
+      "id": "side_shock",
+      "source_frame": 4770,
+      "source_pts": 3180000,
+      "source_time_base": "1/16000",
+      "source_time": 198.75,
+      "source_full_path": "source/action-key-source/f04770.png",
+      "action": "结尾侧脸赤面惊恐白眼",
+      "notes": "身体4578可共用，表情层变化",
+      "audit_status": "human_visual_proposal_needs_producer_and_independent_audit",
+      "source_original_artwork_distinctness": "candidate_not_proven_by_hash",
+      "drawing_obligation": "native_complete_pose_if_geometry_differs; exact approved asset reuse for proven repeated source pose",
+      "head_and_hair": "frozen F005 hair topology; original head orientation and source crop",
+      "mouth_caption_events": "separate original-time exposure stream; these are not keyed to body holds",
+      "camera": "only entire-pose uniform magnification about fixed source anchor; no local/rotating/shearing pose manufacture",
+      "holds": [
+        {
+          "shot_id": "S115_side_shock",
+          "range_frames_proposal": [
+            4770,
+            4794
+          ],
+          "range_times_proposal": [
+            198.75,
+            199.75
+          ],
+          "policy": "hold",
+          "internal_switch_events": "if multiple keys, source action extrema determine switches; not evenly distributed by code"
+        }
+      ]
+    },
+    {
+      "id": "side_shock_extreme",
+      "source_frame": 4794,
+      "source_pts": 3196000,
+      "source_time_base": "1/16000",
+      "source_time": 199.75,
+      "source_full_path": "source/action-key-source/f04794.png",
+      "action": "结尾侧脸极度惊恐",
+      "notes": "保留表情极点，去掉晃动连接画",
+      "audit_status": "human_visual_proposal_needs_producer_and_independent_audit",
+      "source_original_artwork_distinctness": "candidate_not_proven_by_hash",
+      "drawing_obligation": "native_complete_pose_if_geometry_differs; exact approved asset reuse for proven repeated source pose",
+      "head_and_hair": "frozen F005 hair topology; original head orientation and source crop",
+      "mouth_caption_events": "separate original-time exposure stream; these are not keyed to body holds",
+      "camera": "only entire-pose uniform magnification about fixed source anchor; no local/rotating/shearing pose manufacture",
+      "holds": [
+        {
+          "shot_id": "S116_side_extreme",
+          "range_frames_proposal": [
+            4794,
+            4812
+          ],
+          "range_times_proposal": [
+            199.75,
+            200.5
+          ],
+          "policy": "hold",
+          "internal_switch_events": "if multiple keys, source action extrema determine switches; not evenly distributed by code"
+        }
+      ]
+    },
+    {
+      "id": "final_card_chaos",
+      "source_frame": 4818,
+      "source_pts": 3212000,
+      "source_time_base": "1/16000",
+      "source_time": 200.75,
+      "source_full_path": "source/action-key-source/f04818.png",
+      "action": "结尾飞牌大叫，全景伸双手",
+      "notes": "完整新姿态，飞牌另层，后发和左侧巨发须全替换",
+      "audit_status": "human_visual_proposal_needs_producer_and_independent_audit",
+      "source_original_artwork_distinctness": "candidate_not_proven_by_hash",
+      "drawing_obligation": "native_complete_pose_if_geometry_differs; exact approved asset reuse for proven repeated source pose",
+      "head_and_hair": "frozen F005 hair topology; original head orientation and source crop",
+      "mouth_caption_events": "separate original-time exposure stream; these are not keyed to body holds",
+      "camera": "only entire-pose uniform magnification about fixed source anchor; no local/rotating/shearing pose manufacture",
+      "holds": [
+        {
+          "shot_id": "S118_final_card_chaos",
+          "range_frames_proposal": [
+            4818,
+            4998
+          ],
+          "range_times_proposal": [
+            200.75,
+            208.25
+          ],
+          "policy": "hold_flying_cards_separate_and_character_fade",
+          "internal_switch_events": "if multiple keys, source action extrema determine switches; not evenly distributed by code"
+        }
+      ]
+    }
+  ],
+  "shots": [
+    {
+      "shot_id": "S000_black",
+      "start_frame_proposal": 0,
+      "end_frame_exclusive_proposal": 31,
+      "start_time_proposal": 0.0,
+      "end_time_proposal": 1.2916666666666667,
+      "core_pose_candidates": [],
+      "hold_policy": "source_passthrough",
+      "boundary_status": "quarter-second_storyboard_navigation_proposal_not_exact_event_audit",
+      "closest_large_jump_frame_candidate": 1,
+      "closest_jump_mad": 0.0,
+      "audit_status": "pending_independent_review"
+    },
+    {
+      "shot_id": "S001_intro",
+      "start_frame_proposal": 31,
+      "end_frame_exclusive_proposal": 150,
+      "start_time_proposal": 1.292,
+      "end_time_proposal": 6.25,
+      "core_pose_candidates": [
+        "intro_palm_up",
+        "intro_palm_open"
+      ],
+      "hold_policy": "alternate_extreme_holds",
+      "boundary_status": "quarter-second_storyboard_navigation_proposal_not_exact_event_audit",
+      "closest_large_jump_frame_candidate": 31,
+      "closest_jump_mad": 191.4256161971831,
+      "audit_status": "pending_independent_review"
+    },
+    {
+      "shot_id": "S002_wipe",
+      "start_frame_proposal": 150,
+      "end_frame_exclusive_proposal": 174,
+      "start_time_proposal": 6.25,
+      "end_time_proposal": 7.25,
+      "core_pose_candidates": [],
+      "hold_policy": "source_passthrough",
+      "boundary_status": "quarter-second_storyboard_navigation_proposal_not_exact_event_audit",
+      "closest_large_jump_frame_candidate": 145,
+      "closest_jump_mad": 104.34865023474178,
+      "audit_status": "pending_independent_review"
+    },
+    {
+      "shot_id": "S003_card_hand",
+      "start_frame_proposal": 174,
+      "end_frame_exclusive_proposal": 216,
+      "start_time_proposal": 7.25,
+      "end_time_proposal": 9.0,
+      "core_pose_candidates": [],
+      "hold_policy": "source_passthrough_no_hair",
+      "boundary_status": "quarter-second_storyboard_navigation_proposal_not_exact_event_audit",
+      "closest_large_jump_frame_candidate": 173,
+      "closest_jump_mad": 56.23606220657277,
+      "audit_status": "pending_independent_review"
+    },
+    {
+      "shot_id": "S004_comic",
+      "start_frame_proposal": 216,
+      "end_frame_exclusive_proposal": 252,
+      "start_time_proposal": 9.0,
+      "end_time_proposal": 10.5,
+      "core_pose_candidates": [
+        "center_card"
+      ],
+      "hold_policy": "fullframe_edit_partial_face",
+      "boundary_status": "quarter-second_storyboard_navigation_proposal_not_exact_event_audit",
+      "closest_large_jump_frame_candidate": 211,
+      "closest_jump_mad": 54.51681338028169,
+      "audit_status": "pending_independent_review"
+    },
+    {
+      "shot_id": "S005_wipe",
+      "start_frame_proposal": 252,
+      "end_frame_exclusive_proposal": 270,
+      "start_time_proposal": 10.5,
+      "end_time_proposal": 11.25,
+      "core_pose_candidates": [],
+      "hold_policy": "source_passthrough",
+      "boundary_status": "quarter-second_storyboard_navigation_proposal_not_exact_event_audit",
+      "closest_large_jump_frame_candidate": 248,
+      "closest_jump_mad": 8.925674882629108,
+      "audit_status": "pending_independent_review"
+    },
+    {
+      "shot_id": "S006_center",
+      "start_frame_proposal": 270,
+      "end_frame_exclusive_proposal": 342,
+      "start_time_proposal": 11.25,
+      "end_time_proposal": 14.25,
+      "core_pose_candidates": [
+        "center_card"
+      ],
+      "hold_policy": "hold_plus_source_uniform_zoom",
+      "boundary_status": "quarter-second_storyboard_navigation_proposal_not_exact_event_audit",
+      "closest_large_jump_frame_candidate": 265,
+      "closest_jump_mad": 104.7106514084507,
+      "audit_status": "pending_independent_review"
+    },
+    {
+      "shot_id": "S007_dab",
+      "start_frame_proposal": 342,
+      "end_frame_exclusive_proposal": 396,
+      "start_time_proposal": 14.25,
+      "end_time_proposal": 16.5,
+      "core_pose_candidates": [
+        "dab_rear"
+      ],
+      "hold_policy": "hold",
+      "boundary_status": "quarter-second_storyboard_navigation_proposal_not_exact_event_audit",
+      "closest_large_jump_frame_candidate": 342,
+      "closest_jump_mad": 15.761766431924883,
+      "audit_status": "pending_independent_review"
+    },
+    {
+      "shot_id": "S008_score",
+      "start_frame_proposal": 396,
+      "end_frame_exclusive_proposal": 426,
+      "start_time_proposal": 16.5,
+      "end_time_proposal": 17.75,
+      "core_pose_candidates": [],
+      "hold_policy": "source_passthrough_no_character",
+      "boundary_status": "quarter-second_storyboard_navigation_proposal_not_exact_event_audit",
+      "closest_large_jump_frame_candidate": 391,
+      "closest_jump_mad": 123.25889084507043,
+      "audit_status": "pending_independent_review"
+    },
+    {
+      "shot_id": "S009_surprise",
+      "start_frame_proposal": 426,
+      "end_frame_exclusive_proposal": 450,
+      "start_time_proposal": 17.75,
+      "end_time_proposal": 18.75,
+      "core_pose_candidates": [
+        "surprise_side"
+      ],
+      "hold_policy": "hold",
+      "boundary_status": "quarter-second_storyboard_navigation_proposal_not_exact_event_audit",
+      "closest_large_jump_frame_candidate": 423,
+      "closest_jump_mad": 90.21294014084508,
+      "audit_status": "pending_independent_review"
+    },
+    {
+      "shot_id": "S010_verse_left",
+      "start_frame_proposal": 450,
+      "end_frame_exclusive_proposal": 534,
+      "start_time_proposal": 18.75,
+      "end_time_proposal": 22.25,
+      "core_pose_candidates": [
+        "taunt_left_close"
+      ],
+      "hold_policy": "hold_mouth_cards_separate",
+      "boundary_status": "quarter-second_storyboard_navigation_proposal_not_exact_event_audit",
+      "closest_large_jump_frame_candidate": 447,
+      "closest_jump_mad": 87.55487089201878,
+      "audit_status": "pending_independent_review"
+    },
+    {
+      "shot_id": "S011_verse_right",
+      "start_frame_proposal": 534,
+      "end_frame_exclusive_proposal": 612,
+      "start_time_proposal": 22.25,
+      "end_time_proposal": 25.5,
+      "core_pose_candidates": [
+        "taunt_right"
+      ],
+      "hold_policy": "hold_mouth_cards_separate",
+      "boundary_status": "quarter-second_storyboard_navigation_proposal_not_exact_event_audit",
+      "closest_large_jump_frame_candidate": 530,
+      "closest_jump_mad": 41.01719483568075,
+      "audit_status": "pending_independent_review"
+    },
+    {
+      "shot_id": "S012_point_above",
+      "start_frame_proposal": 612,
+      "end_frame_exclusive_proposal": 618,
+      "start_time_proposal": 25.5,
+      "end_time_proposal": 25.75,
+      "core_pose_candidates": [
+        "point_above"
+      ],
+      "hold_policy": "hold",
+      "boundary_status": "quarter-second_storyboard_navigation_proposal_not_exact_event_audit",
+      "closest_large_jump_frame_candidate": 607,
+      "closest_jump_mad": 32.76549295774648,
+      "audit_status": "pending_independent_review"
+    },
+    {
+      "shot_id": "S013_point_forward",
+      "start_frame_proposal": 618,
+      "end_frame_exclusive_proposal": 630,
+      "start_time_proposal": 25.75,
+      "end_time_proposal": 26.25,
+      "core_pose_candidates": [
+        "point_forward"
+      ],
+      "hold_policy": "hold",
+      "boundary_status": "quarter-second_storyboard_navigation_proposal_not_exact_event_audit",
+      "closest_large_jump_frame_candidate": 618,
+      "closest_jump_mad": 13.218661971830986,
+      "audit_status": "pending_independent_review"
+    },
+    {
+      "shot_id": "S014_verse_left_table",
+      "start_frame_proposal": 630,
+      "end_frame_exclusive_proposal": 720,
+      "start_time_proposal": 26.25,
+      "end_time_proposal": 30.0,
+      "core_pose_candidates": [
+        "taunt_left_table"
+      ],
+      "hold_policy": "hold_mouth_cards_separate",
+      "boundary_status": "quarter-second_storyboard_navigation_proposal_not_exact_event_audit",
+      "closest_large_jump_frame_candidate": 629,
+      "closest_jump_mad": 57.49979460093897,
+      "audit_status": "pending_independent_review"
+    },
+    {
+      "shot_id": "S015_verse_right_close",
+      "start_frame_proposal": 720,
+      "end_frame_exclusive_proposal": 798,
+      "start_time_proposal": 30.0,
+      "end_time_proposal": 33.25,
+      "core_pose_candidates": [
+        "taunt_right_close"
+      ],
+      "hold_policy": "hold_mouth_cards_separate",
+      "boundary_status": "quarter-second_storyboard_navigation_proposal_not_exact_event_audit",
+      "closest_large_jump_frame_candidate": 719,
+      "closest_jump_mad": 41.92362089201878,
+      "audit_status": "pending_independent_review"
+    },
+    {
+      "shot_id": "S016_wipe",
+      "start_frame_proposal": 798,
+      "end_frame_exclusive_proposal": 804,
+      "start_time_proposal": 33.25,
+      "end_time_proposal": 33.5,
+      "core_pose_candidates": [],
+      "hold_policy": "source_passthrough",
+      "boundary_status": "quarter-second_storyboard_navigation_proposal_not_exact_event_audit",
+      "closest_large_jump_frame_candidate": 801,
+      "closest_jump_mad": 222.18656103286386,
+      "audit_status": "pending_independent_review"
+    },
+    {
+      "shot_id": "S017_dark_center",
+      "start_frame_proposal": 804,
+      "end_frame_exclusive_proposal": 816,
+      "start_time_proposal": 33.5,
+      "end_time_proposal": 34.0,
+      "core_pose_candidates": [
+        "dark_center_card"
+      ],
+      "hold_policy": "hold_plus_source_uniform_zoom",
+      "boundary_status": "quarter-second_storyboard_navigation_proposal_not_exact_event_audit",
+      "closest_large_jump_frame_candidate": 801,
+      "closest_jump_mad": 222.18656103286386,
+      "audit_status": "pending_independent_review"
+    },
+    {
+      "shot_id": "S018_dark_fingers",
+      "start_frame_proposal": 816,
+      "end_frame_exclusive_proposal": 948,
+      "start_time_proposal": 34.0,
+      "end_time_proposal": 39.5,
+      "core_pose_candidates": [
+        "dark_fingers"
+      ],
+      "hold_policy": "hold_mouth_eyes_separate",
+      "boundary_status": "quarter-second_storyboard_navigation_proposal_not_exact_event_audit",
+      "closest_large_jump_frame_candidate": 812,
+      "closest_jump_mad": 32.97582159624413,
+      "audit_status": "pending_independent_review"
+    },
+    {
+      "shot_id": "S019_mouth_A",
+      "start_frame_proposal": 948,
+      "end_frame_exclusive_proposal": 984,
+      "start_time_proposal": 39.5,
+      "end_time_proposal": 41.0,
+      "core_pose_candidates": [
+        "mouth_strip_A"
+      ],
+      "hold_policy": "hold_mouth_separate",
+      "boundary_status": "quarter-second_storyboard_navigation_proposal_not_exact_event_audit",
+      "closest_large_jump_frame_candidate": 944,
+      "closest_jump_mad": 93.36452464788732,
+      "audit_status": "pending_independent_review"
+    },
+    {
+      "shot_id": "S020_wink",
+      "start_frame_proposal": 984,
+      "end_frame_exclusive_proposal": 996,
+      "start_time_proposal": 41.0,
+      "end_time_proposal": 41.5,
+      "core_pose_candidates": [
+        "wink_hand"
+      ],
+      "hold_policy": "hold",
+      "boundary_status": "quarter-second_storyboard_navigation_proposal_not_exact_event_audit",
+      "closest_large_jump_frame_candidate": 979,
+      "closest_jump_mad": 97.94380868544602,
+      "audit_status": "pending_independent_review"
+    },
+    {
+      "shot_id": "S021_head_back",
+      "start_frame_proposal": 996,
+      "end_frame_exclusive_proposal": 1020,
+      "start_time_proposal": 41.5,
+      "end_time_proposal": 42.5,
+      "core_pose_candidates": [
+        "head_back_cry"
+      ],
+      "hold_policy": "hold_plus_source_uniform_zoom",
+      "boundary_status": "quarter-second_storyboard_navigation_proposal_not_exact_event_audit",
+      "closest_large_jump_frame_candidate": 995,
+      "closest_jump_mad": 71.58174882629108,
+      "audit_status": "pending_independent_review"
+    },
+    {
+      "shot_id": "S022_tease_A",
+      "start_frame_proposal": 1020,
+      "end_frame_exclusive_proposal": 1044,
+      "start_time_proposal": 42.5,
+      "end_time_proposal": 43.5,
+      "core_pose_candidates": [
+        "tease_forehead_A",
+        "tease_forehead_B"
+      ],
+      "hold_policy": "alternate_extreme_holds",
+      "boundary_status": "quarter-second_storyboard_navigation_proposal_not_exact_event_audit",
+      "closest_large_jump_frame_candidate": 1018,
+      "closest_jump_mad": 39.593397887323945,
+      "audit_status": "pending_independent_review"
+    },
+    {
+      "shot_id": "S023_forehead_collage",
+      "start_frame_proposal": 1044,
+      "end_frame_exclusive_proposal": 1080,
+      "start_time_proposal": 43.5,
+      "end_time_proposal": 45.0,
+      "core_pose_candidates": [
+        "lean_forehead_close",
+        "lean_forehead_wide"
+      ],
+      "hold_policy": "hold_multiplane",
+      "boundary_status": "quarter-second_storyboard_navigation_proposal_not_exact_event_audit",
+      "closest_large_jump_frame_candidate": 1041,
+      "closest_jump_mad": 49.59031690140845,
+      "audit_status": "pending_independent_review"
+    },
+    {
+      "shot_id": "S024_tease_flip",
+      "start_frame_proposal": 1080,
+      "end_frame_exclusive_proposal": 1092,
+      "start_time_proposal": 45.0,
+      "end_time_proposal": 45.5,
+      "core_pose_candidates": [
+        "tease_flip"
+      ],
+      "hold_policy": "hold",
+      "boundary_status": "quarter-second_storyboard_navigation_proposal_not_exact_event_audit",
+      "closest_large_jump_frame_candidate": 1078,
+      "closest_jump_mad": 4.795422535211268,
+      "audit_status": "pending_independent_review"
+    },
+    {
+      "shot_id": "S025_cheek",
+      "start_frame_proposal": 1092,
+      "end_frame_exclusive_proposal": 1110,
+      "start_time_proposal": 45.5,
+      "end_time_proposal": 46.25,
+      "core_pose_candidates": [
+        "cheek_close"
+      ],
+      "hold_policy": "hold_multiplane_zoom",
+      "boundary_status": "quarter-second_storyboard_navigation_proposal_not_exact_event_audit",
+      "closest_large_jump_frame_candidate": 1087,
+      "closest_jump_mad": 52.33474178403756,
+      "audit_status": "pending_independent_review"
+    },
+    {
+      "shot_id": "S026_cover_eyes",
+      "start_frame_proposal": 1110,
+      "end_frame_exclusive_proposal": 1122,
+      "start_time_proposal": 46.25,
+      "end_time_proposal": 46.75,
+      "core_pose_candidates": [
+        "cover_eyes"
+      ],
+      "hold_policy": "hold",
+      "boundary_status": "quarter-second_storyboard_navigation_proposal_not_exact_event_audit",
+      "closest_large_jump_frame_candidate": 1109,
+      "closest_jump_mad": 42.60912558685446,
+      "audit_status": "pending_independent_review"
+    },
+    {
+      "shot_id": "S027_creep",
+      "start_frame_proposal": 1122,
+      "end_frame_exclusive_proposal": 1134,
+      "start_time_proposal": 46.75,
+      "end_time_proposal": 47.25,
+      "core_pose_candidates": [
+        "creep_palms"
+      ],
+      "hold_policy": "hold",
+      "boundary_status": "quarter-second_storyboard_navigation_proposal_not_exact_event_audit",
+      "closest_large_jump_frame_candidate": 1121,
+      "closest_jump_mad": 30.213703051643193,
+      "audit_status": "pending_independent_review"
+    },
+    {
+      "shot_id": "S028_explain",
+      "start_frame_proposal": 1134,
+      "end_frame_exclusive_proposal": 1158,
+      "start_time_proposal": 47.25,
+      "end_time_proposal": 48.25,
+      "core_pose_candidates": [
+        "explain_palms_A",
+        "explain_palms_B"
+      ],
+      "hold_policy": "alternate_extreme_holds",
+      "boundary_status": "quarter-second_storyboard_navigation_proposal_not_exact_event_audit",
+      "closest_large_jump_frame_candidate": 1132,
+      "closest_jump_mad": 38.67403169014084,
+      "audit_status": "pending_independent_review"
+    },
+    {
+      "shot_id": "S029_shush",
+      "start_frame_proposal": 1158,
+      "end_frame_exclusive_proposal": 1182,
+      "start_time_proposal": 48.25,
+      "end_time_proposal": 49.25,
+      "core_pose_candidates": [
+        "shush"
+      ],
+      "hold_policy": "hold_mouth_separate",
+      "boundary_status": "quarter-second_storyboard_navigation_proposal_not_exact_event_audit",
+      "closest_large_jump_frame_candidate": 1155,
+      "closest_jump_mad": 98.28139671361502,
+      "audit_status": "pending_independent_review"
+    },
+    {
+      "shot_id": "S030_head_back_repeat",
+      "start_frame_proposal": 1182,
+      "end_frame_exclusive_proposal": 1206,
+      "start_time_proposal": 49.25,
+      "end_time_proposal": 50.25,
+      "core_pose_candidates": [
+        "head_back_cry"
+      ],
+      "hold_policy": "reuse_same_approved_asset",
+      "boundary_status": "quarter-second_storyboard_navigation_proposal_not_exact_event_audit",
+      "closest_large_jump_frame_candidate": 1178,
+      "closest_jump_mad": 85.57479460093897,
+      "audit_status": "pending_independent_review"
+    },
+    {
+      "shot_id": "S031_tease_repeat",
+      "start_frame_proposal": 1206,
+      "end_frame_exclusive_proposal": 1224,
+      "start_time_proposal": 50.25,
+      "end_time_proposal": 51.0,
+      "core_pose_candidates": [
+        "tease_forehead_A",
+        "tease_forehead_B"
+      ],
+      "hold_policy": "reuse_same_approved_assets",
+      "boundary_status": "quarter-second_storyboard_navigation_proposal_not_exact_event_audit",
+      "closest_large_jump_frame_candidate": 1201,
+      "closest_jump_mad": 39.279225352112675,
+      "audit_status": "pending_independent_review"
+    },
+    {
+      "shot_id": "S032_forehead_collage_repeat",
+      "start_frame_proposal": 1224,
+      "end_frame_exclusive_proposal": 1248,
+      "start_time_proposal": 51.0,
+      "end_time_proposal": 52.0,
+      "core_pose_candidates": [
+        "lean_forehead_close",
+        "lean_forehead_wide"
+      ],
+      "hold_policy": "reuse_same_approved_assets",
+      "boundary_status": "quarter-second_storyboard_navigation_proposal_not_exact_event_audit",
+      "closest_large_jump_frame_candidate": 1224,
+      "closest_jump_mad": 49.25052816901408,
+      "audit_status": "pending_independent_review"
+    },
+    {
+      "shot_id": "S033_tease_flip_repeat",
+      "start_frame_proposal": 1248,
+      "end_frame_exclusive_proposal": 1272,
+      "start_time_proposal": 52.0,
+      "end_time_proposal": 53.0,
+      "core_pose_candidates": [
+        "tease_flip"
+      ],
+      "hold_policy": "reuse_same_approved_asset",
+      "boundary_status": "quarter-second_storyboard_navigation_proposal_not_exact_event_audit",
+      "closest_large_jump_frame_candidate": 1247,
+      "closest_jump_mad": 40.15918427230047,
+      "audit_status": "pending_independent_review"
+    },
+    {
+      "shot_id": "S034_cheek_repeat",
+      "start_frame_proposal": 1272,
+      "end_frame_exclusive_proposal": 1290,
+      "start_time_proposal": 53.0,
+      "end_time_proposal": 53.75,
+      "core_pose_candidates": [
+        "cheek_close"
+      ],
+      "hold_policy": "reuse_same_approved_asset",
+      "boundary_status": "quarter-second_storyboard_navigation_proposal_not_exact_event_audit",
+      "closest_large_jump_frame_candidate": 1270,
+      "closest_jump_mad": 52.4100058685446,
+      "audit_status": "pending_independent_review"
+    },
+    {
+      "shot_id": "S035_game_set",
+      "start_frame_proposal": 1290,
+      "end_frame_exclusive_proposal": 1308,
+      "start_time_proposal": 53.75,
+      "end_time_proposal": 54.5,
+      "core_pose_candidates": [
+        "game_set"
+      ],
+      "hold_policy": "hold",
+      "boundary_status": "quarter-second_storyboard_navigation_proposal_not_exact_event_audit",
+      "closest_large_jump_frame_candidate": 1288,
+      "closest_jump_mad": 42.32318075117371,
+      "audit_status": "pending_independent_review"
+    },
+    {
+      "shot_id": "S036_raise_card",
+      "start_frame_proposal": 1308,
+      "end_frame_exclusive_proposal": 1320,
+      "start_time_proposal": 54.5,
+      "end_time_proposal": 55.0,
+      "core_pose_candidates": [
+        "raise_card"
+      ],
+      "hold_policy": "hold",
+      "boundary_status": "quarter-second_storyboard_navigation_proposal_not_exact_event_audit",
+      "closest_large_jump_frame_candidate": 1304,
+      "closest_jump_mad": 27.34712441314554,
+      "audit_status": "pending_independent_review"
+    },
+    {
+      "shot_id": "S037_glow_eye",
+      "start_frame_proposal": 1320,
+      "end_frame_exclusive_proposal": 1338,
+      "start_time_proposal": 55.0,
+      "end_time_proposal": 55.75,
+      "core_pose_candidates": [
+        "glow_eye"
+      ],
+      "hold_policy": "hold_light_overlay",
+      "boundary_status": "quarter-second_storyboard_navigation_proposal_not_exact_event_audit",
+      "closest_large_jump_frame_candidate": 1315,
+      "closest_jump_mad": 51.938174882629106,
+      "audit_status": "pending_independent_review"
+    },
+    {
+      "shot_id": "S038_victory",
+      "start_frame_proposal": 1338,
+      "end_frame_exclusive_proposal": 1362,
+      "start_time_proposal": 55.75,
+      "end_time_proposal": 56.75,
+      "core_pose_candidates": [
+        "victory_arms"
+      ],
+      "hold_policy": "hold_confetti_separate",
+      "boundary_status": "quarter-second_storyboard_navigation_proposal_not_exact_event_audit",
+      "closest_large_jump_frame_candidate": 1338,
+      "closest_jump_mad": 64.15669014084507,
+      "audit_status": "pending_independent_review"
+    },
+    {
+      "shot_id": "S039_taunt_hook_left",
+      "start_frame_proposal": 1362,
+      "end_frame_exclusive_proposal": 1410,
+      "start_time_proposal": 56.75,
+      "end_time_proposal": 58.75,
+      "core_pose_candidates": [
+        "taunt_close_A",
+        "taunt_close_B",
+        "taunt_close_C"
+      ],
+      "hold_policy": "core_pose_holds_mouth_separate",
+      "boundary_status": "quarter-second_storyboard_navigation_proposal_not_exact_event_audit",
+      "closest_large_jump_frame_candidate": 1361,
+      "closest_jump_mad": 59.754401408450704,
+      "audit_status": "pending_independent_review"
+    },
+    {
+      "shot_id": "S040_taunt_hook_right",
+      "start_frame_proposal": 1410,
+      "end_frame_exclusive_proposal": 1452,
+      "start_time_proposal": 58.75,
+      "end_time_proposal": 60.5,
+      "core_pose_candidates": [
+        "taunt_flank_A"
+      ],
+      "hold_policy": "hold_mouth_separate",
+      "boundary_status": "quarter-second_storyboard_navigation_proposal_not_exact_event_audit",
+      "closest_large_jump_frame_candidate": 1406,
+      "closest_jump_mad": 67.19468896713614,
+      "audit_status": "pending_independent_review"
+    },
+    {
+      "shot_id": "S041_taunt_hook_left_repeat",
+      "start_frame_proposal": 1452,
+      "end_frame_exclusive_proposal": 1500,
+      "start_time_proposal": 60.5,
+      "end_time_proposal": 62.5,
+      "core_pose_candidates": [
+        "taunt_flank_B"
+      ],
+      "hold_policy": "hold_mouth_separate",
+      "boundary_status": "quarter-second_storyboard_navigation_proposal_not_exact_event_audit",
+      "closest_large_jump_frame_candidate": 1451,
+      "closest_jump_mad": 66.90883215962441,
+      "audit_status": "pending_independent_review"
+    },
+    {
+      "shot_id": "S042_clap",
+      "start_frame_proposal": 1500,
+      "end_frame_exclusive_proposal": 1548,
+      "start_time_proposal": 62.5,
+      "end_time_proposal": 64.5,
+      "core_pose_candidates": [
+        "clap_pose_A",
+        "clap_pose_B"
+      ],
+      "hold_policy": "alternate_extreme_holds_claps_separate",
+      "boundary_status": "quarter-second_storyboard_navigation_proposal_not_exact_event_audit",
+      "closest_large_jump_frame_candidate": 1496,
+      "closest_jump_mad": 58.0712441314554,
+      "audit_status": "pending_independent_review"
+    },
+    {
+      "shot_id": "S043_taunt_hook_right_repeat",
+      "start_frame_proposal": 1548,
+      "end_frame_exclusive_proposal": 1590,
+      "start_time_proposal": 64.5,
+      "end_time_proposal": 66.25,
+      "core_pose_candidates": [
+        "taunt_right_A"
+      ],
+      "hold_policy": "hold_mouth_separate",
+      "boundary_status": "quarter-second_storyboard_navigation_proposal_not_exact_event_audit",
+      "closest_large_jump_frame_candidate": 1543,
+      "closest_jump_mad": 54.38700117370892,
+      "audit_status": "pending_independent_review"
+    },
+    {
+      "shot_id": "S044_taunt_hook_left_last",
+      "start_frame_proposal": 1590,
+      "end_frame_exclusive_proposal": 1656,
+      "start_time_proposal": 66.25,
+      "end_time_proposal": 69.0,
+      "core_pose_candidates": [
+        "taunt_left_A"
+      ],
+      "hold_policy": "hold_mouth_separate",
+      "boundary_status": "quarter-second_storyboard_navigation_proposal_not_exact_event_audit",
+      "closest_large_jump_frame_candidate": 1588,
+      "closest_jump_mad": 66.962529342723,
+      "audit_status": "pending_independent_review"
+    },
+    {
+      "shot_id": "S045_dynamite_eye",
+      "start_frame_proposal": 1656,
+      "end_frame_exclusive_proposal": 1686,
+      "start_time_proposal": 69.0,
+      "end_time_proposal": 70.25,
+      "core_pose_candidates": [
+        "dynamite_eyes"
+      ],
+      "hold_policy": "hold_eye_overlay",
+      "boundary_status": "quarter-second_storyboard_navigation_proposal_not_exact_event_audit",
+      "closest_large_jump_frame_candidate": 1657,
+      "closest_jump_mad": 14.20082159624413,
+      "audit_status": "pending_independent_review"
+    },
+    {
+      "shot_id": "S046_dab_hook",
+      "start_frame_proposal": 1686,
+      "end_frame_exclusive_proposal": 1728,
+      "start_time_proposal": 70.25,
+      "end_time_proposal": 72.0,
+      "core_pose_candidates": [
+        "center_card",
+        "dab_start",
+        "dab_land"
+      ],
+      "hold_policy": "start_extreme_landed_holds",
+      "boundary_status": "quarter-second_storyboard_navigation_proposal_not_exact_event_audit",
+      "closest_large_jump_frame_candidate": 1681,
+      "closest_jump_mad": 40.06076877934272,
+      "audit_status": "pending_independent_review"
+    },
+    {
+      "shot_id": "S047_chorus_sway_A",
+      "start_frame_proposal": 1728,
+      "end_frame_exclusive_proposal": 1896,
+      "start_time_proposal": 72.0,
+      "end_time_proposal": 79.0,
+      "core_pose_candidates": [
+        "chorus_tilt_left",
+        "chorus_tilt_right"
+      ],
+      "hold_policy": "alternate_extreme_holds",
+      "boundary_status": "quarter-second_storyboard_navigation_proposal_not_exact_event_audit",
+      "closest_large_jump_frame_candidate": 1725,
+      "closest_jump_mad": 72.78169014084507,
+      "audit_status": "pending_independent_review"
+    },
+    {
+      "shot_id": "S048_maid_insert",
+      "start_frame_proposal": 1896,
+      "end_frame_exclusive_proposal": 1908,
+      "start_time_proposal": 79.0,
+      "end_time_proposal": 79.5,
+      "core_pose_candidates": [
+        "maid_paws"
+      ],
+      "hold_policy": "hold",
+      "boundary_status": "quarter-second_storyboard_navigation_proposal_not_exact_event_audit",
+      "closest_large_jump_frame_candidate": 1896,
+      "closest_jump_mad": 7.620422535211268,
+      "audit_status": "pending_independent_review"
+    },
+    {
+      "shot_id": "S049_chorus_sway_B",
+      "start_frame_proposal": 1908,
+      "end_frame_exclusive_proposal": 2064,
+      "start_time_proposal": 79.5,
+      "end_time_proposal": 86.0,
+      "core_pose_candidates": [
+        "chorus_tilt_left",
+        "chorus_tilt_right"
+      ],
+      "hold_policy": "reuse_same_approved_assets",
+      "boundary_status": "quarter-second_storyboard_navigation_proposal_not_exact_event_audit",
+      "closest_large_jump_frame_candidate": 1907,
+      "closest_jump_mad": 39.13952464788732,
+      "audit_status": "pending_independent_review"
+    },
+    {
+      "shot_id": "S050_wipe",
+      "start_frame_proposal": 2064,
+      "end_frame_exclusive_proposal": 2070,
+      "start_time_proposal": 86.0,
+      "end_time_proposal": 86.25,
+      "core_pose_candidates": [],
+      "hold_policy": "source_passthrough",
+      "boundary_status": "quarter-second_storyboard_navigation_proposal_not_exact_event_audit",
+      "closest_large_jump_frame_candidate": 2069,
+      "closest_jump_mad": 126.3268779342723,
+      "audit_status": "pending_independent_review"
+    },
+    {
+      "shot_id": "S051_fanart_card",
+      "start_frame_proposal": 2070,
+      "end_frame_exclusive_proposal": 2082,
+      "start_time_proposal": 86.25,
+      "end_time_proposal": 86.75,
+      "core_pose_candidates": [],
+      "hold_policy": "source_passthrough_fanart_scope_pending",
+      "boundary_status": "quarter-second_storyboard_navigation_proposal_not_exact_event_audit",
+      "closest_large_jump_frame_candidate": 2069,
+      "closest_jump_mad": 126.3268779342723,
+      "audit_status": "pending_independent_review"
+    },
+    {
+      "shot_id": "S052_hashtag",
+      "start_frame_proposal": 2082,
+      "end_frame_exclusive_proposal": 2094,
+      "start_time_proposal": 86.75,
+      "end_time_proposal": 87.25,
+      "core_pose_candidates": [
+        "hashtag_side"
+      ],
+      "hold_policy": "hold",
+      "boundary_status": "quarter-second_storyboard_navigation_proposal_not_exact_event_audit",
+      "closest_large_jump_frame_candidate": 2081,
+      "closest_jump_mad": 47.54451291079812,
+      "audit_status": "pending_independent_review"
+    },
+    {
+      "shot_id": "S053_center_repeat",
+      "start_frame_proposal": 2094,
+      "end_frame_exclusive_proposal": 2172,
+      "start_time_proposal": 87.25,
+      "end_time_proposal": 90.5,
+      "core_pose_candidates": [
+        "center_card"
+      ],
+      "hold_policy": "reuse_same_approved_asset",
+      "boundary_status": "quarter-second_storyboard_navigation_proposal_not_exact_event_audit",
+      "closest_large_jump_frame_candidate": 2092,
+      "closest_jump_mad": 50.987910798122066,
+      "audit_status": "pending_independent_review"
+    },
+    {
+      "shot_id": "S054_arm_stretch",
+      "start_frame_proposal": 2172,
+      "end_frame_exclusive_proposal": 2256,
+      "start_time_proposal": 90.5,
+      "end_time_proposal": 94.0,
+      "core_pose_candidates": [
+        "arm_stretch"
+      ],
+      "hold_policy": "hold_fan_overlay_separate",
+      "boundary_status": "quarter-second_storyboard_navigation_proposal_not_exact_event_audit",
+      "closest_large_jump_frame_candidate": 2169,
+      "closest_jump_mad": 37.31963028169014,
+      "audit_status": "pending_independent_review"
+    },
+    {
+      "shot_id": "S055_opponent_fan",
+      "start_frame_proposal": 2256,
+      "end_frame_exclusive_proposal": 2280,
+      "start_time_proposal": 94.0,
+      "end_time_proposal": 95.0,
+      "core_pose_candidates": [
+        "fan_cards"
+      ],
+      "hold_policy": "source_passthrough_no_character_hair",
+      "boundary_status": "quarter-second_storyboard_navigation_proposal_not_exact_event_audit",
+      "closest_large_jump_frame_candidate": 2252,
+      "closest_jump_mad": 83.79735915492958,
+      "audit_status": "pending_independent_review"
+    },
+    {
+      "shot_id": "S056_center_short",
+      "start_frame_proposal": 2280,
+      "end_frame_exclusive_proposal": 2298,
+      "start_time_proposal": 95.0,
+      "end_time_proposal": 95.75,
+      "core_pose_candidates": [
+        "center_card"
+      ],
+      "hold_policy": "reuse_same_approved_asset",
+      "boundary_status": "quarter-second_storyboard_navigation_proposal_not_exact_event_audit",
+      "closest_large_jump_frame_candidate": 2275,
+      "closest_jump_mad": 86.2168720657277,
+      "audit_status": "pending_independent_review"
+    },
+    {
+      "shot_id": "S057_maid_sign_A",
+      "start_frame_proposal": 2298,
+      "end_frame_exclusive_proposal": 2334,
+      "start_time_proposal": 95.75,
+      "end_time_proposal": 97.25,
+      "core_pose_candidates": [
+        "maid_sign_A"
+      ],
+      "hold_policy": "hold",
+      "boundary_status": "quarter-second_storyboard_navigation_proposal_not_exact_event_audit",
+      "closest_large_jump_frame_candidate": 2298,
+      "closest_jump_mad": 27.793838028169013,
+      "audit_status": "pending_independent_review"
+    },
+    {
+      "shot_id": "S058_maid_sign_B",
+      "start_frame_proposal": 2334,
+      "end_frame_exclusive_proposal": 2370,
+      "start_time_proposal": 97.25,
+      "end_time_proposal": 98.75,
+      "core_pose_candidates": [
+        "maid_sign_B"
+      ],
+      "hold_policy": "hold",
+      "boundary_status": "quarter-second_storyboard_navigation_proposal_not_exact_event_audit",
+      "closest_large_jump_frame_candidate": 2332,
+      "closest_jump_mad": 23.26599178403756,
+      "audit_status": "pending_independent_review"
+    },
+    {
+      "shot_id": "S059_maid_flip_A",
+      "start_frame_proposal": 2370,
+      "end_frame_exclusive_proposal": 2382,
+      "start_time_proposal": 98.75,
+      "end_time_proposal": 99.25,
+      "core_pose_candidates": [
+        "maid_upside_down"
+      ],
+      "hold_policy": "hold",
+      "boundary_status": "quarter-second_storyboard_navigation_proposal_not_exact_event_audit",
+      "closest_large_jump_frame_candidate": 2368,
+      "closest_jump_mad": 23.57288732394366,
+      "audit_status": "pending_independent_review"
+    },
+    {
+      "shot_id": "S060_maid_sign_A_repeat",
+      "start_frame_proposal": 2382,
+      "end_frame_exclusive_proposal": 2406,
+      "start_time_proposal": 99.25,
+      "end_time_proposal": 100.25,
+      "core_pose_candidates": [
+        "maid_sign_A"
+      ],
+      "hold_policy": "reuse_same_approved_asset",
+      "boundary_status": "quarter-second_storyboard_navigation_proposal_not_exact_event_audit",
+      "closest_large_jump_frame_candidate": 2381,
+      "closest_jump_mad": 24.38242370892019,
+      "audit_status": "pending_independent_review"
+    },
+    {
+      "shot_id": "S061_maid_flip_B",
+      "start_frame_proposal": 2406,
+      "end_frame_exclusive_proposal": 2430,
+      "start_time_proposal": 100.25,
+      "end_time_proposal": 101.25,
+      "core_pose_candidates": [
+        "maid_upside_down"
+      ],
+      "hold_policy": "reuse_same_approved_asset",
+      "boundary_status": "quarter-second_storyboard_navigation_proposal_not_exact_event_audit",
+      "closest_large_jump_frame_candidate": 2407,
+      "closest_jump_mad": 32.40944835680751,
+      "audit_status": "pending_independent_review"
+    },
+    {
+      "shot_id": "S062_wipe_maid",
+      "start_frame_proposal": 2430,
+      "end_frame_exclusive_proposal": 2448,
+      "start_time_proposal": 101.25,
+      "end_time_proposal": 102.0,
+      "core_pose_candidates": [
+        "maid_upside_down"
+      ],
+      "hold_policy": "hold_source_transition",
+      "boundary_status": "quarter-second_storyboard_navigation_proposal_not_exact_event_audit",
+      "closest_large_jump_frame_candidate": 2429,
+      "closest_jump_mad": 26.286296948356807,
+      "audit_status": "pending_independent_review"
+    },
+    {
+      "shot_id": "S063_dark_center_short",
+      "start_frame_proposal": 2448,
+      "end_frame_exclusive_proposal": 2460,
+      "start_time_proposal": 102.0,
+      "end_time_proposal": 102.5,
+      "core_pose_candidates": [
+        "dark_center_card"
+      ],
+      "hold_policy": "reuse_same_approved_asset",
+      "boundary_status": "quarter-second_storyboard_navigation_proposal_not_exact_event_audit",
+      "closest_large_jump_frame_candidate": 2447,
+      "closest_jump_mad": 222.3117957746479,
+      "audit_status": "pending_independent_review"
+    },
+    {
+      "shot_id": "S064_dark_panic",
+      "start_frame_proposal": 2460,
+      "end_frame_exclusive_proposal": 2586,
+      "start_time_proposal": 102.5,
+      "end_time_proposal": 107.75,
+      "core_pose_candidates": [
+        "dark_panic"
+      ],
+      "hold_policy": "hold_mouth_eyes_separate",
+      "boundary_status": "quarter-second_storyboard_navigation_proposal_not_exact_event_audit",
+      "closest_large_jump_frame_candidate": 2458,
+      "closest_jump_mad": 29.5106220657277,
+      "audit_status": "pending_independent_review"
+    },
+    {
+      "shot_id": "S065_head_down",
+      "start_frame_proposal": 2586,
+      "end_frame_exclusive_proposal": 2598,
+      "start_time_proposal": 107.75,
+      "end_time_proposal": 108.25,
+      "core_pose_candidates": [
+        "head_down_dark"
+      ],
+      "hold_policy": "hold",
+      "boundary_status": "quarter-second_storyboard_navigation_proposal_not_exact_event_audit",
+      "closest_large_jump_frame_candidate": 2582,
+      "closest_jump_mad": 21.094835680751174,
+      "audit_status": "pending_independent_review"
+    },
+    {
+      "shot_id": "S066_mouth_B",
+      "start_frame_proposal": 2598,
+      "end_frame_exclusive_proposal": 2628,
+      "start_time_proposal": 108.25,
+      "end_time_proposal": 109.5,
+      "core_pose_candidates": [
+        "mouth_strip_A"
+      ],
+      "hold_policy": "same_family_new_mouths",
+      "boundary_status": "quarter-second_storyboard_navigation_proposal_not_exact_event_audit",
+      "closest_large_jump_frame_candidate": 2595,
+      "closest_jump_mad": 85.12232981220657,
+      "audit_status": "pending_independent_review"
+    },
+    {
+      "shot_id": "S067_pleading",
+      "start_frame_proposal": 2628,
+      "end_frame_exclusive_proposal": 2778,
+      "start_time_proposal": 109.5,
+      "end_time_proposal": 115.75,
+      "core_pose_candidates": [
+        "plead_A",
+        "plead_B"
+      ],
+      "hold_policy": "alternate_extreme_holds",
+      "boundary_status": "quarter-second_storyboard_navigation_proposal_not_exact_event_audit",
+      "closest_large_jump_frame_candidate": 2624,
+      "closest_jump_mad": 80.8543133802817,
+      "audit_status": "pending_independent_review"
+    },
+    {
+      "shot_id": "S068_lean_forward",
+      "start_frame_proposal": 2778,
+      "end_frame_exclusive_proposal": 2814,
+      "start_time_proposal": 115.75,
+      "end_time_proposal": 117.25,
+      "core_pose_candidates": [
+        "lean_forward"
+      ],
+      "hold_policy": "hold",
+      "boundary_status": "quarter-second_storyboard_navigation_proposal_not_exact_event_audit",
+      "closest_large_jump_frame_candidate": 2777,
+      "closest_jump_mad": 60.285974178403755,
+      "audit_status": "pending_independent_review"
+    },
+    {
+      "shot_id": "S069_center_short",
+      "start_frame_proposal": 2814,
+      "end_frame_exclusive_proposal": 2826,
+      "start_time_proposal": 117.25,
+      "end_time_proposal": 117.75,
+      "core_pose_candidates": [
+        "center_card"
+      ],
+      "hold_policy": "reuse_same_approved_asset",
+      "boundary_status": "quarter-second_storyboard_navigation_proposal_not_exact_event_audit",
+      "closest_large_jump_frame_candidate": 2812,
+      "closest_jump_mad": 244.71273474178403,
+      "audit_status": "pending_independent_review"
+    },
+    {
+      "shot_id": "S070_fold_right",
+      "start_frame_proposal": 2826,
+      "end_frame_exclusive_proposal": 2916,
+      "start_time_proposal": 117.75,
+      "end_time_proposal": 121.5,
+      "core_pose_candidates": [
+        "fold_arm_right"
+      ],
+      "hold_policy": "hold",
+      "boundary_status": "quarter-second_storyboard_navigation_proposal_not_exact_event_audit",
+      "closest_large_jump_frame_candidate": 2824,
+      "closest_jump_mad": 103.57323943661972,
+      "audit_status": "pending_independent_review"
+    },
+    {
+      "shot_id": "S071_fold_left",
+      "start_frame_proposal": 2916,
+      "end_frame_exclusive_proposal": 2988,
+      "start_time_proposal": 121.5,
+      "end_time_proposal": 124.5,
+      "core_pose_candidates": [
+        "fold_arm_left"
+      ],
+      "hold_policy": "hold",
+      "boundary_status": "quarter-second_storyboard_navigation_proposal_not_exact_event_audit",
+      "closest_large_jump_frame_candidate": 2915,
+      "closest_jump_mad": 51.06511150234742,
+      "audit_status": "pending_independent_review"
+    },
+    {
+      "shot_id": "S072_wipe_partial",
+      "start_frame_proposal": 2988,
+      "end_frame_exclusive_proposal": 3006,
+      "start_time_proposal": 124.5,
+      "end_time_proposal": 125.25,
+      "core_pose_candidates": [
+        "fold_arm_left"
+      ],
+      "hold_policy": "hold_source_transition",
+      "boundary_status": "quarter-second_storyboard_navigation_proposal_not_exact_event_audit",
+      "closest_large_jump_frame_candidate": 2984,
+      "closest_jump_mad": 79.50170187793427,
+      "audit_status": "pending_independent_review"
+    },
+    {
+      "shot_id": "S073_sleep",
+      "start_frame_proposal": 3006,
+      "end_frame_exclusive_proposal": 3144,
+      "start_time_proposal": 125.25,
+      "end_time_proposal": 131.0,
+      "core_pose_candidates": [
+        "sleep_table"
+      ],
+      "hold_policy": "hold_clock_overlay_separate",
+      "boundary_status": "quarter-second_storyboard_navigation_proposal_not_exact_event_audit",
+      "closest_large_jump_frame_candidate": 3006,
+      "closest_jump_mad": 118.69222417840376,
+      "audit_status": "pending_independent_review"
+    },
+    {
+      "shot_id": "S074_vertical_mouth",
+      "start_frame_proposal": 3144,
+      "end_frame_exclusive_proposal": 3174,
+      "start_time_proposal": 131.0,
+      "end_time_proposal": 132.25,
+      "core_pose_candidates": [
+        "mouth_strip_B"
+      ],
+      "hold_policy": "hold_mouth_separate",
+      "boundary_status": "quarter-second_storyboard_navigation_proposal_not_exact_event_audit",
+      "closest_large_jump_frame_candidate": 3144,
+      "closest_jump_mad": 99.47943075117371,
+      "audit_status": "pending_independent_review"
+    },
+    {
+      "shot_id": "S075_game_prepare",
+      "start_frame_proposal": 3174,
+      "end_frame_exclusive_proposal": 3192,
+      "start_time_proposal": 132.25,
+      "end_time_proposal": 133.0,
+      "core_pose_candidates": [
+        "game_prepare"
+      ],
+      "hold_policy": "hold_no_connector_redraw",
+      "boundary_status": "quarter-second_storyboard_navigation_proposal_not_exact_event_audit",
+      "closest_large_jump_frame_candidate": 3173,
+      "closest_jump_mad": 97.42112676056338,
+      "audit_status": "pending_independent_review"
+    },
+    {
+      "shot_id": "S076_head_back_reprise",
+      "start_frame_proposal": 3192,
+      "end_frame_exclusive_proposal": 3216,
+      "start_time_proposal": 133.0,
+      "end_time_proposal": 134.0,
+      "core_pose_candidates": [
+        "head_back_cry"
+      ],
+      "hold_policy": "reuse_same_approved_asset",
+      "boundary_status": "quarter-second_storyboard_navigation_proposal_not_exact_event_audit",
+      "closest_large_jump_frame_candidate": 3189,
+      "closest_jump_mad": 50.124530516431925,
+      "audit_status": "pending_independent_review"
+    },
+    {
+      "shot_id": "S077_tease_reprise",
+      "start_frame_proposal": 3216,
+      "end_frame_exclusive_proposal": 3240,
+      "start_time_proposal": 134.0,
+      "end_time_proposal": 135.0,
+      "core_pose_candidates": [
+        "tease_forehead_A",
+        "tease_forehead_B"
+      ],
+      "hold_policy": "reuse_same_approved_assets",
+      "boundary_status": "quarter-second_storyboard_navigation_proposal_not_exact_event_audit",
+      "closest_large_jump_frame_candidate": 3212,
+      "closest_jump_mad": 38.322007042253524,
+      "audit_status": "pending_independent_review"
+    },
+    {
+      "shot_id": "S078_forehead_collage_reprise",
+      "start_frame_proposal": 3240,
+      "end_frame_exclusive_proposal": 3258,
+      "start_time_proposal": 135.0,
+      "end_time_proposal": 135.75,
+      "core_pose_candidates": [
+        "lean_forehead_close",
+        "lean_forehead_wide"
+      ],
+      "hold_policy": "reuse_same_approved_assets",
+      "boundary_status": "quarter-second_storyboard_navigation_proposal_not_exact_event_audit",
+      "closest_large_jump_frame_candidate": 3235,
+      "closest_jump_mad": 49.82925469483568,
+      "audit_status": "pending_independent_review"
+    },
+    {
+      "shot_id": "S079_tease_flip_reprise",
+      "start_frame_proposal": 3258,
+      "end_frame_exclusive_proposal": 3282,
+      "start_time_proposal": 135.75,
+      "end_time_proposal": 136.75,
+      "core_pose_candidates": [
+        "tease_flip"
+      ],
+      "hold_policy": "reuse_same_approved_asset",
+      "boundary_status": "quarter-second_storyboard_navigation_proposal_not_exact_event_audit",
+      "closest_large_jump_frame_candidate": 3258,
+      "closest_jump_mad": 39.10982981220657,
+      "audit_status": "pending_independent_review"
+    },
+    {
+      "shot_id": "S080_cheek_reprise",
+      "start_frame_proposal": 3282,
+      "end_frame_exclusive_proposal": 3306,
+      "start_time_proposal": 136.75,
+      "end_time_proposal": 137.75,
+      "core_pose_candidates": [
+        "cheek_close"
+      ],
+      "hold_policy": "reuse_same_approved_asset",
+      "boundary_status": "quarter-second_storyboard_navigation_proposal_not_exact_event_audit",
+      "closest_large_jump_frame_candidate": 3281,
+      "closest_jump_mad": 52.8475058685446,
+      "audit_status": "pending_independent_review"
+    },
+    {
+      "shot_id": "S081_cover_reprise",
+      "start_frame_proposal": 3306,
+      "end_frame_exclusive_proposal": 3318,
+      "start_time_proposal": 137.75,
+      "end_time_proposal": 138.25,
+      "core_pose_candidates": [
+        "cover_eyes"
+      ],
+      "hold_policy": "reuse_same_approved_asset",
+      "boundary_status": "quarter-second_storyboard_navigation_proposal_not_exact_event_audit",
+      "closest_large_jump_frame_candidate": 3303,
+      "closest_jump_mad": 41.572095070422534,
+      "audit_status": "pending_independent_review"
+    },
+    {
+      "shot_id": "S082_creep_reprise",
+      "start_frame_proposal": 3318,
+      "end_frame_exclusive_proposal": 3330,
+      "start_time_proposal": 138.25,
+      "end_time_proposal": 138.75,
+      "core_pose_candidates": [
+        "creep_palms"
+      ],
+      "hold_policy": "reuse_same_approved_asset",
+      "boundary_status": "quarter-second_storyboard_navigation_proposal_not_exact_event_audit",
+      "closest_large_jump_frame_candidate": 3315,
+      "closest_jump_mad": 30.222359154929578,
+      "audit_status": "pending_independent_review"
+    },
+    {
+      "shot_id": "S083_explain_reprise",
+      "start_frame_proposal": 3330,
+      "end_frame_exclusive_proposal": 3354,
+      "start_time_proposal": 138.75,
+      "end_time_proposal": 139.75,
+      "core_pose_candidates": [
+        "explain_palms_A",
+        "explain_palms_B"
+      ],
+      "hold_policy": "reuse_same_approved_assets",
+      "boundary_status": "quarter-second_storyboard_navigation_proposal_not_exact_event_audit",
+      "closest_large_jump_frame_candidate": 3326,
+      "closest_jump_mad": 38.38700117370892,
+      "audit_status": "pending_independent_review"
+    },
+    {
+      "shot_id": "S084_shush_reprise",
+      "start_frame_proposal": 3354,
+      "end_frame_exclusive_proposal": 3372,
+      "start_time_proposal": 139.75,
+      "end_time_proposal": 140.5,
+      "core_pose_candidates": [
+        "shush"
+      ],
+      "hold_policy": "reuse_same_approved_asset",
+      "boundary_status": "quarter-second_storyboard_navigation_proposal_not_exact_event_audit",
+      "closest_large_jump_frame_candidate": 3349,
+      "closest_jump_mad": 98.16364436619719,
+      "audit_status": "pending_independent_review"
+    },
+    {
+      "shot_id": "S085_head_back_reprise2",
+      "start_frame_proposal": 3372,
+      "end_frame_exclusive_proposal": 3396,
+      "start_time_proposal": 140.5,
+      "end_time_proposal": 141.5,
+      "core_pose_candidates": [
+        "head_back_cry"
+      ],
+      "hold_policy": "reuse_same_approved_asset",
+      "boundary_status": "quarter-second_storyboard_navigation_proposal_not_exact_event_audit",
+      "closest_large_jump_frame_candidate": 3372,
+      "closest_jump_mad": 86.54979460093897,
+      "audit_status": "pending_independent_review"
+    },
+    {
+      "shot_id": "S086_tease_reprise2",
+      "start_frame_proposal": 3396,
+      "end_frame_exclusive_proposal": 3420,
+      "start_time_proposal": 141.5,
+      "end_time_proposal": 142.5,
+      "core_pose_candidates": [
+        "tease_forehead_A",
+        "tease_forehead_B"
+      ],
+      "hold_policy": "reuse_same_approved_assets",
+      "boundary_status": "quarter-second_storyboard_navigation_proposal_not_exact_event_audit",
+      "closest_large_jump_frame_candidate": 3395,
+      "closest_jump_mad": 38.485328638497656,
+      "audit_status": "pending_independent_review"
+    },
+    {
+      "shot_id": "S087_forehead_collage_reprise2",
+      "start_frame_proposal": 3420,
+      "end_frame_exclusive_proposal": 3444,
+      "start_time_proposal": 142.5,
+      "end_time_proposal": 143.5,
+      "core_pose_candidates": [
+        "lean_forehead_close",
+        "lean_forehead_wide"
+      ],
+      "hold_policy": "reuse_same_approved_assets",
+      "boundary_status": "quarter-second_storyboard_navigation_proposal_not_exact_event_audit",
+      "closest_large_jump_frame_candidate": 3418,
+      "closest_jump_mad": 49.64515845070422,
+      "audit_status": "pending_independent_review"
+    },
+    {
+      "shot_id": "S088_tease_flip_reprise2",
+      "start_frame_proposal": 3444,
+      "end_frame_exclusive_proposal": 3468,
+      "start_time_proposal": 143.5,
+      "end_time_proposal": 144.5,
+      "core_pose_candidates": [
+        "tease_flip"
+      ],
+      "hold_policy": "reuse_same_approved_asset",
+      "boundary_status": "quarter-second_storyboard_navigation_proposal_not_exact_event_audit",
+      "closest_large_jump_frame_candidate": 3441,
+      "closest_jump_mad": 39.07177230046948,
+      "audit_status": "pending_independent_review"
+    },
+    {
+      "shot_id": "S089_cheek_reprise2",
+      "start_frame_proposal": 3468,
+      "end_frame_exclusive_proposal": 3486,
+      "start_time_proposal": 144.5,
+      "end_time_proposal": 145.25,
+      "core_pose_candidates": [
+        "cheek_close"
+      ],
+      "hold_policy": "reuse_same_approved_asset",
+      "boundary_status": "quarter-second_storyboard_navigation_proposal_not_exact_event_audit",
+      "closest_large_jump_frame_candidate": 3464,
+      "closest_jump_mad": 52.8524941314554,
+      "audit_status": "pending_independent_review"
+    },
+    {
+      "shot_id": "S090_game_set_reprise",
+      "start_frame_proposal": 3486,
+      "end_frame_exclusive_proposal": 3498,
+      "start_time_proposal": 145.25,
+      "end_time_proposal": 145.75,
+      "core_pose_candidates": [
+        "game_set"
+      ],
+      "hold_policy": "reuse_same_approved_asset",
+      "boundary_status": "quarter-second_storyboard_navigation_proposal_not_exact_event_audit",
+      "closest_large_jump_frame_candidate": 3482,
+      "closest_jump_mad": 41.57787558685446,
+      "audit_status": "pending_independent_review"
+    },
+    {
+      "shot_id": "S091_raise_card_reprise",
+      "start_frame_proposal": 3498,
+      "end_frame_exclusive_proposal": 3510,
+      "start_time_proposal": 145.75,
+      "end_time_proposal": 146.25,
+      "core_pose_candidates": [
+        "raise_card"
+      ],
+      "hold_policy": "reuse_same_approved_asset",
+      "boundary_status": "quarter-second_storyboard_navigation_proposal_not_exact_event_audit",
+      "closest_large_jump_frame_candidate": 3498,
+      "closest_jump_mad": 27.042136150234743,
+      "audit_status": "pending_independent_review"
+    },
+    {
+      "shot_id": "S092_glow_reprise",
+      "start_frame_proposal": 3510,
+      "end_frame_exclusive_proposal": 3534,
+      "start_time_proposal": 146.25,
+      "end_time_proposal": 147.25,
+      "core_pose_candidates": [
+        "glow_eye"
+      ],
+      "hold_policy": "reuse_same_approved_asset",
+      "boundary_status": "quarter-second_storyboard_navigation_proposal_not_exact_event_audit",
+      "closest_large_jump_frame_candidate": 3509,
+      "closest_jump_mad": 53.1818955399061,
+      "audit_status": "pending_independent_review"
+    },
+    {
+      "shot_id": "S093_victory_reprise",
+      "start_frame_proposal": 3534,
+      "end_frame_exclusive_proposal": 3558,
+      "start_time_proposal": 147.25,
+      "end_time_proposal": 148.25,
+      "core_pose_candidates": [
+        "victory_arms"
+      ],
+      "hold_policy": "reuse_same_approved_asset",
+      "boundary_status": "quarter-second_storyboard_navigation_proposal_not_exact_event_audit",
+      "closest_large_jump_frame_candidate": 3532,
+      "closest_jump_mad": 64.01423122065728,
+      "audit_status": "pending_independent_review"
+    },
+    {
+      "shot_id": "S094_taunt_hook_reprise1",
+      "start_frame_proposal": 3558,
+      "end_frame_exclusive_proposal": 3600,
+      "start_time_proposal": 148.25,
+      "end_time_proposal": 150.0,
+      "core_pose_candidates": [
+        "taunt_close_A",
+        "taunt_close_B",
+        "taunt_close_C"
+      ],
+      "hold_policy": "reuse_same_approved_assets",
+      "boundary_status": "quarter-second_storyboard_navigation_proposal_not_exact_event_audit",
+      "closest_large_jump_frame_candidate": 3555,
+      "closest_jump_mad": 58.722036384976526,
+      "audit_status": "pending_independent_review"
+    },
+    {
+      "shot_id": "S095_taunt_hook_reprise2",
+      "start_frame_proposal": 3600,
+      "end_frame_exclusive_proposal": 3648,
+      "start_time_proposal": 150.0,
+      "end_time_proposal": 152.0,
+      "core_pose_candidates": [
+        "taunt_flank_A"
+      ],
+      "hold_policy": "reuse_same_approved_asset",
+      "boundary_status": "quarter-second_storyboard_navigation_proposal_not_exact_event_audit",
+      "closest_large_jump_frame_candidate": 3600,
+      "closest_jump_mad": 65.30894953051643,
+      "audit_status": "pending_independent_review"
+    },
+    {
+      "shot_id": "S096_taunt_hook_reprise3",
+      "start_frame_proposal": 3648,
+      "end_frame_exclusive_proposal": 3690,
+      "start_time_proposal": 152.0,
+      "end_time_proposal": 153.75,
+      "core_pose_candidates": [
+        "taunt_flank_B"
+      ],
+      "hold_policy": "reuse_same_approved_asset",
+      "boundary_status": "quarter-second_storyboard_navigation_proposal_not_exact_event_audit",
+      "closest_large_jump_frame_candidate": 3645,
+      "closest_jump_mad": 64.59448356807512,
+      "audit_status": "pending_independent_review"
+    },
+    {
+      "shot_id": "S097_clap_reprise",
+      "start_frame_proposal": 3690,
+      "end_frame_exclusive_proposal": 3738,
+      "start_time_proposal": 153.75,
+      "end_time_proposal": 155.75,
+      "core_pose_candidates": [
+        "clap_pose_A",
+        "clap_pose_B"
+      ],
+      "hold_policy": "reuse_same_approved_assets",
+      "boundary_status": "quarter-second_storyboard_navigation_proposal_not_exact_event_audit",
+      "closest_large_jump_frame_candidate": 3690,
+      "closest_jump_mad": 56.34451291079812,
+      "audit_status": "pending_independent_review"
+    },
+    {
+      "shot_id": "S098_taunt_hook_reprise4",
+      "start_frame_proposal": 3738,
+      "end_frame_exclusive_proposal": 3786,
+      "start_time_proposal": 155.75,
+      "end_time_proposal": 157.75,
+      "core_pose_candidates": [
+        "taunt_right_A"
+      ],
+      "hold_policy": "reuse_same_approved_asset",
+      "boundary_status": "quarter-second_storyboard_navigation_proposal_not_exact_event_audit",
+      "closest_large_jump_frame_candidate": 3737,
+      "closest_jump_mad": 53.44774061032864,
+      "audit_status": "pending_independent_review"
+    },
+    {
+      "shot_id": "S099_taunt_hook_reprise5",
+      "start_frame_proposal": 3786,
+      "end_frame_exclusive_proposal": 3846,
+      "start_time_proposal": 157.75,
+      "end_time_proposal": 160.25,
+      "core_pose_candidates": [
+        "taunt_left_A"
+      ],
+      "hold_policy": "reuse_same_approved_asset",
+      "boundary_status": "quarter-second_storyboard_navigation_proposal_not_exact_event_audit",
+      "closest_large_jump_frame_candidate": 3782,
+      "closest_jump_mad": 65.14216549295774,
+      "audit_status": "pending_independent_review"
+    },
+    {
+      "shot_id": "S100_dynamite_eye_reprise",
+      "start_frame_proposal": 3846,
+      "end_frame_exclusive_proposal": 3876,
+      "start_time_proposal": 160.25,
+      "end_time_proposal": 161.5,
+      "core_pose_candidates": [
+        "dynamite_eyes"
+      ],
+      "hold_policy": "reuse_same_approved_asset",
+      "boundary_status": "quarter-second_storyboard_navigation_proposal_not_exact_event_audit",
+      "closest_large_jump_frame_candidate": 3851,
+      "closest_jump_mad": 14.122183098591549,
+      "audit_status": "pending_independent_review"
+    },
+    {
+      "shot_id": "S101_center_montage",
+      "start_frame_proposal": 3876,
+      "end_frame_exclusive_proposal": 3912,
+      "start_time_proposal": 161.5,
+      "end_time_proposal": 163.0,
+      "core_pose_candidates": [
+        "center_card"
+      ],
+      "hold_policy": "hold_source_vertical_wipes",
+      "boundary_status": "quarter-second_storyboard_navigation_proposal_not_exact_event_audit",
+      "closest_large_jump_frame_candidate": 3875,
+      "closest_jump_mad": 60.74888497652582,
+      "audit_status": "pending_independent_review"
+    },
+    {
+      "shot_id": "S102_wink_reprise",
+      "start_frame_proposal": 3912,
+      "end_frame_exclusive_proposal": 3924,
+      "start_time_proposal": 163.0,
+      "end_time_proposal": 163.5,
+      "core_pose_candidates": [
+        "wink_reprise"
+      ],
+      "hold_policy": "reuse_candidate_with_984",
+      "boundary_status": "quarter-second_storyboard_navigation_proposal_not_exact_event_audit",
+      "closest_large_jump_frame_candidate": 3909,
+      "closest_jump_mad": 7.502728873239437,
+      "audit_status": "pending_independent_review"
+    },
+    {
+      "shot_id": "S103_dark_center_final",
+      "start_frame_proposal": 3924,
+      "end_frame_exclusive_proposal": 4050,
+      "start_time_proposal": 163.5,
+      "end_time_proposal": 168.75,
+      "core_pose_candidates": [
+        "center_dark_card"
+      ],
+      "hold_policy": "hold_mouth_eyes_separate",
+      "boundary_status": "quarter-second_storyboard_navigation_proposal_not_exact_event_audit",
+      "closest_large_jump_frame_candidate": 3920,
+      "closest_jump_mad": 55.75208333333333,
+      "audit_status": "pending_independent_review"
+    },
+    {
+      "shot_id": "S104_dynamite_face",
+      "start_frame_proposal": 4050,
+      "end_frame_exclusive_proposal": 4062,
+      "start_time_proposal": 168.75,
+      "end_time_proposal": 169.25,
+      "core_pose_candidates": [
+        "dynamite_face"
+      ],
+      "hold_policy": "hold",
+      "boundary_status": "quarter-second_storyboard_navigation_proposal_not_exact_event_audit",
+      "closest_large_jump_frame_candidate": 4046,
+      "closest_jump_mad": 129.4050762910798,
+      "audit_status": "pending_independent_review"
+    },
+    {
+      "shot_id": "S105_dab_final",
+      "start_frame_proposal": 4062,
+      "end_frame_exclusive_proposal": 4104,
+      "start_time_proposal": 169.25,
+      "end_time_proposal": 171.0,
+      "core_pose_candidates": [
+        "center_card",
+        "dab_start",
+        "dab_land"
+      ],
+      "hold_policy": "reuse_same_approved_assets",
+      "boundary_status": "quarter-second_storyboard_navigation_proposal_not_exact_event_audit",
+      "closest_large_jump_frame_candidate": 4058,
+      "closest_jump_mad": 60.13130868544601,
+      "audit_status": "pending_independent_review"
+    },
+    {
+      "shot_id": "S106_chorus_final",
+      "start_frame_proposal": 4104,
+      "end_frame_exclusive_proposal": 4266,
+      "start_time_proposal": 171.0,
+      "end_time_proposal": 177.75,
+      "core_pose_candidates": [
+        "chorus_tilt_left",
+        "chorus_tilt_right"
+      ],
+      "hold_policy": "reuse_same_approved_assets",
+      "boundary_status": "quarter-second_storyboard_navigation_proposal_not_exact_event_audit",
+      "closest_large_jump_frame_candidate": 4102,
+      "closest_jump_mad": 69.61549295774648,
+      "audit_status": "pending_independent_review"
+    },
+    {
+      "shot_id": "S107_maid_close",
+      "start_frame_proposal": 4266,
+      "end_frame_exclusive_proposal": 4290,
+      "start_time_proposal": 177.75,
+      "end_time_proposal": 178.75,
+      "core_pose_candidates": [
+        "maid_close_paws"
+      ],
+      "hold_policy": "hold",
+      "boundary_status": "quarter-second_storyboard_navigation_proposal_not_exact_event_audit",
+      "closest_large_jump_frame_candidate": 4263,
+      "closest_jump_mad": 85.54087441314554,
+      "audit_status": "pending_independent_review"
+    },
+    {
+      "shot_id": "S108_center_taunt_closed",
+      "start_frame_proposal": 4290,
+      "end_frame_exclusive_proposal": 4344,
+      "start_time_proposal": 178.75,
+      "end_time_proposal": 181.0,
+      "core_pose_candidates": [
+        "center_taunt_closed"
+      ],
+      "hold_policy": "hold_mouth_separate",
+      "boundary_status": "quarter-second_storyboard_navigation_proposal_not_exact_event_audit",
+      "closest_large_jump_frame_candidate": 4287,
+      "closest_jump_mad": 76.993779342723,
+      "audit_status": "pending_independent_review"
+    },
+    {
+      "shot_id": "S109_center_taunt_open",
+      "start_frame_proposal": 4344,
+      "end_frame_exclusive_proposal": 4428,
+      "start_time_proposal": 181.0,
+      "end_time_proposal": 184.5,
+      "core_pose_candidates": [
+        "center_taunt_open"
+      ],
+      "hold_policy": "hold_mouth_separate",
+      "boundary_status": "quarter-second_storyboard_navigation_proposal_not_exact_event_audit",
+      "closest_large_jump_frame_candidate": 4349,
+      "closest_jump_mad": 5.3779929577464785,
+      "audit_status": "pending_independent_review"
+    },
+    {
+      "shot_id": "S110_center_shout",
+      "start_frame_proposal": 4428,
+      "end_frame_exclusive_proposal": 4470,
+      "start_time_proposal": 184.5,
+      "end_time_proposal": 186.25,
+      "core_pose_candidates": [
+        "center_shout"
+      ],
+      "hold_policy": "hold_mouth_separate",
+      "boundary_status": "quarter-second_storyboard_navigation_proposal_not_exact_event_audit",
+      "closest_large_jump_frame_candidate": 4424,
+      "closest_jump_mad": 48.95669014084507,
+      "audit_status": "pending_independent_review"
+    },
+    {
+      "shot_id": "S111_rear_fan",
+      "start_frame_proposal": 4470,
+      "end_frame_exclusive_proposal": 4578,
+      "start_time_proposal": 186.25,
+      "end_time_proposal": 190.75,
+      "core_pose_candidates": [
+        "rear_card_table"
+      ],
+      "hold_policy": "hold_cards_foreground_separate",
+      "boundary_status": "quarter-second_storyboard_navigation_proposal_not_exact_event_audit",
+      "closest_large_jump_frame_candidate": 4469,
+      "closest_jump_mad": 79.61276408450705,
+      "audit_status": "pending_independent_review"
+    },
+    {
+      "shot_id": "S112_side_blank",
+      "start_frame_proposal": 4578,
+      "end_frame_exclusive_proposal": 4638,
+      "start_time_proposal": 190.75,
+      "end_time_proposal": 193.25,
+      "core_pose_candidates": [
+        "side_blank_eyes"
+      ],
+      "hold_policy": "hold",
+      "boundary_status": "quarter-second_storyboard_navigation_proposal_not_exact_event_audit",
+      "closest_large_jump_frame_candidate": 4574,
+      "closest_jump_mad": 39.97946009389671,
+      "audit_status": "pending_independent_review"
+    },
+    {
+      "shot_id": "S113_side_rays",
+      "start_frame_proposal": 4638,
+      "end_frame_exclusive_proposal": 4752,
+      "start_time_proposal": 193.25,
+      "end_time_proposal": 198.0,
+      "core_pose_candidates": [
+        "side_rays"
+      ],
+      "hold_policy": "hold_face_overlay_separate",
+      "boundary_status": "quarter-second_storyboard_navigation_proposal_not_exact_event_audit",
+      "closest_large_jump_frame_candidate": 4634,
+      "closest_jump_mad": 1.3914906103286384,
+      "audit_status": "pending_independent_review"
+    },
+    {
+      "shot_id": "S114_side_unamused",
+      "start_frame_proposal": 4752,
+      "end_frame_exclusive_proposal": 4770,
+      "start_time_proposal": 198.0,
+      "end_time_proposal": 198.75,
+      "core_pose_candidates": [
+        "side_unamused"
+      ],
+      "hold_policy": "hold",
+      "boundary_status": "quarter-second_storyboard_navigation_proposal_not_exact_event_audit",
+      "closest_large_jump_frame_candidate": 4747,
+      "closest_jump_mad": 17.326965962441314,
+      "audit_status": "pending_independent_review"
+    },
+    {
+      "shot_id": "S115_side_shock",
+      "start_frame_proposal": 4770,
+      "end_frame_exclusive_proposal": 4794,
+      "start_time_proposal": 198.75,
+      "end_time_proposal": 199.75,
+      "core_pose_candidates": [
+        "side_shock"
+      ],
+      "hold_policy": "hold",
+      "boundary_status": "quarter-second_storyboard_navigation_proposal_not_exact_event_audit",
+      "closest_large_jump_frame_candidate": 4770,
+      "closest_jump_mad": 17.11094483568075,
+      "audit_status": "pending_independent_review"
+    },
+    {
+      "shot_id": "S116_side_extreme",
+      "start_frame_proposal": 4794,
+      "end_frame_exclusive_proposal": 4812,
+      "start_time_proposal": 199.75,
+      "end_time_proposal": 200.5,
+      "core_pose_candidates": [
+        "side_shock_extreme"
+      ],
+      "hold_policy": "hold",
+      "boundary_status": "quarter-second_storyboard_navigation_proposal_not_exact_event_audit",
+      "closest_large_jump_frame_candidate": 4796,
+      "closest_jump_mad": 14.875645539906102,
+      "audit_status": "pending_independent_review"
+    },
+    {
+      "shot_id": "S117_wipe",
+      "start_frame_proposal": 4812,
+      "end_frame_exclusive_proposal": 4818,
+      "start_time_proposal": 200.5,
+      "end_time_proposal": 200.75,
+      "core_pose_candidates": [],
+      "hold_policy": "source_passthrough",
+      "boundary_status": "quarter-second_storyboard_navigation_proposal_not_exact_event_audit",
+      "closest_large_jump_frame_candidate": 4814,
+      "closest_jump_mad": 108.41132629107982,
+      "audit_status": "pending_independent_review"
+    },
+    {
+      "shot_id": "S118_final_card_chaos",
+      "start_frame_proposal": 4818,
+      "end_frame_exclusive_proposal": 4998,
+      "start_time_proposal": 200.75,
+      "end_time_proposal": 208.25,
+      "core_pose_candidates": [
+        "final_card_chaos"
+      ],
+      "hold_policy": "hold_flying_cards_separate_and_character_fade",
+      "boundary_status": "quarter-second_storyboard_navigation_proposal_not_exact_event_audit",
+      "closest_large_jump_frame_candidate": 4814,
+      "closest_jump_mad": 108.41132629107982,
+      "audit_status": "pending_independent_review"
+    },
+    {
+      "shot_id": "S119_end_card",
+      "start_frame_proposal": 4998,
+      "end_frame_exclusive_proposal": 5212,
+      "start_time_proposal": 208.25,
+      "end_time_proposal": 217.16666666666666,
+      "core_pose_candidates": [],
+      "hold_policy": "source_passthrough_no_character",
+      "boundary_status": "quarter-second_storyboard_navigation_proposal_not_exact_event_audit",
+      "closest_large_jump_frame_candidate": 5001,
+      "closest_jump_mad": 2.425293427230047,
+      "audit_status": "pending_independent_review"
+    },
+    {
+      "shot_id": "S120_end_black",
+      "start_frame_proposal": 5212,
+      "end_frame_exclusive_proposal": 5245,
+      "start_time_proposal": 217.167,
+      "end_time_proposal": 218.54166666666666,
+      "core_pose_candidates": [],
+      "hold_policy": "source_passthrough_no_character",
+      "boundary_status": "quarter-second_storyboard_navigation_proposal_not_exact_event_audit",
+      "closest_large_jump_frame_candidate": 5212,
+      "closest_jump_mad": 104.99454225352113,
+      "audit_status": "pending_independent_review"
+    }
+  ]
+}

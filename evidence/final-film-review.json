@@ -1,0 +1,59 @@
+{
+  "status": "passed_full_decode_and_targeted_visual_review",
+  "video": "renders/final-v4/uno-ds-full-keyframes.mp4",
+  "sha256": "f1cef48edf3277b3ec57ec0dd637d0db8bce1ab45000728de691dae7f1decfb0",
+  "decoded_frames": 5245,
+  "duration_seconds": 218.54166666666666,
+  "metadata": {
+    "width": 1280,
+    "height": 720,
+    "fps": "24/1",
+    "codec": "h264",
+    "audio_streams": 1
+  },
+  "opening_body_asset_ids": [
+    "intro_palm_open"
+  ],
+  "saved_actual_decoded_frames": [
+    31,
+    38,
+    44,
+    140,
+    1628,
+    1632,
+    1634,
+    1640,
+    1646,
+    1656,
+    2826,
+    2870,
+    2916,
+    2940,
+    2961,
+    2970,
+    2983,
+    3834,
+    3840,
+    3841,
+    3845,
+    3846,
+    5244
+  ],
+  "actual_decoded_frames_manually_viewed": [
+    31,
+    1632,
+    2870,
+    2940,
+    3840,
+    3845
+  ],
+  "fixes": [
+    "One intro drawing held from31 to145 per user.",
+    "Side dialogue is fitted inside the held native white paper rather than moving source coordinates.",
+    "Reconstructed source-timed purple graphics restore low bubble bottoms and remove transition-strip RGB.",
+    "Last complete graphic is held across omitted eye-wipe connections."
+  ],
+  "scope": "Primary full sequential decode and bounded targeted visual check; no full-film subjective real-time viewing claim.",
+  "hard_blockers": [],
+  "ready_for_delivery": true
+}

@@ -1,0 +1,172 @@
+{
+  "schema_version": "uno-source-safe-ranges-1",
+  "reviewer": "fullfilm_consistency_audit",
+  "indexing": "24fps sequential source decode; intervals [start_inclusive,end_exclusive)",
+  "basis": "Actual sequential frames extracted and visually read in 9 contacts; selected native PNG checked. This is a character-image passthrough whitelist, not a claim of every source event or name being replaced.",
+  "safe_source_intervals": [
+    {
+      "range": [
+        0,
+        31
+      ],
+      "kind": "black",
+      "note": "Previously verified first source image at31"
+    },
+    {
+      "range": [
+        173,
+        211
+      ],
+      "kind": "hand_and_card_only",
+      "shot": "S003",
+      "note": "All frames170..219 inspected;211 introduces right comic panel including green hair."
+    },
+    {
+      "range": [
+        391,
+        396
+      ],
+      "kind": "purple_plate_only",
+      "note": "Pre-score gap inspected;396 starts source empty table."
+    },
+    {
+      "range": [
+        396,
+        423
+      ],
+      "kind": "empty_table_and_score_text_only",
+      "shot": "S008",
+      "note": "No character image at any inspected frame; source text includes 初音ミク, preserve or relabel separately.423 reintroduces source green hair."
+    },
+    {
+      "range": [
+        2252,
+        2275
+      ],
+      "kind": "fan_cards_and_dark_hands_only",
+      "shot": "S055",
+      "note": "2251 still blurred green head behind cards;2252 full purple fan card;2275 returns green character. Can instead use approved isolated fan sprite on clean purple background."
+    },
+    {
+      "range": [
+        5016,
+        5212
+      ],
+      "kind": "final_text_card_only",
+      "note": "Conservative start5016: plain purple text card with no visible character.5004 native already clean; do not extend gate earlier without inspection. Source4970..5001 shows fading character/cards. Before5016 use DS final hold plus independent text fade."
+    },
+    {
+      "range": [
+        5212,
+        5245
+      ],
+      "kind": "black",
+      "note": "Previously source sequentially verified black tail starts5212"
+    }
+  ],
+  "wipe_replacement_plates": [
+    {
+      "shot": "S002",
+      "source_plate_frame": 150,
+      "path": "audit/passthrough-evidence/native/f00150.png",
+      "sha256": "577b68471a2d68dd6e628ac9c9935467a3666243becdcf45ca7a633b0459e4e0",
+      "actually_character_free_source_range": [
+        145,
+        173
+      ],
+      "rule": "Hold this fully covering purple + intentional black-square source plate for the whole wipe; hard cut at ends. Never pass through partial source-character fades."
+    },
+    {
+      "shot": "S005",
+      "source_plate_frame": 252,
+      "path": "audit/passthrough-evidence/native/f00252.png",
+      "sha256": "db0fb7924d8444c5a4e4fbf05651ad23185c15b85507f0a89fb29891607e1bf0",
+      "actually_character_free_source_range": [
+        248,
+        265
+      ],
+      "rule": "Hold this fully covering purple + intentional black-square source plate for the whole wipe; hard cut at ends. Never pass through partial source-character fades."
+    },
+    {
+      "shot": "S016",
+      "source_plate_frame": 798,
+      "path": "audit/passthrough-evidence/native/f00798.png",
+      "sha256": "8045d2472a1aad1c719e42e47e9725471de23156dc071f8fee3c58ada128924a",
+      "actually_character_free_source_range": [
+        797,
+        800
+      ],
+      "rule": "Hold this fully covering purple + intentional black-square source plate for the whole wipe; hard cut at ends. Never pass through partial source-character fades."
+    },
+    {
+      "shot": "S050",
+      "source_plate_frame": 2066,
+      "path": "audit/passthrough-evidence/native/f02066.png",
+      "sha256": "70f9311e3b1282898b8c7b132217aab0d8a24c132ce04aa4eca3b86ecbf86226",
+      "actually_character_free_source_range": [
+        2065,
+        2069
+      ],
+      "rule": "Hold this fully covering purple + intentional black-square source plate for the whole wipe; hard cut at ends. Never pass through partial source-character fades."
+    },
+    {
+      "shot": "S117",
+      "source_plate_frame": 4813,
+      "path": "audit/passthrough-evidence/native/f04813.png",
+      "sha256": "7744935de85af591089cfa96c7a86ea06d32b40c5c43630bb3d2ff87c0914da8",
+      "actually_character_free_source_range": [
+        4813,
+        4814
+      ],
+      "rule": "Hold this fully covering purple + intentional black-square source plate for the whole wipe; hard cut at ends. Never pass through partial source-character fades."
+    }
+  ],
+  "forbidden_source_ranges": [
+    {
+      "range": [
+        211,
+        248
+      ],
+      "reason": "Comic has green character hair; use native DS comic234."
+    },
+    {
+      "range": [
+        2069,
+        2081
+      ],
+      "reason": "Three embedded source-Miku fanart drawings; use native DS fanart2076."
+    },
+    {
+      "range": [
+        2240,
+        2252
+      ],
+      "reason": "Blurred source green-haired head remains behind fan of cards."
+    },
+    {
+      "range": [
+        2275,
+        2291
+      ],
+      "reason": "Green character behind table; not card-only."
+    },
+    {
+      "range": [
+        4814,
+        5016
+      ],
+      "reason": "Final source character including fade residue; DS final native key hold plus text overlay instead."
+    }
+  ],
+  "unknown_policy": "No other source-character passthrough is permitted by this whitelist; unverified wipes can use a verified fully covering plate/hard cut.",
+  "safe_single_frame_holds": [
+    {
+      "source_frame": 1668,
+      "path": "source/action-key-source/f01668.png",
+      "sha256": "6f0495155a4697fbcd3bb02101488dc57e41d071e3a4c280b6ad054611f8eadc",
+      "kind": "independent_graphic_eye_nose_insert",
+      "reason": "Actually opened native852x480 core: only eyes/eyebrows/nose/graphic inset border/magenta optical overlay, no visible hair/head accessory.",
+      "rule": "Hold this core as independent full-frame graphic for the selected extreme. Never pass through entire1656..1686 source transition; earlier frames can expose original Miku hair."
+    }
+  ]
+}

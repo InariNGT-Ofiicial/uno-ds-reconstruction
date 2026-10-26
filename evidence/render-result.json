@@ -1,0 +1,12 @@
+{
+  "render_label": "final-v4",
+  "written_frames": 5245,
+  "source_start": 0,
+  "source_end_exclusive": 5245,
+  "duration_seconds": 218.54166666666666,
+  "render_seconds": 126.26,
+  "video": "renders/final-v4/uno-ds-full-keyframes.mp4",
+  "video_sha256": "f1cef48edf3277b3ec57ec0dd637d0db8bce1ab45000728de691dae7f1decfb0",
+  "renderer_sha256": "74ccbdfdbf89325888f676bf36718059fc9a475a46f313761d33bc99c7686128",
+  "checks_scope": "actual sequential decode/render; semantic review remains separate"
+}

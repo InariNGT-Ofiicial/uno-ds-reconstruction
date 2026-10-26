@@ -1,0 +1,4344 @@
+{
+  "schema": "uno-render-assets-v1",
+  "files": [
+    {
+      "path": "project/production/pair-a/generated/intro-wave-B-f00042-r3.png",
+      "sha256": "d77161b5bbe5d72b63193083b4d69a1685a3742fddf193cfc8df4d4303d5488d",
+      "bytes": 1701455,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/production/pair-b/generated/center-card-f00276-r2.png",
+      "sha256": "a7817d8aa3d67fd72d0f6a969805357e082c88d01fb9a32ff72f9e0d865d5f9b",
+      "bytes": 1711072,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/production/pair-a/generated/dab-rear-f00342-r1.png",
+      "sha256": "4a2b11f8d99aa51345c5988f1bc758b84331ff89c9558889bb83d4f3d93138cf",
+      "bytes": 1481062,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/production/pair-a/generated/taunt-left-close-f00456-r1.png",
+      "sha256": "d79927eca7b1a95512df99b7fef7c2c0a393c318eb1531b9f300039642438bdd",
+      "bytes": 1692150,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/production/pair-a/generated/taunt-right-f00540-r1.png",
+      "sha256": "13af89653c858fd81e2e05d453449ea65b5989c2a5b42e0ee38f53e2e21b45f6",
+      "bytes": 1670056,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/production/pair-a/generated/point-above-f00612-r1.png",
+      "sha256": "fdc55b781f9cf91c02204c01eeff72435417fa645217b38b2d01754fc7c97d79",
+      "bytes": 1532268,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/production/pair-a/generated/point-forward-f00624-r1.png",
+      "sha256": "7a31d28bf2f3f19a024af5ee9adb2f59d6753800f365fbf5325bcf6fb794a2d8",
+      "bytes": 1625186,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/production/pair-root/generated/dark-panic-f02460-r1.png",
+      "sha256": "90f1c65a349c32af25930c27f023eca896e4f46eb866bf23c8afb362248b7695",
+      "bytes": 1557492,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/production/pair-root/generated/head-down-dark-f02586-r1.png",
+      "sha256": "d6590875b74dcf6e25b85a58cca67d5990d88b7c5f82e344983d6a843e089def",
+      "bytes": 1475528,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/production/pair-root/generated/plead-A-f02628-r1.png",
+      "sha256": "4473141e5f8b527dc02ff899bfb26a4f31532ca0cfee2ccd39cf8b0b5ba572fd",
+      "bytes": 1459631,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/production/pair-a/generated/taunt-left-table-f00636-r1.png",
+      "sha256": "52de021f474fefa1a1b1bfe154e9eba434ad8937e3f3150c55e0bffc06cb18b9",
+      "bytes": 1648818,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/production/pair-a/generated/taunt-right-close-f00738-r1.png",
+      "sha256": "29a6ac3f81cef93da3d58cce0f5b4c05dda38967f6cfe0f02d751cc6b7a7a2de",
+      "bytes": 1694560,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/production/pair-a/generated/surprise-side-f00426-r2.png",
+      "sha256": "bde711e775526cf360f678f88710a1404ae0ac5c4109fed46a710096364f4a41",
+      "bytes": 1668979,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/production/pair-b/generated/taunt-neutral-f01380-r2.png",
+      "sha256": "ad67ae390c4d70084bb166d4cf9fe431bd5cdd6f2da609e65d0db69b15489944",
+      "bytes": 1747927,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/production/pair-b/generated/clap-forehead-A-f01500-r2.png",
+      "sha256": "f47a39dc065ebcd91af6acf35bdae7ae4cb2b4a13ac515958355f6ae250f64bc",
+      "bytes": 1705227,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/production/pair-b/generated/chorus-tilt-left-f01728-r2.png",
+      "sha256": "53fbbb746ba36544e5685c9b1502376a369ae382fc11a38a94d04c91df4f2af7",
+      "bytes": 1612462,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/production/pair-a/generated/dark-center-card-f00804-r1.png",
+      "sha256": "e21f725f3a80967fb41a9cf5e5355f818ada544f1b5c99857e0523609b980c79",
+      "bytes": 1552105,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/production/pair-a/generated/dark-fingers-f00816-r1.png",
+      "sha256": "1eda91325725da18b1e552b09e2f35d8d0ac96c92575715f20331d728f960745",
+      "bytes": 1532561,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/production/pair-a/generated/wink-hand-f00984-r1.png",
+      "sha256": "dc1cfebc1ec2e65068002978b8903eae5e3683adffa815687551572000abc59f",
+      "bytes": 1612505,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/production/pair-b/generated/taunt-flank-f01416-r1.png",
+      "sha256": "4a495887c9ee84aac93a22db01adfc95b4c2aa32751fc40b69acc34ca936d47e",
+      "bytes": 1633795,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/production/pair-b/generated/chorus-tilt-right-f01776-r1.png",
+      "sha256": "00791e45e89c54ee5a95b7f69da53e55a2cbc596806dbffc3d854abf8440481d",
+      "bytes": 1633536,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/production/pair-b/generated/dab-start-f01692-r1.png",
+      "sha256": "6de95a06f0d54d50843838cbe15bc31162e2f4ed70ea969ad740130d336f01e4",
+      "bytes": 1489068,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/production/pair-b/generated/dab-land-f01704-r1.png",
+      "sha256": "c3631dedab2d110b46a28d8d972ecc842b7d6fea1ab83102d7abf152f7826585",
+      "bytes": 1520390,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/production/pair-root/generated/lean-forward-f02778-r1.png",
+      "sha256": "4193767b40417da51ed922c1e5fbc3a3bc6c52d003dbcc1b00566a379dc86178",
+      "bytes": 1711614,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/production/pair-root/generated/fold-arm-right-f02826-r1.png",
+      "sha256": "f4e3f4c7cfffe4594cc53f673f89ff1b9d68acd18b587926178fc04e6f3d6909",
+      "bytes": 1501761,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/production/pair-root/generated/fold-arm-left-f02916-r1.png",
+      "sha256": "4405a7c4f49c7b1f1aff7967b331233983fdb1b1954f30c0c888c6385d1dc89a",
+      "bytes": 1529416,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/production/pair-root/generated/sleep-table-f03006-r1.png",
+      "sha256": "d32ebf45e4fbc52b93f77adf0abefcc1448eb93ac87b887a9e6e0a72f3b8c3c6",
+      "bytes": 1546558,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/production/pair-a/generated/head-back-cry-f00996-r2.png",
+      "sha256": "f0d61aee6123a583eccb7b0342296c5b32aed19a055e0ecf5ada551ae3ac8768",
+      "bytes": 1637637,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/production/pair-a/generated/tease-forehead-A-f01020-r2.png",
+      "sha256": "41fb480a46950fb64ec30a7f971eca8199da91ba8d4c9e43200c98a20eacdf62",
+      "bytes": 1608586,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/production/pair-a/generated/lean-forehead-close-f01044-r2.png",
+      "sha256": "fb4cf069f58e8994bcc1d4acaac605428d63ed82ecc2ffe64070dc02c1d4351a",
+      "bytes": 1581851,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/production/pair-b/generated/hashtag-side-f02082-r1.png",
+      "sha256": "645d08f8c84c2d09dc3766af5e8d32c70c154d1a48330130d03839822d7a7a41",
+      "bytes": 1462720,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/production/pair-b/generated/arm-stretch-f02172-r1.png",
+      "sha256": "c47345413c61810d33eb4fcb4bfa34577852a31c59c5ec2164d32c5353505904",
+      "bytes": 1569500,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/production/pair-a/generated/lean-forehead-wide-f01056-r1.png",
+      "sha256": "add7cd547fd3d454e722ac796916d6786c919e6f0a7fcdd85d5233236d5e1d57",
+      "bytes": 1695837,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/production/pair-a/generated/tease-flip-f01080-r1.png",
+      "sha256": "979d4c34dde622bd0ba9baf3bc55c140212f6b2c8cc1022177c7d0044f57792b",
+      "bytes": 1592028,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/production/pair-a/generated/cheek-close-f01092-r1.png",
+      "sha256": "bb1a19f9225b6a199b826f7e06d744be91445f6e64475357ce5b693da2bf75e9",
+      "bytes": 1667735,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/production/pair-b/generated/maid-paws-f01896-r2.png",
+      "sha256": "ed54e9c0aedcccb02ec57264d431da005f6d88a294ab7e05031b77eb2d7fe25b",
+      "bytes": 1613887,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/production/pair-root/generated/game-prepare-f03174-r1.png",
+      "sha256": "37086103d7ba01bcdae55c3868f87ec3069440148dc54df03124639ff612f7fc",
+      "bytes": 1559994,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/production/pair-root/generated/center-dark-card-f03924-r1.png",
+      "sha256": "0f37efcf736bc7a02078d999ad17ae616c01ed160dab461d0bfdd7c1a47ee0f0",
+      "bytes": 1545931,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/production/pair-root/generated/dynamite-face-f04050-r1.png",
+      "sha256": "1af56a76ccd544fa1ef8913f7f71db6f01d2387824ac84cac988a6f28bdaa5c4",
+      "bytes": 1530977,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/production/pair-root/generated/maid-close-paws-f04266-r1.png",
+      "sha256": "4468863953b3ff45da91bbf3ed5f7b900eb92195dc8aa53a16ae2f35c8b9bffd",
+      "bytes": 1597705,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/production/pair-root/generated/center-taunt-closed-f04290-r1.png",
+      "sha256": "e78a9e7641fa9b8eceaca0ca0ca9213562e120c82f304ce3e2fd80e8741a6cf9",
+      "bytes": 1582945,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/production/pair-root/generated/side-blank-eyes-f04578-r1.png",
+      "sha256": "3268b76acdcbd02757ca080a2f990b13feedac44051792f0e2e6423b360fad00",
+      "bytes": 1527421,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/production/pair-a/generated/explain-palms-A-f01134-r2.png",
+      "sha256": "90c1c5972be6a0ad68c73474faa7213a5f47f70e9a16d724298cc39647524e1d",
+      "bytes": 1604803,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/production/pair-b/generated/maid-sign-A-f02298-r2.png",
+      "sha256": "e538088724b1bf9f32387d07e749e1d0cff82704713c584af83e18364597d7bf",
+      "bytes": 1694595,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/production/pair-b/generated/maid-sign-B-f02334-r2.png",
+      "sha256": "cdfe89f96785d1d6cdb59af524fd88d2b6b543f2fb1c712bc778c411225096b3",
+      "bytes": 1741507,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/production/pair-b/generated/maid-upside-down-f02370-r2.png",
+      "sha256": "81530bdc4fe9411f6ef5690e0a0735e2f35dd63a73f3fdef9bf3b9372704b07d",
+      "bytes": 1636536,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/production/pair-a/generated/cover-eyes-f01110-r1.png",
+      "sha256": "0755792503ea586cd80a26d2c87f70ba9d78fc22cce7f3989806cdedb952fb9e",
+      "bytes": 1520134,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/production/pair-a/generated/creep-palms-f01122-r1.png",
+      "sha256": "bbe367b15b1e6e9f9a3248c2bc34d1083d3c2702eb605d301563c956af35d39f",
+      "bytes": 1611761,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/production/pair-a/generated/shush-f01158-r1.png",
+      "sha256": "ee80ab56c934363ec8ef48a6f79c3aee2df7633b68a895f490e130a3db7bc14c",
+      "bytes": 1569274,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/production/pair-a/generated/game-set-f01290-r1.png",
+      "sha256": "fba1073a6a9930e7bc49e1bb730c352ea5924ee5a8511bcb4717afcb5adf3209",
+      "bytes": 1506785,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/production/pair-root/generated/center-shout-f04428-r1.png",
+      "sha256": "51c1c67797dd1d3ac425f045a1e43c5eab319a35281d6b8080e3c7cab4dfa40e",
+      "bytes": 1648592,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/production/pair-root/generated/rear-card-table-f04470-r1.png",
+      "sha256": "48647899bc3cd4a1092fb4918cac29e3f93f7f0bd1f46d79ecbcd8a58c8a8518",
+      "bytes": 1592896,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/production/pair-root/generated/fanart-insert-f02076-r1.png",
+      "sha256": "42459513da02cfb79050d274be54c1feea7753500001ce87d9e3db0cd545e29b",
+      "bytes": 1618810,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/production/pair-root/generated/final-card-chaos-f04818-r1.png",
+      "sha256": "44bacd2e0fef957cb12b540839eed7c0644ad0dd5f51fd4aee739bbfe731d23d",
+      "bytes": 1890858,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/production/pair-root/generated/center-taunt-open-f04344-r1.png",
+      "sha256": "7a286ab8a1002d4dbde67a810b8602508610bd1a81164aea52638cf672aa8152",
+      "bytes": 1611246,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/production/pair-root/generated/side-unamused-f04752-r1.png",
+      "sha256": "1768f89c08b922ae7b072912d1731dd9721a1aafdffa62b10c6b999c0ba5b4db",
+      "bytes": 1518179,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/production/pair-root/generated/side-shock-f04770-r1.png",
+      "sha256": "2e1d511f6b8ed39a55ff5ce682005aeec6cf2db0000b770914141e12cc86392d",
+      "bytes": 1572133,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/production/pair-root/generated/side-shock-extreme-f04794-r1.png",
+      "sha256": "42839f3ec2e45d1c9530e069ea11f11f3f89b08a91bbb97459ebcf1ffa7ac740",
+      "bytes": 1624425,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/production/pair-a/generated/chorus-left-textless-r1.png",
+      "sha256": "73c47667af7eee4257f30363ac17754ad16181d87bb7a83b6499723972ef9590",
+      "bytes": 1658098,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/production/pair-a/generated/chorus-right-textless-r1.png",
+      "sha256": "d7f845800c59b78f91dc5cc4a3fac7b39ff64dc3236d623e6944a1ee0e6aef9b",
+      "bytes": 1636529,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/production/pair-a/generated/taunt-neutral-textless-blankmouth-r1.png",
+      "sha256": "9d7f49d0fdaa39232c2aa6f06d92ceb7ae396101c363a7fcb7a75650286791f4",
+      "bytes": 1667606,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/production/pair-a/generated/taunt-flank-textless-blankmouth-r1.png",
+      "sha256": "c817785f7239c7b24bbf3665552d47279637e0fa6bf20ef936bcc05f33420a7f",
+      "bytes": 1634419,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/production/pair-a/generated/tease-forehead-B-f01032-r2.png",
+      "sha256": "55a67e15df85173384b8c4822788c42f983db5a5bae68097d4444e0bfde24475",
+      "bytes": 1650972,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/production/pair-a/generated/explain-palms-B-f01146-r1.png",
+      "sha256": "c5f9e6ae32192fb78c65b74a394b61948c6848e24fc6634f23ab773dac714e7b",
+      "bytes": 1587827,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/production/pair-a/generated/raise-card-f01308-r1.png",
+      "sha256": "f27456d4c3b35f26ce86e19428327a27216ca5f6e8a6baee12a18b9b5cd8d5e8",
+      "bytes": 1588311,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/production/pair-a/generated/victory-arms-f01338-r1.png",
+      "sha256": "4080066695dba94f3a635b60e87ec35ce0a1c508a6f0cd8a84de7ce435234ef6",
+      "bytes": 1552002,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/production/pair-a/generated/comic-panel-f00234-r2.png",
+      "sha256": "20c9c70cf4d6893914131721e30da54749274f7848e64950bb31775f2aa038d2",
+      "bytes": 1935188,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/production/pair-a/generated/mouth-horizontal-f00960-r1.png",
+      "sha256": "2d6e407b240dbe8314dc7929409ca7b57f1ced05e8fdf7ea4b1a4b73c59a427f",
+      "bytes": 1275271,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/production/pair-a/generated/mouth-vertical-f03156-r1.png",
+      "sha256": "06f7a6083abebeaeb0738cf4d27594ab9b012b4b96d2013f9c84effbb8db5bf6",
+      "bytes": 1271250,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/production/pair-b/generated/opponent-fan-f02256-r1.png",
+      "sha256": "34c732dbc888414eeae3389701bfbdc9785ab6fd7b302df607d6637fa0bf76ab",
+      "bytes": 1556400,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/production/pair-a/generated/glow-eye-f01326-r2.png",
+      "sha256": "49c5f79662f3082bc44cf4a6cc66f769240a9e2a49938485dff9371be5c72f54",
+      "bytes": 1639994,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/production/pair-a/generated/center-dark-card-textless-r1.png",
+      "sha256": "649104e25f9aa98fee402e2b4b99b7eed571533c0d5e200a8c196eb020eb7431",
+      "bytes": 1624655,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/production/pair-a/generated/final-card-chaos-textless-r1.png",
+      "sha256": "abe311dc68eff55cc68e8fdfefb8574e018228271271d25edc5bfdf70b64f522",
+      "bytes": 1959052,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/production/pair-b/generated/yellow-gong-f03108-r1.png",
+      "sha256": "528f71d158f7561976c434e8dd8edb31c0da734a0a978433eb2e85cebeabe88c",
+      "bytes": 249309,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/production/pair-a/assets/mouth-flank-grin.png",
+      "sha256": "5ee5b723f6061013f03b8124e861606861aad27f71a8857e1be6fd27b0ccce22",
+      "bytes": 124067,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/production/pair-a/assets/mouth-flank-closed.png",
+      "sha256": "abdb3cfb26c2146f06f5108f9d945c090a1db5733aa11ef7399bc7ffddbd6e90",
+      "bytes": 20341,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/production/pair-a/assets/mouth-flank-open.png",
+      "sha256": "24e0840bbdfad4962ecaeabadb945f04b6592379607c9e7674655d066ff58726",
+      "bytes": 153235,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/production/revision-v2/pair-root/generated/score-deepseek-raw.png",
+      "sha256": "06b0577a6e3add86eef490ee699556cb0e0fc3b813fd10797c712e47cfb65e09",
+      "bytes": 1421511,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/production/revision-v2/pair-root/generated/fanart-ds-title.png",
+      "sha256": "9c30306ec4381005bcf90219509ca5b84bca7d45f488d06afd2a539495989f94",
+      "bytes": 1632934,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/production/revision-v2/pair-root/generated/tease-B-hairlock.png",
+      "sha256": "aaf73829b2c3332d88a76f6a99c6023862a06930027bcd9ce3a1d1d00b90ce71",
+      "bytes": 1638635,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/production/revision-v2/pair-root/generated/plead-B-clean.png",
+      "sha256": "f6f62453d3817dec2275416e5bb1185d4941c0bd7000c5e7b9fd0e754294289c",
+      "bytes": 1654222,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/production/revision-v2/pair-root/generated/center-dark-closed.png",
+      "sha256": "a67536a2e39b80bdaceae71e5c626c1c715ea8f8a8ca76d8a182516dab0b6b8c",
+      "bytes": 1655726,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/production/revision-v2/pair-root/generated/fold-left-sleepy-loop-fix.png",
+      "sha256": "231a0885ff1cc0e17daf6ae1f9689262c8b4c53cd51cca0f1c4a7ae5303d438c",
+      "bytes": 1723930,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/production/revision-v2/pair-root/generated/intro-A-thumb-fix.png",
+      "sha256": "fcd2df9eff42d6ff017e806f046d467fc528d879a58bbaa5d69bd8554dcfcaac",
+      "bytes": 1703146,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/production/revision-v2/segment-102-106/generated/panic-motion-f02454-r1.png",
+      "sha256": "b5bd3ce48b4425cbe28f1694b86d7b0d01059f5e5cff6c7e5d39719467023633",
+      "bytes": 1469797,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/production/revision-v2/segment-102-106/generated/panic-motion-f02490-r1.png",
+      "sha256": "8c831babc221b56d429c874f2e58c65e9fc1c101d199c4af8a085b4cc40295d4",
+      "bytes": 1547794,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/production/revision-v2/segment-102-106/generated/panic-motion-f02508-r1.png",
+      "sha256": "28d779543335cf673ab650643f091511648b4781a3bfed4824fc23046b40542c",
+      "bytes": 1520344,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/production/revision-v2/segment-102-106/generated/panic-motion-f02544-r1.png",
+      "sha256": "f457e07a288e778d6f121e3a091294cc6a0cb1101b59a5c401aa9611bc5d027f",
+      "bytes": 1542925,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/production/revision-v2/segment-102-106/generated/panic-motion-f02568-r2.png",
+      "sha256": "7fa699a89dde4a5741442f8a97186f6d083f982120801b2fd41c54ef112ab18b",
+      "bytes": 1678448,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/production/revision-v2/segment-33-38/generated/dark-motion-f00828-r1.png",
+      "sha256": "f2dedb1ee376abcfa2ecdf7335152550d81d9e428bf28e1d299c5d9f0adc2185",
+      "bytes": 1536842,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/production/revision-v2/segment-33-38/generated/dark-motion-f00858-r1.png",
+      "sha256": "96c8bc00b98b5c0e9384e0d3b8fa3e8685bbf5ffce5206eed38cbc5804ff5689",
+      "bytes": 1509829,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/production/revision-v2/segment-33-38/generated/dark-motion-f00870-r1.png",
+      "sha256": "752ae398e6cf8bcb9e76e366df57327a6908c1e34290fe14587b50109662b950",
+      "bytes": 1584119,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/production/revision-v2/segment-33-38/generated/dark-motion-f00912-r1.png",
+      "sha256": "981cf6d7789f51a9d1413e77abd586a512b240cf7150530fde63073384e868bf",
+      "bytes": 1532781,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/production/revision-v2/pair-b/generated/taunt-swap-right-textless-blankmouth-f01560-r1.png",
+      "sha256": "5c9a01d6a63ba164d57f9e54e07df3eb4c5fbcd74a3313d9c78301594973b163",
+      "bytes": 1595352,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/production/revision-v2/pair-b/generated/taunt-swap-left-textless-blankmouth-f01620-r1.png",
+      "sha256": "e774ba255766097a98ff4f4879b94ec60f50d8b282f17604b02de7c29773e0c7",
+      "bytes": 1607973,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/production/revision-v2/pair-b/generated/maid-side-clasp-f02346-r1.png",
+      "sha256": "dc6cbd4aaa5a975d39c3704f62c009decdeccbece8290c32856334411a1b76f0",
+      "bytes": 1635342,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/production/revision-v2/pair-b/generated/maid-opposite-sign-f02382-r1.png",
+      "sha256": "ca5c67973232ff62ada536264a068375c71bdf6fcec82023a04bde0031a2512f",
+      "bytes": 1619452,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/production/revision-v2/pair-b/generated/maid-paws-placard-f02400-r2.png",
+      "sha256": "f57ff42be58ae3aa3ed7d067b2391256b2b451143189ea8a2a8e59f3c8b91d2a",
+      "bytes": 1713838,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/production/revision-v2/pair-b/generated/table-neutral-empty-front-f01686-r1.png",
+      "sha256": "1646c512b7d9997d25e2c51cb56c5dcc08a54f965356a4a590dce42674dcc717",
+      "bytes": 1505850,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/production/revision-v2/pair-root/generated/intro-deepseek-lettering.png",
+      "sha256": "5dc96061b0622099aaffea8d8170a56e1fe709089888ec7e1cb2c78d627cfe08",
+      "bytes": 91176,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/production/revision-v2/pair-root/generated/intro-A-deepseek-lettering.png",
+      "sha256": "5c71f1b545e16006d9376dfc4942e5a26f35b242d5e909c54a2879503bc9fae8",
+      "bytes": 74377,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/revision-v2/thinking-effects/thinking-f04634.png",
+      "sha256": "07d825b581460a8156bd673f94fd0531b2eb98d5ded116f1cb27c478663ac951",
+      "bytes": 15393,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/revision-v2/thinking-effects/thinking-f04635.png",
+      "sha256": "959e588dd3c1d17101de8aaefce26f19bfa5a5c4f700d2525d685063ae4f032f",
+      "bytes": 15452,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/revision-v2/thinking-effects/thinking-f04636.png",
+      "sha256": "bc54cd1567f977c0ed86edeb9f23aa04f4522bcae2dce2e543cf379a2d14ef16",
+      "bytes": 15386,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/revision-v2/thinking-effects/thinking-f04637.png",
+      "sha256": "06a2ad5f5db71b483cc48f21653322a1919a47cbd60ae70a927daaae410e501b",
+      "bytes": 15264,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/revision-v2/thinking-effects/thinking-f04638.png",
+      "sha256": "baaa015f5e721d2ca0ccdd86010135e5cbd642e19dd5f89d85caeddfb17d5d68",
+      "bytes": 15096,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/revision-v2/thinking-effects/thinking-f04639.png",
+      "sha256": "05bcb0bacf6d056ab6b076168c7511a346798c38b0384aee93ca0e5af8998031",
+      "bytes": 15460,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/revision-v2/thinking-effects/thinking-f04640.png",
+      "sha256": "a7fed5a5f533c51dfa8b6b40a2d23d2c22d9a908c3bf4bc07d48dd8bb3dda7be",
+      "bytes": 15385,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/revision-v2/thinking-effects/thinking-f04641.png",
+      "sha256": "dd5944191f4c835dc467ac246a34d7f9f086743d91c88f7d47790d06aecbd616",
+      "bytes": 15616,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/revision-v2/thinking-effects/thinking-f04642.png",
+      "sha256": "44699fd685b49b933fb756392c97c393ff0685403f747846571fa1c04b2b400c",
+      "bytes": 16023,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/revision-v2/thinking-effects/thinking-f04643.png",
+      "sha256": "c740b63cc397aad9daafc21ed1ffc270e36cb0a6acf1cd98ffeec773c99ad8ef",
+      "bytes": 15941,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/revision-v2/thinking-effects/thinking-f04644.png",
+      "sha256": "9efef86fff0ab81da53865cf897a8a8133978da441f39f2bff64fd2d7444aa1c",
+      "bytes": 16031,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/revision-v2/thinking-effects/thinking-f04645.png",
+      "sha256": "e097152f94e078c40867d24906dcef63d9abcda64f2d8b94f3015f90227fd138",
+      "bytes": 15946,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/revision-v2/thinking-effects/thinking-f04646.png",
+      "sha256": "c553d257fba62155822863868a00ae34a66b9c96d9ca387c4083cf2bee856063",
+      "bytes": 15973,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/revision-v2/thinking-effects/thinking-f04647.png",
+      "sha256": "f5c97b26e0bff1ad19523a5b74100c7c4856ba94b24475dcae3931c67d571a83",
+      "bytes": 15659,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/revision-v2/thinking-effects/thinking-f04648.png",
+      "sha256": "bf54e9b2a8fcf4b0bd8be41dc1803169914f9a6324dac740a0eb38450458e727",
+      "bytes": 15902,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/revision-v2/thinking-effects/thinking-f04649.png",
+      "sha256": "8bcf579a60ab3f35d4779dbdd75ac759cb4e8282f0c1c826a7f49966317ce6aa",
+      "bytes": 15882,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/revision-v2/thinking-effects/thinking-f04650.png",
+      "sha256": "a0d9791b6e6935648e561d6b6b7e1fa7523d2f151cce64931d7a2cda4bfc0ce2",
+      "bytes": 15799,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/revision-v2/thinking-effects/thinking-f04651.png",
+      "sha256": "08705cb63ae50f7f34798c504812a018c6a54f0a5843ef9ffca5a59c7510c539",
+      "bytes": 15486,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/revision-v2/thinking-effects/thinking-f04652.png",
+      "sha256": "cd01bc1d05300a621a96f0c248693a5aaa0b4195e5e9d9e3ed045c1208f759c9",
+      "bytes": 15593,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/revision-v2/thinking-effects/thinking-f04653.png",
+      "sha256": "99b082d78bb1206a6b8267a915e6540184adb50572639c6cc1536b5f560ffc90",
+      "bytes": 15586,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/revision-v2/thinking-effects/thinking-f04654.png",
+      "sha256": "ef4bc785b30a9fd8ea703ecabaa679080a568d85468578d73f2a7d587d038b10",
+      "bytes": 15558,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/revision-v2/thinking-effects/thinking-f04655.png",
+      "sha256": "cc0a33a7e11870da4868974d7a18161252441b2bd065960d49eff137af5e6a71",
+      "bytes": 15302,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/revision-v2/thinking-effects/thinking-f04656.png",
+      "sha256": "e00d8c0900c580f8f2ad0b163c5e437ae78ef4fa392cea3b1d6f2c9840887acc",
+      "bytes": 14867,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/revision-v2/thinking-effects/thinking-f04657.png",
+      "sha256": "edb01a9d6bdc8947550998042edc079da944de0419a0696abba234ef1827af03",
+      "bytes": 14926,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/revision-v2/thinking-effects/thinking-f04658.png",
+      "sha256": "b3c3fe54b30f205b7e545d2643fc6cf3e3562db668303abdf1c8bd49c482e6e3",
+      "bytes": 15602,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/revision-v2/thinking-effects/thinking-f04659.png",
+      "sha256": "86141ec13af00d60287a07ee4a54a84ce8628276c487c68e5791bd786cfec092",
+      "bytes": 15519,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/revision-v2/thinking-effects/thinking-f04660.png",
+      "sha256": "1bf4bff76b11a46f9b1a626975217b35a884e48b552c8243af28438d8487ab4f",
+      "bytes": 15559,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/revision-v2/thinking-effects/thinking-f04661.png",
+      "sha256": "65d17749b3e97ffba4d371f8418c7d2e0aa20a1a4f40eaa3e303615a1d34a35c",
+      "bytes": 15429,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/revision-v2/thinking-effects/thinking-f04662.png",
+      "sha256": "2a40aa588f70b1a8021e0bfcbda05789cc629e67d7d2fbd3bbedb85a8094c841",
+      "bytes": 15986,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/revision-v2/thinking-effects/thinking-f04663.png",
+      "sha256": "c360d0ced5c1eb8091edfb059947ae43084543654cdab91e93cf238b3855b82d",
+      "bytes": 16036,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/revision-v2/thinking-effects/thinking-f04664.png",
+      "sha256": "529b9a50a90d7cc8e0ede4d019a517711ea5e6831a3d6ed2357b2ee1ea482c34",
+      "bytes": 15948,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/revision-v2/thinking-effects/thinking-f04665.png",
+      "sha256": "33e24377f0d96d44af49dad655001bdf3d423d8d6bdfbf5808a0471879b3994e",
+      "bytes": 15978,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/revision-v2/thinking-effects/thinking-f04666.png",
+      "sha256": "fd1719fc619f8d16755f31d66a8fba9c9846adc8fe2f0d18d0467d6594701a08",
+      "bytes": 15647,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/revision-v2/thinking-effects/thinking-f04667.png",
+      "sha256": "815ae503644472dd30877f563da401672019ba936f0b8ec0a1033fd6706b3a59",
+      "bytes": 15695,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/revision-v2/thinking-effects/thinking-f04668.png",
+      "sha256": "abcb3978afd84a17add8f51fbbedcce8ced0fa0e677f13211f56b5cbd318a461",
+      "bytes": 15897,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/revision-v2/thinking-effects/thinking-f04669.png",
+      "sha256": "b609a67c066e38fa975f1f6047adf189210bf299574bc3602809b35e3839d2c9",
+      "bytes": 15821,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/revision-v2/thinking-effects/thinking-f04670.png",
+      "sha256": "d58214f556f5ee3afff49289bf69cc9ac7f49abe9669e103f3f48c69be432547",
+      "bytes": 15584,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/revision-v2/thinking-effects/thinking-f04671.png",
+      "sha256": "1f2523f2914a1e284a37dfbfa44cbf6099bb313d3eab096712051ea5cdf7d19d",
+      "bytes": 15678,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/revision-v2/thinking-effects/thinking-f04672.png",
+      "sha256": "340b4a0d286e61bc268f1fbe143d9596b358e57827796aa612ba6bb8fa7f8e59",
+      "bytes": 15579,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/revision-v2/thinking-effects/thinking-f04673.png",
+      "sha256": "116561a5b42ef088429a6a2acd3d9fd6df86b4893a31d1dd05445f0c9030e7d7",
+      "bytes": 15320,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/revision-v2/thinking-effects/thinking-f04674.png",
+      "sha256": "fe3e7366a7f28865640060f264fd14163f7d5bb1aea6f92a043535fcf2b8869c",
+      "bytes": 15382,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/revision-v2/thinking-effects/thinking-f04675.png",
+      "sha256": "f8cbad8c98f07c83052be529856a993112de84ef079665958dd5efc780af26d3",
+      "bytes": 15249,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/revision-v2/thinking-effects/thinking-f04676.png",
+      "sha256": "de47e1af9c12ee19a07af0a04cf32caff5d40660cb252fe8cf0e3d22634035c2",
+      "bytes": 15086,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/revision-v2/thinking-effects/thinking-f04677.png",
+      "sha256": "d7d6580edaa28ad79074e9813fd52b32568e4ffe3bc38a4b7fe4d37c2875a061",
+      "bytes": 14943,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/revision-v2/thinking-effects/thinking-f04678.png",
+      "sha256": "50cf8a2d5f7dd679b7a9adeb83e83a0cce5d6d02f55e78cdb38ba17b7dc7f075",
+      "bytes": 15289,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/revision-v2/thinking-effects/thinking-f04679.png",
+      "sha256": "f40598ea36862976b130535bd2b80eaef3b5acb10edb183d337b7ac86dd9d550",
+      "bytes": 15531,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/revision-v2/thinking-effects/thinking-f04680.png",
+      "sha256": "35906bc08a89279f86f75b9bc4adcb6fe65cbdb9f9deb97db89c0ccdf209fc1e",
+      "bytes": 15418,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/revision-v2/thinking-effects/thinking-f04681.png",
+      "sha256": "2d24dd9a49aaeb3d805f291eed1c909d5e56256b1e1dc1af5d2c56e3c89cbe5d",
+      "bytes": 15925,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/revision-v2/thinking-effects/thinking-f04682.png",
+      "sha256": "3a279b234c8a01920a73ad905d208e3ce982744a3bbb875f60beec6040a6ad3a",
+      "bytes": 16027,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/revision-v2/thinking-effects/thinking-f04683.png",
+      "sha256": "7785ede9f3e05d778a5417774fad5b06f3f3369c532471c049b761cfef3e9ba2",
+      "bytes": 16025,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/revision-v2/thinking-effects/thinking-f04684.png",
+      "sha256": "926dcc56ad5dbbafcda0fe2b7a024fd5ea740498c481580c386e47a3374973d1",
+      "bytes": 15862,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/revision-v2/thinking-effects/thinking-f04685.png",
+      "sha256": "f3873771443add86e9a6f7f2ad808e56ed1b07c78b7e56a2945236fbe7357f6b",
+      "bytes": 15763,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/revision-v2/thinking-effects/thinking-f04686.png",
+      "sha256": "880768d73c274d47cff8ca339a469bab0320e9379f31200bbefee4f6e542d9ca",
+      "bytes": 15965,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/revision-v2/thinking-effects/thinking-f04687.png",
+      "sha256": "1df4e17c9ffa6f5be705340f936f7a8c041be2a141f2dda83363526b072521ca",
+      "bytes": 15837,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/revision-v2/thinking-effects/thinking-f04688.png",
+      "sha256": "cd0881b4052433edc5e69beacd7ae9474f5fd0821d6c494d2ba32536721295ae",
+      "bytes": 15506,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/revision-v2/thinking-effects/thinking-f04689.png",
+      "sha256": "73baca1cea39ef959bba43a49e5bc51883f688f2cf14104bae8f8891847c3f3f",
+      "bytes": 15593,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/revision-v2/thinking-effects/thinking-f04690.png",
+      "sha256": "63f30034caa1750c729e67b23e9408985652af07b94e70992f99b928771ba200",
+      "bytes": 15565,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/revision-v2/thinking-effects/thinking-f04691.png",
+      "sha256": "2be28d34bf4bddd766e07146a99c0fd48d86152133665df034ea39ba8d5246ac",
+      "bytes": 15551,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/revision-v2/thinking-effects/thinking-f04692.png",
+      "sha256": "e4b4711dd2d246f1bef6e7752615f4a5575d80a0b3869c5ea77056ed327f1764",
+      "bytes": 15557,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/revision-v2/thinking-effects/thinking-f04693.png",
+      "sha256": "26f324c356fef0781444fa9f0cbc678683a1490b17bc0225753dae19ef0c83b1",
+      "bytes": 15529,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/revision-v2/thinking-effects/thinking-f04694.png",
+      "sha256": "76d8ae4f97a905c6e178e6ab89998121631ca228ba7ab885a9c4be0db23012f2",
+      "bytes": 15443,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/revision-v2/thinking-effects/thinking-f04695.png",
+      "sha256": "9780e0e35328c9f5f36e2fa7914f549bfa0c4d3a6d9a91dbe71d7fe409a7b4ae",
+      "bytes": 15099,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/revision-v2/thinking-effects/thinking-f04696.png",
+      "sha256": "622fb25fd88efd9ca9fbfec9183a575629620c23b43699f80b82c21a0f07f832",
+      "bytes": 15069,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/revision-v2/thinking-effects/thinking-f04697.png",
+      "sha256": "c38f710fd56902126baef783384b859daa2256454479636ed46301933c7c7561",
+      "bytes": 15477,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/revision-v2/thinking-effects/thinking-f04698.png",
+      "sha256": "d87e516b152b04252d8bec9cc38199aaf9d9fe341e92b028f7f65a18c933491c",
+      "bytes": 15523,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/revision-v2/thinking-effects/thinking-f04699.png",
+      "sha256": "221ae8f5ff65da327c788fa0576d0f73162a69cd09270544509802b96bae337e",
+      "bytes": 15591,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/revision-v2/thinking-effects/thinking-f04700.png",
+      "sha256": "d02f87395ad1ad52f788f532ddfa0a4d7e6e690c3c05d5f46e1fc4a3a96631b3",
+      "bytes": 15936,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/revision-v2/thinking-effects/thinking-f04701.png",
+      "sha256": "c55dd959669eb17788deb50a7e164ce979dfb7044f823b8669bfa5bfe40ac3c1",
+      "bytes": 15996,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/revision-v2/thinking-effects/thinking-f04702.png",
+      "sha256": "5e8a8767535fb8d993399117794ccaf76e746831022fbd1a74483596942c63d8",
+      "bytes": 15984,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/revision-v2/thinking-effects/thinking-f04703.png",
+      "sha256": "27679e5f0129b5b0c843f5893baca9ea8274a537040a2e320462d13b68d66ab3",
+      "bytes": 16045,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/revision-v2/thinking-effects/thinking-f04704.png",
+      "sha256": "cc18e811a40da0fd66a890b7af01bd4887f33cb0256003248ce2cae656f257c8",
+      "bytes": 15848,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/revision-v2/thinking-effects/thinking-f04705.png",
+      "sha256": "19bf0eca75928a073703bdff5e36814193f5e3b58c0050d56070a597bb1bcbd1",
+      "bytes": 16013,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/revision-v2/thinking-effects/thinking-f04706.png",
+      "sha256": "34126e3829ca485434419bc4e47141f1d3121cc6ac6fe710f6e6ec6ca09d3186",
+      "bytes": 15921,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/revision-v2/thinking-effects/thinking-f04707.png",
+      "sha256": "b80b894bbf344ab2112d1a6dac83e821af1ad6f234c14c58539fdb8ba9c3a518",
+      "bytes": 15714,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/revision-v2/thinking-effects/thinking-f04708.png",
+      "sha256": "c4174979cd2796d30b527609e664e1ad663f94f8864a86b1e6fd04c1dbc7af73",
+      "bytes": 15670,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/revision-v2/thinking-effects/thinking-f04709.png",
+      "sha256": "1420c300acc363b04c4b445d568911ce537e19280fb5d77c140337899aaa55be",
+      "bytes": 15549,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/revision-v2/thinking-effects/thinking-f04710.png",
+      "sha256": "407b1565f10c79122a6b2a88edbf2ac2854ecf7e7c46ececb6dc74d64a0f5e91",
+      "bytes": 15582,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/revision-v2/thinking-effects/thinking-f04711.png",
+      "sha256": "7c26e7c1df7aa0a37b90a9b0e7ab19c7a7f7e572766498bd3d194a7f4694baeb",
+      "bytes": 15515,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/revision-v2/thinking-effects/thinking-f04712.png",
+      "sha256": "0b6792eebe423f980f4a5b22e7ca4512b504ad17032ebfc726f0ce0e2e0c2261",
+      "bytes": 15258,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/revision-v2/thinking-effects/thinking-f04713.png",
+      "sha256": "2d746cbd825a789d39720d1fcbd495955771efd67a428b5b79522c8c2ec83a8e",
+      "bytes": 15379,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/revision-v2/thinking-effects/thinking-f04714.png",
+      "sha256": "c12b06f23037806c70c8953bf7c417c06b9379e0cc115ccb2cd64ec2696e469e",
+      "bytes": 14800,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/revision-v2/thinking-effects/thinking-f04715.png",
+      "sha256": "a36404efa1e29c0b29721bc3152118f421663f13c45f25a5c73e5e4934091df4",
+      "bytes": 14973,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/revision-v2/thinking-effects/thinking-f04716.png",
+      "sha256": "f6f1e9cc85bbd635664d04247e12694a687b97da5ae13aac14d82263dd0480d2",
+      "bytes": 15488,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/revision-v2/thinking-effects/thinking-f04717.png",
+      "sha256": "5ec04779101411f588bb69532edb31f7bf3c98213b959e51029ca58a2cfa98bc",
+      "bytes": 15475,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/revision-v2/thinking-effects/thinking-f04718.png",
+      "sha256": "a24792a071393ba8e7a18276d16b0614771d7be956a2c88fedc27ad82788183b",
+      "bytes": 15497,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/revision-v2/thinking-effects/thinking-f04719.png",
+      "sha256": "851e4579d0929b7ab493814dc1cd4702e38c735919c37d10e0be44d54703c1f9",
+      "bytes": 15898,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/revision-v2/thinking-effects/thinking-f04720.png",
+      "sha256": "adb1194dab220abc0ac63eeb3aac826cb8418fb724f151bc7edcbe81fc5cfffd",
+      "bytes": 15996,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/revision-v2/thinking-effects/thinking-f04721.png",
+      "sha256": "8c5f18ca7ee3a814afd61b2dec7b0327792822d53417a771e5e59f006b491258",
+      "bytes": 16118,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/revision-v2/thinking-effects/thinking-f04722.png",
+      "sha256": "af12ab3cf1b253bc2fee389cfc15323c0bfa3f93312d97a6358c841851352313",
+      "bytes": 15902,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/revision-v2/thinking-effects/thinking-f04723.png",
+      "sha256": "f76336c2cfdc76a2dc41ba343142bf2697f07ae04a0b27a842bc198f04d4de0d",
+      "bytes": 15891,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/revision-v2/thinking-effects/thinking-f04724.png",
+      "sha256": "930ce423fc3d7c1fb957699d439a535f7e38bf9f4fcbffea3e99c6a0cf356290",
+      "bytes": 16040,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/revision-v2/thinking-effects/thinking-f04725.png",
+      "sha256": "e1040ddf69e770ec828ccddff2236df2f82b46be43b7a8b151726d70d4bedf78",
+      "bytes": 15803,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/revision-v2/thinking-effects/thinking-f04726.png",
+      "sha256": "4982c645526a440fba382ba93e18af3d8531a59230fbbfb1692a8bc4223bfedc",
+      "bytes": 15919,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/revision-v2/thinking-effects/thinking-f04727.png",
+      "sha256": "285abcbac5ff7bc633f90db1bf8a29669d8493e51cd4f87122082a747edc3e8c",
+      "bytes": 15828,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/revision-v2/thinking-effects/thinking-f04728.png",
+      "sha256": "7a984eafcb66d451cdd86d3ec4432458fd04a091bb06e1847d7f34918a0deab5",
+      "bytes": 15515,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/revision-v2/thinking-effects/thinking-f04729.png",
+      "sha256": "6ed3a506ad76b6578f2b1123134df228fa57dcdfd88714abbbdb058aeacee99f",
+      "bytes": 15507,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/revision-v2/thinking-effects/thinking-f04730.png",
+      "sha256": "658c9b1e5e033b7c7de2b155139b8140c3c5fc38f3bb2b44563360ae60f9881f",
+      "bytes": 15673,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/revision-v2/thinking-effects/thinking-f04731.png",
+      "sha256": "2fdbfff5e437398cc2741bc1404be33392057e14fb82b1df43e44a4d299b8ebd",
+      "bytes": 15338,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/revision-v2/thinking-effects/thinking-f04732.png",
+      "sha256": "d1b42581ded88e466add9ee06e2d08665580dfcdb6855359b60bb59e6fbb9751",
+      "bytes": 15239,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/revision-v2/thinking-effects/thinking-f04733.png",
+      "sha256": "9bb4a73702e9881514ef60ec621840fab0f5007a09113b5b5c8086699ae15166",
+      "bytes": 15237,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/revision-v2/thinking-effects/thinking-f04734.png",
+      "sha256": "c4c7059721da53bb5d7ac4cd92705309fed314b37f0fb9df280ece2ac7c09760",
+      "bytes": 15161,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/revision-v2/thinking-effects/thinking-f04735.png",
+      "sha256": "be972c6ba9fded4c04284e254134b05b61b80850c0ca84e2165e34104a869de6",
+      "bytes": 15496,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/revision-v2/thinking-effects/thinking-f04736.png",
+      "sha256": "a5883ea6660a8ec2a3b9c8a2f550355d13a6074675b51d45159c0231b1a7705a",
+      "bytes": 15450,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/revision-v2/thinking-effects/thinking-f04737.png",
+      "sha256": "edaa3142f2bf31bec77096ecf67b39840bcf3f5463c9f2e1e0155336ffd9929f",
+      "bytes": 15602,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/revision-v2/thinking-effects/thinking-f04738.png",
+      "sha256": "b92e2fe0feb58e2489d97812a4d2e5e0fe26e6206708c86f45d69597ef7d2e3f",
+      "bytes": 16076,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/revision-v2/thinking-effects/thinking-f04739.png",
+      "sha256": "44fe1b2b7975533ad997596260732e0354f2fdbdf8ddac4bc1c5564f2fc34828",
+      "bytes": 15954,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/revision-v2/thinking-effects/thinking-f04740.png",
+      "sha256": "889ca9d13bd72700ec8a024d75c387787dc5d69bfb2543170f29ae536e1f0649",
+      "bytes": 16085,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/revision-v2/thinking-effects/thinking-f04741.png",
+      "sha256": "20dd52e5ae84a84b46189b090f703b2cc921b2a9426be35273131b2bcd9e7669",
+      "bytes": 16018,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/revision-v2/thinking-effects/thinking-f04742.png",
+      "sha256": "b169e5bede057f57f03bd223d97b7910b0ea309fd83945d473e1f403c0b340c5",
+      "bytes": 15908,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/revision-v2/thinking-effects/thinking-f04743.png",
+      "sha256": "7adca3ecc2fd29e12222c1b297708eb331118cad3de46febfa398ce2eda4d5db",
+      "bytes": 15583,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/revision-v2/thinking-effects/thinking-f04744.png",
+      "sha256": "775a45ec0c8cd4bb214b7b84a1be3bef01224b914778e81e1fb9bfb05cd4469e",
+      "bytes": 15708,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/revision-v2/thinking-effects/thinking-f04745.png",
+      "sha256": "5d7b12f1e8f7c45de45e3712d6e0ce3926a46309be02451edf711a2a698ffd89",
+      "bytes": 15851,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/revision-v2/thinking-effects/thinking-f04746.png",
+      "sha256": "12329fb2d716ca3f1bac8e30b4b8cb051fd0a130e95ad2e5b1200b7e3fd24ef4",
+      "bytes": 15526,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/revision-v2/overlay-layers/curtain-f02407.png",
+      "sha256": "223a76f7d9fb65a91beac86ac8859503e26a80db81c8cdba77c6a23951b79d81",
+      "bytes": 2691,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/revision-v2/overlay-layers/curtain-f02408.png",
+      "sha256": "7a04db627c36b3f4bd399a6d8337f9eb4055788ddff70fc32cbbbca7be268bf6",
+      "bytes": 2691,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/revision-v2/overlay-layers/curtain-f02409.png",
+      "sha256": "967188cc5214a5f5e345da19da45c596c1f96723260e5520ef290e940b9ce389",
+      "bytes": 2692,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/revision-v2/overlay-layers/curtain-f02410.png",
+      "sha256": "86b7a8c3fe7f5ac36c4d3116a00bf1b6f217431b5e62bec7303caa3c80f9b349",
+      "bytes": 2691,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/revision-v2/overlay-layers/curtain-f02411.png",
+      "sha256": "86b7a8c3fe7f5ac36c4d3116a00bf1b6f217431b5e62bec7303caa3c80f9b349",
+      "bytes": 2691,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/revision-v2/overlay-layers/curtain-f02412.png",
+      "sha256": "b4812e05246ab006798ff9a2ce4122086ba96bd525ae84182a7c76637b66141c",
+      "bytes": 2691,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/revision-v2/overlay-layers/curtain-f02413.png",
+      "sha256": "b4812e05246ab006798ff9a2ce4122086ba96bd525ae84182a7c76637b66141c",
+      "bytes": 2691,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/revision-v2/overlay-layers/curtain-f02414.png",
+      "sha256": "b4812e05246ab006798ff9a2ce4122086ba96bd525ae84182a7c76637b66141c",
+      "bytes": 2691,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/revision-v2/overlay-layers/curtain-f02415.png",
+      "sha256": "b4812e05246ab006798ff9a2ce4122086ba96bd525ae84182a7c76637b66141c",
+      "bytes": 2691,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/revision-v2/overlay-layers/curtain-f02416.png",
+      "sha256": "b4812e05246ab006798ff9a2ce4122086ba96bd525ae84182a7c76637b66141c",
+      "bytes": 2691,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/revision-v2/overlay-layers/curtain-f02417.png",
+      "sha256": "b4812e05246ab006798ff9a2ce4122086ba96bd525ae84182a7c76637b66141c",
+      "bytes": 2691,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/revision-v2/overlay-layers/curtain-f02418.png",
+      "sha256": "b4812e05246ab006798ff9a2ce4122086ba96bd525ae84182a7c76637b66141c",
+      "bytes": 2691,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/revision-v2/overlay-layers/curtain-f02419.png",
+      "sha256": "0b13884022ab9e6e76eb04bdd07f695341a4e8dc718c0983b6209b7ab17d3b64",
+      "bytes": 2691,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/revision-v2/overlay-layers/curtain-f02420.png",
+      "sha256": "628c583a95495277ca8acff55eabc6528899e19f9d2103390fdb83a5f19ccab4",
+      "bytes": 2689,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/revision-v2/overlay-layers/curtain-f02421.png",
+      "sha256": "2c390992e9267b22823e15ffd3d05d3d7f430da1635f55c5f4c947700ba36087",
+      "bytes": 2689,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/revision-v2/overlay-layers/curtain-f02422.png",
+      "sha256": "362761d0d733e66b1023ea5a1cefef24b9c48e38515115d5988080441a33335a",
+      "bytes": 2691,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/revision-v2/overlay-layers/curtain-f02423.png",
+      "sha256": "4f9b0bc1f72e7834f6bbe486cf3b2bc57eec619b6e26dbba55411c2dddf4bc2d",
+      "bytes": 2691,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/revision-v2/overlay-layers/curtain-f02424.png",
+      "sha256": "f44b6b6c4c0e8c0c790ed6e9cfbed838e15946987300f268446f9205759b32c8",
+      "bytes": 2692,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/revision-v2/overlay-layers/curtain-f02425.png",
+      "sha256": "2d0a6fd410f55192e27997fd3f8ead5dd2655df85900169d693d7818284aafbc",
+      "bytes": 2689,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/revision-v2/overlay-layers/curtain-f02426.png",
+      "sha256": "ffb8e07fb77c59d650d17a823f6b8c434c6f508d5cc4c0563a0f6b669579ee7c",
+      "bytes": 2691,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/revision-v2/overlay-layers/curtain-f02427.png",
+      "sha256": "98e98e15aa762f117ac67cfceb1e3d30d453f8ef2d25609a296a7aa85dc28575",
+      "bytes": 2691,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/revision-v2/overlay-layers/curtain-f02428.png",
+      "sha256": "59a70f33177435f6b25ee702a177a2d3c300120d5174bd207309db0a51fbdc1f",
+      "bytes": 2691,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/revision-v2/overlay-layers/curtain-f02429.png",
+      "sha256": "77bfb1d193e369cdfff8bc794f332122351a6a7a5121e1b9496c21f497f632aa",
+      "bytes": 2691,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/revision-v2/overlay-layers/curtain-f02430.png",
+      "sha256": "0d61cd1dc4320080706a4a12c064e4facbca890d2502920f229c73a5f534d14f",
+      "bytes": 2691,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/revision-v2/overlay-layers/curtain-f02431.png",
+      "sha256": "fb2fd4dab10ad382d084d4a3e2a88b0d1e13af2e72e4edd773c51e26534845ee",
+      "bytes": 2690,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/revision-v2/overlay-layers/curtain-f02432.png",
+      "sha256": "9ed1afbb1a2597a757b03463c0a4d6cd1faae516674ca35c814393df3925f39b",
+      "bytes": 2692,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/revision-v2/overlay-layers/curtain-f02433.png",
+      "sha256": "9ed1afbb1a2597a757b03463c0a4d6cd1faae516674ca35c814393df3925f39b",
+      "bytes": 2692,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/revision-v2/overlay-layers/curtain-f02434.png",
+      "sha256": "00af9229706aa5e9d7110b2d3e5367d7e7eabba448ac47bbdf9b32ae547bfa69",
+      "bytes": 2692,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/revision-v2/overlay-layers/curtain-f02435.png",
+      "sha256": "2e4c6d2caa2a4c2392b36cb68f84adb7459e4461daa81debb67ea6b17e6b8153",
+      "bytes": 2675,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/revision-v2/overlay-layers/curtain-f02436.png",
+      "sha256": "2e4c6d2caa2a4c2392b36cb68f84adb7459e4461daa81debb67ea6b17e6b8153",
+      "bytes": 2675,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/revision-v2/overlay-layers/curtain-f02437.png",
+      "sha256": "2e4c6d2caa2a4c2392b36cb68f84adb7459e4461daa81debb67ea6b17e6b8153",
+      "bytes": 2675,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/revision-v2/overlay-layers/curtain-f02438.png",
+      "sha256": "2e4c6d2caa2a4c2392b36cb68f84adb7459e4461daa81debb67ea6b17e6b8153",
+      "bytes": 2675,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/revision-v2/overlay-layers/curtain-f02439.png",
+      "sha256": "2e4c6d2caa2a4c2392b36cb68f84adb7459e4461daa81debb67ea6b17e6b8153",
+      "bytes": 2675,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/revision-v2/overlay-layers/curtain-f02440.png",
+      "sha256": "2e4c6d2caa2a4c2392b36cb68f84adb7459e4461daa81debb67ea6b17e6b8153",
+      "bytes": 2675,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/revision-v2/overlay-layers/curtain-f02441.png",
+      "sha256": "2e4c6d2caa2a4c2392b36cb68f84adb7459e4461daa81debb67ea6b17e6b8153",
+      "bytes": 2675,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/revision-v2/overlay-layers/curtain-f02442.png",
+      "sha256": "2e4c6d2caa2a4c2392b36cb68f84adb7459e4461daa81debb67ea6b17e6b8153",
+      "bytes": 2675,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/revision-v2/overlay-layers/curtain-f02443.png",
+      "sha256": "2e4c6d2caa2a4c2392b36cb68f84adb7459e4461daa81debb67ea6b17e6b8153",
+      "bytes": 2675,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/revision-v2/overlay-layers/curtain-f02444.png",
+      "sha256": "2e4c6d2caa2a4c2392b36cb68f84adb7459e4461daa81debb67ea6b17e6b8153",
+      "bytes": 2675,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/revision-v2/overlay-layers/curtain-f02445.png",
+      "sha256": "2e4c6d2caa2a4c2392b36cb68f84adb7459e4461daa81debb67ea6b17e6b8153",
+      "bytes": 2675,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/revision-v2/overlay-layers/curtain-f02446.png",
+      "sha256": "832bfd7d6a97571ea45353c198ee5eafaeda1e6b0dcc61f78b87bd86adc0905a",
+      "bytes": 2670,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/revision-v2/overlay-layers/sigh-f02629.png",
+      "sha256": "9621186df74ed1a9324704952ab01b5e99d7a57b88ccc98978d26434f0971cab",
+      "bytes": 7807,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/revision-v2/overlay-layers/sigh-f02630.png",
+      "sha256": "fbf75a676af7f67506b17e5f643cf3991c35a63480c5c39f4fa3eb791838ca37",
+      "bytes": 7814,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/revision-v2/overlay-layers/sigh-f02631.png",
+      "sha256": "74304e13f7cd13eab155d12dc58b9a89c1ffdeac698a7bf9b978af03779026ac",
+      "bytes": 7753,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/revision-v2/overlay-layers/sigh-f02632.png",
+      "sha256": "4dfae32eceef6bf0e2f7d3ca8f3be70fc2c59041edcbfe01bd6fe9b95e6494fb",
+      "bytes": 7749,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/revision-v2/overlay-layers/sigh-f02633.png",
+      "sha256": "bcb6bc465f7e791c30e2bed19bb12e663d3e5a2c2dfa249079b6c2043ff4874c",
+      "bytes": 7811,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/revision-v2/overlay-layers/sigh-f02634.png",
+      "sha256": "ff0979afc84610ec7de75e88e2d8d8115be6af239a57ac43eeda6aaeaeca79d5",
+      "bytes": 7797,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/revision-v2/overlay-layers/sigh-f02635.png",
+      "sha256": "e096c75052f238a5bdbfc4be03a0da282c62cf4ffe4876a1daac20de326d38a5",
+      "bytes": 7802,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/revision-v2/overlay-layers/sigh-f02636.png",
+      "sha256": "9d5ade96724be34c7f1aadd09458a243c04d6a404708df7f81ab85143a6449d5",
+      "bytes": 7606,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/revision-v2/overlay-layers/sigh-f02637.png",
+      "sha256": "2d032411a5a04531021d3189b372ea7f8526f79199af45f716dd64e07da262d4",
+      "bytes": 7342,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/revision-v2/overlay-layers/sigh-f02641.png",
+      "sha256": "a9e937181ec61d3bc8b9edfeee1ca6b90c3f652c11815789eccf6732cb81c5e8",
+      "bytes": 7810,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/revision-v2/overlay-layers/sigh-f02642.png",
+      "sha256": "182ddd2919e39b9fb001e48ed994ac2727bfdbad888cda259633a8eade2f24ed",
+      "bytes": 7794,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/revision-v2/overlay-layers/sigh-f02643.png",
+      "sha256": "e2bb28e310bb8f569412e12d942464f87bd5d187d59dfd762caf3d40e16763ef",
+      "bytes": 7810,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/revision-v2/overlay-layers/sigh-f02644.png",
+      "sha256": "ef2b56e9e4ba6f9a9c9bd05c9af10452a65d76c696c51bb353649fdd6c30b5e8",
+      "bytes": 7749,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/revision-v2/overlay-layers/sigh-f02645.png",
+      "sha256": "6f188f801412afe539a8f6f23fb62c4c0e1518021da6af47180649a9766d9006",
+      "bytes": 7793,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/revision-v2/overlay-layers/sigh-f02646.png",
+      "sha256": "c87ef726767eed03e94040ef25d6a9c2279f223d8f24f2b494250bc4e5be17bc",
+      "bytes": 7809,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/revision-v2/overlay-layers/sigh-f02647.png",
+      "sha256": "863b971077ee9661a596a1eadda847a6d9de999b83e7926099d4889765c11b8a",
+      "bytes": 7809,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/revision-v2/overlay-layers/sigh-f02648.png",
+      "sha256": "c39f955ed5468f7ba3dd0f3c2462b3f0a72b3ba7253503c3e149d17657d17fcf",
+      "bytes": 7730,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/revision-v2/overlay-layers/sigh-f02649.png",
+      "sha256": "884f945abf64666f3c8c94a35afeb6a82f1207b0dcf62af26b1d9a08ce0324ae",
+      "bytes": 7466,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/revision-v2/overlay-layers/sigh-f02652.png",
+      "sha256": "c515077e18d28053b924870372d946c59edadaf747bf2eae7c6382295c707556",
+      "bytes": 7664,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/revision-v2/overlay-layers/sigh-f02653.png",
+      "sha256": "5d00c29a90448efb6031b4df029680a2a948c995aabb21be9b0db1865abd430e",
+      "bytes": 7658,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/revision-v2/overlay-layers/sigh-f02654.png",
+      "sha256": "fa18ec247bb5257ae0becc07cd9c541b01092afc82ed5d284f6956bd39e7dde5",
+      "bytes": 7682,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/revision-v2/overlay-layers/sigh-f02655.png",
+      "sha256": "6379803d4bdc8105946e406e11da52cdcd9bd15707bb2881322b198f3d8bb5d8",
+      "bytes": 7672,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/revision-v2/overlay-layers/sigh-f02656.png",
+      "sha256": "77ff257be89b121011cf99a720a5550f2088cf249637be0d253fb13d8396bed7",
+      "bytes": 7667,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/revision-v2/overlay-layers/sigh-f02657.png",
+      "sha256": "0d14d5c12403c9ce4f781387aa2fe8b0ea4102ccedda19484cd09e6cc69558dd",
+      "bytes": 7759,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/revision-v2/overlay-layers/sigh-f02658.png",
+      "sha256": "949695174293d27d073cdc6d8f78d24dbf35b8623a6ad3faa546f3980de08c64",
+      "bytes": 13654,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/revision-v2/overlay-layers/sigh-f02659.png",
+      "sha256": "8a34d5aac21566874955d3ccf7357369330bb92ceaa0e9c3ea3dc10c820cdc36",
+      "bytes": 13677,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/revision-v2/overlay-layers/sigh-f02660.png",
+      "sha256": "d99eeff9ff058340277b211c76cf987035294c36924079271704d5ce069f1697",
+      "bytes": 13452,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/revision-v2/overlay-layers/sigh-f02661.png",
+      "sha256": "000a7fd866e51abfecf5f985a4524ff7a2ade84957f8c3b5694fdec9d97e90d1",
+      "bytes": 13252,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/revision-v2/overlay-layers/sigh-f02662.png",
+      "sha256": "f9c019c701a6d1bffe7a068b9c33fbd8aace082517e84f1bde14b055f0d74124",
+      "bytes": 7665,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/revision-v2/overlay-layers/sigh-f02663.png",
+      "sha256": "f91d6ea179a2b684dbb1ac924a8a8c29b6dcebadb8c2b99d90f481245a7c3789",
+      "bytes": 7633,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/revision-v2/overlay-layers/sigh-f02664.png",
+      "sha256": "19a68cbdeb2780a099615b0e33a12fb02f35cbb59ef6fe569587e1c70bfa4e02",
+      "bytes": 13665,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/revision-v2/overlay-layers/sigh-f02665.png",
+      "sha256": "afa9479c9dcb805746c5cf9c6c70706fd5a306f508d45a7f7568af798e4cac2f",
+      "bytes": 13725,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/revision-v2/overlay-layers/sigh-f02666.png",
+      "sha256": "45507528680f7d93a378441d9790d725aadeabc2142099ce62d258a5b5fb0177",
+      "bytes": 13503,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/revision-v2/overlay-layers/sigh-f02667.png",
+      "sha256": "247ff4f4009436eaa32820152903675f93501ac1f00e3c2ded9eb33df835da31",
+      "bytes": 13121,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/revision-v2/overlay-layers/sigh-f02668.png",
+      "sha256": "e66fba998f2226fac0859ab25330030830c803e699db7cfe26cb6a9a263e0d8f",
+      "bytes": 7541,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/revision-v2/overlay-layers/sigh-f02669.png",
+      "sha256": "5691131593153916f88cb8c2a030bf42ba94311365fff99d7522d5c797e9c7f4",
+      "bytes": 7676,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/revision-v2/overlay-layers/sigh-f02670.png",
+      "sha256": "6f60affc47ee073a5a0e35856687c8852a5fe83c0814068b2757e29f1c2b388c",
+      "bytes": 13029,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/revision-v2/overlay-layers/sigh-f02671.png",
+      "sha256": "7fe49fa8a66b09e86c7797070a0735529c0c86f7d65ea9a19ff5ac8912f4d4fb",
+      "bytes": 13361,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/revision-v2/overlay-layers/sigh-f02672.png",
+      "sha256": "952f07f6fbb2d9adf3959e94d3f1ebacb97873b4a7d2c96f2047d94c9120b76b",
+      "bytes": 13240,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/revision-v2/overlay-layers/sigh-f02673.png",
+      "sha256": "41f3cac9bd967f4f8553ae5d3dc9c1ca072e0d568351e4748630fa0007fed1f2",
+      "bytes": 12558,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/revision-v2/overlay-layers/sigh-f02674.png",
+      "sha256": "827ff663a5b5bd585c0ec0c5e94ed41e296c72a8e39fae7a30bb4f2641418e57",
+      "bytes": 7267,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/revision-v2/overlay-layers/sigh-f02675.png",
+      "sha256": "ac6bcbd363fabfe3e1dda98386d6929ddacc74677b7e1a0ceabe683429676a96",
+      "bytes": 13431,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/revision-v2/overlay-layers/sigh-f02676.png",
+      "sha256": "e027586dae8ecdf759dab5c05240943c938438f48186517a44effe5e8411c64f",
+      "bytes": 12661,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/revision-v2/overlay-layers/sigh-f02677.png",
+      "sha256": "89c852c8433beb9b815feb7ad9c9b7da711677a2d3d975df68440cb5d4a292e2",
+      "bytes": 12840,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/revision-v2/overlay-layers/sigh-f02678.png",
+      "sha256": "857d3fa25da9da3365bc66e9a3a66db41d9acb839984cc6ae19bb7cf0cbc69ca",
+      "bytes": 12729,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/revision-v2/overlay-layers/sigh-f02679.png",
+      "sha256": "5d692f14231abd89aa3148cbaf0593d0a19dd05b305e51815eb5fba9532b0512",
+      "bytes": 13113,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/revision-v2/overlay-layers/sigh-f02680.png",
+      "sha256": "921c6f8333ec63e70e9b8859bea17aa743baa33c28eb5bff63c31b179b7c1cc1",
+      "bytes": 7717,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/revision-v2/overlay-layers/sigh-f02681.png",
+      "sha256": "39ccce9b90c7eb50b875223f869aea39edecb13dbf851ab32cf8042943e564a2",
+      "bytes": 13447,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/revision-v2/overlay-layers/sigh-f02682.png",
+      "sha256": "c71507ee049da94ea5506b3cdb7f33d504c77dce588c43558b857680edceb154",
+      "bytes": 13388,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/revision-v2/overlay-layers/sigh-f02683.png",
+      "sha256": "8acf26989b0c617ef5c84879b529dbe1e917fee45a811fe23eedbc4d7900f404",
+      "bytes": 12351,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/revision-v2/overlay-layers/sigh-f02684.png",
+      "sha256": "ae93e60a8abf5629c222419786acc6d72eb4988f5ab0e9f949d87de36908c0ea",
+      "bytes": 7501,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/revision-v2/overlay-layers/sigh-f02685.png",
+      "sha256": "7e52442cb77e7605f80c0bdf44498e449ff5840d7ebb5958a9f81b9be472befb",
+      "bytes": 7621,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/revision-v2/overlay-layers/sigh-f02686.png",
+      "sha256": "2b8cf940271f8ceafff4530d3caf30c2b31e30fd54928976bd508e62a030d524",
+      "bytes": 7422,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/revision-v2/overlay-layers/sigh-f02687.png",
+      "sha256": "8f0601cd2c344d3c94c3717ef1da4fa9a3bab9a5399f5839b60476a2d18c7545",
+      "bytes": 7616,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/revision-v2/overlay-layers/sigh-f02688.png",
+      "sha256": "1760591396e0fab06b6ac513440357e7feaac2a216e23de71b52d7ce9d63ba1f",
+      "bytes": 12796,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/revision-v2/overlay-layers/sigh-f02689.png",
+      "sha256": "7c16935d5f48d9d10f77b538c64af3813c1bd258ae8589971dceaf7b4f6c25bf",
+      "bytes": 12684,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/revision-v2/overlay-layers/sigh-f02690.png",
+      "sha256": "c0644c08d5dc8e911d9d0a4fca0c426578885f77e163686c3d6f89ab0b2cd217",
+      "bytes": 6826,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/revision-v2/overlay-layers/sigh-f02691.png",
+      "sha256": "348aa8a7bbee7fd875704b703fd178320312f03f2b91a61a7063a819d615c059",
+      "bytes": 6828,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/revision-v2/overlay-layers/sigh-f02692.png",
+      "sha256": "1c9a5cf4823290f6fd9af538b68d58e1c964ab9d745c99d1713a55eb8b64709a",
+      "bytes": 7536,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/revision-v2/overlay-layers/sigh-f02694.png",
+      "sha256": "ce02790493957b88876c6083cfd238d3ac9bd3e3a71d3fe7997f2cf018a60ba8",
+      "bytes": 6787,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/revision-v2/overlay-layers/sigh-f02695.png",
+      "sha256": "3afe536e5eaabc82b9a50a8e056308904d44bf46dc165691c19f99ad2cae8f9c",
+      "bytes": 6637,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/revision-v2/overlay-layers/sigh-f02698.png",
+      "sha256": "b5063943ce9aea165ef8b35b1d8fc474fcd14eda6ef5a4e5c77ac7ce49dccdbe",
+      "bytes": 6810,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/revision-v2/overlay-layers/sigh-f02700.png",
+      "sha256": "a268c893720182edd9538ccf9ec03fdfd2d64bb4a2dbbf7b40db10f6204f92ff",
+      "bytes": 6824,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/revision-v2/overlay-layers/sigh-f02701.png",
+      "sha256": "18f36ff392ffff7681f21aeabeeb637790ebbf4515f64587c328c68854427a37",
+      "bytes": 6829,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/revision-v2/overlay-layers/sigh-f02703.png",
+      "sha256": "43c7d07fe5e877c3bc5d8995b3c877ca317a88898ffcbbedf264037f25c21fa2",
+      "bytes": 6823,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/revision-v2/overlay-layers/sigh-f02704.png",
+      "sha256": "cc140be6cb37954af154eb7865cfe27c1f3185dcaf2baf9107dd234efe850765",
+      "bytes": 12792,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/revision-v2/overlay-layers/sigh-f02705.png",
+      "sha256": "46064f44bf184de19c4d5d91acfe1dc50c30a9003f5a03ee6c19f5f3053116a4",
+      "bytes": 7693,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/revision-v2/overlay-layers/sigh-f02706.png",
+      "sha256": "ab79e6e274702f1687c2ba1b2ec6c52b8ae17aa74dd59d27b96bad341063579c",
+      "bytes": 7696,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/revision-v2/overlay-layers/sigh-f02707.png",
+      "sha256": "9d48074fef366e159c9b135d3c12f688d26c1a870e14789fa2d61e817e83bf52",
+      "bytes": 7696,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/revision-v2/overlay-layers/sigh-f02708.png",
+      "sha256": "4d385f1fe833df03b2263e07c2b6d7b435c4d0c8a7fc5e45bc0654da667ad0b3",
+      "bytes": 7688,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/revision-v2/overlay-layers/sigh-f02709.png",
+      "sha256": "cd421b7eadc7f4f6d418820619ad839a80b62ed324eb5585f734d1339774e9e0",
+      "bytes": 7704,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/revision-v2/overlay-layers/sigh-f02710.png",
+      "sha256": "87a06320ccde5b3353bd7096990c303b7df7d726387a12e721779aae94124d4b",
+      "bytes": 12814,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/revision-v2/overlay-layers/sigh-f02711.png",
+      "sha256": "b539c5bdb4b343a7f4b6d804617244f561c2042eb66fa831c5ef92a9ea362957",
+      "bytes": 12823,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/revision-v2/overlay-layers/sigh-f02712.png",
+      "sha256": "fb759d0143b74096e43d7873b3c77911c81dd608b904f9740f749d9a30f7013e",
+      "bytes": 12636,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/revision-v2/overlay-layers/sigh-f02713.png",
+      "sha256": "f747fe850ec7ed8164d554001f033e3adb9070461893a0df79d88b30d3d05c7d",
+      "bytes": 6827,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/revision-v2/overlay-layers/sigh-f02714.png",
+      "sha256": "695e29532c5a2115500d42643248a88b03fe911ede7657313bb24acd8c02ec48",
+      "bytes": 6819,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/revision-v2/overlay-layers/sigh-f02715.png",
+      "sha256": "1af663064c03fde5e213040ebfc81c79003ff6ebb9c267b652ff150be5eb4f74",
+      "bytes": 6842,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/revision-v2/overlay-layers/sigh-f02716.png",
+      "sha256": "4e50015a379bc49982678b4c4199b7f5979038315d6b1d1bc294ac1710c1f9b5",
+      "bytes": 12783,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/revision-v2/overlay-layers/sigh-f02717.png",
+      "sha256": "278fa7e6f43b92aa770b776c37785982124819527e9c9c464ca08d4ee7846042",
+      "bytes": 12793,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/revision-v2/overlay-layers/sigh-f02718.png",
+      "sha256": "1c101a6d237674806e8e30208439d7462fc5aee8beb9e1f26fc4b8958312a40d",
+      "bytes": 11643,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/revision-v2/overlay-layers/sigh-f02719.png",
+      "sha256": "4f75e74436b4e475be9990d395efdfde7f9a48da893896877a4deb11262856dc",
+      "bytes": 7725,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/revision-v2/overlay-layers/sigh-f02720.png",
+      "sha256": "5341c129c34a28b2d369a4f5a3976acbaffee226601ba34ef9d0bca17a8509fd",
+      "bytes": 7808,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/revision-v2/overlay-layers/sigh-f02721.png",
+      "sha256": "181993ee981de0696444f5b065f17915f75e14d311810f216cad93806de51232",
+      "bytes": 12852,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/revision-v2/overlay-layers/sigh-f02722.png",
+      "sha256": "b9b2475856daca977812ed14c61e317077654c9ffac9f7ae619b560d9641601b",
+      "bytes": 12906,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/revision-v2/overlay-layers/sigh-f02723.png",
+      "sha256": "015a42ed441ea892fdb984d7c4d579a3169ad4ed998836c4f9b28739d5c1fbb9",
+      "bytes": 11906,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/revision-v2/overlay-layers/sigh-f02724.png",
+      "sha256": "dc5ba092c0e8d1abec9ec18b6fe3ec403a92414b3eca778d9710036b9355eea6",
+      "bytes": 12492,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/revision-v2/overlay-layers/sigh-f02725.png",
+      "sha256": "e4f7eebc0b817bca5e028e8b9da41c8e779ff7881d5fa9a31ab5ce0ec7d350f3",
+      "bytes": 6763,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/revision-v2/overlay-layers/sigh-f02726.png",
+      "sha256": "ce08d64e92b6544b1b6a25b6e1a55cd6a589312c91bd252e4934fc53515d0555",
+      "bytes": 6808,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/revision-v2/overlay-layers/sigh-f02727.png",
+      "sha256": "c2316269202d953194b25d315556cbca7052481172c9da65265f890c6fdc1e9e",
+      "bytes": 11833,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/revision-v2/overlay-layers/sigh-f02728.png",
+      "sha256": "23a05bbbd128a257779eb5351a8a6ec3ab548d063551d651a87359c2afc99a55",
+      "bytes": 12818,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/revision-v2/overlay-layers/sigh-f02729.png",
+      "sha256": "e5377bb9c144b28e5287c5f2d407400bd52c6798e2ae6ceb8e1b532a676aa476",
+      "bytes": 11792,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/revision-v2/overlay-layers/sigh-f02730.png",
+      "sha256": "dd0f2d49be68660c0a2b1aedc38ca65ed461dee1c18e90e7bcce139cb4993798",
+      "bytes": 12551,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/revision-v2/overlay-layers/sigh-f02731.png",
+      "sha256": "3d9cb5faaf2da426479fb531a5486a6a8b9a361096eeb27f117927dbe9c74394",
+      "bytes": 7733,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/revision-v2/overlay-layers/sigh-f02732.png",
+      "sha256": "193d668958037395ce4190ebdee054fdca312f9fd268b04f1be9dcb84275971d",
+      "bytes": 12793,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/revision-v2/overlay-layers/sigh-f02733.png",
+      "sha256": "f614d692d90f86148304eff45735997a2effb719b7903cb0643694dff866f4f2",
+      "bytes": 12698,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/revision-v2/overlay-layers/sigh-f02734.png",
+      "sha256": "fbe1ad39fc28f688f250d95d13d1ea0c22fd8a9d59c9c6f69b89d8c0591a7eb3",
+      "bytes": 6694,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/revision-v2/overlay-layers/sigh-f02735.png",
+      "sha256": "446a75bbd5e96bd0ef67f7a7587046a11339225f5ac4f3f109630777a103ce72",
+      "bytes": 11556,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/revision-v2/overlay-layers/sigh-f02736.png",
+      "sha256": "dc65bb145d0a2344b1183af18f0a93b6151eb302fd2ef533fd2db078b3c4ad03",
+      "bytes": 6696,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/revision-v2/overlay-layers/sigh-f02737.png",
+      "sha256": "fe4dd1d03425520e888ae9e6a6ba3fddb34f65bec0c6f260bc97a9d7c439ef4a",
+      "bytes": 6696,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/revision-v2/overlay-layers/sigh-f02738.png",
+      "sha256": "6acc0af8bc157447bb55780229a8a7017bdeff5da63066a99a05f35facdbae66",
+      "bytes": 6697,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/revision-v2/overlay-layers/sigh-f02739.png",
+      "sha256": "e3c0864861889dfe6e2d03aa98d04d8a60d222ec2ad6e2229bc09ebdad14b3c1",
+      "bytes": 6739,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/revision-v2/overlay-layers/sigh-f02740.png",
+      "sha256": "def7586b3ef7c1ed86d8587b57bc720e9ec920a5c299c188292f2cb5794c1841",
+      "bytes": 6794,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/revision-v2/overlay-layers/sigh-f02741.png",
+      "sha256": "36cb9c15608443569184b0a31c1dd9cbda5629bb7add2db219d056d372f05980",
+      "bytes": 6436,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/revision-v2/overlay-layers/sigh-f02743.png",
+      "sha256": "349ea49bb26b29115b001e154268ae3dea3df8ebca0f187c37f15274a6670e22",
+      "bytes": 6775,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/revision-v2/overlay-layers/sigh-f02744.png",
+      "sha256": "c850b13430932ba54ab2323d2e21d66c3eb3924dd4064a2ac632d79d85f7fcf6",
+      "bytes": 6695,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/revision-v2/overlay-layers/sigh-f02745.png",
+      "sha256": "fbe1ad39fc28f688f250d95d13d1ea0c22fd8a9d59c9c6f69b89d8c0591a7eb3",
+      "bytes": 6694,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/revision-v2/overlay-layers/sigh-f02746.png",
+      "sha256": "a17b126f39534f04d55e2a72b9556c7792e64d8f0207dcd9b0965c8a2a856175",
+      "bytes": 6698,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/revision-v2/overlay-layers/sigh-f02747.png",
+      "sha256": "dc65bb145d0a2344b1183af18f0a93b6151eb302fd2ef533fd2db078b3c4ad03",
+      "bytes": 6696,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/revision-v2/overlay-layers/sigh-f02748.png",
+      "sha256": "fe4dd1d03425520e888ae9e6a6ba3fddb34f65bec0c6f260bc97a9d7c439ef4a",
+      "bytes": 6696,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/revision-v2/overlay-layers/sigh-f02749.png",
+      "sha256": "29432d40f0b99829eef5452fb0532f3a123dad65cccb4768414d5724bd06dc05",
+      "bytes": 11587,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/revision-v2/overlay-layers/sigh-f02750.png",
+      "sha256": "9d1a52134afe17629f7c5bb8cecd8e4f71ae2c8322360a429caa41f68dc5a0d9",
+      "bytes": 11477,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/revision-v2/overlay-layers/sigh-f02751.png",
+      "sha256": "542586f55e8361bb01e455b02bf092187fc82b411a008619a04e1029aec60f84",
+      "bytes": 11560,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/revision-v2/overlay-layers/sigh-f02752.png",
+      "sha256": "7f1cf0c1d0bc2694cd7675d52ce1bb93cce6146d22d6688d73886149b5db682d",
+      "bytes": 11311,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/revision-v2/overlay-layers/sigh-f02753.png",
+      "sha256": "c57f0bf0676cc1032c1788e36e37db195d0bb5dacb3159dacf480934f07c5413",
+      "bytes": 6350,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/revision-v2/overlay-layers/sigh-f02754.png",
+      "sha256": "ad2090e65df60e740a767d09f558f3d8d1250804747e75d57775604d0a0d48c2",
+      "bytes": 6350,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/revision-v2/overlay-layers/sigh-f02755.png",
+      "sha256": "dedeaaffac67da077499f1a3b4c7af16635df7ba507bd145e6eea2e4124f15e7",
+      "bytes": 11472,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/revision-v2/overlay-layers/sigh-f02756.png",
+      "sha256": "f5107342a937b3b270fc370d0bc73ce470d1f9ced940f06e2ef36ea0f49d2848",
+      "bytes": 11794,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/revision-v2/overlay-layers/sigh-f02757.png",
+      "sha256": "31896949f69b13f58cb5607a8935fd70040de2d22c8f86141518b48f21123475",
+      "bytes": 11865,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/revision-v2/overlay-layers/sigh-f02758.png",
+      "sha256": "c9b884fcfe20a7a23c71b3c93cd0bdf74af7b78a85486bbc4c942766434cdd87",
+      "bytes": 11391,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/revision-v2/overlay-layers/sigh-f02759.png",
+      "sha256": "dd6bd3f69a51641cd0be81a5f849a4ccc9ffd92f5d59d1e95cf3f4688398b2dc",
+      "bytes": 6698,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/revision-v2/overlay-layers/sigh-f02760.png",
+      "sha256": "ad44f42e73f7ce8a6d8b78e4dbd46de10002435d9aa2cfe9db25fc5ea9c2d297",
+      "bytes": 6694,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/revision-v2/overlay-layers/sigh-f02761.png",
+      "sha256": "abd42a47d6c8ec28e56cbc918108ab63a025e1a06f4fb010d1aeb7bf328571ad",
+      "bytes": 11372,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/revision-v2/overlay-layers/sigh-f02762.png",
+      "sha256": "30e33c23f05626dca19d1f1eb9d2a0f5ebd1b5d08f126b9daba19a42d7d7a428",
+      "bytes": 11557,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/revision-v2/overlay-layers/sigh-f02763.png",
+      "sha256": "a5b799affdbfe580f6c63a69e84a437c4679f00a7f39b0337a436d343a5adc60",
+      "bytes": 11623,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/revision-v2/overlay-layers/sigh-f02764.png",
+      "sha256": "8692ab80225a302b3d275dee48c0d6c911aa3203f0364b769206e0b79fbc32df",
+      "bytes": 11164,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/revision-v2/overlay-layers/sigh-f02765.png",
+      "sha256": "92492eb0c3ef881f1d3ed773d4695c4243b54e9735162d5f6f523dfcb073c600",
+      "bytes": 6546,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/revision-v2/overlay-layers/sigh-f02766.png",
+      "sha256": "3ea3056e044a052ec62bf056a2dff292e487eeef10370bcb8d04d2a26cbb7171",
+      "bytes": 11314,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/revision-v2/overlay-layers/sigh-f02767.png",
+      "sha256": "f8e858f3a5834f5b4a6bc5a6feade869e4049f750dcf44efe8a6f5e9b3ac8ae2",
+      "bytes": 11562,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/revision-v2/overlay-layers/sigh-f02768.png",
+      "sha256": "090967b3e2f8764709c460063acca328b8297a4156eb780cfbc9bc493455a2b8",
+      "bytes": 11662,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/revision-v2/overlay-layers/sigh-f02769.png",
+      "sha256": "ecb1a02380901d9e02bcba876c04ac704e6e4e65878086cf6be9444e0d4bf140",
+      "bytes": 11690,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/revision-v2/overlay-layers/sigh-f02770.png",
+      "sha256": "7ad5d93c2776bcb544fc30ffdd53d17b0c14841cecc91228f18e3a76047fe515",
+      "bytes": 6695,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/revision-v2/overlay-layers/sigh-f02771.png",
+      "sha256": "518c0780ca171cd6a59330525941e5392aef5949a32c2fc49e32ca465078ba24",
+      "bytes": 6697,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/revision-v2/overlay-layers/sigh-f02772.png",
+      "sha256": "b82e885885c041f00403a7786458ac5d0afc176d3337cdb5e442ae86bdbf7fbe",
+      "bytes": 11314,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/revision-v2/overlay-layers/sigh-f02773.png",
+      "sha256": "9ae93305f93fd7affeb3ab298dd86b5a769c5b07f14f882a257eee04c95b5ed8",
+      "bytes": 11696,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/revision-v2/overlay-layers/sigh-f02774.png",
+      "sha256": "700dc3aa5a6b46b4de92504d630ab28b19233147805491f8a281027368745fdd",
+      "bytes": 11618,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/revision-v2/overlay-layers/sigh-f02775.png",
+      "sha256": "be61cf45a8552ead342d937b12fc338be9371aaf273b671125ac770c39b141d5",
+      "bytes": 11326,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/revision-v2/overlay-layers/sigh-f02776.png",
+      "sha256": "ed155ca94f249782f97b1f2a0ea8cf03a6555c6b08ea98fd34a68e96239ec1a2",
+      "bytes": 6349,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/source-graphics/bubbles/bubble-f00031-0.png",
+      "sha256": "6f60559bd3c0af72af975ab0f7a1804399b83a757b4e07b2fdd82690f465f9c9",
+      "bytes": 29478,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/source-graphics/bubbles/bubble-f00037-0.png",
+      "sha256": "a00022c5e02e96ef7f1dddfe4c5f2b23b778d48c5ac59103a3ec6f41ec0999f8",
+      "bytes": 30686,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/source-graphics/bubbles/bubble-f00043-0.png",
+      "sha256": "620a58dbf2dcecd1be32b40fe22403a7719d10b807f713385589e891bf685c1f",
+      "bytes": 31862,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/source-graphics/bubbles/bubble-f00049-0.png",
+      "sha256": "7ef147f351efb20a8fa56e2d9b72020e3e711c1c7ddcb8be42bbb41578eedeb6",
+      "bytes": 32069,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/source-graphics/bubbles/bubble-f00055-0.png",
+      "sha256": "6d1d01df8f036c0c46e1742b54263813c509b18af8bcab2737c0cf87ca556b40",
+      "bytes": 31715,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/source-graphics/bubbles/bubble-f00061-0.png",
+      "sha256": "ff65952b4c80011636d353a79505225e11d2d1358adfaa0a77a915c8b79ce527",
+      "bytes": 31064,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/source-graphics/bubbles/bubble-f00067-0.png",
+      "sha256": "70c1666954ff467dac3c39a4c8867bbae05fee5d769abfd8f8f4f6feada53119",
+      "bytes": 31304,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/source-graphics/bubbles/bubble-f00073-0.png",
+      "sha256": "2ef974fbc42f284ce0e6f24e2b8a666beb3e860112e400b7384bd873ed0d7f06",
+      "bytes": 30754,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/source-graphics/bubbles/bubble-f00079-0.png",
+      "sha256": "484a057cbb8fa9f2a6233b84a30cc700ba26457367584ec69b3ffa4ec59d67a9",
+      "bytes": 30848,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/source-graphics/bubbles/bubble-f00085-0.png",
+      "sha256": "c9383e962c4813b528889545f20e7b3aa0809c881cabe88c005947c9d156f5fb",
+      "bytes": 30397,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/source-graphics/bubbles/bubble-f00091-0.png",
+      "sha256": "6080b6037eac577de9c6d017b252a8456cf80403a3d1bd0ec0c68795b6c7c625",
+      "bytes": 30497,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/source-graphics/bubbles/bubble-f00097-0.png",
+      "sha256": "344b3651c260c1202ae6dc8b21aacf3deeb5b520f0653971afa56cf5e3d46372",
+      "bytes": 11049,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/source-graphics/bubbles/bubble-f00103-0.png",
+      "sha256": "69673e56cdaf0897c4ec368cb52ef28b2e8cf338e7219b4131fa77d438c964b9",
+      "bytes": 23266,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/source-graphics/bubbles/bubble-f00109-0.png",
+      "sha256": "6ed51f68a3efbdf2783ba34592ae0b3df9f153d4e799ca04c40420aa774a9885",
+      "bytes": 22651,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/source-graphics/bubbles/bubble-f00115-0.png",
+      "sha256": "7da8c5741e25f5f3279c3e5608ba48e1c27a422710a91251cf31af40a9008f2f",
+      "bytes": 23028,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/source-graphics/bubbles/bubble-f00121-0.png",
+      "sha256": "73e540e5defa30fb20a4a298ecb51b647031520f12c32db8022473234bfff963",
+      "bytes": 21892,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/source-graphics/bubbles/bubble-f00127-0.png",
+      "sha256": "02d68640dfa2612e42fa90f7499aaa6474a74f884cfb471ffbe68ee4afd8caca",
+      "bytes": 21660,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/source-graphics/bubbles/bubble-f00133-0.png",
+      "sha256": "cef59ceb620eaabfdb626ec054fdd171c001f0968d68be91179193eddc39a267",
+      "bytes": 22029,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/source-graphics/bubbles/bubble-f00139-0.png",
+      "sha256": "d55375620e4d2ec8fe2936d2556914e5a5bccc61d74e2e190178e5c0decfe7ce",
+      "bytes": 22200,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/audit/passthrough-evidence/native/f00150.png",
+      "sha256": "577b68471a2d68dd6e628ac9c9935467a3666243becdcf45ca7a633b0459e4e0",
+      "bytes": 4284,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/audit/passthrough-evidence/native/f00252.png",
+      "sha256": "db0fb7924d8444c5a4e4fbf05651ad23185c15b85507f0a89fb29891607e1bf0",
+      "bytes": 3205,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/source-graphics/captions/C001-f00426.png",
+      "sha256": "231f8d7339d3a99fb5f1af79d37d9246b8c8953c1792f3e227364da3134c6f33",
+      "bytes": 4893,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/source-graphics/captions/C002-f00450.png",
+      "sha256": "0e130228a1b81aadefff9c60bab5d45b79d18ddb2c77efdb44f515363c48949f",
+      "bytes": 11604,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/source-graphics/bubbles/bubble-f00450-0.png",
+      "sha256": "b858009faf136a1dae0d70bbc6f1728c67570c7ad5d979e2f9718fe9da859886",
+      "bytes": 34841,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/source-graphics/bubbles/bubble-f00456-0.png",
+      "sha256": "9b0a79571fce656c4bc6328c7cecc7c6502f817588c8a2feb38159a3d45e3bfe",
+      "bytes": 37761,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/source-graphics/bubbles/bubble-f00462-0.png",
+      "sha256": "28fb17f38d7955cb4a49ec9237b1fb164d5d22d6edd7ab6613fe843b728e41e0",
+      "bytes": 37419,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/source-graphics/bubbles/bubble-f00468-0.png",
+      "sha256": "4cb49ad66b7d4c5b342c50bb80589e163adae93653441e8ab3ade8689bc78f71",
+      "bytes": 37286,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/source-graphics/bubbles/bubble-f00474-0.png",
+      "sha256": "70e472942ae09a78a78456bf4f4d9baec78dc44119b16cd33edb1e6570c2841b",
+      "bytes": 37502,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/source-graphics/bubbles/bubble-f00480-0.png",
+      "sha256": "84dce9d7b4a37aec94626d9aa9c57bb7a1ca5ffcff3c66009090e590583a5007",
+      "bytes": 34966,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/source-graphics/bubbles/bubble-f00485-0.png",
+      "sha256": "27a88f1fdee2a6081e79ca40dc3e3b3f1f0ac236dead00265d5a3cf163a4b32a",
+      "bytes": 35142,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/source-graphics/captions/C003-f00486.png",
+      "sha256": "c8f56bf91ad9198f9d41cf9a148039ce427c3fc03a384897d6880f3ab26e6c47",
+      "bytes": 12010,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/source-graphics/bubbles/bubble-f00486-0.png",
+      "sha256": "f1b43060ea7e1c563b7b01e8cef8b8fdf76efb98c0d841079aa76dc9e2be53a2",
+      "bytes": 35224,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/source-graphics/bubbles/bubble-f00492-0.png",
+      "sha256": "e730189848ebd56cc61c72933d2fa55cd945b5d034757df67a4fcd8da988481d",
+      "bytes": 45075,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/source-graphics/bubbles/bubble-f00498-0.png",
+      "sha256": "02646e98d8089baa517ca41cc7b8ce8c126e9338b3743a8cd40a3f38faf35762",
+      "bytes": 45100,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/source-graphics/bubbles/bubble-f00504-0.png",
+      "sha256": "4e4a19944ed370c7f4bd0b6a1d47e7e2f3676b67f936be35395cf695e4cc6641",
+      "bytes": 45105,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/source-graphics/bubbles/bubble-f00510-0.png",
+      "sha256": "15da08cf3d9b9d08f3c2e1c2cc79261420bf003833b2c785cedce38036aeebae",
+      "bytes": 45003,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/source-graphics/bubbles/bubble-f00516-0.png",
+      "sha256": "3363cc20e975e067bf099e14d863a62f3dc4cd46f23faa9265b43a58e5c92a06",
+      "bytes": 45053,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/source-graphics/bubbles/bubble-f00522-0.png",
+      "sha256": "cd9ad672659c36f9bd58cc5cce13069a6b316840e2c2d8f7c289a38319e7a69d",
+      "bytes": 47187,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/source-graphics/bubbles/bubble-f00528-0.png",
+      "sha256": "26e107bdcd7dd277d430a988d0458b56c539ee85b47792e12fc03b92025d65df",
+      "bytes": 46905,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/source-graphics/captions/C004-f00528.png",
+      "sha256": "5bf217ad999d3c0d4953803cdf6a0ecbf36c6472527812df78abbbcfd10faa56",
+      "bytes": 18728,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/source-graphics/bubbles/bubble-f00540-0.png",
+      "sha256": "b9e1ac34463e0c1d7baba6b4a180db9491fb45efe7cd3e53b02701a6f98189e3",
+      "bytes": 45111,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/source-graphics/bubbles/bubble-f00546-0.png",
+      "sha256": "3db6ece1036bd7cfe3f55090f2202cced9c9b77712c99a3bd759c8a3861274af",
+      "bytes": 45413,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/source-graphics/bubbles/bubble-f00552-0.png",
+      "sha256": "c69d88d25370ce189ad5a14f44e872e8d44106a49ee945baa0a6771f7c3d906a",
+      "bytes": 43442,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/source-graphics/bubbles/bubble-f00558-0.png",
+      "sha256": "a14d654d48d682acd4343b92a714e685e9c3e99116bfee3258f19aeb892d9cd0",
+      "bytes": 43515,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/source-graphics/bubbles/bubble-f00564-0.png",
+      "sha256": "e6abfdaf5dfa9f6a63c73385af9ea7fe86c9564b067dec5ae22eac9e51af5ebe",
+      "bytes": 43506,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/source-graphics/bubbles/bubble-f00570-0.png",
+      "sha256": "b29df472fd230444b264acaf02962c00cf00176c83b71f585fd208e3bbda9eb2",
+      "bytes": 43487,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/source-graphics/bubbles/bubble-f00576-0.png",
+      "sha256": "7a8a56ba5eaf28e79d99b49eb2aba62a39d012e4ac2bc6629899faca38e7d772",
+      "bytes": 43581,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/source-graphics/bubbles/bubble-f00582-0.png",
+      "sha256": "abdca7cc88389fa74175045f91187870a52e21911992f71c2c17c11ac0ff6c85",
+      "bytes": 11849,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/source-graphics/bubbles/bubble-f00584-0.png",
+      "sha256": "425db06ad5389526c2fb6f8a3ba98624aa9eb73158a4fdba38d51343d6367b42",
+      "bytes": 28959,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/source-graphics/captions/C005-f00588.png",
+      "sha256": "cfede4549605c52be99a662e9a77a9b1e0b63493b8d31a07c75c38c54154146d",
+      "bytes": 9985,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/source-graphics/bubbles/bubble-f00588-0.png",
+      "sha256": "f61467116aeeafd9d879dbd82cb43ced87aed4b8b88183f04458114ecb6330e8",
+      "bytes": 28813,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/source-graphics/bubbles/bubble-f00594-0.png",
+      "sha256": "1697473c90963a3c5a8147786b63401eaa2300821a5e85d5a72709f3e5f1aae8",
+      "bytes": 28883,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/source-graphics/bubbles/bubble-f00600-0.png",
+      "sha256": "85720c53b89fa45e86b08a8d06199c193242e368aa0bec3abca45e74fd3c3c05",
+      "bytes": 27302,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/source-graphics/bubbles/bubble-f00606-0.png",
+      "sha256": "5e06e9bbb44b441cce415de991fe06cbd2c8762124d76bc540bab95c6e73ded6",
+      "bytes": 28827,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/source-graphics/captions/C007-f00630.png",
+      "sha256": "e19927eca07f2a405a14fcb350dc17c18d5761a3f7ef5abcf6def3bdacd78467",
+      "bytes": 14978,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/source-graphics/bubbles/bubble-f00630-0.png",
+      "sha256": "5e4065257ff78458b4c3ba0df434b6fff48dfb8e849439faecb05279426a0d62",
+      "bytes": 44457,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/source-graphics/bubbles/bubble-f00636-0.png",
+      "sha256": "b5931d5af5548e924e8fb5f303d8914c4e65249350a479af831906c30c59cd30",
+      "bytes": 42695,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/source-graphics/bubbles/bubble-f00642-0.png",
+      "sha256": "a40ac20c19f20204a825bb415915b6a52cd30dddda5c7c8b2b220fab81a7d3d7",
+      "bytes": 44741,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/source-graphics/bubbles/bubble-f00648-0.png",
+      "sha256": "4cdf06c84c20b6fe7e4b4e3adb28258740546daaf884a73bab6c53a826637973",
+      "bytes": 44808,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/source-graphics/bubbles/bubble-f00654-0.png",
+      "sha256": "1c1ee6b57c24917994026e617dc978404dd9f6de45dcde2683dbc3db224d7dad",
+      "bytes": 45040,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/source-graphics/bubbles/bubble-f00660-0.png",
+      "sha256": "b6316a81aee8b324d85c6d74bcf87591cd80e7c987e43e3bbccd6ad9c22e6c84",
+      "bytes": 45025,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/source-graphics/bubbles/bubble-f00666-0.png",
+      "sha256": "b06e7c61c7d464c365eba8816abf28d90399d23d035f6bd64861c15e485d402b",
+      "bytes": 45047,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/source-graphics/bubbles/bubble-f00670-0.png",
+      "sha256": "0cc0e2cf02c42dada6e498933192c97d39b328481695dc6eff4666bcfca26d28",
+      "bytes": 44657,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/source-graphics/captions/C008-f00672.png",
+      "sha256": "7954e2b4df376d3141e2276a8b5f022c9d7049df2321bc778bff5e56760390fc",
+      "bytes": 14176,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/source-graphics/bubbles/bubble-f00672-0.png",
+      "sha256": "3e4aaba04ddef52dc6f5d7657f942c626e03724d461b1ddde3cb66a582d79349",
+      "bytes": 44626,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/source-graphics/bubbles/bubble-f00678-0.png",
+      "sha256": "7defe699bff9a6bb8c2d8064dc634b43e921a9cc0d8243a4eec5fd09dff78976",
+      "bytes": 44546,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/source-graphics/bubbles/bubble-f00684-0.png",
+      "sha256": "d23245f39eb046eb225f365dc5edb6ac5396e7254e321fc7cca7e833a6d267fa",
+      "bytes": 44478,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/source-graphics/bubbles/bubble-f00690-0.png",
+      "sha256": "8bee9c3c6e40ab7dbb4ade0ec502e76af9dab58d72bf5e0d3eaa6377e7117289",
+      "bytes": 44511,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/source-graphics/bubbles/bubble-f00696-0.png",
+      "sha256": "742bb4a2721f2f47523b2a91b9b6fa87f11b9ce34284acf0c737a91d3951d06d",
+      "bytes": 44584,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/source-graphics/bubbles/bubble-f00702-0.png",
+      "sha256": "f157275b565240e5ed88987849c3939b32285968cf9cfdf572011b611edaeb16",
+      "bytes": 44414,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/source-graphics/bubbles/bubble-f00708-0.png",
+      "sha256": "abd2ea86bfa956d0add76983d7a6368370e9e49c2b287332941cd02c50089f1f",
+      "bytes": 44108,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/source-graphics/bubbles/bubble-f00714-0.png",
+      "sha256": "7905a29675be64576fef40388c27c5ec0e103260553b021f1605fd532ce01875",
+      "bytes": 44387,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/source-graphics/bubbles/bubble-f00720-0.png",
+      "sha256": "ce85d5e30d4ca5f5503e6331f1eebe660dbfef7aab83d426b0fae70f104996e9",
+      "bytes": 41131,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/source-graphics/captions/C009-f00720.png",
+      "sha256": "786825df7cec47ddd716f4b30896e24b72c70d560add713c5400605ef5b6a429",
+      "bytes": 14334,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/source-graphics/bubbles/bubble-f00726-0.png",
+      "sha256": "bf2fa9bd35e8fd8dffc1a9f7dfc57bb6881f1848a421f3b8bc4ed29134b066fd",
+      "bytes": 45405,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/source-graphics/bubbles/bubble-f00732-0.png",
+      "sha256": "4e76e65637dfa3c69b838c7596b802def02c6fee48c44201fa340e82d65863d4",
+      "bytes": 45719,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/source-graphics/bubbles/bubble-f00738-0.png",
+      "sha256": "fa18804340a847c21a5b765962fc82326cca569223f003355d0937c33dec48bd",
+      "bytes": 45770,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/source-graphics/bubbles/bubble-f00744-0.png",
+      "sha256": "1ea3b367a269baf14456b36122e3fdb4bbb96acac60c975d1d451774188501c5",
+      "bytes": 45736,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/source-graphics/bubbles/bubble-f00750-0.png",
+      "sha256": "00d48d50215f3fa103deffb67ade428fd162d73ef5cf61255109e26280a1d72f",
+      "bytes": 45689,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/source-graphics/bubbles/bubble-f00756-0.png",
+      "sha256": "2a6402ae0df995d8d1b20ac68c8c670164e1c5bd8d4b82e952551e186768c894",
+      "bytes": 45735,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/source-graphics/bubbles/bubble-f00762-0.png",
+      "sha256": "ab76dffe9584d4f12006f4cc77140fa0a2aae94d14a7d85d7c4a2f7f82bef9c8",
+      "bytes": 37705,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/source-graphics/captions/C010-f00762.png",
+      "sha256": "b3958f517320008d1d1f1a95a9f28724e9c1a95763a1200f9d4685a784e9238f",
+      "bytes": 14790,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/source-graphics/bubbles/bubble-f00768-0.png",
+      "sha256": "5233fcbac2b03275eb61d750c6ef5281f73483210acf01c7aa92964ff437fa6a",
+      "bytes": 37591,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/source-graphics/bubbles/bubble-f00774-0.png",
+      "sha256": "7d20854969a155e7e4978621f7ae3b6bd84470cae04affe39d2b9722f75f6a75",
+      "bytes": 37551,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/source-graphics/bubbles/bubble-f00780-0.png",
+      "sha256": "859a01ff09c4f247d018d499661f02c06e78558402eda97ce92b5e5118d6f0c9",
+      "bytes": 37569,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/source-graphics/bubbles/bubble-f00786-0.png",
+      "sha256": "a765437d1a30ee535dd41acc2431ce7f6c6305cb7dcca2e4315d54982dfe8049",
+      "bytes": 37487,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/source-graphics/bubbles/bubble-f00792-0.png",
+      "sha256": "859f3d43a5dcb5a136616459bb783e65821cac0da3882634eb3d9bf4f7156303",
+      "bytes": 37492,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/audit/passthrough-evidence/native/f00798.png",
+      "sha256": "8045d2472a1aad1c719e42e47e9725471de23156dc071f8fee3c58ada128924a",
+      "bytes": 3741,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/source-graphics/captions/C012-f00816.png",
+      "sha256": "d5b59fcf9f6e145511cc8a0da098f363aaa7104f7de1484497f1244498f32a6f",
+      "bytes": 7158,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/source-graphics/captions/C013-f00834.png",
+      "sha256": "d633dd7c73df5f33614e1394d0c7debb65805b755de5eedb00c5c1c6389429ff",
+      "bytes": 7105,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/source-graphics/captions/C014-f00858.png",
+      "sha256": "036701e50b7269d22b79af946b2c1513a086944c334185c8ad937824511b57a2",
+      "bytes": 6845,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/source-graphics/captions/C015-f00876.png",
+      "sha256": "7804f0a3849265f41e997b69d80edeae647a05b0b4fc5a8fa42067eb22e9872b",
+      "bytes": 7840,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/source-graphics/captions/C016-f00900.png",
+      "sha256": "be4aacb4f018e6563180785d15d72d14cf78cc1837de4c99c61fc8c4504467d5",
+      "bytes": 12648,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/source-graphics/captions/C017-f00954.png",
+      "sha256": "1376f437aa8b389f81fb83cc466b73e4f04e746d55e25cda6695d256823dbdd1",
+      "bytes": 9577,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/source-graphics/captions/C019-f00990.png",
+      "sha256": "e2905153353b867176bfcb2fd5b61e19ee0d2118f391cc234df6ac5631a31b47",
+      "bytes": 6771,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/source-graphics/captions/C021-f01014.png",
+      "sha256": "b2bcdc9a1938757dbb7c6442304531b88f8352de23871fb1bfe459d8e3d8c7de",
+      "bytes": 12243,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/source-graphics/bubbles/bubble-f01020-0.png",
+      "sha256": "5383dae84506f6308fd562590ba87dfc0ac932efa53c679407b659319f195aae",
+      "bytes": 31499,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/source-graphics/bubbles/bubble-f01026-0.png",
+      "sha256": "43b18b09e17be27356e26b72a198878d1d3d4a690c9b462ee79dbb26934a0a70",
+      "bytes": 31580,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/source-graphics/bubbles/bubble-f01032-0.png",
+      "sha256": "4fefb56d3b12db6da7c7b3604e28af17cfbfd3e93ae8f0414bd1eaeeb837c857",
+      "bytes": 31580,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/source-graphics/bubbles/bubble-f01034-0.png",
+      "sha256": "770193ac4bbc03606d40479ed2f27ed12b784ea7d0032372b585c526d329c2d3",
+      "bytes": 31539,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/source-graphics/bubbles/bubble-f01038-0.png",
+      "sha256": "631460370ce55bf8541c68e72d948c4600918f123991ca06ffde22fc4b20ff8a",
+      "bytes": 31607,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/source-graphics/captions/C023-f01062.png",
+      "sha256": "ab1b45aa0684dbceb8c15ce8c53ab3e444ce9723dbdabced14f49ee5b212c6f8",
+      "bytes": 13514,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/source-graphics/bubbles/bubble-f01080-0.png",
+      "sha256": "639f8ce91d7ae9645088fbd312a92031701abf697ba6b04e04b18b83ea7b2254",
+      "bytes": 30700,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/source-graphics/bubbles/bubble-f01086-0.png",
+      "sha256": "6fc22a60d152cc764c911fbeb9a8912c01a946aaea8a8bc4571f217a4d14f350",
+      "bytes": 30685,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/source-graphics/bubbles/bubble-f01110-0.png",
+      "sha256": "712704413f63300864fab084c7df3bf6735373f2ac03dc16b5b2b79efbda0808",
+      "bytes": 25504,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/source-graphics/bubbles/bubble-f01116-0.png",
+      "sha256": "deac02a482bb1d9b2f5cb3690376a372a1d74adff47a8a4445ad9a7d6a84638d",
+      "bytes": 25660,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/source-graphics/captions/C025-f01128.png",
+      "sha256": "08a77c9bbc9a174ec55d2417672de7e7de50786043bf15888b42c85112eab371",
+      "bytes": 12294,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/source-graphics/bubbles/bubble-f01134-0.png",
+      "sha256": "eabb95972b02b71ca059a3a40d02eeb46746c975be9caaf7d64cbbde846d6327",
+      "bytes": 14832,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/source-graphics/bubbles/bubble-f01134-1.png",
+      "sha256": "63ee8063c9fb89f3bdcb4818740fe9cc19fe69481b7b574214c0d845f31b7426",
+      "bytes": 24927,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/source-graphics/bubbles/bubble-f01140-0.png",
+      "sha256": "b23ff3cfdae0ebc565572e9213067eec27a21f0ede1a49a02471bab7b6523b2b",
+      "bytes": 14888,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/source-graphics/bubbles/bubble-f01140-1.png",
+      "sha256": "25ed25492761c0705cf41bc528d99dbc616f360c5b737fda02affc4fef667a75",
+      "bytes": 24984,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/source-graphics/bubbles/bubble-f01146-0.png",
+      "sha256": "7caf672e73b936b9407ada27d5e8bc4f210eaf1f53100e0bf14cb922e2dd2f54",
+      "bytes": 14889,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/source-graphics/bubbles/bubble-f01146-1.png",
+      "sha256": "1c0a345e408fc809372d5a7db8d097a1c1ff6294cf5dea07ab9b5298b80d5151",
+      "bytes": 26062,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/source-graphics/bubbles/bubble-f01152-0.png",
+      "sha256": "89793fde63155d86a3b67a86d7e65cf08b8208a0969858dd497be92545511659",
+      "bytes": 14844,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/source-graphics/bubbles/bubble-f01152-1.png",
+      "sha256": "7f0a9a3715cf69cf87fd04a155af9d75659f6e61b03649a16620cd5f57c94570",
+      "bytes": 25835,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/source-graphics/captions/C026-f01158.png",
+      "sha256": "b7853b2bb5a6128b2307119fd410fbfabf461c0480e04cfab522da5dbb31f8ef",
+      "bytes": 5539,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/source-graphics/captions/C027-f01170.png",
+      "sha256": "6ae9988cb18c860c5da412134cdb881740c4dc9cd693d1a40d4f952cc7a99e02",
+      "bytes": 6712,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/source-graphics/captions/C029-f01200.png",
+      "sha256": "b5f738feb4853d1bafa2399d155ca9fcab10c08862aec59b3a2cf6983f063830",
+      "bytes": 12617,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/source-graphics/bubbles/bubble-f01206-0.png",
+      "sha256": "580d6ae7eecff23fa95b123a1172750d47e2b3e2df650c8a51fc471d024d888b",
+      "bytes": 31833,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/source-graphics/bubbles/bubble-f01212-0.png",
+      "sha256": "4f685b81d1e05bc7357a95f6e7e53f5d3f3c21e04b04f681d174401c98b0d57f",
+      "bytes": 31877,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/source-graphics/bubbles/bubble-f01218-0.png",
+      "sha256": "afc7d9d52f1dc233bc412a328c5b916950f9a8b2ab27e599e8e94b9d128bd0b9",
+      "bytes": 31897,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/source-graphics/captions/C031-f01242.png",
+      "sha256": "4d4b0b135f1336ad38ee355959981b3ef05208fed96b9d01a69ad71520fd7ff0",
+      "bytes": 13309,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/source-graphics/bubbles/bubble-f01248-0.png",
+      "sha256": "9bb10c506ae01757da6c3a6e29d29e6569f3615e2b71930f649cb1c14acd3b75",
+      "bytes": 32679,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/source-graphics/bubbles/bubble-f01254-0.png",
+      "sha256": "e272cb52736c0e0e838c384502f8feb21e8707002bf384ac99434c402433048b",
+      "bytes": 32650,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/source-graphics/bubbles/bubble-f01260-0.png",
+      "sha256": "9d38501ede8d46215156d865ec9a12caa47ab4be18f7a9d8f781cf87fe729986",
+      "bytes": 32587,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/source-graphics/bubbles/bubble-f01266-0.png",
+      "sha256": "713e614f3caebb95f4048ea558bdbc0247797533c3e6643bc9ca76d7858091bd",
+      "bytes": 32575,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/source-graphics/bubbles/bubble-f01290-0.png",
+      "sha256": "18d5800a033129a54ce0a802522aa73e44b9c97f2dd6067233ccb4aedfb4bac2",
+      "bytes": 19181,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/source-graphics/bubbles/bubble-f01296-0.png",
+      "sha256": "de5a3ce89f03f30e9874177fe8847851ac5bf6e168b50d293644532664c11f5a",
+      "bytes": 19306,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/source-graphics/bubbles/bubble-f01302-0.png",
+      "sha256": "cbc2ca6b98b50e94be958b2530e12a7b8f114eaafd6a61687e1c3d1c4fb8d526",
+      "bytes": 19238,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/source-graphics/bubbles/bubble-f01308-0.png",
+      "sha256": "a940f1b9dd36f29d9d60a6b530a09249224d19488d3e0f71012285c62e9c517d",
+      "bytes": 9124,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/source-graphics/captions/C033-f01308.png",
+      "sha256": "9b9b2539df54e945c11bc53d621f118ffeeab709cedfa807437807e89b8044d3",
+      "bytes": 8176,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/source-graphics/bubbles/bubble-f01314-0.png",
+      "sha256": "d9a69334be5ce7fbe7433d297af7ec7583b9a9483f303fb9ffd9a0788d7336c1",
+      "bytes": 9871,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/source-graphics/captions/C034-f01338.png",
+      "sha256": "d6070d8ac8dd776a4152cf59cf31dd50f854093208bbd19f1bfa87655082e681",
+      "bytes": 4646,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/production/pair-a/assets/mouth-neutral-grin.png",
+      "sha256": "8065da42f2cfc2ed9830c899698b9b7d5d626528aacacee3af472dbf99ec73cd",
+      "bytes": 42751,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/source-graphics/captions/C035-f01362.png",
+      "sha256": "da925c8c7953b51a861924e3165c98ec8490e713c2481b6f0e8c1ea5e3601902",
+      "bytes": 9089,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/source-graphics/bubbles/bubble-f01362-0.png",
+      "sha256": "881d917db53fc1100a29113b8c2aaaacffecb4c1197fab13392cd5390c21db04",
+      "bytes": 28931,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/source-graphics/bubbles/bubble-f01368-0.png",
+      "sha256": "7597a9d23424744cf27e967a940e614e7c84bd4a447abbc2ebfaeb3014023bd0",
+      "bytes": 28866,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/source-graphics/bubbles/bubble-f01374-0.png",
+      "sha256": "7f6b4bcb5afb223b065a81ec808a9b65a22f2dc3a0455a4af4c423dabf78cb73",
+      "bytes": 28901,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/source-graphics/bubbles/bubble-f01380-0.png",
+      "sha256": "a6f6a613bbf2c722f78985cd9d9806cd1d778b914a79e30527cf1ec7e06d0133",
+      "bytes": 28915,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/source-graphics/bubbles/bubble-f01386-0.png",
+      "sha256": "471a0ff692772173d5b3f714acc778f743587f4daf264f91f47da59a81e4fb24",
+      "bytes": 28983,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/production/pair-a/assets/mouth-neutral-closed.png",
+      "sha256": "6bdac6cedfeaff036af4617a5d938d45b7683e66366e6c4aadb66a53202aa46f",
+      "bytes": 7929,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/source-graphics/bubbles/bubble-f01392-0.png",
+      "sha256": "c6e6376d563ec3185f63cc277227da0699925f544562d4004d2df43d895a1140",
+      "bytes": 28961,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/source-graphics/bubbles/bubble-f01395-0.png",
+      "sha256": "f7fbe19d3695315cb2613ec4d017ce459984231842e0973f8688c08577599816",
+      "bytes": 32595,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/source-graphics/captions/C036-f01398.png",
+      "sha256": "c0c91085af9e149554f0e11f8776c7813cdc6678c494e99ada73ac9419402d6c",
+      "bytes": 5449,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/production/pair-a/assets/mouth-neutral-open.png",
+      "sha256": "9678f49d5a4040e1ef5810280ba0a3e89012b36b25b046479595433186036f79",
+      "bytes": 91427,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/source-graphics/bubbles/bubble-f01398-0.png",
+      "sha256": "eaa63a97e49f7b5bab0beef0d26a67fd75e7e0cbd2fd76ef715a8af69ded0ffc",
+      "bytes": 44850,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/source-graphics/bubbles/bubble-f01404-0.png",
+      "sha256": "a3946f9631660e14272664b72b3aafd99558176c5621d2f3cfd21dcc588a6718",
+      "bytes": 44288,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/source-graphics/bubbles/bubble-f01406-0.png",
+      "sha256": "c836a2ba7c7342543a1b8740447f62f79f27d9b2adf1485ffaee4d43c3ba109c",
+      "bytes": 29418,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/source-graphics/captions/C037-f01410.png",
+      "sha256": "c4f2853e80989889aab322b9f29ff405e12b14c521f1fe2fb5137792878662f5",
+      "bytes": 9253,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/source-graphics/bubbles/bubble-f01410-0.png",
+      "sha256": "203b72e7b16f5bda87be87285a4586de498640971c48b516d07c38ad9367565d",
+      "bytes": 29487,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/source-graphics/bubbles/bubble-f01416-0.png",
+      "sha256": "55b4ae3db041acc98d8c97d383942d66654129f362d1352d2fe94d1c46092334",
+      "bytes": 29608,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/source-graphics/bubbles/bubble-f01422-0.png",
+      "sha256": "4ea827218e4419917a061a3a79e7f86c0d3f2315decff0a75f273d3fd9a50a6a",
+      "bytes": 29634,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/source-graphics/bubbles/bubble-f01428-0.png",
+      "sha256": "27a47383400da8aed2ff7e79585edb31ed0e52c441123add0382360ac3d92440",
+      "bytes": 29706,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/source-graphics/bubbles/bubble-f01434-0.png",
+      "sha256": "5a0ab32ab04f76ee07c31f4d96483d9161c213e640c8dede29afb413d5c35011",
+      "bytes": 29773,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/source-graphics/bubbles/bubble-f01440-0.png",
+      "sha256": "ec484a60b3f7b6ffee3bfdf249750b76c2fd2b3324aea089e203af8785ef108d",
+      "bytes": 37157,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/source-graphics/captions/C038-f01440.png",
+      "sha256": "f1dc20f474efa0997ce4e5aa9cc4a7ded7a353bac10f71cd47ecc05b60a11013",
+      "bytes": 4898,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/source-graphics/bubbles/bubble-f01446-0.png",
+      "sha256": "122949762812e8f157cae0082e1884c011f4beb8f74f9db467a29ae4d364b16b",
+      "bytes": 45261,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/source-graphics/bubbles/bubble-f01451-0.png",
+      "sha256": "aa36e3517035ef8e9edd1062b52ce9af5169c4f90f42e965e176d69a3e90730f",
+      "bytes": 29978,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/source-graphics/captions/C039-f01452.png",
+      "sha256": "46dc6239b09103a72d1bc6b707db27f623d0db6c71030faea52fc45cd50531ff",
+      "bytes": 8876,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/source-graphics/bubbles/bubble-f01452-0.png",
+      "sha256": "4b297721e471a78b96104a23b85b0361c3dfbb8c3d8b2ae5a6c882b38a6f7db4",
+      "bytes": 30018,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/source-graphics/bubbles/bubble-f01458-0.png",
+      "sha256": "3cb3471d38e693c5ee44ad091fc47a9d2ad300f34221193f5cac86004891d432",
+      "bytes": 30091,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/source-graphics/bubbles/bubble-f01464-0.png",
+      "sha256": "232dee5b9620cc4bb3ddbc79645da4fb486074e2bf52a8cb1928064658ad41ae",
+      "bytes": 30115,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/source-graphics/bubbles/bubble-f01470-0.png",
+      "sha256": "687986a1d7d49f20a9d9ecf94fe0d1411ae7174c0fc7802a328e2bd726f72e58",
+      "bytes": 29997,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/source-graphics/bubbles/bubble-f01476-0.png",
+      "sha256": "646959380a94db6eabad8e46f304b4f470e1891a8c6fc367106958fe2b870310",
+      "bytes": 30131,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/source-graphics/bubbles/bubble-f01482-0.png",
+      "sha256": "3622afd498e3654723897137a61316217884beff42b6cf121970a7f85c39b5cd",
+      "bytes": 29940,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/source-graphics/bubbles/bubble-f01487-0.png",
+      "sha256": "98e8554856dffe2ebb8e57f935367817a78473f6e4a1d2cf91e4702a2c81ec17",
+      "bytes": 44294,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/source-graphics/captions/C040-f01488.png",
+      "sha256": "d7ce60cd6577021a8241eae6e0c26219a83153f1790fb21674b2de98009496f6",
+      "bytes": 5548,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/source-graphics/bubbles/bubble-f01488-0.png",
+      "sha256": "9515f0283728d6180aeb9c5d3eeb087e0e93e9b569bd769e99d283dfecbf0d78",
+      "bytes": 43668,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/source-graphics/bubbles/bubble-f01494-0.png",
+      "sha256": "1f8c27cc9de5867d6f7de54e0e53acea85ac924e0de034be1753a6e67b0e8278",
+      "bytes": 45194,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/source-graphics/captions/C041-f01500.png",
+      "sha256": "6821bda747a211aa1dca45cde8e74c5723dbbd903144398e42c9daacdf31bad9",
+      "bytes": 14731,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/source-graphics/bubbles/bubble-f01543-0.png",
+      "sha256": "64b9f563c22c2fe9fa6ebdff3d1c49203ad178910f23b53efb360ce15f8eabfd",
+      "bytes": 29640,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/source-graphics/captions/C042-f01548.png",
+      "sha256": "11945706704c4a9b4e02f957bc653da603cb11970d0c5c65666c14e40aa1966b",
+      "bytes": 9774,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/source-graphics/bubbles/bubble-f01548-0.png",
+      "sha256": "50b18e7a51e50f5937f42f0db141871cb1b3f616ed7104672008bc1e958df4a5",
+      "bytes": 29589,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/source-graphics/bubbles/bubble-f01554-0.png",
+      "sha256": "f041f6a14b772ecadace10f05589daca671388e0ac331c07ce6fabf9c041d240",
+      "bytes": 29512,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/source-graphics/bubbles/bubble-f01560-0.png",
+      "sha256": "9cdde08c80bcd525f8017e9b318a63ac1a754e9cdc27a475604ac7c45f9cd548",
+      "bytes": 28524,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/source-graphics/bubbles/bubble-f01566-0.png",
+      "sha256": "b378c8490eb24917950f672adb8e9d683dbef3d0666063d77e425ab4540f7eee",
+      "bytes": 28737,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/source-graphics/bubbles/bubble-f01572-0.png",
+      "sha256": "b243e279aca9958a7e0a43378e650d30ce2b044ecf1ae73cb96d2b4b223bd773",
+      "bytes": 28667,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/source-graphics/bubbles/bubble-f01578-0.png",
+      "sha256": "32bd9ca7cf44913d7ff7bb101abcaba63a19b46757d2d778cf9e3dd5eb3f80dd",
+      "bytes": 43269,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/source-graphics/captions/C043-f01578.png",
+      "sha256": "cd12e7bb58545c1f45e172d39023b7fc6d221da93d56c1411c239c8590d0b156",
+      "bytes": 5949,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/source-graphics/bubbles/bubble-f01584-0.png",
+      "sha256": "32c5b890075bea637b4cc6c684543609d73d5ef42490bf47caf948a3e4d86c1d",
+      "bytes": 45161,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/source-graphics/bubbles/bubble-f01588-0.png",
+      "sha256": "16b0d26e0b46b68d1edfbfe67ab7e42c6cb88d4efcb90937d78cb606980ff560",
+      "bytes": 29646,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/source-graphics/captions/C044-f01590.png",
+      "sha256": "4f66f38c9da4cb46d0b85c817c9a7bfc47a5e4e5ad64e205ec0af65540fbb526",
+      "bytes": 9229,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/source-graphics/bubbles/bubble-f01590-0.png",
+      "sha256": "8cad5fbbc79e94d926813fd91a62d1a568358678006f9bff02fd010bf9e464df",
+      "bytes": 29595,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/source-graphics/bubbles/bubble-f01596-0.png",
+      "sha256": "93d3faaf70ed7736f10bedec0868994ee5396bdc4a21cb6418971bdec9eed30d",
+      "bytes": 29678,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/source-graphics/bubbles/bubble-f01602-0.png",
+      "sha256": "2f5af5d1235886c1a581123f03a066279a563a67de5f011c19b3ca52a760578d",
+      "bytes": 29594,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/source-graphics/bubbles/bubble-f01608-0.png",
+      "sha256": "d3526c01d812af40b76d571253140c2b85a0e15ef05097711622f9d63baa5d2d",
+      "bytes": 29574,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/source-graphics/bubbles/bubble-f01614-0.png",
+      "sha256": "c347fb8ae64e2ee116c383f27f9f84a55e33e5577d615c252b863df660bc0e65",
+      "bytes": 29361,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/source-graphics/bubbles/bubble-f01620-0.png",
+      "sha256": "9a828196632a9ede5ce66343e25b2de73d559e6be76e008afdf5bdb4933aa21e",
+      "bytes": 29465,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/source-graphics/bubbles/bubble-f01623-0.png",
+      "sha256": "c8271f518c26d90b70acf6d05f014a69fca347f389d19e7f8fc813b33b581679",
+      "bytes": 42557,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/source-graphics/captions/C045-f01626.png",
+      "sha256": "852154ebdf2683ff87fa050297584303d7de3f87636e8dc623e6633c0b27187d",
+      "bytes": 5650,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/source-graphics/bubbles/bubble-f01626-0.png",
+      "sha256": "ada1f47496c63c082401f21acdf2b562526a8a77aff3d9a3c7b68bcb19036ac5",
+      "bytes": 40637,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/source-graphics/bubbles/bubble-f01632-0.png",
+      "sha256": "c013a687ca295dec8a9587f333826d50dab295652f5e7e9b899c12898f760f44",
+      "bytes": 41720,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/source-graphics/bubbles/bubble-f01633-0.png",
+      "sha256": "89c0d8f527d2be319f52e75da5b4bd202b3d335ddcce4f118eae08df0010b478",
+      "bytes": 43558,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/source-graphics/captions/C046-f01638.png",
+      "sha256": "0125f61da4b441ca405bc0fd59b6019d982cf525b58422bc2dd035b0729a88df",
+      "bytes": 9647,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/source-graphics/bubbles/bubble-f01638-0.png",
+      "sha256": "f9a7d0f1df6f332c2335a1801be1af5eb81b3f95a880730c0448c057d4f0f07c",
+      "bytes": 28352,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/source-graphics/bubbles/bubble-f01644-0.png",
+      "sha256": "ddc25c04ffbe30d82805694a4d33258ffe8176000e72287d23ac651c2369b966",
+      "bytes": 28349,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/source-graphics/bubbles/bubble-f01650-0.png",
+      "sha256": "0847dbc772600917f00b02df88169d2516721aaabcd496f4f7cd54f7fe2d815b",
+      "bytes": 22414,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/source-graphics/captions/C047-f01668.png",
+      "sha256": "69d3f21be25147e6648cff0947e7377e8024479f779eb5b05139ded0ef2b6fee",
+      "bytes": 4839,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/source-graphics/captions/C049-f01728.png",
+      "sha256": "1ab577a05d0d7ba06f55b70eab027a4a28c84dcd26f7ccaf571788adc0c2b2dd",
+      "bytes": 7281,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/audit/passthrough-evidence/native/f02066.png",
+      "sha256": "70f9311e3b1282898b8c7b132217aab0d8a24c132ce04aa4eca3b86ecbf86226",
+      "bytes": 5276,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/source-graphics/captions/C053-f02460.png",
+      "sha256": "e413b8031f9b3b42a5f8dfa4060dc3dcf55b30c138edf806b3b6a3acf2d87353",
+      "bytes": 9887,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/source-graphics/captions/C054-f02502.png",
+      "sha256": "81d619146539961a541fab852eddded48ed410ae767b18f5dfe21928bb6a8446",
+      "bytes": 10606,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/source-graphics/captions/C055-f02544.png",
+      "sha256": "279e5b3922a5197743c28725cc5806b2bd220376f7253e4305fc17ee048ea769",
+      "bytes": 9318,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/source-graphics/captions/C057-f02598.png",
+      "sha256": "5c60a4bad17fb7e7d7ef91fb2451aca0c531ab0c773754549fab3db73d2de9d3",
+      "bytes": 6685,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/source-graphics/captions/C059-f02634.png",
+      "sha256": "2c30821a24de9a500ca73dfa92a616032ae83ad492d018ccfb19a6a497366588",
+      "bytes": 4780,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/source-graphics/captions/C060-f02646.png",
+      "sha256": "ac6d7d03469730610437fd7e4eee0d14e80f30037e21ddc06f62a63616fb530e",
+      "bytes": 14802,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/source-graphics/captions/C062-f02784.png",
+      "sha256": "e90a651e69ecf5def24ff98baddbe2e5d611f79612ec089d6bd21f0d96452fc7",
+      "bytes": 7122,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/source-graphics/captions/C064-f02820.png",
+      "sha256": "4019f3fa32a73f140da6723e39f6f54949f6b0a68d357014c9543bbe5a4a35da",
+      "bytes": 10261,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/source-graphics/captions/C065-f02862.png",
+      "sha256": "9374ad24823116d32abfa110857ee855c81365aa2be4e45e6010959558485257",
+      "bytes": 11295,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/source-graphics/captions/C066-f02910.png",
+      "sha256": "5d6953d1387ba98d7ec88d9819127ee52bfaf611db5640e7664404b3e56f4257",
+      "bytes": 12757,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/source-graphics/captions/C067-f02958.png",
+      "sha256": "855e0551e3a3663da032d0f86ed470e3ae9b79b77765d378c114cb87b4c45705",
+      "bytes": 14830,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/source-graphics/captions/C069-f03006.png",
+      "sha256": "02124bea28fa6c7e43c673d3b0c8c9d4aa5b61dcbbc37d982a5cab3bfb19c09c",
+      "bytes": 10487,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/source-graphics/captions/C070-f03048.png",
+      "sha256": "a9d0090088aacfbd1c1e42882140fd333a5e14ad02076161abb66872b999c9c7",
+      "bytes": 10184,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/source-graphics/captions/C071-f03096.png",
+      "sha256": "2839f29049f96fb9832db131c57820441266d2a2c00bcbcd659052dc93f22e1f",
+      "bytes": 9099,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/source-graphics/captions/C072-f03150.png",
+      "sha256": "7fd5da0e3c3a35df36976052859e1577eb499061ce9a54f182e1bae14e509857",
+      "bytes": 8857,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/source-graphics/captions/C074-f03180.png",
+      "sha256": "01480b33eead91df421e533cdb491e54bfc01e4f5b8607a7ade4b73e12f47919",
+      "bytes": 6372,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/source-graphics/captions/C076-f03210.png",
+      "sha256": "03a2efa2b9911674c9d9b56ef909c0dd751b53d377c3e34501268627ca8ce62f",
+      "bytes": 12309,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/source-graphics/bubbles/bubble-f03216-0.png",
+      "sha256": "b755d79df7039200a176f5a41fa5a3afa8af82257c7d271c378a1858e5740313",
+      "bytes": 31975,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/source-graphics/bubbles/bubble-f03222-0.png",
+      "sha256": "10efbc722c9c851f6cdf7ab16f4a335d03768b29d06c2ca2dc60a9327782c208",
+      "bytes": 31951,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/source-graphics/bubbles/bubble-f03228-0.png",
+      "sha256": "8290d51f3c8076523df224eb845ebd7f15a3fb07f530fea6d3b7e2347828f616",
+      "bytes": 31985,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/source-graphics/bubbles/bubble-f03234-0.png",
+      "sha256": "4c6de969849c8a4dde8d2881a3fe1636ecf75d3fbc400c6613dd4164680ec008",
+      "bytes": 32010,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/source-graphics/captions/C078-f03252.png",
+      "sha256": "a2bfa0af9450fe3c65de31192e3c86c13d00698c4c87cc37da196106ceb5990c",
+      "bytes": 13664,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/source-graphics/bubbles/bubble-f03258-0.png",
+      "sha256": "0e94a0929efb5799ee51db1833e29deebad284b2ca30a539bad024511afc3d23",
+      "bytes": 32315,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/source-graphics/bubbles/bubble-f03264-0.png",
+      "sha256": "e168d4f8dc05b6d0856e5a695338ad0ff4ffb681e53e8ad64d896f79bcb4bc0b",
+      "bytes": 32304,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/source-graphics/bubbles/bubble-f03270-0.png",
+      "sha256": "48e6fe6738c316b19733cf5758877255242e2c2b99635bc7feb7e575cae0f424",
+      "bytes": 32300,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/source-graphics/bubbles/bubble-f03276-0.png",
+      "sha256": "f082d741389e5be8e327c5b71c1334ba061342627898100c3edd93219c967ce0",
+      "bytes": 32312,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/source-graphics/bubbles/bubble-f03306-0.png",
+      "sha256": "7077c82659221826320694d270f875dafaa96edd2cd75b559520b20ae3dbb8aa",
+      "bytes": 25171,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/source-graphics/bubbles/bubble-f03312-0.png",
+      "sha256": "b51acb39ee62f9403afc3be6f5dd2e43c34b7e26365b3d23eddf0dae86de831c",
+      "bytes": 25232,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/source-graphics/captions/C080-f03324.png",
+      "sha256": "7282142aef95e5bbf2caf08d787ed3b0db338ceba35e06e8359d96dd991c7a55",
+      "bytes": 12610,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/source-graphics/bubbles/bubble-f03330-0.png",
+      "sha256": "109ddb5acf1a3fc0b17852a46078b2444e9a7e6cc3d2cc5b72b6e6b345ba445f",
+      "bytes": 14474,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/source-graphics/bubbles/bubble-f03330-1.png",
+      "sha256": "5db26240cb01ca25b2d75f7c79d66412cbfb8eb0c4b124735dc668c654f10aa1",
+      "bytes": 25096,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/source-graphics/bubbles/bubble-f03336-0.png",
+      "sha256": "7fa6554eed395ded807172eec4cfac39b2ee5327b94d7b51e78bf4b3bc8706c1",
+      "bytes": 14504,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/source-graphics/bubbles/bubble-f03336-1.png",
+      "sha256": "e283f1919176dd1bfd65aa64015e657287fc42e3263ae9ccacb5db3cd3db842f",
+      "bytes": 25219,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/source-graphics/bubbles/bubble-f03342-0.png",
+      "sha256": "c78cf1048a40fb5df9d74f7f9d63581032b4014164e5a5522ee61c919bf67da5",
+      "bytes": 14471,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/source-graphics/bubbles/bubble-f03342-1.png",
+      "sha256": "5fe0dd8a6160d50f7e487a9ac69e8be4ac87dd80c22b4627f3731128373bb778",
+      "bytes": 26150,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/source-graphics/bubbles/bubble-f03348-0.png",
+      "sha256": "7ce64a064a7282a6ddb355a4f8c3f6b3944e4d9cf6ff4cd21b907b07eaf77010",
+      "bytes": 14403,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/source-graphics/bubbles/bubble-f03348-1.png",
+      "sha256": "5b8a6cbe25bd8fa4044852b724916cb9b689f15a1b5932159d99843ffba83136",
+      "bytes": 25547,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/source-graphics/captions/C081-f03354.png",
+      "sha256": "46d6a2d23353afe8f1721ceaba5b80fd83247d4671fca8641523d247e6740527",
+      "bytes": 5704,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/source-graphics/captions/C082-f03366.png",
+      "sha256": "5b28c85ee5283d7207cf1e4990a596a2c41c4387218c35493b34f837c648f1d8",
+      "bytes": 6561,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/source-graphics/captions/C084-f03390.png",
+      "sha256": "9ae33ff1faf0306678e5888423cc6ae459d9e730706acbeed2979547c1216a11",
+      "bytes": 12471,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/source-graphics/bubbles/bubble-f03396-0.png",
+      "sha256": "59f95fd2a1dd0949602a604ff5b328263835cdcd35ede1cc2e4f08192757ac12",
+      "bytes": 31797,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/source-graphics/bubbles/bubble-f03402-0.png",
+      "sha256": "f3eacd71df114e443557d6b6367fa76c0087e6e0bd8e2b4295afeb1b62dd6c9f",
+      "bytes": 31812,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/source-graphics/bubbles/bubble-f03408-0.png",
+      "sha256": "8bb5750f96c8084bef2e49ba9c436598b90d8db662fbddf629d91cdf6390bac2",
+      "bytes": 31595,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/source-graphics/bubbles/bubble-f03414-0.png",
+      "sha256": "0725d8fb228d6a654789f57f1628184bec65a28b470a820dfe144a3614eab7ca",
+      "bytes": 31668,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/source-graphics/captions/C086-f03438.png",
+      "sha256": "f17770f74c998d82f76b27ef7f6d2ee516c6e51a861e6245830107262130edab",
+      "bytes": 13530,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/source-graphics/bubbles/bubble-f03444-0.png",
+      "sha256": "a87b602ad54093ec57ccbf4ba387b5062b26e156f430a8724cc016f28f786171",
+      "bytes": 32268,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/source-graphics/bubbles/bubble-f03450-0.png",
+      "sha256": "6d617938425a07cc83d6bd9dced79873ee6b3a4352469ee3a0848074f65f7008",
+      "bytes": 32310,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/source-graphics/bubbles/bubble-f03456-0.png",
+      "sha256": "9e087ba8e9764ae3f9a2e38e9f5363dc7a68cb42f4c6288093c4a966abffb0a2",
+      "bytes": 32258,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/source-graphics/bubbles/bubble-f03458-0.png",
+      "sha256": "a1d73dc69b00c62722fab2407de50d7daadb1af33404ceeb3307145025d7f546",
+      "bytes": 32241,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/source-graphics/bubbles/bubble-f03462-0.png",
+      "sha256": "970cad63bd74da2ed0957ab18b34455c8cb9f02817f6caa68ae9f0d7704fc375",
+      "bytes": 32129,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/source-graphics/bubbles/bubble-f03486-0.png",
+      "sha256": "27690bec421d722872a7a5480b70410e4eaaeafc02f6955212803ea1c0b8c3c8",
+      "bytes": 18666,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/source-graphics/bubbles/bubble-f03492-0.png",
+      "sha256": "ff63a365019bdaf8317c15d906e2b119d643a0735f32c7f3c9aa1d990041eb3e",
+      "bytes": 18727,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/source-graphics/bubbles/bubble-f03498-0.png",
+      "sha256": "477060b34a6cddc34be70d55675edb4a3c7b36daf3c4aa1c37eb21d91a3248f0",
+      "bytes": 9618,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/source-graphics/captions/C088-f03498.png",
+      "sha256": "ed0ae2c724220e60cdb57311a19747c522983ed9a92a4fbbaba8516819f59c7c",
+      "bytes": 8063,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/source-graphics/bubbles/bubble-f03504-0.png",
+      "sha256": "17b6d957db1afe0d72b50e81df6f814ee0efab5f0d0110c34130cd9202cadf85",
+      "bytes": 9648,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/source-graphics/captions/C089-f03534.png",
+      "sha256": "0627e4a7cd76b15c6f38e30551865e895057ca9a611f3ed6dfa4993455c4a9a2",
+      "bytes": 4820,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/source-graphics/captions/C090-f03558.png",
+      "sha256": "897ae55a1bf763280510b6544a627a28db9c7da08bf1f4a50c13006b02398d63",
+      "bytes": 9028,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/source-graphics/bubbles/bubble-f03558-0.png",
+      "sha256": "fc22263553bae172262ab2145a7686a3e373972490fe6057ea27454ed424abbd",
+      "bytes": 28611,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/source-graphics/bubbles/bubble-f03564-0.png",
+      "sha256": "713ef410b2e46b0352bae5ef031c67e07826689796e8dd48529dddf0e58b4602",
+      "bytes": 28845,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/source-graphics/bubbles/bubble-f03570-0.png",
+      "sha256": "3f3d948ab958654d09359e45500f3f1480000961ee69a1d2813bfed4020110d0",
+      "bytes": 28962,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/source-graphics/bubbles/bubble-f03576-0.png",
+      "sha256": "e89631f4c9e89dd82b5594baafdcc50015aa43cc0bf194fbc85f645110a1f9f6",
+      "bytes": 29005,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/source-graphics/bubbles/bubble-f03582-0.png",
+      "sha256": "c5356761d4de2ef37fba27aa69e02e54854083bdf0871ff52b36107bbecb8486",
+      "bytes": 29082,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/source-graphics/bubbles/bubble-f03588-0.png",
+      "sha256": "49f4bcb34a4a426bf658674d39bf3da96b357e8a04c205b200bb4acbaf3d7f8c",
+      "bytes": 29074,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/source-graphics/bubbles/bubble-f03590-0.png",
+      "sha256": "651786e2648120c7e852d985a98a3caf0fb0ea1ecbf0fd946f58c2fdeced2d38",
+      "bytes": 44563,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/source-graphics/captions/C091-f03594.png",
+      "sha256": "ece21bc8fb28daaa979e8f905d572bd808e64bfc97a3bb8302550283a569c0a0",
+      "bytes": 5492,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/source-graphics/bubbles/bubble-f03594-0.png",
+      "sha256": "be84768cd29492440a49264ff028baf5a5308d619552f1f3645099e2a946ccd0",
+      "bytes": 44230,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/source-graphics/bubbles/bubble-f03600-0.png",
+      "sha256": "10af6bd1d53bb2462b972c72c49d8b6699a3b5fcf7d354fb155bfb5f31d98e2d",
+      "bytes": 29293,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/source-graphics/captions/C092-f03600.png",
+      "sha256": "9b3b2c5764310fdaf4cb1cce1c20d415f581e83efa640091f2c795ed44a38c36",
+      "bytes": 8835,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/source-graphics/bubbles/bubble-f03606-0.png",
+      "sha256": "dc390ca1214eccd585c5beb9ffdd01de0dba4a2615f05bff504c247b0f1dc10d",
+      "bytes": 29156,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/source-graphics/bubbles/bubble-f03612-0.png",
+      "sha256": "032a6043af3f3fb23fd7c6267e1e609b5aa5ed59f8143fb058ba4983f1429cdc",
+      "bytes": 29294,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/source-graphics/bubbles/bubble-f03618-0.png",
+      "sha256": "4ff29aa3386e6ce96b2e2684d3a71d409274b9a2db75e54edf20f052714e53af",
+      "bytes": 29307,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/source-graphics/bubbles/bubble-f03624-0.png",
+      "sha256": "a7feed62fa7267484d196f8ff06ba8f902b373e616e1f63cced7154d881ac802",
+      "bytes": 29370,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/source-graphics/bubbles/bubble-f03630-0.png",
+      "sha256": "a4024382f2cc286d3b05c8bbd78b7845b800a51aefd880b48b28f6ac29051fbd",
+      "bytes": 29421,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/source-graphics/bubbles/bubble-f03636-0.png",
+      "sha256": "ef71a711f40ab73ec26dae6223f1a6ee97a18e2d517d224802921f275dab08a9",
+      "bytes": 40094,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/source-graphics/captions/C093-f03636.png",
+      "sha256": "86e9b377ff2052c59c54da41cbee29bb5e14fbfbcd2178143bd6e0f9c0cafefd",
+      "bytes": 4994,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/source-graphics/bubbles/bubble-f03642-0.png",
+      "sha256": "20b9e64f6c2adc6d31df40ff72645968cab36fe94d6ca5bde4c46664483753cd",
+      "bytes": 38171,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/source-graphics/bubbles/bubble-f03645-0.png",
+      "sha256": "a529c460772ad28ca1ee7eeae403325b588732c2f9ff5096759a592d7bde2ece",
+      "bytes": 30343,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/source-graphics/captions/C094-f03648.png",
+      "sha256": "77d1fbaaf1a372bcbcdbacdbebf1ef44a0cbb2e8949026cd9337ec4dff163b00",
+      "bytes": 8829,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/source-graphics/bubbles/bubble-f03648-0.png",
+      "sha256": "8c3fc5843f0d4ae9d6d56f2a49fae53a79a7fe0867a1302489bdae11407a20b5",
+      "bytes": 30307,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/source-graphics/bubbles/bubble-f03654-0.png",
+      "sha256": "0a03a46f9b6157e624148f654af39fbbf40c733bfae7bec5d4c3441916ec1ded",
+      "bytes": 30322,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/source-graphics/bubbles/bubble-f03660-0.png",
+      "sha256": "54752bb37425cc855a83499418a29d362415660a4c76c538109be5ae40e41659",
+      "bytes": 30353,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/source-graphics/bubbles/bubble-f03666-0.png",
+      "sha256": "b06a495033536841c5b5c6a1ad1095821c29cfcabf6f057c9c86aa5b6245d970",
+      "bytes": 30366,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/source-graphics/bubbles/bubble-f03672-0.png",
+      "sha256": "f79b5633a6eb5621da9061b55e79d57e8bff7375d899fdb555fa102107020c43",
+      "bytes": 30319,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/source-graphics/bubbles/bubble-f03678-0.png",
+      "sha256": "aee3a37db1a11a73c0d4f0fc2f8c90894c75d7ff8658928fb429a4070dc320ed",
+      "bytes": 30311,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/source-graphics/bubbles/bubble-f03681-0.png",
+      "sha256": "8f018c4eb183f4b264e09d32f5d92654f7c4aa6a1fd8b8563b112b6496083434",
+      "bytes": 42404,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/source-graphics/captions/C095-f03684.png",
+      "sha256": "0fff02ea65b860a313587e7e385062632da518bf5f33a79162ddfb40c2392751",
+      "bytes": 5608,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/source-graphics/bubbles/bubble-f03684-0.png",
+      "sha256": "80c86850fa576b375f2b6e20cc7836fcce8b4cdcd562953e74709dff7828d967",
+      "bytes": 38825,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/source-graphics/captions/C096-f03690.png",
+      "sha256": "c5166cc5654f4f872d5818db8f09511fa395a7d5984edda2798bf0689475ccf0",
+      "bytes": 15375,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/source-graphics/bubbles/bubble-f03737-0.png",
+      "sha256": "ea7d23578c76dce5611b7a72145565fc504eabf60a8c3c329c7f3b8b8c6d7188",
+      "bytes": 29653,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/source-graphics/captions/C097-f03738.png",
+      "sha256": "15a32fc7ca12e3006abe444aba02eecb5606e6e893eefbce89a8a56f1cff75f4",
+      "bytes": 9309,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/source-graphics/bubbles/bubble-f03738-0.png",
+      "sha256": "874c9161121e6e367e4423bf04b7ff61055836557ae7d425413daa844577f1c4",
+      "bytes": 29586,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/source-graphics/bubbles/bubble-f03744-0.png",
+      "sha256": "c130462d14d544f79117e86a476a20a66b10ca2639f3a4a5fd9e8332bf702c38",
+      "bytes": 29477,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/source-graphics/bubbles/bubble-f03750-0.png",
+      "sha256": "eb2e7022413cbf8b6b532210ad037490e97d3b0f5b5998f052a3a97ade550fdb",
+      "bytes": 29591,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/source-graphics/bubbles/bubble-f03756-0.png",
+      "sha256": "a75d24b4cd08252b554a9ba446e7b263b2673f07abba979454d59e2a1861e637",
+      "bytes": 29562,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/source-graphics/bubbles/bubble-f03762-0.png",
+      "sha256": "c59896023b49c09594b531a33b0ab178fac27031c6c38efffabfd6738e1972b3",
+      "bytes": 29638,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/source-graphics/bubbles/bubble-f03768-0.png",
+      "sha256": "ab93a69f41d2a4be74d0dc0e267d5f8cf607daff74a2b351f40ab5b4b2a315a4",
+      "bytes": 29612,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/source-graphics/bubbles/bubble-f03774-0.png",
+      "sha256": "c77c8fb3b25f6569a6dcc1e0d504958e3775b36a73b0330357cf6dfec942620f",
+      "bytes": 43406,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/source-graphics/captions/C098-f03774.png",
+      "sha256": "09ecc4f9233bd6da225b6fdc5c0af2b144f82b9ef42ee0eeb23d1df2a8086357",
+      "bytes": 5947,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/source-graphics/bubbles/bubble-f03780-0.png",
+      "sha256": "575256e4cb3405ce33d923306d8142ab51dde75aad143ad884125cd34bd15102",
+      "bytes": 44485,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/source-graphics/bubbles/bubble-f03782-0.png",
+      "sha256": "173d653531c0a4343c41a13ab97a7d07f12600690e8c01292a24390835d3bf5c",
+      "bytes": 30410,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/source-graphics/captions/C099-f03786.png",
+      "sha256": "4a3f2885603a3864102a8446e3ae83542a2890bbab681a31439371d37d2ada34",
+      "bytes": 9265,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/source-graphics/bubbles/bubble-f03786-0.png",
+      "sha256": "b694bea920d91629efd4cb2231fb092f7586370caba2ad1502eb0650b348077f",
+      "bytes": 30580,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/source-graphics/bubbles/bubble-f03792-0.png",
+      "sha256": "09c4335ec1a6f375ac942917ac961e664ce817084c0b7287dfc2273085893fbb",
+      "bytes": 30662,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/source-graphics/bubbles/bubble-f03798-0.png",
+      "sha256": "799baf75e1a6eabee5a938c6d92974fb5815ddb48ae6d5f9af11cbfc25e8cc01",
+      "bytes": 30719,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/source-graphics/bubbles/bubble-f03804-0.png",
+      "sha256": "bd819aa154c290bc61a1a99943eb41cfda369369fb5cdd07923bd55ee248458b",
+      "bytes": 30533,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/source-graphics/bubbles/bubble-f03810-0.png",
+      "sha256": "b23b81189a8b2f91accfb9fab9d7c1a516ab459ab76ea4ba10f6f656732a0894",
+      "bytes": 30553,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/source-graphics/bubbles/bubble-f03816-0.png",
+      "sha256": "5d2b2fbcffda296517780a2059562a2c002ec8521c8d3e26140cbed751c17dae",
+      "bytes": 36019,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/source-graphics/captions/C100-f03816.png",
+      "sha256": "19c847f6105428a3527b87da86f58105ec45cdaa61e4c655821ea634c8eb6a3d",
+      "bytes": 5420,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/source-graphics/bubbles/bubble-f03822-0.png",
+      "sha256": "c17ab9a4b2cbd8010475b859f86d06eb25d6349d0e27fbc028753a6f6ae0022f",
+      "bytes": 39574,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/source-graphics/bubbles/bubble-f03827-0.png",
+      "sha256": "b942eafa97e2d478ad89232f4a5aee7b317b4bf84d02c07935b0ed777ceabefb",
+      "bytes": 40611,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/source-graphics/captions/C101-f03828.png",
+      "sha256": "e3ad86a34a87bff4f973f11153f1a662a8b51008eabab3806a25427283e34f4c",
+      "bytes": 9371,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/source-graphics/bubbles/bubble-f03828-0.png",
+      "sha256": "651a5d12f4ba0b7087396631d9e150a86e477e40302a265ef76988ee9ed3db66",
+      "bytes": 28784,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/source-graphics/bubbles/bubble-f03834-0.png",
+      "sha256": "a3c6e82f643099bbe11f8dd88cc9ddde4af330e9fb8cd8c3b32bb24e57684f75",
+      "bytes": 28702,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/source-graphics/bubbles/bubble-f03840-0.png",
+      "sha256": "1ac7e3f65c826dca1517922caeb8e53cfed75066acd6cecb826369c62e703e69",
+      "bytes": 29047,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/source-graphics/captions/C102-f03864.png",
+      "sha256": "e7f121715f45f93db846f22a512180285924dff1c40d1a36aafdd9d3c0a99ee8",
+      "bytes": 15172,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/source-graphics/captions/C104-f03924.png",
+      "sha256": "b515b5f32bd38c9f9047c73190bd54a404bc284488259387f92e912c2acd9e9e",
+      "bytes": 9346,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/source-graphics/captions/C106-f03966.png",
+      "sha256": "57e210655bf2d3a7afc0f78cf4ae8f50b14a51425a119024fe97a14856ac95b1",
+      "bytes": 9167,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/source-graphics/captions/C108-f04014.png",
+      "sha256": "b42a0f4c67e83b7608ffe94758d30baea317e703cc28c5ca372b6b703e084e20",
+      "bytes": 9207,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/source-graphics/captions/C109-f04050.png",
+      "sha256": "0fa7a54e6e05b3d7683d54a699dcae1110e91715b4812756d989e44b287fe6f0",
+      "bytes": 6927,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/source-graphics/captions/C111-f04290.png",
+      "sha256": "2ca4df31765f2bb7c2a97c039decb8d48a61b4c1dfdb4fad246f06cd1b78c4ec",
+      "bytes": 13975,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/source-graphics/captions/C112-f04326.png",
+      "sha256": "de794201846ce678d6590f1c47124a72e769d1f1ac81edee6d982888ff1d7b9c",
+      "bytes": 5267,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/source-graphics/captions/C113-f04338.png",
+      "sha256": "f992f7c829347f3ef396b6692f008d548f9c34c3920d87f421b4df81657eee1b",
+      "bytes": 16277,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/source-graphics/captions/C114-f04380.png",
+      "sha256": "975e3c3138fcfc03e9cdf3ef4c2985c8358c3018d76fd16c5e53b0eb1081cd02",
+      "bytes": 10328,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/source-graphics/captions/C115-f04428.png",
+      "sha256": "340272f9cafcc08e852cac39aa974cfe1b960e5f153b58aac30a6898c76afe41",
+      "bytes": 14872,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/audit/passthrough-evidence/native/f04813.png",
+      "sha256": "7744935de85af591089cfa96c7a86ea06d32b40c5c43630bb3d2ff87c0914da8",
+      "bytes": 4365,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/source-graphics/captions/C117-f04818.png",
+      "sha256": "0548451d3eb437db22cd998eefafc3977df6cbe421e8ec8e47ba5f70ee81cf63",
+      "bytes": 15005,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/endcard/endcard-jp-glyphs.png",
+      "sha256": "7491dca59a776fa06719f75a414c574392901932b4b6ac941228855c440849e8",
+      "bytes": 46506,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/endcard/endcard-cn-bar.png",
+      "sha256": "566d685cb7dc0a073aef52408303786972c63dcdc83bd5a7a65e3f84d4fc151d",
+      "bytes": 1997,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/source/endcard/endcard-cn-glyphs.png",
+      "sha256": "e4d26e5528f7f85a4cae9aa16ba1ca9f50f70b91b788999a9284306677df4cef",
+      "bytes": 39196,
+      "role": "frozen_render_input"
+    },
+    {
+      "path": "project/references/ds-user-reference.png",
+      "sha256": "80109a41d6cb87a68fea0618ea4183509eedc3418f03d2409586e2b3aeb9a784",
+      "bytes": 1585401,
+      "role": "identity_reference"
+    },
+    {
+      "path": "project/references/frozen-f005.png",
+      "sha256": "c2c5a6ca9b42f46ada018bedeb46306ba942571f84ecd0286e1c887b8496073f",
+      "bytes": 1179312,
+      "role": "identity_reference"
+    },
+    {
+      "path": "project/references/f005-connected-hair-only.png",
+      "sha256": "53ec6d07ebcf2450235d2cdbede0828f50b58dbb8cab00447f4edc71ac40b7fa",
+      "bytes": 815586,
+      "role": "identity_reference"
+    }
+  ],
+  "scope": "Frozen render inputs and three identity references. Original video/audio, generated source thumbnails and rejected raw generations are not in this bundle."
+}

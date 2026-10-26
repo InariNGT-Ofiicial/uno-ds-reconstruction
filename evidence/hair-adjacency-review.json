@@ -1,0 +1,2625 @@
+{
+  "schema": "uno-hair-adjacency-revision-v2-1",
+  "scope": "All130 native-key runs mapped into127 different-pose transitions,81 unique directed file pairs. All21 source-prev/source-next/native-prev/native-next boards actually viewed;162 actual sequential source boundary frames extracted for first occurrence of each unique pair. Repeated geometry is deduplicated by same file and plan pose_scale1; not a claim of separately watching all127 source boundaries in realtime.",
+  "base_plan": "edit-plan.json before revision-v2 integration",
+  "native_runs": 130,
+  "different_pose_transition_occurrences": 127,
+  "unique_directed_pairs": 81,
+  "reference_authority": "Existing frozenF005 and connected-hair-only board unchanged. Distinct source pitch/yaw/roll, occlusion and crop are allowed; no local warp or synthetic hair motion used.",
+  "findings": [
+    {
+      "id": "H01",
+      "asset_id": "tease_forehead_B",
+      "priority": "high",
+      "ranges": [
+        [
+          1030,
+          1041
+        ],
+        [
+          1213,
+          1224
+        ],
+        [
+          3224,
+          3235
+        ],
+        [
+          3407,
+          3418
+        ]
+      ],
+      "problem": "Old same-headB changed rear-left narrow C into outward hook plus headwear crown jump.",
+      "resolution": "Root tease-B-hairlock visually approved; C restored, face/hands retained. Minor crown-height residual bounded, no further redraw."
+    },
+    {
+      "id": "H02",
+      "asset_id": "dark_fingers",
+      "priority": "entry_family_consistency",
+      "problem": "Old816 fringe/side curl design differs from new828 key family.",
+      "resolution": "A proposed segment starts new828 family at812; do not alternate old816 within new phase."
+    },
+    {
+      "id": "H03",
+      "asset_id": "plead_B",
+      "priority": "restored_key_tip_consistency",
+      "problem": "Previously omittedB, now needed for source outwardV hand, has blunt central hair tip.",
+      "resolution": "Root plead-B-tip-fix actually viewed: central tip now pointed; newly revealed left curl is legitimate because source hand moved away, retained."
+    }
+  ],
+  "other_unresolved_high_confidence_hair_redraws": [],
+  "minor_residuals": [
+    "Independent poses retain modest line/shine differences; full-body curly ends are part of original DS design and are not automatically added head-side ring defects.",
+    "1044/1056 close/split-panel small line variation is recorded without an extra repair cycle."
+  ],
+  "identity_text_findings": [
+    {
+      "range": [
+        31,
+        145
+      ],
+      "old": "初音ミク name plaque",
+      "replacement": "DeepSeek / DS娘 name plaque, isolated lettering alpha"
+    },
+    {
+      "range": [
+        396,
+        423
+      ],
+      "old": "初音ミク1枚 score",
+      "replacement": "DeepSeek1枚 character-free graphic"
+    },
+    {
+      "range": [
+        2069,
+        2081
+      ],
+      "old": "fanart heading 初音ミク",
+      "replacement": "DS娘 heading; below nativey155 original portrait pixels verified identical"
+    }
+  ],
+  "pairs": [
+    {
+      "index": 0,
+      "from_asset": "intro_palm_open",
+      "to_asset": "comic_panel",
+      "occurrences": [
+        {
+          "previous_range": [
+            31,
+            145
+          ],
+          "next_range": [
+            211,
+            248
+          ],
+          "source_prev": 144,
+          "source_next": 211,
+          "graphic_gap": 66
+        }
+      ],
+      "verdict": "partially_cropped_head_not_false_positive",
+      "reason": "Source strip/comic/partial crop hides most head topology; visible blue fragments remain coherent. No full-head equivalence asserted through an occluding cut.",
+      "proof": "adjacency-boards/adjacency-01.jpg",
+      "actually_viewed": true
+    },
+    {
+      "index": 1,
+      "from_asset": "comic_panel",
+      "to_asset": "center_card",
+      "occurrences": [
+        {
+          "previous_range": [
+            211,
+            248
+          ],
+          "next_range": [
+            265,
+            342
+          ],
+          "source_prev": 247,
+          "source_next": 265,
+          "graphic_gap": 17
+        }
+      ],
+      "verdict": "partially_cropped_head_not_false_positive",
+      "reason": "Source strip/comic/partial crop hides most head topology; visible blue fragments remain coherent. No full-head equivalence asserted through an occluding cut.",
+      "proof": "adjacency-boards/adjacency-01.jpg",
+      "actually_viewed": true
+    },
+    {
+      "index": 2,
+      "from_asset": "center_card",
+      "to_asset": "dab_rear",
+      "occurrences": [
+        {
+          "previous_range": [
+            265,
+            342
+          ],
+          "next_range": [
+            342,
+            391
+          ],
+          "source_prev": 341,
+          "source_next": 342,
+          "graphic_gap": 0
+        }
+      ],
+      "verdict": "source_pose_projection_accepted",
+      "reason": "Actual source boundary pair versus both adopted native artworks viewed. Changes in pitch/yaw/roll/crop or arm/card occlusion explain projected outline; no high-confidence extra primary lock/root/ring or unrelated lighting redesign identified.",
+      "proof": "adjacency-boards/adjacency-01.jpg",
+      "actually_viewed": true
+    },
+    {
+      "index": 3,
+      "from_asset": "dab_rear",
+      "to_asset": "surprise_side",
+      "occurrences": [
+        {
+          "previous_range": [
+            342,
+            391
+          ],
+          "next_range": [
+            423,
+            447
+          ],
+          "source_prev": 390,
+          "source_next": 423,
+          "graphic_gap": 32
+        }
+      ],
+      "verdict": "graphic_gap_and_new_pose",
+      "reason": "A verified graphic/black/score gap separates poses; visible source pose/camera change supports new projection. No direct same-pose hair toggle identified.",
+      "proof": "adjacency-boards/adjacency-01.jpg",
+      "actually_viewed": true
+    },
+    {
+      "index": 4,
+      "from_asset": "surprise_side",
+      "to_asset": "taunt_left_close",
+      "occurrences": [
+        {
+          "previous_range": [
+            423,
+            447
+          ],
+          "next_range": [
+            447,
+            530
+          ],
+          "source_prev": 446,
+          "source_next": 447,
+          "graphic_gap": 0
+        }
+      ],
+      "verdict": "source_pose_projection_accepted",
+      "reason": "Actual source boundary pair versus both adopted native artworks viewed. Changes in pitch/yaw/roll/crop or arm/card occlusion explain projected outline; no high-confidence extra primary lock/root/ring or unrelated lighting redesign identified.",
+      "proof": "adjacency-boards/adjacency-02.jpg",
+      "actually_viewed": true
+    },
+    {
+      "index": 5,
+      "from_asset": "taunt_left_close",
+      "to_asset": "taunt_right",
+      "occurrences": [
+        {
+          "previous_range": [
+            447,
+            530
+          ],
+          "next_range": [
+            530,
+            607
+          ],
+          "source_prev": 529,
+          "source_next": 530,
+          "graphic_gap": 0
+        }
+      ],
+      "verdict": "source_pose_projection_accepted",
+      "reason": "Actual source boundary pair versus both adopted native artworks viewed. Changes in pitch/yaw/roll/crop or arm/card occlusion explain projected outline; no high-confidence extra primary lock/root/ring or unrelated lighting redesign identified.",
+      "proof": "adjacency-boards/adjacency-02.jpg",
+      "actually_viewed": true
+    },
+    {
+      "index": 6,
+      "from_asset": "taunt_right",
+      "to_asset": "point_above",
+      "occurrences": [
+        {
+          "previous_range": [
+            530,
+            607
+          ],
+          "next_range": [
+            607,
+            618
+          ],
+          "source_prev": 606,
+          "source_next": 607,
+          "graphic_gap": 0
+        }
+      ],
+      "verdict": "source_pose_projection_accepted",
+      "reason": "Actual source boundary pair versus both adopted native artworks viewed. Changes in pitch/yaw/roll/crop or arm/card occlusion explain projected outline; no high-confidence extra primary lock/root/ring or unrelated lighting redesign identified.",
+      "proof": "adjacency-boards/adjacency-02.jpg",
+      "actually_viewed": true
+    },
+    {
+      "index": 7,
+      "from_asset": "point_above",
+      "to_asset": "point_forward",
+      "occurrences": [
+        {
+          "previous_range": [
+            607,
+            618
+          ],
+          "next_range": [
+            618,
+            629
+          ],
+          "source_prev": 617,
+          "source_next": 618,
+          "graphic_gap": 0
+        }
+      ],
+      "verdict": "source_pose_projection_accepted",
+      "reason": "Actual source boundary pair versus both adopted native artworks viewed. Changes in pitch/yaw/roll/crop or arm/card occlusion explain projected outline; no high-confidence extra primary lock/root/ring or unrelated lighting redesign identified.",
+      "proof": "adjacency-boards/adjacency-02.jpg",
+      "actually_viewed": true
+    },
+    {
+      "index": 8,
+      "from_asset": "point_forward",
+      "to_asset": "taunt_left_table",
+      "occurrences": [
+        {
+          "previous_range": [
+            618,
+            629
+          ],
+          "next_range": [
+            629,
+            719
+          ],
+          "source_prev": 628,
+          "source_next": 629,
+          "graphic_gap": 0
+        }
+      ],
+      "verdict": "source_pose_projection_accepted",
+      "reason": "Actual source boundary pair versus both adopted native artworks viewed. Changes in pitch/yaw/roll/crop or arm/card occlusion explain projected outline; no high-confidence extra primary lock/root/ring or unrelated lighting redesign identified.",
+      "proof": "adjacency-boards/adjacency-03.jpg",
+      "actually_viewed": true
+    },
+    {
+      "index": 9,
+      "from_asset": "taunt_left_table",
+      "to_asset": "taunt_right_close",
+      "occurrences": [
+        {
+          "previous_range": [
+            629,
+            719
+          ],
+          "next_range": [
+            719,
+            797
+          ],
+          "source_prev": 718,
+          "source_next": 719,
+          "graphic_gap": 0
+        }
+      ],
+      "verdict": "source_pose_projection_accepted",
+      "reason": "Actual source boundary pair versus both adopted native artworks viewed. Changes in pitch/yaw/roll/crop or arm/card occlusion explain projected outline; no high-confidence extra primary lock/root/ring or unrelated lighting redesign identified.",
+      "proof": "adjacency-boards/adjacency-03.jpg",
+      "actually_viewed": true
+    },
+    {
+      "index": 10,
+      "from_asset": "taunt_right_close",
+      "to_asset": "dark_center_card",
+      "occurrences": [
+        {
+          "previous_range": [
+            719,
+            797
+          ],
+          "next_range": [
+            800,
+            812
+          ],
+          "source_prev": 796,
+          "source_next": 800,
+          "graphic_gap": 3
+        }
+      ],
+      "verdict": "graphic_gap_and_new_pose",
+      "reason": "A verified graphic/black/score gap separates poses; visible source pose/camera change supports new projection. No direct same-pose hair toggle identified.",
+      "proof": "adjacency-boards/adjacency-03.jpg",
+      "actually_viewed": true
+    },
+    {
+      "index": 11,
+      "from_asset": "dark_center_card",
+      "to_asset": "dark_fingers",
+      "occurrences": [
+        {
+          "previous_range": [
+            800,
+            812
+          ],
+          "next_range": [
+            812,
+            944
+          ],
+          "source_prev": 811,
+          "source_next": 812,
+          "graphic_gap": 0
+        }
+      ],
+      "verdict": "superseded_in_motion_revision",
+      "reason": "Old816 rounded fringe/inner curls differ from new828 family. New828/858/870/912 approved; use828 family from segment entry to avoid old/new topology toggle.",
+      "proof": "adjacency-boards/adjacency-03.jpg",
+      "actually_viewed": true
+    },
+    {
+      "index": 12,
+      "from_asset": "dark_fingers",
+      "to_asset": "mouth_horizontal",
+      "occurrences": [
+        {
+          "previous_range": [
+            812,
+            944
+          ],
+          "next_range": [
+            944,
+            979
+          ],
+          "source_prev": 943,
+          "source_next": 944,
+          "graphic_gap": 0
+        }
+      ],
+      "verdict": "partially_cropped_head_not_false_positive",
+      "reason": "Source strip/comic/partial crop hides most head topology; visible blue fragments remain coherent. No full-head equivalence asserted through an occluding cut.",
+      "proof": "adjacency-boards/adjacency-04.jpg",
+      "actually_viewed": true
+    },
+    {
+      "index": 13,
+      "from_asset": "mouth_horizontal",
+      "to_asset": "wink_hand",
+      "occurrences": [
+        {
+          "previous_range": [
+            944,
+            979
+          ],
+          "next_range": [
+            979,
+            995
+          ],
+          "source_prev": 978,
+          "source_next": 979,
+          "graphic_gap": 0
+        }
+      ],
+      "verdict": "partially_cropped_head_not_false_positive",
+      "reason": "Source strip/comic/partial crop hides most head topology; visible blue fragments remain coherent. No full-head equivalence asserted through an occluding cut.",
+      "proof": "adjacency-boards/adjacency-04.jpg",
+      "actually_viewed": true
+    },
+    {
+      "index": 14,
+      "from_asset": "wink_hand",
+      "to_asset": "head_back_cry",
+      "occurrences": [
+        {
+          "previous_range": [
+            979,
+            995
+          ],
+          "next_range": [
+            995,
+            1018
+          ],
+          "source_prev": 994,
+          "source_next": 995,
+          "graphic_gap": 0
+        }
+      ],
+      "verdict": "source_pose_projection_accepted",
+      "reason": "Actual source boundary pair versus both adopted native artworks viewed. Changes in pitch/yaw/roll/crop or arm/card occlusion explain projected outline; no high-confidence extra primary lock/root/ring or unrelated lighting redesign identified.",
+      "proof": "adjacency-boards/adjacency-04.jpg",
+      "actually_viewed": true
+    },
+    {
+      "index": 15,
+      "from_asset": "head_back_cry",
+      "to_asset": "tease_forehead_A",
+      "occurrences": [
+        {
+          "previous_range": [
+            995,
+            1018
+          ],
+          "next_range": [
+            1018,
+            1030
+          ],
+          "source_prev": 1017,
+          "source_next": 1018,
+          "graphic_gap": 0
+        },
+        {
+          "previous_range": [
+            1178,
+            1201
+          ],
+          "next_range": [
+            1201,
+            1213
+          ],
+          "source_prev": 1200,
+          "source_next": 1201,
+          "graphic_gap": 0
+        },
+        {
+          "previous_range": [
+            3189,
+            3212
+          ],
+          "next_range": [
+            3212,
+            3224
+          ],
+          "source_prev": 3211,
+          "source_next": 3212,
+          "graphic_gap": 0
+        },
+        {
+          "previous_range": [
+            3372,
+            3395
+          ],
+          "next_range": [
+            3395,
+            3407
+          ],
+          "source_prev": 3394,
+          "source_next": 3395,
+          "graphic_gap": 0
+        }
+      ],
+      "verdict": "source_pose_projection_accepted",
+      "reason": "Actual source boundary pair versus both adopted native artworks viewed. Changes in pitch/yaw/roll/crop or arm/card occlusion explain projected outline; no high-confidence extra primary lock/root/ring or unrelated lighting redesign identified.",
+      "proof": "adjacency-boards/adjacency-04.jpg",
+      "actually_viewed": true
+    },
+    {
+      "index": 16,
+      "from_asset": "tease_forehead_A",
+      "to_asset": "tease_forehead_B",
+      "occurrences": [
+        {
+          "previous_range": [
+            1018,
+            1030
+          ],
+          "next_range": [
+            1030,
+            1041
+          ],
+          "source_prev": 1029,
+          "source_next": 1030,
+          "graphic_gap": 0
+        },
+        {
+          "previous_range": [
+            1201,
+            1213
+          ],
+          "next_range": [
+            1213,
+            1224
+          ],
+          "source_prev": 1212,
+          "source_next": 1213,
+          "graphic_gap": 0
+        },
+        {
+          "previous_range": [
+            3212,
+            3224
+          ],
+          "next_range": [
+            3224,
+            3235
+          ],
+          "source_prev": 3223,
+          "source_next": 3224,
+          "graphic_gap": 0
+        },
+        {
+          "previous_range": [
+            3395,
+            3407
+          ],
+          "next_range": [
+            3407,
+            3418
+          ],
+          "source_prev": 3406,
+          "source_next": 3407,
+          "graphic_gap": 0
+        }
+      ],
+      "verdict": "targeted_revision_approved",
+      "reason": "Same original head angle; oldB made rear-left C curl into outward flying hook and raised headwear. Root tease-B-hairlock restores C connection while preservingB face/hands.",
+      "proof": "adjacency-boards/adjacency-05.jpg",
+      "actually_viewed": true
+    },
+    {
+      "index": 17,
+      "from_asset": "tease_forehead_B",
+      "to_asset": "lean_forehead_close",
+      "occurrences": [
+        {
+          "previous_range": [
+            1030,
+            1041
+          ],
+          "next_range": [
+            1041,
+            1053
+          ],
+          "source_prev": 1040,
+          "source_next": 1041,
+          "graphic_gap": 0
+        },
+        {
+          "previous_range": [
+            1213,
+            1224
+          ],
+          "next_range": [
+            1224,
+            1236
+          ],
+          "source_prev": 1223,
+          "source_next": 1224,
+          "graphic_gap": 0
+        },
+        {
+          "previous_range": [
+            3224,
+            3235
+          ],
+          "next_range": [
+            3235,
+            3247
+          ],
+          "source_prev": 3234,
+          "source_next": 3235,
+          "graphic_gap": 0
+        },
+        {
+          "previous_range": [
+            3407,
+            3418
+          ],
+          "next_range": [
+            3418,
+            3430
+          ],
+          "source_prev": 3417,
+          "source_next": 3418,
+          "graphic_gap": 0
+        }
+      ],
+      "verdict": "source_pose_projection_accepted",
+      "reason": "Actual source boundary pair versus both adopted native artworks viewed. Changes in pitch/yaw/roll/crop or arm/card occlusion explain projected outline; no high-confidence extra primary lock/root/ring or unrelated lighting redesign identified.",
+      "proof": "adjacency-boards/adjacency-05.jpg",
+      "actually_viewed": true
+    },
+    {
+      "index": 18,
+      "from_asset": "lean_forehead_close",
+      "to_asset": "lean_forehead_wide",
+      "occurrences": [
+        {
+          "previous_range": [
+            1041,
+            1053
+          ],
+          "next_range": [
+            1053,
+            1080
+          ],
+          "source_prev": 1052,
+          "source_next": 1053,
+          "graphic_gap": 0
+        },
+        {
+          "previous_range": [
+            1224,
+            1236
+          ],
+          "next_range": [
+            1236,
+            1247
+          ],
+          "source_prev": 1235,
+          "source_next": 1236,
+          "graphic_gap": 0
+        },
+        {
+          "previous_range": [
+            3235,
+            3247
+          ],
+          "next_range": [
+            3247,
+            3258
+          ],
+          "source_prev": 3246,
+          "source_next": 3247,
+          "graphic_gap": 0
+        },
+        {
+          "previous_range": [
+            3418,
+            3430
+          ],
+          "next_range": [
+            3430,
+            3441
+          ],
+          "source_prev": 3429,
+          "source_next": 3430,
+          "graphic_gap": 0
+        }
+      ],
+      "verdict": "minor_residual_no_new_generation",
+      "reason": "Close-to-split-panel source reframe; slight drawn contour differences remain but no changed primary bundle count/root, extra large S ring or unjustified brightness jump. Not escalated.",
+      "proof": "adjacency-boards/adjacency-05.jpg",
+      "actually_viewed": true
+    },
+    {
+      "index": 19,
+      "from_asset": "lean_forehead_wide",
+      "to_asset": "tease_flip",
+      "occurrences": [
+        {
+          "previous_range": [
+            1053,
+            1080
+          ],
+          "next_range": [
+            1080,
+            1087
+          ],
+          "source_prev": 1079,
+          "source_next": 1080,
+          "graphic_gap": 0
+        },
+        {
+          "previous_range": [
+            1236,
+            1247
+          ],
+          "next_range": [
+            1247,
+            1270
+          ],
+          "source_prev": 1246,
+          "source_next": 1247,
+          "graphic_gap": 0
+        },
+        {
+          "previous_range": [
+            3247,
+            3258
+          ],
+          "next_range": [
+            3258,
+            3281
+          ],
+          "source_prev": 3257,
+          "source_next": 3258,
+          "graphic_gap": 0
+        },
+        {
+          "previous_range": [
+            3430,
+            3441
+          ],
+          "next_range": [
+            3441,
+            3464
+          ],
+          "source_prev": 3440,
+          "source_next": 3441,
+          "graphic_gap": 0
+        }
+      ],
+      "verdict": "source_pose_projection_accepted",
+      "reason": "Actual source boundary pair versus both adopted native artworks viewed. Changes in pitch/yaw/roll/crop or arm/card occlusion explain projected outline; no high-confidence extra primary lock/root/ring or unrelated lighting redesign identified.",
+      "proof": "adjacency-boards/adjacency-05.jpg",
+      "actually_viewed": true
+    },
+    {
+      "index": 20,
+      "from_asset": "tease_flip",
+      "to_asset": "cheek_close",
+      "occurrences": [
+        {
+          "previous_range": [
+            1080,
+            1087
+          ],
+          "next_range": [
+            1087,
+            1109
+          ],
+          "source_prev": 1086,
+          "source_next": 1087,
+          "graphic_gap": 0
+        },
+        {
+          "previous_range": [
+            1247,
+            1270
+          ],
+          "next_range": [
+            1270,
+            1288
+          ],
+          "source_prev": 1269,
+          "source_next": 1270,
+          "graphic_gap": 0
+        },
+        {
+          "previous_range": [
+            3258,
+            3281
+          ],
+          "next_range": [
+            3281,
+            3303
+          ],
+          "source_prev": 3280,
+          "source_next": 3281,
+          "graphic_gap": 0
+        },
+        {
+          "previous_range": [
+            3441,
+            3464
+          ],
+          "next_range": [
+            3464,
+            3482
+          ],
+          "source_prev": 3463,
+          "source_next": 3464,
+          "graphic_gap": 0
+        }
+      ],
+      "verdict": "source_pose_projection_accepted",
+      "reason": "Actual source boundary pair versus both adopted native artworks viewed. Changes in pitch/yaw/roll/crop or arm/card occlusion explain projected outline; no high-confidence extra primary lock/root/ring or unrelated lighting redesign identified.",
+      "proof": "adjacency-boards/adjacency-06.jpg",
+      "actually_viewed": true
+    },
+    {
+      "index": 21,
+      "from_asset": "cheek_close",
+      "to_asset": "cover_eyes",
+      "occurrences": [
+        {
+          "previous_range": [
+            1087,
+            1109
+          ],
+          "next_range": [
+            1109,
+            1121
+          ],
+          "source_prev": 1108,
+          "source_next": 1109,
+          "graphic_gap": 0
+        },
+        {
+          "previous_range": [
+            3281,
+            3303
+          ],
+          "next_range": [
+            3303,
+            3315
+          ],
+          "source_prev": 3302,
+          "source_next": 3303,
+          "graphic_gap": 0
+        }
+      ],
+      "verdict": "source_pose_projection_accepted",
+      "reason": "Actual source boundary pair versus both adopted native artworks viewed. Changes in pitch/yaw/roll/crop or arm/card occlusion explain projected outline; no high-confidence extra primary lock/root/ring or unrelated lighting redesign identified.",
+      "proof": "adjacency-boards/adjacency-06.jpg",
+      "actually_viewed": true
+    },
+    {
+      "index": 22,
+      "from_asset": "cover_eyes",
+      "to_asset": "creep_palms",
+      "occurrences": [
+        {
+          "previous_range": [
+            1109,
+            1121
+          ],
+          "next_range": [
+            1121,
+            1132
+          ],
+          "source_prev": 1120,
+          "source_next": 1121,
+          "graphic_gap": 0
+        },
+        {
+          "previous_range": [
+            3303,
+            3315
+          ],
+          "next_range": [
+            3315,
+            3326
+          ],
+          "source_prev": 3314,
+          "source_next": 3315,
+          "graphic_gap": 0
+        }
+      ],
+      "verdict": "source_pose_projection_accepted",
+      "reason": "Actual source boundary pair versus both adopted native artworks viewed. Changes in pitch/yaw/roll/crop or arm/card occlusion explain projected outline; no high-confidence extra primary lock/root/ring or unrelated lighting redesign identified.",
+      "proof": "adjacency-boards/adjacency-06.jpg",
+      "actually_viewed": true
+    },
+    {
+      "index": 23,
+      "from_asset": "creep_palms",
+      "to_asset": "explain_palms_A",
+      "occurrences": [
+        {
+          "previous_range": [
+            1121,
+            1132
+          ],
+          "next_range": [
+            1132,
+            1144
+          ],
+          "source_prev": 1131,
+          "source_next": 1132,
+          "graphic_gap": 0
+        },
+        {
+          "previous_range": [
+            3315,
+            3326
+          ],
+          "next_range": [
+            3326,
+            3338
+          ],
+          "source_prev": 3325,
+          "source_next": 3326,
+          "graphic_gap": 0
+        }
+      ],
+      "verdict": "source_pose_projection_accepted",
+      "reason": "Actual source boundary pair versus both adopted native artworks viewed. Changes in pitch/yaw/roll/crop or arm/card occlusion explain projected outline; no high-confidence extra primary lock/root/ring or unrelated lighting redesign identified.",
+      "proof": "adjacency-boards/adjacency-06.jpg",
+      "actually_viewed": true
+    },
+    {
+      "index": 24,
+      "from_asset": "explain_palms_A",
+      "to_asset": "explain_palms_B",
+      "occurrences": [
+        {
+          "previous_range": [
+            1132,
+            1144
+          ],
+          "next_range": [
+            1144,
+            1155
+          ],
+          "source_prev": 1143,
+          "source_next": 1144,
+          "graphic_gap": 0
+        },
+        {
+          "previous_range": [
+            3326,
+            3338
+          ],
+          "next_range": [
+            3338,
+            3349
+          ],
+          "source_prev": 3337,
+          "source_next": 3338,
+          "graphic_gap": 0
+        }
+      ],
+      "verdict": "frozen_head_positive_control",
+      "reason": "Same original head with new arm gesture. Actual A/B head/fringe/headwear/root curls remain frozen.",
+      "proof": "adjacency-boards/adjacency-07.jpg",
+      "actually_viewed": true
+    },
+    {
+      "index": 25,
+      "from_asset": "explain_palms_B",
+      "to_asset": "shush",
+      "occurrences": [
+        {
+          "previous_range": [
+            1144,
+            1155
+          ],
+          "next_range": [
+            1155,
+            1178
+          ],
+          "source_prev": 1154,
+          "source_next": 1155,
+          "graphic_gap": 0
+        },
+        {
+          "previous_range": [
+            3338,
+            3349
+          ],
+          "next_range": [
+            3349,
+            3372
+          ],
+          "source_prev": 3348,
+          "source_next": 3349,
+          "graphic_gap": 0
+        }
+      ],
+      "verdict": "source_pose_projection_accepted",
+      "reason": "Actual source boundary pair versus both adopted native artworks viewed. Changes in pitch/yaw/roll/crop or arm/card occlusion explain projected outline; no high-confidence extra primary lock/root/ring or unrelated lighting redesign identified.",
+      "proof": "adjacency-boards/adjacency-07.jpg",
+      "actually_viewed": true
+    },
+    {
+      "index": 26,
+      "from_asset": "shush",
+      "to_asset": "head_back_cry",
+      "occurrences": [
+        {
+          "previous_range": [
+            1155,
+            1178
+          ],
+          "next_range": [
+            1178,
+            1201
+          ],
+          "source_prev": 1177,
+          "source_next": 1178,
+          "graphic_gap": 0
+        },
+        {
+          "previous_range": [
+            3349,
+            3372
+          ],
+          "next_range": [
+            3372,
+            3395
+          ],
+          "source_prev": 3371,
+          "source_next": 3372,
+          "graphic_gap": 0
+        }
+      ],
+      "verdict": "source_pose_projection_accepted",
+      "reason": "Actual source boundary pair versus both adopted native artworks viewed. Changes in pitch/yaw/roll/crop or arm/card occlusion explain projected outline; no high-confidence extra primary lock/root/ring or unrelated lighting redesign identified.",
+      "proof": "adjacency-boards/adjacency-07.jpg",
+      "actually_viewed": true
+    },
+    {
+      "index": 27,
+      "from_asset": "cheek_close",
+      "to_asset": "game_set",
+      "occurrences": [
+        {
+          "previous_range": [
+            1270,
+            1288
+          ],
+          "next_range": [
+            1288,
+            1304
+          ],
+          "source_prev": 1287,
+          "source_next": 1288,
+          "graphic_gap": 0
+        },
+        {
+          "previous_range": [
+            3464,
+            3482
+          ],
+          "next_range": [
+            3482,
+            3498
+          ],
+          "source_prev": 3481,
+          "source_next": 3482,
+          "graphic_gap": 0
+        }
+      ],
+      "verdict": "source_pose_projection_accepted",
+      "reason": "Actual source boundary pair versus both adopted native artworks viewed. Changes in pitch/yaw/roll/crop or arm/card occlusion explain projected outline; no high-confidence extra primary lock/root/ring or unrelated lighting redesign identified.",
+      "proof": "adjacency-boards/adjacency-07.jpg",
+      "actually_viewed": true
+    },
+    {
+      "index": 28,
+      "from_asset": "game_set",
+      "to_asset": "raise_card",
+      "occurrences": [
+        {
+          "previous_range": [
+            1288,
+            1304
+          ],
+          "next_range": [
+            1304,
+            1315
+          ],
+          "source_prev": 1303,
+          "source_next": 1304,
+          "graphic_gap": 0
+        },
+        {
+          "previous_range": [
+            3482,
+            3498
+          ],
+          "next_range": [
+            3498,
+            3509
+          ],
+          "source_prev": 3497,
+          "source_next": 3498,
+          "graphic_gap": 0
+        }
+      ],
+      "verdict": "source_pose_projection_accepted",
+      "reason": "Actual source boundary pair versus both adopted native artworks viewed. Changes in pitch/yaw/roll/crop or arm/card occlusion explain projected outline; no high-confidence extra primary lock/root/ring or unrelated lighting redesign identified.",
+      "proof": "adjacency-boards/adjacency-08.jpg",
+      "actually_viewed": true
+    },
+    {
+      "index": 29,
+      "from_asset": "raise_card",
+      "to_asset": "glow_eye",
+      "occurrences": [
+        {
+          "previous_range": [
+            1304,
+            1315
+          ],
+          "next_range": [
+            1315,
+            1338
+          ],
+          "source_prev": 1314,
+          "source_next": 1315,
+          "graphic_gap": 0
+        },
+        {
+          "previous_range": [
+            3498,
+            3509
+          ],
+          "next_range": [
+            3509,
+            3532
+          ],
+          "source_prev": 3508,
+          "source_next": 3509,
+          "graphic_gap": 0
+        }
+      ],
+      "verdict": "source_pose_projection_accepted",
+      "reason": "Actual source boundary pair versus both adopted native artworks viewed. Changes in pitch/yaw/roll/crop or arm/card occlusion explain projected outline; no high-confidence extra primary lock/root/ring or unrelated lighting redesign identified.",
+      "proof": "adjacency-boards/adjacency-08.jpg",
+      "actually_viewed": true
+    },
+    {
+      "index": 30,
+      "from_asset": "glow_eye",
+      "to_asset": "victory_arms",
+      "occurrences": [
+        {
+          "previous_range": [
+            1315,
+            1338
+          ],
+          "next_range": [
+            1338,
+            1361
+          ],
+          "source_prev": 1337,
+          "source_next": 1338,
+          "graphic_gap": 0
+        },
+        {
+          "previous_range": [
+            3509,
+            3532
+          ],
+          "next_range": [
+            3532,
+            3555
+          ],
+          "source_prev": 3531,
+          "source_next": 3532,
+          "graphic_gap": 0
+        }
+      ],
+      "verdict": "source_pose_projection_accepted",
+      "reason": "Actual source boundary pair versus both adopted native artworks viewed. Changes in pitch/yaw/roll/crop or arm/card occlusion explain projected outline; no high-confidence extra primary lock/root/ring or unrelated lighting redesign identified.",
+      "proof": "adjacency-boards/adjacency-08.jpg",
+      "actually_viewed": true
+    },
+    {
+      "index": 31,
+      "from_asset": "victory_arms",
+      "to_asset": "taunt_neutral_textless_blankmouth",
+      "occurrences": [
+        {
+          "previous_range": [
+            1338,
+            1361
+          ],
+          "next_range": [
+            1361,
+            1406
+          ],
+          "source_prev": 1360,
+          "source_next": 1361,
+          "graphic_gap": 0
+        },
+        {
+          "previous_range": [
+            3532,
+            3555
+          ],
+          "next_range": [
+            3555,
+            3600
+          ],
+          "source_prev": 3554,
+          "source_next": 3555,
+          "graphic_gap": 0
+        }
+      ],
+      "verdict": "source_pose_projection_accepted",
+      "reason": "Actual source boundary pair versus both adopted native artworks viewed. Changes in pitch/yaw/roll/crop or arm/card occlusion explain projected outline; no high-confidence extra primary lock/root/ring or unrelated lighting redesign identified.",
+      "proof": "adjacency-boards/adjacency-08.jpg",
+      "actually_viewed": true
+    },
+    {
+      "index": 32,
+      "from_asset": "taunt_neutral_textless_blankmouth",
+      "to_asset": "taunt_flank_textless_blankmouth",
+      "occurrences": [
+        {
+          "previous_range": [
+            1361,
+            1406
+          ],
+          "next_range": [
+            1406,
+            1451
+          ],
+          "source_prev": 1405,
+          "source_next": 1406,
+          "graphic_gap": 0
+        },
+        {
+          "previous_range": [
+            1588,
+            1634
+          ],
+          "next_range": [
+            1634,
+            1657
+          ],
+          "source_prev": 1633,
+          "source_next": 1634,
+          "graphic_gap": 0
+        },
+        {
+          "previous_range": [
+            3555,
+            3600
+          ],
+          "next_range": [
+            3600,
+            3645
+          ],
+          "source_prev": 3599,
+          "source_next": 3600,
+          "graphic_gap": 0
+        },
+        {
+          "previous_range": [
+            3782,
+            3828
+          ],
+          "next_range": [
+            3828,
+            3851
+          ],
+          "source_prev": 3827,
+          "source_next": 3828,
+          "graphic_gap": 0
+        }
+      ],
+      "verdict": "source_pose_projection_accepted",
+      "reason": "Actual source boundary pair versus both adopted native artworks viewed. Changes in pitch/yaw/roll/crop or arm/card occlusion explain projected outline; no high-confidence extra primary lock/root/ring or unrelated lighting redesign identified.",
+      "proof": "adjacency-boards/adjacency-09.jpg",
+      "actually_viewed": true
+    },
+    {
+      "index": 33,
+      "from_asset": "taunt_flank_textless_blankmouth",
+      "to_asset": "taunt_neutral_textless_blankmouth",
+      "occurrences": [
+        {
+          "previous_range": [
+            1406,
+            1451
+          ],
+          "next_range": [
+            1451,
+            1496
+          ],
+          "source_prev": 1450,
+          "source_next": 1451,
+          "graphic_gap": 0
+        },
+        {
+          "previous_range": [
+            1543,
+            1588
+          ],
+          "next_range": [
+            1588,
+            1634
+          ],
+          "source_prev": 1587,
+          "source_next": 1588,
+          "graphic_gap": 0
+        },
+        {
+          "previous_range": [
+            3600,
+            3645
+          ],
+          "next_range": [
+            3645,
+            3690
+          ],
+          "source_prev": 3644,
+          "source_next": 3645,
+          "graphic_gap": 0
+        },
+        {
+          "previous_range": [
+            3737,
+            3782
+          ],
+          "next_range": [
+            3782,
+            3828
+          ],
+          "source_prev": 3781,
+          "source_next": 3782,
+          "graphic_gap": 0
+        }
+      ],
+      "verdict": "source_pose_projection_accepted",
+      "reason": "Actual source boundary pair versus both adopted native artworks viewed. Changes in pitch/yaw/roll/crop or arm/card occlusion explain projected outline; no high-confidence extra primary lock/root/ring or unrelated lighting redesign identified.",
+      "proof": "adjacency-boards/adjacency-09.jpg",
+      "actually_viewed": true
+    },
+    {
+      "index": 34,
+      "from_asset": "taunt_neutral_textless_blankmouth",
+      "to_asset": "clap_pose_A",
+      "occurrences": [
+        {
+          "previous_range": [
+            1451,
+            1496
+          ],
+          "next_range": [
+            1496,
+            1543
+          ],
+          "source_prev": 1495,
+          "source_next": 1496,
+          "graphic_gap": 0
+        },
+        {
+          "previous_range": [
+            3645,
+            3690
+          ],
+          "next_range": [
+            3690,
+            3737
+          ],
+          "source_prev": 3689,
+          "source_next": 3690,
+          "graphic_gap": 0
+        }
+      ],
+      "verdict": "source_pose_projection_accepted",
+      "reason": "Actual source boundary pair versus both adopted native artworks viewed. Changes in pitch/yaw/roll/crop or arm/card occlusion explain projected outline; no high-confidence extra primary lock/root/ring or unrelated lighting redesign identified.",
+      "proof": "adjacency-boards/adjacency-09.jpg",
+      "actually_viewed": true
+    },
+    {
+      "index": 35,
+      "from_asset": "clap_pose_A",
+      "to_asset": "taunt_flank_textless_blankmouth",
+      "occurrences": [
+        {
+          "previous_range": [
+            1496,
+            1543
+          ],
+          "next_range": [
+            1543,
+            1588
+          ],
+          "source_prev": 1542,
+          "source_next": 1543,
+          "graphic_gap": 0
+        },
+        {
+          "previous_range": [
+            3690,
+            3737
+          ],
+          "next_range": [
+            3737,
+            3782
+          ],
+          "source_prev": 3736,
+          "source_next": 3737,
+          "graphic_gap": 0
+        }
+      ],
+      "verdict": "source_pose_projection_accepted",
+      "reason": "Actual source boundary pair versus both adopted native artworks viewed. Changes in pitch/yaw/roll/crop or arm/card occlusion explain projected outline; no high-confidence extra primary lock/root/ring or unrelated lighting redesign identified.",
+      "proof": "adjacency-boards/adjacency-09.jpg",
+      "actually_viewed": true
+    },
+    {
+      "index": 36,
+      "from_asset": "taunt_flank_textless_blankmouth",
+      "to_asset": "dab_start",
+      "occurrences": [
+        {
+          "previous_range": [
+            1634,
+            1657
+          ],
+          "next_range": [
+            1681,
+            1699
+          ],
+          "source_prev": 1656,
+          "source_next": 1681,
+          "graphic_gap": 24
+        }
+      ],
+      "verdict": "graphic_gap_and_new_pose",
+      "reason": "A verified graphic/black/score gap separates poses; visible source pose/camera change supports new projection. No direct same-pose hair toggle identified.",
+      "proof": "adjacency-boards/adjacency-10.jpg",
+      "actually_viewed": true
+    },
+    {
+      "index": 37,
+      "from_asset": "dab_start",
+      "to_asset": "dab_land",
+      "occurrences": [
+        {
+          "previous_range": [
+            1681,
+            1699
+          ],
+          "next_range": [
+            1699,
+            1725
+          ],
+          "source_prev": 1698,
+          "source_next": 1699,
+          "graphic_gap": 0
+        },
+        {
+          "previous_range": [
+            4058,
+            4076
+          ],
+          "next_range": [
+            4076,
+            4102
+          ],
+          "source_prev": 4075,
+          "source_next": 4076,
+          "graphic_gap": 0
+        }
+      ],
+      "verdict": "source_head_direction_event_review_separate",
+      "reason": "Back/side-to-front bow changes hair projection legitimately. Source1698/1699 and held1692/1704 event timing separately sent to source-catalog, not labeled hair-topology failure.",
+      "proof": "adjacency-boards/adjacency-10.jpg",
+      "actually_viewed": true
+    },
+    {
+      "index": 38,
+      "from_asset": "dab_land",
+      "to_asset": "chorus_left_textless",
+      "occurrences": [
+        {
+          "previous_range": [
+            1699,
+            1725
+          ],
+          "next_range": [
+            1725,
+            1770
+          ],
+          "source_prev": 1724,
+          "source_next": 1725,
+          "graphic_gap": 0
+        },
+        {
+          "previous_range": [
+            4076,
+            4102
+          ],
+          "next_range": [
+            4102,
+            4147
+          ],
+          "source_prev": 4101,
+          "source_next": 4102,
+          "graphic_gap": 0
+        }
+      ],
+      "verdict": "source_pose_projection_accepted",
+      "reason": "Actual source boundary pair versus both adopted native artworks viewed. Changes in pitch/yaw/roll/crop or arm/card occlusion explain projected outline; no high-confidence extra primary lock/root/ring or unrelated lighting redesign identified.",
+      "proof": "adjacency-boards/adjacency-10.jpg",
+      "actually_viewed": true
+    },
+    {
+      "index": 39,
+      "from_asset": "chorus_left_textless",
+      "to_asset": "chorus_right_textless",
+      "occurrences": [
+        {
+          "previous_range": [
+            1725,
+            1770
+          ],
+          "next_range": [
+            1770,
+            1816
+          ],
+          "source_prev": 1769,
+          "source_next": 1770,
+          "graphic_gap": 0
+        },
+        {
+          "previous_range": [
+            1816,
+            1861
+          ],
+          "next_range": [
+            1861,
+            1896
+          ],
+          "source_prev": 1860,
+          "source_next": 1861,
+          "graphic_gap": 0
+        },
+        {
+          "previous_range": [
+            1907,
+            1952
+          ],
+          "next_range": [
+            1952,
+            1998
+          ],
+          "source_prev": 1951,
+          "source_next": 1952,
+          "graphic_gap": 0
+        },
+        {
+          "previous_range": [
+            1998,
+            2043
+          ],
+          "next_range": [
+            2043,
+            2065
+          ],
+          "source_prev": 2042,
+          "source_next": 2043,
+          "graphic_gap": 0
+        },
+        {
+          "previous_range": [
+            4102,
+            4147
+          ],
+          "next_range": [
+            4147,
+            4193
+          ],
+          "source_prev": 4146,
+          "source_next": 4147,
+          "graphic_gap": 0
+        },
+        {
+          "previous_range": [
+            4193,
+            4238
+          ],
+          "next_range": [
+            4238,
+            4263
+          ],
+          "source_prev": 4237,
+          "source_next": 4238,
+          "graphic_gap": 0
+        }
+      ],
+      "verdict": "source_roll_projection_accepted",
+      "reason": "Original torso/head alternate left/right tilt. Both candidates retain one main fringe leaf and one main side curl each; longer visible ends/neck occlusion explain silhouette difference.",
+      "proof": "adjacency-boards/adjacency-10.jpg",
+      "actually_viewed": true
+    },
+    {
+      "index": 40,
+      "from_asset": "chorus_right_textless",
+      "to_asset": "chorus_left_textless",
+      "occurrences": [
+        {
+          "previous_range": [
+            1770,
+            1816
+          ],
+          "next_range": [
+            1816,
+            1861
+          ],
+          "source_prev": 1815,
+          "source_next": 1816,
+          "graphic_gap": 0
+        },
+        {
+          "previous_range": [
+            1952,
+            1998
+          ],
+          "next_range": [
+            1998,
+            2043
+          ],
+          "source_prev": 1997,
+          "source_next": 1998,
+          "graphic_gap": 0
+        },
+        {
+          "previous_range": [
+            4147,
+            4193
+          ],
+          "next_range": [
+            4193,
+            4238
+          ],
+          "source_prev": 4192,
+          "source_next": 4193,
+          "graphic_gap": 0
+        }
+      ],
+      "verdict": "source_roll_projection_accepted",
+      "reason": "Reverse of prior source head-roll extreme; same adopted geometry repeated with no per-frame new hair generation.",
+      "proof": "adjacency-boards/adjacency-11.jpg",
+      "actually_viewed": true
+    },
+    {
+      "index": 41,
+      "from_asset": "chorus_right_textless",
+      "to_asset": "maid_paws",
+      "occurrences": [
+        {
+          "previous_range": [
+            1861,
+            1896
+          ],
+          "next_range": [
+            1896,
+            1907
+          ],
+          "source_prev": 1895,
+          "source_next": 1896,
+          "graphic_gap": 0
+        }
+      ],
+      "verdict": "source_pose_projection_accepted",
+      "reason": "Actual source boundary pair versus both adopted native artworks viewed. Changes in pitch/yaw/roll/crop or arm/card occlusion explain projected outline; no high-confidence extra primary lock/root/ring or unrelated lighting redesign identified.",
+      "proof": "adjacency-boards/adjacency-11.jpg",
+      "actually_viewed": true
+    },
+    {
+      "index": 42,
+      "from_asset": "maid_paws",
+      "to_asset": "chorus_left_textless",
+      "occurrences": [
+        {
+          "previous_range": [
+            1896,
+            1907
+          ],
+          "next_range": [
+            1907,
+            1952
+          ],
+          "source_prev": 1906,
+          "source_next": 1907,
+          "graphic_gap": 0
+        }
+      ],
+      "verdict": "source_pose_projection_accepted",
+      "reason": "Actual source boundary pair versus both adopted native artworks viewed. Changes in pitch/yaw/roll/crop or arm/card occlusion explain projected outline; no high-confidence extra primary lock/root/ring or unrelated lighting redesign identified.",
+      "proof": "adjacency-boards/adjacency-11.jpg",
+      "actually_viewed": true
+    },
+    {
+      "index": 43,
+      "from_asset": "chorus_right_textless",
+      "to_asset": "fanart_insert",
+      "occurrences": [
+        {
+          "previous_range": [
+            2043,
+            2065
+          ],
+          "next_range": [
+            2069,
+            2081
+          ],
+          "source_prev": 2064,
+          "source_next": 2069,
+          "graphic_gap": 4
+        }
+      ],
+      "verdict": "graphic_gap_and_new_pose",
+      "reason": "A verified graphic/black/score gap separates poses; visible source pose/camera change supports new projection. No direct same-pose hair toggle identified.",
+      "proof": "adjacency-boards/adjacency-11.jpg",
+      "actually_viewed": true
+    },
+    {
+      "index": 44,
+      "from_asset": "fanart_insert",
+      "to_asset": "hashtag_side",
+      "occurrences": [
+        {
+          "previous_range": [
+            2069,
+            2081
+          ],
+          "next_range": [
+            2081,
+            2092
+          ],
+          "source_prev": 2080,
+          "source_next": 2081,
+          "graphic_gap": 0
+        }
+      ],
+      "verdict": "source_pose_projection_accepted",
+      "reason": "Actual source boundary pair versus both adopted native artworks viewed. Changes in pitch/yaw/roll/crop or arm/card occlusion explain projected outline; no high-confidence extra primary lock/root/ring or unrelated lighting redesign identified.",
+      "proof": "adjacency-boards/adjacency-12.jpg",
+      "actually_viewed": true
+    },
+    {
+      "index": 45,
+      "from_asset": "hashtag_side",
+      "to_asset": "center_card",
+      "occurrences": [
+        {
+          "previous_range": [
+            2081,
+            2092
+          ],
+          "next_range": [
+            2092,
+            2169
+          ],
+          "source_prev": 2091,
+          "source_next": 2092,
+          "graphic_gap": 0
+        }
+      ],
+      "verdict": "source_pose_projection_accepted",
+      "reason": "Actual source boundary pair versus both adopted native artworks viewed. Changes in pitch/yaw/roll/crop or arm/card occlusion explain projected outline; no high-confidence extra primary lock/root/ring or unrelated lighting redesign identified.",
+      "proof": "adjacency-boards/adjacency-12.jpg",
+      "actually_viewed": true
+    },
+    {
+      "index": 46,
+      "from_asset": "center_card",
+      "to_asset": "arm_stretch",
+      "occurrences": [
+        {
+          "previous_range": [
+            2092,
+            2169
+          ],
+          "next_range": [
+            2169,
+            2252
+          ],
+          "source_prev": 2168,
+          "source_next": 2169,
+          "graphic_gap": 0
+        }
+      ],
+      "verdict": "source_pose_projection_accepted",
+      "reason": "Actual source boundary pair versus both adopted native artworks viewed. Changes in pitch/yaw/roll/crop or arm/card occlusion explain projected outline; no high-confidence extra primary lock/root/ring or unrelated lighting redesign identified.",
+      "proof": "adjacency-boards/adjacency-12.jpg",
+      "actually_viewed": true
+    },
+    {
+      "index": 47,
+      "from_asset": "arm_stretch",
+      "to_asset": "center_card",
+      "occurrences": [
+        {
+          "previous_range": [
+            2169,
+            2252
+          ],
+          "next_range": [
+            2275,
+            2298
+          ],
+          "source_prev": 2251,
+          "source_next": 2275,
+          "graphic_gap": 23
+        }
+      ],
+      "verdict": "source_pose_projection_accepted",
+      "reason": "Actual source boundary pair versus both adopted native artworks viewed. Changes in pitch/yaw/roll/crop or arm/card occlusion explain projected outline; no high-confidence extra primary lock/root/ring or unrelated lighting redesign identified.",
+      "proof": "adjacency-boards/adjacency-12.jpg",
+      "actually_viewed": true
+    },
+    {
+      "index": 48,
+      "from_asset": "center_card",
+      "to_asset": "maid_sign_A",
+      "occurrences": [
+        {
+          "previous_range": [
+            2275,
+            2298
+          ],
+          "next_range": [
+            2298,
+            2332
+          ],
+          "source_prev": 2297,
+          "source_next": 2298,
+          "graphic_gap": 0
+        }
+      ],
+      "verdict": "source_pose_projection_accepted",
+      "reason": "Actual source boundary pair versus both adopted native artworks viewed. Changes in pitch/yaw/roll/crop or arm/card occlusion explain projected outline; no high-confidence extra primary lock/root/ring or unrelated lighting redesign identified.",
+      "proof": "adjacency-boards/adjacency-13.jpg",
+      "actually_viewed": true
+    },
+    {
+      "index": 49,
+      "from_asset": "maid_sign_A",
+      "to_asset": "maid_sign_B",
+      "occurrences": [
+        {
+          "previous_range": [
+            2298,
+            2332
+          ],
+          "next_range": [
+            2332,
+            2368
+          ],
+          "source_prev": 2331,
+          "source_next": 2332,
+          "graphic_gap": 0
+        }
+      ],
+      "verdict": "source_pose_projection_accepted",
+      "reason": "Actual source boundary pair versus both adopted native artworks viewed. Changes in pitch/yaw/roll/crop or arm/card occlusion explain projected outline; no high-confidence extra primary lock/root/ring or unrelated lighting redesign identified.",
+      "proof": "adjacency-boards/adjacency-13.jpg",
+      "actually_viewed": true
+    },
+    {
+      "index": 50,
+      "from_asset": "maid_sign_B",
+      "to_asset": "maid_upside_down",
+      "occurrences": [
+        {
+          "previous_range": [
+            2332,
+            2368
+          ],
+          "next_range": [
+            2368,
+            2381
+          ],
+          "source_prev": 2367,
+          "source_next": 2368,
+          "graphic_gap": 0
+        }
+      ],
+      "verdict": "source_pose_projection_accepted",
+      "reason": "Actual source boundary pair versus both adopted native artworks viewed. Changes in pitch/yaw/roll/crop or arm/card occlusion explain projected outline; no high-confidence extra primary lock/root/ring or unrelated lighting redesign identified.",
+      "proof": "adjacency-boards/adjacency-13.jpg",
+      "actually_viewed": true
+    },
+    {
+      "index": 51,
+      "from_asset": "maid_upside_down",
+      "to_asset": "maid_sign_A",
+      "occurrences": [
+        {
+          "previous_range": [
+            2368,
+            2381
+          ],
+          "next_range": [
+            2381,
+            2407
+          ],
+          "source_prev": 2380,
+          "source_next": 2381,
+          "graphic_gap": 0
+        }
+      ],
+      "verdict": "source_pose_projection_accepted",
+      "reason": "Actual source boundary pair versus both adopted native artworks viewed. Changes in pitch/yaw/roll/crop or arm/card occlusion explain projected outline; no high-confidence extra primary lock/root/ring or unrelated lighting redesign identified.",
+      "proof": "adjacency-boards/adjacency-13.jpg",
+      "actually_viewed": true
+    },
+    {
+      "index": 52,
+      "from_asset": "maid_sign_A",
+      "to_asset": "maid_upside_down",
+      "occurrences": [
+        {
+          "previous_range": [
+            2381,
+            2407
+          ],
+          "next_range": [
+            2407,
+            2429
+          ],
+          "source_prev": 2406,
+          "source_next": 2407,
+          "graphic_gap": 0
+        }
+      ],
+      "verdict": "source_pose_projection_accepted",
+      "reason": "Actual source boundary pair versus both adopted native artworks viewed. Changes in pitch/yaw/roll/crop or arm/card occlusion explain projected outline; no high-confidence extra primary lock/root/ring or unrelated lighting redesign identified.",
+      "proof": "adjacency-boards/adjacency-14.jpg",
+      "actually_viewed": true
+    },
+    {
+      "index": 53,
+      "from_asset": "maid_upside_down",
+      "to_asset": "dark_center_card",
+      "occurrences": [
+        {
+          "previous_range": [
+            2429,
+            2447
+          ],
+          "next_range": [
+            2447,
+            2458
+          ],
+          "source_prev": 2446,
+          "source_next": 2447,
+          "graphic_gap": 0
+        }
+      ],
+      "verdict": "graphic_gap_and_new_pose",
+      "reason": "A verified graphic/black/score gap separates poses; visible source pose/camera change supports new projection. No direct same-pose hair toggle identified.",
+      "proof": "adjacency-boards/adjacency-14.jpg",
+      "actually_viewed": true
+    },
+    {
+      "index": 54,
+      "from_asset": "dark_center_card",
+      "to_asset": "dark_panic",
+      "occurrences": [
+        {
+          "previous_range": [
+            2447,
+            2458
+          ],
+          "next_range": [
+            2458,
+            2582
+          ],
+          "source_prev": 2457,
+          "source_next": 2458,
+          "graphic_gap": 0
+        }
+      ],
+      "verdict": "source_pose_projection_accepted",
+      "reason": "Actual source boundary pair versus both adopted native artworks viewed. Changes in pitch/yaw/roll/crop or arm/card occlusion explain projected outline; no high-confidence extra primary lock/root/ring or unrelated lighting redesign identified.",
+      "proof": "adjacency-boards/adjacency-14.jpg",
+      "actually_viewed": true
+    },
+    {
+      "index": 55,
+      "from_asset": "dark_panic",
+      "to_asset": "head_down_dark",
+      "occurrences": [
+        {
+          "previous_range": [
+            2458,
+            2582
+          ],
+          "next_range": [
+            2582,
+            2595
+          ],
+          "source_prev": 2581,
+          "source_next": 2582,
+          "graphic_gap": 0
+        }
+      ],
+      "verdict": "source_pose_projection_accepted",
+      "reason": "Actual source boundary pair versus both adopted native artworks viewed. Changes in pitch/yaw/roll/crop or arm/card occlusion explain projected outline; no high-confidence extra primary lock/root/ring or unrelated lighting redesign identified.",
+      "proof": "adjacency-boards/adjacency-14.jpg",
+      "actually_viewed": true
+    },
+    {
+      "index": 56,
+      "from_asset": "head_down_dark",
+      "to_asset": "mouth_horizontal",
+      "occurrences": [
+        {
+          "previous_range": [
+            2582,
+            2595
+          ],
+          "next_range": [
+            2595,
+            2624
+          ],
+          "source_prev": 2594,
+          "source_next": 2595,
+          "graphic_gap": 0
+        }
+      ],
+      "verdict": "partially_cropped_head_not_false_positive",
+      "reason": "Source strip/comic/partial crop hides most head topology; visible blue fragments remain coherent. No full-head equivalence asserted through an occluding cut.",
+      "proof": "adjacency-boards/adjacency-15.jpg",
+      "actually_viewed": true
+    },
+    {
+      "index": 57,
+      "from_asset": "mouth_horizontal",
+      "to_asset": "plead_A",
+      "occurrences": [
+        {
+          "previous_range": [
+            2595,
+            2624
+          ],
+          "next_range": [
+            2624,
+            2777
+          ],
+          "source_prev": 2623,
+          "source_next": 2624,
+          "graphic_gap": 0
+        }
+      ],
+      "verdict": "partially_cropped_head_not_false_positive",
+      "reason": "Source strip/comic/partial crop hides most head topology; visible blue fragments remain coherent. No full-head equivalence asserted through an occluding cut.",
+      "proof": "adjacency-boards/adjacency-15.jpg",
+      "actually_viewed": true
+    },
+    {
+      "index": 58,
+      "from_asset": "plead_A",
+      "to_asset": "lean_forward",
+      "occurrences": [
+        {
+          "previous_range": [
+            2624,
+            2777
+          ],
+          "next_range": [
+            2777,
+            2812
+          ],
+          "source_prev": 2776,
+          "source_next": 2777,
+          "graphic_gap": 0
+        }
+      ],
+      "verdict": "source_pose_projection_accepted",
+      "reason": "Actual source boundary pair versus both adopted native artworks viewed. Changes in pitch/yaw/roll/crop or arm/card occlusion explain projected outline; no high-confidence extra primary lock/root/ring or unrelated lighting redesign identified.",
+      "proof": "adjacency-boards/adjacency-15.jpg",
+      "actually_viewed": true
+    },
+    {
+      "index": 59,
+      "from_asset": "lean_forward",
+      "to_asset": "center_card",
+      "occurrences": [
+        {
+          "previous_range": [
+            2777,
+            2812
+          ],
+          "next_range": [
+            2812,
+            2824
+          ],
+          "source_prev": 2811,
+          "source_next": 2812,
+          "graphic_gap": 0
+        }
+      ],
+      "verdict": "graphic_gap_and_new_pose",
+      "reason": "A verified graphic/black/score gap separates poses; visible source pose/camera change supports new projection. No direct same-pose hair toggle identified.",
+      "proof": "adjacency-boards/adjacency-15.jpg",
+      "actually_viewed": true
+    },
+    {
+      "index": 60,
+      "from_asset": "center_card",
+      "to_asset": "fold_arm_right",
+      "occurrences": [
+        {
+          "previous_range": [
+            2812,
+            2824
+          ],
+          "next_range": [
+            2824,
+            2915
+          ],
+          "source_prev": 2823,
+          "source_next": 2824,
+          "graphic_gap": 0
+        }
+      ],
+      "verdict": "source_pose_projection_accepted",
+      "reason": "Actual source boundary pair versus both adopted native artworks viewed. Changes in pitch/yaw/roll/crop or arm/card occlusion explain projected outline; no high-confidence extra primary lock/root/ring or unrelated lighting redesign identified.",
+      "proof": "adjacency-boards/adjacency-16.jpg",
+      "actually_viewed": true
+    },
+    {
+      "index": 61,
+      "from_asset": "fold_arm_right",
+      "to_asset": "fold_arm_left",
+      "occurrences": [
+        {
+          "previous_range": [
+            2824,
+            2915
+          ],
+          "next_range": [
+            2915,
+            2984
+          ],
+          "source_prev": 2914,
+          "source_next": 2915,
+          "graphic_gap": 0
+        }
+      ],
+      "verdict": "source_pose_projection_accepted",
+      "reason": "Actual source boundary pair versus both adopted native artworks viewed. Changes in pitch/yaw/roll/crop or arm/card occlusion explain projected outline; no high-confidence extra primary lock/root/ring or unrelated lighting redesign identified.",
+      "proof": "adjacency-boards/adjacency-16.jpg",
+      "actually_viewed": true
+    },
+    {
+      "index": 62,
+      "from_asset": "fold_arm_left",
+      "to_asset": "sleep_table",
+      "occurrences": [
+        {
+          "previous_range": [
+            2915,
+            2984
+          ],
+          "next_range": [
+            3006,
+            3144
+          ],
+          "source_prev": 2983,
+          "source_next": 3006,
+          "graphic_gap": 22
+        }
+      ],
+      "verdict": "graphic_gap_and_new_pose",
+      "reason": "A verified graphic/black/score gap separates poses; visible source pose/camera change supports new projection. No direct same-pose hair toggle identified.",
+      "proof": "adjacency-boards/adjacency-16.jpg",
+      "actually_viewed": true
+    },
+    {
+      "index": 63,
+      "from_asset": "sleep_table",
+      "to_asset": "mouth_vertical",
+      "occurrences": [
+        {
+          "previous_range": [
+            3006,
+            3144
+          ],
+          "next_range": [
+            3144,
+            3173
+          ],
+          "source_prev": 3143,
+          "source_next": 3144,
+          "graphic_gap": 0
+        }
+      ],
+      "verdict": "partially_cropped_head_not_false_positive",
+      "reason": "Source strip/comic/partial crop hides most head topology; visible blue fragments remain coherent. No full-head equivalence asserted through an occluding cut.",
+      "proof": "adjacency-boards/adjacency-16.jpg",
+      "actually_viewed": true
+    },
+    {
+      "index": 64,
+      "from_asset": "mouth_vertical",
+      "to_asset": "game_prepare",
+      "occurrences": [
+        {
+          "previous_range": [
+            3144,
+            3173
+          ],
+          "next_range": [
+            3173,
+            3189
+          ],
+          "source_prev": 3172,
+          "source_next": 3173,
+          "graphic_gap": 0
+        }
+      ],
+      "verdict": "partially_cropped_head_not_false_positive",
+      "reason": "Source strip/comic/partial crop hides most head topology; visible blue fragments remain coherent. No full-head equivalence asserted through an occluding cut.",
+      "proof": "adjacency-boards/adjacency-17.jpg",
+      "actually_viewed": true
+    },
+    {
+      "index": 65,
+      "from_asset": "game_prepare",
+      "to_asset": "head_back_cry",
+      "occurrences": [
+        {
+          "previous_range": [
+            3173,
+            3189
+          ],
+          "next_range": [
+            3189,
+            3212
+          ],
+          "source_prev": 3188,
+          "source_next": 3189,
+          "graphic_gap": 0
+        }
+      ],
+      "verdict": "source_pose_projection_accepted",
+      "reason": "Actual source boundary pair versus both adopted native artworks viewed. Changes in pitch/yaw/roll/crop or arm/card occlusion explain projected outline; no high-confidence extra primary lock/root/ring or unrelated lighting redesign identified.",
+      "proof": "adjacency-boards/adjacency-17.jpg",
+      "actually_viewed": true
+    },
+    {
+      "index": 66,
+      "from_asset": "taunt_flank_textless_blankmouth",
+      "to_asset": "center_card",
+      "occurrences": [
+        {
+          "previous_range": [
+            3828,
+            3851
+          ],
+          "next_range": [
+            3875,
+            3912
+          ],
+          "source_prev": 3850,
+          "source_next": 3875,
+          "graphic_gap": 24
+        }
+      ],
+      "verdict": "graphic_gap_and_new_pose",
+      "reason": "A verified graphic/black/score gap separates poses; visible source pose/camera change supports new projection. No direct same-pose hair toggle identified.",
+      "proof": "adjacency-boards/adjacency-17.jpg",
+      "actually_viewed": true
+    },
+    {
+      "index": 67,
+      "from_asset": "center_card",
+      "to_asset": "wink_hand",
+      "occurrences": [
+        {
+          "previous_range": [
+            3875,
+            3912
+          ],
+          "next_range": [
+            3912,
+            3920
+          ],
+          "source_prev": 3911,
+          "source_next": 3912,
+          "graphic_gap": 0
+        }
+      ],
+      "verdict": "source_pose_projection_accepted",
+      "reason": "Actual source boundary pair versus both adopted native artworks viewed. Changes in pitch/yaw/roll/crop or arm/card occlusion explain projected outline; no high-confidence extra primary lock/root/ring or unrelated lighting redesign identified.",
+      "proof": "adjacency-boards/adjacency-17.jpg",
+      "actually_viewed": true
+    },
+    {
+      "index": 68,
+      "from_asset": "wink_hand",
+      "to_asset": "center_dark_card_textless",
+      "occurrences": [
+        {
+          "previous_range": [
+            3912,
+            3920
+          ],
+          "next_range": [
+            3920,
+            4046
+          ],
+          "source_prev": 3919,
+          "source_next": 3920,
+          "graphic_gap": 0
+        }
+      ],
+      "verdict": "source_pose_projection_accepted",
+      "reason": "Actual source boundary pair versus both adopted native artworks viewed. Changes in pitch/yaw/roll/crop or arm/card occlusion explain projected outline; no high-confidence extra primary lock/root/ring or unrelated lighting redesign identified.",
+      "proof": "adjacency-boards/adjacency-18.jpg",
+      "actually_viewed": true
+    },
+    {
+      "index": 69,
+      "from_asset": "center_dark_card_textless",
+      "to_asset": "dynamite_face",
+      "occurrences": [
+        {
+          "previous_range": [
+            3920,
+            4046
+          ],
+          "next_range": [
+            4046,
+            4058
+          ],
+          "source_prev": 4045,
+          "source_next": 4046,
+          "graphic_gap": 0
+        }
+      ],
+      "verdict": "source_pose_projection_accepted",
+      "reason": "Actual source boundary pair versus both adopted native artworks viewed. Changes in pitch/yaw/roll/crop or arm/card occlusion explain projected outline; no high-confidence extra primary lock/root/ring or unrelated lighting redesign identified.",
+      "proof": "adjacency-boards/adjacency-18.jpg",
+      "actually_viewed": true
+    },
+    {
+      "index": 70,
+      "from_asset": "dynamite_face",
+      "to_asset": "dab_start",
+      "occurrences": [
+        {
+          "previous_range": [
+            4046,
+            4058
+          ],
+          "next_range": [
+            4058,
+            4076
+          ],
+          "source_prev": 4057,
+          "source_next": 4058,
+          "graphic_gap": 0
+        }
+      ],
+      "verdict": "source_pose_projection_accepted",
+      "reason": "Actual source boundary pair versus both adopted native artworks viewed. Changes in pitch/yaw/roll/crop or arm/card occlusion explain projected outline; no high-confidence extra primary lock/root/ring or unrelated lighting redesign identified.",
+      "proof": "adjacency-boards/adjacency-18.jpg",
+      "actually_viewed": true
+    },
+    {
+      "index": 71,
+      "from_asset": "chorus_right_textless",
+      "to_asset": "maid_close_paws",
+      "occurrences": [
+        {
+          "previous_range": [
+            4238,
+            4263
+          ],
+          "next_range": [
+            4263,
+            4287
+          ],
+          "source_prev": 4262,
+          "source_next": 4263,
+          "graphic_gap": 0
+        }
+      ],
+      "verdict": "source_pose_projection_accepted",
+      "reason": "Actual source boundary pair versus both adopted native artworks viewed. Changes in pitch/yaw/roll/crop or arm/card occlusion explain projected outline; no high-confidence extra primary lock/root/ring or unrelated lighting redesign identified.",
+      "proof": "adjacency-boards/adjacency-18.jpg",
+      "actually_viewed": true
+    },
+    {
+      "index": 72,
+      "from_asset": "maid_close_paws",
+      "to_asset": "center_taunt_closed",
+      "occurrences": [
+        {
+          "previous_range": [
+            4263,
+            4287
+          ],
+          "next_range": [
+            4287,
+            4333
+          ],
+          "source_prev": 4286,
+          "source_next": 4287,
+          "graphic_gap": 0
+        }
+      ],
+      "verdict": "source_pose_projection_accepted",
+      "reason": "Actual source boundary pair versus both adopted native artworks viewed. Changes in pitch/yaw/roll/crop or arm/card occlusion explain projected outline; no high-confidence extra primary lock/root/ring or unrelated lighting redesign identified.",
+      "proof": "adjacency-boards/adjacency-19.jpg",
+      "actually_viewed": true
+    },
+    {
+      "index": 73,
+      "from_asset": "center_taunt_closed",
+      "to_asset": "center_taunt_open",
+      "occurrences": [
+        {
+          "previous_range": [
+            4287,
+            4333
+          ],
+          "next_range": [
+            4333,
+            4424
+          ],
+          "source_prev": 4332,
+          "source_next": 4333,
+          "graphic_gap": 0
+        }
+      ],
+      "verdict": "frozen_head_positive_control",
+      "reason": "Native closed/open expression edit uses same frontal head/fringe/ear/headband/primary curls.",
+      "proof": "adjacency-boards/adjacency-19.jpg",
+      "actually_viewed": true
+    },
+    {
+      "index": 74,
+      "from_asset": "center_taunt_open",
+      "to_asset": "center_shout",
+      "occurrences": [
+        {
+          "previous_range": [
+            4333,
+            4424
+          ],
+          "next_range": [
+            4424,
+            4469
+          ],
+          "source_prev": 4423,
+          "source_next": 4424,
+          "graphic_gap": 0
+        }
+      ],
+      "verdict": "source_pose_projection_accepted",
+      "reason": "Actual source boundary pair versus both adopted native artworks viewed. Changes in pitch/yaw/roll/crop or arm/card occlusion explain projected outline; no high-confidence extra primary lock/root/ring or unrelated lighting redesign identified.",
+      "proof": "adjacency-boards/adjacency-19.jpg",
+      "actually_viewed": true
+    },
+    {
+      "index": 75,
+      "from_asset": "center_shout",
+      "to_asset": "rear_card_table",
+      "occurrences": [
+        {
+          "previous_range": [
+            4424,
+            4469
+          ],
+          "next_range": [
+            4469,
+            4574
+          ],
+          "source_prev": 4468,
+          "source_next": 4469,
+          "graphic_gap": 0
+        }
+      ],
+      "verdict": "source_pose_projection_accepted",
+      "reason": "Actual source boundary pair versus both adopted native artworks viewed. Changes in pitch/yaw/roll/crop or arm/card occlusion explain projected outline; no high-confidence extra primary lock/root/ring or unrelated lighting redesign identified.",
+      "proof": "adjacency-boards/adjacency-19.jpg",
+      "actually_viewed": true
+    },
+    {
+      "index": 76,
+      "from_asset": "rear_card_table",
+      "to_asset": "side_blank_eyes",
+      "occurrences": [
+        {
+          "previous_range": [
+            4469,
+            4574
+          ],
+          "next_range": [
+            4574,
+            4634
+          ],
+          "source_prev": 4573,
+          "source_next": 4574,
+          "graphic_gap": 0
+        }
+      ],
+      "verdict": "source_pose_projection_accepted",
+      "reason": "Actual source boundary pair versus both adopted native artworks viewed. Changes in pitch/yaw/roll/crop or arm/card occlusion explain projected outline; no high-confidence extra primary lock/root/ring or unrelated lighting redesign identified.",
+      "proof": "adjacency-boards/adjacency-20.jpg",
+      "actually_viewed": true
+    },
+    {
+      "index": 77,
+      "from_asset": "side_blank_eyes",
+      "to_asset": "side_unamused",
+      "occurrences": [
+        {
+          "previous_range": [
+            4634,
+            4747
+          ],
+          "next_range": [
+            4747,
+            4770
+          ],
+          "source_prev": 4746,
+          "source_next": 4747,
+          "graphic_gap": 0
+        }
+      ],
+      "verdict": "frozen_head_positive_control",
+      "reason": "Side-eye reaction sequence freezes head/hair while source expression changes.",
+      "proof": "adjacency-boards/adjacency-20.jpg",
+      "actually_viewed": true
+    },
+    {
+      "index": 78,
+      "from_asset": "side_unamused",
+      "to_asset": "side_shock",
+      "occurrences": [
+        {
+          "previous_range": [
+            4747,
+            4770
+          ],
+          "next_range": [
+            4770,
+            4794
+          ],
+          "source_prev": 4769,
+          "source_next": 4770,
+          "graphic_gap": 0
+        }
+      ],
+      "verdict": "frozen_head_positive_control",
+      "reason": "Side-eye reaction sequence same mother; no new strands/roots/highlight relighting.",
+      "proof": "adjacency-boards/adjacency-20.jpg",
+      "actually_viewed": true
+    },
+    {
+      "index": 79,
+      "from_asset": "side_shock",
+      "to_asset": "side_shock_extreme",
+      "occurrences": [
+        {
+          "previous_range": [
+            4770,
+            4794
+          ],
+          "next_range": [
+            4794,
+            4813
+          ],
+          "source_prev": 4793,
+          "source_next": 4794,
+          "graphic_gap": 0
+        }
+      ],
+      "verdict": "frozen_head_positive_control",
+      "reason": "Extreme expression adds tears/tremble graphic, source head projection retained and same hair topology.",
+      "proof": "adjacency-boards/adjacency-20.jpg",
+      "actually_viewed": true
+    },
+    {
+      "index": 80,
+      "from_asset": "side_shock_extreme",
+      "to_asset": "final_card_chaos_textless",
+      "occurrences": [
+        {
+          "previous_range": [
+            4794,
+            4813
+          ],
+          "next_range": [
+            4814,
+            4998
+          ],
+          "source_prev": 4812,
+          "source_next": 4814,
+          "graphic_gap": 1
+        }
+      ],
+      "verdict": "graphic_gap_and_new_pose",
+      "reason": "A verified graphic/black/score gap separates poses; visible source pose/camera change supports new projection. No direct same-pose hair toggle identified.",
+      "proof": "adjacency-boards/adjacency-21.jpg",
+      "actually_viewed": true
+    }
+  ]
+}

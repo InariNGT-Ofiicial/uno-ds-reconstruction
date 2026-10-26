@@ -1,0 +1,35 @@
+{
+  "date": "2026-10-26",
+  "scope": "Full sequential rebuild using the public project layout on the recorded Windows production environment.",
+  "asset_archive": {
+    "sha256": "80951623713a02fa8e01ce63df74bd8a4697c2c59d2e81fa4faf09d4e059bdce",
+    "bytes": 152617440,
+    "verified_files": 723
+  },
+  "source_import": {"video_hash_verified": true, "audio_hash_verified": true},
+  "commands_completed": [
+    "python tools/install_assets.py --archive ../release-artifacts/uno-ds-render-assets-v1.zip",
+    "python tools/import_source.py --video <matching-source-video> --audio <matching-source-audio>",
+    "python tools/catalog_source.py",
+    "python tools/build_plan.py",
+    "python tools/validate_project.py",
+    "python tools/render.py --label public-reproduction-v1 --encode --checkpoint-frames 31,1632,2870,2940,3840,3845"
+  ],
+  "render": {
+    "written_frames": 5245,
+    "source_start": 0,
+    "source_end_exclusive": 5245,
+    "duration_seconds": 218.54166666666666,
+    "timeline_runs": 176,
+    "video_sha256": "f1cef48edf3277b3ec57ec0dd637d0db8bce1ab45000728de691dae7f1decfb0",
+    "renderer_sha256": "e081ef48a67517f1f8ad3734f3864dc8a9587560dd94363fd750677defb8c138",
+    "byte_identical_to_original_delivery": true
+  },
+  "environment": "evidence/environment.json",
+  "dependency_setup": "Used the already installed production packages through PYTHONPATH and selected the installed FFmpeg with FFMPEG_BINARY; no per-machine paths are required by the public scripts.",
+  "limits": [
+    "This is a same-environment fixed-asset reproduction, not a fresh dependency installation on every supported platform.",
+    "Byte equality does not establish subjective approval of every frame.",
+    "This does not imply deterministic regeneration of artwork."
+  ]
+}

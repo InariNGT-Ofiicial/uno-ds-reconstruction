@@ -1,0 +1,7 @@
+Edit IMAGE1 itself, an otherwise approved complete 1672x941 MV frame. Make ONE bounded cleanup pass:
+
+Remove the remaining OLD PINK/BLACK TRIANGULAR CAT-EAR FRAME at the very top-right behind/beside the existing raised hand/finger. Replace only that old ear fragment with the existing blue hair continuation or naturally exposed source background, consistent with this cropped DS head. Keep the original raised hand/finger outline and its occlusion EXACTLY as drawn; do not cover, move or reshape any fingers. Do not add a new visible accessory or change the source framing.
+
+EVERYTHING else in IMAGE1 is frozen: exact source pose, face/head size/location/tilt, facial expression/eyes/mouth/chin unless explicitly named above, every hand/finger and UNO card contact/tilt/lettering, original white shirt/folds and white lower clothing, all already-correct DS hair/headwear topology/colors, current pink patterned scene/chair/table/cards/deck, speech polygon and all Japanese lettering, every Chinese caption/gray bar, fixed black square and camera/top/left/bottom cropping. Do not redesign the frame, remove source objects, add content, translate/retype/move text, shrink/lower/recenter/rotate/stretch or warp anything. Only the specifically listed local errors may visibly change.
+
+Return one opaque complete frame on the SAME1672x941 landscape canvas, no transparency or comparison panels, no labels/guides/watermarks.

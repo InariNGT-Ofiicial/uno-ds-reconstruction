@@ -1,0 +1,11 @@
+IMAGE 1 is the EDIT TARGET, an otherwise approved complete MV frame on1672x941. IMAGE 2 is the frozen F005 HAIR-ONLY design board, with the face/body omitted; it is used ONLY for the two hair corrections below. Do not copy its pose, gray cutout, layout, labels or isolated blue scraps.
+
+Make exactly TWO LOCAL HAIR DESIGN CORRECTIONS to IMAGE 1, freezing every other visible part of the frame:
+
+1. The CENTRAL FOREHEAD BANG currently retains the original Miku rounded lobe and a little extra pointed spur on each side. Replace that one central bang shape with the F005 design in IMAGE 2: ONE broad continuous leaf-shaped central bang ending in ONE clear tapered main point and ONE fixed principal inner line. Remove the two little side spur tips and any crossing/forked wisps. Keep the surrounding side fringe attachment, current head position/size, source forehead/eyes, eyebrows and face exactly where they are. Do not grow extra fine strands, move the eyes, or create a new hairstyle.
+
+2. Remove the EXTRA upward-facing small curl hook on the image-right outer rear-hair contour near x1190,y510. Make that outer contour a smooth continuous descending broad loose-hair edge, naturally restoring the tiny exposed pink background there. Keep the large lower pale-blue curl hook of that side, and all other connected broad rear-hair locks, unchanged. The extra upper hook must not become a strand, loop or another small curl elsewhere.
+
+Everything outside those TWO hair corrections is frozen from IMAGE1: exact centered figure/camera/crop, white headband and both bows/fin ears, face/chin/eyes/blush/open mouth, neck, both hands and fingertips, both red UNO cards and their lettering/tilts/contact, original WHITE BUTTON-UP SHIRT/collar/sleeves/folds, pink background pattern, chair, left nameplate and all Japanese text, right speech polygon and all text, fixed black square. Preserve all of their pixels/lines/locations as closely as possible. Do not shrink/lower/move/recenter/rotate/stretch the character, change any expression or pose, add any costume, redraw text, or leave old green hair/white outer hair border.
+
+Return ONE opaque landscape frame on the SAME1672x941 canvas, not transparency and not a comparison board. This is only a two-detail hair cleanup, not a fresh scene or redraw of the character.

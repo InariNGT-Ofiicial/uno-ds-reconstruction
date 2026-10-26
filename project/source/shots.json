@@ -1,0 +1,1820 @@
+[
+  {
+    "shot_id": "S000_black",
+    "start_frame_proposal": 0,
+    "end_frame_exclusive_proposal": 31,
+    "start_time_proposal": 0.0,
+    "end_time_proposal": 1.2916666666666667,
+    "core_pose_candidates": [],
+    "hold_policy": "source_passthrough",
+    "boundary_status": "quarter-second_storyboard_navigation_proposal_not_exact_event_audit",
+    "closest_large_jump_frame_candidate": 1,
+    "closest_jump_mad": 0.0,
+    "audit_status": "pending_independent_review"
+  },
+  {
+    "shot_id": "S001_intro",
+    "start_frame_proposal": 31,
+    "end_frame_exclusive_proposal": 150,
+    "start_time_proposal": 1.292,
+    "end_time_proposal": 6.25,
+    "core_pose_candidates": [
+      "intro_palm_up",
+      "intro_palm_open"
+    ],
+    "hold_policy": "alternate_extreme_holds",
+    "boundary_status": "quarter-second_storyboard_navigation_proposal_not_exact_event_audit",
+    "closest_large_jump_frame_candidate": 31,
+    "closest_jump_mad": 191.4256161971831,
+    "audit_status": "pending_independent_review"
+  },
+  {
+    "shot_id": "S002_wipe",
+    "start_frame_proposal": 150,
+    "end_frame_exclusive_proposal": 174,
+    "start_time_proposal": 6.25,
+    "end_time_proposal": 7.25,
+    "core_pose_candidates": [],
+    "hold_policy": "source_passthrough",
+    "boundary_status": "quarter-second_storyboard_navigation_proposal_not_exact_event_audit",
+    "closest_large_jump_frame_candidate": 145,
+    "closest_jump_mad": 104.34865023474178,
+    "audit_status": "pending_independent_review"
+  },
+  {
+    "shot_id": "S003_card_hand",
+    "start_frame_proposal": 174,
+    "end_frame_exclusive_proposal": 216,
+    "start_time_proposal": 7.25,
+    "end_time_proposal": 9.0,
+    "core_pose_candidates": [],
+    "hold_policy": "source_passthrough_no_hair",
+    "boundary_status": "quarter-second_storyboard_navigation_proposal_not_exact_event_audit",
+    "closest_large_jump_frame_candidate": 173,
+    "closest_jump_mad": 56.23606220657277,
+    "audit_status": "pending_independent_review"
+  },
+  {
+    "shot_id": "S004_comic",
+    "start_frame_proposal": 216,
+    "end_frame_exclusive_proposal": 252,
+    "start_time_proposal": 9.0,
+    "end_time_proposal": 10.5,
+    "core_pose_candidates": [
+      "center_card"
+    ],
+    "hold_policy": "fullframe_edit_partial_face",
+    "boundary_status": "quarter-second_storyboard_navigation_proposal_not_exact_event_audit",
+    "closest_large_jump_frame_candidate": 211,
+    "closest_jump_mad": 54.51681338028169,
+    "audit_status": "pending_independent_review"
+  },
+  {
+    "shot_id": "S005_wipe",
+    "start_frame_proposal": 252,
+    "end_frame_exclusive_proposal": 270,
+    "start_time_proposal": 10.5,
+    "end_time_proposal": 11.25,
+    "core_pose_candidates": [],
+    "hold_policy": "source_passthrough",
+    "boundary_status": "quarter-second_storyboard_navigation_proposal_not_exact_event_audit",
+    "closest_large_jump_frame_candidate": 248,
+    "closest_jump_mad": 8.925674882629108,
+    "audit_status": "pending_independent_review"
+  },
+  {
+    "shot_id": "S006_center",
+    "start_frame_proposal": 270,
+    "end_frame_exclusive_proposal": 342,
+    "start_time_proposal": 11.25,
+    "end_time_proposal": 14.25,
+    "core_pose_candidates": [
+      "center_card"
+    ],
+    "hold_policy": "hold_plus_source_uniform_zoom",
+    "boundary_status": "quarter-second_storyboard_navigation_proposal_not_exact_event_audit",
+    "closest_large_jump_frame_candidate": 265,
+    "closest_jump_mad": 104.7106514084507,
+    "audit_status": "pending_independent_review"
+  },
+  {
+    "shot_id": "S007_dab",
+    "start_frame_proposal": 342,
+    "end_frame_exclusive_proposal": 396,
+    "start_time_proposal": 14.25,
+    "end_time_proposal": 16.5,
+    "core_pose_candidates": [
+      "dab_rear"
+    ],
+    "hold_policy": "hold",
+    "boundary_status": "quarter-second_storyboard_navigation_proposal_not_exact_event_audit",
+    "closest_large_jump_frame_candidate": 342,
+    "closest_jump_mad": 15.761766431924883,
+    "audit_status": "pending_independent_review"
+  },
+  {
+    "shot_id": "S008_score",
+    "start_frame_proposal": 396,
+    "end_frame_exclusive_proposal": 426,
+    "start_time_proposal": 16.5,
+    "end_time_proposal": 17.75,
+    "core_pose_candidates": [],
+    "hold_policy": "source_passthrough_no_character",
+    "boundary_status": "quarter-second_storyboard_navigation_proposal_not_exact_event_audit",
+    "closest_large_jump_frame_candidate": 391,
+    "closest_jump_mad": 123.25889084507043,
+    "audit_status": "pending_independent_review"
+  },
+  {
+    "shot_id": "S009_surprise",
+    "start_frame_proposal": 426,
+    "end_frame_exclusive_proposal": 450,
+    "start_time_proposal": 17.75,
+    "end_time_proposal": 18.75,
+    "core_pose_candidates": [
+      "surprise_side"
+    ],
+    "hold_policy": "hold",
+    "boundary_status": "quarter-second_storyboard_navigation_proposal_not_exact_event_audit",
+    "closest_large_jump_frame_candidate": 423,
+    "closest_jump_mad": 90.21294014084508,
+    "audit_status": "pending_independent_review"
+  },
+  {
+    "shot_id": "S010_verse_left",
+    "start_frame_proposal": 450,
+    "end_frame_exclusive_proposal": 534,
+    "start_time_proposal": 18.75,
+    "end_time_proposal": 22.25,
+    "core_pose_candidates": [
+      "taunt_left_close"
+    ],
+    "hold_policy": "hold_mouth_cards_separate",
+    "boundary_status": "quarter-second_storyboard_navigation_proposal_not_exact_event_audit",
+    "closest_large_jump_frame_candidate": 447,
+    "closest_jump_mad": 87.55487089201878,
+    "audit_status": "pending_independent_review"
+  },
+  {
+    "shot_id": "S011_verse_right",
+    "start_frame_proposal": 534,
+    "end_frame_exclusive_proposal": 612,
+    "start_time_proposal": 22.25,
+    "end_time_proposal": 25.5,
+    "core_pose_candidates": [
+      "taunt_right"
+    ],
+    "hold_policy": "hold_mouth_cards_separate",
+    "boundary_status": "quarter-second_storyboard_navigation_proposal_not_exact_event_audit",
+    "closest_large_jump_frame_candidate": 530,
+    "closest_jump_mad": 41.01719483568075,
+    "audit_status": "pending_independent_review"
+  },
+  {
+    "shot_id": "S012_point_above",
+    "start_frame_proposal": 612,
+    "end_frame_exclusive_proposal": 618,
+    "start_time_proposal": 25.5,
+    "end_time_proposal": 25.75,
+    "core_pose_candidates": [
+      "point_above"
+    ],
+    "hold_policy": "hold",
+    "boundary_status": "quarter-second_storyboard_navigation_proposal_not_exact_event_audit",
+    "closest_large_jump_frame_candidate": 607,
+    "closest_jump_mad": 32.76549295774648,
+    "audit_status": "pending_independent_review"
+  },
+  {
+    "shot_id": "S013_point_forward",
+    "start_frame_proposal": 618,
+    "end_frame_exclusive_proposal": 630,
+    "start_time_proposal": 25.75,
+    "end_time_proposal": 26.25,
+    "core_pose_candidates": [
+      "point_forward"
+    ],
+    "hold_policy": "hold",
+    "boundary_status": "quarter-second_storyboard_navigation_proposal_not_exact_event_audit",
+    "closest_large_jump_frame_candidate": 618,
+    "closest_jump_mad": 13.218661971830986,
+    "audit_status": "pending_independent_review"
+  },
+  {
+    "shot_id": "S014_verse_left_table",
+    "start_frame_proposal": 630,
+    "end_frame_exclusive_proposal": 720,
+    "start_time_proposal": 26.25,
+    "end_time_proposal": 30.0,
+    "core_pose_candidates": [
+      "taunt_left_table"
+    ],
+    "hold_policy": "hold_mouth_cards_separate",
+    "boundary_status": "quarter-second_storyboard_navigation_proposal_not_exact_event_audit",
+    "closest_large_jump_frame_candidate": 629,
+    "closest_jump_mad": 57.49979460093897,
+    "audit_status": "pending_independent_review"
+  },
+  {
+    "shot_id": "S015_verse_right_close",
+    "start_frame_proposal": 720,
+    "end_frame_exclusive_proposal": 798,
+    "start_time_proposal": 30.0,
+    "end_time_proposal": 33.25,
+    "core_pose_candidates": [
+      "taunt_right_close"
+    ],
+    "hold_policy": "hold_mouth_cards_separate",
+    "boundary_status": "quarter-second_storyboard_navigation_proposal_not_exact_event_audit",
+    "closest_large_jump_frame_candidate": 719,
+    "closest_jump_mad": 41.92362089201878,
+    "audit_status": "pending_independent_review"
+  },
+  {
+    "shot_id": "S016_wipe",
+    "start_frame_proposal": 798,
+    "end_frame_exclusive_proposal": 804,
+    "start_time_proposal": 33.25,
+    "end_time_proposal": 33.5,
+    "core_pose_candidates": [],
+    "hold_policy": "source_passthrough",
+    "boundary_status": "quarter-second_storyboard_navigation_proposal_not_exact_event_audit",
+    "closest_large_jump_frame_candidate": 801,
+    "closest_jump_mad": 222.18656103286386,
+    "audit_status": "pending_independent_review"
+  },
+  {
+    "shot_id": "S017_dark_center",
+    "start_frame_proposal": 804,
+    "end_frame_exclusive_proposal": 816,
+    "start_time_proposal": 33.5,
+    "end_time_proposal": 34.0,
+    "core_pose_candidates": [
+      "dark_center_card"
+    ],
+    "hold_policy": "hold_plus_source_uniform_zoom",
+    "boundary_status": "quarter-second_storyboard_navigation_proposal_not_exact_event_audit",
+    "closest_large_jump_frame_candidate": 801,
+    "closest_jump_mad": 222.18656103286386,
+    "audit_status": "pending_independent_review"
+  },
+  {
+    "shot_id": "S018_dark_fingers",
+    "start_frame_proposal": 816,
+    "end_frame_exclusive_proposal": 948,
+    "start_time_proposal": 34.0,
+    "end_time_proposal": 39.5,
+    "core_pose_candidates": [
+      "dark_fingers"
+    ],
+    "hold_policy": "hold_mouth_eyes_separate",
+    "boundary_status": "quarter-second_storyboard_navigation_proposal_not_exact_event_audit",
+    "closest_large_jump_frame_candidate": 812,
+    "closest_jump_mad": 32.97582159624413,
+    "audit_status": "pending_independent_review"
+  },
+  {
+    "shot_id": "S019_mouth_A",
+    "start_frame_proposal": 948,
+    "end_frame_exclusive_proposal": 984,
+    "start_time_proposal": 39.5,
+    "end_time_proposal": 41.0,
+    "core_pose_candidates": [
+      "mouth_strip_A"
+    ],
+    "hold_policy": "hold_mouth_separate",
+    "boundary_status": "quarter-second_storyboard_navigation_proposal_not_exact_event_audit",
+    "closest_large_jump_frame_candidate": 944,
+    "closest_jump_mad": 93.36452464788732,
+    "audit_status": "pending_independent_review"
+  },
+  {
+    "shot_id": "S020_wink",
+    "start_frame_proposal": 984,
+    "end_frame_exclusive_proposal": 996,
+    "start_time_proposal": 41.0,
+    "end_time_proposal": 41.5,
+    "core_pose_candidates": [
+      "wink_hand"
+    ],
+    "hold_policy": "hold",
+    "boundary_status": "quarter-second_storyboard_navigation_proposal_not_exact_event_audit",
+    "closest_large_jump_frame_candidate": 979,
+    "closest_jump_mad": 97.94380868544602,
+    "audit_status": "pending_independent_review"
+  },
+  {
+    "shot_id": "S021_head_back",
+    "start_frame_proposal": 996,
+    "end_frame_exclusive_proposal": 1020,
+    "start_time_proposal": 41.5,
+    "end_time_proposal": 42.5,
+    "core_pose_candidates": [
+      "head_back_cry"
+    ],
+    "hold_policy": "hold_plus_source_uniform_zoom",
+    "boundary_status": "quarter-second_storyboard_navigation_proposal_not_exact_event_audit",
+    "closest_large_jump_frame_candidate": 995,
+    "closest_jump_mad": 71.58174882629108,
+    "audit_status": "pending_independent_review"
+  },
+  {
+    "shot_id": "S022_tease_A",
+    "start_frame_proposal": 1020,
+    "end_frame_exclusive_proposal": 1044,
+    "start_time_proposal": 42.5,
+    "end_time_proposal": 43.5,
+    "core_pose_candidates": [
+      "tease_forehead_A",
+      "tease_forehead_B"
+    ],
+    "hold_policy": "alternate_extreme_holds",
+    "boundary_status": "quarter-second_storyboard_navigation_proposal_not_exact_event_audit",
+    "closest_large_jump_frame_candidate": 1018,
+    "closest_jump_mad": 39.593397887323945,
+    "audit_status": "pending_independent_review"
+  },
+  {
+    "shot_id": "S023_forehead_collage",
+    "start_frame_proposal": 1044,
+    "end_frame_exclusive_proposal": 1080,
+    "start_time_proposal": 43.5,
+    "end_time_proposal": 45.0,
+    "core_pose_candidates": [
+      "lean_forehead_close",
+      "lean_forehead_wide"
+    ],
+    "hold_policy": "hold_multiplane",
+    "boundary_status": "quarter-second_storyboard_navigation_proposal_not_exact_event_audit",
+    "closest_large_jump_frame_candidate": 1041,
+    "closest_jump_mad": 49.59031690140845,
+    "audit_status": "pending_independent_review"
+  },
+  {
+    "shot_id": "S024_tease_flip",
+    "start_frame_proposal": 1080,
+    "end_frame_exclusive_proposal": 1092,
+    "start_time_proposal": 45.0,
+    "end_time_proposal": 45.5,
+    "core_pose_candidates": [
+      "tease_flip"
+    ],
+    "hold_policy": "hold",
+    "boundary_status": "quarter-second_storyboard_navigation_proposal_not_exact_event_audit",
+    "closest_large_jump_frame_candidate": 1078,
+    "closest_jump_mad": 4.795422535211268,
+    "audit_status": "pending_independent_review"
+  },
+  {
+    "shot_id": "S025_cheek",
+    "start_frame_proposal": 1092,
+    "end_frame_exclusive_proposal": 1110,
+    "start_time_proposal": 45.5,
+    "end_time_proposal": 46.25,
+    "core_pose_candidates": [
+      "cheek_close"
+    ],
+    "hold_policy": "hold_multiplane_zoom",
+    "boundary_status": "quarter-second_storyboard_navigation_proposal_not_exact_event_audit",
+    "closest_large_jump_frame_candidate": 1087,
+    "closest_jump_mad": 52.33474178403756,
+    "audit_status": "pending_independent_review"
+  },
+  {
+    "shot_id": "S026_cover_eyes",
+    "start_frame_proposal": 1110,
+    "end_frame_exclusive_proposal": 1122,
+    "start_time_proposal": 46.25,
+    "end_time_proposal": 46.75,
+    "core_pose_candidates": [
+      "cover_eyes"
+    ],
+    "hold_policy": "hold",
+    "boundary_status": "quarter-second_storyboard_navigation_proposal_not_exact_event_audit",
+    "closest_large_jump_frame_candidate": 1109,
+    "closest_jump_mad": 42.60912558685446,
+    "audit_status": "pending_independent_review"
+  },
+  {
+    "shot_id": "S027_creep",
+    "start_frame_proposal": 1122,
+    "end_frame_exclusive_proposal": 1134,
+    "start_time_proposal": 46.75,
+    "end_time_proposal": 47.25,
+    "core_pose_candidates": [
+      "creep_palms"
+    ],
+    "hold_policy": "hold",
+    "boundary_status": "quarter-second_storyboard_navigation_proposal_not_exact_event_audit",
+    "closest_large_jump_frame_candidate": 1121,
+    "closest_jump_mad": 30.213703051643193,
+    "audit_status": "pending_independent_review"
+  },
+  {
+    "shot_id": "S028_explain",
+    "start_frame_proposal": 1134,
+    "end_frame_exclusive_proposal": 1158,
+    "start_time_proposal": 47.25,
+    "end_time_proposal": 48.25,
+    "core_pose_candidates": [
+      "explain_palms_A",
+      "explain_palms_B"
+    ],
+    "hold_policy": "alternate_extreme_holds",
+    "boundary_status": "quarter-second_storyboard_navigation_proposal_not_exact_event_audit",
+    "closest_large_jump_frame_candidate": 1132,
+    "closest_jump_mad": 38.67403169014084,
+    "audit_status": "pending_independent_review"
+  },
+  {
+    "shot_id": "S029_shush",
+    "start_frame_proposal": 1158,
+    "end_frame_exclusive_proposal": 1182,
+    "start_time_proposal": 48.25,
+    "end_time_proposal": 49.25,
+    "core_pose_candidates": [
+      "shush"
+    ],
+    "hold_policy": "hold_mouth_separate",
+    "boundary_status": "quarter-second_storyboard_navigation_proposal_not_exact_event_audit",
+    "closest_large_jump_frame_candidate": 1155,
+    "closest_jump_mad": 98.28139671361502,
+    "audit_status": "pending_independent_review"
+  },
+  {
+    "shot_id": "S030_head_back_repeat",
+    "start_frame_proposal": 1182,
+    "end_frame_exclusive_proposal": 1206,
+    "start_time_proposal": 49.25,
+    "end_time_proposal": 50.25,
+    "core_pose_candidates": [
+      "head_back_cry"
+    ],
+    "hold_policy": "reuse_same_approved_asset",
+    "boundary_status": "quarter-second_storyboard_navigation_proposal_not_exact_event_audit",
+    "closest_large_jump_frame_candidate": 1178,
+    "closest_jump_mad": 85.57479460093897,
+    "audit_status": "pending_independent_review"
+  },
+  {
+    "shot_id": "S031_tease_repeat",
+    "start_frame_proposal": 1206,
+    "end_frame_exclusive_proposal": 1224,
+    "start_time_proposal": 50.25,
+    "end_time_proposal": 51.0,
+    "core_pose_candidates": [
+      "tease_forehead_A",
+      "tease_forehead_B"
+    ],
+    "hold_policy": "reuse_same_approved_assets",
+    "boundary_status": "quarter-second_storyboard_navigation_proposal_not_exact_event_audit",
+    "closest_large_jump_frame_candidate": 1201,
+    "closest_jump_mad": 39.279225352112675,
+    "audit_status": "pending_independent_review"
+  },
+  {
+    "shot_id": "S032_forehead_collage_repeat",
+    "start_frame_proposal": 1224,
+    "end_frame_exclusive_proposal": 1248,
+    "start_time_proposal": 51.0,
+    "end_time_proposal": 52.0,
+    "core_pose_candidates": [
+      "lean_forehead_close",
+      "lean_forehead_wide"
+    ],
+    "hold_policy": "reuse_same_approved_assets",
+    "boundary_status": "quarter-second_storyboard_navigation_proposal_not_exact_event_audit",
+    "closest_large_jump_frame_candidate": 1224,
+    "closest_jump_mad": 49.25052816901408,
+    "audit_status": "pending_independent_review"
+  },
+  {
+    "shot_id": "S033_tease_flip_repeat",
+    "start_frame_proposal": 1248,
+    "end_frame_exclusive_proposal": 1272,
+    "start_time_proposal": 52.0,
+    "end_time_proposal": 53.0,
+    "core_pose_candidates": [
+      "tease_flip"
+    ],
+    "hold_policy": "reuse_same_approved_asset",
+    "boundary_status": "quarter-second_storyboard_navigation_proposal_not_exact_event_audit",
+    "closest_large_jump_frame_candidate": 1247,
+    "closest_jump_mad": 40.15918427230047,
+    "audit_status": "pending_independent_review"
+  },
+  {
+    "shot_id": "S034_cheek_repeat",
+    "start_frame_proposal": 1272,
+    "end_frame_exclusive_proposal": 1290,
+    "start_time_proposal": 53.0,
+    "end_time_proposal": 53.75,
+    "core_pose_candidates": [
+      "cheek_close"
+    ],
+    "hold_policy": "reuse_same_approved_asset",
+    "boundary_status": "quarter-second_storyboard_navigation_proposal_not_exact_event_audit",
+    "closest_large_jump_frame_candidate": 1270,
+    "closest_jump_mad": 52.4100058685446,
+    "audit_status": "pending_independent_review"
+  },
+  {
+    "shot_id": "S035_game_set",
+    "start_frame_proposal": 1290,
+    "end_frame_exclusive_proposal": 1308,
+    "start_time_proposal": 53.75,
+    "end_time_proposal": 54.5,
+    "core_pose_candidates": [
+      "game_set"
+    ],
+    "hold_policy": "hold",
+    "boundary_status": "quarter-second_storyboard_navigation_proposal_not_exact_event_audit",
+    "closest_large_jump_frame_candidate": 1288,
+    "closest_jump_mad": 42.32318075117371,
+    "audit_status": "pending_independent_review"
+  },
+  {
+    "shot_id": "S036_raise_card",
+    "start_frame_proposal": 1308,
+    "end_frame_exclusive_proposal": 1320,
+    "start_time_proposal": 54.5,
+    "end_time_proposal": 55.0,
+    "core_pose_candidates": [
+      "raise_card"
+    ],
+    "hold_policy": "hold",
+    "boundary_status": "quarter-second_storyboard_navigation_proposal_not_exact_event_audit",
+    "closest_large_jump_frame_candidate": 1304,
+    "closest_jump_mad": 27.34712441314554,
+    "audit_status": "pending_independent_review"
+  },
+  {
+    "shot_id": "S037_glow_eye",
+    "start_frame_proposal": 1320,
+    "end_frame_exclusive_proposal": 1338,
+    "start_time_proposal": 55.0,
+    "end_time_proposal": 55.75,
+    "core_pose_candidates": [
+      "glow_eye"
+    ],
+    "hold_policy": "hold_light_overlay",
+    "boundary_status": "quarter-second_storyboard_navigation_proposal_not_exact_event_audit",
+    "closest_large_jump_frame_candidate": 1315,
+    "closest_jump_mad": 51.938174882629106,
+    "audit_status": "pending_independent_review"
+  },
+  {
+    "shot_id": "S038_victory",
+    "start_frame_proposal": 1338,
+    "end_frame_exclusive_proposal": 1362,
+    "start_time_proposal": 55.75,
+    "end_time_proposal": 56.75,
+    "core_pose_candidates": [
+      "victory_arms"
+    ],
+    "hold_policy": "hold_confetti_separate",
+    "boundary_status": "quarter-second_storyboard_navigation_proposal_not_exact_event_audit",
+    "closest_large_jump_frame_candidate": 1338,
+    "closest_jump_mad": 64.15669014084507,
+    "audit_status": "pending_independent_review"
+  },
+  {
+    "shot_id": "S039_taunt_hook_left",
+    "start_frame_proposal": 1362,
+    "end_frame_exclusive_proposal": 1410,
+    "start_time_proposal": 56.75,
+    "end_time_proposal": 58.75,
+    "core_pose_candidates": [
+      "taunt_close_A",
+      "taunt_close_B",
+      "taunt_close_C"
+    ],
+    "hold_policy": "core_pose_holds_mouth_separate",
+    "boundary_status": "quarter-second_storyboard_navigation_proposal_not_exact_event_audit",
+    "closest_large_jump_frame_candidate": 1361,
+    "closest_jump_mad": 59.754401408450704,
+    "audit_status": "pending_independent_review"
+  },
+  {
+    "shot_id": "S040_taunt_hook_right",
+    "start_frame_proposal": 1410,
+    "end_frame_exclusive_proposal": 1452,
+    "start_time_proposal": 58.75,
+    "end_time_proposal": 60.5,
+    "core_pose_candidates": [
+      "taunt_flank_A"
+    ],
+    "hold_policy": "hold_mouth_separate",
+    "boundary_status": "quarter-second_storyboard_navigation_proposal_not_exact_event_audit",
+    "closest_large_jump_frame_candidate": 1406,
+    "closest_jump_mad": 67.19468896713614,
+    "audit_status": "pending_independent_review"
+  },
+  {
+    "shot_id": "S041_taunt_hook_left_repeat",
+    "start_frame_proposal": 1452,
+    "end_frame_exclusive_proposal": 1500,
+    "start_time_proposal": 60.5,
+    "end_time_proposal": 62.5,
+    "core_pose_candidates": [
+      "taunt_flank_B"
+    ],
+    "hold_policy": "hold_mouth_separate",
+    "boundary_status": "quarter-second_storyboard_navigation_proposal_not_exact_event_audit",
+    "closest_large_jump_frame_candidate": 1451,
+    "closest_jump_mad": 66.90883215962441,
+    "audit_status": "pending_independent_review"
+  },
+  {
+    "shot_id": "S042_clap",
+    "start_frame_proposal": 1500,
+    "end_frame_exclusive_proposal": 1548,
+    "start_time_proposal": 62.5,
+    "end_time_proposal": 64.5,
+    "core_pose_candidates": [
+      "clap_pose_A",
+      "clap_pose_B"
+    ],
+    "hold_policy": "alternate_extreme_holds_claps_separate",
+    "boundary_status": "quarter-second_storyboard_navigation_proposal_not_exact_event_audit",
+    "closest_large_jump_frame_candidate": 1496,
+    "closest_jump_mad": 58.0712441314554,
+    "audit_status": "pending_independent_review"
+  },
+  {
+    "shot_id": "S043_taunt_hook_right_repeat",
+    "start_frame_proposal": 1548,
+    "end_frame_exclusive_proposal": 1590,
+    "start_time_proposal": 64.5,
+    "end_time_proposal": 66.25,
+    "core_pose_candidates": [
+      "taunt_right_A"
+    ],
+    "hold_policy": "hold_mouth_separate",
+    "boundary_status": "quarter-second_storyboard_navigation_proposal_not_exact_event_audit",
+    "closest_large_jump_frame_candidate": 1543,
+    "closest_jump_mad": 54.38700117370892,
+    "audit_status": "pending_independent_review"
+  },
+  {
+    "shot_id": "S044_taunt_hook_left_last",
+    "start_frame_proposal": 1590,
+    "end_frame_exclusive_proposal": 1656,
+    "start_time_proposal": 66.25,
+    "end_time_proposal": 69.0,
+    "core_pose_candidates": [
+      "taunt_left_A"
+    ],
+    "hold_policy": "hold_mouth_separate",
+    "boundary_status": "quarter-second_storyboard_navigation_proposal_not_exact_event_audit",
+    "closest_large_jump_frame_candidate": 1588,
+    "closest_jump_mad": 66.962529342723,
+    "audit_status": "pending_independent_review"
+  },
+  {
+    "shot_id": "S045_dynamite_eye",
+    "start_frame_proposal": 1656,
+    "end_frame_exclusive_proposal": 1686,
+    "start_time_proposal": 69.0,
+    "end_time_proposal": 70.25,
+    "core_pose_candidates": [
+      "dynamite_eyes"
+    ],
+    "hold_policy": "hold_eye_overlay",
+    "boundary_status": "quarter-second_storyboard_navigation_proposal_not_exact_event_audit",
+    "closest_large_jump_frame_candidate": 1657,
+    "closest_jump_mad": 14.20082159624413,
+    "audit_status": "pending_independent_review"
+  },
+  {
+    "shot_id": "S046_dab_hook",
+    "start_frame_proposal": 1686,
+    "end_frame_exclusive_proposal": 1728,
+    "start_time_proposal": 70.25,
+    "end_time_proposal": 72.0,
+    "core_pose_candidates": [
+      "center_card",
+      "dab_start",
+      "dab_land"
+    ],
+    "hold_policy": "start_extreme_landed_holds",
+    "boundary_status": "quarter-second_storyboard_navigation_proposal_not_exact_event_audit",
+    "closest_large_jump_frame_candidate": 1681,
+    "closest_jump_mad": 40.06076877934272,
+    "audit_status": "pending_independent_review"
+  },
+  {
+    "shot_id": "S047_chorus_sway_A",
+    "start_frame_proposal": 1728,
+    "end_frame_exclusive_proposal": 1896,
+    "start_time_proposal": 72.0,
+    "end_time_proposal": 79.0,
+    "core_pose_candidates": [
+      "chorus_tilt_left",
+      "chorus_tilt_right"
+    ],
+    "hold_policy": "alternate_extreme_holds",
+    "boundary_status": "quarter-second_storyboard_navigation_proposal_not_exact_event_audit",
+    "closest_large_jump_frame_candidate": 1725,
+    "closest_jump_mad": 72.78169014084507,
+    "audit_status": "pending_independent_review"
+  },
+  {
+    "shot_id": "S048_maid_insert",
+    "start_frame_proposal": 1896,
+    "end_frame_exclusive_proposal": 1908,
+    "start_time_proposal": 79.0,
+    "end_time_proposal": 79.5,
+    "core_pose_candidates": [
+      "maid_paws"
+    ],
+    "hold_policy": "hold",
+    "boundary_status": "quarter-second_storyboard_navigation_proposal_not_exact_event_audit",
+    "closest_large_jump_frame_candidate": 1896,
+    "closest_jump_mad": 7.620422535211268,
+    "audit_status": "pending_independent_review"
+  },
+  {
+    "shot_id": "S049_chorus_sway_B",
+    "start_frame_proposal": 1908,
+    "end_frame_exclusive_proposal": 2064,
+    "start_time_proposal": 79.5,
+    "end_time_proposal": 86.0,
+    "core_pose_candidates": [
+      "chorus_tilt_left",
+      "chorus_tilt_right"
+    ],
+    "hold_policy": "reuse_same_approved_assets",
+    "boundary_status": "quarter-second_storyboard_navigation_proposal_not_exact_event_audit",
+    "closest_large_jump_frame_candidate": 1907,
+    "closest_jump_mad": 39.13952464788732,
+    "audit_status": "pending_independent_review"
+  },
+  {
+    "shot_id": "S050_wipe",
+    "start_frame_proposal": 2064,
+    "end_frame_exclusive_proposal": 2070,
+    "start_time_proposal": 86.0,
+    "end_time_proposal": 86.25,
+    "core_pose_candidates": [],
+    "hold_policy": "source_passthrough",
+    "boundary_status": "quarter-second_storyboard_navigation_proposal_not_exact_event_audit",
+    "closest_large_jump_frame_candidate": 2069,
+    "closest_jump_mad": 126.3268779342723,
+    "audit_status": "pending_independent_review"
+  },
+  {
+    "shot_id": "S051_fanart_card",
+    "start_frame_proposal": 2070,
+    "end_frame_exclusive_proposal": 2082,
+    "start_time_proposal": 86.25,
+    "end_time_proposal": 86.75,
+    "core_pose_candidates": [],
+    "hold_policy": "source_passthrough_fanart_scope_pending",
+    "boundary_status": "quarter-second_storyboard_navigation_proposal_not_exact_event_audit",
+    "closest_large_jump_frame_candidate": 2069,
+    "closest_jump_mad": 126.3268779342723,
+    "audit_status": "pending_independent_review"
+  },
+  {
+    "shot_id": "S052_hashtag",
+    "start_frame_proposal": 2082,
+    "end_frame_exclusive_proposal": 2094,
+    "start_time_proposal": 86.75,
+    "end_time_proposal": 87.25,
+    "core_pose_candidates": [
+      "hashtag_side"
+    ],
+    "hold_policy": "hold",
+    "boundary_status": "quarter-second_storyboard_navigation_proposal_not_exact_event_audit",
+    "closest_large_jump_frame_candidate": 2081,
+    "closest_jump_mad": 47.54451291079812,
+    "audit_status": "pending_independent_review"
+  },
+  {
+    "shot_id": "S053_center_repeat",
+    "start_frame_proposal": 2094,
+    "end_frame_exclusive_proposal": 2172,
+    "start_time_proposal": 87.25,
+    "end_time_proposal": 90.5,
+    "core_pose_candidates": [
+      "center_card"
+    ],
+    "hold_policy": "reuse_same_approved_asset",
+    "boundary_status": "quarter-second_storyboard_navigation_proposal_not_exact_event_audit",
+    "closest_large_jump_frame_candidate": 2092,
+    "closest_jump_mad": 50.987910798122066,
+    "audit_status": "pending_independent_review"
+  },
+  {
+    "shot_id": "S054_arm_stretch",
+    "start_frame_proposal": 2172,
+    "end_frame_exclusive_proposal": 2256,
+    "start_time_proposal": 90.5,
+    "end_time_proposal": 94.0,
+    "core_pose_candidates": [
+      "arm_stretch"
+    ],
+    "hold_policy": "hold_fan_overlay_separate",
+    "boundary_status": "quarter-second_storyboard_navigation_proposal_not_exact_event_audit",
+    "closest_large_jump_frame_candidate": 2169,
+    "closest_jump_mad": 37.31963028169014,
+    "audit_status": "pending_independent_review"
+  },
+  {
+    "shot_id": "S055_opponent_fan",
+    "start_frame_proposal": 2256,
+    "end_frame_exclusive_proposal": 2280,
+    "start_time_proposal": 94.0,
+    "end_time_proposal": 95.0,
+    "core_pose_candidates": [
+      "fan_cards"
+    ],
+    "hold_policy": "source_passthrough_no_character_hair",
+    "boundary_status": "quarter-second_storyboard_navigation_proposal_not_exact_event_audit",
+    "closest_large_jump_frame_candidate": 2252,
+    "closest_jump_mad": 83.79735915492958,
+    "audit_status": "pending_independent_review"
+  },
+  {
+    "shot_id": "S056_center_short",
+    "start_frame_proposal": 2280,
+    "end_frame_exclusive_proposal": 2298,
+    "start_time_proposal": 95.0,
+    "end_time_proposal": 95.75,
+    "core_pose_candidates": [
+      "center_card"
+    ],
+    "hold_policy": "reuse_same_approved_asset",
+    "boundary_status": "quarter-second_storyboard_navigation_proposal_not_exact_event_audit",
+    "closest_large_jump_frame_candidate": 2275,
+    "closest_jump_mad": 86.2168720657277,
+    "audit_status": "pending_independent_review"
+  },
+  {
+    "shot_id": "S057_maid_sign_A",
+    "start_frame_proposal": 2298,
+    "end_frame_exclusive_proposal": 2334,
+    "start_time_proposal": 95.75,
+    "end_time_proposal": 97.25,
+    "core_pose_candidates": [
+      "maid_sign_A"
+    ],
+    "hold_policy": "hold",
+    "boundary_status": "quarter-second_storyboard_navigation_proposal_not_exact_event_audit",
+    "closest_large_jump_frame_candidate": 2298,
+    "closest_jump_mad": 27.793838028169013,
+    "audit_status": "pending_independent_review"
+  },
+  {
+    "shot_id": "S058_maid_sign_B",
+    "start_frame_proposal": 2334,
+    "end_frame_exclusive_proposal": 2370,
+    "start_time_proposal": 97.25,
+    "end_time_proposal": 98.75,
+    "core_pose_candidates": [
+      "maid_sign_B"
+    ],
+    "hold_policy": "hold",
+    "boundary_status": "quarter-second_storyboard_navigation_proposal_not_exact_event_audit",
+    "closest_large_jump_frame_candidate": 2332,
+    "closest_jump_mad": 23.26599178403756,
+    "audit_status": "pending_independent_review"
+  },
+  {
+    "shot_id": "S059_maid_flip_A",
+    "start_frame_proposal": 2370,
+    "end_frame_exclusive_proposal": 2382,
+    "start_time_proposal": 98.75,
+    "end_time_proposal": 99.25,
+    "core_pose_candidates": [
+      "maid_upside_down"
+    ],
+    "hold_policy": "hold",
+    "boundary_status": "quarter-second_storyboard_navigation_proposal_not_exact_event_audit",
+    "closest_large_jump_frame_candidate": 2368,
+    "closest_jump_mad": 23.57288732394366,
+    "audit_status": "pending_independent_review"
+  },
+  {
+    "shot_id": "S060_maid_sign_A_repeat",
+    "start_frame_proposal": 2382,
+    "end_frame_exclusive_proposal": 2406,
+    "start_time_proposal": 99.25,
+    "end_time_proposal": 100.25,
+    "core_pose_candidates": [
+      "maid_sign_A"
+    ],
+    "hold_policy": "reuse_same_approved_asset",
+    "boundary_status": "quarter-second_storyboard_navigation_proposal_not_exact_event_audit",
+    "closest_large_jump_frame_candidate": 2381,
+    "closest_jump_mad": 24.38242370892019,
+    "audit_status": "pending_independent_review"
+  },
+  {
+    "shot_id": "S061_maid_flip_B",
+    "start_frame_proposal": 2406,
+    "end_frame_exclusive_proposal": 2430,
+    "start_time_proposal": 100.25,
+    "end_time_proposal": 101.25,
+    "core_pose_candidates": [
+      "maid_upside_down"
+    ],
+    "hold_policy": "reuse_same_approved_asset",
+    "boundary_status": "quarter-second_storyboard_navigation_proposal_not_exact_event_audit",
+    "closest_large_jump_frame_candidate": 2407,
+    "closest_jump_mad": 32.40944835680751,
+    "audit_status": "pending_independent_review"
+  },
+  {
+    "shot_id": "S062_wipe_maid",
+    "start_frame_proposal": 2430,
+    "end_frame_exclusive_proposal": 2448,
+    "start_time_proposal": 101.25,
+    "end_time_proposal": 102.0,
+    "core_pose_candidates": [
+      "maid_upside_down"
+    ],
+    "hold_policy": "hold_source_transition",
+    "boundary_status": "quarter-second_storyboard_navigation_proposal_not_exact_event_audit",
+    "closest_large_jump_frame_candidate": 2429,
+    "closest_jump_mad": 26.286296948356807,
+    "audit_status": "pending_independent_review"
+  },
+  {
+    "shot_id": "S063_dark_center_short",
+    "start_frame_proposal": 2448,
+    "end_frame_exclusive_proposal": 2460,
+    "start_time_proposal": 102.0,
+    "end_time_proposal": 102.5,
+    "core_pose_candidates": [
+      "dark_center_card"
+    ],
+    "hold_policy": "reuse_same_approved_asset",
+    "boundary_status": "quarter-second_storyboard_navigation_proposal_not_exact_event_audit",
+    "closest_large_jump_frame_candidate": 2447,
+    "closest_jump_mad": 222.3117957746479,
+    "audit_status": "pending_independent_review"
+  },
+  {
+    "shot_id": "S064_dark_panic",
+    "start_frame_proposal": 2460,
+    "end_frame_exclusive_proposal": 2586,
+    "start_time_proposal": 102.5,
+    "end_time_proposal": 107.75,
+    "core_pose_candidates": [
+      "dark_panic"
+    ],
+    "hold_policy": "hold_mouth_eyes_separate",
+    "boundary_status": "quarter-second_storyboard_navigation_proposal_not_exact_event_audit",
+    "closest_large_jump_frame_candidate": 2458,
+    "closest_jump_mad": 29.5106220657277,
+    "audit_status": "pending_independent_review"
+  },
+  {
+    "shot_id": "S065_head_down",
+    "start_frame_proposal": 2586,
+    "end_frame_exclusive_proposal": 2598,
+    "start_time_proposal": 107.75,
+    "end_time_proposal": 108.25,
+    "core_pose_candidates": [
+      "head_down_dark"
+    ],
+    "hold_policy": "hold",
+    "boundary_status": "quarter-second_storyboard_navigation_proposal_not_exact_event_audit",
+    "closest_large_jump_frame_candidate": 2582,
+    "closest_jump_mad": 21.094835680751174,
+    "audit_status": "pending_independent_review"
+  },
+  {
+    "shot_id": "S066_mouth_B",
+    "start_frame_proposal": 2598,
+    "end_frame_exclusive_proposal": 2628,
+    "start_time_proposal": 108.25,
+    "end_time_proposal": 109.5,
+    "core_pose_candidates": [
+      "mouth_strip_A"
+    ],
+    "hold_policy": "same_family_new_mouths",
+    "boundary_status": "quarter-second_storyboard_navigation_proposal_not_exact_event_audit",
+    "closest_large_jump_frame_candidate": 2595,
+    "closest_jump_mad": 85.12232981220657,
+    "audit_status": "pending_independent_review"
+  },
+  {
+    "shot_id": "S067_pleading",
+    "start_frame_proposal": 2628,
+    "end_frame_exclusive_proposal": 2778,
+    "start_time_proposal": 109.5,
+    "end_time_proposal": 115.75,
+    "core_pose_candidates": [
+      "plead_A",
+      "plead_B"
+    ],
+    "hold_policy": "alternate_extreme_holds",
+    "boundary_status": "quarter-second_storyboard_navigation_proposal_not_exact_event_audit",
+    "closest_large_jump_frame_candidate": 2624,
+    "closest_jump_mad": 80.8543133802817,
+    "audit_status": "pending_independent_review"
+  },
+  {
+    "shot_id": "S068_lean_forward",
+    "start_frame_proposal": 2778,
+    "end_frame_exclusive_proposal": 2814,
+    "start_time_proposal": 115.75,
+    "end_time_proposal": 117.25,
+    "core_pose_candidates": [
+      "lean_forward"
+    ],
+    "hold_policy": "hold",
+    "boundary_status": "quarter-second_storyboard_navigation_proposal_not_exact_event_audit",
+    "closest_large_jump_frame_candidate": 2777,
+    "closest_jump_mad": 60.285974178403755,
+    "audit_status": "pending_independent_review"
+  },
+  {
+    "shot_id": "S069_center_short",
+    "start_frame_proposal": 2814,
+    "end_frame_exclusive_proposal": 2826,
+    "start_time_proposal": 117.25,
+    "end_time_proposal": 117.75,
+    "core_pose_candidates": [
+      "center_card"
+    ],
+    "hold_policy": "reuse_same_approved_asset",
+    "boundary_status": "quarter-second_storyboard_navigation_proposal_not_exact_event_audit",
+    "closest_large_jump_frame_candidate": 2812,
+    "closest_jump_mad": 244.71273474178403,
+    "audit_status": "pending_independent_review"
+  },
+  {
+    "shot_id": "S070_fold_right",
+    "start_frame_proposal": 2826,
+    "end_frame_exclusive_proposal": 2916,
+    "start_time_proposal": 117.75,
+    "end_time_proposal": 121.5,
+    "core_pose_candidates": [
+      "fold_arm_right"
+    ],
+    "hold_policy": "hold",
+    "boundary_status": "quarter-second_storyboard_navigation_proposal_not_exact_event_audit",
+    "closest_large_jump_frame_candidate": 2824,
+    "closest_jump_mad": 103.57323943661972,
+    "audit_status": "pending_independent_review"
+  },
+  {
+    "shot_id": "S071_fold_left",
+    "start_frame_proposal": 2916,
+    "end_frame_exclusive_proposal": 2988,
+    "start_time_proposal": 121.5,
+    "end_time_proposal": 124.5,
+    "core_pose_candidates": [
+      "fold_arm_left"
+    ],
+    "hold_policy": "hold",
+    "boundary_status": "quarter-second_storyboard_navigation_proposal_not_exact_event_audit",
+    "closest_large_jump_frame_candidate": 2915,
+    "closest_jump_mad": 51.06511150234742,
+    "audit_status": "pending_independent_review"
+  },
+  {
+    "shot_id": "S072_wipe_partial",
+    "start_frame_proposal": 2988,
+    "end_frame_exclusive_proposal": 3006,
+    "start_time_proposal": 124.5,
+    "end_time_proposal": 125.25,
+    "core_pose_candidates": [
+      "fold_arm_left"
+    ],
+    "hold_policy": "hold_source_transition",
+    "boundary_status": "quarter-second_storyboard_navigation_proposal_not_exact_event_audit",
+    "closest_large_jump_frame_candidate": 2984,
+    "closest_jump_mad": 79.50170187793427,
+    "audit_status": "pending_independent_review"
+  },
+  {
+    "shot_id": "S073_sleep",
+    "start_frame_proposal": 3006,
+    "end_frame_exclusive_proposal": 3144,
+    "start_time_proposal": 125.25,
+    "end_time_proposal": 131.0,
+    "core_pose_candidates": [
+      "sleep_table"
+    ],
+    "hold_policy": "hold_clock_overlay_separate",
+    "boundary_status": "quarter-second_storyboard_navigation_proposal_not_exact_event_audit",
+    "closest_large_jump_frame_candidate": 3006,
+    "closest_jump_mad": 118.69222417840376,
+    "audit_status": "pending_independent_review"
+  },
+  {
+    "shot_id": "S074_vertical_mouth",
+    "start_frame_proposal": 3144,
+    "end_frame_exclusive_proposal": 3174,
+    "start_time_proposal": 131.0,
+    "end_time_proposal": 132.25,
+    "core_pose_candidates": [
+      "mouth_strip_B"
+    ],
+    "hold_policy": "hold_mouth_separate",
+    "boundary_status": "quarter-second_storyboard_navigation_proposal_not_exact_event_audit",
+    "closest_large_jump_frame_candidate": 3144,
+    "closest_jump_mad": 99.47943075117371,
+    "audit_status": "pending_independent_review"
+  },
+  {
+    "shot_id": "S075_game_prepare",
+    "start_frame_proposal": 3174,
+    "end_frame_exclusive_proposal": 3192,
+    "start_time_proposal": 132.25,
+    "end_time_proposal": 133.0,
+    "core_pose_candidates": [
+      "game_prepare"
+    ],
+    "hold_policy": "hold_no_connector_redraw",
+    "boundary_status": "quarter-second_storyboard_navigation_proposal_not_exact_event_audit",
+    "closest_large_jump_frame_candidate": 3173,
+    "closest_jump_mad": 97.42112676056338,
+    "audit_status": "pending_independent_review"
+  },
+  {
+    "shot_id": "S076_head_back_reprise",
+    "start_frame_proposal": 3192,
+    "end_frame_exclusive_proposal": 3216,
+    "start_time_proposal": 133.0,
+    "end_time_proposal": 134.0,
+    "core_pose_candidates": [
+      "head_back_cry"
+    ],
+    "hold_policy": "reuse_same_approved_asset",
+    "boundary_status": "quarter-second_storyboard_navigation_proposal_not_exact_event_audit",
+    "closest_large_jump_frame_candidate": 3189,
+    "closest_jump_mad": 50.124530516431925,
+    "audit_status": "pending_independent_review"
+  },
+  {
+    "shot_id": "S077_tease_reprise",
+    "start_frame_proposal": 3216,
+    "end_frame_exclusive_proposal": 3240,
+    "start_time_proposal": 134.0,
+    "end_time_proposal": 135.0,
+    "core_pose_candidates": [
+      "tease_forehead_A",
+      "tease_forehead_B"
+    ],
+    "hold_policy": "reuse_same_approved_assets",
+    "boundary_status": "quarter-second_storyboard_navigation_proposal_not_exact_event_audit",
+    "closest_large_jump_frame_candidate": 3212,
+    "closest_jump_mad": 38.322007042253524,
+    "audit_status": "pending_independent_review"
+  },
+  {
+    "shot_id": "S078_forehead_collage_reprise",
+    "start_frame_proposal": 3240,
+    "end_frame_exclusive_proposal": 3258,
+    "start_time_proposal": 135.0,
+    "end_time_proposal": 135.75,
+    "core_pose_candidates": [
+      "lean_forehead_close",
+      "lean_forehead_wide"
+    ],
+    "hold_policy": "reuse_same_approved_assets",
+    "boundary_status": "quarter-second_storyboard_navigation_proposal_not_exact_event_audit",
+    "closest_large_jump_frame_candidate": 3235,
+    "closest_jump_mad": 49.82925469483568,
+    "audit_status": "pending_independent_review"
+  },
+  {
+    "shot_id": "S079_tease_flip_reprise",
+    "start_frame_proposal": 3258,
+    "end_frame_exclusive_proposal": 3282,
+    "start_time_proposal": 135.75,
+    "end_time_proposal": 136.75,
+    "core_pose_candidates": [
+      "tease_flip"
+    ],
+    "hold_policy": "reuse_same_approved_asset",
+    "boundary_status": "quarter-second_storyboard_navigation_proposal_not_exact_event_audit",
+    "closest_large_jump_frame_candidate": 3258,
+    "closest_jump_mad": 39.10982981220657,
+    "audit_status": "pending_independent_review"
+  },
+  {
+    "shot_id": "S080_cheek_reprise",
+    "start_frame_proposal": 3282,
+    "end_frame_exclusive_proposal": 3306,
+    "start_time_proposal": 136.75,
+    "end_time_proposal": 137.75,
+    "core_pose_candidates": [
+      "cheek_close"
+    ],
+    "hold_policy": "reuse_same_approved_asset",
+    "boundary_status": "quarter-second_storyboard_navigation_proposal_not_exact_event_audit",
+    "closest_large_jump_frame_candidate": 3281,
+    "closest_jump_mad": 52.8475058685446,
+    "audit_status": "pending_independent_review"
+  },
+  {
+    "shot_id": "S081_cover_reprise",
+    "start_frame_proposal": 3306,
+    "end_frame_exclusive_proposal": 3318,
+    "start_time_proposal": 137.75,
+    "end_time_proposal": 138.25,
+    "core_pose_candidates": [
+      "cover_eyes"
+    ],
+    "hold_policy": "reuse_same_approved_asset",
+    "boundary_status": "quarter-second_storyboard_navigation_proposal_not_exact_event_audit",
+    "closest_large_jump_frame_candidate": 3303,
+    "closest_jump_mad": 41.572095070422534,
+    "audit_status": "pending_independent_review"
+  },
+  {
+    "shot_id": "S082_creep_reprise",
+    "start_frame_proposal": 3318,
+    "end_frame_exclusive_proposal": 3330,
+    "start_time_proposal": 138.25,
+    "end_time_proposal": 138.75,
+    "core_pose_candidates": [
+      "creep_palms"
+    ],
+    "hold_policy": "reuse_same_approved_asset",
+    "boundary_status": "quarter-second_storyboard_navigation_proposal_not_exact_event_audit",
+    "closest_large_jump_frame_candidate": 3315,
+    "closest_jump_mad": 30.222359154929578,
+    "audit_status": "pending_independent_review"
+  },
+  {
+    "shot_id": "S083_explain_reprise",
+    "start_frame_proposal": 3330,
+    "end_frame_exclusive_proposal": 3354,
+    "start_time_proposal": 138.75,
+    "end_time_proposal": 139.75,
+    "core_pose_candidates": [
+      "explain_palms_A",
+      "explain_palms_B"
+    ],
+    "hold_policy": "reuse_same_approved_assets",
+    "boundary_status": "quarter-second_storyboard_navigation_proposal_not_exact_event_audit",
+    "closest_large_jump_frame_candidate": 3326,
+    "closest_jump_mad": 38.38700117370892,
+    "audit_status": "pending_independent_review"
+  },
+  {
+    "shot_id": "S084_shush_reprise",
+    "start_frame_proposal": 3354,
+    "end_frame_exclusive_proposal": 3372,
+    "start_time_proposal": 139.75,
+    "end_time_proposal": 140.5,
+    "core_pose_candidates": [
+      "shush"
+    ],
+    "hold_policy": "reuse_same_approved_asset",
+    "boundary_status": "quarter-second_storyboard_navigation_proposal_not_exact_event_audit",
+    "closest_large_jump_frame_candidate": 3349,
+    "closest_jump_mad": 98.16364436619719,
+    "audit_status": "pending_independent_review"
+  },
+  {
+    "shot_id": "S085_head_back_reprise2",
+    "start_frame_proposal": 3372,
+    "end_frame_exclusive_proposal": 3396,
+    "start_time_proposal": 140.5,
+    "end_time_proposal": 141.5,
+    "core_pose_candidates": [
+      "head_back_cry"
+    ],
+    "hold_policy": "reuse_same_approved_asset",
+    "boundary_status": "quarter-second_storyboard_navigation_proposal_not_exact_event_audit",
+    "closest_large_jump_frame_candidate": 3372,
+    "closest_jump_mad": 86.54979460093897,
+    "audit_status": "pending_independent_review"
+  },
+  {
+    "shot_id": "S086_tease_reprise2",
+    "start_frame_proposal": 3396,
+    "end_frame_exclusive_proposal": 3420,
+    "start_time_proposal": 141.5,
+    "end_time_proposal": 142.5,
+    "core_pose_candidates": [
+      "tease_forehead_A",
+      "tease_forehead_B"
+    ],
+    "hold_policy": "reuse_same_approved_assets",
+    "boundary_status": "quarter-second_storyboard_navigation_proposal_not_exact_event_audit",
+    "closest_large_jump_frame_candidate": 3395,
+    "closest_jump_mad": 38.485328638497656,
+    "audit_status": "pending_independent_review"
+  },
+  {
+    "shot_id": "S087_forehead_collage_reprise2",
+    "start_frame_proposal": 3420,
+    "end_frame_exclusive_proposal": 3444,
+    "start_time_proposal": 142.5,
+    "end_time_proposal": 143.5,
+    "core_pose_candidates": [
+      "lean_forehead_close",
+      "lean_forehead_wide"
+    ],
+    "hold_policy": "reuse_same_approved_assets",
+    "boundary_status": "quarter-second_storyboard_navigation_proposal_not_exact_event_audit",
+    "closest_large_jump_frame_candidate": 3418,
+    "closest_jump_mad": 49.64515845070422,
+    "audit_status": "pending_independent_review"
+  },
+  {
+    "shot_id": "S088_tease_flip_reprise2",
+    "start_frame_proposal": 3444,
+    "end_frame_exclusive_proposal": 3468,
+    "start_time_proposal": 143.5,
+    "end_time_proposal": 144.5,
+    "core_pose_candidates": [
+      "tease_flip"
+    ],
+    "hold_policy": "reuse_same_approved_asset",
+    "boundary_status": "quarter-second_storyboard_navigation_proposal_not_exact_event_audit",
+    "closest_large_jump_frame_candidate": 3441,
+    "closest_jump_mad": 39.07177230046948,
+    "audit_status": "pending_independent_review"
+  },
+  {
+    "shot_id": "S089_cheek_reprise2",
+    "start_frame_proposal": 3468,
+    "end_frame_exclusive_proposal": 3486,
+    "start_time_proposal": 144.5,
+    "end_time_proposal": 145.25,
+    "core_pose_candidates": [
+      "cheek_close"
+    ],
+    "hold_policy": "reuse_same_approved_asset",
+    "boundary_status": "quarter-second_storyboard_navigation_proposal_not_exact_event_audit",
+    "closest_large_jump_frame_candidate": 3464,
+    "closest_jump_mad": 52.8524941314554,
+    "audit_status": "pending_independent_review"
+  },
+  {
+    "shot_id": "S090_game_set_reprise",
+    "start_frame_proposal": 3486,
+    "end_frame_exclusive_proposal": 3498,
+    "start_time_proposal": 145.25,
+    "end_time_proposal": 145.75,
+    "core_pose_candidates": [
+      "game_set"
+    ],
+    "hold_policy": "reuse_same_approved_asset",
+    "boundary_status": "quarter-second_storyboard_navigation_proposal_not_exact_event_audit",
+    "closest_large_jump_frame_candidate": 3482,
+    "closest_jump_mad": 41.57787558685446,
+    "audit_status": "pending_independent_review"
+  },
+  {
+    "shot_id": "S091_raise_card_reprise",
+    "start_frame_proposal": 3498,
+    "end_frame_exclusive_proposal": 3510,
+    "start_time_proposal": 145.75,
+    "end_time_proposal": 146.25,
+    "core_pose_candidates": [
+      "raise_card"
+    ],
+    "hold_policy": "reuse_same_approved_asset",
+    "boundary_status": "quarter-second_storyboard_navigation_proposal_not_exact_event_audit",
+    "closest_large_jump_frame_candidate": 3498,
+    "closest_jump_mad": 27.042136150234743,
+    "audit_status": "pending_independent_review"
+  },
+  {
+    "shot_id": "S092_glow_reprise",
+    "start_frame_proposal": 3510,
+    "end_frame_exclusive_proposal": 3534,
+    "start_time_proposal": 146.25,
+    "end_time_proposal": 147.25,
+    "core_pose_candidates": [
+      "glow_eye"
+    ],
+    "hold_policy": "reuse_same_approved_asset",
+    "boundary_status": "quarter-second_storyboard_navigation_proposal_not_exact_event_audit",
+    "closest_large_jump_frame_candidate": 3509,
+    "closest_jump_mad": 53.1818955399061,
+    "audit_status": "pending_independent_review"
+  },
+  {
+    "shot_id": "S093_victory_reprise",
+    "start_frame_proposal": 3534,
+    "end_frame_exclusive_proposal": 3558,
+    "start_time_proposal": 147.25,
+    "end_time_proposal": 148.25,
+    "core_pose_candidates": [
+      "victory_arms"
+    ],
+    "hold_policy": "reuse_same_approved_asset",
+    "boundary_status": "quarter-second_storyboard_navigation_proposal_not_exact_event_audit",
+    "closest_large_jump_frame_candidate": 3532,
+    "closest_jump_mad": 64.01423122065728,
+    "audit_status": "pending_independent_review"
+  },
+  {
+    "shot_id": "S094_taunt_hook_reprise1",
+    "start_frame_proposal": 3558,
+    "end_frame_exclusive_proposal": 3600,
+    "start_time_proposal": 148.25,
+    "end_time_proposal": 150.0,
+    "core_pose_candidates": [
+      "taunt_close_A",
+      "taunt_close_B",
+      "taunt_close_C"
+    ],
+    "hold_policy": "reuse_same_approved_assets",
+    "boundary_status": "quarter-second_storyboard_navigation_proposal_not_exact_event_audit",
+    "closest_large_jump_frame_candidate": 3555,
+    "closest_jump_mad": 58.722036384976526,
+    "audit_status": "pending_independent_review"
+  },
+  {
+    "shot_id": "S095_taunt_hook_reprise2",
+    "start_frame_proposal": 3600,
+    "end_frame_exclusive_proposal": 3648,
+    "start_time_proposal": 150.0,
+    "end_time_proposal": 152.0,
+    "core_pose_candidates": [
+      "taunt_flank_A"
+    ],
+    "hold_policy": "reuse_same_approved_asset",
+    "boundary_status": "quarter-second_storyboard_navigation_proposal_not_exact_event_audit",
+    "closest_large_jump_frame_candidate": 3600,
+    "closest_jump_mad": 65.30894953051643,
+    "audit_status": "pending_independent_review"
+  },
+  {
+    "shot_id": "S096_taunt_hook_reprise3",
+    "start_frame_proposal": 3648,
+    "end_frame_exclusive_proposal": 3690,
+    "start_time_proposal": 152.0,
+    "end_time_proposal": 153.75,
+    "core_pose_candidates": [
+      "taunt_flank_B"
+    ],
+    "hold_policy": "reuse_same_approved_asset",
+    "boundary_status": "quarter-second_storyboard_navigation_proposal_not_exact_event_audit",
+    "closest_large_jump_frame_candidate": 3645,
+    "closest_jump_mad": 64.59448356807512,
+    "audit_status": "pending_independent_review"
+  },
+  {
+    "shot_id": "S097_clap_reprise",
+    "start_frame_proposal": 3690,
+    "end_frame_exclusive_proposal": 3738,
+    "start_time_proposal": 153.75,
+    "end_time_proposal": 155.75,
+    "core_pose_candidates": [
+      "clap_pose_A",
+      "clap_pose_B"
+    ],
+    "hold_policy": "reuse_same_approved_assets",
+    "boundary_status": "quarter-second_storyboard_navigation_proposal_not_exact_event_audit",
+    "closest_large_jump_frame_candidate": 3690,
+    "closest_jump_mad": 56.34451291079812,
+    "audit_status": "pending_independent_review"
+  },
+  {
+    "shot_id": "S098_taunt_hook_reprise4",
+    "start_frame_proposal": 3738,
+    "end_frame_exclusive_proposal": 3786,
+    "start_time_proposal": 155.75,
+    "end_time_proposal": 157.75,
+    "core_pose_candidates": [
+      "taunt_right_A"
+    ],
+    "hold_policy": "reuse_same_approved_asset",
+    "boundary_status": "quarter-second_storyboard_navigation_proposal_not_exact_event_audit",
+    "closest_large_jump_frame_candidate": 3737,
+    "closest_jump_mad": 53.44774061032864,
+    "audit_status": "pending_independent_review"
+  },
+  {
+    "shot_id": "S099_taunt_hook_reprise5",
+    "start_frame_proposal": 3786,
+    "end_frame_exclusive_proposal": 3846,
+    "start_time_proposal": 157.75,
+    "end_time_proposal": 160.25,
+    "core_pose_candidates": [
+      "taunt_left_A"
+    ],
+    "hold_policy": "reuse_same_approved_asset",
+    "boundary_status": "quarter-second_storyboard_navigation_proposal_not_exact_event_audit",
+    "closest_large_jump_frame_candidate": 3782,
+    "closest_jump_mad": 65.14216549295774,
+    "audit_status": "pending_independent_review"
+  },
+  {
+    "shot_id": "S100_dynamite_eye_reprise",
+    "start_frame_proposal": 3846,
+    "end_frame_exclusive_proposal": 3876,
+    "start_time_proposal": 160.25,
+    "end_time_proposal": 161.5,
+    "core_pose_candidates": [
+      "dynamite_eyes"
+    ],
+    "hold_policy": "reuse_same_approved_asset",
+    "boundary_status": "quarter-second_storyboard_navigation_proposal_not_exact_event_audit",
+    "closest_large_jump_frame_candidate": 3851,
+    "closest_jump_mad": 14.122183098591549,
+    "audit_status": "pending_independent_review"
+  },
+  {
+    "shot_id": "S101_center_montage",
+    "start_frame_proposal": 3876,
+    "end_frame_exclusive_proposal": 3912,
+    "start_time_proposal": 161.5,
+    "end_time_proposal": 163.0,
+    "core_pose_candidates": [
+      "center_card"
+    ],
+    "hold_policy": "hold_source_vertical_wipes",
+    "boundary_status": "quarter-second_storyboard_navigation_proposal_not_exact_event_audit",
+    "closest_large_jump_frame_candidate": 3875,
+    "closest_jump_mad": 60.74888497652582,
+    "audit_status": "pending_independent_review"
+  },
+  {
+    "shot_id": "S102_wink_reprise",
+    "start_frame_proposal": 3912,
+    "end_frame_exclusive_proposal": 3924,
+    "start_time_proposal": 163.0,
+    "end_time_proposal": 163.5,
+    "core_pose_candidates": [
+      "wink_reprise"
+    ],
+    "hold_policy": "reuse_candidate_with_984",
+    "boundary_status": "quarter-second_storyboard_navigation_proposal_not_exact_event_audit",
+    "closest_large_jump_frame_candidate": 3909,
+    "closest_jump_mad": 7.502728873239437,
+    "audit_status": "pending_independent_review"
+  },
+  {
+    "shot_id": "S103_dark_center_final",
+    "start_frame_proposal": 3924,
+    "end_frame_exclusive_proposal": 4050,
+    "start_time_proposal": 163.5,
+    "end_time_proposal": 168.75,
+    "core_pose_candidates": [
+      "center_dark_card"
+    ],
+    "hold_policy": "hold_mouth_eyes_separate",
+    "boundary_status": "quarter-second_storyboard_navigation_proposal_not_exact_event_audit",
+    "closest_large_jump_frame_candidate": 3920,
+    "closest_jump_mad": 55.75208333333333,
+    "audit_status": "pending_independent_review"
+  },
+  {
+    "shot_id": "S104_dynamite_face",
+    "start_frame_proposal": 4050,
+    "end_frame_exclusive_proposal": 4062,
+    "start_time_proposal": 168.75,
+    "end_time_proposal": 169.25,
+    "core_pose_candidates": [
+      "dynamite_face"
+    ],
+    "hold_policy": "hold",
+    "boundary_status": "quarter-second_storyboard_navigation_proposal_not_exact_event_audit",
+    "closest_large_jump_frame_candidate": 4046,
+    "closest_jump_mad": 129.4050762910798,
+    "audit_status": "pending_independent_review"
+  },
+  {
+    "shot_id": "S105_dab_final",
+    "start_frame_proposal": 4062,
+    "end_frame_exclusive_proposal": 4104,
+    "start_time_proposal": 169.25,
+    "end_time_proposal": 171.0,
+    "core_pose_candidates": [
+      "center_card",
+      "dab_start",
+      "dab_land"
+    ],
+    "hold_policy": "reuse_same_approved_assets",
+    "boundary_status": "quarter-second_storyboard_navigation_proposal_not_exact_event_audit",
+    "closest_large_jump_frame_candidate": 4058,
+    "closest_jump_mad": 60.13130868544601,
+    "audit_status": "pending_independent_review"
+  },
+  {
+    "shot_id": "S106_chorus_final",
+    "start_frame_proposal": 4104,
+    "end_frame_exclusive_proposal": 4266,
+    "start_time_proposal": 171.0,
+    "end_time_proposal": 177.75,
+    "core_pose_candidates": [
+      "chorus_tilt_left",
+      "chorus_tilt_right"
+    ],
+    "hold_policy": "reuse_same_approved_assets",
+    "boundary_status": "quarter-second_storyboard_navigation_proposal_not_exact_event_audit",
+    "closest_large_jump_frame_candidate": 4102,
+    "closest_jump_mad": 69.61549295774648,
+    "audit_status": "pending_independent_review"
+  },
+  {
+    "shot_id": "S107_maid_close",
+    "start_frame_proposal": 4266,
+    "end_frame_exclusive_proposal": 4290,
+    "start_time_proposal": 177.75,
+    "end_time_proposal": 178.75,
+    "core_pose_candidates": [
+      "maid_close_paws"
+    ],
+    "hold_policy": "hold",
+    "boundary_status": "quarter-second_storyboard_navigation_proposal_not_exact_event_audit",
+    "closest_large_jump_frame_candidate": 4263,
+    "closest_jump_mad": 85.54087441314554,
+    "audit_status": "pending_independent_review"
+  },
+  {
+    "shot_id": "S108_center_taunt_closed",
+    "start_frame_proposal": 4290,
+    "end_frame_exclusive_proposal": 4344,
+    "start_time_proposal": 178.75,
+    "end_time_proposal": 181.0,
+    "core_pose_candidates": [
+      "center_taunt_closed"
+    ],
+    "hold_policy": "hold_mouth_separate",
+    "boundary_status": "quarter-second_storyboard_navigation_proposal_not_exact_event_audit",
+    "closest_large_jump_frame_candidate": 4287,
+    "closest_jump_mad": 76.993779342723,
+    "audit_status": "pending_independent_review"
+  },
+  {
+    "shot_id": "S109_center_taunt_open",
+    "start_frame_proposal": 4344,
+    "end_frame_exclusive_proposal": 4428,
+    "start_time_proposal": 181.0,
+    "end_time_proposal": 184.5,
+    "core_pose_candidates": [
+      "center_taunt_open"
+    ],
+    "hold_policy": "hold_mouth_separate",
+    "boundary_status": "quarter-second_storyboard_navigation_proposal_not_exact_event_audit",
+    "closest_large_jump_frame_candidate": 4349,
+    "closest_jump_mad": 5.3779929577464785,
+    "audit_status": "pending_independent_review"
+  },
+  {
+    "shot_id": "S110_center_shout",
+    "start_frame_proposal": 4428,
+    "end_frame_exclusive_proposal": 4470,
+    "start_time_proposal": 184.5,
+    "end_time_proposal": 186.25,
+    "core_pose_candidates": [
+      "center_shout"
+    ],
+    "hold_policy": "hold_mouth_separate",
+    "boundary_status": "quarter-second_storyboard_navigation_proposal_not_exact_event_audit",
+    "closest_large_jump_frame_candidate": 4424,
+    "closest_jump_mad": 48.95669014084507,
+    "audit_status": "pending_independent_review"
+  },
+  {
+    "shot_id": "S111_rear_fan",
+    "start_frame_proposal": 4470,
+    "end_frame_exclusive_proposal": 4578,
+    "start_time_proposal": 186.25,
+    "end_time_proposal": 190.75,
+    "core_pose_candidates": [
+      "rear_card_table"
+    ],
+    "hold_policy": "hold_cards_foreground_separate",
+    "boundary_status": "quarter-second_storyboard_navigation_proposal_not_exact_event_audit",
+    "closest_large_jump_frame_candidate": 4469,
+    "closest_jump_mad": 79.61276408450705,
+    "audit_status": "pending_independent_review"
+  },
+  {
+    "shot_id": "S112_side_blank",
+    "start_frame_proposal": 4578,
+    "end_frame_exclusive_proposal": 4638,
+    "start_time_proposal": 190.75,
+    "end_time_proposal": 193.25,
+    "core_pose_candidates": [
+      "side_blank_eyes"
+    ],
+    "hold_policy": "hold",
+    "boundary_status": "quarter-second_storyboard_navigation_proposal_not_exact_event_audit",
+    "closest_large_jump_frame_candidate": 4574,
+    "closest_jump_mad": 39.97946009389671,
+    "audit_status": "pending_independent_review"
+  },
+  {
+    "shot_id": "S113_side_rays",
+    "start_frame_proposal": 4638,
+    "end_frame_exclusive_proposal": 4752,
+    "start_time_proposal": 193.25,
+    "end_time_proposal": 198.0,
+    "core_pose_candidates": [
+      "side_rays"
+    ],
+    "hold_policy": "hold_face_overlay_separate",
+    "boundary_status": "quarter-second_storyboard_navigation_proposal_not_exact_event_audit",
+    "closest_large_jump_frame_candidate": 4634,
+    "closest_jump_mad": 1.3914906103286384,
+    "audit_status": "pending_independent_review"
+  },
+  {
+    "shot_id": "S114_side_unamused",
+    "start_frame_proposal": 4752,
+    "end_frame_exclusive_proposal": 4770,
+    "start_time_proposal": 198.0,
+    "end_time_proposal": 198.75,
+    "core_pose_candidates": [
+      "side_unamused"
+    ],
+    "hold_policy": "hold",
+    "boundary_status": "quarter-second_storyboard_navigation_proposal_not_exact_event_audit",
+    "closest_large_jump_frame_candidate": 4747,
+    "closest_jump_mad": 17.326965962441314,
+    "audit_status": "pending_independent_review"
+  },
+  {
+    "shot_id": "S115_side_shock",
+    "start_frame_proposal": 4770,
+    "end_frame_exclusive_proposal": 4794,
+    "start_time_proposal": 198.75,
+    "end_time_proposal": 199.75,
+    "core_pose_candidates": [
+      "side_shock"
+    ],
+    "hold_policy": "hold",
+    "boundary_status": "quarter-second_storyboard_navigation_proposal_not_exact_event_audit",
+    "closest_large_jump_frame_candidate": 4770,
+    "closest_jump_mad": 17.11094483568075,
+    "audit_status": "pending_independent_review"
+  },
+  {
+    "shot_id": "S116_side_extreme",
+    "start_frame_proposal": 4794,
+    "end_frame_exclusive_proposal": 4812,
+    "start_time_proposal": 199.75,
+    "end_time_proposal": 200.5,
+    "core_pose_candidates": [
+      "side_shock_extreme"
+    ],
+    "hold_policy": "hold",
+    "boundary_status": "quarter-second_storyboard_navigation_proposal_not_exact_event_audit",
+    "closest_large_jump_frame_candidate": 4796,
+    "closest_jump_mad": 14.875645539906102,
+    "audit_status": "pending_independent_review"
+  },
+  {
+    "shot_id": "S117_wipe",
+    "start_frame_proposal": 4812,
+    "end_frame_exclusive_proposal": 4818,
+    "start_time_proposal": 200.5,
+    "end_time_proposal": 200.75,
+    "core_pose_candidates": [],
+    "hold_policy": "source_passthrough",
+    "boundary_status": "quarter-second_storyboard_navigation_proposal_not_exact_event_audit",
+    "closest_large_jump_frame_candidate": 4814,
+    "closest_jump_mad": 108.41132629107982,
+    "audit_status": "pending_independent_review"
+  },
+  {
+    "shot_id": "S118_final_card_chaos",
+    "start_frame_proposal": 4818,
+    "end_frame_exclusive_proposal": 4998,
+    "start_time_proposal": 200.75,
+    "end_time_proposal": 208.25,
+    "core_pose_candidates": [
+      "final_card_chaos"
+    ],
+    "hold_policy": "hold_flying_cards_separate_and_character_fade",
+    "boundary_status": "quarter-second_storyboard_navigation_proposal_not_exact_event_audit",
+    "closest_large_jump_frame_candidate": 4814,
+    "closest_jump_mad": 108.41132629107982,
+    "audit_status": "pending_independent_review"
+  },
+  {
+    "shot_id": "S119_end_card",
+    "start_frame_proposal": 4998,
+    "end_frame_exclusive_proposal": 5212,
+    "start_time_proposal": 208.25,
+    "end_time_proposal": 217.16666666666666,
+    "core_pose_candidates": [],
+    "hold_policy": "source_passthrough_no_character",
+    "boundary_status": "quarter-second_storyboard_navigation_proposal_not_exact_event_audit",
+    "closest_large_jump_frame_candidate": 5001,
+    "closest_jump_mad": 2.425293427230047,
+    "audit_status": "pending_independent_review"
+  },
+  {
+    "shot_id": "S120_end_black",
+    "start_frame_proposal": 5212,
+    "end_frame_exclusive_proposal": 5245,
+    "start_time_proposal": 217.167,
+    "end_time_proposal": 218.54166666666666,
+    "core_pose_candidates": [],
+    "hold_policy": "source_passthrough_no_character",
+    "boundary_status": "quarter-second_storyboard_navigation_proposal_not_exact_event_audit",
+    "closest_large_jump_frame_candidate": 5212,
+    "closest_jump_mad": 104.99454225352113,
+    "audit_status": "pending_independent_review"
+  }
+]

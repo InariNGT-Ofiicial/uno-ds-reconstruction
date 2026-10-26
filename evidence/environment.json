@@ -1,0 +1,12 @@
+{
+  "production_python": "3.14.7",
+  "packages": {
+    "pillow": "12.2.0",
+    "numpy": "2.5.4",
+    "scipy": "1.18.1",
+    "av": "19.0.2"
+  },
+  "production_platform": "Windows x64",
+  "tested_codec": "libx264 / AAC",
+  "scope": "Observed installed production environment, not a statement of cross-platform availability."
+}

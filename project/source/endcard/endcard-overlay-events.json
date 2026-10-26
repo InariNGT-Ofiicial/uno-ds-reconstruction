@@ -1,0 +1,313 @@
+{
+  "schema_version": "uno-v4-endcard-overlay-1",
+  "source_frame": 5016,
+  "source_reference": "source/endcard/source-f05016.png",
+  "coordinate_space": [
+    852,
+    480
+  ],
+  "purple_background_color": [
+    107,
+    77,
+    98
+  ],
+  "cn_bar_color": [
+    63,
+    54,
+    68
+  ],
+  "jp_layer": {
+    "path": "source/endcard/endcard-jp-glyphs.png",
+    "bbox": [
+      48,
+      172,
+      800,
+      304
+    ],
+    "kind": "pure_white_text_alpha",
+    "sha256": "7491dca59a776fa06719f75a414c574392901932b4b6ac941228855c440849e8"
+  },
+  "cn_layer": {
+    "path": "source/endcard/endcard-cn-glyphs.png",
+    "bbox": [
+      53,
+      330,
+      806,
+      462
+    ],
+    "kind": "source_glyph_geometry_neutral_white_dark_stroke_alpha",
+    "sha256": "e4d26e5528f7f85a4cae9aa16ba1ca9f50f70b91b788999a9284306677df4cef"
+  },
+  "cn_bar_layer": {
+    "path": "source/endcard/endcard-cn-bar.png",
+    "bbox": [
+      48,
+      325,
+      812,
+      470
+    ],
+    "kind": "rebuilt_uniform_graphic_rectangle_no_scene_pixels",
+    "rgba": [
+      52,
+      48,
+      60,
+      204
+    ],
+    "method": "rebuilt uniform equivalent: this RGBA over source purple107,77,98 gives visible63,54,68; original author alpha is not exposed"
+  },
+  "measurements": [
+    {
+      "frame": 4926,
+      "time": 205.25,
+      "jp_visibility_estimate": 0.0,
+      "cn_visibility_estimate": 0.0,
+      "purple_background_fade_estimate": 0.0
+    },
+    {
+      "frame": 4932,
+      "time": 205.5,
+      "jp_visibility_estimate": 0.0018,
+      "cn_visibility_estimate": 0.0011,
+      "purple_background_fade_estimate": 0.0
+    },
+    {
+      "frame": 4938,
+      "time": 205.75,
+      "jp_visibility_estimate": 0.0091,
+      "cn_visibility_estimate": 0.0017,
+      "purple_background_fade_estimate": 0.0073
+    },
+    {
+      "frame": 4944,
+      "time": 206.0,
+      "jp_visibility_estimate": 0.027,
+      "cn_visibility_estimate": 0.008,
+      "purple_background_fade_estimate": 0.0
+    },
+    {
+      "frame": 4950,
+      "time": 206.25,
+      "jp_visibility_estimate": 0.0396,
+      "cn_visibility_estimate": 0.0,
+      "purple_background_fade_estimate": 0.0
+    },
+    {
+      "frame": 4956,
+      "time": 206.5,
+      "jp_visibility_estimate": 0.0581,
+      "cn_visibility_estimate": 0.0,
+      "purple_background_fade_estimate": 0.0508
+    },
+    {
+      "frame": 4962,
+      "time": 206.75,
+      "jp_visibility_estimate": 0.0958,
+      "cn_visibility_estimate": 0.0,
+      "purple_background_fade_estimate": 0.201
+    },
+    {
+      "frame": 4968,
+      "time": 207.0,
+      "jp_visibility_estimate": 0.1932,
+      "cn_visibility_estimate": 0.0,
+      "purple_background_fade_estimate": 0.3429
+    },
+    {
+      "frame": 4974,
+      "time": 207.25,
+      "jp_visibility_estimate": 0.2803,
+      "cn_visibility_estimate": 0.0,
+      "purple_background_fade_estimate": 0.4966
+    },
+    {
+      "frame": 4980,
+      "time": 207.5,
+      "jp_visibility_estimate": 0.4224,
+      "cn_visibility_estimate": 0.0,
+      "purple_background_fade_estimate": 0.6504
+    },
+    {
+      "frame": 4986,
+      "time": 207.75,
+      "jp_visibility_estimate": 0.5546,
+      "cn_visibility_estimate": 0.0,
+      "purple_background_fade_estimate": 0.7815
+    },
+    {
+      "frame": 4992,
+      "time": 208.0,
+      "jp_visibility_estimate": 0.6799,
+      "cn_visibility_estimate": 0.8929,
+      "purple_background_fade_estimate": 0.8812
+    },
+    {
+      "frame": 4998,
+      "time": 208.25,
+      "jp_visibility_estimate": 0.7961,
+      "cn_visibility_estimate": 0.9504,
+      "purple_background_fade_estimate": 0.949
+    },
+    {
+      "frame": 5004,
+      "time": 208.5,
+      "jp_visibility_estimate": 0.8783,
+      "cn_visibility_estimate": 0.9995,
+      "purple_background_fade_estimate": 1.0
+    },
+    {
+      "frame": 5010,
+      "time": 208.75,
+      "jp_visibility_estimate": 0.9485,
+      "cn_visibility_estimate": 0.9996,
+      "purple_background_fade_estimate": 1.0
+    },
+    {
+      "frame": 5016,
+      "time": 209.0,
+      "jp_visibility_estimate": 1.0,
+      "cn_visibility_estimate": 1.0,
+      "purple_background_fade_estimate": 1.0
+    }
+  ],
+  "measurement_limits": [
+    "Visibility is a local fixed-glyph high-frequency estimate on actual source, not ground-truth original author alpha.",
+    "Purple fade measured on static safe upper-left background patch, assumes underlying local source graphic stable.",
+    "Use reviewed monotone navigation keyframes, not noisy values blindly."
+  ],
+  "composite_order": [
+    "DS final-chaos TEXTLESS native key, no source Miku background",
+    "global purple wash fading in",
+    "independent CN gray bar fading in",
+    "JP white alpha and CN white/stroke alpha each at own timings",
+    "fixed black square at unchanged screen coordinates"
+  ],
+  "safe_source_handoff_frame": 5016,
+  "black_tail_start_exact": 5212,
+  "recommended_keyframes": {
+    "jp_opacity": [
+      [
+        4932,
+        0
+      ],
+      [
+        4944,
+        0.04
+      ],
+      [
+        4956,
+        0.09
+      ],
+      [
+        4962,
+        0.15
+      ],
+      [
+        4968,
+        0.25
+      ],
+      [
+        4974,
+        0.34
+      ],
+      [
+        4980,
+        0.46
+      ],
+      [
+        4986,
+        0.58
+      ],
+      [
+        4992,
+        0.69
+      ],
+      [
+        4998,
+        0.79
+      ],
+      [
+        5004,
+        0.88
+      ],
+      [
+        5010,
+        0.95
+      ],
+      [
+        5016,
+        1
+      ]
+    ],
+    "cn_opacity": [
+      [
+        4987,
+        0
+      ],
+      [
+        4988,
+        1
+      ],
+      [
+        5016,
+        1
+      ]
+    ],
+    "purple_background_opacity": [
+      [
+        4932,
+        0
+      ],
+      [
+        4950,
+        0
+      ],
+      [
+        4956,
+        0.05
+      ],
+      [
+        4962,
+        0.2
+      ],
+      [
+        4968,
+        0.34
+      ],
+      [
+        4974,
+        0.5
+      ],
+      [
+        4980,
+        0.65
+      ],
+      [
+        4986,
+        0.78
+      ],
+      [
+        4992,
+        0.88
+      ],
+      [
+        4998,
+        0.95
+      ],
+      [
+        5004,
+        1
+      ],
+      [
+        5016,
+        1
+      ]
+    ]
+  },
+  "cn_first_exposure_exact": {
+    "frame": 4988,
+    "time": 207.83333333333334,
+    "evidence_before": "source/endcard/onset-source-f04987.png",
+    "evidence_after": "source/endcard/onset-source-f04988.png",
+    "check": "actually viewed; before no CN panel/text, at4988 complete CN panel/text appears; fixed glyph bright core fraction0->.998"
+  }
+}

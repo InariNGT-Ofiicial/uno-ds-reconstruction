@@ -1,0 +1,7 @@
+IMAGE1 is an independently audited DS production frame and is the EDIT TARGET. Make only this tightly bounded clean derivative:
+
+Correct ONLY the small GRAY/OLD-GREEN HAIR-SHAPED PATCH in the IMAGE-RIGHT opening of the chair back near x900,y610. This is a leftover old-hair piece and should become matching continuous DS BLUE rear hair behind the chair, consistent with the adjacent blue hair, rather than a gray island. Keep the chair post/back silhouette, brown/mauve colors and edges EXACTLY unchanged. Do not alter the current wink/white-arch open eye, mouth, head/hair topology, hand gestures/card or any other area.
+
+EVERYTHING OUTSIDE THE SPECIFIED REMOVED OVERLAY/PATCH IS STRICTLY FROZEN: entire DS head and all hair locks/central leaf/side curls/headband/bows/fins, eye/brow/blush/mouth/chin/neck, both hands/fingers/UNO card pose/contact/lettering/corners, original white shirt and all folds/cuffs, body and camera placement/size/tilt/crop, pink scene and furniture, table playing cards/deck, all text/graphic overlays not specifically named for removal, and fixed black square. Preserve the exact existing pose and artwork. This is NOT a new character drawing, hairstyle change, or whole-scene redesign. No resize/recenter/lower/rotation/warp/liquify/stretch/shear. No added labels/props/characters/content.
+
+Return the SAME ONE complete opaque1672x941 landscape frame, with only that specified area cleaned and naturally completed. No transparency, panels, guides or new wording.

@@ -1,0 +1,416 @@
+{
+  "schema": "uno-fullfilm-source-audited-revision-v2",
+  "review": "audit/revision-v2/native-approved-assets.json",
+  "asset_replacements": {
+    "fanart_insert": "fanart_ds_title_v2",
+    "tease_forehead_B": "tease_forehead_B_hairlock_v2"
+  },
+  "range_overrides": [
+    {
+      "start_frame": 2447,
+      "end_frame_exclusive": 2458,
+      "asset_id": "revision_panic_motion_2454",
+      "reason": "actual distant shadowed upper face has no eyes; replaces wrong804 half-lid reuse before hands raise"
+    },
+    {
+      "start_frame": 2458,
+      "end_frame_exclusive": 2476,
+      "asset_id": "revision_panic_motion_2508",
+      "reason": "actual first nervous glance image-left after source raises both V hands; use new left-glance family rather than old2460 white-border family"
+    },
+    {
+      "start_frame": 2476,
+      "end_frame_exclusive": 2499,
+      "asset_id": "revision_panic_motion_2490",
+      "reason": "actual pupil glance switches to image-right at2476; native2490 right-glance key"
+    },
+    {
+      "start_frame": 2499,
+      "end_frame_exclusive": 2521,
+      "asset_id": "revision_panic_motion_2508",
+      "reason": "actual pupil glance returns image-left at2499; reuse exact native2508"
+    },
+    {
+      "start_frame": 2521,
+      "end_frame_exclusive": 2544,
+      "asset_id": "revision_panic_motion_2490",
+      "reason": "actual pupil glance returns image-right at2521; reuse exact native2490"
+    },
+    {
+      "start_frame": 2544,
+      "end_frame_exclusive": 2550,
+      "asset_id": "revision_panic_motion_2544",
+      "reason": "source eyes return toward center while head leans opposite; keep small crooked anxious mouth"
+    },
+    {
+      "start_frame": 2550,
+      "end_frame_exclusive": 2582,
+      "asset_id": "revision_panic_motion_2568",
+      "reason": "actual mouth becomes white clenched trembling grimace at2550; center nervous eyes and tooth grimace persist to same-shot cut2582"
+    },
+    {
+      "start_frame": 812,
+      "end_frame_exclusive": 854,
+      "asset_id": "revision_dark_motion_828",
+      "reason": "source enters both-V raised-hand class; level-eye first phase, use new828 family from entry to avoid old816 topology jump"
+    },
+    {
+      "start_frame": 854,
+      "end_frame_exclusive": 866,
+      "asset_id": "revision_dark_motion_858",
+      "reason": "first clear source left-eye-higher/hand-shoulder lean; near source858 extreme"
+    },
+    {
+      "start_frame": 866,
+      "end_frame_exclusive": 879,
+      "asset_id": "revision_dark_motion_870",
+      "reason": "source reversal to left-eye-lower lean, source870 extreme"
+    },
+    {
+      "start_frame": 879,
+      "end_frame_exclusive": 894,
+      "asset_id": "revision_dark_motion_858",
+      "reason": "second source left-eye-higher phase; repeat exact same native858 key, no mirrored/rotated pose"
+    },
+    {
+      "start_frame": 894,
+      "end_frame_exclusive": 904,
+      "asset_id": "revision_dark_motion_870",
+      "reason": "second source reverse lean, source898 extreme from same native870 key"
+    },
+    {
+      "start_frame": 904,
+      "end_frame_exclusive": 944,
+      "asset_id": "revision_dark_motion_912",
+      "reason": "source changes tiny O mouth to trembling smile near904; native912 holds through same shot until next source cut944"
+    },
+    {
+      "start_frame": 1543,
+      "end_frame_exclusive": 1588,
+      "asset_id": "taunt_swap_right_textless_blankmouth",
+      "source_side": "flank",
+      "reason": "Native exchanged-card-hand pose; existing same-side separate mouth and graphic events remain valid at fixed source position. No mirror/local hand paste."
+    },
+    {
+      "start_frame": 3737,
+      "end_frame_exclusive": 3782,
+      "asset_id": "taunt_swap_right_textless_blankmouth",
+      "source_side": "flank",
+      "reason": "Native exchanged-card-hand pose; existing same-side separate mouth and graphic events remain valid at fixed source position. No mirror/local hand paste."
+    },
+    {
+      "start_frame": 1588,
+      "end_frame_exclusive": 1634,
+      "asset_id": "taunt_swap_left_textless_blankmouth",
+      "source_side": "neutral",
+      "reason": "Native exchanged-card-hand pose; existing same-side separate mouth and graphic events remain valid at fixed source position. No mirror/local hand paste."
+    },
+    {
+      "start_frame": 3782,
+      "end_frame_exclusive": 3828,
+      "asset_id": "taunt_swap_left_textless_blankmouth",
+      "source_side": "neutral",
+      "reason": "Native exchanged-card-hand pose; existing same-side separate mouth and graphic events remain valid at fixed source position. No mirror/local hand paste."
+    },
+    {
+      "start_frame": 2345,
+      "end_frame_exclusive": 2368,
+      "asset_id": "maid_side_clasp",
+      "source_side": null,
+      "reason": "Exact original source native action key, independent static file review gates adoption by SHA. Source pose and original outfit authoritative; no mirror or local pose manufacture."
+    },
+    {
+      "start_frame": 2381,
+      "end_frame_exclusive": 2397,
+      "asset_id": "maid_opposite_sign",
+      "source_side": null,
+      "reason": "Exact original source native action key, independent static file review gates adoption by SHA. Source pose and original outfit authoritative; no mirror or local pose manufacture."
+    },
+    {
+      "start_frame": 2397,
+      "end_frame_exclusive": 2405,
+      "asset_id": "maid_paws_placard",
+      "source_side": null,
+      "reason": "Exact original source native action key, independent static file review gates adoption by SHA. Source pose and original outfit authoritative; no mirror or local pose manufacture."
+    },
+    {
+      "start_frame": 1681,
+      "end_frame_exclusive": 1692,
+      "asset_id": "table_neutral_empty_front",
+      "source_side": null,
+      "reason": "Exact original source native action key, independent static file review gates adoption by SHA. Source pose and original outfit authoritative; no mirror or local pose manufacture."
+    },
+    {
+      "start_frame": 4058,
+      "end_frame_exclusive": 4069,
+      "asset_id": "table_neutral_empty_front",
+      "source_side": null,
+      "reason": "Exact original source native action key, independent static file review gates adoption by SHA. Source pose and original outfit authoritative; no mirror or local pose manufacture."
+    },
+    {
+      "start_frame": 396,
+      "end_frame_exclusive": 423,
+      "asset_id": "score_deepseek_v2",
+      "reason": "User-requested character name relabel: DeepSeek; counts unchanged"
+    },
+    {
+      "start_frame": 31,
+      "end_frame_exclusive": 38,
+      "asset_id": "revision_intro_A_source36_B3_hair",
+      "reason": "Actual source hand/card extreme alternation; no fixed fps sample"
+    },
+    {
+      "start_frame": 38,
+      "end_frame_exclusive": 44,
+      "asset_id": "intro_palm_open",
+      "reason": "Actual source hand/card extreme alternation; no fixed fps sample"
+    },
+    {
+      "start_frame": 44,
+      "end_frame_exclusive": 51,
+      "asset_id": "revision_intro_A_source36_B3_hair",
+      "reason": "Actual source hand/card extreme alternation; no fixed fps sample"
+    },
+    {
+      "start_frame": 51,
+      "end_frame_exclusive": 57,
+      "asset_id": "intro_palm_open",
+      "reason": "Actual source hand/card extreme alternation; no fixed fps sample"
+    },
+    {
+      "start_frame": 57,
+      "end_frame_exclusive": 63,
+      "asset_id": "revision_intro_A_source36_B3_hair",
+      "reason": "Actual source hand/card extreme alternation; no fixed fps sample"
+    },
+    {
+      "start_frame": 63,
+      "end_frame_exclusive": 70,
+      "asset_id": "intro_palm_open",
+      "reason": "Actual source hand/card extreme alternation; no fixed fps sample"
+    },
+    {
+      "start_frame": 70,
+      "end_frame_exclusive": 76,
+      "asset_id": "revision_intro_A_source36_B3_hair",
+      "reason": "Actual source hand/card extreme alternation; no fixed fps sample"
+    },
+    {
+      "start_frame": 76,
+      "end_frame_exclusive": 83,
+      "asset_id": "intro_palm_open",
+      "reason": "Actual source hand/card extreme alternation; no fixed fps sample"
+    },
+    {
+      "start_frame": 83,
+      "end_frame_exclusive": 89,
+      "asset_id": "revision_intro_A_source36_B3_hair",
+      "reason": "Actual source hand/card extreme alternation; no fixed fps sample"
+    },
+    {
+      "start_frame": 89,
+      "end_frame_exclusive": 95,
+      "asset_id": "intro_palm_open",
+      "reason": "Actual source hand/card extreme alternation; no fixed fps sample"
+    },
+    {
+      "start_frame": 95,
+      "end_frame_exclusive": 102,
+      "asset_id": "revision_intro_A_source36_B3_hair",
+      "reason": "Actual source hand/card extreme alternation; no fixed fps sample"
+    },
+    {
+      "start_frame": 102,
+      "end_frame_exclusive": 108,
+      "asset_id": "intro_palm_open",
+      "reason": "Actual source hand/card extreme alternation; no fixed fps sample"
+    },
+    {
+      "start_frame": 108,
+      "end_frame_exclusive": 115,
+      "asset_id": "revision_intro_A_source36_B3_hair",
+      "reason": "Actual source hand/card extreme alternation; no fixed fps sample"
+    },
+    {
+      "start_frame": 115,
+      "end_frame_exclusive": 121,
+      "asset_id": "intro_palm_open",
+      "reason": "Actual source hand/card extreme alternation; no fixed fps sample"
+    },
+    {
+      "start_frame": 121,
+      "end_frame_exclusive": 127,
+      "asset_id": "revision_intro_A_source36_B3_hair",
+      "reason": "Actual source hand/card extreme alternation; no fixed fps sample"
+    },
+    {
+      "start_frame": 127,
+      "end_frame_exclusive": 134,
+      "asset_id": "intro_palm_open",
+      "reason": "Actual source hand/card extreme alternation; no fixed fps sample"
+    },
+    {
+      "start_frame": 134,
+      "end_frame_exclusive": 140,
+      "asset_id": "revision_intro_A_source36_B3_hair",
+      "reason": "Actual source hand/card extreme alternation; no fixed fps sample"
+    },
+    {
+      "start_frame": 140,
+      "end_frame_exclusive": 145,
+      "asset_id": "intro_palm_open",
+      "reason": "Actual source hand/card extreme alternation; no fixed fps sample"
+    },
+    {
+      "start_frame": 2624,
+      "end_frame_exclusive": 2642,
+      "asset_id": "plead_A",
+      "reason": "Actual original outward V-hand/card extreme vs face-side extreme"
+    },
+    {
+      "start_frame": 2642,
+      "end_frame_exclusive": 2659,
+      "asset_id": "plead_B_clean_v2",
+      "reason": "Actual original outward V-hand/card extreme vs face-side extreme"
+    },
+    {
+      "start_frame": 2659,
+      "end_frame_exclusive": 2672,
+      "asset_id": "plead_A",
+      "reason": "Actual original outward V-hand/card extreme vs face-side extreme"
+    },
+    {
+      "start_frame": 2672,
+      "end_frame_exclusive": 2682,
+      "asset_id": "plead_B_clean_v2",
+      "reason": "Actual original outward V-hand/card extreme vs face-side extreme"
+    },
+    {
+      "start_frame": 2682,
+      "end_frame_exclusive": 2693,
+      "asset_id": "plead_A",
+      "reason": "Actual original outward V-hand/card extreme vs face-side extreme"
+    },
+    {
+      "start_frame": 2693,
+      "end_frame_exclusive": 2705,
+      "asset_id": "plead_B_clean_v2",
+      "reason": "Actual original outward V-hand/card extreme vs face-side extreme"
+    },
+    {
+      "start_frame": 2705,
+      "end_frame_exclusive": 2715,
+      "asset_id": "plead_A",
+      "reason": "Actual original outward V-hand/card extreme vs face-side extreme"
+    },
+    {
+      "start_frame": 2715,
+      "end_frame_exclusive": 2728,
+      "asset_id": "plead_B_clean_v2",
+      "reason": "Actual original outward V-hand/card extreme vs face-side extreme"
+    },
+    {
+      "start_frame": 2728,
+      "end_frame_exclusive": 2739,
+      "asset_id": "plead_A",
+      "reason": "Actual original outward V-hand/card extreme vs face-side extreme"
+    },
+    {
+      "start_frame": 2739,
+      "end_frame_exclusive": 2751,
+      "asset_id": "plead_B_clean_v2",
+      "reason": "Actual original outward V-hand/card extreme vs face-side extreme"
+    },
+    {
+      "start_frame": 2751,
+      "end_frame_exclusive": 2760,
+      "asset_id": "plead_A",
+      "reason": "Actual original outward V-hand/card extreme vs face-side extreme"
+    },
+    {
+      "start_frame": 2760,
+      "end_frame_exclusive": 2776,
+      "asset_id": "plead_B_clean_v2",
+      "reason": "Actual original outward V-hand/card extreme vs face-side extreme"
+    },
+    {
+      "start_frame": 2776,
+      "end_frame_exclusive": 2777,
+      "asset_id": "plead_A",
+      "reason": "Actual original outward V-hand/card extreme vs face-side extreme"
+    },
+    {
+      "start_frame": 4012,
+      "end_frame_exclusive": 4046,
+      "asset_id": "center_dark_closed_v2",
+      "reason": "Actual source4012 closes eyes and changes O mouth to small smile"
+    },
+    {
+      "start_frame": 2961,
+      "end_frame_exclusive": 2984,
+      "asset_id": "fold_arm_left_sleepy_v2",
+      "reason": "Actual source2961 changes round eyes/open grin to sleepy half eyes/small pout"
+    },
+    {
+      "start_frame": 1692,
+      "end_frame_exclusive": 1703,
+      "asset_id": "dab_start",
+      "reason": "Exact source action side/back lowering begins1692; prior1681 onset was early."
+    },
+    {
+      "start_frame": 1703,
+      "end_frame_exclusive": 1725,
+      "asset_id": "dab_land",
+      "reason": "Full front landing begins1703, not1699. Connecting1699..1702 uses prior side/back key hold."
+    },
+    {
+      "start_frame": 4069,
+      "end_frame_exclusive": 4080,
+      "asset_id": "dab_start",
+      "reason": "Source reprise is exact timing offset+2377 to first dab: side/back starts4069."
+    },
+    {
+      "start_frame": 4080,
+      "end_frame_exclusive": 4102,
+      "asset_id": "dab_land",
+      "reason": "Source reprise front landing starts4080, not4076."
+    },
+    {
+      "start_frame": 2405,
+      "end_frame_exclusive": 2447,
+      "asset_id": "maid_upside_down",
+      "reason": "Source returns to upside-down core at2405; pure-color curtain occlusion from2407 applies OVER this adopted upside-down key."
+    },
+    {
+      "start_frame": 1886,
+      "end_frame_exclusive": 1907,
+      "asset_id": "maid_paws",
+      "reason": "Actual source hard cut to maid-paw insert is1886 (1885 chorus,1907 return). Existing1896 maid-paw extreme held through entrance connecting poses, no new artwork."
+    }
+  ],
+  "approved_new_assets": [
+    "center_dark_closed_v2",
+    "fanart_ds_title_v2",
+    "fold_arm_left_sleepy_v2",
+    "maid_opposite_sign",
+    "maid_paws_placard",
+    "maid_side_clasp",
+    "plead_B_clean_v2",
+    "revision_dark_motion_828",
+    "revision_dark_motion_858",
+    "revision_dark_motion_870",
+    "revision_dark_motion_912",
+    "revision_intro_A_source36_B3_hair",
+    "revision_panic_motion_2454",
+    "revision_panic_motion_2490",
+    "revision_panic_motion_2508",
+    "revision_panic_motion_2544",
+    "revision_panic_motion_2568",
+    "score_deepseek_v2",
+    "table_neutral_empty_front",
+    "taunt_swap_left_textless_blankmouth",
+    "taunt_swap_right_textless_blankmouth",
+    "tease_forehead_B_hairlock_v2"
+  ],
+  "policy": "Retain action switches/extrema and independent expressions/graphics; discard connecting artwork; no fixed4fps grid or pose warp"
+}

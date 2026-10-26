@@ -1,0 +1,1533 @@
+{
+  "schema_version": "uno-fullfilm-v4-independent-adoption-1",
+  "reviewer": "fullfilm_consistency_audit",
+  "scope": "native artwork static pose/identity review; shot timing and actual encoded adjacency remain separate",
+  "approved_assets": [
+    {
+      "asset_id": "intro_palm_open",
+      "source_frame": 42,
+      "path": "production/pair-a/generated/intro-wave-B-f00042-r3.png",
+      "sha256": "d77161b5bbe5d72b63193083b4d69a1685a3742fddf193cfc8df4d4303d5488d",
+      "status": "approved_native_key_art",
+      "reason": "source face/body/hands/two cards/crop preserved; central main leaf corrected, large added outer hook removed; connected loose blue hair and accessories",
+      "minor_residual": "small central side companion tip is fixed for this front-facing angle; no extra hook or loop",
+      "temporal_adjacency_review": "Use single approved B3 head/body hold for intro; discarded introA not switched. Independent original-timed mouth/name card events and encoded final clip still pending.",
+      "review": "pair-a-intro-wave-B-f00042-r3-review.json"
+    },
+    {
+      "asset_id": "center_card",
+      "source_frame": 276,
+      "path": "production/pair-b/generated/center-card-f00276-r2.png",
+      "sha256": "a7817d8aa3d67fd72d0f6a969805357e082c88d01fb9a32ff72f9e0d865d5f9b",
+      "status": "approved_native_key_art",
+      "reason": "Native source face/eye/mouth, single card/two fingers, shirt collar and black-square framing retained; pointed central leaf and extra outer curls corrected, continuous downward loose hair.",
+      "minor_residual": "",
+      "review_scope": "actual native artwork viewed; source identity/pose and adjacent artwork checked as stated in reason",
+      "temporal_adjacency_review": "actual encoded shot pending"
+    },
+    {
+      "asset_id": "dab_rear",
+      "source_frame": 342,
+      "path": "production/pair-a/generated/dab-rear-f00342-r1.png",
+      "sha256": "4a2b11f8d99aa51345c5988f1bc758b84331ff89c9558889bb83d4f3d93138cf",
+      "status": "approved_native_key_art",
+      "reason": "Actual same-canvas source comparison: dab lowered head/face occlusion, sleeves/arms/card and table retained; connected DS loose hair/headband/fins.",
+      "minor_residual": "Small lower-edge hair curls and narrow rear-hair separation; not a major topology issue at this shot.",
+      "review_scope": "actual native artwork viewed; source identity/pose and adjacent artwork checked as stated in reason",
+      "temporal_adjacency_review": "actual encoded shot pending"
+    },
+    {
+      "asset_id": "taunt_left_close",
+      "source_frame": 456,
+      "path": "production/pair-a/generated/taunt-left-close-f00456-r1.png",
+      "sha256": "d79927eca7b1a95512df99b7fef7c2c0a393c318eb1531b9f300039642438bdd",
+      "status": "approved_native_key_art",
+      "reason": "Actual same-canvas source comparison: face/closed mouth, both hand gestures and UNO card, shirt, caption/speech panel and black square retained; central DS leaf and main curl structure coherent.",
+      "minor_residual": "Thin rear-hair strip creates a narrow background slit; retain as small static residual, no further generation.",
+      "review_scope": "actual native artwork viewed; source identity/pose and adjacent artwork checked as stated in reason",
+      "temporal_adjacency_review": "actual encoded shot pending"
+    },
+    {
+      "asset_id": "taunt_right",
+      "source_frame": 540,
+      "path": "production/pair-a/generated/taunt-right-f00540-r1.png",
+      "sha256": "13af89653c858fd81e2e05d453449ea65b5989c2a5b42e0ee38f53e2e21b45f6",
+      "status": "approved_native_key_art",
+      "reason": "Actual source comparison: right-side taunt face/eye/open mouth, card and raised palm, shirt, Japanese speech and Chinese caption retained; continuous central leaf and broad rear hair, no extra large loop.",
+      "minor_residual": "",
+      "review_scope": "actual native artwork viewed; source identity/pose and adjacent artwork checked as stated in reason",
+      "temporal_adjacency_review": "actual encoded shot pending"
+    },
+    {
+      "asset_id": "point_above",
+      "source_frame": 612,
+      "path": "production/pair-a/generated/point-above-f00612-r1.png",
+      "sha256": "fdc55b781f9cf91c02204c01eeff72435417fa645217b38b2d01754fc7c97d79",
+      "status": "approved_native_key_art",
+      "reason": "Actual source comparison: upward pointing fingers remain at original source positions rather than chasing DS bow; face/grin/shirt/table/caption retained; connected blue hair with coherent main curls.",
+      "minor_residual": "",
+      "review_scope": "actual native artwork viewed; source identity/pose and adjacent artwork checked as stated in reason",
+      "temporal_adjacency_review": "actual encoded shot pending"
+    },
+    {
+      "asset_id": "point_forward",
+      "source_frame": 624,
+      "path": "production/pair-a/generated/point-forward-f00624-r1.png",
+      "sha256": "7a31d28bf2f3f19a024af5ee9adb2f59d6753800f365fbf5325bcf6fb794a2d8",
+      "status": "approved_native_key_art",
+      "reason": "Actual source comparison: large foreshortened pointing hand/arm, face grin/eyes, shirt and table cards retained; broad connected blue hair and cropped DS headwear, no large added loop.",
+      "minor_residual": "",
+      "review_scope": "actual native artwork viewed; source identity/pose and adjacent artwork checked as stated in reason",
+      "temporal_adjacency_review": "actual encoded shot pending"
+    },
+    {
+      "asset_id": "dark_panic",
+      "source_frame": 2460,
+      "path": "production/pair-root/generated/dark-panic-f02460-r1.png",
+      "sha256": "90f1c65a349c32af25930c27f023eca896e4f46eb866bf23c8afb362248b7695",
+      "status": "approved_native_key_art",
+      "reason": "Actual source comparison: dark-panic eye whites/pupils, two peace hands and UNO card, shirt, dark pillar framing/caption/black square retained; DS hair and headwear replace green/cat parts.",
+      "minor_residual": "Source-style luminous white rim redrawn around DS silhouette, not a retained old-Miku outline.",
+      "review_scope": "actual native artwork viewed; source identity/pose and adjacent artwork checked as stated in reason",
+      "temporal_adjacency_review": "actual encoded shot pending"
+    },
+    {
+      "asset_id": "head_down_dark",
+      "source_frame": 2586,
+      "path": "production/pair-root/generated/head-down-dark-f02586-r1.png",
+      "sha256": "d6590875b74dcf6e25b85a58cca67d5990d88b7c5f82e344983d6a843e089def",
+      "status": "approved_native_key_art",
+      "reason": "Actual source comparison: bowed hidden face, torso, both planted palms/table cards, dark pillar framing retained; DS crown/fringe/loose hair and headwear; one main curl per side.",
+      "minor_residual": "",
+      "review_scope": "actual native artwork viewed; source identity/pose and adjacent artwork checked as stated in reason",
+      "temporal_adjacency_review": "actual encoded shot pending"
+    },
+    {
+      "asset_id": "plead_A",
+      "source_frame": 2628,
+      "path": "production/pair-root/generated/plead-A-f02628-r1.png",
+      "sha256": "4473141e5f8b527dc02ff899bfb26a4f31532ca0cfee2ccd39cf8b0b5ba572fd",
+      "status": "approved_native_key_art",
+      "reason": "Actual source comparison: pleading eyes/teeth/cheek shadow, source peace fingers/card/collar and portrait crop retained; connected DS main hair leaves and one inner right curl.",
+      "minor_residual": "",
+      "review_scope": "actual native artwork viewed; source identity/pose and adjacent artwork checked as stated in reason",
+      "temporal_adjacency_review": "actual encoded shot pending"
+    },
+    {
+      "asset_id": "taunt_left_table",
+      "source_frame": 636,
+      "path": "production/pair-a/generated/taunt-left-table-f00636-r1.png",
+      "sha256": "52de021f474fefa1a1b1bfe154e9eba434ad8937e3f3150c55e0bffc06cb18b9",
+      "status": "approved_native_key_art",
+      "reason": "Actual source comparison: table-left taunt face, raised palm, held card, white shirt, speech/caption and black square retained; coherent main leaf and continuous rear blue hair.",
+      "minor_residual": "",
+      "review_scope": "actual native artwork viewed; source identity/pose and adjacent artwork checked as stated in reason",
+      "temporal_adjacency_review": "actual encoded shot pending"
+    },
+    {
+      "asset_id": "taunt_right_close",
+      "source_frame": 738,
+      "path": "production/pair-a/generated/taunt-right-close-f00738-r1.png",
+      "sha256": "29a6ac3f81cef93da3d58cce0f5b4c05dda38967f6cfe0f02d751cc6b7a7a2de",
+      "status": "approved_native_key_art",
+      "reason": "Actual source comparison: right close taunt eyes/open mouth, two hand gestures and card/cuffs, Japanese speech and Chinese caption retained; central main leaf and one main left curl, no multiple ring topology.",
+      "minor_residual": "Minor native face/line redrawing; one left curl treated as sole main curl, not an additional repeated coil.",
+      "review_scope": "actual native artwork viewed; source identity/pose and adjacent artwork checked as stated in reason",
+      "temporal_adjacency_review": "actual encoded shot pending"
+    },
+    {
+      "asset_id": "surprise_side",
+      "source_frame": 426,
+      "path": "production/pair-a/generated/surprise-side-f00426-r2.png",
+      "sha256": "bde711e775526cf360f678f88710a1404ae0ac5c4109fed46a710096364f4a41",
+      "status": "approved_native_key_art",
+      "reason": "Actual source comparison: face, hands/card, shirt, dark scene and caption retained; large outer S-hooks and ring removed, blue hair now continuous broad downward masses.",
+      "minor_residual": "",
+      "review_scope": "actual native artwork viewed; source identity/pose and adjacent artwork checked as stated in reason",
+      "temporal_adjacency_review": "actual encoded shot pending"
+    },
+    {
+      "asset_id": "taunt_close_A",
+      "source_frame": 1380,
+      "path": "production/pair-b/generated/taunt-neutral-f01380-r2.png",
+      "sha256": "ad67ae390c4d70084bb166d4cf9fe431bd5cdd6f2da609e65d0db69b15489944",
+      "status": "approved_native_key_art",
+      "reason": "Current source face/grin, hands and UNO card, shirt, speech/caption and black square retained; extra right S-bend/bottom hook removed, continuous central leaf and one inner curl retained.",
+      "minor_residual": "",
+      "review_scope": "actual native artwork viewed; source identity/pose and adjacent artwork checked as stated in reason",
+      "temporal_adjacency_review": "actual encoded shot pending"
+    },
+    {
+      "asset_id": "clap_pose_A",
+      "source_frame": 1500,
+      "path": "production/pair-b/generated/clap-forehead-A-f01500-r2.png",
+      "sha256": "f47a39dc065ebcd91af6acf35bdae7ae4cb2b4a13ac515958355f6ae250f64bc",
+      "status": "approved_native_key_art",
+      "reason": "Current source seated pose, forehead fingers/held card, legs/shoes, audience hands, text and framing retained; old green fragment now blue, multiple outer coils removed.",
+      "minor_residual": "One narrow gap between continuous broad rear locks; no new multilevel S-coil; does not need another correction.",
+      "review_scope": "actual native artwork viewed; source identity/pose and adjacent artwork checked as stated in reason",
+      "temporal_adjacency_review": "actual encoded shot pending"
+    },
+    {
+      "asset_id": "chorus_tilt_left",
+      "source_frame": 1728,
+      "path": "production/pair-b/generated/chorus-tilt-left-f01728-r2.png",
+      "sha256": "53fbbb746ba36544e5685c9b1502376a369ae382fc11a38a94d04c91df4f2af7",
+      "status": "approved_native_key_art",
+      "reason": "Current source head tilt, closed mouth/eyes, held card/two hands, table and giant text retained; central leaf now single clear main tip and added outer hook removed.",
+      "minor_residual": "",
+      "review_scope": "actual native artwork viewed; source identity/pose and adjacent artwork checked as stated in reason",
+      "temporal_adjacency_review": "actual encoded shot pending"
+    },
+    {
+      "asset_id": "dark_center_card",
+      "source_frame": 804,
+      "path": "production/pair-a/generated/dark-center-card-f00804-r1.png",
+      "sha256": "e21f725f3a80967fb41a9cf5e5355f818ada544f1b5c99857e0523609b980c79",
+      "status": "approved_native_key_art",
+      "reason": "Actual source comparison: hands/card intentionally not visible at this key, face/closed small mouth, white shirt/table and full dark stage retained; connected rear hair and one main curl each side.",
+      "minor_residual": "",
+      "review_scope": "actual native artwork viewed; source identity/pose and adjacent artwork checked as stated in reason",
+      "temporal_adjacency_review": "actual encoded shot pending"
+    },
+    {
+      "asset_id": "dark_fingers",
+      "source_frame": 816,
+      "path": "production/pair-a/generated/dark-fingers-f00816-r1.png",
+      "sha256": "1eda91325725da18b1e552b09e2f35d8d0ac96c92575715f20331d728f960745",
+      "status": "approved_native_key_art",
+      "reason": "Actual source comparison: source narrow O mouth, sleepy eyes, fingers beside eyes with horizontal card, shirt and pillar bars/caption retained; consistent broad blue hair, no added ring coil.",
+      "minor_residual": "",
+      "review_scope": "actual native artwork viewed; source identity/pose and adjacent artwork checked as stated in reason",
+      "temporal_adjacency_review": "actual encoded shot pending"
+    },
+    {
+      "asset_id": "wink_hand",
+      "source_frame": 984,
+      "path": "production/pair-a/generated/wink-hand-f00984-r1.png",
+      "sha256": "dc1cfebc1ec2e65068002978b8903eae5e3683adffa815687551572000abc59f",
+      "status": "approved_native_key_art",
+      "reason": "Actual source comparison: one eye winks, small puckered mouth, forward hand gesture, white shirt and table/card arrangement retained; one partly occluded left curl behind sleeve is a main curl not a new multilevel ring.",
+      "minor_residual": "",
+      "review_scope": "actual native artwork viewed; source identity/pose and adjacent artwork checked as stated in reason",
+      "temporal_adjacency_review": "actual encoded shot pending"
+    },
+    {
+      "asset_id": "taunt_flank_A",
+      "source_frame": 1416,
+      "path": "production/pair-b/generated/taunt-flank-f01416-r1.png",
+      "sha256": "4a495887c9ee84aac93a22db01adfc95b4c2aa32751fc40b69acc34ca936d47e",
+      "status": "approved_native_key_art",
+      "reason": "Actual source comparison and adjacent1380 review: reverse side taunt/grin, hand/card, shirt, speech and caption retained; connected central main leaf and one main curl per side, no new multilevel ring.",
+      "minor_residual": "",
+      "review_scope": "actual native artwork viewed; source identity/pose and adjacent artwork checked as stated in reason",
+      "temporal_adjacency_review": "actual encoded shot pending"
+    },
+    {
+      "asset_id": "chorus_tilt_right",
+      "source_frame": 1776,
+      "path": "production/pair-b/generated/chorus-tilt-right-f01776-r1.png",
+      "sha256": "00791e45e89c54ee5a95b7f69da53e55a2cbc596806dbffc3d854abf8440481d",
+      "status": "approved_native_key_art",
+      "reason": "Actual source comparison and adjacent1728 review: opposite head-tilt extreme, closed mouth/eyes, held card/two hands, chair/table and giant text retained; same dominant central leaf and side/main-curl topology across left-right poses.",
+      "minor_residual": "One thin long rear-lock separation, no extra coil; no further correction.",
+      "review_scope": "actual native artwork viewed; source identity/pose and adjacent artwork checked as stated in reason",
+      "temporal_adjacency_review": "actual encoded shot pending"
+    },
+    {
+      "asset_id": "dab_start",
+      "source_frame": 1692,
+      "path": "production/pair-b/generated/dab-start-f01692-r1.png",
+      "sha256": "6de95a06f0d54d50843838cbe15bc31162e2f4ed70ea969ad740130d336f01e4",
+      "status": "approved_native_key_art",
+      "reason": "Actual source comparison: side/back lowered head without invented face, source torso/sleeves, 33-4 text/chair/table/cards retained; loose blue rear hair continuous and DS headwear perspective coherent.",
+      "minor_residual": "",
+      "review_scope": "actual native artwork viewed; source identity/pose and adjacent artwork checked as stated in reason",
+      "temporal_adjacency_review": "actual encoded shot pending"
+    },
+    {
+      "asset_id": "dab_land",
+      "source_frame": 1704,
+      "path": "production/pair-b/generated/dab-land-f01704-r1.png",
+      "sha256": "c3631dedab2d110b46a28d8d972ecc842b7d6fea1ab83102d7abf152f7826585",
+      "status": "approved_native_key_art",
+      "reason": "Actual source comparison: front-facing lowered head with eyes completely hidden, open outstretched arms/left palm, white sleeves/table/cards and 33-4 retained; connected DS loose hair and cropped-over-face fringe.",
+      "minor_residual": "",
+      "review_scope": "actual native artwork viewed; source identity/pose and adjacent artwork checked as stated in reason",
+      "temporal_adjacency_review": "actual encoded shot pending"
+    },
+    {
+      "asset_id": "lean_forward",
+      "source_frame": 2778,
+      "path": "production/pair-root/generated/lean-forward-f02778-r1.png",
+      "sha256": "4193767b40417da51ed922c1e5fbc3a3bc6c52d003dbcc1b00566a379dc86178",
+      "status": "approved_native_key_art",
+      "reason": "Actual source comparison: leaning face/small expression, UNO card/fingers and resting forearm, white shirt, black square and dark framing retained; connected DS loose hair, old cat-ear removed.",
+      "minor_residual": "",
+      "review_scope": "actual native artwork viewed; source identity/pose and adjacent artwork checked as stated in reason",
+      "temporal_adjacency_review": "actual encoded shot pending"
+    },
+    {
+      "asset_id": "fold_arm_right",
+      "source_frame": 2826,
+      "path": "production/pair-root/generated/fold-arm-right-f02826-r1.png",
+      "sha256": "f4e3f4c7cfffe4594cc53f673f89ff1b9d68acd18b587926178fc04e6f3d6909",
+      "status": "approved_native_key_art",
+      "reason": "Actual source comparison: source side torso/extended sleeves, bell and hands, open mouth/eyes, vertical split composition and Japanese/Chinese text retained; cropped DS blue hair and headwear coherent, green fragments removed.",
+      "minor_residual": "",
+      "review_scope": "actual native artwork viewed; source identity/pose and adjacent artwork checked as stated in reason",
+      "temporal_adjacency_review": "actual encoded shot pending"
+    },
+    {
+      "asset_id": "fold_arm_left",
+      "source_frame": 2916,
+      "path": "production/pair-root/generated/fold-arm-left-f02916-r1.png",
+      "sha256": "4405a7c4f49c7b1f1aff7967b331233983fdb1b1954f30c0c888c6385d1dc89a",
+      "status": "approved_native_key_art",
+      "reason": "Actual source comparison: opposite side torso/extended sleeves, bell and hands, smiling mouth/eyes, vertical split composition and Japanese/Chinese text retained; source crop preserved with new DS hair and accessories.",
+      "minor_residual": "",
+      "review_scope": "actual native artwork viewed; source identity/pose and adjacent artwork checked as stated in reason",
+      "temporal_adjacency_review": "actual encoded shot pending"
+    },
+    {
+      "asset_id": "sleep_table",
+      "source_frame": 3006,
+      "path": "production/pair-root/generated/sleep-table-f03006-r1.png",
+      "sha256": "d32ebf45e4fbc52b93f77adf0abefcc1448eb93ac87b887a9e6e0a72f3b8c3c6",
+      "status": "approved_native_key_art",
+      "reason": "Actual source comparison: curled sleeping posture and closed eye, microphone/hand, bell/other hand, UNO card and chain, clothing folds/table and caption retained; sideways connected DS hair and headwear, source-style rim redrawn.",
+      "minor_residual": "",
+      "review_scope": "actual native artwork viewed; source identity/pose and adjacent artwork checked as stated in reason",
+      "temporal_adjacency_review": "actual encoded shot pending"
+    },
+    {
+      "asset_id": "head_back_cry",
+      "source_frame": 996,
+      "path": "production/pair-a/generated/head-back-cry-f00996-r2.png",
+      "sha256": "f0d61aee6123a583eccb7b0342296c5b32aed19a055e0ecf5ada551ae3ac8768",
+      "status": "approved_native_key_art",
+      "reason": "Actual source and corrected output reviewed: eyeless head-back open-mouth cry, chest card/hand and shirt/chair retained; old green rear-hair fragment behind chair now blue.",
+      "minor_residual": "",
+      "review_scope": "actual native artwork viewed; source identity/pose and adjacent artwork checked as stated in reason",
+      "temporal_adjacency_review": "actual encoded shot pending"
+    },
+    {
+      "asset_id": "tease_forehead_A",
+      "source_frame": 1020,
+      "path": "production/pair-a/generated/tease-forehead-A-f01020-r2.png",
+      "sha256": "41fb480a46950fb64ec30a7f971eca8199da91ba8d4c9e43200c98a20eacdf62",
+      "status": "approved_native_key_art",
+      "reason": "Actual source and corrected output reviewed: half-open right eye with white pupil restored, left wink/open mouth and hands/card retained; blue stroke removed from gray table apron, lower old-green hair fragment now blue.",
+      "minor_residual": "",
+      "review_scope": "actual native artwork viewed; source identity/pose and adjacent artwork checked as stated in reason",
+      "temporal_adjacency_review": "actual encoded shot pending"
+    },
+    {
+      "asset_id": "lean_forehead_close",
+      "source_frame": 1044,
+      "path": "production/pair-a/generated/lean-forehead-close-f01044-r2.png",
+      "sha256": "fb4cf069f58e8994bcc1d4acaac605428d63ed82ecc2ffe64070dc02c1d4351a",
+      "status": "approved_native_key_art",
+      "reason": "Actual source and corrected output reviewed: face/eyebrows/tongue expression, fingers/shirt and source close framing retained; upper-right old pink cat-ear frame removed, DS hair/headwear coherent.",
+      "minor_residual": "",
+      "review_scope": "actual native artwork viewed; source identity/pose and adjacent artwork checked as stated in reason",
+      "temporal_adjacency_review": "actual encoded shot pending"
+    },
+    {
+      "asset_id": "hashtag_side",
+      "source_frame": 2082,
+      "path": "production/pair-b/generated/hashtag-side-f02082-r1.png",
+      "sha256": "645d08f8c84c2d09dc3766af5e8d32c70c154d1a48330130d03839822d7a7a41",
+      "status": "approved_native_key_art",
+      "reason": "Actual source comparison: standing side pose/three-finger gesture, shirt and skirt/leg/chain props, face and large hashtag board/black square retained; connected main fringe and inner curls coherent.",
+      "minor_residual": "Fuller body crop reveals additional bottom hair-tip curls consistent with original DS long-hair ends; distinguish these from extra coils near head, no new correction.",
+      "review_scope": "actual native artwork viewed; source identity/pose and adjacent artwork checked as stated in reason",
+      "temporal_adjacency_review": "actual encoded shot pending"
+    },
+    {
+      "asset_id": "arm_stretch",
+      "source_frame": 2172,
+      "path": "production/pair-b/generated/arm-stretch-f02172-r1.png",
+      "sha256": "c47345413c61810d33eb4fcb4bfa34577852a31c59c5ec2164d32c5353505904",
+      "status": "approved_native_key_art",
+      "reason": "Actual source comparison: UNO card on head, stretched arm, right fingers, eyes/open mouth, white shirt and source framing retained; clear dominant fringe leaf and broad continuous rear hair.",
+      "minor_residual": "",
+      "review_scope": "actual native artwork viewed; source identity/pose and adjacent artwork checked as stated in reason",
+      "temporal_adjacency_review": "actual encoded shot pending"
+    },
+    {
+      "asset_id": "lean_forehead_wide",
+      "source_frame": 1056,
+      "path": "production/pair-a/generated/lean-forehead-wide-f01056-r1.png",
+      "sha256": "add7cd547fd3d454e722ac796916d6786c919e6f0a7fcdd85d5233236d5e1d57",
+      "status": "approved_native_key_art",
+      "reason": "Actual source comparison: split-panel borders and enlarged fragment crops retained; central forehead/face/arms/card/shirt and table stay in place; visible old green/pink cat-hair fragments replaced with connected DS blue hair/headwear across panels.",
+      "minor_residual": "",
+      "review_scope": "actual native artwork viewed; source identity/pose and adjacent artwork checked as stated in reason",
+      "temporal_adjacency_review": "actual encoded shot pending"
+    },
+    {
+      "asset_id": "tease_flip",
+      "source_frame": 1080,
+      "path": "production/pair-a/generated/tease-flip-f01080-r1.png",
+      "sha256": "979d4c34dde622bd0ba9baf3bc55c140212f6b2c8cc1022177c7d0044f57792b",
+      "status": "approved_native_key_art",
+      "reason": "Actual source comparison: opposite-facing wide wink pose, half-open other eye, raised card and foreground open hand, shirt/chair/table and speech/caption retained; native drawing rather than code mirror, coherent DS main hair.",
+      "minor_residual": "",
+      "review_scope": "actual native artwork viewed; source identity/pose and adjacent artwork checked as stated in reason",
+      "temporal_adjacency_review": "actual encoded shot pending"
+    },
+    {
+      "asset_id": "cheek_close",
+      "source_frame": 1092,
+      "path": "production/pair-a/generated/cheek-close-f01092-r1.png",
+      "sha256": "bb1a19f9225b6a199b826f7e06d744be91445f6e64475357ce5b693da2bf75e9",
+      "status": "approved_native_key_art",
+      "reason": "Actual source comparison: smiling sleepy eyes/tongue mouth, cheek-pointing finger and sleeve, shirt and split-panel framing retained; source green hair/cat-ear fragments replaced across center/side panels, DS main topology coherent.",
+      "minor_residual": "",
+      "review_scope": "actual native artwork viewed; source identity/pose and adjacent artwork checked as stated in reason",
+      "temporal_adjacency_review": "actual encoded shot pending"
+    },
+    {
+      "asset_id": "maid_paws",
+      "source_frame": 1896,
+      "path": "production/pair-b/generated/maid-paws-f01896-r2.png",
+      "sha256": "ed54e9c0aedcccb02ec57264d431da005f6d88a294ab7e05031b77eb2d7fe25b",
+      "status": "approved_native_key_art",
+      "reason": "Actual source comparison and directed revision viewed: central fringe simplified into continuous main leaf; original MV maid costume/paws/legs/collar/bell and pose retained; source cat-tail geometry retained with blue accessory color, no whale tail.",
+      "minor_residual": "",
+      "review_scope": "actual native artwork viewed; source identity/pose and adjacent artwork checked as stated in reason",
+      "temporal_adjacency_review": "actual encoded shot pending"
+    },
+    {
+      "asset_id": "game_prepare",
+      "source_frame": 3174,
+      "path": "production/pair-root/generated/game-prepare-f03174-r1.png",
+      "sha256": "37086103d7ba01bcdae55c3868f87ec3069440148dc54df03124639ff612f7fc",
+      "status": "approved_native_key_art",
+      "reason": "Actual source comparison: eyeless minimal face/mouth, prepared arm and torso, gong/table and foreground opponent fan cards retained; cropped DS headwear and broad connected blue hair.",
+      "minor_residual": "",
+      "review_scope": "actual native artwork viewed; source identity/pose and adjacent artwork checked as stated in reason",
+      "temporal_adjacency_review": "actual encoded shot pending"
+    },
+    {
+      "asset_id": "center_dark_card",
+      "source_frame": 3924,
+      "path": "production/pair-root/generated/center-dark-card-f03924-r1.png",
+      "sha256": "0f37efcf736bc7a02078d999ad17ae616c01ed160dab461d0bfdd7c1a47ee0f0",
+      "status": "approved_native_key_art",
+      "reason": "Actual source comparison: centered sleepy eyes/O-mouth with cheek shadow, one card/two fingers, white shirt/chair and dark pillars/caption retained; consistent blue main leaf, side locks and one inner main curl each side.",
+      "minor_residual": "",
+      "review_scope": "actual native artwork viewed; source identity/pose and adjacent artwork checked as stated in reason",
+      "temporal_adjacency_review": "actual encoded shot pending"
+    },
+    {
+      "asset_id": "dynamite_face",
+      "source_frame": 4050,
+      "path": "production/pair-root/generated/dynamite-face-f04050-r1.png",
+      "sha256": "1af56a76ccd544fa1ef8913f7f71db6f01d2387824ac84cac988a6f28bdaa5c4",
+      "status": "approved_native_key_art",
+      "reason": "Actual source comparison: giant dark-purple eyes with two white O shapes per eye intentionally match source ghosting, source face shade/Dynamite caption and white side borders retained; clear DS blue fringe/fins/headband at source crop.",
+      "minor_residual": "Small pale-teal corner areas at upper picture edges retained as source/background residual; not using a global low-difference score as identity proof.",
+      "review_scope": "actual native artwork viewed; source identity/pose and adjacent artwork checked as stated in reason",
+      "temporal_adjacency_review": "actual encoded shot pending"
+    },
+    {
+      "asset_id": "maid_close_paws",
+      "source_frame": 4266,
+      "path": "production/pair-root/generated/maid-close-paws-f04266-r1.png",
+      "sha256": "4468863953b3ff45da91bbf3ed5f7b900eb92195dc8aa53a16ae2f35c8b9bffd",
+      "status": "approved_native_key_art",
+      "reason": "Actual source comparison: gray shaded face, simple white eye symbols, original cheek/nose highlights and tongue-mouth, both cat paws/collar/costume and tight crop retained; old cat-ear/green hair replaced with DS blue locks and fin/headwear.",
+      "minor_residual": "",
+      "review_scope": "actual native artwork viewed; source identity/pose and adjacent artwork checked as stated in reason",
+      "temporal_adjacency_review": "actual encoded shot pending"
+    },
+    {
+      "asset_id": "center_taunt_closed",
+      "source_frame": 4290,
+      "path": "production/pair-root/generated/center-taunt-closed-f04290-r1.png",
+      "sha256": "e78a9e7641fa9b8eceaca0ca0ca9213562e120c82f304ce3e2fd80e8741a6cf9",
+      "status": "approved_native_key_art",
+      "reason": "Actual same-canvas source comparison: closed sleepy eyelids, toothy grin, single card/two fingers, white shirt/speech/caption and source centered crop retained; coherent DS central leaf and rear locks. Approved same-angle expression-edit mother.",
+      "minor_residual": "",
+      "review_scope": "actual native artwork viewed; source identity/pose and adjacent artwork checked as stated in reason",
+      "temporal_adjacency_review": "actual encoded shot pending"
+    },
+    {
+      "asset_id": "side_blank_eyes",
+      "source_frame": 4578,
+      "path": "production/pair-root/generated/side-blank-eyes-f04578-r1.png",
+      "sha256": "3268b76acdcbd02757ca080a2f990b13feedac44051792f0e2e6423b360fad00",
+      "status": "approved_native_key_art",
+      "reason": "Actual same-canvas source comparison: side reaction pose, large blank tear-shaped white eyes with purple rim, long open mouth, white shirt and foreground table arc retained; connected DS main hair, cropped headwear. Approved same-angle expression-edit mother.",
+      "minor_residual": "",
+      "review_scope": "actual native artwork viewed; source identity/pose and adjacent artwork checked as stated in reason",
+      "temporal_adjacency_review": "actual encoded shot pending"
+    },
+    {
+      "asset_id": "explain_palms_A",
+      "source_frame": 1134,
+      "path": "production/pair-a/generated/explain-palms-A-f01134-r2.png",
+      "sha256": "90c1c5972be6a0ad68c73474faa7213a5f47f70e9a16d724298cc39647524e1d",
+      "status": "approved_native_key_art",
+      "reason": "Source and directed revision actually viewed: two added large outer ring-hooks removed, existing neck main curls retained; current source hands/card/face/shirt/table and both speech panels/caption stable.",
+      "minor_residual": "",
+      "review_scope": "actual native artwork viewed; source identity/pose and adjacent artwork checked as stated in reason",
+      "temporal_adjacency_review": "actual encoded shot pending"
+    },
+    {
+      "asset_id": "maid_sign_A",
+      "source_frame": 2298,
+      "path": "production/pair-b/generated/maid-sign-A-f02298-r2.png",
+      "sha256": "e538088724b1bf9f32387d07e749e1d0cff82704713c584af83e18364597d7bf",
+      "status": "approved_native_key_art",
+      "reason": "Source and directed revision actually viewed: old green hair fragments around waist/table edge replaced, thin source cat-tail shape kept blue, central leaf clarified; original maid costume/paws/legs and raised sign/lettering retained.",
+      "minor_residual": "",
+      "review_scope": "actual native artwork viewed; source identity/pose and adjacent artwork checked as stated in reason",
+      "temporal_adjacency_review": "actual encoded shot pending"
+    },
+    {
+      "asset_id": "maid_sign_B",
+      "source_frame": 2334,
+      "path": "production/pair-b/generated/maid-sign-B-f02334-r2.png",
+      "sha256": "cdfe89f96785d1d6cdb59af524fd88d2b6b543f2fb1c712bc778c411225096b3",
+      "status": "approved_native_key_art",
+      "reason": "Source and directed revision actually viewed: two leftover blue/pink cat triangles and old furry bases removed; DS side fins and white headband remain; original maid pose/costume/paw/sign/blue same-shape tail retained.",
+      "minor_residual": "",
+      "review_scope": "actual native artwork viewed; source identity/pose and adjacent artwork checked as stated in reason",
+      "temporal_adjacency_review": "actual encoded shot pending"
+    },
+    {
+      "asset_id": "maid_upside_down",
+      "source_frame": 2370,
+      "path": "production/pair-b/generated/maid-upside-down-f02370-r2.png",
+      "sha256": "81530bdc4fe9411f6ef5690e0a0735e2f35dd63a73f3fdef9bf3b9372704b07d",
+      "status": "approved_native_key_art",
+      "reason": "Source and directed revision actually viewed: blue irises/highlights removed, simple purple horizontal eye blocks with small white symbols and irregular small source-like mouth restored; flat skin, full upside-down pose, original costume/paws/sign and blue tail shape retained.",
+      "minor_residual": "Tiny white-symbol brush shape is not claimed pixel-identical; core source cartoon expression restored without another correction.",
+      "review_scope": "actual native artwork viewed; source identity/pose and adjacent artwork checked as stated in reason",
+      "temporal_adjacency_review": "actual encoded shot pending"
+    },
+    {
+      "asset_id": "cover_eyes",
+      "source_frame": 1110,
+      "path": "production/pair-a/generated/cover-eyes-f01110-r1.png",
+      "sha256": "0755792503ea586cd80a26d2c87f70ba9d78fc22cce7f3989806cdedb952fb9e",
+      "status": "approved_native_key_art",
+      "reason": "Actual source comparison: both sleeves/arms cover eyes, only toothy grin visible, white shirt/table/card and English speech graphic retained; DS hair around occlusion coherent without invented face.",
+      "minor_residual": "",
+      "review_scope": "actual native artwork viewed; source identity/pose and adjacent artwork checked as stated in reason",
+      "temporal_adjacency_review": "actual encoded shot pending"
+    },
+    {
+      "asset_id": "creep_palms",
+      "source_frame": 1122,
+      "path": "production/pair-a/generated/creep-palms-f01122-r1.png",
+      "sha256": "bbe367b15b1e6e9f9a3248c2bc34d1083d3c2702eb605d301563c956af35d39f",
+      "status": "approved_native_key_art",
+      "reason": "Actual source comparison: simple graphic smiley face plus smiley palm marks and original finger gestures, sleeves/shirt/table retained; blue DS fringe/hair/headwear replace original green/cat details.",
+      "minor_residual": "",
+      "review_scope": "actual native artwork viewed; source identity/pose and adjacent artwork checked as stated in reason",
+      "temporal_adjacency_review": "actual encoded shot pending"
+    },
+    {
+      "asset_id": "shush",
+      "source_frame": 1158,
+      "path": "production/pair-a/generated/shush-f01158-r1.png",
+      "sha256": "ee80ab56c934363ec8ef48a6f79c3aee2df7633b68a895f490e130a3db7bc14c",
+      "status": "approved_native_key_art",
+      "reason": "Actual source comparison: shush vertical index finger/hand, toothy grin and sleepy eyes, white shirt/chair, Shhh caption and dark stage retained; central main leaf/neck main curls coherent.",
+      "minor_residual": "",
+      "review_scope": "actual native artwork viewed; source identity/pose and adjacent artwork checked as stated in reason",
+      "temporal_adjacency_review": "actual encoded shot pending"
+    },
+    {
+      "asset_id": "game_set",
+      "source_frame": 1290,
+      "path": "production/pair-a/generated/game-set-f01290-r1.png",
+      "sha256": "fba1073a6a9930e7bc49e1bb730c352ea5924ee5a8511bcb4717afcb5adf3209",
+      "status": "approved_native_key_art",
+      "reason": "Actual source comparison: small tilted GAME SET seated posture, hands/object beside mouth, eyes/shirt/table/cards and speech graphic retained; blue connected hair and cropped headwear with no old green fragment observed.",
+      "minor_residual": "",
+      "review_scope": "actual native artwork viewed; source identity/pose and adjacent artwork checked as stated in reason",
+      "temporal_adjacency_review": "actual encoded shot pending"
+    },
+    {
+      "asset_id": "center_shout",
+      "source_frame": 4428,
+      "path": "production/pair-root/generated/center-shout-f04428-r1.png",
+      "sha256": "51c1c67797dd1d3ac425f045a1e43c5eab319a35281d6b8080e3c7cab4dfa40e",
+      "status": "approved_native_key_art",
+      "reason": "Source closed-chevron eyes, open fang mouth, card, crop, speed lines, black square and text retained; connected blue main hair/fin/headband adopted.",
+      "minor_residual": "",
+      "review_scope": "actual native artwork viewed; source identity/pose and adjacent artwork checked as stated in reason",
+      "temporal_adjacency_review": "actual encoded shot pending"
+    },
+    {
+      "asset_id": "rear_card_table",
+      "source_frame": 4470,
+      "path": "production/pair-root/generated/rear-card-table-f04470-r1.png",
+      "sha256": "48647899bc3cd4a1092fb4918cac29e3f93f7f0bd1f46d79ecbcd8a58c8a8518",
+      "status": "approved_native_key_art",
+      "reason": "Back-view source white shirt/nape, opposing dark hand, card fan/table and crop retained. Loose connected DS rear-hair design accepted for this independent back-view key.",
+      "minor_residual": "",
+      "review_scope": "actual native artwork viewed; source identity/pose and adjacent artwork checked as stated in reason",
+      "temporal_adjacency_review": "actual encoded shot pending"
+    },
+    {
+      "asset_id": "fanart_insert",
+      "source_frame": 2076,
+      "path": "production/pair-root/generated/fanart-insert-f02076-r1.png",
+      "sha256": "42459513da02cfb79050d274be54c1feea7753500001ce87d9e3db0cd545e29b",
+      "status": "approved_native_key_art",
+      "reason": "All three framed examples DS hair/accessory redesigned in respective coarse colored, pencil and thick-outline styles. Original expressions, body/costume, frames and title retained; no unmodified green-haired mini portrait.",
+      "minor_residual": "",
+      "review_scope": "actual native artwork viewed; source identity/pose and adjacent artwork checked as stated in reason",
+      "temporal_adjacency_review": "actual encoded shot pending"
+    },
+    {
+      "asset_id": "final_card_chaos",
+      "source_frame": 4818,
+      "path": "production/pair-root/generated/final-card-chaos-f04818-r1.png",
+      "sha256": "44bacd2e0fef957cb12b540839eed7c0644ad0dd5f51fd4aee739bbfe731d23d",
+      "status": "approved_native_key_art",
+      "reason": "Source X eyes/tears/open mouth, both forward hands, white shirt, flying cards/opponent scenery and black square retained. Connected left-flowing DS hair accepted for final extreme pose.",
+      "minor_residual": "",
+      "review_scope": "actual native artwork viewed; source identity/pose and adjacent artwork checked as stated in reason",
+      "temporal_adjacency_review": "actual encoded shot pending"
+    },
+    {
+      "asset_id": "center_taunt_open",
+      "source_frame": 4344,
+      "path": "production/pair-root/generated/center-taunt-open-f04344-r1.png",
+      "sha256": "7a286ab8a1002d4dbde67a810b8602508610bd1a81164aea52638cf672aa8152",
+      "status": "approved_native_key_art",
+      "reason": "Expression-only native variant of approved4290; central leaf, cheek locks, headwear and hands/card retain same mother topology; source dark eyes/tongue mouth/text event retained.",
+      "minor_residual": "",
+      "review_scope": "actual native artwork viewed; source identity/pose and adjacent artwork checked as stated in reason",
+      "temporal_adjacency_review": "actual encoded shot pending"
+    },
+    {
+      "asset_id": "side_unamused",
+      "source_frame": 4752,
+      "path": "production/pair-root/generated/side-unamused-f04752-r1.png",
+      "sha256": "1768f89c08b922ae7b072912d1731dd9721a1aafdffa62b10c6b999c0ba5b4db",
+      "status": "approved_native_key_art",
+      "reason": "Source unamused white-eye expression, small sweat and tongue mouth retained on approved4578 same-angle mother. Hair/accessory/body/table frozen in common mother composition.",
+      "minor_residual": "Asset uses frozen mother composition rather than source connecting zoom; keep as held expression event or apply only whole-frame uniform zoom in timeline.",
+      "review_scope": "actual native artwork viewed; source identity/pose and adjacent artwork checked as stated in reason",
+      "temporal_adjacency_review": "actual encoded shot pending"
+    },
+    {
+      "asset_id": "side_shock",
+      "source_frame": 4770,
+      "path": "production/pair-root/generated/side-shock-f04770-r1.png",
+      "sha256": "2e1d511f6b8ed39a55ff5ce682005aeec6cf2db0000b770914141e12cc86392d",
+      "status": "approved_native_key_art",
+      "reason": "Source round white eyes, upper-face red shade, sweat and irregular shocked mouth retained on approved4578 same-angle mother. Hair/accessory/body/table remain continuous.",
+      "minor_residual": "Asset uses frozen mother composition rather than source connecting zoom; keep as held expression event or apply only whole-frame uniform zoom in timeline.",
+      "review_scope": "actual native artwork viewed; source identity/pose and adjacent artwork checked as stated in reason",
+      "temporal_adjacency_review": "actual encoded shot pending"
+    },
+    {
+      "asset_id": "side_shock_extreme",
+      "source_frame": 4794,
+      "path": "production/pair-root/generated/side-shock-extreme-f04794-r1.png",
+      "sha256": "42839f3ec2e45d1c9530e069ea11f11f3f89b08a91bbb97459ebcf1ffa7ac740",
+      "status": "approved_native_key_art",
+      "reason": "Source large shocked white eyes with tears, hatching/red face shade, open mouth and trembling symbol retained as native expression variant on approved4578 mother; no new hair topology.",
+      "minor_residual": "Asset uses frozen mother composition rather than source connecting zoom; keep as held expression event or apply only whole-frame uniform zoom in timeline.",
+      "review_scope": "actual native artwork viewed; source identity/pose and adjacent artwork checked as stated in reason",
+      "temporal_adjacency_review": "actual encoded shot pending"
+    },
+    {
+      "asset_id": "chorus_left_textless",
+      "source_frame": 1728,
+      "path": "production/pair-a/generated/chorus-left-textless-r1.png",
+      "sha256": "73c47667af7eee4257f30363ac17754ad16181d87bb7a83b6499723972ef9590",
+      "status": "approved_native_key_art",
+      "reason": "Compared approved1728 mother: bottom English caption/gray bar removed, table/rear hair beneath naturally completed; original face/head/hair/card/hands/top Japanese glyphs/black square remain visually fixed.",
+      "minor_residual": "",
+      "review_scope": "actual native artwork viewed; source identity/pose and adjacent artwork checked as stated in reason",
+      "temporal_adjacency_review": "actual encoded shot pending"
+    },
+    {
+      "asset_id": "chorus_right_textless",
+      "source_frame": 1776,
+      "path": "production/pair-a/generated/chorus-right-textless-r1.png",
+      "sha256": "d7f845800c59b78f91dc5cc4a3fac7b39ff64dc3236d623e6944a1ee0e6aef9b",
+      "status": "approved_native_key_art",
+      "reason": "Compared approved1776 mother: bottom English caption/gray bar removed and table/rear-hair occlusion completed; face/head/hair/card/hands/top Japanese glyphs/black square visually retained.",
+      "minor_residual": "",
+      "review_scope": "actual native artwork viewed; source identity/pose and adjacent artwork checked as stated in reason",
+      "temporal_adjacency_review": "actual encoded shot pending"
+    },
+    {
+      "asset_id": "taunt_neutral_textless_blankmouth",
+      "source_frame": 1380,
+      "path": "production/pair-a/generated/taunt-neutral-textless-blankmouth-r1.png",
+      "sha256": "9d7f49d0fdaa39232c2aa6f06d92ceb7ae396101c363a7fcb7a75650286791f4",
+      "status": "approved_native_key_art",
+      "reason": "Compared approved1380 mother: entire speech bubble/tail and bottom subtitle removed, mouth painted neutral blank for independent source-time mouth layer; eyes, hair, accessory, palms/card/shirt/black square retained. Newly revealed chair/table are inferred background.",
+      "minor_residual": "",
+      "review_scope": "actual native artwork viewed; source identity/pose and adjacent artwork checked as stated in reason",
+      "temporal_adjacency_review": "actual encoded shot pending"
+    },
+    {
+      "asset_id": "taunt_flank_textless_blankmouth",
+      "source_frame": 1416,
+      "path": "production/pair-a/generated/taunt-flank-textless-blankmouth-r1.png",
+      "sha256": "c817785f7239c7b24bbf3665552d47279637e0fa6bf20ef936bcc05f33420a7f",
+      "status": "approved_native_key_art",
+      "reason": "Compared approved1416 mother: entire speech bubble/tail and bottom subtitle removed, blank mouth for independent event layer; fixed eyes/hair/headwear/palms/card/shirt/black square preserved. Revealed chair/table inferred.",
+      "minor_residual": "",
+      "review_scope": "actual native artwork viewed; source identity/pose and adjacent artwork checked as stated in reason",
+      "temporal_adjacency_review": "actual encoded shot pending"
+    },
+    {
+      "asset_id": "tease_forehead_B",
+      "source_frame": 1032,
+      "path": "production/pair-a/generated/tease-forehead-B-f01032-r2.png",
+      "sha256": "55a67e15df85173384b8c4822788c42f983db5a5bae68097d4444e0bfde24475",
+      "status": "approved_native_key_art",
+      "reason": "Chair-gap old gray/green hair fragment removed and filled as chair/background. Source half-open white-pupil eye, wink, hands/card, speech bubble/table/shirt retained; DS connected hair adopted.",
+      "minor_residual": "",
+      "review_scope": "actual native artwork viewed; source identity/pose and adjacent artwork checked as stated in reason",
+      "temporal_adjacency_review": "actual encoded shot pending"
+    },
+    {
+      "asset_id": "explain_palms_B",
+      "source_frame": 1146,
+      "path": "production/pair-a/generated/explain-palms-B-f01146-r1.png",
+      "sha256": "c5f9e6ae32192fb78c65b74a394b61948c6848e24fc6634f23ab773dac714e7b",
+      "status": "approved_native_key_art",
+      "reason": "Native new left-arm gesture follows source1146 while approved1134 mother head/fringe/headwear/right card hand retained. Actual source costume, expression, table and two text cards preserved.",
+      "minor_residual": "",
+      "review_scope": "actual native artwork viewed; source identity/pose and adjacent artwork checked as stated in reason",
+      "temporal_adjacency_review": "actual encoded shot pending"
+    },
+    {
+      "asset_id": "raise_card",
+      "source_frame": 1308,
+      "path": "production/pair-a/generated/raise-card-f01308-r1.png",
+      "sha256": "f27456d4c3b35f26ce86e19428327a27216ca5f6e8a6baee12a18b9b5cd8d5e8",
+      "status": "approved_native_key_art",
+      "reason": "Source raised yellow/red quadrant card and grip, closed-chevron eyes, mouth red/white small prop and other hand/sleeve, speed glyph/text/table preserved. Loose blue hair without new ring topology.",
+      "minor_residual": "",
+      "review_scope": "actual native artwork viewed; source identity/pose and adjacent artwork checked as stated in reason",
+      "temporal_adjacency_review": "actual encoded shot pending"
+    },
+    {
+      "asset_id": "victory_arms",
+      "source_frame": 1338,
+      "path": "production/pair-a/generated/victory-arms-f01338-r1.png",
+      "sha256": "4080066695dba94f3a635b60e87ec35ce0a1c508a6f0cd8a84de7ce435234ef6",
+      "status": "approved_native_key_art",
+      "reason": "Source raised card hand and opposite fist, wide sleeves, face/mouth, table/NiceTry/scattered card graphics preserved. Stable central main hair leaf and connected rear locks.",
+      "minor_residual": "",
+      "review_scope": "actual native artwork viewed; source identity/pose and adjacent artwork checked as stated in reason",
+      "temporal_adjacency_review": "actual encoded shot pending"
+    },
+    {
+      "asset_id": "comic_panel",
+      "source_frame": 234,
+      "path": "production/pair-a/generated/comic-panel-f00234-r2.png",
+      "sha256": "20c9c70cf4d6893914131721e30da54749274f7848e64950bb31775f2aa038d2",
+      "status": "approved_native_key_art",
+      "reason": "Both diagonal comic panels preserved: draw-card hands/green ZERO cards and UNO bubble/mouth unchanged. All visible original green hair behind right panel now blue, including lower-left former leak.",
+      "minor_residual": "",
+      "review_scope": "actual native artwork viewed; source identity/pose and adjacent artwork checked as stated in reason",
+      "temporal_adjacency_review": "actual encoded shot pending"
+    },
+    {
+      "asset_id": "mouth_horizontal",
+      "source_frame": 960,
+      "path": "production/pair-a/generated/mouth-horizontal-f00960-r1.png",
+      "sha256": "2d6e407b240dbe8314dc7929409ca7b57f1ced05e8fdf7ea4b1a4b73c59a427f",
+      "status": "approved_native_key_art",
+      "reason": "Same horizontal mouth strip, pink cheeks, irregular mouth, dark bars/subtitle/black square retained; visible edge hair blue, no invented full head/accessory.",
+      "minor_residual": "",
+      "review_scope": "actual native artwork viewed; source identity/pose and adjacent artwork checked as stated in reason",
+      "temporal_adjacency_review": "actual encoded shot pending"
+    },
+    {
+      "asset_id": "mouth_vertical",
+      "source_frame": 3156,
+      "path": "production/pair-a/generated/mouth-vertical-f03156-r1.png",
+      "sha256": "06f7a6083abebeaeb0738cf4d27594ab9b012b4b96d2013f9c84effbb8db5bf6",
+      "status": "approved_native_key_art",
+      "reason": "Source rotated vertical mouth strip/crop, cheeks, mouth and purple sidebars/subtitle/black square retained; lower visible hair wedge blue, no extra face/head.",
+      "minor_residual": "",
+      "review_scope": "actual native artwork viewed; source identity/pose and adjacent artwork checked as stated in reason",
+      "temporal_adjacency_review": "actual encoded shot pending"
+    },
+    {
+      "asset_id": "opponent_fan",
+      "source_frame": 2256,
+      "path": "production/pair-b/generated/opponent-fan-f02256-r1.png",
+      "sha256": "34c732dbc888414eeae3389701bfbdc9785ab6fd7b302df607d6637fa0bf76ab",
+      "status": "approved_native_key_art",
+      "reason": "Actual sprite composited on light gray and dark backgrounds and compared source2256: green8 plus two green+2, two yellow+2, two blue+2, two red+2, four wild+4 fan order and two dark hands retained. Source white outer card/hand border intentional; no subtitle, black square or purple background survives. Central inter-hand hole correctly transparent.",
+      "minor_residual": "",
+      "review_scope": "actual native artwork viewed; source identity/pose and adjacent artwork checked as stated in reason",
+      "temporal_adjacency_review": "actual encoded shot pending"
+    },
+    {
+      "asset_id": "glow_eye",
+      "source_frame": 1326,
+      "path": "production/pair-a/generated/glow-eye-f01326-r2.png",
+      "sha256": "49c5f79662f3082bc44cf4a6cc66f769240a9e2a49938485dff9371be5c72f54",
+      "status": "approved_native_key_art",
+      "reason": "Compared actual source1326: red glowing eye with white U, closed other eye, pursed mouth, both spread hands/UNO/card edge, giant white glyphs, dark vignette and black square retained. Old upper-edge pink/red cat-ear frame removed; DS clipped headband/fin and connected main hair adopted.",
+      "minor_residual": "",
+      "review_scope": "actual native artwork viewed; source identity/pose and adjacent artwork checked as stated in reason",
+      "temporal_adjacency_review": "actual encoded shot pending"
+    },
+    {
+      "asset_id": "center_dark_card_textless",
+      "source_frame": 3924,
+      "path": "production/pair-a/generated/center-dark-card-textless-r1.png",
+      "sha256": "649104e25f9aa98fee402e2b4b99b7eed571533c0d5e200a8c196eb020eb7431",
+      "status": "approved_native_key_art",
+      "reason": "Actually compared approved3924 dark-card mother: bottom subtitle/gray bar fully removed with plausible shirt/fingers/rear-hair completion. Same central leaf/headband/fins/curls, shaded half-open U eyes and small O mouth, card/black-square/lighting/crop retained.",
+      "minor_residual": "",
+      "review_scope": "actual native artwork viewed; source identity/pose and adjacent artwork checked as stated in reason",
+      "temporal_adjacency_review": "actual encoded shot pending"
+    },
+    {
+      "asset_id": "final_card_chaos_textless",
+      "source_frame": 4818,
+      "path": "production/pair-a/generated/final-card-chaos-textless-r1.png",
+      "sha256": "abe311dc68eff55cc68e8fdfefb8574e018228271271d25edc5bfdf70b64f522",
+      "status": "approved_native_key_art",
+      "reason": "Compared actual adopted4818 mother at native size: bottom Chinese subtitle/gray bar removed, previously occluded lower green/yellow/red cards and white clothing/pink scene completed. Original X eyes/tears/open mouth, two large hands, hair/headwear, upper flying cards/opponent scene/black square remain fixed.",
+      "minor_residual": "",
+      "review_scope": "actual native artwork viewed; source identity/pose and adjacent artwork checked as stated in reason",
+      "temporal_adjacency_review": "actual encoded shot pending"
+    },
+    {
+      "asset_id": "yellow_gong",
+      "source_frame": 3108,
+      "path": "production/pair-b/generated/yellow-gong-f03108-r1.png",
+      "sha256": "528f71d158f7561976c434e8dd8edb31c0da734a0a978433eb2e85cebeabe88c",
+      "status": "approved_native_key_art",
+      "reason": "Actual RGBA composited on light gray and dark and compared source3108: yellow/gold circular gong with source black emblem, dark rim, brown frame/two hanging cords preserved; no clock hands/numerals, background, green hair or text. Metadata whole-prop uniform registration aligns source upper frame.",
+      "minor_residual": "Raw isolated prop approved. Existing conservative y190 rectangular occlusion visibly cuts gong bottom above DS outline, leaving pink seam; actual composed sleeping scene needs current-DS occlusion-boundary correction or equivalent before integration approval.",
+      "review_scope": "actual native artwork viewed; source identity/pose and adjacent artwork checked as stated in reason",
+      "temporal_adjacency_review": "actual encoded shot pending"
+    },
+    {
+      "asset_id": "mouth_flank_grin",
+      "source_frame": 1416,
+      "path": "production/pair-a/assets/mouth-flank-grin.png",
+      "sha256": "5ee5b723f6061013f03b8124e861606861aad27f71a8857e1be6fd27b0ccce22",
+      "status": "approved_native_key_art",
+      "reason": "Source right-facing white grin with left angular tooth-line and two inner strokes, asymmetrical contour retained. Actual native atlas viewed against1416/1435/1446 source crop board; true alpha/rectangular extraction; final face placement and timed event switch require integration view.",
+      "minor_residual": "",
+      "review_scope": "actual native artwork viewed; source identity/pose and adjacent artwork checked as stated in reason",
+      "temporal_adjacency_review": "actual encoded shot pending"
+    },
+    {
+      "asset_id": "mouth_flank_closed",
+      "source_frame": 1435,
+      "path": "production/pair-a/assets/mouth-flank-closed.png",
+      "sha256": "abdb3cfb26c2146f06f5108f9d945c090a1db5733aa11ef7399bc7ffddbd6e90",
+      "status": "approved_native_key_art",
+      "reason": "Source right-facing thin asymmetric double-arc closed mouth retained; isolated stroke only. Actual native atlas viewed against1416/1435/1446 source crop board; true alpha/rectangular extraction; final face placement and timed event switch require integration view.",
+      "minor_residual": "",
+      "review_scope": "actual native artwork viewed; source identity/pose and adjacent artwork checked as stated in reason",
+      "temporal_adjacency_review": "actual encoded shot pending"
+    },
+    {
+      "asset_id": "mouth_flank_open",
+      "source_frame": 1446,
+      "path": "production/pair-a/assets/mouth-flank-open.png",
+      "sha256": "24e0840bbdfad4962ecaeabadb945f04b6592379607c9e7674655d066ff58726",
+      "status": "approved_native_key_art",
+      "reason": "Source right-facing pink open mouth with upper left notch, dark right mouth corner and right lower-lip protrusion retained. Actual native atlas viewed against1416/1435/1446 source crop board; true alpha/rectangular extraction; final face placement and timed event switch require integration view.",
+      "minor_residual": "",
+      "review_scope": "actual native artwork viewed; source identity/pose and adjacent artwork checked as stated in reason",
+      "temporal_adjacency_review": "actual encoded shot pending"
+    },
+    {
+      "asset_id": "score_deepseek_v2",
+      "source_frame": 408,
+      "path": "production/revision-v2/pair-root/generated/score-deepseek-raw.png",
+      "sha256": "06b0577a6e3add86eef490ee699556cb0e0fc3b813fd10797c712e47cfb65e09",
+      "native_overlay_clean": true,
+      "effect_behavior_id": "score",
+      "status": "approved_native_revision_key",
+      "review": "audit/revision-v2/native-approved-assets.json",
+      "independent_review": {
+        "asset_id": "score_deepseek",
+        "source_frame": 408,
+        "path": "production/revision-v2/pair-root/generated/score-deepseek-raw.png",
+        "sha256": "06b0577a6e3add86eef490ee699556cb0e0fc3b813fd10797c712e47cfb65e09",
+        "status": "approved_native_revision_key",
+        "reason": "Actual full character-free graphic viewed: DeepSeek/1枚 identity clear, empty table/score setting retained.",
+        "native_overlay_clean": true,
+        "pose_local_transforms": false
+      }
+    },
+    {
+      "asset_id": "fanart_ds_title_v2",
+      "source_frame": 2076,
+      "path": "production/revision-v2/pair-root/generated/fanart-ds-title.png",
+      "sha256": "9c30306ec4381005bcf90219509ca5b84bca7d45f488d06afd2a539495989f94",
+      "native_overlay_clean": true,
+      "effect_behavior_id": "fanart_insert",
+      "status": "approved_native_revision_key",
+      "review": "audit/revision-v2/native-approved-assets.json",
+      "independent_review": {
+        "asset_id": "fanart_insert",
+        "source_frame": 2076,
+        "path": "production/revision-v2/pair-root/generated/fanart-ds-title.png",
+        "sha256": "9c30306ec4381005bcf90219509ca5b84bca7d45f488d06afd2a539495989f94",
+        "status": "approved_native_revision_key",
+        "reason": "Actual title now DS娘. All pixels below nativey155 exactly equal adopted old2076 portrait image, so all three character drawings untouched.",
+        "native_overlay_clean": false,
+        "pose_local_transforms": false
+      }
+    },
+    {
+      "asset_id": "tease_forehead_B_hairlock_v2",
+      "source_frame": 1032,
+      "path": "production/revision-v2/pair-root/generated/tease-B-hairlock.png",
+      "sha256": "aaf73829b2c3332d88a76f6a99c6023862a06930027bcd9ce3a1d1d00b90ce71",
+      "native_overlay_clean": false,
+      "effect_behavior_id": "tease_forehead_B",
+      "status": "approved_native_revision_key",
+      "review": "audit/revision-v2/native-approved-assets.json",
+      "independent_review": {
+        "asset_id": "tease_forehead_B",
+        "source_frame": 1032,
+        "path": "production/revision-v2/pair-root/generated/tease-B-hairlock.png",
+        "sha256": "aaf73829b2c3332d88a76f6a99c6023862a06930027bcd9ce3a1d1d00b90ce71",
+        "status": "approved_native_revision_key",
+        "reason": "Actual oldA/newB comparison: rear-left narrow C restored, no outward hook flip; B hand/card/eye/mouth retained. Minor crown residual not escalated.",
+        "native_overlay_clean": false,
+        "pose_local_transforms": false
+      }
+    },
+    {
+      "asset_id": "plead_B_clean_v2",
+      "source_frame": 2670,
+      "path": "production/revision-v2/pair-root/generated/plead-B-clean.png",
+      "sha256": "f6f62453d3817dec2275416e5bb1185d4941c0bd7000c5e7b9fd0e754294289c",
+      "native_overlay_clean": false,
+      "effect_behavior_id": "plead_B",
+      "status": "approved_native_revision_key",
+      "review": "audit/revision-v2/native-approved-assets.json",
+      "independent_review": {
+        "asset_id": "plead_B",
+        "source_frame": 2670,
+        "path": "production/revision-v2/pair-root/generated/plead-B-clean.png",
+        "sha256": "f6f62453d3817dec2275416e5bb1185d4941c0bd7000c5e7b9fd0e754294289c",
+        "status": "approved_native_revision_key",
+        "reason": "Actual tipfix versus clean viewed. Only two sigh glyphs removed; face/eye/mouth, pointed main fringe, revealed side curl, shirt and outward card-hand crop retained. Bottom caption still baked, so native_overlay_clean is false.",
+        "native_overlay_clean": false,
+        "pose_local_transforms": false,
+        "sigh_graphics_clean": true
+      }
+    },
+    {
+      "asset_id": "center_dark_closed_v2",
+      "source_frame": 4014,
+      "path": "production/revision-v2/pair-root/generated/center-dark-closed.png",
+      "sha256": "a67536a2e39b80bdaceae71e5c626c1c715ea8f8a8ca76d8a182516dab0b6b8c",
+      "native_overlay_clean": true,
+      "effect_behavior_id": "center_dark_card_textless",
+      "status": "approved_native_revision_key",
+      "review": "audit/revision-v2/native-approved-assets.json",
+      "independent_review": {
+        "asset_id": "center_dark_closed",
+        "source_frame": 4014,
+        "path": "production/revision-v2/pair-root/generated/center-dark-closed.png",
+        "sha256": "a67536a2e39b80bdaceae71e5c626c1c715ea8f8a8ca76d8a182516dab0b6b8c",
+        "status": "approved_native_revision_key",
+        "reason": "Actual clean3924 mother versus new native view: closed eyes and small curved smile follow source4014 state; head/fringe/headwear/curls/hands/card remain fixed. No bottom caption.",
+        "native_overlay_clean": true,
+        "pose_local_transforms": false,
+        "effect_behavior_id": "center_dark_card"
+      }
+    },
+    {
+      "asset_id": "fold_arm_left_sleepy_v2",
+      "source_frame": 2970,
+      "path": "production/revision-v2/pair-root/generated/fold-left-sleepy-loop-fix.png",
+      "sha256": "231a0885ff1cc0e17daf6ae1f9689262c8b4c53cd51cca0f1c4a7ae5303d438c",
+      "native_overlay_clean": false,
+      "effect_behavior_id": "fold_arm_left",
+      "status": "approved_native_revision_key",
+      "review": "audit/revision-v2/native-approved-assets.json",
+      "independent_review": {
+        "asset_id": "fold_arm_left_sleepy",
+        "source_frame": 2970,
+        "path": "production/revision-v2/pair-root/generated/fold-left-sleepy-loop-fix.png",
+        "sha256": "231a0885ff1cc0e17daf6ae1f9689262c8b4c53cd51cca0f1c4a7ae5303d438c",
+        "status": "approved_native_revision_key",
+        "reason": "Actually compared source2970, first sleepy native and one loop correction. Added large outer tear-drop rear-hair loop removed into continuous downward blue locks, original neckC retained. Half-eye/small pout, hands/bell/shirt/source2970 wider window preserved.",
+        "native_overlay_clean": false,
+        "pose_local_transforms": false
+      }
+    },
+    {
+      "asset_id": "revision_intro_A_source36_B3_hair",
+      "source_frame": 36,
+      "path": "production/revision-v2/pair-root/generated/intro-A-thumb-fix.png",
+      "sha256": "fcd2df9eff42d6ff017e806f046d467fc528d879a58bbaa5d69bd8554dcfcaac",
+      "native_overlay_clean": false,
+      "effect_behavior_id": "intro_palm_open",
+      "status": "approved_native_revision_key",
+      "review": "audit/revision-v2/native-approved-assets.json",
+      "independent_review": {
+        "asset_id": "revision_intro_A_source36_B3_hair",
+        "source_frame": 36,
+        "path": "production/revision-v2/pair-root/generated/intro-A-thumb-fix.png",
+        "sha256": "fcd2df9eff42d6ff017e806f046d467fc528d879a58bbaa5d69bd8554dcfcaac",
+        "status": "approved_native_revision_key",
+        "reason": "Actually viewed final thumb correction: source-style right-projecting fifth thumb restored; source-aligned right-card group, face/large mouth, four fingers, r2 headwear/hair retained. Independent A-specific DeepSeek lettering required.",
+        "native_overlay_clean": false,
+        "pose_local_transforms": false,
+        "effect_behavior_id": "intro_palm_open",
+        "requires_identity_lettering": "intro_A_deepseek_lettering",
+        "minor_residual": "Bows remain17..21nativepx higher and20..29nativepx inward versusB3; small headwear position residual retained after bounded correction, no strand/root count change. Do not claim zero jitter."
+      }
+    },
+    {
+      "asset_id": "revision_panic_motion_2454",
+      "source_frame": 2454,
+      "path": "production/revision-v2/segment-102-106/generated/panic-motion-f02454-r1.png",
+      "sha256": "b5bd3ce48b4425cbe28f1694b86d7b0d01059f5e5cff6c7e5d39719467023633",
+      "status": "approved_native_revision_key",
+      "effect_behavior_id": "dark_panic",
+      "baked_caption_bbox": null,
+      "pose_transforms": false,
+      "review_sidecar": "production/revision-v2/segment-102-106/independent-review.json",
+      "independent_review": {
+        "asset_id": "revision_panic_motion_2454",
+        "source_frame": 2454,
+        "path": "production/revision-v2/segment-102-106/generated/panic-motion-f02454-r1.png",
+        "sha256": "b5bd3ce48b4425cbe28f1694b86d7b0d01059f5e5cff6c7e5d39719467023633",
+        "status": "approved_native_revision_key",
+        "reason": "Actual current source versus new native pose and prior mother viewed. Preserved face/eyes/hands/cards/shirt/scene. Stable single main fringe and side-root/curl family; distinct tilt/close/pupil/extreme follows source.",
+        "native_overlay_clean": false,
+        "pose_local_transforms": false,
+        "effect_behavior_id": "dark_panic",
+        "review_sidecar": "production/revision-v2/segment-102-106/independent-review.json"
+      },
+      "review": "audit/revision-v2/native-approved-assets.json"
+    },
+    {
+      "asset_id": "revision_panic_motion_2490",
+      "source_frame": 2490,
+      "path": "production/revision-v2/segment-102-106/generated/panic-motion-f02490-r1.png",
+      "sha256": "8c831babc221b56d429c874f2e58c65e9fc1c101d199c4af8a085b4cc40295d4",
+      "status": "approved_native_revision_key",
+      "effect_behavior_id": "dark_panic",
+      "baked_caption_bbox": [
+        193,
+        406,
+        651,
+        460
+      ],
+      "pose_transforms": false,
+      "review_sidecar": "production/revision-v2/segment-102-106/independent-review.json",
+      "independent_review": {
+        "asset_id": "revision_panic_motion_2490",
+        "source_frame": 2490,
+        "path": "production/revision-v2/segment-102-106/generated/panic-motion-f02490-r1.png",
+        "sha256": "8c831babc221b56d429c874f2e58c65e9fc1c101d199c4af8a085b4cc40295d4",
+        "status": "approved_native_revision_key",
+        "reason": "Actual current source versus new native pose and prior mother viewed. Preserved face/eyes/hands/cards/shirt/scene. Stable single main fringe and side-root/curl family; distinct tilt/close/pupil/extreme follows source.",
+        "native_overlay_clean": false,
+        "pose_local_transforms": false,
+        "effect_behavior_id": "dark_panic",
+        "review_sidecar": "production/revision-v2/segment-102-106/independent-review.json"
+      },
+      "review": "audit/revision-v2/native-approved-assets.json"
+    },
+    {
+      "asset_id": "revision_panic_motion_2508",
+      "source_frame": 2508,
+      "path": "production/revision-v2/segment-102-106/generated/panic-motion-f02508-r1.png",
+      "sha256": "28d779543335cf673ab650643f091511648b4781a3bfed4824fc23046b40542c",
+      "status": "approved_native_revision_key",
+      "effect_behavior_id": "dark_panic",
+      "baked_caption_bbox": [
+        156,
+        406,
+        685,
+        461
+      ],
+      "pose_transforms": false,
+      "review_sidecar": "production/revision-v2/segment-102-106/independent-review.json",
+      "independent_review": {
+        "asset_id": "revision_panic_motion_2508",
+        "source_frame": 2508,
+        "path": "production/revision-v2/segment-102-106/generated/panic-motion-f02508-r1.png",
+        "sha256": "28d779543335cf673ab650643f091511648b4781a3bfed4824fc23046b40542c",
+        "status": "approved_native_revision_key",
+        "reason": "Actual current source versus new native pose and prior mother viewed. Preserved face/eyes/hands/cards/shirt/scene. Stable single main fringe and side-root/curl family; distinct tilt/close/pupil/extreme follows source.",
+        "native_overlay_clean": false,
+        "pose_local_transforms": false,
+        "effect_behavior_id": "dark_panic",
+        "review_sidecar": "production/revision-v2/segment-102-106/independent-review.json"
+      },
+      "review": "audit/revision-v2/native-approved-assets.json"
+    },
+    {
+      "asset_id": "revision_panic_motion_2544",
+      "source_frame": 2544,
+      "path": "production/revision-v2/segment-102-106/generated/panic-motion-f02544-r1.png",
+      "sha256": "f457e07a288e778d6f121e3a091294cc6a0cb1101b59a5c401aa9611bc5d027f",
+      "status": "approved_native_revision_key",
+      "effect_behavior_id": "dark_panic",
+      "baked_caption_bbox": [
+        263,
+        404,
+        586,
+        461
+      ],
+      "pose_transforms": false,
+      "review_sidecar": "production/revision-v2/segment-102-106/independent-review.json",
+      "independent_review": {
+        "asset_id": "revision_panic_motion_2544",
+        "source_frame": 2544,
+        "path": "production/revision-v2/segment-102-106/generated/panic-motion-f02544-r1.png",
+        "sha256": "f457e07a288e778d6f121e3a091294cc6a0cb1101b59a5c401aa9611bc5d027f",
+        "status": "approved_native_revision_key",
+        "reason": "Actual current source versus new native pose and prior mother viewed. Preserved face/eyes/hands/cards/shirt/scene. Stable single main fringe and side-root/curl family; distinct tilt/close/pupil/extreme follows source.",
+        "native_overlay_clean": false,
+        "pose_local_transforms": false,
+        "effect_behavior_id": "dark_panic",
+        "review_sidecar": "production/revision-v2/segment-102-106/independent-review.json"
+      },
+      "review": "audit/revision-v2/native-approved-assets.json"
+    },
+    {
+      "asset_id": "revision_panic_motion_2568",
+      "source_frame": 2568,
+      "path": "production/revision-v2/segment-102-106/generated/panic-motion-f02568-r2.png",
+      "sha256": "7fa699a89dde4a5741442f8a97186f6d083f982120801b2fd41c54ef112ab18b",
+      "status": "approved_native_revision_key",
+      "effect_behavior_id": "dark_panic",
+      "baked_caption_bbox": [
+        263,
+        404,
+        586,
+        461
+      ],
+      "pose_transforms": false,
+      "review_sidecar": "production/revision-v2/segment-102-106/independent-review.json",
+      "independent_review": {
+        "asset_id": "revision_panic_motion_2568",
+        "source_frame": 2568,
+        "path": "production/revision-v2/segment-102-106/generated/panic-motion-f02568-r2.png",
+        "sha256": "7fa699a89dde4a5741442f8a97186f6d083f982120801b2fd41c54ef112ab18b",
+        "status": "approved_native_revision_key",
+        "reason": "Actual current source versus new native pose and prior mother viewed. Preserved face/eyes/hands/cards/shirt/scene. Stable single main fringe and side-root/curl family; distinct tilt/close/pupil/extreme follows source.",
+        "native_overlay_clean": false,
+        "pose_local_transforms": false,
+        "effect_behavior_id": "dark_panic",
+        "review_sidecar": "production/revision-v2/segment-102-106/independent-review.json"
+      },
+      "review": "audit/revision-v2/native-approved-assets.json"
+    },
+    {
+      "asset_id": "revision_dark_motion_828",
+      "source_frame": 828,
+      "path": "production/revision-v2/segment-33-38/generated/dark-motion-f00828-r1.png",
+      "sha256": "f2dedb1ee376abcfa2ecdf7335152550d81d9e428bf28e1d299c5d9f0adc2185",
+      "status": "approved_native_revision_key",
+      "effect_behavior_id": "dark_fingers",
+      "baked_caption_bbox": [
+        316,
+        404,
+        534,
+        464
+      ],
+      "pose_transforms": false,
+      "review_sidecar": "production/revision-v2/segment-33-38/independent-review.json",
+      "independent_review": {
+        "asset_id": "revision_dark_motion_828",
+        "source_frame": 828,
+        "path": "production/revision-v2/segment-33-38/generated/dark-motion-f00828-r1.png",
+        "sha256": "f2dedb1ee376abcfa2ecdf7335152550d81d9e428bf28e1d299c5d9f0adc2185",
+        "status": "approved_native_revision_key",
+        "reason": "Actual current source versus new native pose and prior mother viewed. Preserved face/eyes/hands/cards/shirt/scene. Stable single main fringe and side-root/curl family; distinct tilt/close/pupil/extreme follows source.",
+        "native_overlay_clean": false,
+        "pose_local_transforms": false,
+        "effect_behavior_id": "dark_fingers",
+        "review_sidecar": "production/revision-v2/segment-33-38/independent-review.json"
+      },
+      "review": "audit/revision-v2/native-approved-assets.json"
+    },
+    {
+      "asset_id": "revision_dark_motion_858",
+      "source_frame": 858,
+      "path": "production/revision-v2/segment-33-38/generated/dark-motion-f00858-r1.png",
+      "sha256": "96c8bc00b98b5c0e9384e0d3b8fa3e8685bbf5ffce5206eed38cbc5804ff5689",
+      "status": "approved_native_revision_key",
+      "effect_behavior_id": "dark_fingers",
+      "baked_caption_bbox": [
+        317,
+        403,
+        538,
+        462
+      ],
+      "pose_transforms": false,
+      "review_sidecar": "production/revision-v2/segment-33-38/independent-review.json",
+      "independent_review": {
+        "asset_id": "revision_dark_motion_858",
+        "source_frame": 858,
+        "path": "production/revision-v2/segment-33-38/generated/dark-motion-f00858-r1.png",
+        "sha256": "96c8bc00b98b5c0e9384e0d3b8fa3e8685bbf5ffce5206eed38cbc5804ff5689",
+        "status": "approved_native_revision_key",
+        "reason": "Actual current source versus new native pose and prior mother viewed. Preserved face/eyes/hands/cards/shirt/scene. Stable single main fringe and side-root/curl family; distinct tilt/close/pupil/extreme follows source.",
+        "native_overlay_clean": false,
+        "pose_local_transforms": false,
+        "effect_behavior_id": "dark_fingers",
+        "review_sidecar": "production/revision-v2/segment-33-38/independent-review.json"
+      },
+      "review": "audit/revision-v2/native-approved-assets.json"
+    },
+    {
+      "asset_id": "revision_dark_motion_870",
+      "source_frame": 870,
+      "path": "production/revision-v2/segment-33-38/generated/dark-motion-f00870-r1.png",
+      "sha256": "752ae398e6cf8bcb9e76e366df57327a6908c1e34290fe14587b50109662b950",
+      "status": "approved_native_revision_key",
+      "effect_behavior_id": "dark_fingers",
+      "baked_caption_bbox": [
+        317,
+        403,
+        538,
+        462
+      ],
+      "pose_transforms": false,
+      "review_sidecar": "production/revision-v2/segment-33-38/independent-review.json",
+      "independent_review": {
+        "asset_id": "revision_dark_motion_870",
+        "source_frame": 870,
+        "path": "production/revision-v2/segment-33-38/generated/dark-motion-f00870-r1.png",
+        "sha256": "752ae398e6cf8bcb9e76e366df57327a6908c1e34290fe14587b50109662b950",
+        "status": "approved_native_revision_key",
+        "reason": "Actual current source versus new native pose and prior mother viewed. Preserved face/eyes/hands/cards/shirt/scene. Stable single main fringe and side-root/curl family; distinct tilt/close/pupil/extreme follows source.",
+        "native_overlay_clean": false,
+        "pose_local_transforms": false,
+        "effect_behavior_id": "dark_fingers",
+        "review_sidecar": "production/revision-v2/segment-33-38/independent-review.json"
+      },
+      "review": "audit/revision-v2/native-approved-assets.json"
+    },
+    {
+      "asset_id": "revision_dark_motion_912",
+      "source_frame": 912,
+      "path": "production/revision-v2/segment-33-38/generated/dark-motion-f00912-r1.png",
+      "sha256": "981cf6d7789f51a9d1413e77abd586a512b240cf7150530fde63073384e868bf",
+      "status": "approved_native_revision_key",
+      "effect_behavior_id": "dark_fingers",
+      "baked_caption_bbox": [
+        191,
+        406,
+        656,
+        460
+      ],
+      "pose_transforms": false,
+      "review_sidecar": "production/revision-v2/segment-33-38/independent-review.json",
+      "independent_review": {
+        "asset_id": "revision_dark_motion_912",
+        "source_frame": 912,
+        "path": "production/revision-v2/segment-33-38/generated/dark-motion-f00912-r1.png",
+        "sha256": "981cf6d7789f51a9d1413e77abd586a512b240cf7150530fde63073384e868bf",
+        "status": "approved_native_revision_key",
+        "reason": "Actual current source versus new native pose and prior mother viewed. Preserved face/eyes/hands/cards/shirt/scene. Stable single main fringe and side-root/curl family; distinct tilt/close/pupil/extreme follows source.",
+        "native_overlay_clean": false,
+        "pose_local_transforms": false,
+        "effect_behavior_id": "dark_fingers",
+        "review_sidecar": "production/revision-v2/segment-33-38/independent-review.json"
+      },
+      "review": "audit/revision-v2/native-approved-assets.json"
+    },
+    {
+      "asset_id": "taunt_swap_right_textless_blankmouth",
+      "source_frame": 1560,
+      "path": "production/revision-v2/pair-b/generated/taunt-swap-right-textless-blankmouth-f01560-r1.png",
+      "sha256": "5c9a01d6a63ba164d57f9e54e07df3eb4c5fbcd74a3313d9c78301594973b163",
+      "status": "approved_native_revision_key",
+      "native_size": [
+        1671,
+        941
+      ],
+      "blank_mouth": true,
+      "native_overlay_clean": true,
+      "baked_caption_bbox": null,
+      "source_side": "flank",
+      "ranges": [
+        [
+          1543,
+          1588
+        ],
+        [
+          3737,
+          3782
+        ]
+      ],
+      "notes": "Native exchanged-card-hand pose; existing same-side separate mouth and graphic events remain valid at fixed source position. No mirror/local hand paste.",
+      "review": "audit/revision-v2/native-approved-assets.json",
+      "independent_review": {
+        "asset_id": "taunt_swap_right_textless_blankmouth",
+        "source_frame": 1560,
+        "path": "production/revision-v2/pair-b/generated/taunt-swap-right-textless-blankmouth-f01560-r1.png",
+        "sha256": "5c9a01d6a63ba164d57f9e54e07df3eb4c5fbcd74a3313d9c78301594973b163",
+        "status": "approved_native_revision_key",
+        "reason": "Actual source/native revision contact viewed. Correct source hand/card side or maid posture/costume/paws/placard; DS main hair/fin/headband not duplicated.",
+        "native_overlay_clean": true,
+        "pose_local_transforms": false,
+        "blank_mouth": true
+      }
+    },
+    {
+      "asset_id": "taunt_swap_left_textless_blankmouth",
+      "source_frame": 1620,
+      "path": "production/revision-v2/pair-b/generated/taunt-swap-left-textless-blankmouth-f01620-r1.png",
+      "sha256": "e774ba255766097a98ff4f4879b94ec60f50d8b282f17604b02de7c29773e0c7",
+      "status": "approved_native_revision_key",
+      "native_size": [
+        1672,
+        941
+      ],
+      "blank_mouth": true,
+      "native_overlay_clean": true,
+      "baked_caption_bbox": null,
+      "source_side": "neutral",
+      "ranges": [
+        [
+          1588,
+          1634
+        ],
+        [
+          3782,
+          3828
+        ]
+      ],
+      "notes": "Native exchanged-card-hand pose; existing same-side separate mouth and graphic events remain valid at fixed source position. No mirror/local hand paste.",
+      "review": "audit/revision-v2/native-approved-assets.json",
+      "independent_review": {
+        "asset_id": "taunt_swap_left_textless_blankmouth",
+        "source_frame": 1620,
+        "path": "production/revision-v2/pair-b/generated/taunt-swap-left-textless-blankmouth-f01620-r1.png",
+        "sha256": "e774ba255766097a98ff4f4879b94ec60f50d8b282f17604b02de7c29773e0c7",
+        "status": "approved_native_revision_key",
+        "reason": "Actual source/native revision contact viewed. Correct source hand/card side or maid posture/costume/paws/placard; DS main hair/fin/headband not duplicated.",
+        "native_overlay_clean": true,
+        "pose_local_transforms": false,
+        "blank_mouth": true
+      }
+    },
+    {
+      "asset_id": "maid_side_clasp",
+      "source_frame": 2346,
+      "path": "production/revision-v2/pair-b/generated/maid-side-clasp-f02346-r1.png",
+      "sha256": "dc6cbd4aaa5a975d39c3704f62c009decdeccbece8290c32856334411a1b76f0",
+      "status": "approved_native_revision_key",
+      "native_size": [
+        1672,
+        941
+      ],
+      "blank_mouth": false,
+      "native_overlay_clean": true,
+      "baked_caption_bbox": null,
+      "ranges": [
+        [
+          2345,
+          2368
+        ]
+      ],
+      "pose_local_transforms": false,
+      "notes": "Exact original source native action key, independent static file review gates adoption by SHA. Source pose and original outfit authoritative; no mirror or local pose manufacture.",
+      "review": "audit/revision-v2/native-approved-assets.json",
+      "independent_review": {
+        "asset_id": "maid_side_clasp",
+        "source_frame": 2346,
+        "path": "production/revision-v2/pair-b/generated/maid-side-clasp-f02346-r1.png",
+        "sha256": "dc6cbd4aaa5a975d39c3704f62c009decdeccbece8290c32856334411a1b76f0",
+        "status": "approved_native_revision_key",
+        "reason": "Actual source/native revision contact viewed. Correct source hand/card side or maid posture/costume/paws/placard; DS main hair/fin/headband not duplicated.",
+        "native_overlay_clean": false,
+        "pose_local_transforms": false,
+        "blank_mouth": false
+      }
+    },
+    {
+      "asset_id": "maid_opposite_sign",
+      "source_frame": 2382,
+      "path": "production/revision-v2/pair-b/generated/maid-opposite-sign-f02382-r1.png",
+      "sha256": "ca5c67973232ff62ada536264a068375c71bdf6fcec82023a04bde0031a2512f",
+      "status": "approved_native_revision_key",
+      "native_size": [
+        1672,
+        941
+      ],
+      "blank_mouth": false,
+      "native_overlay_clean": true,
+      "baked_caption_bbox": null,
+      "ranges": [
+        [
+          2381,
+          2397
+        ]
+      ],
+      "pose_local_transforms": false,
+      "notes": "Exact original source native action key, independent static file review gates adoption by SHA. Source pose and original outfit authoritative; no mirror or local pose manufacture.",
+      "review": "audit/revision-v2/native-approved-assets.json",
+      "independent_review": {
+        "asset_id": "maid_opposite_sign",
+        "source_frame": 2382,
+        "path": "production/revision-v2/pair-b/generated/maid-opposite-sign-f02382-r1.png",
+        "sha256": "ca5c67973232ff62ada536264a068375c71bdf6fcec82023a04bde0031a2512f",
+        "status": "approved_native_revision_key",
+        "reason": "Actual source/native revision contact viewed. Correct source hand/card side or maid posture/costume/paws/placard; DS main hair/fin/headband not duplicated.",
+        "native_overlay_clean": false,
+        "pose_local_transforms": false,
+        "blank_mouth": false
+      }
+    },
+    {
+      "asset_id": "maid_paws_placard",
+      "source_frame": 2400,
+      "path": "production/revision-v2/pair-b/generated/maid-paws-placard-f02400-r2.png",
+      "sha256": "f57ff42be58ae3aa3ed7d067b2391256b2b451143189ea8a2a8e59f3c8b91d2a",
+      "status": "approved_native_revision_key",
+      "native_size": [
+        1672,
+        941
+      ],
+      "blank_mouth": false,
+      "native_overlay_clean": true,
+      "baked_caption_bbox": null,
+      "ranges": [
+        [
+          2397,
+          2405
+        ]
+      ],
+      "pose_local_transforms": false,
+      "notes": "Exact original source native action key, independent static file review gates adoption by SHA. Source pose and original outfit authoritative; no mirror or local pose manufacture.",
+      "review": "audit/revision-v2/native-approved-assets.json",
+      "independent_review": {
+        "asset_id": "maid_paws_placard",
+        "source_frame": 2400,
+        "path": "production/revision-v2/pair-b/generated/maid-paws-placard-f02400-r2.png",
+        "sha256": "f57ff42be58ae3aa3ed7d067b2391256b2b451143189ea8a2a8e59f3c8b91d2a",
+        "status": "approved_native_revision_key",
+        "reason": "Actual r1/source and r2 viewed: duplicated lower image-left fin removed, one headwear set remains. Original maid clothing/paws/face/placard/leg/table and original outer outline preserved.",
+        "native_overlay_clean": false,
+        "pose_local_transforms": false
+      }
+    },
+    {
+      "asset_id": "table_neutral_empty_front",
+      "source_frame": 1686,
+      "path": "production/revision-v2/pair-b/generated/table-neutral-empty-front-f01686-r1.png",
+      "sha256": "1646c512b7d9997d25e2c51cb56c5dcc08a54f965356a4a590dce42674dcc717",
+      "status": "approved_native_revision_key",
+      "native_size": [
+        1672,
+        941
+      ],
+      "blank_mouth": false,
+      "native_overlay_clean": true,
+      "baked_caption_bbox": null,
+      "ranges": [
+        [
+          1681,
+          1692
+        ],
+        [
+          4058,
+          4069
+        ]
+      ],
+      "pose_local_transforms": false,
+      "notes": "Exact original source native action key, independent static file review gates adoption by SHA. Source pose and original outfit authoritative; no mirror or local pose manufacture.",
+      "review": "audit/revision-v2/native-approved-assets.json",
+      "independent_review": {
+        "asset_id": "table_neutral_empty_front",
+        "source_frame": 1686,
+        "path": "production/revision-v2/pair-b/generated/table-neutral-empty-front-f01686-r1.png",
+        "sha256": "1646c512b7d9997d25e2c51cb56c5dcc08a54f965356a4a590dce42674dcc717",
+        "status": "approved_native_revision_key",
+        "reason": "Actually viewed exact source1686 and native: full frontal empty hands below table; no invented held card; source33-4/table/left red card/shirt/crop retained, DS single-leaf/fringe/curls consistent.",
+        "native_overlay_clean": true,
+        "pose_local_transforms": false
+      }
+    }
+  ],
+  "not_approved_current_candidates": [
+    {
+      "path": "production/pair-a/generated/pose-f003-hairlock-r1.png",
+      "reason": "face/card pose shifted; discarded f3 no longer in core key queue"
+    },
+    {
+      "path": "production/pair-a/generated/intro-wave-B-f00042-r1.png",
+      "reason": "superseded by r2 hair correction"
+    },
+    {
+      "path": "production/pair-a/generated/intro-wave-B-f00042-r2.png",
+      "reason": "static key art passed, superseded by already-completed r3 tiny-line cleanup"
+    },
+    {
+      "path": "production/pair-b/generated/center-card-f00276-r1.png",
+      "reason": "non-hair pass; central lobe/tips and additional outer curls require one directed hair correction"
+    },
+    {
+      "path": "production/pair-root/generated/intro-wave-A-f00036-r1.png",
+      "reason": "non-hair pass; root correcting central lobe and additional curls/loops against intro B"
+    }
+  ],
+  "scope_decisions": [
+    {
+      "asset_id": "intro_palm_up",
+      "source_frame": 36,
+      "status": "discarded_connecting_pose",
+      "use_asset_id": "intro_palm_open",
+      "reason": "Root accepted single wave extreme hold for introduction. A2 was static-valid but headwear heights differ from B; A3 fixed head but card pose and nameplate drifted. No A/B alternation."
+    },
+    {
+      "asset_id": "plead_B",
+      "source_frame": 2670,
+      "status": "discarded_connecting_pose",
+      "use_asset_id": "plead_A",
+      "reason": "Same pleading gesture tremble/crop variant; root accepted A hold plus source-timed sigh glyph and caption events."
+    }
+  ],
+  "current_review_summary": "Every approved entry records actual viewed source/candidate comparisons and the adopted file SHA. Includes clean plates and isolated RGBA card prop. Major topology errors received bounded targeted correction; no temporal playback claim.",
+  "revision_v2_adopted_ids": [
+    "center_dark_closed_v2",
+    "fanart_ds_title_v2",
+    "fold_arm_left_sleepy_v2",
+    "maid_opposite_sign",
+    "maid_paws_placard",
+    "maid_side_clasp",
+    "plead_B_clean_v2",
+    "revision_dark_motion_828",
+    "revision_dark_motion_858",
+    "revision_dark_motion_870",
+    "revision_dark_motion_912",
+    "revision_intro_A_source36_B3_hair",
+    "revision_panic_motion_2454",
+    "revision_panic_motion_2490",
+    "revision_panic_motion_2508",
+    "revision_panic_motion_2544",
+    "revision_panic_motion_2568",
+    "score_deepseek_v2",
+    "table_neutral_empty_front",
+    "taunt_swap_left_textless_blankmouth",
+    "taunt_swap_right_textless_blankmouth",
+    "tease_forehead_B_hairlock_v2"
+  ],
+  "revision_v2_review": "audit/revision-v2/native-approved-assets.json"
+}

@@ -1,0 +1,16 @@
+{
+  "source": "inputs/source-video.mp4",
+  "source_sha256": "8bef3b3127408558456ee3ee70c40240dd8943469313106bdab3d072b3f571a8",
+  "width": 852,
+  "height": 480,
+  "average_rate": "24/1",
+  "stream_time_base": "1/16000",
+  "stream_duration": 3496656,
+  "container_duration_us": 218541000,
+  "note": "Exact decoded hash and low-resolution metrics are analysis candidates, not semantic pose equivalence.",
+  "decoded_frames": 5245,
+  "first_pts": 0,
+  "last_pts": 3496000,
+  "last_frame_time": 218.5,
+  "nominal_duration": 218.54166666666666
+}
