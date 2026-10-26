@@ -67,6 +67,8 @@ python tools/render.py --label whitepaper-smoke --start 2824 --end 2984 --encode
 python tools/render.py --label full-rebuild --encode
 ```
 
+高清版本使用 `python tools/render_hd.py --label full-native-1440p --encode --checkpoints-explicit-only --checkpoint-frames 31,1632,2870,2940,3840,3845,5244`。人物底稿绕开480p中间颜色画布，直接合成1440p，详见[高清渲染说明](high-resolution.md)。
+
 输出在 `project/renders/<label>/`，包含MP4、逐帧采用记录、输入哈希、实际使用的图文事件快照和检查点。label对应目录已经存在时拒绝覆盖。
 
 可选的 `--checkpoints-only`只生成选定画面，用来诊断，不会输出成片。报告中不能把检查点数量冒充完整编码帧数。
@@ -79,7 +81,7 @@ python tools/render.py --label full-rebuild --encode
 
 固定资产与同一编码环境可以核对输出哈希；换FFmpeg、平台或编码参数后，文件哈希可能改变，仍应检查实际帧数、时间戳、音轨和画面。不是因为图像观感相同，就能声称字节完全相同。
 
-公开脚本相对生产脚本的改动范围和哈希见 `evidence/portable-source-adaptations.json`：目录绑定、依赖导入、FFmpeg发现和导航字体回退。最终公开目录的实际复现结果写入 `evidence/publication-validation.json`。
+公开脚本相对生产脚本的改动范围和哈希见 `evidence/portable-source-adaptations.json`：v1.0包括目录绑定、依赖导入、FFmpeg发现和导航字体回退；v1.1另加高清画布接口和编码参数。v1.0公开目录的实际复现结果写入 `evidence/publication-validation.json`，高清版结果另见 `evidence/hd-render-validation.json`。
 
 ## 阅读提示词记录
 

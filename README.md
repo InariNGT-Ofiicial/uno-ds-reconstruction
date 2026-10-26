@@ -6,6 +6,10 @@
 
 [下载成片与工作素材](https://github.com/InariNGT-Ofiicial/uno-ds-reconstruction/releases/tag/v1.0.0) · [抽帧方法](docs/frame-selection.md) · [一致性约束](docs/consistency.md) · [复现](docs/reproduction.md) · [失败与修订](docs/decisions-and-failures.md)
 
+**高清更新**：[1440p完整成片](https://github.com/InariNGT-Ofiicial/uno-ds-reconstruction/releases/tag/v1.1.0)从941像素高原画直接重新合成，移除了先降到480p的细节瓶颈。[高清渲染说明与对比](docs/high-resolution.md)。v1.0的720p成片和工作素材包继续保留。
+
+高清发布件：123,545,778字节，SHA256 `5608ae57d3d9d1c74c54bd3941f80dd6158b59caadf69fa7f029d972402244c7`。完整顺序解码5245帧，音画均为218.541667秒；所有帧的动作与图文采用记录与v1.0一致。
+
 ![33–38秒采用的四份关键稿](docs/figures/action-keys.jpg)
 
 四份稿不是每秒四张的网格：倾头相位会返回已用稿，字幕与嘴形另按源事件安排。
@@ -15,7 +19,8 @@
 | 项目 | 实际值与含义 |
 |---|---|
 | 原片时间坐标 | 24 fps，5245 帧，218.541667 秒，852 × 480 |
-| 成片 | 1280 × 720，24 fps 容器，保留原音轨内容 |
+| v1.0成片 | 1280 × 720，24 fps 容器，保留原音轨内容 |
+| v1.1高清成片 | 2560 × 1440，24 fps，CRF 14；原画直接采样，保持相同动作与事件时间线 |
 | 最终时间线 | 176 个连续区间，包含人物停格、图形、转场和安全原片区间；不是176个独立姿态 |
 | 实际使用的完整画面文件 | 83 份，含净版及表情变体；不是83次生图 |
 | 内置生图实际调用 | 130 次，含退稿、修稿、透明部件和文字修改 |
@@ -23,9 +28,9 @@
 | 最终合成输入 | 本地核对722个实际读取文件，编码后无输入变化 |
 | 验收范围 | 完整顺序解码5245帧＋实际选定画面检查；不宣称全片逐帧人工审美验收 |
 
-成片 SHA256：`f1cef48edf3277b3ec57ec0dd637d0db8bce1ab45000728de691dae7f1decfb0`。这些数字描述当前项目，不是通用模型评测或质量分数。
+v1.0成片 SHA256：`f1cef48edf3277b3ec57ec0dd637d0db8bce1ab45000728de691dae7f1decfb0`。这些数字描述当前项目，不是通用模型评测或质量分数。
 
-发布前已从独立公开目录重新导入源输入、建立缓存、编译时间线并完整编码5245帧，输出与原交付逐字节相同。验证条件和范围见[复现记录](evidence/publication-validation.json)。
+v1.0发布前已从独立公开目录重新导入源输入、建立缓存、编译时间线并完整编码5245帧，输出与原交付逐字节相同。验证条件和范围见[复现记录](evidence/publication-validation.json)。v1.1高清版的独立验证见[高清记录](evidence/hd-render-validation.json)。
 
 ## 抽帧：先找到动作，再决定画几张
 

@@ -11,13 +11,15 @@
   },
   "render.py": {
     "production_script_sha256": "74ccbdfdbf89325888f676bf36718059fc9a475a46f313761d33bc99c7686128",
-    "public_script_sha256": "e081ef48a67517f1f8ad3734f3864dc8a9587560dd94363fd750677defb8c138",
+    "public_script_sha256": "67225feb0748d8ccb4db5cf5b4ede075a5bd8bbae2ce6f8084ee7d374417b876",
     "adaptations": [
       "project/input directory bindings",
       "installed Python dependencies instead of local pylibs",
       "FFmpeg discovery through FFMPEG_BINARY or PATH",
-      "portable navigation font fallback where applicable"
-    ]
+      "portable navigation font fallback where applicable",
+      "v1.1: optional dual-canvas hooks, explicit checkpoint selection, configurable encoding; legacy output defaults retained"
+    ],
+    "v1_0_public_script_sha256": "e081ef48a67517f1f8ad3734f3864dc8a9587560dd94363fd750677defb8c138"
   },
   "catalog_source.py": {
     "production_script_sha256": "3565319e3fda2725e93dd619b644c7e43c61213b611aa05f9ba0169bf4a459ab",
@@ -29,5 +31,12 @@
       "portable navigation font fallback where applicable",
       "relative source metadata instead of a machine absolute path"
     ]
+  },
+  "render_hd.py": {
+    "public_script_sha256": "1a58ce0a6d6682a8313ac847aabc1f322a64c283adad371b21f75376822934bf",
+    "adaptations": [
+      "New v1.1 adapter: native-art 1440p color raster independent from source-coordinate analysis"
+    ],
+    "production_script_sha256": null
   }
 }

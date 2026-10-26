@@ -25,6 +25,10 @@ VIDEO=ROOT/'inputs/source-video.mp4'
 AUDIO=ROOT/'inputs/source-audio.m4a'
 FFMPEG=Path(os.environ.get('FFMPEG_BINARY') or shutil.which('ffmpeg') or 'ffmpeg')
 SIZE=(852,480)
+OUTPUT_SIZE=(1280,720)
+DEFAULT_CRF=18
+DEFAULT_PRESET='fast'
+RASTER_PIPELINE='legacy480_then720'
 HASHES={}
 
 def read(path):return json.loads(path.read_text(encoding='utf-8'))
@@ -46,6 +50,10 @@ def image(value):
 
 def premultiplied_resize(im,size):
     return im.convert('RGBa').resize(size,Image.Resampling.LANCZOS).convert('RGBA')
+
+def stage_image(im):return im.copy()
+def draw_stage(stage):return ImageDraw.Draw(stage)
+def blend_stage(a,b,amount):return Image.blend(a,b,amount)
 
 @lru_cache(maxsize=32)
 def normalize(value):
@@ -288,7 +296,7 @@ def endcard_overlay(stage,frame,tail):
     frames=[m['frame'] for m in measurements]
     bg=float(np.interp(frame,frames,[m['purple_background_fade_estimate'] for m in measurements]))
     jp=float(np.interp(frame,frames,[m['jp_visibility_estimate'] for m in measurements]))
-    stage=Image.blend(stage,Image.new('RGBA',SIZE,tuple(tail['purple_background_color'])+(255,)),min(1,max(0,bg)))
+    stage=blend_stage(stage,Image.new('RGBA',SIZE,tuple(tail['purple_background_color'])+(255,)),min(1,max(0,bg)))
     stage.alpha_composite(scale_layer_alpha(image(tail['jp_layer']['path']),jp))
     # Actual source4987 has no CN;4988 has complete CN, not the slow JP fade.
     if frame>=4988:
@@ -333,7 +341,11 @@ def main():
     parser.add_argument('--start',type=int,default=0)
     parser.add_argument('--end',type=int,default=5245)
     parser.add_argument('--checkpoint-frames',default='')
+    parser.add_argument('--checkpoints-explicit-only',action='store_true')
+    parser.add_argument('--crf',type=int,default=DEFAULT_CRF)
+    parser.add_argument('--preset',default=DEFAULT_PRESET)
     args=parser.parse_args()
+    if not 0<=args.crf<=51:raise ValueError('CRF outside x264 range')
     if '/' in args.label or '\\' in args.label or args.label in {'.','..'}:raise ValueError('Invalid output label')
     plan=read(PROJECT/'edit-plan.json')
     relevant_runs=[r for r in plan['runs'] if r['start_frame']<args.end and r['end_frame_exclusive']>args.start]
@@ -393,13 +405,15 @@ def main():
                         1500,1530,1818,2251,2252,2274,2275,2370,3026,3060,3120,
                         3558,3690,3846,3924,3960,4002,4104,4266,4290,4344,4428,
                         4470,4578,4638,4752,4770,4794,4818,4925,4926,4944,4974,4998,5016,5211,5212,5244])
+    if args.checkpoints_explicit_only:
+        checkpoints={int(v) for v in args.checkpoint_frames.split(',') if v.strip()}
     process=None;log=None
     target=out/'uno-ds-full-keyframes.mp4'
     if args.encode:
         log=(out/'logs/ffmpeg.txt').open('wb')
-        command=[str(FFMPEG),'-hide_banner','-y','-f','rawvideo','-pix_fmt','rgb24','-s','1280x720','-r','24','-i','pipe:0',
+        command=[str(FFMPEG),'-hide_banner','-y','-f','rawvideo','-pix_fmt','rgb24','-s',f'{OUTPUT_SIZE[0]}x{OUTPUT_SIZE[1]}','-r','24','-i','pipe:0',
                  '-ss',f'{args.start/24:.9f}','-i',str(AUDIO),'-map','0:v:0','-map','1:a:0','-t',f'{(args.end-args.start)/24:.9f}',
-                 '-c:v','libx264','-preset','fast','-crf','18','-pix_fmt','yuv420p','-r','24',
+                 '-c:v','libx264','-preset',args.preset,'-crf',str(args.crf),'-pix_fmt','yuv420p','-r','24',
                  '-c:a','aac','-b:a','192k','-movflags','+faststart','-colorspace','bt709','-color_primaries','bt709','-color_trc','bt709',str(target)]
         process=subprocess.Popen(command,stdin=subprocess.PIPE,stdout=subprocess.DEVNULL,stderr=log)
     ledger=[];last_signature=None;last_raster=None;started=time.time();written=0
@@ -428,16 +442,16 @@ def main():
                    tuple(r.get('event_id',str(r.get('path'))) for r in clock_events+extra_events+branding_events+thinking_events+revision_overlay_events))
         dynamic=mode in {'safe_source_stream','native_to_verified_endcard_dissolve'} or effect_id in {'fold_arm_right','fold_arm_left'} or row.get('blank_mouth') or 4932<=i<5016
         if signature!=last_signature or dynamic:
-            if mode=='solid_black':stage=Image.new('RGBA',SIZE,(0,0,0,255))
-            elif mode=='native_key':stage=normalize(row['path']).copy()
-            elif mode=='verified_plate_hold':stage=normalize(row['path']).copy()
+            if mode=='solid_black':stage=stage_image(Image.new('RGBA',SIZE,(0,0,0,255)))
+            elif mode=='native_key':stage=stage_image(normalize(row['path']))
+            elif mode=='verified_plate_hold':stage=stage_image(normalize(row['path']))
             elif mode=='safe_source_stream':
                 a,b=row['safe_range']
                 if not a<=i<b:raise ValueError('Unsafe source passthrough')
-                stage=source.copy()
-            elif mode=='verified_nonhair_source_hold':stage=source_keys[row['source_reference_frame']].copy()
+                stage=stage_image(source)
+            elif mode=='verified_nonhair_source_hold':stage=stage_image(source_keys[row['source_reference_frame']])
             elif mode=='native_to_verified_endcard_dissolve':
-                stage=normalize(row['native']['path']).copy()
+                stage=stage_image(normalize(row['native']['path']))
             else:raise ValueError(mode)
             if mode=='native_key':
                 if row.get('blank_mouth'):
@@ -471,13 +485,13 @@ def main():
                         ImageDraw.Draw(bar).rectangle((box[0],box[1],box[2]-1,box[3]-1),fill=(65,69,71,155))
                         stage.alpha_composite(bar)
                     else:
-                        ImageDraw.Draw(stage).rectangle((box[0],box[1],box[2]-1,box[3]-1),fill=(82,83,85,255))
+                        draw_stage(stage).rectangle((box[0],box[1],box[2]-1,box[3]-1),fill=(82,83,85,255))
                 if caption and caption.get('path'):stage.alpha_composite(image(caption['path']))
             if 4932<=i<5016:stage=endcard_overlay(stage,i,tail)
             for event in revision_overlay_events:stage.alpha_composite(normalize(event['path']))
             for event in branding_events:stage.alpha_composite(normalize(event['path']))
             if mode not in {'solid_black'}:
-                ImageDraw.Draw(stage).rectangle((99,90,142,134),fill=(0,0,0,255))
+                draw_stage(stage).rectangle((99,90,142,134),fill=(0,0,0,255))
             last_raster=output_raster(stage);last_signature=signature
         if i in checkpoints:
             last_raster.save(out/'checkpoints'/f'f{i:05d}.png')
@@ -512,7 +526,9 @@ def main():
     result={'render_label':args.label,'written_frames':written,'source_start':args.start,'source_end_exclusive':args.end,
             'duration_seconds':(args.end-args.start)/24,'render_seconds':round(time.time()-started,2),
             'video':str(target) if args.encode else None,'video_sha256':digest(target) if args.encode else None,
-            'renderer_sha256':digest(Path(__file__)),'checks_scope':'actual sequential decode/render; semantic review remains separate'}
+            'renderer_sha256':digest(Path(__file__)),'output_size':list(OUTPUT_SIZE),
+            'crf':args.crf,'preset':args.preset,'raster_pipeline':RASTER_PIPELINE,
+            'checks_scope':'actual sequential decode/render; semantic review remains separate'}
     (out/'render-result.json').write_text(json.dumps(result,ensure_ascii=False,indent=2),encoding='utf-8')
     print(json.dumps(result,ensure_ascii=False))
 

@@ -1,0 +1,78 @@
+{
+  "date": "2026-10-26",
+  "video": "uno-ds-full-keyframes-1440p.mp4",
+  "sha256": "5608ae57d3d9d1c74c54bd3941f80dd6158b59caadf69fa7f029d972402244c7",
+  "bytes": 123545778,
+  "decoded_frames": 5245,
+  "resolution": [
+    2560,
+    1440
+  ],
+  "fps": 24,
+  "duration_seconds": 218.54166666666666,
+  "audio_duration_seconds": 218.54166666666666,
+  "codec": "h264",
+  "encoder": {
+    "crf": 14,
+    "preset": "medium",
+    "pixel_format": "yuv420p"
+  },
+  "input_files_verified_after_render": 722,
+  "same_input_hashes_as_v1_0": true,
+  "same_all_5245_frame_event_records_as_v1_0": true,
+  "720p_regression": {
+    "checked_frames": [
+      31,
+      1632,
+      2870,
+      2940,
+      3840,
+      3845
+    ],
+    "png_bytes_identical_to_v1_0": true
+  },
+  "hd_canvas_checkpoints": 25,
+  "decoded_samples_compared_to_composite": [
+    {
+      "frame": 31,
+      "mean_absolute_channel_error": 1.5689493417739868,
+      "psnr_db": 40.646716270185706
+    },
+    {
+      "frame": 2940,
+      "mean_absolute_channel_error": 1.1473002433776855,
+      "psnr_db": 44.34134740362641
+    },
+    {
+      "frame": 3840,
+      "mean_absolute_channel_error": 1.4317389726638794,
+      "psnr_db": 41.694580373512906
+    }
+  ],
+  "pipeline": {
+    "name": "native_art_to_1440p_with_source_coordinate_analysis",
+    "analysis_size": [
+      852,
+      480
+    ],
+    "native_art_height": 941,
+    "character_raster": "native artwork -> 2556x1440, no 480p intermediate",
+    "outer_padding_pixels": [
+      2,
+      2
+    ],
+    "graphics": "existing source-coordinate graphics; retain original source detail limits",
+    "adapter_sha256": "1a58ce0a6d6682a8313ac847aabc1f322a64c283adad371b21f75376822934bf",
+    "forbidden_operations": [
+      "liquify",
+      "local actor warp",
+      "new pose interpolation"
+    ]
+  },
+  "renderer_sha256": "67225feb0748d8ccb4db5cf5b4ede075a5bd8bbae2ce6f8084ee7d374417b876",
+  "limits": [
+    "Original artwork is approximately941 pixels high and is uniformly enlarged once.",
+    "Existing source-derived graphic layers retain their source detail limits.",
+    "Full sequential decode is a structural check, not full-film subjective visual approval."
+  ]
+}
