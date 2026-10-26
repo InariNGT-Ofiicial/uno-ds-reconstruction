@@ -4,9 +4,9 @@
 
 **核心做法是保留动作切换的关键原画，省去连接姿态；重复姿态复用同一份通过稿。** 不是把视频均匀降到 4 fps，也不是让模型独立重画每一帧。
 
-[下载成片与工作素材](https://github.com/InariNGT-Ofiicial/uno-ds-reconstruction/releases/tag/v1.0.0) · [抽帧方法](docs/frame-selection.md) · [一致性约束](docs/consistency.md) · [复现](docs/reproduction.md) · [失败与修订](docs/decisions-and-failures.md)
+[下载工作素材](https://github.com/InariNGT-Ofiicial/uno-ds-reconstruction/releases/tag/v1.0.0) · [抽帧方法](docs/frame-selection.md) · [一致性约束](docs/consistency.md) · [复现](docs/reproduction.md) · [失败与修订](docs/decisions-and-failures.md)
 
-**高清更新**：[1440p完整成片](https://github.com/InariNGT-Ofiicial/uno-ds-reconstruction/releases/tag/v1.1.0)从941像素高原画直接重新合成，移除了先降到480p的细节瓶颈。[高清渲染说明与对比](docs/high-resolution.md)。v1.0的720p成片和工作素材包继续保留。
+**高清导出**：从941像素高原画直接重新合成1440p，移除了先降到480p的细节瓶颈。[高清渲染说明与对比](docs/high-resolution.md)。成片只在本机交付；GitHub仅保留代码、说明和工作素材，不托管视频。
 
 高清发布件：123,545,778字节，SHA256 `5608ae57d3d9d1c74c54bd3941f80dd6158b59caadf69fa7f029d972402244c7`。完整顺序解码5245帧，音画均为218.541667秒；所有帧的动作与图文采用记录与v1.0一致。
 
